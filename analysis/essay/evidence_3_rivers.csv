@@ -1,0 +1,23 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+cde315ef60e,Banglot valley,LOCATED_ON,Chandra,,,,,Lahaul,Chenab,princely_pastures,Rose Vol3,19,1914,ai_checked,supported,"The British LA'nul comprises three valleys, Banglot or the valley of the Chandra"
+c8ed69d874e,Gara or Punan valley,LOCATED_ON,Bhaga,,,,,Lahaul,Chenab,princely_pastures,Rose Vol3,19,1914,ai_checked,supported,"Gara or Punan, the valley of the BhAga"
+c3277149791,Pattan valley,LOCATED_ON,Chenab,,,,,Lahaul,Chenab,princely_pastures,Rose Vol3,19,1914,ai_checked,supported,"Pattan, or the valley of the united river, the ChenAb, below the confluence of the Chandra with the BhAga."
+c11903e0ce3,Kugti village,LOCATED_ON,Budhal,,,,,Kugti village,Ravi,cycle,Brahmaur,109,1961,ai_checked,supported,"village of Kugti in the upper reaches of the Budl Nadl, a tributary of the Upper Ravi"
+c6b14368b41,Brahmaur,LOCATED_ON,Budhal,,,,,,Ravi,cycle,Brahmaur,11,1961,ai_checked,supported,the Budhal stream which joins Ravi
+cb868ed2535,Chauntra,LOCATED_ON,Bagar Khad,,,,,Chauntra,Beas,cycle,Chauntra,11,1961,ai_checked,supported,"These are Ba,)gar Khad and Makkar Nal ne~by."
+c8008aed117,Chauntra,LOCATED_ON,Makkar Nal,,,,,Chauntra,Beas,cycle,Chauntra,11,1961,ai_checked,supported,"These are Ba,)gar Khad and Makkar Nal ne~by."
+c8255fdb959,Devi-Kothi,LOCATED_ON,Khabla Nala,,,,,Devi-Kothi,Ravi,cycle,Devi-Kothi,13,1961,ai_checked,supported,"at an elevation of 7,100 feet on the slope, of 'Khabla Na.la', a tributary of"
+c7c7e005294,Kanum,LOCATED_ON,Sutlej,,,,,Kanum,Sutlej,cycle,Kanum,15,1961,ai_checked,supported,The village has been built up on terraced land and the River Sutlej flows about 2 miles below.
+c44ff8c32c2,Kanum,LOCATED_ON,Sutlej,,,,,Kanum,Sutlej,cycle,Kanum,19,1961,ai_checked,supported,on the southern side it is separated from Nesang and Moorang villages by the Sutlej River.
+cf98766913f,Pangi,LOCATED_ON,Chenab,,,,,Pangi,Chenab,cycle,Kupha,111,1961,ai_checked,supported,"Its length through Pangi is about 80 miles, and it winds another 200 through lofty mountain ranges in Kashmir"
+c5ca581ecaf,Pangi,LOCATED_ON,Chenab,,,,,Pangi,Chenab,cycle,Kupha,128,1961,ai_checked,supported,"River Chandra Bhaga enters Pangi Sub Tehsil at Thirot, the last inhabited village in Chamba Lauhal and flows through the entire length of the Sub Tehsil."
+c2b1ded21c0,Nachar,LOCATED_ON,Sutlej,,,,,Nachar,Sutlej,cycle,Nachar,9,1961,ai_checked,supported,"River Sutlej~ Shatadru of Vedic times, flows about three miles down."
+c662e60f36b,Brahmaur,LOCATED_ON,Budhal,,,,,Brahmaur,Ravi,cycle,Newell,10,1961,ai_checked,supported,"Brahmaur which is situated on a tributary of
+the Ravi known as the B udl N adl."
+c04bed70bcc,Kugti village,LOCATED_ON,Budhal,,,,,Kugti village,Ravi,cycle,Newell,18,1961,ai_checked,supported,between Kugti village at the top of the Bu~:ll Nadl
+c1f9bc9f661,upper-reach villages,LOCATED_ON,Sutlej,,1000,feet above river level,,,Sutlej,cycle,Newell,30,1961,ai_checked,supported,"Thus the villages arc usually arranged ill a long lme along the riversides at a height of I,OOO' above the Sutlej"
+ca973053227,Gaddi (Brahmaur),LOCATED_ON,Ravi,,,,,Brahmaur,Ravi,cycle,Newell,9,1961,ai_checked,supported,"along both banks of the Upper Ravi river and its tributary, the Budl Nadl"
+cb6baaa9310,Gaddi (Brahmaur),LOCATED_ON,Budhal,,,,,Brahmaur,Ravi,cycle,Newell,9,1961,ai_checked,supported,"along both banks of the Upper Ravi river and its tributary, the Budl Nadl"
+c1ba368f046,Tandi,LOCATED_ON,Chenab,,,,,,Chenab,cycle,Tandi,11,1961,ai_checked,supported,The confluence of the Chandra and the Bhaga which from this point together give rise to the Chandrabhaga or the Chenab river
+c213c652664,Chitrari,LOCATED_ON,Ravi,,,,,,Ravi,cycle,Chitrari,16,1961,ai_partly,partly_supported,the river Ravi
+cc7d8234c2e,Kupha,LOCATED_ON,Chenab,,,,,Kupha,Chenab,cycle,Kupha,21,1961,ai_partly,partly_supported,The group of villages are situated in the valley of the Chanderbhaga or Chenab river

@@ -56,6 +56,10 @@ library and run with any Python 3. The others need `.venv/bin/python`.
 | 17 | `python3 scripts/altitude.py --pages 60` and `python3 scripts/households.py` (candidates; the figures used are in `data/`) | A18 |
 | 18 | `.venv/bin/python scripts/geography.py` | A18 |
 | 19 | `python3 scripts/text_reuse.py` | A19 |
+| 20 | `python3 scripts/screenshot.py` (network; outside the sandbox) | A20 |
+| 21 | `.venv/bin/python scripts/essay_evidence.py` | A20 |
+| 22 | `python3 scripts/essay_references.py`, `python3 scripts/check_essay.py`, then `pdflatex essay.tex` three times in `essay/` | A20 |
+| 23 | `.venv/bin/python scripts/build_sources_pdf.py` | A20 |
 
 `verify_claims.py` also reads `data/flocks.csv`, so after changing the
 livestock tables rerun from step 6. Steps 9 onwards only read files, so they
@@ -78,6 +82,7 @@ such step is listed here, and the entries below say which outputs it touched.
 | **OpenAI `gpt-6-luna`**, through `scripts/resolve_entities.py` | Proposed, for each of 597 names in claims that matched no entity, either an alias of an existing entity or a new entity. Claude reviewed the proposals and overrode 4 | A11 |
 | **OpenAI `gpt-6-luna`**, through `scripts/check_claims.py` | Judged every text-based claim against its page (supported, partly supported, not supported, unclear), as a second pass independent of the extraction | A12 |
 | Claude, **reading page images and choosing figures** | Read Newell's grazing statement (fee-paying sheep and goats, 1952-53 to 1961-62) from the page image; chose each village's altitude and household total from candidate sentences found by script, checking each against its page | A16, A18 |
+| Claude, **writing the essay** | Drafted `essay/essay.tex` with the group, from the claims that `essay_evidence.py` pulled from the graph; every quotation was then checked against its page by `check_essay.py` | A20 |
 | Claude, **looking at screenshots** | Took headless-browser screenshots of the graph viewer (`kg.html`) and looked at the rendered charts (`analysis/flocks/*.png`), to check legends, overlapping labels and layout before calling them done. This changed the layout code only, not any data | A7, A10, A14 to A18 |
 
 Nothing an AI produced counts as checked until a person has checked it. The
@@ -365,7 +370,7 @@ AI-read figures carry `read_by` in `data/flocks.csv` and are marked
   - unclear: 1.
 
   Hand-entered claims after correction: 22 supported, 12 partly, 3 not.
-- **How stable is the checker?** On the 1,666 claims checked by both versions, the verdict is the same for 77%. Most changes are between supported and partly supported. A verdict is a filter, not a proof.
+- **How stable is the checker?** The first run's verdicts are kept in `data/claim_checks_v1.csv`. On the 1,666 claims checked by both versions, the verdict is the same for 77%. Most changes are between supported and partly supported. A verdict is a filter, not a proof.
 - **Sample for the group.** `analysis/claim_check_sample.csv` holds 50 claims drawn at random within each verdict (seed 7): 22 supported, 15 partly, 12 not, 1 unclear. Rare verdicts are over-sampled so the checker's errors in each direction can be measured. Each row has empty `human_verdict`, `human_note` and `checked_by` columns. When they are filled, `check_claims.py --agreement` gives the agreement rate and the confusion table, which belong in the essay's account of method.
 - **Run.** 7 Oct 2026 (run by Claude). Total spent on checking: USD 0.61.
 
@@ -504,6 +509,25 @@ AI-read figures carry `read_by` in `data/flocks.csv` and are marked
   - **Copied claims.** Three claims rest on copied passages (Maingal p. 51, Rose Vol1 p. 40, Rose p. 545). They should be cited as one witness with their originals.
 - **Caveats.** Exact 7-word sequences miss paraphrase and heavily garbled OCR, so the counts are lower bounds.
 - **Run.** 7 Oct 2026 (run by Claude).
+
+## A20. The essay, its citation check and sources.pdf
+
+- **Question served.** All of them: this is the written answer.
+- **Scripts and commands.**
+  - [scripts/essay_evidence.py](scripts/essay_evidence.py) runs one graph query per section of the essay and writes the claims, best evidence first, to `analysis/essay/evidence_<section>.csv`. That gives 1,281 claim rows in 18 sections. The essay was written from these files, not from memory, and claims the AI checker found not supported were never used.
+  - [scripts/check_essay.py](scripts/check_essay.py) finds every `\enquote{...}` before a `\src{source}{page}` citation and checks it against that page's text, with the same matcher as A6 and exact matching for quotations under three words. It also confirms that every cited page holds a graph claim or an image-read table.
+  - [scripts/build_sources_pdf.py](scripts/build_sources_pdf.py) builds `essay/sources.pdf` from the citations in `essay.tex`: a title page, an index, and one page per cited source page. Each page carries a header with the full title, file, PDF page, the essay sections that cite it and the words quoted from it.
+  - [scripts/screenshot.py](scripts/screenshot.py) makes the static images of the route map and the flow panels used as figures.
+- **Result** (7 Oct 2026).
+  - **The essay.** `essay/essay.pdf`, 11 pages in two columns: about 6,030 words in the body (abstract to conclusion, by `detex`), 7 figures, 1 table and 115 citations of primary sources.
+  - **The citation check.** **88 of 88** quotations checked against the text were found on their page; the other 2 are figures read from page images. **64 of 64** cited pages hold a claim in the graph or an image-read table.
+  - **Sources file.** `essay/sources.pdf` holds 64 cited pages from 24 sources.
+- **Layout and references.** The paper is set in two columns. Its references are numbered in order of first citation, and each primary source has its own entry: the 1881 census, each volume of Rose, the 1931 report, Newell, and each village survey. Citations read `[5, p. 55]`. [scripts/essay_references.py](scripts/essay_references.py) writes the reference list (`essay/references.tex`), the map from source names to reference keys (`essay/srckeys.tex`) and `analysis/essay/reference_numbers.csv`. Each page of `sources.pdf` is labelled with the same reference number and PDF page. The result is 11 pages and 30 references: 25 primary, 5 secondary.
+- **Corrections made on the way.**
+  - A quotation "over 16,000" (Newell p. 18) could not be matched, because the OCR reads `](i,O~O'`. It is now cited as read from the page image.
+  - Kothi p. 16 (the 1948 merger) held no graph claim. It was added to `data/claims_manual.csv` from the evidence packet, and verified.
+- **Caveats.** The essay's interpretive sentences cite analysis entries, not pages. The figures read from images (Brahmaur p. 54, Kothi p. 102, Newell p. 38 and others) still await the group's check (`checked_by` in `data/flocks.csv` and `data/fee_flocks.csv`). The brief asks for 3,000 to 4,000 words; this essay is about 6,000 at the group's request.
+- **Run.** 7 Oct 2026 (drafted by Claude with the group).
 
 ---
 

@@ -1,0 +1,73 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+cc375be215c,sheep and goats,MIGRATES_TO,Suni,,,,,,Sutlej,cycle,Kanum,10,1961,ai_checked,supported,some of which were coming to Suni for their sojourn
+c6cda57e49f,sheep and goats,MIGRATES_TO,Tata Pani,,,,,,,cycle,Kanum,10,1961,ai_checked,supported,"some going to Tata Pani, K'arsog and beyond"
+c8618b92212,sheep and goats,MIGRATES_TO,Karsog,,,,,,,cycle,Kanum,10,1961,ai_checked,supported,"some going to Tata Pani, K'arsog and beyond"
+c3f56a907c7,sheep and goats,MOVES_VIA,Rampur,,,,,,Sutlej,cycle,Kanum,10,1961,ai_checked,supported,"Others were trecking down, after their usual brief stay at Rampur for 'Lavi'"
+c2b0493684a,sheep and goats,MIGRATES_TO,Arki,,,,,,,cycle,Kanum,10,1961,ai_checked,supported,to Arki and parts of Sirmur District
+cd21b640b7f,Lal Chand Negi,MIGRATES_TO,Tibet,,,,7|11,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_checked,supported,The migration begain in July and he was back in Kanum usually by November.
+c4d524d7bc2,households (Kanum),GRAZES_AT,pasture,sheep and goats,,,,Kanum,Sutlej,cycle,Kanum,133,1961,ai_checked,supported,The protected area is' a common pasture land of the villagers and it was usually used for grazing goats and sheep.
+c9964ad2abd,larger farmers (Kanum),GRAZES_AT,Hangrang valley,goats and sheep,,,,Kanum,Sutlej,cycle,Kanum,133,1961,ai_checked,supported,Some of the bigger farmers take tbeir goats and sheep to Hangrang Valley for grazing.
+c10ed95dddb,households (Kanum),MIGRATES_TO,low hills,,,,,Kanum,Sutlej,cycle,Kanum,16,1961,ai_checked,supported,During winter people migrate to lower hills
+c22798b7645,households (Kanum),MIGRATES_TO,Kanum,,,,5|6,Kanum,Sutlej,cycle,Kanum,16,1961,ai_checked,supported,"During May, June they return from the lower hills"
+ca5362f76fe,Koli (Kanum),MIGRATES_TO,Kanum,,,,,Kanum,Sutlej,cycle,Kanum,18,1961,ai_checked,supported,"Even in village Moorang he could not stay for long and eloped with a
+Negi. girl to Kanum."
+cbf706ca2de,Koli (Kanum),MIGRATES_TO,Kanum,,,,,Kanum,Sutlej,cycle,Kanum,18,1961,ai_checked,supported,"ancestor migrated to Kanum
+fr?m Thans-i ~ village in Tehsil Moorang (in
+KIOn~ur DIstrIct) about 2 or 3 generations ago"
+c3ff91db7e5,households (Kanum),MIGRATES_TO,low hills,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,Some able bodied men and women leave their homes in search of labour and usually they find ample scope of work in th'e lower hills
+c4665f9afd3,households (Kanum),MIGRATES_TO,Arki,,,,10|11|12|1|2|3|4,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,They spend the chilly months in these places till the end of April
+c63724779ca,households (Kanum),MIGRATES_TO,Bilaspur,,,,10|11|12|1|2|3|4,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,During winter from October they migrate to Lower Hills as far into Bilaspur
+c75d9093bc0,households (Kanum),MIGRATES_TO,high pastures,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,some one from almost each household is away with the flock of goats and sheep either in Lower Hills or in the alpine pastures
+c05fe4af06f,households (Kanum),GRAZES_AT,high pastures,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,some one from almost each household is away with the flock of goats and sheep either in Lower Hills or in the alpine pastures
+ca13a7a443f,households (Kanum),GRAZES_AT,Pruti,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,"while going to the alpine pastures in Pruti, Brati, Rao,"
+c8276484346,households (Kanum),GRAZES_AT,Brati,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,"while going to the alpine pastures in Pruti, Brati, Rao,"
+ce41eee3c6f,households (Kanum),GRAZES_AT,Rao,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,"while going to the alpine pastures in Pruti, Brati, Rao,"
+c644756778a,households (Kanum),GRAZES_AT,Runang,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,"Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise"
+cff727e5751,households (Kanum),GRAZES_AT,Hangrang valley,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,"Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise"
+c1757016a89,households (Kanum),GRAZES_AT,Dubbling,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,"Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise"
+c941306a1a7,households (Kanum),GRAZES_AT,Shayal-Khar,,,,,Kanum,Sutlej,cycle,Kanum,85,1961,ai_checked,supported,"Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise"
+c318b6267af,households (Kothi),GRAZES_AT,high pastures,,,,,Kothi,Sutlej,cycle,Kothi,91,1961,ai_checked,supported,"To rear these sheep, one or another member of the family has to take them out to either the alpine pastures"
+cd131ddf4bc,households,MIGRATES_TO,low hills,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog."
+c5db751ab9e,households,GRAZES_AT,low hills,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"t~king all their flocks out for grazing in winter because grass here is not available and if at all, at a very prohibitive cost."
+c638b91b6af,households,MIGRATES_TO,low hills,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"They spend the night under any odd stone projection or in a Serai or in a shop, apart from t~king all their flocks out for grazing in winter"
+c3a54cfd321,households,MIGRATES_TO,Suni,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog."
+c80538c1835,households,MIGRATES_TO,Tata Pani,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog."
+cdb1eeefc70,households,MIGRATES_TO,Karsog,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog."
+c7288cff4b8,households,MIGRATES_TO,Arki,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+c056af2c031,households,MIGRATES_TO,Bilaspur,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+cbe2f8308d2,households,MIGRATES_TO,Suket,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+c7bb1dc1353,households,MIGRATES_TO,Sirmur,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+cceb28cb383,households,MIGRATES_TO,Rajgarh,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_checked,supported,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+c9ef3f35f6e,Kinnaura,GRAZES_AT,high pastures,,,,,Lahaul,Chenab,cycle,Nachar,33,1961,ai_checked,supported,"In summer, they take them to the Alpine pastures of Lahaul and Spiti area of Punjab."
+c24d9cb9873,Kinnaura (Nachar),MIGRATES_TO,low hills,,,,,Nachar,Sutlej,cycle,Nachar,33,1961,ai_checked,supported,"During winter, some of the villagers migrate to the lower hills of Himachal Pradesh."
+c64d4680919,Kinnaura (Nachar),MIGRATES_TO,low hills,,,,,Nachar,Sutlej,cycle,Nachar,33,1961,ai_checked,supported,Often couples and children accompany the flocks leaving behind the elderly persons in the houses.
+cd50369f66c,Kinnaura (Nachar),MIGRATES_TO,Sirmur,,,,,Nachar,Sutlej,cycle,Nachar,33,1961,ai_checked,supported,"They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures."
+c546eb7b494,Kinnaura (Nachar),MIGRATES_TO,Bilaspur,,,,,Nachar,Sutlej,cycle,Nachar,33,1961,ai_checked,supported,"They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures."
+cb8235bfa23,Kinnaura (Nachar),MIGRATES_TO,Mahasu,,,,,Nachar,Sutlej,cycle,Nachar,33,1961,ai_checked,supported,"They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures."
+c4e60e85a2b,Kinnaura (Nachar),MIGRATES_TO,Mandi,,,,,Nachar,Sutlej,cycle,Nachar,33,1961,ai_checked,supported,"They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures."
+c3f1608ae56,Hindustan-Tibet mule road,MOVES_VIA,Nachar,,,,,Nachar,Sutlej,cycle,Nachar,9,1961,ai_checked,supported,The old Hindustan-Tibet mule road which passes through the village links it with the aforesaid motorable road at Wangtu 3 miles from the village towards Kalpa.
+c39885df685,sheep and goats,MIGRATES_TO,Sirmur,,,,,,,cycle,Kanum,10,1961,ai_partly,partly_supported,to Arki and parts of Sirmur District
+cf7d3a8fa05,muleteer (Kanum),MOVES_VIA,Road construction,,,,,Kanum,Sutlej,roads_and_wages,Kanum,133,1961,ai_partly,partly_supported,Prior to the opening of a Jeepable road large number of muleteer were seen trecking on the Hindustan Tibet road
+cd883456248,households (Kanum),MIGRATES_TO,low hills,,,,,Kanum,Sutlej,cycle,Kanum,136,1961,ai_partly,partly_supported,"During winter Virender m'igrates to lower hills, PaUa and Mehlog in Arki Tehsil with his goats and sheep."
+c889eaa06ff,households (Kanum),MIGRATES_TO,Mehlog,,,,,Kanum,Sutlej,cycle,Kanum,136,1961,ai_partly,partly_supported,"During winter Virender m'igrates to lower hills, PaUa and Mehlog in Arki Tehsil with his goats and sheep."
+c2f1ef27cd2,households (Kanum),MIGRATES_TO,Kanum,,,,5,Kanum,Sutlej,cycle,Kanum,136,1961,ai_partly,partly_supported,He is usually back in Kanum by May.
+c2054269992,households (Kanum),MIGRATES_TO,Paua,,,,,Kanum,Sutlej,cycle,Kanum,136,1961,ai_partly,partly_supported,"During winter Virender m'igrates to lower hills, PaUa and Mehlog in Arki Tehsil with his goats and sheep."
+c5efd96201f,households (Kanum),MIGRATES_TO,Shayalkhar,,,,,Kanum,Sutlej,cycle,Kanum,136,1961,ai_partly,partly_supported,Then he stays at home and Muhssal who is a lama goes to shayalkhar with goats and sheep.
+cc08c93e3da,Koli (Kanum),MIGRATES_TO,Moorang,,,,,Kanum,Sutlej,cycle,Kanum,18,1961,ai_partly,partly_supported,Again he Iuigrated to Moorang village (in Di$trict Kinnaur) with a girl belonging to Koli family.
+c6efa30d0b2,Kinnaura,GRAZES_AT,high pastures,,,,,,,cycle,Kanum,42,1961,ai_partly,partly_supported,When we were together this Negi pointed to the hill top where his sheep were grazing
+c9fcf75dd48,households (Kanum),MIGRATES_TO,low hills,,,,,Kanum,Sutlej,cycle,Kanum,51,1961,ai_partly,partly_supported,some of them carry these as presents to their friends in the lower hills when they go there in winter.
+cd31759774e,households (Kanum),MIGRATES_TO,low hills,,,,,Kanum,Sutlej,cycle,Kanum,67,1961,ai_partly,partly_supported,"During winter which is mostly the leisure time, people, except those who migrate to the lower parts of the Himachal Pradesh"
+cfa6d7eea0b,households (Kanum),MIGRATES_TO,low hills,,,,10,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,During winter from October they migrate to Lower Hills
+c98a4a628f5,households (Kanum),MIGRATES_TO,low hills,,,,4,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,They spend the chilly months in these places till the end of April.
+c704ca9151f,households (Kanum),MIGRATES_TO,Sirmur,,,,10,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+c520099f0d8,households (Kanum),MIGRATES_TO,Seoni,,,,10,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+c2562d8be97,households (Kanum),MIGRATES_TO,Arki,,,,10,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+c0f0fe5f5c0,households (Kanum),MIGRATES_TO,Bilaspur,,,,10,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+c1c15d1006b,households (Kanum),MIGRATES_TO,Mehlog,,,,10,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+c93be1a05b3,households (Kanum),MIGRATES_TO,Karsog,,,,10,Kanum,Sutlej,cycle,Kanum,85,1961,ai_partly,partly_supported,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+c012f2eb8b3,households (Kothi),GRAZES_AT,high pastures,,,,,Kothi,Sutlej,cycle,Kothi,100,1961,ai_partly,partly_supported,They are not giwn any concentrates and are mainly left to forage for themselves on the hills except in winter
+c92bc0f0fb7,Kinnaura (Kothi),MIGRATES_TO,low hills,,,,,Kothi,Sutlej,cycle,Kothi,52,1961,ai_partly,partly_supported,Some migrate to lower hills with their flocks in search of pastures.
+c277ce3fec4,households (Kothi),MIGRATES_TO,Kanda,,,,,Kothi,Sutlej,cycle,Kothi,53,1961,ai_partly,partly_supported,One or two members from the family where a death might have occurred before this festival go to the Kanda and offer some food and fruits to the shephards in memory of the departed soul.
+c7fb80dd38c,households,MIGRATES_TO,low hills,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_partly,partly_supported,"either the couples and the clllidren ""'go out, leaving elderly members of the family belllnd; or the head of the family and children go down, leaving the old ladies behind."
+c4a0ba4d171,households,MIGRATES_TO,low hills,,,,,Kinnaur,Sutlej,cycle,Kothi,92,1961,ai_partly,partly_supported,"There are other Batches of young men, women and children .who also go away to seek labour."
+cf5357b8968,households (Nachar),MIGRATES_TO,low hills,,,,,Nachar,Sutlej,cycle,Nachar,39,1961,ai_partly,partly_supported,"In winter, some members of the family might migrate with their flock of sheep and goats to lower hills in search of random employment"

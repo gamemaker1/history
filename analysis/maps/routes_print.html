@@ -1,0 +1,3281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cc1f044f6b3794852eb4fca59fcfa58d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:18px;left:12px;z-index:9999;background:#fcfcfb;padding:8px 10px;border:1px solid #dcdbd6;border-radius:6px;font:12px system-ui;color:#0b0b0b"><b>Routes in the 1961 surveys and colonial sources</b><br><span style="display:inline-block;width:26px;border-top:3px solid #2a78d6;vertical-align:middle;margin-right:6px"></span>winter grounds<br><span style="display:inline-block;width:26px;border-top:3px dashed #eb6834;vertical-align:middle;margin-right:6px"></span>summer pastures<br><span style="display:inline-block;width:26px;border-top:3px solid #1baf7a;vertical-align:middle;margin-right:6px"></span>fairs and markets<br><span style="display:inline-block;width:10px;height:10px;border:1.5px solid #0b0b0b;border-radius:50%;margin:0 8px 0 8px;vertical-align:middle"></span>survey village (size: flock)<br><span style="color:#52514e">Click a line for its claims, quotes and pages.</span></div>
+    
+            <div class="folium-map" id="map_cc1f044f6b3794852eb4fca59fcfa58d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cc1f044f6b3794852eb4fca59fcfa58d = L.map(
+                "map_cc1f044f6b3794852eb4fca59fcfa58d",
+                {
+                    center: [32.0, 77.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+
+            
+
+        
+    
+            var tile_layer_5b552e4948b21907435b5e1f50de8096 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5b552e4948b21907435b5e1f50de8096.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            var tile_layer_6295786e615b4bd53ca62ddea21e9c9e = L.tileLayer(
+                "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Map data: OpenStreetMap contributors, SRTM | Style: OpenTopoMap (CC-BY-SA)",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            var feature_group_85f0f34eeb749b7cda4f72ecfd6894a7 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_2ac123ff94fe22f5bade83b2a904dff5 = L.polyline(
+                [[32.07687, 76.29859], [32.19014, 76.35484]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_85f0f34eeb749b7cda4f72ecfd6894a7);
+        
+    
+        var popup_613e3bdd436e33dd571e8a95c2a12fca = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_219cee6c97aad5e7ed9706917a86a399 = $(`<div id="html_219cee6c97aad5e7ed9706917a86a399" style="width: 100.0%; height: 100.0%;"><b>Kangra → Market</b> (fairs and markets)<ul><li>Gujjar TRADES_AT Market: <i>The women repair to the markets every morning with baskets on their heads, with little earthen pots filled with milk, butter-</i> [Rose, p. 346, 1911]</li><li>Gujar woman TRADES_AT Market: <i>The women repair to the markets every morning with basket* on their beads</i> [1881, p. 267, 1881]</li></ul></div>`)[0];
+                popup_613e3bdd436e33dd571e8a95c2a12fca.setContent(html_219cee6c97aad5e7ed9706917a86a399);
+            
+        
+
+        poly_line_2ac123ff94fe22f5bade83b2a904dff5.bindPopup(popup_613e3bdd436e33dd571e8a95c2a12fca)
+        ;
+
+        
+    
+    
+            poly_line_2ac123ff94fe22f5bade83b2a904dff5.bindTooltip(
+                `<div>
+                     Kangra → Market: fairs and markets, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_08d436ae38df2539432d3a74413cd5b8 = L.polyline(
+                [[31.80927, 76.86576], [31.65166, 77.00925]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_85f0f34eeb749b7cda4f72ecfd6894a7);
+        
+    
+        var popup_fdae41f6282ddaa6edfa33f039d5e24a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3c4a6f61ab19227b689a8c9ab96ad796 = $(`<div id="html_3c4a6f61ab19227b689a8c9ab96ad796" style="width: 100.0%; height: 100.0%;"><b>Kot → Barchhwar-Nalwari Fair</b> (fairs and markets)<ul><li>households (Kot) TRADES_AT Barchhwar-Nalwari Fair: <i>These animals are purchased localliY or from Sarkaghat and Kangra or at the time of Barchhwar-Nalwari Fair.</i> [Kot, p. 56, 1961]</li></ul></div>`)[0];
+                popup_fdae41f6282ddaa6edfa33f039d5e24a.setContent(html_3c4a6f61ab19227b689a8c9ab96ad796);
+            
+        
+
+        poly_line_08d436ae38df2539432d3a74413cd5b8.bindPopup(popup_fdae41f6282ddaa6edfa33f039d5e24a)
+        ;
+
+        
+    
+    
+            poly_line_08d436ae38df2539432d3a74413cd5b8.bindTooltip(
+                `<div>
+                     Kot → Barchhwar-Nalwari Fair: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_092d718ee76cfe82f0b80a00a95b30f0 = L.polyline(
+                [[32.46984, 76.70454], [32.07687, 76.29859]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_85f0f34eeb749b7cda4f72ecfd6894a7);
+        
+    
+        var popup_5183d2cca288de7d95bae3f471c49c31 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_edcdb0dcb468b02942e8678982ca44b9 = $(`<div id="html_edcdb0dcb468b02942e8678982ca44b9" style="width: 100.0%; height: 100.0%;"><b>Kugti village → Kangra</b> (winter grounds)<ul><li>households (Kugti village) MIGRATES_TO Kangra: <i>During the winter the area is deeply under snow and most of the inhabitants emigrate further down the valley or to the Kangra Plains.</i> [Brahmaur, p. 109, 1961]</li></ul></div>`)[0];
+                popup_5183d2cca288de7d95bae3f471c49c31.setContent(html_edcdb0dcb468b02942e8678982ca44b9);
+            
+        
+
+        poly_line_092d718ee76cfe82f0b80a00a95b30f0.bindPopup(popup_5183d2cca288de7d95bae3f471c49c31)
+        ;
+
+        
+    
+    
+            poly_line_092d718ee76cfe82f0b80a00a95b30f0.bindTooltip(
+                `<div>
+                     Kugti village → Kangra: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_85f0f34eeb749b7cda4f72ecfd6894a7.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            var feature_group_60f4e5d920ce216f99ed32e35ad92e06 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_64c11e4764ae1ceca2b4c149c134867c = L.polyline(
+                [[32.80846, 76.18922], [33.00518, 76.50443]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_aac54cb283628695b5458dc1d043579b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7730cec243223b990e342d9d87022dcc = $(`<div id="html_7730cec243223b990e342d9d87022dcc" style="width: 100.0%; height: 100.0%;"><b>Chaurah → Pangi</b> (summer pastures)<ul><li>Churahi MIGRATES_TO Pangi: <i>like the Gaddis, they visit Pangi in summer</i> [Rose, p. 250, 1911]</li></ul></div>`)[0];
+                popup_aac54cb283628695b5458dc1d043579b.setContent(html_7730cec243223b990e342d9d87022dcc);
+            
+        
+
+        poly_line_64c11e4764ae1ceca2b4c149c134867c.bindPopup(popup_aac54cb283628695b5458dc1d043579b)
+        ;
+
+        
+    
+    
+            poly_line_64c11e4764ae1ceca2b4c149c134867c.bindTooltip(
+                `<div>
+                     Chaurah → Pangi: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_990b23c4b3711be23cbe71fb49b10a73 = L.polyline(
+                [[33.00518, 76.50443], [32.95833, 76.34399]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_6db537850200bbbb4950004a9f1acbd1 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e3371e9dbc90bcd6dae723f1f29a79a4 = $(`<div id="html_e3371e9dbc90bcd6dae723f1f29a79a4" style="width: 100.0%; height: 100.0%;"><b>Pangi → Cheni pass</b> (summer pastures)<ul><li>Pangi MOVES_VIA Cheni pass: <i>There are six routes from it. connecting Pangi with Chamba over passes of various altitudes from which they derive their names.  viz., the Sach, the Cheni, the Marwa or Chara, the </i> [Kupha, p. 111, 1961]</li></ul></div>`)[0];
+                popup_6db537850200bbbb4950004a9f1acbd1.setContent(html_e3371e9dbc90bcd6dae723f1f29a79a4);
+            
+        
+
+        poly_line_990b23c4b3711be23cbe71fb49b10a73.bindPopup(popup_6db537850200bbbb4950004a9f1acbd1)
+        ;
+
+        
+    
+    
+            poly_line_990b23c4b3711be23cbe71fb49b10a73.bindTooltip(
+                `<div>
+                     Pangi → Cheni pass: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d95223d85f56b252568c61b4fa44d012 = L.polyline(
+                [[33.00518, 76.50443], [32.5777, 76.65779]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_3a980023aa4f48fe10b11dc5820cbc45 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e5dd11251110cf987a6fb3ba62fee491 = $(`<div id="html_e5dd11251110cf987a6fb3ba62fee491" style="width: 100.0%; height: 100.0%;"><b>Pangi → Chobia pass</b> (summer pastures)<ul><li>Pangi MOVES_VIA Chobia pass: <i>There are six routes from it. connecting Pangi with Chamba over passes of various altitudes from which they derive their names.  viz., the Sach, the Cheni, the Marwa or Chara, the </i> [Kupha, p. 111, 1961]</li></ul></div>`)[0];
+                popup_3a980023aa4f48fe10b11dc5820cbc45.setContent(html_e5dd11251110cf987a6fb3ba62fee491);
+            
+        
+
+        poly_line_d95223d85f56b252568c61b4fa44d012.bindPopup(popup_3a980023aa4f48fe10b11dc5820cbc45)
+        ;
+
+        
+    
+    
+            poly_line_d95223d85f56b252568c61b4fa44d012.bindTooltip(
+                `<div>
+                     Pangi → Chobia pass: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2b1e6ff697664769ad4ef05fc868581f = L.polyline(
+                [[33.00518, 76.50443], [32.63148, 76.59742]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_2be974ceb8f0da2532a06c6901ad4008 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_66136e5c7d07345cb2ed48ebd25fc7cf = $(`<div id="html_66136e5c7d07345cb2ed48ebd25fc7cf" style="width: 100.0%; height: 100.0%;"><b>Pangi → Kalicho pass</b> (summer pastures)<ul><li>Pangi MOVES_VIA Kalicho pass: <i>There are six routes from it. connecting Pangi with Chamba over passes of various altitudes from which they derive their names.  viz., the Sach, the Cheni, the Marwa or Chara, the </i> [Kupha, p. 111, 1961]</li></ul></div>`)[0];
+                popup_2be974ceb8f0da2532a06c6901ad4008.setContent(html_66136e5c7d07345cb2ed48ebd25fc7cf);
+            
+        
+
+        poly_line_2b1e6ff697664769ad4ef05fc868581f.bindPopup(popup_2be974ceb8f0da2532a06c6901ad4008)
+        ;
+
+        
+    
+    
+            poly_line_2b1e6ff697664769ad4ef05fc868581f.bindTooltip(
+                `<div>
+                     Pangi → Kalicho pass: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_dd8b9757761c71420d68cdaecf4e2ca4 = L.polyline(
+                [[33.00518, 76.50443], [33.12319, 76.32174]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_ea970d95e1ab48b9482353ede4f0ab5b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7480f78d500b773fb238502642093416 = $(`<div id="html_7480f78d500b773fb238502642093416" style="width: 100.0%; height: 100.0%;"><b>Pangi → Kishtwar</b> (winter grounds)<ul><li>Pangi MOVES_VIA Kishtwar: <i>The &#x27;third approach to the valley is via Kishtwar, where River Chandra Bhaga cuts a chasm in the Pangi Range of mountains and flows into Jammu and Kashmir territory.</i> [Kupha, p. 128, 1961]</li></ul></div>`)[0];
+                popup_ea970d95e1ab48b9482353ede4f0ab5b.setContent(html_7480f78d500b773fb238502642093416);
+            
+        
+
+        poly_line_dd8b9757761c71420d68cdaecf4e2ca4.bindPopup(popup_ea970d95e1ab48b9482353ede4f0ab5b)
+        ;
+
+        
+    
+    
+            poly_line_dd8b9757761c71420d68cdaecf4e2ca4.bindTooltip(
+                `<div>
+                     Pangi → Kishtwar: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1d8237763de9b22b3c3aed8f01561d43 = L.polyline(
+                [[33.00518, 76.50443], [32.371, 77.24627]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_5448f9dbe8c465233e9af85152ab82da = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_77babe4e4e5e45d4872a92518ff2137e = $(`<div id="html_77babe4e4e5e45d4872a92518ff2137e" style="width: 100.0%; height: 100.0%;"><b>Pangi → Rohtang pass</b> (summer pastures)<ul><li>Pangi MOVES_VIA Rohtang pass: <i>The Sub Tehsil can be apprqached from Manali-Kulu side after crossing Rohtang Pass in Punjab Lauhal.</i> [Kupha, p. 128, 1961]</li></ul></div>`)[0];
+                popup_5448f9dbe8c465233e9af85152ab82da.setContent(html_77babe4e4e5e45d4872a92518ff2137e);
+            
+        
+
+        poly_line_1d8237763de9b22b3c3aed8f01561d43.bindPopup(popup_5448f9dbe8c465233e9af85152ab82da)
+        ;
+
+        
+    
+    
+            poly_line_1d8237763de9b22b3c3aed8f01561d43.bindTooltip(
+                `<div>
+                     Pangi → Rohtang pass: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3da00caac33604b6ab00c1e727cc5efe = L.polyline(
+                [[33.00518, 76.50443], [33.006, 76.23992]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3.3}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_c6f1683bde66f409b9e3bb71072c1b2c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_675cb38bd020bda93974e20c4ffaef62 = $(`<div id="html_675cb38bd020bda93974e20c4ffaef62" style="width: 100.0%; height: 100.0%;"><b>Pangi → Sach Pass</b> (summer pastures)<ul><li>Pangi MOVES_VIA Sach Pass: <i>That over the Sach (14,328 feet elevation), though longest. is the best and most generally used.</i> [Kupha, p. 111, 1961]</li><li>Pangi MOVES_VIA Sach Pass: <i>The easiest approach from Chamba to Pangi is via Sach Pass (14478 :fl.).</i> [Kupha, p. 128, 1961]</li><li>Pangwal MOVES_VIA Sach Pass: <i>hardly if ever does more than one trip across the pass in a year</i> [Kupha, p. 132, 1961]</li></ul></div>`)[0];
+                popup_c6f1683bde66f409b9e3bb71072c1b2c.setContent(html_675cb38bd020bda93974e20c4ffaef62);
+            
+        
+
+        poly_line_3da00caac33604b6ab00c1e727cc5efe.bindPopup(popup_c6f1683bde66f409b9e3bb71072c1b2c)
+        ;
+
+        
+    
+    
+            poly_line_3da00caac33604b6ab00c1e727cc5efe.bindTooltip(
+                `<div>
+                     Pangi → Sach Pass: summer pastures, 3 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fa839fbe26a94ef59281ad17b12e2a3a = L.polyline(
+                [[33.00518, 76.50443], [32.48745, 76.43608]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_2aa721193736a08d9bfc602fa3aafb2e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_cce11e035a1da1918da2e75b7e69b6f8 = $(`<div id="html_cce11e035a1da1918da2e75b7e69b6f8" style="width: 100.0%; height: 100.0%;"><b>Pangi → Tarela</b> (fairs and markets)<ul><li>Pangwal TRADES_AT Tarela: <i>readily excbanged for saIT at Tr~la across the Sach Pass.</i> [Kupha, p. 132, 1961]</li></ul></div>`)[0];
+                popup_2aa721193736a08d9bfc602fa3aafb2e.setContent(html_cce11e035a1da1918da2e75b7e69b6f8);
+            
+        
+
+        poly_line_fa839fbe26a94ef59281ad17b12e2a3a.bindPopup(popup_2aa721193736a08d9bfc602fa3aafb2e)
+        ;
+
+        
+    
+    
+            poly_line_fa839fbe26a94ef59281ad17b12e2a3a.bindTooltip(
+                `<div>
+                     Pangi → Tarela: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_266f97024a68acc1d6e29c21a1a49010 = L.polyline(
+                [[32.55609, 76.97471], [31.41764, 77.57414]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_1b766f5cd1e48fa0b486d02e398bc00d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_466a514328569e377a89b45f567e3d63 = $(`<div id="html_466a514328569e377a89b45f567e3d63" style="width: 100.0%; height: 100.0%;"><b>Tandi → Kulu</b> (fairs and markets)<ul><li>households (Tandi) TRADES_AT Kulu: <i>which they sell at Kulu and Manali.</i> [Tandi, p. 67, 1961]</li></ul></div>`)[0];
+                popup_1b766f5cd1e48fa0b486d02e398bc00d.setContent(html_466a514328569e377a89b45f567e3d63);
+            
+        
+
+        poly_line_266f97024a68acc1d6e29c21a1a49010.bindPopup(popup_1b766f5cd1e48fa0b486d02e398bc00d)
+        ;
+
+        
+    
+    
+            poly_line_266f97024a68acc1d6e29c21a1a49010.bindTooltip(
+                `<div>
+                     Tandi → Kulu: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_117a82075ede54686f8c0c67d67f0a9d = L.polyline(
+                [[32.55609, 76.97471], [32.24546, 77.18729]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_60f4e5d920ce216f99ed32e35ad92e06);
+        
+    
+        var popup_afe89b5e99a563c6ae77a32c6e066040 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c4cae01e7de527e852013d2356e932c8 = $(`<div id="html_c4cae01e7de527e852013d2356e932c8" style="width: 100.0%; height: 100.0%;"><b>Tandi → Manali</b> (fairs and markets)<ul><li>households (Tandi) TRADES_AT Manali: <i>which they sell at Kulu and Manali.</i> [Tandi, p. 67, 1961]</li></ul></div>`)[0];
+                popup_afe89b5e99a563c6ae77a32c6e066040.setContent(html_c4cae01e7de527e852013d2356e932c8);
+            
+        
+
+        poly_line_117a82075ede54686f8c0c67d67f0a9d.bindPopup(popup_afe89b5e99a563c6ae77a32c6e066040)
+        ;
+
+        
+    
+    
+            poly_line_117a82075ede54686f8c0c67d67f0a9d.bindTooltip(
+                `<div>
+                     Tandi → Manali: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_60f4e5d920ce216f99ed32e35ad92e06.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            var feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_8fc5648b336acb62d3a5b11270e60f2b = L.polyline(
+                [[32.44167, 76.53646], [32.69233, 76.16316]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_5d0c29c6a13c92d05d04e452f92b2294 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0616aa9276dc146c0a48a51eec1b9589 = $(`<div id="html_0616aa9276dc146c0a48a51eec1b9589" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Chamba</b> (fairs and markets)<ul><li>households (Brahmaur) TRADES_AT Chamba: <i>a good number of walnut trees but the nuts are very little used locally and are exchanged for cash at Chamba.</i> [Brahmaur, p. 36, 1961]</li></ul></div>`)[0];
+                popup_5d0c29c6a13c92d05d04e452f92b2294.setContent(html_0616aa9276dc146c0a48a51eec1b9589);
+            
+        
+
+        poly_line_8fc5648b336acb62d3a5b11270e60f2b.bindPopup(popup_5d0c29c6a13c92d05d04e452f92b2294)
+        ;
+
+        
+    
+    
+            poly_line_8fc5648b336acb62d3a5b11270e60f2b.bindTooltip(
+                `<div>
+                     Brahmaur → Chamba: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_bd2bf698b4fb533d763db1a3123590a7 = L.polyline(
+                [[32.44167, 76.53646], [31.26461, 77.12216]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3.3}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_0f8ceadff95d13a26c3fbd5a01221159 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6d84cea840040144b696ed477040d204 = $(`<div id="html_6d84cea840040144b696ed477040d204" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Jammu</b> (winter grounds)<ul><li>malundi (Brahmaur) GRAZES_AT Jammu (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li><li>malundi (Brahmaur) MIGRATES_TO Jammu: <i>After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and Jammu.</i> [Brahmaur, p. 56, 1961]</li><li>pohal (Brahmaur) GRAZES_AT Jammu (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li></ul></div>`)[0];
+                popup_0f8ceadff95d13a26c3fbd5a01221159.setContent(html_6d84cea840040144b696ed477040d204);
+            
+        
+
+        poly_line_bd2bf698b4fb533d763db1a3123590a7.bindPopup(popup_0f8ceadff95d13a26c3fbd5a01221159)
+        ;
+
+        
+    
+    
+            poly_line_bd2bf698b4fb533d763db1a3123590a7.bindTooltip(
+                `<div>
+                     Brahmaur → Jammu: winter grounds, 3 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_06d749eba5eee34bf9a3240474e44bd3 = L.polyline(
+                [[32.44167, 76.53646], [32.07687, 76.29859]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5.1}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_3c3b06c8d53ba63b110fc0de5136c23d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7bcbd1c47b49cd7d8bc0df15bd4c5bc9 = $(`<div id="html_7bcbd1c47b49cd7d8bc0df15bd4c5bc9" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Kangra</b> (winter grounds)<ul><li>Gaddi (Brahmaur) GRAZES_AT Kangra: <i>during winter in the valley of Kangra a!ld</i> [Brahmaur, p. 12, 1961]</li><li>Gaddi (Brahmaur) MIGRATES_TO Kangra: <i>The yearly migration to Kangra and other places is on the decline.</i> [Brahmaur, p. 87, 1961]</li><li>households (Brahmaur) MIGRATES_TO Kangra: <i>These, they purchased during their&#x27;migration to Kangra and other places.</i> [Brahmaur, p. 36, 1961]</li><li>malundi (Brahmaur) GRAZES_AT Kangra (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li><li>malundi (Brahmaur) MIGRATES_TO Kangra: <i>After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and</i> [Brahmaur, p. 56, 1961]</li><li>pohal (Brahmaur) GRAZES_AT Kangra (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li></ul></div>`)[0];
+                popup_3c3b06c8d53ba63b110fc0de5136c23d.setContent(html_7bcbd1c47b49cd7d8bc0df15bd4c5bc9);
+            
+        
+
+        poly_line_06d749eba5eee34bf9a3240474e44bd3.bindPopup(popup_3c3b06c8d53ba63b110fc0de5136c23d)
+        ;
+
+        
+    
+    
+            poly_line_06d749eba5eee34bf9a3240474e44bd3.bindTooltip(
+                `<div>
+                     Brahmaur → Kangra: winter grounds, 6 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0ec0778d63a2322c53fc69e42d037f8c = L.polyline(
+                [[32.44167, 76.53646], [32.53918, 77.19833]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4.5}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_bc9f5105173f7ec3037e85adad309e49 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c1b32e91020934bfc25f995c1c28171d = $(`<div id="html_c1b32e91020934bfc25f995c1c28171d" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Lahaul</b> (summer pastures)<ul><li>shepherd (Brahmaur) MOVES_VIA Lahaul (9): <i>In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven</i> [Brahmaur, p. 55, 1961]</li><li>malundi (Brahmaur) MIGRATES_TO Lahaul: <i>The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.</i> [Brahmaur, p. 55, 1961]</li><li>pohal (Brahmaur) MIGRATES_TO Lahaul: <i>The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.</i> [Brahmaur, p. 55, 1961]</li><li>pohal (Brahmaur) GRAZES_AT Lahaul: <i>He took his flock for grazing to Lahaul</i> [Brahmaur, p. 57, 1961]</li><li>pohal (Brahmaur) GRAZES_AT Lahaul: <i>when some pohals went to Lahaul to graze their flocks</i> [Brahmaur, p. 58, 1961]</li></ul></div>`)[0];
+                popup_bc9f5105173f7ec3037e85adad309e49.setContent(html_c1b32e91020934bfc25f995c1c28171d);
+            
+        
+
+        poly_line_0ec0778d63a2322c53fc69e42d037f8c.bindPopup(popup_bc9f5105173f7ec3037e85adad309e49)
+        ;
+
+        
+    
+    
+            poly_line_0ec0778d63a2322c53fc69e42d037f8c.bindTooltip(
+                `<div>
+                     Brahmaur → Lahaul: summer pastures, 5 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_77dbd678cddcd0a473b46fbffdd467a9 = L.polyline(
+                [[32.44167, 76.53646], [31.65166, 77.00925]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_8f7d1ca8799b89e09d9c8fe0d009ad77 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_1e174e8c7ce16d49eb5b9aec56285e03 = $(`<div id="html_1e174e8c7ce16d49eb5b9aec56285e03" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Mandi</b> (winter grounds)<ul><li>Gaddi (Brahmaur) GRAZES_AT Mandi: <i>in Suket and Mandi illaqas.</i> [Brahmaur, p. 12, 1961]</li></ul></div>`)[0];
+                popup_8f7d1ca8799b89e09d9c8fe0d009ad77.setContent(html_1e174e8c7ce16d49eb5b9aec56285e03);
+            
+        
+
+        poly_line_77dbd678cddcd0a473b46fbffdd467a9.bindPopup(popup_8f7d1ca8799b89e09d9c8fe0d009ad77)
+        ;
+
+        
+    
+    
+            poly_line_77dbd678cddcd0a473b46fbffdd467a9.bindTooltip(
+                `<div>
+                     Brahmaur → Mandi: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4a04e8bf8403cb8ab067d28acf0ddedb = L.polyline(
+                [[32.44167, 76.53646], [32.29974, 75.88396]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3.3}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_6884b51454c5903ce37a04f1a7f187e3 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7a64807219a52f3fed7b9fbd669ca1a4 = $(`<div id="html_7a64807219a52f3fed7b9fbd669ca1a4" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Nurpur</b> (winter grounds)<ul><li>malundi (Brahmaur) GRAZES_AT Nurpur (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li><li>malundi (Brahmaur) MIGRATES_TO Nurpur: <i>After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and</i> [Brahmaur, p. 56, 1961]</li><li>pohal (Brahmaur) GRAZES_AT Nurpur (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li></ul></div>`)[0];
+                popup_6884b51454c5903ce37a04f1a7f187e3.setContent(html_7a64807219a52f3fed7b9fbd669ca1a4);
+            
+        
+
+        poly_line_4a04e8bf8403cb8ab067d28acf0ddedb.bindPopup(popup_6884b51454c5903ce37a04f1a7f187e3)
+        ;
+
+        
+    
+    
+            poly_line_4a04e8bf8403cb8ab067d28acf0ddedb.bindTooltip(
+                `<div>
+                     Brahmaur → Nurpur: winter grounds, 3 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c349e7ba5a874bfbf142a46ac9ada910 = L.polyline(
+                [[32.44167, 76.53646], [33.00518, 76.50443]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3.3}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_8d72bfae97aa6cb236e3159f4a743232 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4f86abc6c5c00cfc5b266c61e6f30ae3 = $(`<div id="html_4f86abc6c5c00cfc5b266c61e6f30ae3" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Pangi</b> (summer pastures)<ul><li>shepherd (Brahmaur) MOVES_VIA Pangi (9): <i>In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven</i> [Brahmaur, p. 55, 1961]</li><li>malundi (Brahmaur) MIGRATES_TO Pangi: <i>The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.</i> [Brahmaur, p. 55, 1961]</li><li>pohal (Brahmaur) MIGRATES_TO Pangi: <i>The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.</i> [Brahmaur, p. 55, 1961]</li></ul></div>`)[0];
+                popup_8d72bfae97aa6cb236e3159f4a743232.setContent(html_4f86abc6c5c00cfc5b266c61e6f30ae3);
+            
+        
+
+        poly_line_c349e7ba5a874bfbf142a46ac9ada910.bindPopup(popup_8d72bfae97aa6cb236e3159f4a743232)
+        ;
+
+        
+    
+    
+            poly_line_c349e7ba5a874bfbf142a46ac9ada910.bindTooltip(
+                `<div>
+                     Brahmaur → Pangi: summer pastures, 3 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2e30131ba528d67db244502a5d0a25fa = L.polyline(
+                [[32.44167, 76.53646], [32.55744, 76.1284]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3.3}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_7f9b58aaae7aaab92bdc33d8469dcbaf = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8858b8a8d1459c0cc28d34199a67f219 = $(`<div id="html_8858b8a8d1459c0cc28d34199a67f219" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Pathankot</b> (winter grounds)<ul><li>malundi (Brahmaur) GRAZES_AT Pathankot (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li><li>malundi (Brahmaur) MIGRATES_TO Pathankot: <i>After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and</i> [Brahmaur, p. 56, 1961]</li><li>pohal (Brahmaur) GRAZES_AT Pathankot (10, 11): <i>In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu.</i> [Brahmaur, p. 55, 1961]</li></ul></div>`)[0];
+                popup_7f9b58aaae7aaab92bdc33d8469dcbaf.setContent(html_8858b8a8d1459c0cc28d34199a67f219);
+            
+        
+
+        poly_line_2e30131ba528d67db244502a5d0a25fa.bindPopup(popup_7f9b58aaae7aaab92bdc33d8469dcbaf)
+        ;
+
+        
+    
+    
+            poly_line_2e30131ba528d67db244502a5d0a25fa.bindTooltip(
+                `<div>
+                     Brahmaur → Pathankot: winter grounds, 3 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c9ffc492a390f4fd6e6c473eff7131da = L.polyline(
+                [[32.44167, 76.53646], [31.38668, 77.91456]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_4499810f50b3e4c1f9168310164f73ff = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6d2aa02808fb84912fac51de755dd219 = $(`<div id="html_6d2aa02808fb84912fac51de755dd219" style="width: 100.0%; height: 100.0%;"><b>Brahmaur → Suket</b> (winter grounds)<ul><li>Gaddi (Brahmaur) GRAZES_AT Suket: <i>in Suket and Mandi illaqas.</i> [Brahmaur, p. 12, 1961]</li></ul></div>`)[0];
+                popup_4499810f50b3e4c1f9168310164f73ff.setContent(html_6d2aa02808fb84912fac51de755dd219);
+            
+        
+
+        poly_line_c9ffc492a390f4fd6e6c473eff7131da.bindPopup(popup_4499810f50b3e4c1f9168310164f73ff)
+        ;
+
+        
+    
+    
+            poly_line_c9ffc492a390f4fd6e6c473eff7131da.bindTooltip(
+                `<div>
+                     Brahmaur → Suket: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7f3ad6ccdd69963a2b71c1cf0b7ce384 = L.polyline(
+                [[32.9066, 76.22464], [33.006, 76.23992]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c);
+        
+    
+        var popup_e8d55ed9f0d75c9fa675dfb5a55615cc = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f96853bcc07475821db61775d92c316b = $(`<div id="html_f96853bcc07475821db61775d92c316b" style="width: 100.0%; height: 100.0%;"><b>Devi-Kothi → Sach Pass</b> (summer pastures)<ul><li>households (Devi-Kothi) MOVES_VIA Sach Pass (5, 6, 8, 9): <i>Some villagers calry loads to Pangi during May and June or August and September. The route via Sach Pass is preferred.</i> [Devi-Kothi, p. 53, 1961]</li></ul></div>`)[0];
+                popup_e8d55ed9f0d75c9fa675dfb5a55615cc.setContent(html_f96853bcc07475821db61775d92c316b);
+            
+        
+
+        poly_line_7f3ad6ccdd69963a2b71c1cf0b7ce384.bindPopup(popup_e8d55ed9f0d75c9fa675dfb5a55615cc)
+        ;
+
+        
+    
+    
+            poly_line_7f3ad6ccdd69963a2b71c1cf0b7ce384.bindTooltip(
+                `<div>
+                     Devi-Kothi → Sach Pass: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            var feature_group_6eff25c50abbd7edbd8ec142231bfd47 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_04d376e360ce7223adeb925caa6d1015 = L.polyline(
+                [[31.67654, 78.45131], [31.15249, 76.94289]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_c3a39f8efa1f0c55b3bead0332457ac1 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_027815fc4637c9bf48fb0d957f8f1b33 = $(`<div id="html_027815fc4637c9bf48fb0d957f8f1b33" style="width: 100.0%; height: 100.0%;"><b>Kanum → Arki</b> (fairs and markets)<ul><li>Kanum TRADES_AT Arki: <i>respec lye camping places in Karsog, Bilaspur, ArKi, Seoni, ;&#x27;vlehlog and Sirmur.</i> [Kanum, p. 50, 1961]</li><li>households (Kanum) TRADES_AT Arki: <i>or in the villages in Sirmur, Seoni, Arki.</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_c3a39f8efa1f0c55b3bead0332457ac1.setContent(html_027815fc4637c9bf48fb0d957f8f1b33);
+            
+        
+
+        poly_line_04d376e360ce7223adeb925caa6d1015.bindPopup(popup_c3a39f8efa1f0c55b3bead0332457ac1)
+        ;
+
+        
+    
+    
+            poly_line_04d376e360ce7223adeb925caa6d1015.bindTooltip(
+                `<div>
+                     Kanum → Arki: fairs and markets, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_39384d57fbb2e0a22770effc785f308d = L.polyline(
+                [[31.67654, 78.45131], [31.15249, 76.94289]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_987e37dd10d30fe5684f1c1f63288e29 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_df9c620ede16bffbdcf4a0505ca25729 = $(`<div id="html_df9c620ede16bffbdcf4a0505ca25729" style="width: 100.0%; height: 100.0%;"><b>Kanum → Arki</b> (winter grounds)<ul><li>households (Kanum) MIGRATES_TO Arki (10): <i>to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur.</i> [Kanum, p. 85, 1961]</li><li>households (Kanum) MIGRATES_TO Arki (10, 11, 12, 1, 2, 3, 4): <i>They spend the chilly months in these places till the end of April</i> [Kanum, p. 85, 1961]</li></ul></div>`)[0];
+                popup_987e37dd10d30fe5684f1c1f63288e29.setContent(html_df9c620ede16bffbdcf4a0505ca25729);
+            
+        
+
+        poly_line_39384d57fbb2e0a22770effc785f308d.bindPopup(popup_987e37dd10d30fe5684f1c1f63288e29)
+        ;
+
+        
+    
+    
+            poly_line_39384d57fbb2e0a22770effc785f308d.bindTooltip(
+                `<div>
+                     Kanum → Arki: winter grounds, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c9baafc5137541989587b06f59945552 = L.polyline(
+                [[31.67654, 78.45131], [31.3381, 76.76116]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_086a7d9a46ee3cdfda8a23c6fb659a1e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_fcdf3236c892a95ded5b6362e1c6b94f = $(`<div id="html_fcdf3236c892a95ded5b6362e1c6b94f" style="width: 100.0%; height: 100.0%;"><b>Kanum → Bilaspur</b> (fairs and markets)<ul><li>Kanum TRADES_AT Bilaspur: <i>respec lye camping places in Karsog, Bilaspur, ArKi, Seoni, ;&#x27;vlehlog and Sirmur.</i> [Kanum, p. 50, 1961]</li><li>households (Kanum) TRADES_AT Bilaspur: <i>Suket, Bilaspur and Mehlog in their camping places.</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_086a7d9a46ee3cdfda8a23c6fb659a1e.setContent(html_fcdf3236c892a95ded5b6362e1c6b94f);
+            
+        
+
+        poly_line_c9baafc5137541989587b06f59945552.bindPopup(popup_086a7d9a46ee3cdfda8a23c6fb659a1e)
+        ;
+
+        
+    
+    
+            poly_line_c9baafc5137541989587b06f59945552.bindTooltip(
+                `<div>
+                     Kanum → Bilaspur: fairs and markets, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ce6d6473957c3744687894fb26e965ab = L.polyline(
+                [[31.67654, 78.45131], [31.3381, 76.76116]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_c73c8639e47e4c9589870710c5f0c4df = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c870b36dc15fa5bc1e723aac89ee7ab4 = $(`<div id="html_c870b36dc15fa5bc1e723aac89ee7ab4" style="width: 100.0%; height: 100.0%;"><b>Kanum → Bilaspur</b> (winter grounds)<ul><li>households (Kanum) MIGRATES_TO Bilaspur (10): <i>to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur.</i> [Kanum, p. 85, 1961]</li><li>households (Kanum) MIGRATES_TO Bilaspur (10, 11, 12, 1, 2, 3, 4): <i>During winter from October they migrate to Lower Hills as far into Bilaspur</i> [Kanum, p. 85, 1961]</li></ul></div>`)[0];
+                popup_c73c8639e47e4c9589870710c5f0c4df.setContent(html_c870b36dc15fa5bc1e723aac89ee7ab4);
+            
+        
+
+        poly_line_ce6d6473957c3744687894fb26e965ab.bindPopup(popup_c73c8639e47e4c9589870710c5f0c4df)
+        ;
+
+        
+    
+    
+            poly_line_ce6d6473957c3744687894fb26e965ab.bindTooltip(
+                `<div>
+                     Kanum → Bilaspur: winter grounds, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_589893b044a82366def3efe607638959 = L.polyline(
+                [[31.67654, 78.45131], [31.75, 80.36667]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_f4c7a4fe79dad2ba558b8f36b7147a09 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_361ade751f0301fc85f14f186d5f3ee9 = $(`<div id="html_361ade751f0301fc85f14f186d5f3ee9" style="width: 100.0%; height: 100.0%;"><b>Kanum → Gartok</b> (fairs and markets)<ul><li>Well-to-do people (Kanum) TRADES_AT Gartok: <i>The well-to-do people of the village used to go to Gartok in Tibet and buy wool, pasham, jira, sheep and goat. This trade has now practically come to an end</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_f4c7a4fe79dad2ba558b8f36b7147a09.setContent(html_361ade751f0301fc85f14f186d5f3ee9);
+            
+        
+
+        poly_line_589893b044a82366def3efe607638959.bindPopup(popup_f4c7a4fe79dad2ba558b8f36b7147a09)
+        ;
+
+        
+    
+    
+            poly_line_589893b044a82366def3efe607638959.bindTooltip(
+                `<div>
+                     Kanum → Gartok: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_271a9bca1a3a2a32e9a6935b58887a07 = L.polyline(
+                [[31.67654, 78.45131], [31.97703, 78.60404]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_2ac1840c2cb19b9a6cc4fe0d490c37b6 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_1469a8f679ecd0752051f5b13559dd16 = $(`<div id="html_1469a8f679ecd0752051f5b13559dd16" style="width: 100.0%; height: 100.0%;"><b>Kanum → Hangrang valley</b> (summer pastures)<ul><li>households (Kanum) GRAZES_AT Hangrang valley: <i>Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise</i> [Kanum, p. 85, 1961]</li><li>larger farmers (Kanum) GRAZES_AT Hangrang valley: <i>Some of the bigger farmers take tbeir goats and sheep to Hangrang Valley for grazing.</i> [Kanum, p. 133, 1961]</li></ul></div>`)[0];
+                popup_2ac1840c2cb19b9a6cc4fe0d490c37b6.setContent(html_1469a8f679ecd0752051f5b13559dd16);
+            
+        
+
+        poly_line_271a9bca1a3a2a32e9a6935b58887a07.bindPopup(popup_2ac1840c2cb19b9a6cc4fe0d490c37b6)
+        ;
+
+        
+    
+    
+            poly_line_271a9bca1a3a2a32e9a6935b58887a07.bindTooltip(
+                `<div>
+                     Kanum → Hangrang valley: summer pastures, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7476a5b8f9588a0362e4b9663b79be2f = L.polyline(
+                [[31.67654, 78.45131], [31.34229, 77.20077]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_df3d313f46c48df97645c7394606438e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_838cf90da3629718f70cf3fd7a8225d1 = $(`<div id="html_838cf90da3629718f70cf3fd7a8225d1" style="width: 100.0%; height: 100.0%;"><b>Kanum → Karsog</b> (fairs and markets)<ul><li>Kanum TRADES_AT Karsog: <i>respec lye camping places in Karsog, Bilaspur, ArKi, Seoni, ;&#x27;vlehlog and Sirmur.</i> [Kanum, p. 50, 1961]</li></ul></div>`)[0];
+                popup_df3d313f46c48df97645c7394606438e.setContent(html_838cf90da3629718f70cf3fd7a8225d1);
+            
+        
+
+        poly_line_7476a5b8f9588a0362e4b9663b79be2f.bindPopup(popup_df3d313f46c48df97645c7394606438e)
+        ;
+
+        
+    
+    
+            poly_line_7476a5b8f9588a0362e4b9663b79be2f.bindTooltip(
+                `<div>
+                     Kanum → Karsog: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_07787325f73129d40d8970a44d6df9a0 = L.polyline(
+                [[31.67654, 78.45131], [31.34229, 77.20077]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_826a71a88d22be09c3b0261d90e5132d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_77978fd54b5929b1ecbd0fc6b57ae13b = $(`<div id="html_77978fd54b5929b1ecbd0fc6b57ae13b" style="width: 100.0%; height: 100.0%;"><b>Kanum → Karsog</b> (winter grounds)<ul><li>households (Kanum) MIGRATES_TO Karsog (10): <i>to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur.</i> [Kanum, p. 85, 1961]</li></ul></div>`)[0];
+                popup_826a71a88d22be09c3b0261d90e5132d.setContent(html_77978fd54b5929b1ecbd0fc6b57ae13b);
+            
+        
+
+        poly_line_07787325f73129d40d8970a44d6df9a0.bindPopup(popup_826a71a88d22be09c3b0261d90e5132d)
+        ;
+
+        
+    
+    
+            poly_line_07787325f73129d40d8970a44d6df9a0.bindTooltip(
+                `<div>
+                     Kanum → Karsog: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_abe0dd9894d81a585b98e7fcd4d474e6 = L.polyline(
+                [[31.67654, 78.45131], [31.50914, 77.77097]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4.5}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_8cd9472ba364fba0212b09d2270194bb = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4984401c03c2933a0570c9c6cbbdac7e = $(`<div id="html_4984401c03c2933a0570c9c6cbbdac7e" style="width: 100.0%; height: 100.0%;"><b>Kanum → Lavi fair</b> (fairs and markets)<ul><li>Kanum TRADES_AT Lavi fair: <i>exchange of produce o~their country viz, wool, woollen pattIes, chilgoz , goat and sheep with corns of all kinds either n the Lavi Fair at Ramput</i> [Kanum, p. 50, 1961]</li><li>households (Kanum) TRADES_AT Lavi fair: <i>sold by them either in Lavi fair at Rampur</i> [Kanum, p. 16, 1961]</li><li>households (Kanum) TRADES_AT Lavi fair: <i>Some well-to-do persons have donkeys to carry mi$cellaneous articles like woollen patties, chilgoza and pasham which they sell in Lavi fair at Rampur</i> [Kanum, p. 85, 1961]</li><li>households (Kanum) TRADES_AT Lavi fair: <i>in return from Tibet they sold their merchandise in the famous Lavi fair at Rampur.</i> [Kanum, p. 131, 1961]</li><li>households (Kanum) TRADES_AT Lavi fair: <i>which are sold by them either in Lavi fair at Rampur</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_8cd9472ba364fba0212b09d2270194bb.setContent(html_4984401c03c2933a0570c9c6cbbdac7e);
+            
+        
+
+        poly_line_abe0dd9894d81a585b98e7fcd4d474e6.bindPopup(popup_8cd9472ba364fba0212b09d2270194bb)
+        ;
+
+        
+    
+    
+            poly_line_abe0dd9894d81a585b98e7fcd4d474e6.bindTooltip(
+                `<div>
+                     Kanum → Lavi fair: fairs and markets, 5 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_95ceed245ce2f63bf45e515e5848d1a4 = L.polyline(
+                [[31.67654, 78.45131], [30.95926, 76.9099]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_da647276ef2c0bc21bd87c0e003dd4b6 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8d105a48628962d67e1b3a2d914b3a20 = $(`<div id="html_8d105a48628962d67e1b3a2d914b3a20" style="width: 100.0%; height: 100.0%;"><b>Kanum → Mehlog</b> (fairs and markets)<ul><li>Kanum TRADES_AT Mehlog: <i>respec lye camping places in Karsog, Bilaspur, ArKi, Seoni, ;&#x27;vlehlog and Sirmur.</i> [Kanum, p. 50, 1961]</li><li>households (Kanum) TRADES_AT Mehlog: <i>Suket, Bilaspur and Mehlog in their camping places.</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_da647276ef2c0bc21bd87c0e003dd4b6.setContent(html_8d105a48628962d67e1b3a2d914b3a20);
+            
+        
+
+        poly_line_95ceed245ce2f63bf45e515e5848d1a4.bindPopup(popup_da647276ef2c0bc21bd87c0e003dd4b6)
+        ;
+
+        
+    
+    
+            poly_line_95ceed245ce2f63bf45e515e5848d1a4.bindTooltip(
+                `<div>
+                     Kanum → Mehlog: fairs and markets, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f6bd1b0351e0db788f8a060a137bf32c = L.polyline(
+                [[31.67654, 78.45131], [30.95926, 76.9099]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_2322def8d8324070cb3c35ac31eccf67 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f04402135732528f23c15910075b30d5 = $(`<div id="html_f04402135732528f23c15910075b30d5" style="width: 100.0%; height: 100.0%;"><b>Kanum → Mehlog</b> (winter grounds)<ul><li>households (Kanum) MIGRATES_TO Mehlog (10): <i>to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur.</i> [Kanum, p. 85, 1961]</li><li>households (Kanum) MIGRATES_TO Mehlog: <i>During winter Virender m&#x27;igrates to lower hills, PaUa and Mehlog in Arki Tehsil with his goats and sheep.</i> [Kanum, p. 136, 1961]</li></ul></div>`)[0];
+                popup_2322def8d8324070cb3c35ac31eccf67.setContent(html_f04402135732528f23c15910075b30d5);
+            
+        
+
+        poly_line_f6bd1b0351e0db788f8a060a137bf32c.bindPopup(popup_2322def8d8324070cb3c35ac31eccf67)
+        ;
+
+        
+    
+    
+            poly_line_f6bd1b0351e0db788f8a060a137bf32c.bindTooltip(
+                `<div>
+                     Kanum → Mehlog: winter grounds, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9728e710427bd9e382be5dab048a72fe = L.polyline(
+                [[31.67654, 78.45131], [32.52732, 76.2998]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_8b27624b6a7f71aeddab51ad7abad4ec = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e9774313c496e616f182fec6beec23a1 = $(`<div id="html_e9774313c496e616f182fec6beec23a1" style="width: 100.0%; height: 100.0%;"><b>Kanum → Rao</b> (summer pastures)<ul><li>households (Kanum) GRAZES_AT Rao: <i>while going to the alpine pastures in Pruti, Brati, Rao,</i> [Kanum, p. 85, 1961]</li></ul></div>`)[0];
+                popup_8b27624b6a7f71aeddab51ad7abad4ec.setContent(html_e9774313c496e616f182fec6beec23a1);
+            
+        
+
+        poly_line_9728e710427bd9e382be5dab048a72fe.bindPopup(popup_8b27624b6a7f71aeddab51ad7abad4ec)
+        ;
+
+        
+    
+    
+            poly_line_9728e710427bd9e382be5dab048a72fe.bindTooltip(
+                `<div>
+                     Kanum → Rao: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_09adaf74833cda5ba73faba967b3bae1 = L.polyline(
+                [[31.67654, 78.45131], [31.52018, 78.18275]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_0ed5044aedabccf74450ee3168ce8f54 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8bffabe1779812c2ebcf006d441d86ab = $(`<div id="html_8bffabe1779812c2ebcf006d441d86ab" style="width: 100.0%; height: 100.0%;"><b>Kanum → Runang</b> (summer pastures)<ul><li>households (Kanum) GRAZES_AT Runang: <i>Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise</i> [Kanum, p. 85, 1961]</li></ul></div>`)[0];
+                popup_0ed5044aedabccf74450ee3168ce8f54.setContent(html_8bffabe1779812c2ebcf006d441d86ab);
+            
+        
+
+        poly_line_09adaf74833cda5ba73faba967b3bae1.bindPopup(popup_0ed5044aedabccf74450ee3168ce8f54)
+        ;
+
+        
+    
+    
+            poly_line_09adaf74833cda5ba73faba967b3bae1.bindTooltip(
+                `<div>
+                     Kanum → Runang: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a6f8c3dee345b8be7bd417d28f5034e4 = L.polyline(
+                [[31.67654, 78.45131], [31.20773, 77.19381]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_39d01d6b71f8b2a03a85b30fd92f0bd0 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_326192d86c13e382f22983c2a695c3f5 = $(`<div id="html_326192d86c13e382f22983c2a695c3f5" style="width: 100.0%; height: 100.0%;"><b>Kanum → Seoni</b> (fairs and markets)<ul><li>Kanum TRADES_AT Seoni: <i>respec lye camping places in Karsog, Bilaspur, ArKi, Seoni, ;&#x27;vlehlog and Sirmur.</i> [Kanum, p. 50, 1961]</li><li>households (Kanum) TRADES_AT Seoni: <i>or in the villages in Sirmur, Seoni, Arki.</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_39d01d6b71f8b2a03a85b30fd92f0bd0.setContent(html_326192d86c13e382f22983c2a695c3f5);
+            
+        
+
+        poly_line_a6f8c3dee345b8be7bd417d28f5034e4.bindPopup(popup_39d01d6b71f8b2a03a85b30fd92f0bd0)
+        ;
+
+        
+    
+    
+            poly_line_a6f8c3dee345b8be7bd417d28f5034e4.bindTooltip(
+                `<div>
+                     Kanum → Seoni: fairs and markets, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6bf4ccf51d414b2350e51d5281df899c = L.polyline(
+                [[31.67654, 78.45131], [31.20773, 77.19381]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_f0b7d545ff36622c421201dfeb3508d4 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_db8b37582363f4ec77ce84624ec8946a = $(`<div id="html_db8b37582363f4ec77ce84624ec8946a" style="width: 100.0%; height: 100.0%;"><b>Kanum → Seoni</b> (winter grounds)<ul><li>households (Kanum) MIGRATES_TO Seoni (10): <i>to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur.</i> [Kanum, p. 85, 1961]</li></ul></div>`)[0];
+                popup_f0b7d545ff36622c421201dfeb3508d4.setContent(html_db8b37582363f4ec77ce84624ec8946a);
+            
+        
+
+        poly_line_6bf4ccf51d414b2350e51d5281df899c.bindPopup(popup_f0b7d545ff36622c421201dfeb3508d4)
+        ;
+
+        
+    
+    
+            poly_line_6bf4ccf51d414b2350e51d5281df899c.bindTooltip(
+                `<div>
+                     Kanum → Seoni: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c27a93b266350fbab00c3bc06d8a3dc1 = L.polyline(
+                [[31.67654, 78.45131], [30.56018, 77.29236]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_451d5ccc97e087caa84e3ecf22d5ed7b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ecb6907d2a83c2a1a246f8e26f1984e3 = $(`<div id="html_ecb6907d2a83c2a1a246f8e26f1984e3" style="width: 100.0%; height: 100.0%;"><b>Kanum → Sirmur</b> (fairs and markets)<ul><li>Kanum TRADES_AT Sirmur: <i>respec lye camping places in Karsog, Bilaspur, ArKi, Seoni, ;&#x27;vlehlog and Sirmur.</i> [Kanum, p. 50, 1961]</li><li>households (Kanum) TRADES_AT Sirmur: <i>or in the villages in Sirmur, Seoni, Arki.</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_451d5ccc97e087caa84e3ecf22d5ed7b.setContent(html_ecb6907d2a83c2a1a246f8e26f1984e3);
+            
+        
+
+        poly_line_c27a93b266350fbab00c3bc06d8a3dc1.bindPopup(popup_451d5ccc97e087caa84e3ecf22d5ed7b)
+        ;
+
+        
+    
+    
+            poly_line_c27a93b266350fbab00c3bc06d8a3dc1.bindTooltip(
+                `<div>
+                     Kanum → Sirmur: fairs and markets, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6e9e9cf3da5951a064d0c500aec8634c = L.polyline(
+                [[31.67654, 78.45131], [30.56018, 77.29236]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_18fdd872afd31eb48613018c0d3d0aa4 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2a17be6567c58490d3299a4826241ad5 = $(`<div id="html_2a17be6567c58490d3299a4826241ad5" style="width: 100.0%; height: 100.0%;"><b>Kanum → Sirmur</b> (winter grounds)<ul><li>households (Kanum) MIGRATES_TO Sirmur (10): <i>to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur.</i> [Kanum, p. 85, 1961]</li></ul></div>`)[0];
+                popup_18fdd872afd31eb48613018c0d3d0aa4.setContent(html_2a17be6567c58490d3299a4826241ad5);
+            
+        
+
+        poly_line_6e9e9cf3da5951a064d0c500aec8634c.bindPopup(popup_18fdd872afd31eb48613018c0d3d0aa4)
+        ;
+
+        
+    
+    
+            poly_line_6e9e9cf3da5951a064d0c500aec8634c.bindTooltip(
+                `<div>
+                     Kanum → Sirmur: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_17d2c9934aa89beb5a9cd66256eeb576 = L.polyline(
+                [[31.67654, 78.45131], [31.38668, 77.91456]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_7fb6dfedc88253371e41e0661134fd2f = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_384d2a51379d8f90b32f0e99926d8917 = $(`<div id="html_384d2a51379d8f90b32f0e99926d8917" style="width: 100.0%; height: 100.0%;"><b>Kanum → Suket</b> (fairs and markets)<ul><li>households (Kanum) TRADES_AT Suket: <i>Suket, Bilaspur and Mehlog in their camping places.</i> [Kanum, p. 16, 1961]</li></ul></div>`)[0];
+                popup_7fb6dfedc88253371e41e0661134fd2f.setContent(html_384d2a51379d8f90b32f0e99926d8917);
+            
+        
+
+        poly_line_17d2c9934aa89beb5a9cd66256eeb576.bindPopup(popup_7fb6dfedc88253371e41e0661134fd2f)
+        ;
+
+        
+    
+    
+            poly_line_17d2c9934aa89beb5a9cd66256eeb576.bindTooltip(
+                `<div>
+                     Kanum → Suket: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_edc7651cac5cfaede58422ef65ec053b = L.polyline(
+                [[31.59301, 78.32814], [31.15249, 76.94289]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_36cefd057f5d94233b6e6e358c6319e0 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_9b68d300eb3e20180158803459a5e833 = $(`<div id="html_9b68d300eb3e20180158803459a5e833" style="width: 100.0%; height: 100.0%;"><b>Kinnaur → Arki</b> (winter grounds)<ul><li>households MIGRATES_TO Arki: <i>They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh .</i> [Kothi, p. 92, 1961]</li></ul></div>`)[0];
+                popup_36cefd057f5d94233b6e6e358c6319e0.setContent(html_9b68d300eb3e20180158803459a5e833);
+            
+        
+
+        poly_line_edc7651cac5cfaede58422ef65ec053b.bindPopup(popup_36cefd057f5d94233b6e6e358c6319e0)
+        ;
+
+        
+    
+    
+            poly_line_edc7651cac5cfaede58422ef65ec053b.bindTooltip(
+                `<div>
+                     Kinnaur → Arki: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0abe78d3bbd2e2958401bd97f60b7ec2 = L.polyline(
+                [[31.59301, 78.32814], [31.3381, 76.76116]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_b7446f655e39953e0899da93b8c711fa = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_1e8e78d5e8a424721e8227194c328056 = $(`<div id="html_1e8e78d5e8a424721e8227194c328056" style="width: 100.0%; height: 100.0%;"><b>Kinnaur → Bilaspur</b> (winter grounds)<ul><li>households MIGRATES_TO Bilaspur: <i>They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh .</i> [Kothi, p. 92, 1961]</li></ul></div>`)[0];
+                popup_b7446f655e39953e0899da93b8c711fa.setContent(html_1e8e78d5e8a424721e8227194c328056);
+            
+        
+
+        poly_line_0abe78d3bbd2e2958401bd97f60b7ec2.bindPopup(popup_b7446f655e39953e0899da93b8c711fa)
+        ;
+
+        
+    
+    
+            poly_line_0abe78d3bbd2e2958401bd97f60b7ec2.bindTooltip(
+                `<div>
+                     Kinnaur → Bilaspur: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_09e88e3102fcc2129ed194e8f5555941 = L.polyline(
+                [[31.59301, 78.32814], [31.34229, 77.20077]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_60515e80d4a4e596c09c3e339bcc2de4 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_9d67b1b3c10635b077a7b90622ebaf17 = $(`<div id="html_9d67b1b3c10635b077a7b90622ebaf17" style="width: 100.0%; height: 100.0%;"><b>Kinnaur → Karsog</b> (winter grounds)<ul><li>households MIGRATES_TO Karsog: <i>pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog.</i> [Kothi, p. 92, 1961]</li></ul></div>`)[0];
+                popup_60515e80d4a4e596c09c3e339bcc2de4.setContent(html_9d67b1b3c10635b077a7b90622ebaf17);
+            
+        
+
+        poly_line_09e88e3102fcc2129ed194e8f5555941.bindPopup(popup_60515e80d4a4e596c09c3e339bcc2de4)
+        ;
+
+        
+    
+    
+            poly_line_09e88e3102fcc2129ed194e8f5555941.bindTooltip(
+                `<div>
+                     Kinnaur → Karsog: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d5d8673ce6a75986ed997957f5ea2373 = L.polyline(
+                [[31.59301, 78.32814], [30.88074, 77.32448]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_9ba36fd2bf0d5bb2841db3fcdf226b8d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_5d77622e01edac7c7acdc5311d6d32f2 = $(`<div id="html_5d77622e01edac7c7acdc5311d6d32f2" style="width: 100.0%; height: 100.0%;"><b>Kinnaur → Rajgarh</b> (winter grounds)<ul><li>households MIGRATES_TO Rajgarh: <i>They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh .</i> [Kothi, p. 92, 1961]</li></ul></div>`)[0];
+                popup_9ba36fd2bf0d5bb2841db3fcdf226b8d.setContent(html_5d77622e01edac7c7acdc5311d6d32f2);
+            
+        
+
+        poly_line_d5d8673ce6a75986ed997957f5ea2373.bindPopup(popup_9ba36fd2bf0d5bb2841db3fcdf226b8d)
+        ;
+
+        
+    
+    
+            poly_line_d5d8673ce6a75986ed997957f5ea2373.bindTooltip(
+                `<div>
+                     Kinnaur → Rajgarh: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ea0b67cba1728821eff80505e91c58de = L.polyline(
+                [[31.59301, 78.32814], [30.56018, 77.29236]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_07d6cf694b27170dc92bf1569057da96 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_01921f08c3521afd1274dc271618f210 = $(`<div id="html_01921f08c3521afd1274dc271618f210" style="width: 100.0%; height: 100.0%;"><b>Kinnaur → Sirmur</b> (winter grounds)<ul><li>households MIGRATES_TO Sirmur: <i>They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh .</i> [Kothi, p. 92, 1961]</li></ul></div>`)[0];
+                popup_07d6cf694b27170dc92bf1569057da96.setContent(html_01921f08c3521afd1274dc271618f210);
+            
+        
+
+        poly_line_ea0b67cba1728821eff80505e91c58de.bindPopup(popup_07d6cf694b27170dc92bf1569057da96)
+        ;
+
+        
+    
+    
+            poly_line_ea0b67cba1728821eff80505e91c58de.bindTooltip(
+                `<div>
+                     Kinnaur → Sirmur: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e5a3ace493b63a7c6b6f74c22e6e5c88 = L.polyline(
+                [[31.59301, 78.32814], [31.38668, 77.91456]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_c44aa036760dff5bf2feea2deb56ea3f = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c1df7218d932f3edbe3deafcb4468b3e = $(`<div id="html_c1df7218d932f3edbe3deafcb4468b3e" style="width: 100.0%; height: 100.0%;"><b>Kinnaur → Suket</b> (winter grounds)<ul><li>households MIGRATES_TO Suket: <i>They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh .</i> [Kothi, p. 92, 1961]</li></ul></div>`)[0];
+                popup_c44aa036760dff5bf2feea2deb56ea3f.setContent(html_c1df7218d932f3edbe3deafcb4468b3e);
+            
+        
+
+        poly_line_e5a3ace493b63a7c6b6f74c22e6e5c88.bindPopup(popup_c44aa036760dff5bf2feea2deb56ea3f)
+        ;
+
+        
+    
+    
+            poly_line_e5a3ace493b63a7c6b6f74c22e6e5c88.bindTooltip(
+                `<div>
+                     Kinnaur → Suket: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7aabae852577c53c0e16be58994ae6a9 = L.polyline(
+                [[31.59301, 78.32814], [31.34969, 76.93053]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_a162ad90a2621e3949ec2c0f90b2ed09 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f1a170d16265de72f8fcbf9d7c83ec69 = $(`<div id="html_f1a170d16265de72f8fcbf9d7c83ec69" style="width: 100.0%; height: 100.0%;"><b>Kinnaur → Suni</b> (winter grounds)<ul><li>households MIGRATES_TO Suni: <i>pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog.</i> [Kothi, p. 92, 1961]</li></ul></div>`)[0];
+                popup_a162ad90a2621e3949ec2c0f90b2ed09.setContent(html_f1a170d16265de72f8fcbf9d7c83ec69);
+            
+        
+
+        poly_line_7aabae852577c53c0e16be58994ae6a9.bindPopup(popup_a162ad90a2621e3949ec2c0f90b2ed09)
+        ;
+
+        
+    
+    
+            poly_line_7aabae852577c53c0e16be58994ae6a9.bindTooltip(
+                `<div>
+                     Kinnaur → Suni: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_319e62b0f0200c5e8232780168e7cac5 = L.polyline(
+                [[31.5525, 78.26579], [31.12795, 77.26631]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_1dd574b003b1a61177f2b0b77f638a7d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4ee8f1c7bb9879cea7f2e1924f04c439 = $(`<div id="html_4ee8f1c7bb9879cea7f2e1924f04c439" style="width: 100.0%; height: 100.0%;"><b>Kothi → Kanda</b> (summer pastures)<ul><li>households (Kothi) MIGRATES_TO Kanda: <i>One or two members from the family where a death might have occurred before this festival go to the Kanda and offer some food and fruits to the shephards in memory of the departed </i> [Kothi, p. 53, 1961]</li></ul></div>`)[0];
+                popup_1dd574b003b1a61177f2b0b77f638a7d.setContent(html_4ee8f1c7bb9879cea7f2e1924f04c439);
+            
+        
+
+        poly_line_319e62b0f0200c5e8232780168e7cac5.bindPopup(popup_1dd574b003b1a61177f2b0b77f638a7d)
+        ;
+
+        
+    
+    
+            poly_line_319e62b0f0200c5e8232780168e7cac5.bindTooltip(
+                `<div>
+                     Kothi → Kanda: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_03dfee30c3e2ac12e4418a3672ee43cb = L.polyline(
+                [[31.5525, 78.26579], [31.50914, 77.77097]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_0b4eb17c92ee428a6cf3cdef464472ff = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0f8a85c4c90bc68239e5caa16a1e9295 = $(`<div id="html_0f8a85c4c90bc68239e5caa16a1e9295" style="width: 100.0%; height: 100.0%;"><b>Kothi → Lavi fair</b> (fairs and markets)<ul><li>households (Kothi) TRADES_AT Lavi fair: <i>The seeds thus collected are mostly sold in Lavi fair at Rall&#x27;Ipllr._ ~ome are consumed by them also.</i> [Kothi, p. 79, 1961]</li></ul></div>`)[0];
+                popup_0b4eb17c92ee428a6cf3cdef464472ff.setContent(html_0f8a85c4c90bc68239e5caa16a1e9295);
+            
+        
+
+        poly_line_03dfee30c3e2ac12e4418a3672ee43cb.bindPopup(popup_0b4eb17c92ee428a6cf3cdef464472ff)
+        ;
+
+        
+    
+    
+            poly_line_03dfee30c3e2ac12e4418a3672ee43cb.bindTooltip(
+                `<div>
+                     Kothi → Lavi fair: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1a815d26d6b7c1e54240174e8f545373 = L.polyline(
+                [[31.59312, 78.00484], [31.3381, 76.76116]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_41fd0eb9aef9cf0ace4bed273cfa26de = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_76eb5dead79ee0819a15829636a70226 = $(`<div id="html_76eb5dead79ee0819a15829636a70226" style="width: 100.0%; height: 100.0%;"><b>Nachar → Bilaspur</b> (winter grounds)<ul><li>Kinnaura (Nachar) MIGRATES_TO Bilaspur: <i>They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures.</i> [Nachar, p. 33, 1961]</li></ul></div>`)[0];
+                popup_41fd0eb9aef9cf0ace4bed273cfa26de.setContent(html_76eb5dead79ee0819a15829636a70226);
+            
+        
+
+        poly_line_1a815d26d6b7c1e54240174e8f545373.bindPopup(popup_41fd0eb9aef9cf0ace4bed273cfa26de)
+        ;
+
+        
+    
+    
+            poly_line_1a815d26d6b7c1e54240174e8f545373.bindTooltip(
+                `<div>
+                     Nachar → Bilaspur: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_dc1cb2dbc3f51b61f113c7c625c885d2 = L.polyline(
+                [[31.59312, 78.00484], [31.65166, 77.00925]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_d68650afdfe84bd93a4690fbc707fa18 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4662650a80b978e84b5b12035ac9af50 = $(`<div id="html_4662650a80b978e84b5b12035ac9af50" style="width: 100.0%; height: 100.0%;"><b>Nachar → Mandi</b> (winter grounds)<ul><li>Kinnaura (Nachar) MIGRATES_TO Mandi: <i>They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures.</i> [Nachar, p. 33, 1961]</li></ul></div>`)[0];
+                popup_d68650afdfe84bd93a4690fbc707fa18.setContent(html_4662650a80b978e84b5b12035ac9af50);
+            
+        
+
+        poly_line_dc1cb2dbc3f51b61f113c7c625c885d2.bindPopup(popup_d68650afdfe84bd93a4690fbc707fa18)
+        ;
+
+        
+    
+    
+            poly_line_dc1cb2dbc3f51b61f113c7c625c885d2.bindTooltip(
+                `<div>
+                     Nachar → Mandi: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5262ff0fb4d0eea9d93d4b9707f80021 = L.polyline(
+                [[31.59312, 78.00484], [30.56018, 77.29236]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_779d168ccda8e6dacc6017f13bc5564e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_daa67b75fa441088f7a907f8e2cf356a = $(`<div id="html_daa67b75fa441088f7a907f8e2cf356a" style="width: 100.0%; height: 100.0%;"><b>Nachar → Sirmur</b> (winter grounds)<ul><li>Kinnaura (Nachar) MIGRATES_TO Sirmur: <i>They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures.</i> [Nachar, p. 33, 1961]</li></ul></div>`)[0];
+                popup_779d168ccda8e6dacc6017f13bc5564e.setContent(html_daa67b75fa441088f7a907f8e2cf356a);
+            
+        
+
+        poly_line_5262ff0fb4d0eea9d93d4b9707f80021.bindPopup(popup_779d168ccda8e6dacc6017f13bc5564e)
+        ;
+
+        
+    
+    
+            poly_line_5262ff0fb4d0eea9d93d4b9707f80021.bindTooltip(
+                `<div>
+                     Nachar → Sirmur: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6987ac90597602408caa0c1771b427a1 = L.polyline(
+                [[31.50914, 77.77097], [31.50914, 77.77097]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.7}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_ae5e6e9263c18a09a1c05ccb17f73624 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c598207b4f574244793c6c3de1ce288c = $(`<div id="html_c598207b4f574244793c6c3de1ce288c" style="width: 100.0%; height: 100.0%;"><b>Rampur → Lavi fair</b> (fairs and markets)<ul><li>shopkeeper TRADES_AT Lavi fair (11): <i>is held there in the second week of November every year which attracts thousands of people and traders from far off places.</i> [Mahasu, p. 56, 1961]</li><li>Lal Chand Negi TRADES_AT Lavi fair: <i>After a short stay in Kanum, Lal Chand brought these things to Rampur and sold them in the Lavi fair.</i> [Kanum, p. 132, 1961]</li></ul></div>`)[0];
+                popup_ae5e6e9263c18a09a1c05ccb17f73624.setContent(html_c598207b4f574244793c6c3de1ce288c);
+            
+        
+
+        poly_line_6987ac90597602408caa0c1771b427a1.bindPopup(popup_ae5e6e9263c18a09a1c05ccb17f73624)
+        ;
+
+        
+    
+    
+            poly_line_6987ac90597602408caa0c1771b427a1.bindTooltip(
+                `<div>
+                     Rampur → Lavi fair: fairs and markets, 2 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_40401a3672aa54df3388646b0a596470 = L.polyline(
+                [[31.32732, 77.48584], [31.50914, 77.77097]],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1baf7a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_6eff25c50abbd7edbd8ec142231bfd47);
+        
+    
+        var popup_b9190e3f0be2f9b17e4a1dc7d7b07795 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ea3eeff5a60a70fe79bb206f78e3e894 = $(`<div id="html_ea3eeff5a60a70fe79bb206f78e3e894" style="width: 100.0%; height: 100.0%;"><b>Shathla → Lavi fair</b> (fairs and markets)<ul><li>households (Shathla) TRADES_AT Lavi fair: <i>Gudmas, Namdas and Pashmina chadars are bought in the Lavi fair.</i> [Shathla, p. 22, 1961]</li></ul></div>`)[0];
+                popup_b9190e3f0be2f9b17e4a1dc7d7b07795.setContent(html_ea3eeff5a60a70fe79bb206f78e3e894);
+            
+        
+
+        poly_line_40401a3672aa54df3388646b0a596470.bindPopup(popup_b9190e3f0be2f9b17e4a1dc7d7b07795)
+        ;
+
+        
+    
+    
+            poly_line_40401a3672aa54df3388646b0a596470.bindTooltip(
+                `<div>
+                     Shathla → Lavi fair: fairs and markets, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_6eff25c50abbd7edbd8ec142231bfd47.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            var feature_group_cd6a636b3bac1b0db808be55a5f6baa9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_aa009a0e6386c7683eaa2337df865c06 = L.polyline(
+                [[31.14108, 76.96889], [31.61735, 77.00375]],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2a78d6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_cd6a636b3bac1b0db808be55a5f6baa9);
+        
+    
+        var popup_84d56320b174713c09c0419d0877081f = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f8d30895541b65bdd1c0f1b41a8e46fa = $(`<div id="html_f8d30895541b65bdd1c0f1b41a8e46fa" style="width: 100.0%; height: 100.0%;"><b>Batal → Seri</b> (winter grounds)<ul><li>Kinnaura (Batal) MIGRATES_TO Seri: <i>Kinnauras who ·stay near about the village in Seri in winter.</i> [Batal, p. 46, 1961]</li></ul></div>`)[0];
+                popup_84d56320b174713c09c0419d0877081f.setContent(html_f8d30895541b65bdd1c0f1b41a8e46fa);
+            
+        
+
+        poly_line_aa009a0e6386c7683eaa2337df865c06.bindPopup(popup_84d56320b174713c09c0419d0877081f)
+        ;
+
+        
+    
+    
+            poly_line_aa009a0e6386c7683eaa2337df865c06.bindTooltip(
+                `<div>
+                     Batal → Seri: winter grounds, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2b3074c9847f9291abe244c6262d2df7 = L.polyline(
+                [[31.22586, 77.73408], [30.94278, 77.77667]],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": "6 4", "dashOffset": null, "fill": false, "fillColor": "#eb6834", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.1}
+            ).addTo(feature_group_cd6a636b3bac1b0db808be55a5f6baa9);
+        
+    
+        var popup_d1f94085ac0f396138aa612a8aac794d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_742a0430992d69a3b5efc661a43e54c7 = $(`<div id="html_742a0430992d69a3b5efc661a43e54c7" style="width: 100.0%; height: 100.0%;"><b>Rohru → Lambi Dhar</b> (summer pastures)<ul><li>mobile herders (Gujjars, Gaddis and Kinnauras) GRAZES_AT Lambi Dhar: <i>Lambi Dhar  300  53  53  Shagh Thatch</i> [Mahasu, p. 335, 1961]</li></ul></div>`)[0];
+                popup_d1f94085ac0f396138aa612a8aac794d.setContent(html_742a0430992d69a3b5efc661a43e54c7);
+            
+        
+
+        poly_line_2b3074c9847f9291abe244c6262d2df7.bindPopup(popup_d1f94085ac0f396138aa612a8aac794d)
+        ;
+
+        
+    
+    
+            poly_line_2b3074c9847f9291abe244c6262d2df7.bindTooltip(
+                `<div>
+                     Rohru → Lambi Dhar: summer pastures, 1 claim(s)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_cd6a636b3bac1b0db808be55a5f6baa9.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            var feature_group_ebc3e6e7148966c14f74d7239065169c = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_e0b619fa1c4f366053ae91b55af7c28a = L.circleMarker(
+                [31.41764, 77.57414],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_e0b619fa1c4f366053ae91b55af7c28a.bindTooltip(
+                `<div>
+                     Kulu (region, 1240.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ddaa3bb76fbacbf9c0ec391c9f4926e = L.circleMarker(
+                [31.97703, 78.60404],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_2ddaa3bb76fbacbf9c0ec391c9f4926e.bindTooltip(
+                `<div>
+                     Hangrang valley (pasture, 3126.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b907016977a64778c885cf94500e06e = L.circleMarker(
+                [32.52732, 76.2998],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_8b907016977a64778c885cf94500e06e.bindTooltip(
+                `<div>
+                     Rao (pasture, 2156.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0134cae3ceebe7bc510045be6a687741 = L.circleMarker(
+                [32.24546, 77.18729],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_0134cae3ceebe7bc510045be6a687741.bindTooltip(
+                `<div>
+                     Manali (town, 1908.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f92d50e5feffb55118c95babbe22fd2 = L.circleMarker(
+                [31.38668, 77.91456],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_3f92d50e5feffb55118c95babbe22fd2.bindTooltip(
+                `<div>
+                     Suket (winter_ground, 3358.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_19f42dd220f8f17088299e6d3a83face = L.circleMarker(
+                [33.12319, 76.32174],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_19f42dd220f8f17088299e6d3a83face.bindTooltip(
+                `<div>
+                     Kishtwar (town, 2151.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_327c7cbda52e316a1f06d2282e264269 = L.circleMarker(
+                [31.52018, 78.18275],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_327c7cbda52e316a1f06d2282e264269.bindTooltip(
+                `<div>
+                     Runang (pasture, 2474.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a891b7b0ffab6ffb0e08eb0fbcd54114 = L.circleMarker(
+                [31.34969, 76.93053],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_a891b7b0ffab6ffb0e08eb0fbcd54114.bindTooltip(
+                `<div>
+                     Suni (winter_ground, 903.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f32763e1caea0854743c07c475f20b18 = L.circleMarker(
+                [32.371, 77.24627],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_f32763e1caea0854743c07c475f20b18.bindTooltip(
+                `<div>
+                     Rohtang pass (pass, 3978.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4025fa69e2381fef6687076b08c985f = L.circleMarker(
+                [31.15249, 76.94289],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_c4025fa69e2381fef6687076b08c985f.bindTooltip(
+                `<div>
+                     Arki (winter_ground, 1133.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e048860ac3243ae2889729848b83401 = L.circleMarker(
+                [32.53918, 77.19833],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_4e048860ac3243ae2889729848b83401.bindTooltip(
+                `<div>
+                     Lahaul (region, 4586.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90e3a98e8c7eff417d5323c426001192 = L.circleMarker(
+                [30.95926, 76.9099],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_90e3a98e8c7eff417d5323c426001192.bindTooltip(
+                `<div>
+                     Mehlog (winter_ground, 706.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_368527cbf3c52194096b212ad541edb5 = L.circleMarker(
+                [31.34229, 77.20077],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_368527cbf3c52194096b212ad541edb5.bindTooltip(
+                `<div>
+                     Karsog (winter_ground, 1461.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa55fecaf231d9c87ce5591176f094f2 = L.circleMarker(
+                [32.95833, 76.34399],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_aa55fecaf231d9c87ce5591176f094f2.bindTooltip(
+                `<div>
+                     Cheni pass (pass, 4321.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ba7924bb57fbefde0061ed544aba9be = L.circleMarker(
+                [31.65166, 77.00925],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_2ba7924bb57fbefde0061ed544aba9be.bindTooltip(
+                `<div>
+                     Mandi (region, 1538.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b9172543a4111fe1ff445633f4fd03ed = L.circleMarker(
+                [32.55744, 76.1284],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_b9172543a4111fe1ff445633f4fd03ed.bindTooltip(
+                `<div>
+                     Pathankot (winter_ground, 995.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7254af10d3e1769519b51dd51c232e9e = L.circleMarker(
+                [32.5777, 76.65779],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_7254af10d3e1769519b51dd51c232e9e.bindTooltip(
+                `<div>
+                     Chobia pass (pass, 4926.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fc34dcfd1572eb2140b34a48f446b957 = L.circleMarker(
+                [31.61735, 77.00375],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_fc34dcfd1572eb2140b34a48f446b957.bindTooltip(
+                `<div>
+                     Seri (winter_ground, 1682.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e48304418749533436d553cb4ed32bb1 = L.circleMarker(
+                [32.07687, 76.29859],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_e48304418749533436d553cb4ed32bb1.bindTooltip(
+                `<div>
+                     Kangra (region, 779.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54d3102e04d3437692b6fd3d263f7100 = L.circleMarker(
+                [33.00518, 76.50443],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_54d3102e04d3437692b6fd3d263f7100.bindTooltip(
+                `<div>
+                     Pangi (region, 3362.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ae1e95fafba202564d4f50a3e6069e3 = L.circleMarker(
+                [32.63148, 76.59742],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_0ae1e95fafba202564d4f50a3e6069e3.bindTooltip(
+                `<div>
+                     Kalicho pass (pass, 4595.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_04dac685198d2bd6a7973f892b8d0301 = L.circleMarker(
+                [32.69233, 76.16316],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_04dac685198d2bd6a7973f892b8d0301.bindTooltip(
+                `<div>
+                     Chamba (town, 2412.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_462a0329c430be166211b0a95e49acfb = L.circleMarker(
+                [32.29974, 75.88396],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_462a0329c430be166211b0a95e49acfb.bindTooltip(
+                `<div>
+                     Nurpur (winter_ground, 577.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c1f2776056402d18c52ad966038cc842 = L.circleMarker(
+                [30.88074, 77.32448],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_c1f2776056402d18c52ad966038cc842.bindTooltip(
+                `<div>
+                     Rajgarh (winter_ground, 1574.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59ddeb84ed9482f7e4c0d6c59e96ab48 = L.circleMarker(
+                [32.48745, 76.43608],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_59ddeb84ed9482f7e4c0d6c59e96ab48.bindTooltip(
+                `<div>
+                     Tarela (market, 1992.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5878f478d92772774109e2d4687298de = L.circleMarker(
+                [31.75, 80.36667],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_5878f478d92772774109e2d4687298de.bindTooltip(
+                `<div>
+                     Gartok (market, 4470.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97af1b2a1c5ec30ddd2f12b22cb7620a = L.circleMarker(
+                [32.19014, 76.35484],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_97af1b2a1c5ec30ddd2f12b22cb7620a.bindTooltip(
+                `<div>
+                     Market (market, 1166.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_686a68fd25e080c62546246017ced3f6 = L.circleMarker(
+                [31.3381, 76.76116],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_686a68fd25e080c62546246017ced3f6.bindTooltip(
+                `<div>
+                     Bilaspur (winter_ground, 572.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59d84f8b0938b1439a8769605cd632be = L.circleMarker(
+                [30.56018, 77.29236],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_59d84f8b0938b1439a8769605cd632be.bindTooltip(
+                `<div>
+                     Sirmur (winter_ground, 892.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_27e10616531e5fc6665735f64c330938 = L.circleMarker(
+                [31.50914, 77.77097],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_27e10616531e5fc6665735f64c330938.bindTooltip(
+                `<div>
+                     Lavi fair (market, 1714.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ecae3f16df6b6081458c8ba77d96779c = L.circleMarker(
+                [31.65166, 77.00925],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_ecae3f16df6b6081458c8ba77d96779c.bindTooltip(
+                `<div>
+                     Barchhwar-Nalwari Fair (market, 1538.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5e97872200e4ea8db4764c1ac7d6cf9 = L.circleMarker(
+                [33.006, 76.23992],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_f5e97872200e4ea8db4764c1ac7d6cf9.bindTooltip(
+                `<div>
+                     Sach Pass (pass, 4395.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f27ace8755070e91a43f53871b90e2f = L.circleMarker(
+                [30.94278, 77.77667],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_0f27ace8755070e91a43f53871b90e2f.bindTooltip(
+                `<div>
+                     Lambi Dhar (pasture, 2082.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64a5faf1933a46357511cf1af20e4883 = L.circleMarker(
+                [31.20773, 77.19381],
+                {"bubblingMouseEvents": true, "color": "#1baf7a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1baf7a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_64a5faf1933a46357511cf1af20e4883.bindTooltip(
+                `<div>
+                     Seoni (winter_ground, 891.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a11dd848d658d764536c4801af1be14 = L.circleMarker(
+                [31.12795, 77.26631],
+                {"bubblingMouseEvents": true, "color": "#eb6834", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb6834", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_5a11dd848d658d764536c4801af1be14.bindTooltip(
+                `<div>
+                     Kanda (pasture, 1949.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4de811ee110091c0d93bfda7d0bc4908 = L.circleMarker(
+                [31.26461, 77.12216],
+                {"bubblingMouseEvents": true, "color": "#2a78d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a78d6", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_ebc3e6e7148966c14f74d7239065169c);
+        
+    
+            circle_marker_4de811ee110091c0d93bfda7d0bc4908.bindTooltip(
+                `<div>
+                     Jammu (winter_ground, 1367.0 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_ebc3e6e7148966c14f74d7239065169c.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            var feature_group_bb715112a3476aaad3826659ffd920cf = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_75914a646ebfdf79213f27ed9c330cc3 = L.circleMarker(
+                [31.14108, 76.96889],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7905694150420945, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_75914a646ebfdf79213f27ed9c330cc3.bindTooltip(
+                `<div>
+                     Batal: 1088.0 m, 40 sheep and goats (river system not assigned)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_246d8808ffa0ff7d9972c4f146ae0b6c = L.marker(
+                [31.14108, 76.96889],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_31621a7a56e31aa03b1a2f637b1b0777 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eBatal\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_246d8808ffa0ff7d9972c4f146ae0b6c.setIcon(div_icon_31621a7a56e31aa03b1a2f637b1b0777);
+            
+    
+            var circle_marker_6ff817b8e934f43c70728f7e39bf7d6a = L.circleMarker(
+                [32.44167, 76.53646],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.370334521391603, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_6ff817b8e934f43c70728f7e39bf7d6a.bindTooltip(
+                `<div>
+                     Brahmaur: 2149.0 m, 4484 sheep and goats (Ravi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a7d0d19b90f9b1ae69865971a31cdb31 = L.marker(
+                [32.44167, 76.53646],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_3e5224c4dad516fe4fad39dde0a1c8ec = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eBrahmaur\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_a7d0d19b90f9b1ae69865971a31cdb31.setIcon(div_icon_3e5224c4dad516fe4fad39dde0a1c8ec);
+            
+    
+            var circle_marker_eb379d795f2ff6f6e4cfd23716246922 = L.circleMarker(
+                [30.98871, 77.26344],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.838525491562422, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_eb379d795f2ff6f6e4cfd23716246922.bindTooltip(
+                `<div>
+                     Chaunri: 1537.0 m, 45 sheep and goats (Yamuna)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9aceae00924da8b683e6fec4e8be45e0 = L.marker(
+                [30.98871, 77.26344],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_0856eca86fe9462448d5670696634ccb = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eChaunri\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_9aceae00924da8b683e6fec4e8be45e0.setIcon(div_icon_0856eca86fe9462448d5670696634ccb);
+            
+    
+            var circle_marker_4a627f9d200d507f88c20497154faf73 = L.circleMarker(
+                [32.01455, 76.73551],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.800390529679106, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_4a627f9d200d507f88c20497154faf73.bindTooltip(
+                `<div>
+                     Chauntra: 1278.0 m, 41 sheep and goats (Beas)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5935801145db04d44c851a0735788abd = L.marker(
+                [32.01455, 76.73551],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_63346692d543ccd179987e9299fda0bb = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eChauntra\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_5935801145db04d44c851a0735788abd.setIcon(div_icon_63346692d543ccd179987e9299fda0bb);
+            
+    
+            var circle_marker_bf7d3d65ba83e757e0b9df8611862eee = L.circleMarker(
+                [30.97046, 77.52563],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.403121520040228, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_bf7d3d65ba83e757e0b9df8611862eee.bindTooltip(
+                `<div>
+                     Chaupal: 2709.0 m, 126 sheep and goats (Yamuna)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_222e4760d4fdfdc1d06bfd626a3e1424 = L.marker(
+                [30.97046, 77.52563],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_55f8536bbdf6a6b5f4a034131e01964d = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eChaupal\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_222e4760d4fdfdc1d06bfd626a3e1424.setIcon(div_icon_55f8536bbdf6a6b5f4a034131e01964d);
+            
+    
+            var circle_marker_e1016e5fc5ba028f14eebcf00697452f = L.circleMarker(
+                [32.9066, 76.22464],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.570626324695557, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_e1016e5fc5ba028f14eebcf00697452f.bindTooltip(
+                `<div>
+                     Devi-Kothi: 2408.0 m, 1337 sheep and goats (Ravi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_948103491e4ef6be0b71fe43d832854b = L.marker(
+                [32.9066, 76.22464],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_c44586d29deff6f308ac2506a22f6636 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eDevi-Kothi\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_948103491e4ef6be0b71fe43d832854b.setIcon(div_icon_c44586d29deff6f308ac2506a22f6636);
+            
+    
+            var circle_marker_f640464157c6aebc0cc1f3e99b9cd18f = L.circleMarker(
+                [31.67654, 78.45131],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.342927568290627, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_f640464157c6aebc0cc1f3e99b9cd18f.bindTooltip(
+                `<div>
+                     Kanum: 2763.0 m, 1827 sheep and goats (Sutlej)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_440ff4f3eb405a74ccd4d90feaee6bca = L.marker(
+                [31.67654, 78.45131],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_983c7f488dbabe8372cc88c873b922cf = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eKanum\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_440ff4f3eb405a74ccd4d90feaee6bca.setIcon(div_icon_983c7f488dbabe8372cc88c873b922cf);
+            
+    
+            var circle_marker_567d67a3927317159f8a3d7099913881 = L.circleMarker(
+                [31.80927, 76.86576],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.7984368212422694, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_567d67a3927317159f8a3d7099913881.bindTooltip(
+                `<div>
+                     Kot: 1036.0 m, 207 sheep and goats (Beas)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_079155bfb0076e3353688b72fad91e0b = L.marker(
+                [31.80927, 76.86576],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_12c1df37a14bb362938770e9d455d25d = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eKot\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_079155bfb0076e3353688b72fad91e0b.setIcon(div_icon_12c1df37a14bb362938770e9d455d25d);
+            
+    
+            var circle_marker_c75bd2fa90ff25efd985ba4587d523ea = L.circleMarker(
+                [31.5525, 78.26579],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.320848439885266, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_c75bd2fa90ff25efd985ba4587d523ea.bindTooltip(
+                `<div>
+                     Kothi: 2550.0 m, 2557 sheep and goats (Sutlej)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fdb6b33da0ec3df2c246b9424af5f39e = L.marker(
+                [31.5525, 78.26579],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_b8f5fa1355a0cfdd551680cc40e3b0d0 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eKothi\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_fdb6b33da0ec3df2c246b9424af5f39e.setIcon(div_icon_b8f5fa1355a0cfdd551680cc40e3b0d0);
+            
+    
+            var circle_marker_fbd7d068dce794ef89fa16d58b1fc227 = L.circleMarker(
+                [32.66339, 76.20536],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.515576474687263, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_fbd7d068dce794ef89fa16d58b1fc227.bindTooltip(
+                `<div>
+                     Maingal: 2302.0 m, 405 sheep and goats (Ravi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_099e2516b1913ecac16daf927f1072ef = L.marker(
+                [32.66339, 76.20536],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_a74b61b8943d9642258634b717216923 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eMaingal\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_099e2516b1913ecac16daf927f1072ef.setIcon(div_icon_a74b61b8943d9642258634b717216923);
+            
+    
+            var circle_marker_ab631486d5a29900de5e7d1c87a2a350 = L.circleMarker(
+                [31.59312, 78.00484],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_ab631486d5a29900de5e7d1c87a2a350.bindTooltip(
+                `<div>
+                     Nachar: 3624.0 m, no sheep and goats (Sutlej)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7b37506bec3367cf7c6c5f56e56fe75d = L.marker(
+                [31.59312, 78.00484],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_e5df7f62491417dfa84e61a990a17ebc = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eNachar\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_7b37506bec3367cf7c6c5f56e56fe75d.setIcon(div_icon_e5df7f62491417dfa84e61a990a17ebc);
+            
+    
+            var circle_marker_f715282f26fe2a883951b154ef87d485 = L.circleMarker(
+                [31.48133, 76.80999],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.3684119151870515, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_f715282f26fe2a883951b154ef87d485.bindTooltip(
+                `<div>
+                     Nalag: 982.0 m, 359 sheep and goats (Sutlej)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d981d965d98d3b6fe84ac6a96fef3183 = L.marker(
+                [31.48133, 76.80999],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_7b6f1660b383c5405e9b91a7735fb97d = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eNalag\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_d981d965d98d3b6fe84ac6a96fef3183.setIcon(div_icon_7b6f1660b383c5405e9b91a7735fb97d);
+            
+    
+            var circle_marker_8412f4e3e66d88bcba7038baef9824bf = L.circleMarker(
+                [31.38553, 77.12342],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.984250984251476, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_8412f4e3e66d88bcba7038baef9824bf.bindTooltip(
+                `<div>
+                     Pangna: 1498.0 m, 62 sheep and goats (river system not assigned)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_160db36a4784a0d85b1fab1d6909cdf7 = L.marker(
+                [31.38553, 77.12342],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_6a0772b68278952a396468a265ef2818 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003ePangna\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_160db36a4784a0d85b1fab1d6909cdf7.setIcon(div_icon_6a0772b68278952a396468a265ef2818);
+            
+    
+            var circle_marker_091b40df6bd9ec8ab1dae6674aa06418 = L.circleMarker(
+                [30.66432, 77.44565],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.955397604384222, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_091b40df6bd9ec8ab1dae6674aa06418.bindTooltip(
+                `<div>
+                     Rajana: 1251.0 m, 559 sheep and goats (Yamuna)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dcbaa599c629bb56aae1dd87e281921d = L.marker(
+                [30.66432, 77.44565],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_8466d97be48c0781932de2636cd67519 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eRajana\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_dcbaa599c629bb56aae1dd87e281921d.setIcon(div_icon_8466d97be48c0781932de2636cd67519);
+            
+    
+            var circle_marker_25c0114db443aaa619fd5c6cf3570085 = L.circleMarker(
+                [31.32732, 77.48584],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_25c0114db443aaa619fd5c6cf3570085.bindTooltip(
+                `<div>
+                     Shathla: 1937.0 m, no sheep and goats (river system not assigned)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3db366993922034c7830434cc93da424 = L.marker(
+                [31.32732, 77.48584],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_a2bcc35e8a95c50d50c3d2ea42837dec = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eShathla\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_3db366993922034c7830434cc93da424.setIcon(div_icon_a2bcc35e8a95c50d50c3d2ea42837dec);
+            
+    
+            var circle_marker_a5b41d1afb447f596516d91a36dd011f = L.circleMarker(
+                [32.55609, 76.97471],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.449489742783178, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_a5b41d1afb447f596516d91a36dd011f.bindTooltip(
+                `<div>
+                     Tandi: 2950.0 m, 384 sheep and goats (Chenab)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd81156e71c58b2583b171d406a81abd = L.marker(
+                [32.55609, 76.97471],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_eaa688965cb8c5313f0d25f185fec75b = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eTandi\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_cd81156e71c58b2583b171d406a81abd.setIcon(div_icon_eaa688965cb8c5313f0d25f185fec75b);
+            
+    
+            var circle_marker_06b98626a2b36978147320c07bdee42c = L.circleMarker(
+                [32.46984, 76.70454],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_06b98626a2b36978147320c07bdee42c.bindTooltip(
+                `<div>
+                     Kugti village: 2613.0 m, no sheep and goats (river system not assigned)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0985178cc10b70b2378fdeddc9f7c504 = L.marker(
+                [32.46984, 76.70454],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_abf54ae359ea8773c6eab48a2205c971 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eKugti village\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_0985178cc10b70b2378fdeddc9f7c504.setIcon(div_icon_abf54ae359ea8773c6eab48a2205c971);
+            
+    
+            var circle_marker_b137248c838c98922513aa1627463135 = L.circleMarker(
+                [31.6003, 78.56678],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_b137248c838c98922513aa1627463135.bindTooltip(
+                `<div>
+                     Moorang: 4845.0 m, no sheep and goats (river system not assigned)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6698a5f6db1313953f978c40aebd7277 = L.marker(
+                [31.6003, 78.56678],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_8345fe68dc1ec08f96e16d27c8930e96 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eMoorang\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_6698a5f6db1313953f978c40aebd7277.setIcon(div_icon_8345fe68dc1ec08f96e16d27c8930e96);
+            
+    
+            var circle_marker_9c253a7200602373d9ee8760e19ed8eb = L.circleMarker(
+                [32.0618, 77.26002],
+                {"bubblingMouseEvents": true, "color": "#0b0b0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fcfcfb", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.5}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            circle_marker_9c253a7200602373d9ee8760e19ed8eb.bindTooltip(
+                `<div>
+                     Malana: 2654.0 m, no sheep and goats (river system not assigned)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_84bdd5e5ee0cb67aae8634e5fbef3f15 = L.marker(
+                [32.0618, 77.26002],
+                {
+}
+            ).addTo(feature_group_bb715112a3476aaad3826659ffd920cf);
+        
+    
+            var div_icon_111248f197b6ada2492efd3223638684 = L.divIcon({
+  "html": "\u003cdiv style=\"font:600 11px system-ui;color:#0b0b0b;transform:translate(8px,-6px);text-shadow:0 0 3px #fff,0 0 3px #fff\"\u003eMalana\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_84bdd5e5ee0cb67aae8634e5fbef3f15.setIcon(div_icon_111248f197b6ada2492efd3223638684);
+            
+    
+            feature_group_bb715112a3476aaad3826659ffd920cf.addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+        
+    
+            map_cc1f044f6b3794852eb4fca59fcfa58d.fitBounds(
+                [[30.41018, 75.73396], [33.27319, 80.51667]],
+                {}
+            );
+        
+    
+            var layer_control_597cbc0625d5e96adb5a25bcd3a75456_layers = {
+                base_layers : {
+                    "Plain (OpenStreetMap)" : tile_layer_5b552e4948b21907435b5e1f50de8096,
+                    "Relief (OpenTopoMap)" : tile_layer_6295786e615b4bd53ca62ddea21e9c9e,
+                },
+                overlays :  {
+                    "Routes: Beas (4 claims)" : feature_group_85f0f34eeb749b7cda4f72ecfd6894a7,
+                    "Routes: Chenab (12 claims)" : feature_group_60f4e5d920ce216f99ed32e35ad92e06,
+                    "Routes: Ravi (27 claims)" : feature_group_4f88c540eb9fa27a0e85cb5d691c1d6c,
+                    "Routes: Sutlej (46 claims)" : feature_group_6eff25c50abbd7edbd8ec142231bfd47,
+                    "Routes: other or none (2 claims)" : feature_group_cd6a636b3bac1b0db808be55a5f6baa9,
+                    "Pastures, passes, winter grounds and fairs" : feature_group_ebc3e6e7148966c14f74d7239065169c,
+                    "Survey villages (1961)" : feature_group_bb715112a3476aaad3826659ffd920cf,
+                },
+            };
+            let layer_control_597cbc0625d5e96adb5a25bcd3a75456 = L.control.layers(
+                layer_control_597cbc0625d5e96adb5a25bcd3a75456_layers.base_layers,
+                layer_control_597cbc0625d5e96adb5a25bcd3a75456_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_cc1f044f6b3794852eb4fca59fcfa58d);
+
+        
+</script>
+</html>

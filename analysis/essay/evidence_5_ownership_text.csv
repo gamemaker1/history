@@ -1,0 +1,256 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c1f76735d16,Gaddi,OWNS,sheep and goats,,,,,Kangra,Beas,standing,1881,267,1881,ai_checked,supported,The Gadis keep flocks of sheep and goats
+c9fd2e2a1ca,Gaddi,OWNS,sheep and goats,,,,,Kangra,Beas,standing,1881,267,1881,ai_checked,supported,"The Gadis keep flocks of sheep and goats, and the Gujar's wealth consists of buffaloes"
+cf9d665243a,Gujjar,OWNS,buffaloes,,,,,Kangra,Beas,standing,1881,267,1881,ai_checked,supported,the Gujar's wealth consists of buffaloes
+cc4a86dd3f4,Gujjar,OWNS,buffaloes,,,,,Kangra,Beas,standing,1881,267,1881,ai_checked,supported,"The Gadis keep flocks of sheep and goats, and the Gujar's wealth consists of buffaloes"
+c6d632a7819,Gaddi,OWNS,sheep and goats,,,,,,,standing,1881,275,1881,ai_checked,supported,The greater portion of their wealth consists of flocks of sheep and goats
+c7d09813307,Gaddi,OWNS,sheep and goats,,,,,,,standing,Rose,297,1911,ai_checked,supported,"The Gaddis are a semi-pastoral and semi-agricultnral tribe,and own large flocks of sheep and goats, which are their chief source of wealth"
+c22d4180d6b,Gaddi,OWNS,sheep and goats,,,,,Kangra,Beas,standing,Rose,346,1911,ai_checked,supported,"The Gaddis keep flocks of sheep and goats, and the Gujar’s wealth consists of buffaloes."
+c3e2012220d,Gujjar,OWNS,buffaloes,,,,,Kangra,Beas,standing,Rose,346,1911,ai_checked,supported,"The Gaddis keep flocks of sheep and goats, and the Gujar’s wealth consists of buffaloes."
+cab3add4053,households (Basal),OWNS,buffaloes,,,,,Basal,,standing,Basal,77,1961,ai_checked,supported,"Every household rears a sizeable live-stock, consisting of cows, bullocks, buffaloes, sheep and goats."
+c3e37fb02f8,households (Basal),OWNS,sheep and goats,,,,,Basal,,standing,Basal,77,1961,ai_checked,supported,"Every household rears a sizeable live-stock, consisting of cows, bullocks, buffaloes, sheep and goats."
+c258a369c1b,households (Basal),OWNS,sheep,,,,,Basal,,standing,Basal,79,1961,ai_checked,supported,The sheep owned by the villagers provide
+c62abb816f1,households (Batal),OWNS,sheep and goats,,,,,Batal,,standing,Batal,43,1961,ai_checked,supported,"Goat and sheep are own·
+eel by only a few h6us.ehold~."
+c7335dfc896,households (Bir),OWNS,sheep,,,,,Bir,Beas,standing,Bir,19,1961,ai_checked,supported,The wool used sometimes is of sheep kept by the villagers.
+cf96abfbb97,Jethu household,OWNS,buffaloes,,2,buffaloes,,Bir,Beas,standing,Bir,32,1961,ai_checked,supported,"The live-stock with the household is as under:2
+Buffaloes
+2
+She-caJv~s of buffalo
+4
+Cows
+4
+Bulls
+2
+He-calves
+5
+Sheep
+20
+Goats"
+cfaa1cb8fe8,Jethu household,OWNS,sheep,,5,sheep,,Bir,Beas,standing,Bir,32,1961,ai_checked,supported,"The live-stock with the household is as under:2
+Buffaloes
+2
+She-caJv~s of buffalo
+4
+Cows
+4
+Bulls
+2
+He-calves
+5
+Sheep
+20
+Goats"
+c4f41d9124e,Jethu household,OWNS,goats,,20,goats,,Bir,Beas,standing,Bir,32,1961,ai_checked,supported,"The live-stock with the household is as under:2
+Buffaloes
+2
+She-caJv~s of buffalo
+4
+Cows
+4
+Bulls
+2
+He-calves
+5
+Sheep
+20
+Goats"
+cdaba81208a,households (Bir),OWNS,sheep,,69,sheep,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,There are 139 goats and 69 sheep possessed by 24 households.
+c05f71dc011,households (Bir),OWNS,sheep,,,,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,The sheep arc reared for obtaining wool which the villagers spin and make cloth and pattoos.
+cea421cc04f,households (Bir),OWNS,buffaloes,,31,buffaloes,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,31 buffaloes are possessed by 12 households of Rajputs and 5 of Chamars.
+c2ff546e72d,households (Bir),OWNS,buffaloes,,,,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,A pahari buffalo cost Rs. 200 to Rs. 300.
+c69e5f43f3b,households (Bir),OWNS,goats,,139,goats,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,There are 139 goats and 69 sheep possessed by 24 households.
+c38a1fde7f9,households (Bir),OWNS,sheep and goats,,24,households owning sheep and goats,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,There are 139 goats and 69 sheep possessed by 24 households.
+cf0e93fb84c,Rajput (Bir),OWNS,buffaloes,,12,households owning buffaloes,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,31 buffaloes are possessed by 12 households of Rajputs and 5 of Chamars.
+c541d70672c,Chamar (Bir),OWNS,buffaloes,,5,households owning buffaloes,,Bir,Beas,standing,Bir,43,1961,ai_checked,supported,31 buffaloes are possessed by 12 households of Rajputs and 5 of Chamars.
+c7c4cf83ec7,Gaddi (Brahmaur),OWNS,sheep and goats,,,,,Brahmaur,Ravi,standing,Brahmaur,12,1961,ai_checked,supported,flocks of sheep and goats which they graze
+cff856ed6ce,Gaddi (Brahmaur),OWNS,sheep and goats,,,,,Brahmaur,Ravi,standing,Brahmaur,23,1961,ai_checked,supported,although many uf them rear sheep and goats.
+c606bde1fb7,Sipi (Brahmaur),OWNS,sheep and goats,,,,,Brahmaur,Ravi,standing,Brahmaur,23,1961,ai_checked,supported,"A few of them also rear sheep and goats, but they do not work as cobblers"
+c04083a6528,Rajput (Brahmaur),OWNS,sheep and goats,,,,,Brahmaur,Ravi,standing,Brahmaur,23,1961,ai_checked,supported,"and it is they who possess the largest number of sheep and goats, and are generally"
+c689252b520,households (Brahmaur),OWNS,sheep and goats,,4484,sheep or goats,,Brahmaur,Ravi,standing,Brahmaur,54,1961,ai_checked,supported,"The number of goats and sheep-reared by the villagers is 4484, and the following table shows the ownership community-wise"
+c4e530e1fe9,Sipi (Brahmaur),OWNS,sheep and goats,,93,sheep or goats,,Brahmaur,Ravi,standing,Brahmaur,54,1961,ai_checked,supported,"Sipi
+
+15
+
+8
+
+93"
+cfcff802744,Brahman (Brahmaur),OWNS,sheep and goats,,2027,sheep or goats,,Brahmaur,Ravi,standing,Brahmaur,54,1961,ai_checked,supported,"Brahman
+
+34
+
+20
+
+2,027"
+c18d6daebee,Rajput (Brahmaur),OWNS,sheep and goats,,2364,sheep or goats,,Brahmaur,Ravi,standing,Brahmaur,54,1961,ai_checked,supported,"Rajput
+
+49
+
+20
+
+2,364"
+c08b69292a8,malundi (Brahmaur),OWNS,sheep and goats,,,,,Brahmaur,Ravi,standing,Brahmaur,55,1961,ai_checked,supported,Malundi or owner of the mal is a shepherd who ~ends his own flock.
+ca336f143ce,households (Brahmaur),OWNS,sheep,,,,,Brahmaur,Ravi,standing,Brahmaur,59,1961,ai_checked,supported,The wool obtained from the sheep reared by the family or purchased from others is spun on charkha by ladies or on takli called unsar by menfolk.
+c773bcb418e,Chaunri,OWNS,buffaloes,,,,,Chaunri,Yamuna,standing,Chaunri,34,1961,ai_checked,supported,"The cattle wealth 'of tHe villagerS""'consists of cows, buffaloes oxen, sheep and goats."
+c8bdc41de4c,Chaunri,OWNS,sheep and goats,,,,,Chaunri,Yamuna,standing,Chaunri,34,1961,ai_checked,supported,Number of sheep and goats is very few.
+cc1e698566c,shepherd (Chauntra),OWNS,sheep and goats,,,,,Chauntra,Beas,standing,Chauntra,16,1961,ai_checked,supported,The land served as pasture for the Hocks of sheep and goats belonging to the shepherds who migrated from high hills.
+cb1a96bce7b,Gaddi (Chauntra),OWNS,sheep and goats,,,,,Chauntra,Beas,standing,Chauntra,7,1961,ai_checked,supported,innumerable goats and sheep and their owners the Gaddis roaming around all over Chauritra during autumn and spring
+c01aead901e,households (Chaupal),OWNS,buffaloes,,,,,Chaupal,Yamuna,standing,Chaupal,47,1961,ai_checked,supported,A few better off families have kept buffaloes.
+cf19098e971,households (Chaupal),OWNS,sheep,,,,,Chaupal,Yamuna,standing,Chaupal,54,1961,ai_checked,supported,The Wool is obtained from the sheep that the villagers have.
+ceac5332100,Dilmi Koli,OWNS,sheep and goats,,,,,Chaupal,Yamuna,standing,Chaupal,58,1961,ai_checked,supported,Dilmi Koli washes the clothes of Govt. officials and keeps goats and sheep.
+ca9ad117215,households (Chergaon),OWNS,buffaloes,,,,,Chergaon,Yamuna,standing,Chergaon,30,1961,ai_checked,supported,Households possessing buffaloes sell milk to the Banias and to Govcrn.llf:nt offlcials.
+cf189ae796c,households (Chergaon),OWNS,sheep and goats,,,,,Chergaon,Yamuna,standing,Chergaon,57,1961,ai_checked,supported,"In some cases a household owning many of goats and sheep, a member"
+c8f11f9cf2a,households (Chergaon),OWNS,sheep,,,,,Chergaon,Yamuna,standing,Chergaon,61,1961,ai_checked,supported,The local wool of their sheep is not sufficient to meet their requirement
+c9ccbabc28c,households (Chergaon),OWNS,buffaloes,,,,,Chergaon,Yamuna,standing,Chergaon,70,1961,ai_checked,supported,Households who have kept buffaioes spend little on fodder like khad.
+cd21c12e0a9,shepherd (Chitrari),OWNS,sheep and goats,,,,,Chitrari,Ravi,standing,Chitrari,23,1961,ai_checked,supported,Each shepherd is allotted a particular pasture of dhar for his pwn flock consisting of a number of goats and sheep.
+c34da8c59e4,Chitrari,OWNS,sheep,,,,,Chitrari,Ravi,standing,Chitrari,38,1961,ai_checked,supported,Goats and sheep are kept for wool and meat
+c33083c1b0d,Chitrari,OWNS,goats,,,,,Chitrari,Ravi,standing,Chitrari,38,1961,ai_checked,supported,Goats and sheep are kept for wool and meat
+c1ab908a237,households (Chitrari),OWNS,sheep and goats,,,,,Chitrari,Ravi,standing,Chitrari,53,1961,ai_checked,supported,"The livestock kept by the Chitrari farmer consists of cattle, sheep and goats and a very few have started keeping poultry."
+ce82bbed2eb,households (Devi-Kothi),OWNS,sheep,,,,,Devi-Kothi,Ravi,standing,Devi-Kothi,26,1961,ai_checked,supported,if a family does not possess sufficient sheep
+c2054ef35f1,Devi-Kothi,OWNS,sheep,,1117,sheep,,Devi-Kothi,Ravi,standing,Devi-Kothi,47,1961,ai_checked,supported,"In 1961 Cattle Census the number of animals in the village was, 1,826. Out of them 1,117 were sheep, 220 goats"
+c1b199b2729,Devi-Kothi,OWNS,goats,,220,goats,,Devi-Kothi,Ravi,standing,Devi-Kothi,47,1961,ai_checked,supported,"In 1961 Cattle Census the number of animals in the village was, 1,826. Out of them 1,117 were sheep, 220 goats"
+cae5418cec0,Devi-Kothi,OWNS,buffaloes,,91,buffaloes,,Devi-Kothi,Ravi,standing,Devi-Kothi,47,1961,ai_checked,supported,"4. Buffaloes
+91"
+ca1af2855fe,Devi-Kothi,OWNS,buffaloes,,12,buffalo calves under 3 years,,Devi-Kothi,Ravi,standing,Devi-Kothi,47,1961,ai_checked,supported,"5. Buffaloe calves under 3 years
+12"
+cd00aa76fa3,households (Kalath),OWNS,buffaloes,,10,buffaloes,,Kalath,,standing,Kalath,76,1961,ai_checked,supported,4 keep 10 buffaloes
+cb97f156438,households (Kalath),OWNS,goats,,17,goats,,Kalath,,standing,Kalath,76,1961,ai_checked,supported,"4 keep 10 buffaloes, 4 own 17
+goats"
+cb0dc9b29ca,households (Kalath),OWNS,sheep,,2,sheep,,Kalath,,standing,Kalath,76,1961,ai_checked,supported,"goats, one maintains 2 sheep"
+c7d22196b89,Makhan Lal Negi,OWNS,sheep,,35,rams,,Kanum,Sutlej,standing,Kanum,131,1961,ai_checked,supported,With his 35 rams and 4 asses he managed to buy things at Rampur
+cef42dca046,Negi (Kanum),OWNS,goats,,,,,Kanum,Sutlej,standing,Kanum,51,1961,ai_checked,supported,Goats and sheep are reared by all the Negi families.
+c922e315ea5,Negi (Kanum),OWNS,sheep,,,,,Kanum,Sutlej,standing,Kanum,51,1961,ai_checked,supported,Goats and sheep are reared by all the Negi families.
+cd06041eccc,Scheduled castes (Kanum),OWNS,sheep and goats,,,,,Kanum,Sutlej,standing,Kanum,51,1961,ai_checked,supported,Only 15 to 6 households amongst the scheduled castes have small number of goats and sheep which they keep with the flocks of the Negis.
+c3c65570e40,households (Kanum),OWNS,sheep and goats,,,,,Kanum,Sutlej,standing,Kanum,61,1961,ai_checked,supported,From the livestock statistics it is clear that the largest number is of goats and sheep.
+c5d90291f66,households (Kanum),OWNS,sheep and goats,,,,,Kanum,Sutlej,standing,Kanum,85,1961,ai_checked,supported,Goats and she'ep are the chief riches of the people here as they furnish them with wool.
+c079b1a75d1,households (Kot),OWNS,buffaloes,,,,,Kot,Beas,standing,Kot,56,1961,ai_checked,supported,"Every household rears livestock, consisting of cows, bullocks, buffaloes, sheep and goats"
+cb5e3af2b11,households (Kot),OWNS,sheep and goats,,,,,Kot,Beas,standing,Kot,56,1961,ai_checked,supported,"Every household rears livestock, consisting of cows, bullocks, buffaloes, sheep and goats"
+cf4f42aacd1,households (Kot),OWNS,sheep,,,,,Kot,Beas,standing,Kot,58,1961,ai_checked,supported,viflagers keep sheep to meet their demands.
+c4e261d0cf5,households (Kothi),OWNS,sheep and goats,,,,,Kothi,Sutlej,standing,Kothi,79,1961,ai_checked,supported,"Sheep-breeding is followed by almost all villagers as it provides them with meat and wool besides cash, which they obtain by selling their surplus stock and wool."
+c94c065e0ea,households (Kothi),OWNS,sheep and goats,,,,,Kothi,Sutlej,standing,Kothi,91,1961,ai_checked,supported,The chief riches of th e villagers are the flock of sheep and goats which furnish them with fine soft wool.
+ce891d251fb,households (Kupha),OWNS,sheep and goats,,8,sheep and goats per family,,Kupha,Chenab,standing,Kupha,131,1961,ai_checked,supported,Every family has a few sheep and goats. The average number of sheep and goats is 8.
+caaad604756,households (Kupha),OWNS,sheep and goats,,,,,Kupha,Chenab,standing,Kupha,55,1961,ai_checked,supported,water is sprinkled on the backs of all the goats and sheep reared by a household
+c1e14cd49dc,households (Kupha),OWNS,sheep and goats,,,,,Kupha,Chenab,standing,Kupha,65,1961,ai_checked,supported,"Every household rears sizeable livestock
+and keeps herds of sheep and goats."
+c38ecd1b930,households (Kupha),OWNS,sheep and goats,,7,sheep and goats per household,,Kupha,Chenab,standing,Kupha,65,1961,ai_checked,supported,"Drought cattle
+Sheep f Goats
+Fowl
+
+3
+1
+7"
+c5a7004e988,households (Kupha),OWNS,goats,,,,,Kupha,Chenab,standing,Kupha,80,1961,ai_checked,supported,"Every household rears a big live stock which ~ousists of choor, choori, goats and sheep."
+c46cb8ede76,households (Kupha),OWNS,sheep,,,,,Kupha,Chenab,standing,Kupha,80,1961,ai_checked,supported,"Every household rears a big live stock which ~ousists of choor, choori, goats and sheep."
+c8505736aa1,"Sheep Breeding Farm, Jeori",OWNS,sheep,,191,indigenous ewes,,Mahasu,,standing,Mahasu,38,1961,ai_checked,supported,"one sheep breeding farm has been establisl).ed at J eori, on 1st Octooer, 1955 with a foundation stock of 191 indigenous ewes."
+c1b27965232,Gujjar (Maingal),OWNS,buffaloes,,,,,Maingal,Ravi,standing,Maingal,44,1961,ai_checked,supported,they are mainly dependent on the yield of their buffaloes.
+ca27fca6904,Gujjar (Maingal),OWNS,buffaloes,,217,buffaloes,,Maingal,Ravi,standing,Maingal,48,1961,ai_checked,supported,In 25 Gujjar households tlIe number of buffaloes is 217
+c508c907145,Moginand,OWNS,goats,,160,goats,,Moginand,,standing,Moginand,45,1961,ai_checked,supported,160 goats are reared by 23 households and 100
+ca9752a02b0,Moginand,OWNS,sheep,,,,,Moginand,,standing,Moginand,45,1961,ai_checked,supported,Side by side goats and sheep of pahari variety are also reared.
+cd1baf64b86,households (Nachar),OWNS,sheep and goats,,,,,Nachar,Sutlej,standing,Nachar,18,1961,ai_checked,supported,"Since sheep and goats are reared by every household, it is not difficult to obtain meat."
+c58744cb2be,households (Nachar),OWNS,sheep and goats,,,sheep and goats per family,,Nachar,Sutlej,standing,Nachar,33,1961,ai_checked,supported,"On an average, 100 to 200 sheep and goats are kept by a family."
+ccad59ab5bc,Kinnaura (Nachar),OWNS,sheep and goats,,,,,Nachar,Sutlej,standing,Nachar,33,1961,ai_checked,supported,"In Nachar, a number of families. rear sheep and goats and the Lambardar of the village has about 1,100 strong flock."
+ce032485924,households (Nalag),OWNS,buffaloes,,,,,Nalag,Sutlej,standing,Nalag,31,1961,ai_checked,supported,"Every household rears livestock, comprising of
+cows, buffalos, oxen, goats and sheep."
+cd5e44a1bd1,households (Nalag),OWNS,buffaloes,,,,,Nalag,Sutlej,standing,Nalag,31,1961,ai_checked,supported,The cows and buffalos are kept for obtaining milk.
+c8e75c9280a,households (Nalag),OWNS,goats,,,,,Nalag,Sutlej,standing,Nalag,31,1961,ai_checked,supported,"Every household rears livestock, comprising of
+cows, buffalos, oxen, goats and sheep."
+c3e881a538a,households (Nalag),OWNS,goats,,,,,Nalag,Sutlej,standing,Nalag,31,1961,ai_checked,supported,The goats arc kept for meat and sheep are reared for both meat
+c5d74cc2a63,households (Nalag),OWNS,sheep,,,,,Nalag,Sutlej,standing,Nalag,31,1961,ai_checked,supported,"Every household rears livestock, comprising of
+cows, buffalos, oxen, goats and sheep."
+c6abc647d20,households (Nalag),OWNS,sheep,,,,,Nalag,Sutlej,standing,Nalag,31,1961,ai_checked,supported,The goats arc kept for meat and sheep are reared for both meat and wool.
+c176d59e6ec,households,OWNS,sheep and goats,,,,,Goshen,,standing,Newell,30,1961,ai_checked,supported,Only the families belonging to one golra keep herds of sheep and goats.
+c55b1c22ba1,households,OWNS,sheep and goats,,,,,,,standing,Newell,32,1961,ai_checked,supported,"and other residents in the v:Ilage, who do not own land but keep a few sheep and goats"
+c5e7175a66d,Gaddi,OWNS,sheep and goats,,,,,,,standing,Newell,37,1961,ai_checked,supported,Some Gaddis own sheep and goats without being shepherds.
+cf6f7cf70d4,farmer (Pangna),OWNS,sheep and goats,,,,,Pangna,,standing,Pangna,53,1961,ai_checked,supported,"The farmers, on the other hand, keep a pair or so of bullocks, sheep, goats and some cows."
+ccb5f002173,Mahajan (Pangna),OWNS,buffaloes,,,,,Pangna,,standing,Pangna,53,1961,ai_checked,supported,"almost every household keeps a cow'or, in a few cases, a buffalo for the daily supply of milk."
+cbbbcba94a9,Brahman (Pangna),OWNS,buffaloes,,,,,Pangna,,standing,Pangna,53,1961,ai_checked,supported,"almost every household keeps a cow'or, in a few cases, a buffalo for the daily supply of milk."
+c8f57920924,all castes (Pangna),OWNS,buffaloes,,,,,Pangna,,standing,Pangna,53,1961,ai_checked,supported,"Cows, bulls and buffaloes are reared by all castes."
+c9f3217a311,all castes (Rajana),OWNS,buffaloes,,,,,Rajana,Yamuna,standing,Rajana,46,1961,ai_checked,supported,"Bulls, buffaloes, cows, and goats reared by all castes are of hill breed and are small."
+c354f248a5f,all castes (Rajana),OWNS,goats,,,,,Rajana,Yamuna,standing,Rajana,46,1961,ai_checked,supported,"Bulls, buffaloes, cows, and goats reared by all castes are of hill breed and are small."
+c857bd81421,Shakrori,OWNS,buffaloes,,2,desi buffaloes,,Shakrori,Sutlej,standing,Shakrori,75,1961,ai_checked,supported,There are only 2 desi buffaloes (Gujaroo) as against 59 pahari.
+c7314f27e2f,Shakrori,OWNS,buffaloes,,59,pahari buffaloes,,Shakrori,Sutlej,standing,Shakrori,75,1961,ai_checked,supported,There are only 2 desi buffaloes (Gujaroo) as against 59 pahari.
+c971a879916,households (Shakrori),OWNS,sheep,,,,,Shakrori,Sutlej,standing,Shakrori,77,1961,ai_checked,supported,The few sheep owned by some households provide wool.
+c6b441d5cb5,Bodh households (Tandi),OWNS,sheep,,336,sheep,,Tandi,Chenab,standing,Tandi,65,1961,ai_checked,supported,"1B goats 336
+sheep, 16 churis"
+c177d8b7842,Lohar (Tandi),OWNS,goats,,2,goats,,Tandi,Chenab,standing,Tandi,65,1961,ai_checked,supported,"Lohars possess 2 goats, 23 sheep, and"
+c730bd64d85,Lohar (Tandi),OWNS,sheep,,23,sheep,,Tandi,Chenab,standing,Tandi,65,1961,ai_checked,supported,"2 goats, 23 sheep, and
+one pet-dog;"
+cba315eeee5,Shippi household,OWNS,goats,,1,goat,,Tandi,Chenab,standing,Tandi,65,1961,ai_checked,supported,"maintains 2 cows, one goat and 4
+sheep"
+c56d3602485,Shippi household,OWNS,sheep,,4,sheep,,Tandi,Chenab,standing,Tandi,65,1961,ai_checked,supported,"one goat and 4
+sheep (TABLE 12)."
+c941e53d733,shopkeeper,OWNS,sheep,,500,sheep,,Gertse,,standing,Weaving,14,1961,ai_checked,supported,on five hundred sheep which they have also obtained in Gertse
+c9664061c4f,households,OWNS,sheep and goats,,,,,,,standing,1881,4,1881,ai_partly,partly_supported,supplementing the yield of their fields by the produce of numerous flocks of sheep and goats
+cc7d9823e40,Churahi,OWNS,sheep and goats,,,,,Chaurah,,standing,Rose,250,1911,ai_partly,partly_supported,many of them own flocks of sheep and goats
+c3d0383cdbe,households (Batal),OWNS,sheep and goats,,,,,Batal,,standing,Batal,16,1961,ai_partly,partly_supported,"Some families keep their goat and sheep in the
+ground floors of their houses."
+c66bc8b37cb,households (Batal),OWNS,sheep,,,,,Batal,,standing,Batal,46,1961,ai_partly,partly_supported,The sheep are owned by a few households only.
+c27d5b68923,Rajput (Bir),OWNS,buffaloes,,2,buffaloes,,Bir,Beas,standing,Bir,31,1961,ai_partly,partly_supported,"bufalloes 2, she oalveS! 2 and he-calf 1, goats. and sheep 14."
+c9bf8e9829a,Rajput (Bir),OWNS,sheep and goats,,14,sheep and goats,,Bir,Beas,standing,Bir,31,1961,ai_partly,partly_supported,"he-calf 1, goats. and sheep 14."
+c1f80a50527,Brahmaur,OWNS,sheep and goats,,4484,sheep and goats,,Brahmaur,Ravi,standing,Brahmaur,46,1961,ai_partly,partly_supported,There are 4484 sheep and goats in the village owned by 48 households
+cb74adf347c,households (Brahmaur),OWNS,sheep and goats,,4484,sheep and goats,,Brahmaur,Ravi,standing,Brahmaur,56,1961,ai_partly,partly_supported,"Shearing-Out of the total of 4484 sheep and goats possessed by the villagers, appro xi,mately half are -sheep."
+cb03f1c1c20,households (Brahmaur),OWNS,sheep,,,,,Brahmaur,Ravi,standing,Brahmaur,56,1961,ai_partly,partly_supported,"Shearing-Out of the total of 4484 sheep and goats possessed by the villagers, appro xi,mately half are -sheep."
+c4ddcfc3247,households (Brahmaur),OWNS,sheep and goats,,,,,Brahmaur,Ravi,standing,Brahmaur,8,1961,ai_partly,partly_supported,"where people mIgrate WIth
+their sheep and' goats year after year."
+c4ff211a8e1,Shanku's household,OWNS,sheep and goats,,,,,Chaupal,Yamuna,standing,Chaupal,57,1961,ai_partly,partly_supported,Another household of Shanku supplements the family purse by rearing sheep and goats.
+c7e315b11d6,households (Chitrari),OWNS,goats,,,,,Chitrari,Ravi,standing,Chitrari,23,1961,ai_partly,partly_supported,Some villagers own goats and sheep.
+c19754a8242,households (Chitrari),OWNS,sheep,,,,,Chitrari,Ravi,standing,Chitrari,23,1961,ai_partly,partly_supported,Some villagers own goats and sheep.
+ced3fa711e0,households (Chitrari),OWNS,sheep,,,,,Chitrari,Ravi,standing,Chitrari,26,1961,ai_partly,partly_supported,either from their own sheep or from Branmaur.
+cf0a4fbcd31,households (Chitrari),OWNS,goats,,36,goats,,Chitrari,Ravi,standing,Chitrari,52,1961,ai_partly,partly_supported,"1. Oxen
+2. CowsMilch cows
+Dry cows
+Chohan
+3. Calf (he)
+4. Calf (she)
+5. Sheep
+6. Goats-
+
+155
+27
+
+126
+32
+20
+
+48
+123
+36"
+c26207278fe,households (Chitrari),OWNS,sheep,,123,sheep,,Chitrari,Ravi,standing,Chitrari,52,1961,ai_partly,partly_supported,"1. Oxen
+2. CowsMilch cows
+Dry cows
+Chohan
+3. Calf (he)
+4. Calf (she)
+5. Sheep
+6. Goats-
+
+155
+27
+
+126
+32
+20
+
+48
+123
+36"
+c50bd1ca51d,Chitrari,OWNS,sheep and goats,,,,,Chitrari,Ravi,standing,Chitrari,53,1961,ai_partly,partly_supported,"Although the area adjoining Chitrari and Brahmaur side is popular for its sheep wealth. In Chitrari, these are relatively fewer."
+cfaac0b29ee,households (Kanum),OWNS,sheep and goats,,,,,Kanum,Sutlej,standing,Kanum,53,1961,ai_partly,partly_supported,their flocks are small.
+c30ffcc8120,households (Kothi),OWNS,sheep,,,,,Kothi,Sutlej,standing,Kothi,100,1961,ai_partly,partly_supported,"The cattle wealth of the villagers consists of cows, oxen, yak, zo, zumoo, sheep, goats, donkeys, mules and horses."
+c3812bc516b,households (Kothi),OWNS,goats,,,,,Kothi,Sutlej,standing,Kothi,100,1961,ai_partly,partly_supported,"The cattle wealth of the villagers consists of cows, oxen, yak, zo, zumoo, sheep, goats, donkeys, mules and horses."
+c1cf6b6bbac,households,OWNS,sheep and goats,,100,sheep and goats per flock,,Kinnaur,Sutlej,standing,Kothi,92,1961,ai_partly,partly_supported,They have between 100 to 150 or 200 (flocks of) sheep and goats
+c2930e41e58,Brahman (Maingal),OWNS,sheep and goats,,200,sheep and goats,,Maingal,Ravi,standing,Maingal,18,1961,ai_partly,partly_supported,Sharwan Brahmin owns the largest number of cattle heads-about 200 sheep and goats.
+c7e1f5399fc,Brahman (Maingal),OWNS,sheep,,114,sheep,,Maingal,Ravi,standing,Maingal,48,1961,ai_partly,partly_supported,Large number of goats and sheep is kept by Gaddi brahmins. They have 114 sheep and 106 goats.
+c9c59c25786,Brahman (Maingal),OWNS,goats,,106,goats,,Maingal,Ravi,standing,Maingal,48,1961,ai_partly,partly_supported,Large number of goats and sheep is kept by Gaddi brahmins. They have 114 sheep and 106 goats.
+cc8e20fe29a,Gujjar (Maingal),OWNS,buffaloes,,,,,Maingal,Ravi,standing,Maingal,49,1961,ai_partly,partly_supported,Gujjars have their own buffalo bulls
+cd0f9d6779b,Gaddi (Maingal),OWNS,sheep and goats,,,,,Maingal,Ravi,standing,Maingal,52,1961,ai_partly,partly_supported,Only one household among them has large numbe..r of goats and sheep.
+c376e0414e4,lambardar (Nachar),OWNS,sheep and goats,,1100,sheep and goats,,Nachar,Sutlej,standing,Nachar,33,1961,ai_partly,partly_supported,"the Lambardar of the village has about 1,100 strong flock. He is one of the richer shepherds of Kinnaur."
+cca072b3dee,households (Nachar),OWNS,sheep,,,,,Nachar,Sutlej,standing,Nachar,38,1961,ai_partly,partly_supported,"Wool is locally available from the sheep, they breed."
+c3d9af0f186,households (Brahmaur),OWNS,sheep and goats,,400,sheep and goats,,Brahmaur,Ravi,standing,Newell,102,1961,ai_partly,partly_supported,owns about 400 sheep and goats
+cd07e9a0da5,Gaddi (Brahmaur),OWNS,sheep and goats,,,,,Brahmaur,Ravi,standing,Newell,16,1961,ai_partly,partly_supported,since a minority of Gaddis keep flock.s.
+c0f764e8c89,Gaddi,OWNS,sheep,,,,,,,standing,Newell,36,1961,ai_partly,partly_supported,Some families also own one or two sheep which remain in the house all the year.
+cfec50aaaea,Gaddi,OWNS,sheep and goats,,,,,,,standing,Newell,36,1961,ai_partly,partly_supported,"But amollg those Gaddis who own flocks, there is a definite cycle of activity which repeats itself every year."
+cc779793908,households (Rajana),OWNS,sheep,,,,,Rajana,Yamuna,standing,Rajana,46,1961,ai_partly,partly_supported,They also rear up goats and sheep.
+c9eb57adfc2,households (Rajana),OWNS,goats,,,,,Rajana,Yamuna,standing,Rajana,46,1961,ai_partly,partly_supported,They also rear up goats and sheep.
+c05819030e7,agricultural labourer (Shakrori),OWNS,goats,,,,,Shakrori,Sutlej,standing,Shakrori,75,1961,ai_partly,partly_supported,Even landless labourers may also possess a few goats.
+cd7f06882ee,households,OWNS,sheep,,,,,Himachal Pradesh,,standing,Weaving,16,1961,ai_partly,partly_supported,Here many rear sheep and. produce wool.

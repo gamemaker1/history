@@ -1,0 +1,138 @@
+kind,source,pages,quote,match,score,page_in_graph
+src,1881,275,"consists of flocks of sheep and goats, which they feed half the year (the winter months) in the valleys of Kangra, and for the other half drive across the range into the territories of Chamba",fuzzy,0.984,True
+src,Brahmaur,55,"in the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu",exact,1.0,True
+src,Kothi,16,,no quotation,,True
+src,Newell,19,,no quotation,,True
+src,Kanum,133,,no quotation,,True
+src,Kanum,51,,no quotation,,True
+src,1881,267,,no quotation,,True
+src,Rose,346,,no quotation,,True
+src,Rose,297,,no quotation,,True
+src,1881,275,,no quotation,,True
+src,Kupha,111,usually begins to fall on the passes in October and closes them by the middle of November,fuzzy,0.978,True
+src,Kupha,111,it begins to disappear again in March and the passes re-open in May,exact,1.0,True
+srcimg,Newell,18,"a bare mountain top at a height of over 16,000",image (not checked),,True
+src,Newell,18,to take less than three days actually on the tops of the mountain,exact,1.0,True
+src,Brahmaur,55,returns to the village every night,exact,1.0,True
+src,Brahmaur,55,such pastures are locally called tarkals and are situated in the Brahmni forests near Brahmaur,exact,1.0,True
+src,Brahmaur,55,these tarkals are not sufficient for the upkeep of the entire sheep and goat wealth of the village and people have therefore to migrate to other pastures,exact,1.0,True
+src,Shakrori,11,"at a height of 1,700 ft. above sea level",exact,1.0,True
+src,Tandi,18,on a ten thousand feet high flat ground,exact,1.0,True
+srcimg,Brahmaur,54,,no quotation,,True
+src,Devi-Kothi,47,,no quotation,,True
+srcimg,Tandi,96,,no quotation,,True
+srcimg,Kothi,102,,no quotation,,True
+srcimg,Kanum,61,,no quotation,,True
+src,Chaupal,12,,no quotation,,True
+src,1881,275,half the year (the winter months) in the valleys of Kangra,exact,1.0,True
+src,Rose,297,"the yearly exodus to Kangra takes place in October and November, and the return journey in April and May",exact,1.0,True
+src,Rose,297,in the higher mountains of Pangi and Lahul; and the winters in the low hills bordering on the plains,fuzzy,0.96,True
+src,1931,142,the hillmen of the lofty ranges leave their homes with their sheep and cattle to spend the winter in the valleys and plains of the neighbouring districts,exact,1.0,True
+src,Brahmaur,55,driven back to the village,exact,1.0,True
+src,Brahmaur,55,,no quotation,,True
+src,Kupha,113,visit Pangi with their flocks in July and remain in the valley till September,fuzzy,0.987,True
+src,Brahmaur,63,as many as 61 move out in winter months,fuzzy,0.949,True
+src,Newell,36,the wife usually accompanies her husband,exact,1.0,True
+src,Brahmaur,79,"even during migration, she carries an equal load on her back and contributes equally to the family earnings",fuzzy,0.991,True
+src,1881,267,,no quotation,,True
+src,Rose,346,,no quotation,,True
+src,Maingal,52,,no quotation,,True
+src,Brahmaur,11,the Budhal stream which joins Ravi,exact,1.0,True
+src,Kanum,15,the River Sutlej,exact,1.0,True
+src,Brahmaur,55,,no quotation,,True
+src,Kanum,85,"Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur",exact,1.0,True
+src,Kanum,85,the chilly months in these places till the end of April,exact,1.0,True
+src,Newell,10,a 40 mile length of river between high mountains,exact,1.0,True
+src,Bir,43,"purchased from Gaddis who wander near about in winter, for 10 to 12 rupees",exact,1.0,True
+src,Batal,46,from the Kinnauras who stay near about the village,exact,1.0,True
+src,Shakrori,75,bought from the Kinnauras that go by,exact,1.0,True
+src,Brahmaur,59,command a ready market in the low hills where people sell them during their stay there in winter months,fuzzy,0.99,True
+src,Kanum,16,"alongwith their flocks laden with chilgozas, wool, woollen patties, nuts, pasham, jira and other local herbs",exact,1.0,True
+src,Kanum,16,either in Lavi fair at Rampur,exact,1.0,True
+src,Kanum,131,"they brought wool, pasham, butter, ghee, goat, sheep and salt",exact,1.0,True
+src,Rose Vol1,523,trade sheep,exact,1.0,True
+src,Mahasu,56,Lavi the biggest trade fair in Himachal is held there in the second week of November every year which attracts thousands of people and traders from far off places,fuzzy,0.988,True
+src,Mahasu,56,"for shawls, chaddars, chilgoza and ponies",exact,1.0,True
+src,Kanum,132,began in July and he was back in Kanum usually by November,fuzzy,0.983,True
+src,Kanum,18,Primary Owner,exact,1.0,True
+src,Kanum,18,including 'Athada Begar',exact,1.0,True
+src,Kanum,133,every villager has a right of utilizing the pastures,exact,1.0,True
+src,Kanum,51,prior to the India-China dispute Shipki-La Pass was open to all traders without passport,fuzzy,0.989,True
+src,Kanum,16,this trade has now practically come to an end,exact,1.0,True
+src,Weaving,16,,no quotation,,True
+src,Chergaon,61,,no quotation,,True
+srcimg,Brahmaur,54,,no quotation,,True
+srcimg,Kothi,102,,no quotation,,True
+srcimg,Kanum,61,,no quotation,,True
+srcimg,Tandi,96,,no quotation,,True
+srcimg,Kupha,80,,no quotation,,True
+src,Nachar,33,"on an average, 100 to 200 sheep and goats are kept by a family",exact,1.0,True
+src,Nachar,33,"the Lambardar of the village has about 1,100 strong flock",exact,1.0,True
+srcimg,Chaunri,34,,no quotation,,True
+srcimg,Rajana,47,,no quotation,,True
+srcimg,Pangna,53,,no quotation,,True
+src,Brahmaur,55,a shepherd who tends his own flock,fuzzy,0.971,True
+src,Brahmaur,55,pohals are hired in summer season by a very few people in rare cases when they cannot spare some one from amongst the family to look after the flock,exact,1.0,True
+src,Brahmaur,55,free meals,exact,1.0,True
+src,Brahmaur,55,free clothing and wool for the family,exact,1.0,True
+src,Brahmaur,55,two or four sheep per hundred sheep and goats,exact,1.0,True
+src,Brahmaur,55,Rs. 2/- in cash per month,exact,1.0,True
+src,Kanum,132,"had four fawals-shepherds who were paid Rs. 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes",exact,1.0,True
+src,Devi-Kothi,48,may also send their sheep and goats with professional graziers to high hills,exact,1.0,True
+src,Devi-Kothi,48,twenty to twentyfive naya Paise for the period from May / June to October for a sheep or goat,exact,1.0,True
+src,Newell,37,the majority of Gaddis are not shepherds,exact,1.0,True
+src,Maingal,42,Gujjar households are cent per cent under debt,exact,1.0,True
+src,Maingal,42,borrow money at 30% annual interest,exact,1.0,True
+src,Maingal,60,to a particular shopkeeper at Chamba who pays them much less than the market price,fuzzy,0.988,True
+src,Kanum,53,being a landlord and money lender he has lent enough amount of money to the scheduled castes and others,fuzzy,0.99,True
+src,Kanum,55,,no quotation,,True
+src,Kanum,55,"on the condition of annual charge of additional 5 seers per md., as interest",exact,1.0,True
+src,Chergaon,66,"instead of paying interest, the tenants-rigad are now doing agricultural labour to escape the fury of zamindars",fuzzy,0.982,True
+src,Maingal,48,all Gujjar households possess buffaloes,exact,1.0,True
+src,Maingal,42,,no quotation,,True
+src,Maingal,60,,no quotation,,True
+src,1881,275,hold lands on this side and also in Chamba,exact,1.0,True
+src,1881,275,"whenever fined by the Kangra authorities, to pay a similar penalty into the Chamba treasury",exact,1.0,True
+src,1881,275,our institutions have taught them greater independence,fuzzy,0.944,True
+src,Newell,18,would need to pay a grazing tax to both the Chamba and Lahuli ruler,exact,1.0,True
+src,Newell,16,could only dispose of the right to use the land,fuzzy,0.979,True
+src,Newell,18,In Chamba all grazing rights belonged to the rajah of Chamba,exact,1.0,True
+src,Newell,18,"was auctioned by the rajah of Chamba to the highest bidder, who was usually a Gaddi",exact,1.0,True
+src,Brahmaur,55,during the state period the Ruler of the state used to lease out the pastures near the village (Brahmani in case of Brahmaur) on contract,exact,1.0,True
+src,Kanum,18,Athada Begar,exact,1.0,True
+src,Newell,14,,no quotation,,True
+src,Kupha,113,in 1874 an attempt was made to lease the dhars or bigger grazing grounds,exact,1.0,True
+src,Kupha,113,it provoked much opposition and was finally abandoned,fuzzy,0.981,True
+src,Newell,19,these rights to grazing tax have now been taken over by the Government of India State Forest Department,fuzzy,0.99,True
+src,Brahmaur,55,"Now, the pastures are allotted direct to the shepherds by the Forest Department",exact,1.0,True
+src,Brahmaur,55,each shepherd has his own fixed dhar which only he can use as pasture land for his flock consisting of a fixed number of sheep and goats,exact,1.0,True
+src,Brahmaur,55,Rs. 15/- per hundred heads of sheep or goats for the summer season,exact,1.0,True
+src,Devi-Kothi,47,valid for the period 1st June to 15th October,exact,1.0,True
+src,Chitrari,23,either by cash penalty or forfeiture of the animal,fuzzy,0.98,True
+src,Kupha,136,certain pastures have also been closed in order to undertake extensive measures for soil conservation,exact,1.0,True
+src,Kupha,136,a sense of resentment against the Forest Department,exact,1.0,True
+src,Brahmaur,46,the Forest Department do not now grant any additional permit for more sheep and goats,exact,1.0,True
+src,Devi-Kothi,49,given to them by the early rulers of Chamba,exact,1.0,True
+src,Devi-Kothi,48,the fee is Rs. 5/- from non-right holders and Re. 1/- from a right holder,exact,1.0,True
+srcimg,Newell,38,,no quotation,,True
+src,Newell,38,this is the year after the sheep were struck by disease,fuzzy,0.982,True
+src,Newell,37,the Forest Department permit system,exact,1.0,True
+srcimg,Newell,38,,no quotation,,True
+src,Newell,37,from personal knowledge I know that these permits are freely bought and sold amongst shepherds so that shepherds have now become closed corporations,exact,1.0,True
+src,Kanum,133,,no quotation,,True
+src,Kanum,51,,no quotation,,True
+src,Brahmaur,45,new avenues of income,exact,1.0,True
+src,Brahmaur,45,8 able-bodied persons are working there as unskilled labour at a daily wage of about Rs. 2/-,exact,1.0,True
+srcimg,Chitrari,24,our beaten track for centuries a jeep has started plying,image (not checked),,True
+src,Kanum,133,,no quotation,,True
+src,Brahmaur,87,"with the opening roads, new avenues of earning livelihood are available to them, and this is likely to change the cycle of their life followed since ages",exact,1.0,True
+src,Kupha,111,,no quotation,,True
+src,1881,275,,no quotation,,True
+src,Maingal,52,,no quotation,,True
+src,Devi-Kothi,48,,no quotation,,True
+src,Brahmaur,55,,no quotation,,True
+src,1881,275,,no quotation,,True
+src,Newell,18,,no quotation,,True
+src,Newell,37,,no quotation,,True
+src,Kanum,51,,no quotation,,True
+src,Kanum,51,India-China dispute,fuzzy,0.947,True

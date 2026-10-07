@@ -21,6 +21,7 @@ Outputs in analysis/maps/:
 Usage (from the project folder):
   .venv/bin/python scripts/map_routes.py
   .venv/bin/python scripts/map_routes.py --evidence ai
+  .venv/bin/python scripts/map_routes.py --print     # also routes_print.html, OpenStreetMap base, for a static image
 
 Needs folium and pandas. Programming Historian: "Web Mapping with Python and
 Leaflet" and "Creating Choropleth Maps with Python and Folium".
@@ -61,8 +62,15 @@ def load(min_evidence):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--evidence", choices=["all", "auto", "ai", "human"], default="all")
+    ap.add_argument("--print", action="store_true", dest="print_version",
+                    help="also write routes_print.html on the OpenStreetMap base (more reliable for screenshots)")
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
+    for base in (["relief", "osm"] if args.print_version else ["relief"]):
+        build(args, base)
+
+
+def build(args, base):
     e, places, ents = load(args.evidence)
 
     lines = e[e.origin.isin(places.index) & e.dest.isin(places.index) & (e.origin != e.dest)
@@ -73,8 +81,10 @@ def main():
 
     m = folium.Map(location=[32.0, 77.0], zoom_start=8, tiles=None, control_scale=True)
     # Relief is the default; the plain layer is standard OpenStreetMap (CartoDB tiles now need an API key).
-    folium.TileLayer("OpenStreetMap", name="Plain (OpenStreetMap)", show=False).add_to(m)
-    folium.TileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", name="Relief (OpenTopoMap)", show=True,
+    # The print version shows OpenStreetMap first, because its tiles load reliably for a screenshot.
+    folium.TileLayer("OpenStreetMap", name="Plain (OpenStreetMap)", show=(base == "osm")).add_to(m)
+    folium.TileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", name="Relief (OpenTopoMap)",
+                     show=(base == "relief"),
                      attr="Map data: OpenStreetMap contributors, SRTM | Style: OpenTopoMap (CC-BY-SA)").add_to(m)
 
     for valley, g in lines.groupby(lines.valley.where(lines.valley != "", "other or none")):
@@ -136,8 +146,16 @@ def main():
                 'margin:0 8px 0 8px;vertical-align:middle"></span>survey village (size: flock)<br>'
                 '<span style="color:#52514e">Click a line for its claims, quotes and pages.</span></div>')
     m.get_root().html.add_child(folium.Element(legend))
-    folium.LayerControl(collapsed=False).add_to(m)
-    m.save(OUT / "routes.html")
+    # Zoom to the routes and villages drawn, and keep the layer list folded into its button.
+    pts = [(places.loc[o].lat, places.loc[o].lon) for o in set(lines.origin) | set(lines.dest)] + \
+          [(r["lat"], r["lon"]) for r in rows]
+    if pts:
+        lats, lons = [p[0] for p in pts], [p[1] for p in pts]
+        m.fit_bounds([[min(lats) - 0.15, min(lons) - 0.15], [max(lats) + 0.15, max(lons) + 0.15]])
+    folium.LayerControl(collapsed=True).add_to(m)
+    m.save(OUT / ("routes.html" if base == "relief" else "routes_print.html"))
+    if base != "relief":
+        return
     print(f"{len(lines)} claims drawn as {lines.groupby(['origin', 'dest', 'dest_class']).ngroups} lines "
           f"(evidence: {args.evidence}); {len(rows)} survey villages; outputs in {OUT.relative_to(ROOT)}/")
     print("  by destination: " + ", ".join(f"{k} {v}" for k, v in lines.dest_class.value_counts().items()))

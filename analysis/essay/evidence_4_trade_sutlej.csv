@@ -1,0 +1,106 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+ca9eeeecd00,Lal Chand Negi,TRADES_AT,Lavi fair,,,,,Rampur,Sutlej,trade_and_credit,Kanum,132,1961,ai_checked,supported,"After a short stay in Kanum, Lal Chand brought these things to Rampur and sold them in the Lavi fair."
+c54bc4484ee,Lal Chand Negi,CARRIES,grain,,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_checked,supported,"On his return journey to Ka'num, he took wheat, maize barley and other articles of exchange."
+c851c8e8571,Padam Ram,CARRIES,wool,,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_checked,supported,Even now Padam Ram often goes to some near about places and small quantity of wool. pasham and butter is brought by him.
+c2fe712ccbe,Padam Ram,CARRIES,pashm,,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_checked,supported,Even now Padam Ram often goes to some near about places and small quantity of wool. pasham and butter is brought by him.
+cb76d62dcbb,households (Kanum),CARRIES,chilgoza,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,their flocks laden with chilgozas
+c54d63b61b2,households (Kanum),CARRIES,chilgoza,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"During winter people migrate to lower hills alongwith their flocks laden with chilgozas, wool, woollen patties"
+c850eb2118a,households (Kanum),CARRIES,wool,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"chilgozas, wool, woollen patties."
+c27e9cc12cb,households (Kanum),CARRIES,wool,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"During winter people migrate to lower hills alongwith their flocks laden with chilgozas, wool, woollen patties"
+c79ac52be76,households (Kanum),CARRIES,woollens,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"wool, woollen patties. nuts, pasham."
+cfe40fcbefc,households (Kanum),CARRIES,pashm,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"nuts, pasham. jira and other local herbs"
+c7e07e9e047,households (Kanum),CARRIES,jira,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,pasham. jira and other local herbs
+cd0fba7db20,households (Kanum),TRADES_AT,Lavi fair,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,sold by them either in Lavi fair at Rampur
+ca885095432,households (Kanum),TRADES_AT,Lavi fair,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,which are sold by them either in Lavi fair at Rampur
+c9658055190,households (Kanum),TRADES_AT,Sirmur,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"or in the villages in Sirmur, Seoni, Arki."
+ca1d2ef2390,households (Kanum),TRADES_AT,Seoni,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"or in the villages in Sirmur, Seoni, Arki."
+c444817e5b0,households (Kanum),TRADES_AT,Arki,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"or in the villages in Sirmur, Seoni, Arki."
+ce6970d6178,households (Kanum),TRADES_AT,Suket,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"Suket, Bilaspur and Mehlog in their camping places."
+c8dd59765f5,households (Kanum),TRADES_AT,Bilaspur,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"Suket, Bilaspur and Mehlog in their camping places."
+c1ab21bed1b,households (Kanum),TRADES_AT,Mehlog,,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"Suket, Bilaspur and Mehlog in their camping places."
+c468e3e5750,households (Kanum),CARRIES,salt,,,,5|6,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"taking with them salt, cereals, ghee"
+c547d698298,households (Kanum),CARRIES,grain,,,,5|6,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"taking with them salt, cereals, ghee"
+c2869772e68,households (Kanum),CARRIES,ghee,,,,5|6,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"taking with them salt, cereals, ghee"
+c4ae4944be4,Well-to-do people (Kanum),BUYS_FROM,Gartok,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"The well-to-do people of the village used to go to Gartok in Tibet· and buy wool,"
+c9d281124e3,Well-to-do people (Kanum),BUYS_FROM,Gartok,pashm,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"buy wool, pasham, jira, sheep and goat."
+c6493d13ae9,Kanum,TRADES_AT,Lavi fair,"wool, woollens, chilgoza, sheep and goats, grain",,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,"exchange of produce o~their country viz, wool, woollen pattIes, chilgoz , goat and sheep with corns of all kinds either n the Lavi Fair at Ramput"
+c3c9de55da9,Kanum,TRADES_AT,Karsog,"wool, woollens, chilgoza, sheep and goats, grain",,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+c7f940323dd,Kanum,TRADES_AT,Bilaspur,"wool, woollens, chilgoza, sheep and goats, grain",,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+ca83edb0e62,Kanum,TRADES_AT,Arki,"wool, woollens, chilgoza, sheep and goats, grain",,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+c0bddd3ba60,Kanum,TRADES_AT,Seoni,"wool, woollens, chilgoza, sheep and goats, grain",,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+c7d95dad966,Kanum,TRADES_AT,Mehlog,"wool, woollens, chilgoza, sheep and goats, grain",,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+cb630f48ca8,Kanum,TRADES_AT,Sirmur,"wool, woollens, chilgoza, sheep and goats, grain",,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+c7fcedfc40b,Kanum,CARRIES,goat-hair bag,goat-hair bags,,,,Kanum,Sutlej,trade_and_credit,Kanum,50,1961,ai_checked,supported,On their journey back they load their goats and sheep with small bags made of goats' hair
+c6a5695f5f1,households (Kanum),SELLS_TO,Lavi fair,chilgoza,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_checked,supported,The seeds thus collected are either sold at Lavi Fair at Rampur or consumed by them
+c482133fe8e,landholders (Kanum),SELLS_TO,Scheduled castes (Kanum),consumer goods,,,,Kanum,Sutlej,trade_and_credit,Kanum,53,1961,ai_checked,supported,Consumer goods are supplied to them from his shop at high rates
+c861010bfb6,households (Kanum),CARRIES,chilgoza,,,,,Kanum,Sutlej,trade_and_credit,Kanum,85,1961,ai_checked,supported,"Bags made of goat or ram skin are slung across the backs and are full of edibles, utensils, wool, pasham) dried chulis and chilgozas in small quantity"
+c33b952a9b6,households (Kanum),CARRIES,wool,,,,,Kanum,Sutlej,trade_and_credit,Kanum,85,1961,ai_checked,supported,"Bags made of goat or ram skin are slung across the backs and are full of edibles, utensils, wool, pasham) dried chulis and chilgozas in small quantity"
+c8f9dd36efe,households (Kanum),CARRIES,pashm,,,,,Kanum,Sutlej,trade_and_credit,Kanum,85,1961,ai_checked,supported,"Bags made of goat or ram skin are slung across the backs and are full of edibles, utensils, wool, pasham) dried chulis and chilgozas in small quantity"
+c72c57ef453,households (Kothi),TRADES_AT,Lavi fair,,,,,Kothi,Sutlej,trade_and_credit,Kothi,79,1961,ai_checked,supported,"The seeds thus collected are mostly
+sold in Lavi fair at Rall'Ipllr._ ~ome are
+consumed by them also."
+ca8691425cd,households,CARRIES,grain,,,,,Kinnaur,Sutlej,trade_and_credit,Kothi,92,1961,ai_checked,supported,in which they carry foodgrains and other household goods.
+c2377131cff,shopkeeper,TRADES_AT,Lavi fair,,,,11,Rampur,Sutlej,trade_and_credit,Mahasu,56,1961,ai_checked,supported,"is held there in the second week of
+November every year which attracts thousands of people and traders from far off
+places."
+c6f4a6b4b9a,Kinnaura (Nachar),CARRIES,grain,,,,,Nachar,Sutlej,trade_and_credit,Nachar,33,1961,ai_checked,supported,"The sheep and goat.s carry small cloth or leather bags. These are used for transporting grains, salt or other things."
+c75898c12c4,Kinnaura (Nachar),CARRIES,salt,,,,,Nachar,Sutlej,trade_and_credit,Nachar,33,1961,ai_checked,supported,"The sheep and goat.s carry small cloth or leather bags. These are used for transporting grains, salt or other things."
+cc5c15c4e9d,Kinnaura (Nachar),SELLS_TO,households (Nachar),wool,,,,Nachar,Sutlej,trade_and_credit,Nachar,33,1961,ai_checked,supported,"During periods of migration, they sell the wool to the villages they visit and on their way back home, carry with them most of their requirements of general merchandise not locally available."
+cb7cb6d8999,Kinnaura (Nachar),CARRIES,trade good,,,,,Nachar,Sutlej,trade_and_credit,Nachar,33,1961,ai_checked,supported,"on their way back home, carry with them most of their requirements of general merchandise not locally available."
+cc8678b6cbd,Kinnaura (Nachar),CARRIES,chilgoza,,,,,Nachar,Sutlej,trade_and_credit,Nachar,33,1961,ai_checked,supported,"A number of little articles like ropes made of g9at's hair, little quantities of chilghozas, dried chulli, walnuts, turmeric and spices are carried for the journey."
+c966b362854,Nalag,BUYS_FROM,Dehar,articles of daily requirement,,,,Nalag,Sutlej,trade_and_credit,Nalag,12,1961,ai_checked,supported,All the articles of daily requirement are generally purchased frOIll Dehar.
+ceaa27ebc5b,households (Nalag),BUYS_FROM,Nearby village,cattle,,,,Nalag,Sutlej,trade_and_credit,Nalag,31,1961,ai_checked,supported,The cattle are purchased locally or from nearby villages '3nd in the Nalwari ~air.
+c5e595d4f47,households (Nalag),BUYS_FROM,Nalwari fair,cattle,,,,Nalag,Sutlej,trade_and_credit,Nalag,31,1961,ai_checked,supported,The cattle are purchased locally or from nearby villages '3nd in the Nalwari ~air.
+ca38803c52e,households (Shakrori),TRADES_AT,Rupar,buffaloes and cattle,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,villagers sometimes buy their buffaloes and cows from traders of Bilaspur and from fairs at Rupar.
+cb624fb5ee8,households (Shakrori),SELLS_TO,shopkeeper (Shakrori),agricultural produce,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,Formerly the peasant was obliged to sell his produce to his mahajan-a shopkeeper at Seoni.
+cc45b3767b4,households (Shakrori),BUYS_FROM,Suket,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+c46f481d34f,households (Shakrori),BUYS_FROM,Arki,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+cc96de657e8,households (Shakrori),BUYS_FROM,Nalagarh,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+c96b23d03a6,households (Shakrori),BUYS_FROM,Bilaspur,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+c6f4d18542e,households (Shakrori),SELLS_TO,Simla,agricultural produce,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Now, with better yields and a better market, they sell their produce like peas and rice, maize and vegetables direct at Simla."
+c936ddf5243,households (Shakrori),BUYS_FROM,Kinnaura (Shakrori),sheep and goats,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"many of which have been bought from the Kinnauras that go by, for ten to twelve rupees."
+c5e135e5be1,Kinnaura (Shakrori),SELLS_TO,Shakrori,sheep and goats,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"The goats and sheep sold by the Kinnauras are however, not of improved variety."
+cadc2c6f2a2,Kinnaura (Shakrori),CARRIES,woollens,,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,76,1961,ai_checked,supported,"and for those, in whose dhogris they stay, and
+in whose fields they lodge for winter, they invariably bring shawls, chuli"
+c949760786a,Kinnaura (Shakrori),CARRIES,chilgoza,,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,76,1961,ai_checked,supported,"and for those, in whose dhogris they stay, and
+in whose fields they lodge for winter, they invariably bring shawls, chuli, chilgoza"
+ca62a6a458d,households (Shathla),BUYS_FROM,Rampur,woollens,,,,Shathla,Sutlej,trade_and_credit,Shathla,22,1961,ai_checked,supported,Woollen patties are mostly purchased from Rampur during the Lavifair.
+c5ea0f9589b,households (Shathla),TRADES_AT,Lavi fair,Gudmas,,,,Shathla,Sutlej,trade_and_credit,Shathla,22,1961,ai_checked,supported,"Gudmas, Namdas and Pashmina chadars are bought in the Lavi fair."
+c5089cbfc65,households (Kanum),TRADES_AT,Lavi fair,,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,in return from Tibet they sold their merchandise in the famous Lavi fair at Rampur.
+c96fbd4a302,households (Kanum),BUYS_FROM,Tibet,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,"They brought wool, pasham, butter, ghee, goat, sheep and salt from Tibet"
+c9db234384f,households (Kanum),SELLS_TO,Tibet,grain,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,"in exchange of rice, cloth, utensils, wheat, phafra and jaggery."
+c4f6fc97d06,households (Kanum),BUYS_FROM,Tibet,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,They depended on Tibet for their requirement of snperior quality of wool
+cd24f7105a9,households (Kanum),BUYS_FROM,Rampur,trade goods,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,"The items of exchange. ,usc:d to be purchased by them at Rampur"
+c04b1ebe308,Lal Chand Negi,SELLS_TO,Tibet,grain,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_partly,partly_supported,"Rice phafra atta, utensils, cloth, jaggery and chillies were exchanged with pasham, wool, butter, goat, sheep and salt."
+c3d4bcba862,Padam Ram,SELLS_TO,Tibet,trade goods,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_partly,partly_supported,Padam Ram h as been carrying on the trade with Tibet for about 15 years.
+ccafc867301,Padam Ram,CARRIES,ghee,,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_partly,partly_supported,Even now Padam Ram often goes to some near about places and small quantity of wool. pasham and butter is brought by him.
+cf381c0380f,households (Kanum),SELLS_TO,muleteer (Kanum),husk and hay,,,,Kanum,Sutlej,trade_and_credit,Kanum,133,1961,ai_partly,partly_supported,Kanum was an important halting station for them. This afforded an opportunity to the villagers to sell their husk and hey.
+cde3937c37c,households (Kanum),CARRIES,salt,,,,5,Kanum,Sutlej,trade_and_credit,Kanum,136,1961,ai_partly,partly_supported,"on his return journey he takes cereals, cloth, salt, pulses, rice and jaggery to his village."
+cb5b8820ea9,households (Kanum),CARRIES,grain,,,,,Kanum,Sutlej,trade_and_credit,Kanum,136,1961,ai_partly,partly_supported,He goes to Hangrang valley and other places and brings cereals.
+c0db45f0e78,households (Kanum),CARRIES,grain,,,,5,Kanum,Sutlej,trade_and_credit,Kanum,136,1961,ai_partly,partly_supported,"on his return journey he takes cereals, cloth, salt, pulses, rice and jaggery to his village."
+c5afc62b8a2,households (Kanum),CARRIES,cloth,,,,5,Kanum,Sutlej,trade_and_credit,Kanum,136,1961,ai_partly,partly_supported,"on his return journey he takes cereals, cloth, salt, pulses, rice and jaggery to his village."
+cc7c77f32a9,households (Kanum),CARRIES,pulses,,,,5,Kanum,Sutlej,trade_and_credit,Kanum,136,1961,ai_partly,partly_supported,"on his return journey he takes cereals, cloth, salt, pulses, rice and jaggery to his village."
+cdead7d21c9,households (Kanum),CARRIES,jaggery,,,,5,Kanum,Sutlej,trade_and_credit,Kanum,136,1961,ai_partly,partly_supported,"on his return journey he takes cereals, cloth, salt, pulses, rice and jaggery to his village."
+c1e0b590744,Well-to-do people (Kanum),TRADES_AT,Gartok,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_partly,partly_supported,"The well-to-do people of the village used to go to Gartok in Tibet and buy wool, pasham, jira, sheep and goat. This trade has now practically come to an end"
+cbe5d390f5a,households (Kanum),CARRIES,chilgoza,,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_partly,partly_supported,some of them carry these as presents to their friends in the lower hills when they go there in winter.
+c00352e7421,households (Kanum),BUYS_FROM,Tibet,pashm,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_partly,partly_supported,"Pasham, jeera, medicinal herbs, goats and sheep' were the main items which they imported from Tibet in exchange of cereals and in cash payment as well."
+cc9a7b407a6,households (Kanum),SELLS_TO,Tibet,grain,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_partly,partly_supported,"Pasham, jeera, medicinal herbs, goats and sheep' were the main items which they imported from Tibet in exchange of cereals and in cash payment as well."
+cbc6010093f,households (Kanum),CARRIES,chilgoza,,,,,Kanum,Sutlej,trade_and_credit,Kanum,85,1961,ai_partly,partly_supported,"Some well-to-do persons have donkeys to carry mi$cellaneous articles like woollen patties, chilgoza and pasham"
+c501f596b0c,households (Kanum),CARRIES,woollens,,,,,Kanum,Sutlej,trade_and_credit,Kanum,85,1961,ai_partly,partly_supported,"Some well-to-do persons have donkeys to carry mi$cellaneous articles like woollen patties, chilgoza and pasham"
+c0c28d9a270,households (Kanum),CARRIES,pashm,,,,,Kanum,Sutlej,trade_and_credit,Kanum,85,1961,ai_partly,partly_supported,"Some well-to-do persons have donkeys to carry mi$cellaneous articles like woollen patties, chilgoza and pasham"
+c16be13032c,households (Kanum),TRADES_AT,Lavi fair,,,,,Kanum,Sutlej,trade_and_credit,Kanum,85,1961,ai_partly,partly_supported,"Some well-to-do persons have donkeys to carry mi$cellaneous articles like woollen patties, chilgoza and pasham which they sell in Lavi fair at Rampur"
+c993e65fce6,households,CARRIES,Goods,,,,,Kinnaur,Sutlej,trade_and_credit,Kothi,79,1961,ai_partly,partly_supported,Even now a consider'able part of trade is carried out in this way.
+c89ea99d2c0,households (Kothi),CARRIES,trade good,,,,,Kothi,Sutlej,trade_and_credit,Kothi,79,1961,ai_partly,partly_supported,"These are also employed for carrying trading
+commodities from one place"" to another."
+ceda32c99bd,households (Shakrori),BUYS_FROM,shopkeeper (Shakrori),buffaloes and cattle,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_partly,partly_supported,villagers sometimes buy their buffaloes and cows from traders of Bilaspur and from fairs at Rupar.
+c5ba50ff67a,households (Shakrori),SELLS_TO,shopkeeper (Shakrori),grain,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_partly,partly_supported,The agents from Simla generally purchase the foodgrains at Rs. 3 to Rs. 5 per mauqd less than th(~ price at Simla.
+cb703439036,households (Shakrori),SELLS_TO,shopkeeper (Shakrori),grain,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_partly,partly_supported,some wandering shopkeepers from Simla or other places go to Shakrori and purchase the produce at local rates
+c5f3a3cae5e,weaver (Shakrori),BUYS_FROM,Kinnaura (Shakrori),dyed marino yarn,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,77,1961,ai_partly,partly_supported,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.
+c0714ec0f2d,weaver (Shakrori),BUYS_FROM,Seoni,dyed marino yarn,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,77,1961,ai_partly,partly_supported,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.
+cb3f174134f,weaver (Shakrori),BUYS_FROM,Simla,dyed marino yarn,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,77,1961,ai_partly,partly_supported,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.

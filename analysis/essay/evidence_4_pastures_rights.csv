@@ -1,0 +1,138 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c2f42d013b5,Dagi,HOLDS_RIGHTS_OVER,cattle carcass,,,,,Kulu,Beas,princely_pastures,1881,338,1881,ai_checked,supported,"The dead bodies ot cattle arc another perquisite ot the Dagis, but tbey share them with the Chamars"
+cddc9aa07bb,Chamar,HOLDS_RIGHTS_OVER,skin,,,,,Kulu,Beas,princely_pastures,1881,338,1881,ai_checked,supported,the latter take the skin
+cefce7839b3,Forest Department,HOLDS_RIGHTS_OVER,forest,timber,,,,Brahmaur,Ravi,forest_department,Brahmaur,24,1961,ai_checked,supported,The people of Brahmaur are allo'Ned to have timber from the Brahmni reserved forest and an application has to be submitted to the Forest Department
+c201ec0b35e,Raja of Chamba,HOLDS_RIGHTS_OVER,pasture,,,,,Brahmaur,Ravi,princely_pastures,Brahmaur,55,1961,ai_checked,supported,During the state period the Ruler of the state used to lease out the pastures near the village (Brahmani in caSe of Brahmaur) on contract.
+c3ec98dbd6b,Forest Department,HOLDS_RIGHTS_OVER,pasture,,,,,Brahmaur,Ravi,forest_department,Brahmaur,55,1961,ai_checked,supported,"Now, the pastures are allotted direct to the shepherds by the Forest Department."
+ca5711d8afd,shepherd (Brahmaur),HOLDS_RIGHTS_OVER,pasture,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,each shepherd has his own fixed dhar which only he can use as pasture land for his flock consisting of a fixed number of sheep and goats.
+ccc6147156c,fee contractor (Brahmaur),HOLDS_RIGHTS_OVER,pasture,,,,,Brahmaur,Ravi,princely_pastures,Brahmaur,55,1961,ai_checked,supported,The contractor further used to allot these pastures to the shepherds subject to the condition that they would keep their sheep and goats in the fallow cultivable fields at night.
+ce358c094ec,Sahai,HOLDS_RIGHTS_OVER,right to collect grazing fees,grazing fees,,,,,,standing,Chauntra,88,1961,ai_checked,supported,"We have given to Sahai all cesseS of whatsoever kind, our right to free service, the tax on watermills, grazing fees 'on goats"
+c4dcf8baa89,Sahai,HOLDS_RIGHTS_OVER,land revenue and dues,,,,,,,standing,Chauntra,88,1961,ai_checked,supported,and the levy in kind on buffaloes. We have given also to Sahai our rights to service and cesses· from .all who dwell on the land
+c39284af09c,Sahai,HOLDS_RIGHTS_OVER,land revenue and dues,,,,,,,standing,Chauntra,88,1961,ai_checked,supported,"our rights to service and cesses· from .all who dwell on the land, whether they be ~Hlers of the soil or landless laboyrers."
+cfbc6c2011a,Sahai,HOLDS_RIGHTS_OVER,free service,,,,,,,standing,Chauntra,88,1961,ai_checked,supported,"We have given to Sahai all cesseS of whatsoever kind, our right to free service"
+cc8071ea166,households (Chaupal),HOLDS_RIGHTS_OVER,forest,,,,,Chaupal,Yamuna,standing,Chaupal,55,1961,ai_checked,supported,"Lopping of icail, diar and Rai trees for fodder and fuel."
+c2a9ea4feb2,households (Chaupal),HOLDS_RIGHTS_OVER,forest,,,,,Chaupal,Yamuna,standing,Chaupal,55,1961,ai_checked,supported,Making of Agricultural implements.
+c45ae4f9f61,households (Chaupal),HOLDS_RIGHTS_OVER,forest,,,,,Chaupal,Yamuna,standing,Chaupal,55,1961,ai_checked,supported,To obtain trees for cremation.
+c88d2da78f9,households (Chaupal),HOLDS_RIGHTS_OVER,forest,,,,,Chaupal,Yamuna,standing,Chaupal,55,1961,ai_checked,supported,Right to cut grass for fodder.
+c9b856097b7,households (Chaupal),HOLDS_RIGHTS_OVER,forest,,,,,Chaupal,Yamuna,standing,Chaupal,55,1961,ai_checked,supported,Right to cut grass for fodder. To obtain fuel free.
+c0bbe3d7477,households (Chaupal),HOLDS_RIGHTS_OVER,grazing rights,,,,,Chaupal,Yamuna,standing,Chaupal,55,1961,ai_checked,supported,"Full free grazing rights for cows, sheep and goats."
+c501fc15304,households (Chaupal),HOLDS_RIGHTS_OVER,grazing rights,,2,she-buffaloes allowed to graze free,,Chaupal,Yamuna,standing,Chaupal,55,1961,ai_checked,supported,Two She-buffaloes are allowed free to graze.
+c53e4f84e7f,Himachal Pradesh Government,CLOSES,riverbank,,,,,Chergaon,Yamuna,forest_department,Chergaon,52,1961,ai_checked,supported,"By the river sides, the cattle are npt permitted to graze."
+cf92f758e32,households (Chergaon),HOLDS_RIGHTS_OVER,pasture,,,,,Chergaon,Yamuna,standing,Chergaon,63,1961,ai_checked,supported,People have vast grazing pastures for their cattle over the hills around with full grazing rights.
+c76c429af7b,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Chitrari,Ravi,forest_department,Chitrari,38,1961,ai_checked,supported,The forests occupy the biggest area and are managed by State Fprest Department.
+c7a0cc68201,households (Devi-Kothi),HOLDS_RIGHTS_OVER,forest,,,,,Devi-Kothi,Ravi,standing,Devi-Kothi,48,1961,ai_checked,supported,Though all the villagers are right holders they do not obtain permits.
+c7fb9a891d4,households (Devi-Kothi),HOLDS_RIGHTS_OVER,forest,,,,,Devi-Kothi,Ravi,standing,Devi-Kothi,49,1961,ai_checked,supported,All the residents of Devi Kothi possess rights in such forests.
+cb06c071360,households (Devi-Kothi),HOLDS_RIGHTS_OVER,Lower Tan Forest,,,,,Devi-Kothi,Ravi,standing,Devi-Kothi,49,1961,ai_checked,supported,The villagers of Devi Kothi have this right in Low'er Tan Forest (Regular Working Cir-de) and: jungle Devi Kothi.
+c17f3bc4e05,households (Devi-Kothi),HOLDS_RIGHTS_OVER,Devi Kothi jungle,,,,,Devi-Kothi,Ravi,standing,Devi-Kothi,49,1961,ai_checked,supported,The villagers of Devi Kothi have this right in Low'er Tan Forest (Regular Working Cir-de) and: jungle Devi Kothi.
+cccf7c9f264,panchayat,HOLDS_RIGHTS_OVER,pasture,,,,,Kalath,,standing,Kalath,76,1961,ai_checked,supported,"The ownership and control of
+shamlaf pastures vest in the statutory
+panchayat."
+c75410725e0,households (Kalath),HOLDS_RIGHTS_OVER,pasture,,,,,Kalath,,standing,Kalath,76,1961,ai_checked,supported,"The residents hold grazing rights in the Panchayat and
+Government-owned pastures"
+cda8cd978d3,households (Kanum),HOLDS_RIGHTS_OVER,chilgoza,,,,,Kanum,Sutlej,standing,Kanum,133,1961,ai_checked,supported,and collect chailgoza seeds for personal use and for sale.
+c6f040a30b2,households (Kanum),HOLDS_RIGHTS_OVER,pasture,,,,,Kanum,Sutlej,standing,Kanum,133,1961,ai_checked,supported,The protected area is' a common pasture land of the villagers
+cf0ec89e7dd,households (Kanum),HOLDS_RIGHTS_OVER,pasture,,,,,Kanum,Sutlej,standing,Kanum,133,1961,ai_checked,supported,"Every villager has a right of utilizing the pastures. on the peaks locally known Pruti, Brati, Rao and Mennath,"
+c5f1c542ba3,households (Kanum),HOLDS_RIGHTS_OVER,torchwood,,,,,Kanum,Sutlej,standing,Kanum,133,1961,ai_checked,supported,but the people would still coqtinue to enjoy their right to cut torch wood
+c734fe81054,Bushahr ruler,HOLDS_RIGHTS_OVER,pasture,,,,,Kanum,Sutlej,princely_pastures,Kanum,18,1961,ai_checked,supported,nautors could be granted out of pastures on application to the l'rimary Owner.
+c18aae3cc55,households (Kanum),HOLDS_RIGHTS_OVER,chilgoza,,,,,Kanum,Sutlej,standing,Kanum,51,1961,ai_checked,supported,All sections of the village community have been granted concession under forest settlement to collect chilgoza cones from the forest
+ca3ddf2e89c,households (Kothi),HOLDS_RIGHTS_OVER,chilgoza,,,,,Kothi,Sutlej,standing,Kothi,79,1961,ai_checked,supported,"villagers are entitled to collect
+chilgoza-cones from the forest and extract.
+seed therefrom under the Forest Settlement,
+Sutlej Valley Bushahr State, which is still
+in force."
+ca3754bb699,Gaddi,HOLDS_RIGHTS_OVER,pasture,,,,,Pangi,Chenab,cycle,Kupha,113,1961,ai_checked,supported,"They obtain leases of
+the grazing on the Pangi dhars. which are put
+up to auction in Chamba cvery year,"
+c58198152c2,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,forest_department,Kupha,133,1961,ai_checked,supported,In addition to the Kardars for the management of the forests there was a Revenue Forest Department and Reserve Forest Department locally called 'CHHOTI J.ANGLAT' and 'BARI JANGLAT' respectIvely.
+c7fb06d4a10,households,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,standing,Kupha,133,1961,ai_checked,supported,The Revenue Forests were open for grazing
+c79244fc1a4,households,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,standing,Kupha,133,1961,ai_checked,supported,and for extraction of minor forest produce.
+c3f2f7461db,households,HOLDS_RIGHTS_OVER,Deodar tree,,1,Rs per tree,,Pangi,Chenab,standing,Kupha,133,1961,ai_checked,supported,In the Revenue ..Forests the local people were entitled to get Deodar trees at the rate of Re. 1/- per tree
+cc56761ae94,households,HOLDS_RIGHTS_OVER,Kail tree,,,,,Pangi,Chenab,standing,Kupha,133,1961,ai_checked,supported,Kail at the rate of -/8/- and Tosh (fur) at the rate of -/4/-.
+c469ee11409,households,HOLDS_RIGHTS_OVER,Tosh (fir),,,,,Pangi,Chenab,standing,Kupha,133,1961,ai_checked,supported,and Tosh (fur) at the rate of -/4/-.
+c6bedbf9e0c,Himachal Pradesh Government,HOLDS_RIGHTS_OVER,forest,,5,years,,Pangi,Chenab,princely_pastures,Kupha,133,1961,ai_checked,supported,There9fter the management-of these forests was taken over by the S1:ate for 5 yearn.
+cd17b621a09,Himachal Pradesh Government,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,princely_pastures,Kupha,133,1961,ai_checked,supported,In 1913 the management of the forests was finally transferred to the State with certain conditions.
+c3c59e86a55,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,forest_department,Kupha,134,1961,ai_checked,supported,With the merger of the State with the Union of India the administrative distinction between the Revenue Forests and the Reserve Forests has now been abolished and the entire forest administration is in the hands of the Forest Department.
+c27f278e783,Forest Department,CLOSES,pasture,,,,,Pangi,Chenab,forest_department,Kupha,136,1961,ai_checked,supported,Certain pastures have also been closed in order to undertake extensive measures for soil conservation.
+c48577e1aa8,Forest Department,CLOSES,forest,,,,,,,forest_department,Kupha,57,1961,ai_checked,supported,she would be challaned by the Forest Department.
+cec785752a0,Kupha,HOLDS_RIGHTS_OVER,Gail,,,,,Kupha,Chenab,standing,Kupha,81,1961,ai_checked,supported,The pastures are jointly operated by the villages. For Kupha and the adjoining villages like Kawas and Bhatwaas the pasture is in Gail
+c6a42023db7,Kawas,HOLDS_RIGHTS_OVER,Gail,,,,,Kupha,Chenab,standing,Kupha,81,1961,ai_checked,supported,For Kupha and the adjoining villages like Kawas and Bhatwaas the pasture is in Gail
+c86e494ac69,Bhatwaas,HOLDS_RIGHTS_OVER,Gail,,,,,Kupha,Chenab,standing,Kupha,81,1961,ai_checked,supported,For Kupha and the adjoining villages like Kawas and Bhatwaas the pasture is in Gail
+cf9fc9e1b32,Forest Department,CLOSES,land,,120,acres,,Manthapal,,forest_department,Moginand,45,1961,ai_checked,supported,To begin with 120 acres of land was taken up by the Forest Department at Manthapal and was fenced with barbed wire.
+c69431f0dd1,Himachal Pradesh Government,HOLDS_RIGHTS_OVER,pasture,,,,,Moginand,,standing,Moginand,47,1961,ai_checked,supported,The second type is a Government reserved area where no grazing is allowed without obtaining a permit.
+ce90d992d7e,households (Moginand),HOLDS_RIGHTS_OVER,pasture,,,,,Moginand,,standing,Moginand,47,1961,ai_checked,supported,One is a village pasture where the villagers have grazing rights.
+cce3ca2095d,Himachal Pradesh Government,HOLDS_RIGHTS_OVER,forest,,,,,Nachar,Sutlej,standing,Nachar,9,1961,ai_checked,supported,The admmlstratlve control of the forests now vests in Himachal Pradesh Government.
+cecfd881dff,Punjab Government,HOLDS_RIGHTS_OVER,forest,,,,,Nachar,Sutlej,standing,Nachar,9,1961,ai_checked,supported,forests were leased out by the Bushahr Durbar to the Punjab G?v~rnm~nt
+c85f9171047,landholders (Brahmaur),HOLDS_RIGHTS_OVER,land,,,,,Brahmaur,Ravi,standing,Newell,101,1961,ai_checked,supported,"Pri\ale land COlilel be IIsed in any \\,;I\, the OWllcr decideel even to the cuttillg dO'II'll of trees Oil the land."
+c7b970b3dd8,grazing landholder,HOLDS_RIGHTS_OVER,land,,,,,,,standing,Newell,107,1961,ai_checked,supported,"Person who allows sheep to graz('
+on his land."
+c070e9c2e36,Raja of Chamba,HOLDS_RIGHTS_OVER,Chamba State,,,,,,Ravi,princely_pastures,Newell,12,1961,ai_checked,supported,"the po;i t,OIl of the rajah of Chamba as the propnetor
+0:' the State"
+c7ddd9ef378,forest guard,HOLDS_RIGHTS_OVER,wood,,,,,Chamba State,Ravi,princely_pastures,Newell,15,1961,ai_checked,supported,"to this official, completely out of control of the local authorities, every Gaddi had to be beholden for wood for his house, firewood, and in many other ways."
+c99c94efc5d,Forest Department,HOLDS_RIGHTS_OVER,grazing permit,,,,,Chamba State,Ravi,forest_department,Newell,15,1961,ai_checked,supported,"that the issuing of grazing permits has
+!lOW .also .been taken over by the department,"
+c35883f6472,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Chamba State,Ravi,forest_department,Newell,15,1961,ai_checked,supported,today the power of the forest department is paramount.
+c959d903392,Raja of Chamba,HOLDS_RIGHTS_OVER,land,,,,,Chamba State,Ravi,princely_pastures,Newell,16,1961,ai_checked,supported,"The rajah could not sell any of his land in the State to those onv,ide. coul c! only dispose of the right to use the land."
+ce062514f02,cultivator,HOLDS_RIGHTS_OVER,waste land,,,,,Chamba State,Ravi,standing,Newell,16,1961,ai_checked,supported,The cultivator enjoys the right of user (baTtoll) in the \rastes near his holding.
+c4c395de7d8,Raja of Chamba,HOLDS_RIGHTS_OVER,pasture,,,,,,,princely_pastures,Newell,17,1961,ai_checked,supported,"This land was granted by the rajah but no revenue was paid. I will call thi~ land ""common land of the village"" although It was really the rajah's land lent to th~ village free,"
+c84d61a382d,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,,,forest_department,Newell,17,1961,ai_checked,supported,"the rajah's agents (such as the Forest Depart·
+ment) 'but to which villagers had. access."
+ca2079a7100,households,HOLDS_RIGHTS_OVER,pasture,,,,,,,princely_pastures,Newell,17,1961,ai_checked,supported,the members had the right to use either as sites for their houses or on which to graze their domestic animals.
+cd01c5f81c8,households,HOLDS_RIGHTS_OVER,forest,,,,,,,princely_pastures,Newell,17,1961,ai_checked,supported,the villagers had the right to hunt ill the forest without a license
+c7203c97d44,households,HOLDS_RIGHTS_OVER,grass,,,,,,,princely_pastures,Newell,17,1961,ai_checked,supported,"to collect loo~e brushwood, pille needles, grass"
+cc058c1b948,Gaddi,HOLDS_RIGHTS_OVER,pasture,,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_checked,supported,who could allot the pastureland3 (d hans).
+c9c935ea34e,Raja of Chamba,HOLDS_RIGHTS_OVER,pasture,grazing rights,,,,Chamba,Ravi,princely_pastures,Newell,18,1961,ai_checked,supported,In Chamba all grazing rights belonged to the rajah of Chamba.
+c82e4063747,Raja of Chamba,HOLDS_RIGHTS_OVER,grazing rights,,,,,Chamba State,Ravi,princely_pastures,Newell,18,1961,ai_checked,supported,In Chamba all grazing rights belonged to the rajah of Chamba
+cfc779831eb,Raja of Chamba,HOLDS_RIGHTS_OVER,land,,,,,Chamba State,Ravi,princely_pastures,Newell,19,1961,ai_checked,supported,the whole of Chamba State was natiollised. that is belollged to the nation in the person of the rajah.
+c0f667fc042,Raja of Chamba,HOLDS_RIGHTS_OVER,grazing rights,,,,,Chamba State,Ravi,princely_pastures,Newell,19,1961,ai_checked,supported,Thus the right to pasturage over the whole of the State belonged to the rajah who could dispose of the rights temporarily.
+c4298a2d1dc,Forest Department,HOLDS_RIGHTS_OVER,right to collect grazing fees,,,,,,,forest_department,Newell,19,1961,ai_checked,supported,These rights to grazing tax have now beeH taken over by the Government of India State Forest Department.
+c4ba687b4c8,households (Brahmaur),HOLDS_RIGHTS_OVER,common land,,,,,Brahmaur,Ravi,standing,Newell,32,1961,ai_checked,supported,"Land between the hOllses in the village site, and the area surrounding the dominant caste shrine can be regarded as fornmon land to be used as the villagers determine."
+c0b69c250e6,households (Brahmaur),HOLDS_RIGHTS_OVER,land,,,,,Brahmaur,Ravi,standing,Newell,32,1961,ai_checked,supported,The villagers had certain rights over this !and as a privilege Dr by tradition for grazing animals
+c95a5c2dfe3,households (Brahmaur),HOLDS_RIGHTS_OVER,land,,,,,Brahmaur,Ravi,standing,Newell,32,1961,ai_checked,supported,The governmellt land could not he IIsed excll!sively by any olle village but only by the inhabitants of Brahmaur in general.
+c863958d8e4,cultivator,HOLDS_RIGHTS_OVER,grazing rights,,,,,,,standing,Newell,32,1961,ai_checked,supported,the right to p»sture sheep and goats and also ('attle; to Cllt grass (yhal) and the leaves of certain trees for foclder amI thorns for hedges
+c9956442917,shepherd,HOLDS_RIGHTS_OVER,grazing permit,,,,,,,forest_department,Newell,37,1961,ai_checked,supported,"these permits are
+freely bought and sold amongst shepherds"
+c5228eeb519,Raja of Chamba,HOLDS_RIGHTS_OVER,right to collect grazing fees,,,,,Kugti,,princely_pastures,Newell,37,1961,ai_checked,supported,in Kugti although the rajah owned the right to collect fees from the shepherds for pasture
+cf2eaebc259,Rajana,HOLDS_RIGHTS_OVER,timber,timber,,,,Rajana,Yamuna,standing,Rajana,47,1961,ai_checked,supported,"However, they were entitled for free timber from their own shamlat deh, for which application was to be forwarded to Divisional Forest Officer through patwari halka."
+c72eb89123b,landholders (Rajana),HOLDS_RIGHTS_OVER,Rajana,,,,,Rajana,Yamuna,princely_pastures,Rajana,70,1961,ai_checked,supported,"Before the merger of Sirmur State, Rajana was under the control of a few rich villagers."
+c3cfa0beb3a,moneylender,HOLDS_RIGHTS_OVER,Trade between the hills and the plains,,,,,,,princely_pastures,Rose,341,1911,ai_partly,partly_supported,they controlled all the trade between the hills and the plains
+c32e0278971,Rajput,HOLDS_RIGHTS_OVER,Lahaul,,,,,Lahaul,Chenab,princely_pastures,Rose Vol3,19,1914,ai_partly,partly_supported,"The rfhAk urs, who are the gentry and quondam rulers of LAhul"
+ce82027b275,households (Batal),HOLDS_RIGHTS_OVER,grazing rights,,,,,Batal,,standing,Batal,21,1961,ai_partly,partly_supported,"Charand areas where villagers have rights for cutting fuel-wood, grazing cattle, cutting grass"
+c29662112a8,landholders,HOLDS_RIGHTS_OVER,land,,,,,Kangra,Beas,princely_pastures,Chauntra,36,1961,ai_partly,partly_supported,"Government adhered to its first decision that
+the waste could not be appropriated except
+with the consent of the zamindars"
+c3e27e6c645,landholders,HOLDS_RIGHTS_OVER,forest,,2547,acres,,Kangra,Beas,princely_pastures,Chauntra,36,1961,ai_partly,partly_supported,"the zamindars to surrender 2.547
+acres, which were sold by auction in 1863."
+cac1fe9ba82,Rajput,HOLDS_RIGHTS_OVER,Kalka-pattam mountain,,,,,Kalka-pattam mountain,,standing,Chergaon,22,1961,ai_partly,partly_supported,"because in the past, Kalka-patltam mountain was of Thakur's domain."
+c3af6d041bf,households (Chergaon),HOLDS_RIGHTS_OVER,forest,,,,,Chergaon,Yamuna,standing,Chergaon,23,1961,ai_partly,partly_supported,"The villagers have timber rights in Punjali, Bobla and Sa:ndasu forest ranges within a radius of 3 to 6 miles."
+c093103afa2,households (Chergaon),HOLDS_RIGHTS_OVER,pasture,,,,,Chergaon,Yamuna,standing,Chergaon,80,1961,ai_partly,partly_supported,"Usually, the villagers from these two villages quarrel over the grazing pasture as they claim it."
+c2d00a61eeb,Jabbal villagers (Chergaon),HOLDS_RIGHTS_OVER,pasture,,,,,Chergaon,Yamuna,standing,Chergaon,80,1961,ai_partly,partly_supported,"Usually, the villagers from these two villages quarrel over the grazing pasture as they claim it."
+cb32e6d024e,households (Chitrari),HOLDS_RIGHTS_OVER,forest,timber,2,Rs per gali,,Chitrari,Ravi,standing,Chitrari,17,1961,ai_partly,partly_supported,The villagers have certain established rights in the local forests and obtain Timber for construction at concesshonal rates. The rate per gali is Rs. 2/-
+c5971368c6b,households (Chitrari),HOLDS_RIGHTS_OVER,forest,,,,,Chitrari,Ravi,standing,Chitrari,17,1961,ai_partly,partly_supported,They have the right to oollect the fallen branches of the trees in the forest area called Bani.
+c69bfaeaa38,Forest Department,CLOSES,forest,,,,,Chitrari,Ravi,forest_department,Chitrari,23,1961,ai_partly,partly_supported,The areas round about have been declared Reserved Fprests and the infringement of the rules is followed either by cash penalty or forfeiture
+c301f6c875c,households (Devi-Kothi),HOLDS_RIGHTS_OVER,forest,,,,,Devi-Kothi,Ravi,standing,Devi-Kothi,49,1961,ai_partly,partly_supported,only those persons can inherit rights in such forests whose forefathers were given bartandari rights in these forests.
+c257f23d50e,households (Devi-Kothi),HOLDS_RIGHTS_OVER,grazing rights,,,,,Devi-Kothi,Ravi,standing,Devi-Kothi,49,1961,ai_partly,partly_supported,Grazing rights free-Grazing of all domesticated animals provided: a villager is a right holder.
+cf51beb7b5f,households (Kalath),HOLDS_RIGHTS_OVER,forest,,,,,Kalath,,standing,Kalath,76,1961,ai_partly,partly_supported,"The residents hold grazing rights in the Panchayat and
+Government-owned pastures and
+jungles except in the reserve forests."
+ca5dbaf3050,households (Kanum),HOLDS_RIGHTS_OVER,grazing rights,,,,,Kanum,Sutlej,cycle,Kanum,19,1961,ai_partly,partly_supported,"The villagers enjoy rights of grazmg of domestIc
+cattle including sheep and goat ~sed fa: carrying loads, yaks, donkeys and pomes durmg the
+y'ear."
+c07f45c9ac4,households (Kanum),HOLDS_RIGHTS_OVER,forest,,,,,Kanum,Sutlej,standing,Kanum,19,1961,ai_partly,partly_supported,"They obtain free of charge. tr~es ?f, all
+kinds other than deodar for makmg Karhng or
+feeding and watering troughs"
+c653fe0dbc9,households (Kanum),HOLDS_RIGHTS_OVER,forest,,,,,Kanum,Sutlej,standing,Kanum,19,1961,ai_partly,partly_supported,"Timber for building purposes according to the rules prescribed from time to
+time."
+c7dc16cb982,British administration in Kangra,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,two_sovereigns,Kupha,133,1961,ai_partly,partly_supported,The Reserve Forests were on lease with the British Govt. till 1908.
+c1764e774c5,Chamba State,HOLDS_RIGHTS_OVER,land,,,,,Brahmaur,Ravi,princely_pastures,Newell,101,1961,ai_partly,partly_supported,"Instead of tjlf~ State retainillg cOlJLrol o\'er all \and as the ultimate proprietor, all land \I'<IS divided into two types, Govetllment land allLl private land,"
+c48233d0bc9,Gaddi,HOLDS_RIGHTS_OVER,ban (grazing run),grazing rights,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_partly,partly_supported,Each ban in Kangra is claimed by a Gaddi as its warisi (inheritance) except in Nurpur where all bans are free.
+c0eccd722ae,Kangra ruler,HOLDS_RIGHTS_OVER,grazing rights,,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_partly,partly_supported,The origin of this warisi is alleged to be in a grant (patti) from the rajah.
+cf1d7fe9174,malundi,HOLDS_RIGHTS_OVER,ban (grazing run),grazing rights,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_partly,partly_supported,The holder of the patti was often the mahlundi) master of the flock
+cb4acae9f81,malundi,HOLDS_RIGHTS_OVER,ban (grazing run),grazing rights,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_partly,partly_supported,should a run not be taken up by a mahlundi) after a while the right would disappear.
+c5b4490b279,villages at the bottom of dhans,HOLDS_RIGHTS_OVER,manuring right,,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_partly,partly_supported,but this right applied only in the autumn and not in the spring.
+cca5381ff97,neighbouring villages,HOLDS_RIGHTS_OVER,pasture,,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_partly,partly_supported,pasturage amid the forests lower down and pas· turage on the plains.
+cfc8bfb49e6,herdsmen's client,HOLDS_RIGHTS_OVER,low hills,grazing rights,,,,Kangra,Beas,princely_pastures,Newell,18,1961,ai_partly,partly_supported,who was issued with a grant showing his grating rights over the territory.
+c44f3075d28,shepherd,HOLDS_RIGHTS_OVER,grazing rights,,,,,Kangra,Beas,princely_pastures,Newell,19,1961,ai_partly,partly_supported,"however in the case of the Kangra valley acquire a grant by petitioning the rajah for the right to use the land for the purpose of grazing ,;hcep for a longer period than three days."
+c7fbd7fe761,households,HOLDS_RIGHTS_OVER,pasture,,,,,Kugti,,princely_pastures,Newell,37,1961,ai_partly,partly_supported,they have always held from the Rajah the lease of all th
+c283bbe4474,households (Rajana),HOLDS_RIGHTS_OVER,pasture,,,,,Rajana,Yamuna,standing,Rajana,117,1961,ai_partly,partly_supported,"Govt. Pasture, where villagers have grazing rights."
+cc2c071613f,Rajana,HOLDS_RIGHTS_OVER,forest,,,,,Rajana,Yamuna,princely_pastures,Rajana,47,1961,ai_partly,partly_supported,"because, they had their own shamlat. Now on the lines of that decision people have no rights in Government forest."
+c2727ee09e4,Gram Sudhar Committee,HOLDS_RIGHTS_OVER,forest,,,,,Rajana,Yamuna,standing,Rajana,70,1961,ai_partly,partly_supported,"The object of the committee was to protect the crops from theft, to keep the village neat and clean and to protect the new plantation of forests."

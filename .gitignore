@@ -4,3 +4,6 @@ cache/
 __pycache__/
 .env
 .python/
+essay/*.aux
+essay/*.log
+essay/*.out

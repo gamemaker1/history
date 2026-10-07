@@ -1,0 +1,6 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c97ad861445,Gaddi,OWNS,land,,,,,,,two_sovereigns,1881,275,1881,ai_checked,supported,They hold lands on this side and also in Chamba
+cebad545b73,Gaddi,OWNS,land,,,,,Dhauladhar,,two_sovereigns,Rose,297,1911,ai_checked,supported,Many of them own land on both sides of the Dhaula Dhar
+cdb1daedee0,Gaddi,PAYS_DUES_TO,Raja of Chamba,land revenue and dues,,,,Chamba State,Ravi,two_sovereigns,1881,275,1881,ai_partly,partly_supported,"whenever fined by the Kangra authorities, to pay a similar penalty into the Chamba treasury."
+ce8d07ad25e,Gaddi,PAYS_DUES_TO,British administration in Kangra,land revenue and dues,,,,Kangra,Beas,two_sovereigns,1881,275,1881,ai_partly,partly_supported,"whenever fined by the Kangra authorities, to pay a similar penalty into the Chamba treasury."
+c7dc16cb982,British administration in Kangra,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,two_sovereigns,Kupha,133,1961,ai_partly,partly_supported,The Reserve Forests were on lease with the British Govt. till 1908.

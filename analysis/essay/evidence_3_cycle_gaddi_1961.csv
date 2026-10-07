@@ -1,0 +1,185 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c373788261e,Gaddi (Brahmaur),GRAZES_AT,Kangra,sheep and goats,,,,Brahmaur,Ravi,cycle,Brahmaur,12,1961,ai_checked,supported,during winter in the valley of Kangra a!ld
+c4493dadc04,Gaddi (Brahmaur),GRAZES_AT,Suket,sheep and goats,,,,Brahmaur,Ravi,cycle,Brahmaur,12,1961,ai_checked,supported,in Suket and Mandi illaqas.
+ce1a050de1b,Gaddi (Brahmaur),GRAZES_AT,Mandi,sheep and goats,,,,Brahmaur,Ravi,cycle,Brahmaur,12,1961,ai_checked,supported,in Suket and Mandi illaqas.
+c44921dcd05,shepherd (Brahmaur),MOVES_VIA,high pass,,,,,Brahmaur,Ravi,cycle,Brahmaur,30,1961,ai_checked,supported,"The shep-
+herds who have to cross high passes covered"
+c636a7bd39b,households (Brahmaur),MIGRATES_TO,Kangra,,,,,Brahmaur,Ravi,cycle,Brahmaur,36,1961,ai_checked,supported,"These, they purchased during their'migration to Kangra and other places."
+c400ed39f8a,households (Brahmaur),MIGRATES_TO,Outside Brahmaur,,,,10|11|12|1|2|3,Brahmaur,Ravi,cycle,Brahmaur,45,1961,ai_checked,supported,as. many as 61 households earn their livelihood from October to NIarch working at odd jobs outside the village.
+ca48277d6f6,shepherd (Brahmaur),GRAZES_AT,pasture,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,The flocks are led over to the pastures in inner mountains of Pangi and Lahaul. These pastures are called dhars. There they remain for two months.
+c3a88d312ae,shepherd (Brahmaur),GRAZES_AT,Brahmani forest tarkal,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"For Brahmaur, Brahmani forest serves as ·tarkal. It is about 2 miles from Brahmaur."
+c1b9442c803,shepherd (Brahmaur),MOVES_VIA,Pangi,,,,9,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven
+c82fc3b3e7b,shepherd (Brahmaur),MOVES_VIA,Lahaul,,,,9,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven
+c1d12af0b8b,malundi (Brahmaur),GRAZES_AT,Brahmani forest tarkal,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,Such pastures are locally called tarkals and: are situated in the Brahmni forests near Brahmaur.
+cf09f227ab4,malundi (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+c4dd2f79bfa,malundi (Brahmaur),MIGRATES_TO,Pangi,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+ce4d286b4dc,malundi (Brahmaur),MIGRATES_TO,Lahaul,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+cc3f45e1b1d,malundi (Brahmaur),GRAZES_AT,Kangra,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+caf4d358e02,malundi (Brahmaur),GRAZES_AT,Nurpur,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+c442a7ec255,malundi (Brahmaur),GRAZES_AT,Pathankot,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+cf57dcaf569,malundi (Brahmaur),GRAZES_AT,Jammu,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+cc1760c09be,pohal (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+c56f59ad162,pohal (Brahmaur),MIGRATES_TO,Pangi,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+cd934235112,pohal (Brahmaur),MIGRATES_TO,Lahaul,,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+ccdd9eaf8b1,pohal (Brahmaur),GRAZES_AT,Kangra,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+cc42bbf7d89,pohal (Brahmaur),GRAZES_AT,Nurpur,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+ca25175ca3b,pohal (Brahmaur),GRAZES_AT,Pathankot,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+c947cbc242b,pohal (Brahmaur),GRAZES_AT,Jammu,,,,10|11,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+c79a63eed6a,malundi (Brahmaur),MIGRATES_TO,Kangra,,,,,Brahmaur,Ravi,cycle,Brahmaur,56,1961,ai_checked,supported,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and"
+c36c2698205,malundi (Brahmaur),MIGRATES_TO,Nurpur,,,,,Brahmaur,Ravi,cycle,Brahmaur,56,1961,ai_checked,supported,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and"
+c58eeb2971e,malundi (Brahmaur),MIGRATES_TO,Pathankot,,,,,Brahmaur,Ravi,cycle,Brahmaur,56,1961,ai_checked,supported,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and"
+cab8a02e825,malundi (Brahmaur),MIGRATES_TO,Jammu,,,,,Brahmaur,Ravi,cycle,Brahmaur,56,1961,ai_checked,supported,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and
+Jammu."
+ca4a579bd4c,pohal (Brahmaur),GRAZES_AT,Lahaul,,,,,Brahmaur,Ravi,cycle,Brahmaur,57,1961,ai_checked,supported,He took his flock for grazing to Lahaul
+c093d01bde0,pohal (Brahmaur),GRAZES_AT,Lahaul,,,,,Brahmaur,Ravi,cycle,Brahmaur,58,1961,ai_checked,supported,when some pohals went to Lahaul to graze their flocks
+c9e6478dcc3,Lahula (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,58,1961,ai_checked,supported,"when some Lahaulis went to
+lower hills"
+cc2ef4bece4,households (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,59,1961,ai_checked,supported,The gardus are really of fine quality and command a ready market in the low hills where people sell them durini! their stay there in winter months.
+cf3d5343bdf,households (Brahmaur),MIGRATES_TO,low hills,,,,10|11|12|1|2|3,Brahmaur,Ravi,cycle,Brahmaur,63,1961,ai_checked,supported,to migrate to lower hills from October to March.
+c9432521300,households (Brahmaur),MIGRATES_TO,low hills,,61,households,10|11|12|1|2|3,Brahmaur,Ravi,cycle,Brahmaur,63,1961,ai_checked,supported,as many as 61 ml)ve out in winter months.
+c44ff9354df,households (Brahmaur),MIGRATES_TO,low hills,,61,households of 99,,Brahmaur,Ravi,cycle,Brahmaur,63,1961,ai_checked,supported,"out of 99 local . households, as many as 61 ml)ve out in winter months"
+cc58db89413,households (Brahmaur),MIGRATES_TO,Brahmaur,,,,3|4,Brahmaur,Ravi,cycle,Brahmaur,65,1961,ai_checked,supported,"This return journey lasts from the end of
+March to the end of April."
+cf820e9f954,Gaddi (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,79,1961,ai_checked,supported,"the shepherds who roam about over a large area from Lahaul to the foot-hills, have their women folk with them."
+ce9e27abd22,households (Brahmaur),MIGRATES_TO,Brahmaur,,,,,Brahmaur,Ravi,cycle,Brahmaur,84,1961,ai_checked,supported,"because of their short stay during summer
+months at the headquarters, they are not
+able to pay. as much attention to their
+land as a good cultivator should"
+cb7ebcaf5fd,Gaddi (Brahmaur),MIGRATES_TO,Kangra,,,,,Brahmaur,Ravi,cycle,Brahmaur,87,1961,ai_checked,supported,The yearly migration to Kangra and other places is on the decline.
+cb4fe8fe035,shepherd (Chitrari),GRAZES_AT,pasture,,,,,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_checked,supported,Each shepherd is allotted a particular pasture of dhar for his pwn flock consisting of a number of goats and sheep.
+ca3c42aee21,Gaddi (Chitrari),MOVES_VIA,the valley,,,,,Chitrari,Ravi,cycle,Chitrari,58,1961,ai_checked,supported,spend a part of their life in travelling through the valley daily
+c2e8bc4a107,Gaddi (Chitrari),MOVES_VIA,high-mountain pass,,,,,Chitrari,Ravi,cycle,Chitrari,58,1961,ai_checked,supported,travelling through the valley daily and high-mountain passes over the years.
+cee086bccee,Pangi,MOVES_VIA,Sach Pass,,14328,feet elevation,,Pangi,Chenab,cycle,Kupha,111,1961,ai_checked,supported,"That over the Sach (14,328 feet elevation), though
+longest. is the best and most generally used."
+c78a834ae71,Pangi,MOVES_VIA,Cheni pass,,,,,Pangi,Chenab,cycle,Kupha,111,1961,ai_checked,supported,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+c1f822c9953,Pangi,MOVES_VIA,Marwa (Chara) pass,,,,,Pangi,Chenab,cycle,Kupha,111,1961,ai_checked,supported,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+cf57954affe,Pangi,MOVES_VIA,Drati pass,,,,,Pangi,Chenab,cycle,Kupha,111,1961,ai_checked,supported,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+c87c5d72241,Pangi,MOVES_VIA,Kalicho pass,,,,,Pangi,Chenab,cycle,Kupha,111,1961,ai_checked,supported,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+cf62d27da7c,Pangi,MOVES_VIA,Chobia pass,,,,,Pangi,Chenab,cycle,Kupha,111,1961,ai_checked,supported,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+c95986c6f5c,Gaddi,MIGRATES_TO,Pangi,,,,7|8|9,Pangi,Chenab,cycle,Kupha,113,1961,ai_checked,supported,"The ""Gad is"", a roving pastoral race, visit
+Pangi with theii' flocks in July and remain in
+the valley till September."
+cb13ee3a74c,sheep and goats,GRAZES_AT,Pangi,,,,,Pangi,Chenab,cycle,Kupha,113,1961,ai_checked,supported,"As a rule, cattle. sheep and goats are grazed
+together in Pangi."
+cd22d585748,cattle,GRAZES_AT,forest,,,,,Pangi,Chenab,cycle,Kupha,113,1961,ai_checked,supported,"cattle are permitted to
+graze in the forests during spring and autumn,
+while sheep and goats are excluded."
+ccb0f96c2a4,livestock,GRAZES_AT,pasture,,,,,Pangi,Chenab,cycle,Kupha,113,1961,ai_checked,supported,"grazed in wastes near the villages d~ring
+spring and autumn"
+cb36ac4faf6,livestock,GRAZES_AT,high pastures,,,,,Pangi,Chenab,cycle,Kupha,113,1961,ai_checked,supported,"taken up to pohahs or
+cattle pens on the higher grazing grounds
+above forest limits in summer."
+cfc785ca7f3,Pangi,MOVES_VIA,Sach Pass,,,,,Pangi,Chenab,cycle,Kupha,128,1961,ai_checked,supported,The easiest approach from Chamba to Pangi is via Sach Pass (14478 :fl.).
+c20e6d11a21,Pangi,MOVES_VIA,Rohtang pass,,,,,Pangi,Chenab,cycle,Kupha,128,1961,ai_checked,supported,The Sub Tehsil can be apprqached from Manali-Kulu side after crossing Rohtang Pass in Punjab Lauhal.
+cd83d05035d,Pangi,MOVES_VIA,Kishtwar,,,,,Pangi,Chenab,cycle,Kupha,128,1961,ai_checked,supported,"The 'third approach to the valley is via Kishtwar, where River Chandra Bhaga cuts a chasm in the Pangi Range of mountains and flows into Jammu and Kashmir territory."
+c5f0517d9f9,households (Kupha),GRAZES_AT,pasture,,,,,Kupha,Chenab,cycle,Kupha,131,1961,ai_checked,supported,In summer months the cattle are sent to the Dudhars for grazing.
+cffb031ff61,Pangwal,MIGRATES_TO,Chamba,,,,,Chamba,Ravi,cycle,Kupha,14,1961,ai_checked,supported,They have spent many hours talking to me whenever they come down to take up odd jobs or to work as labourers in Chamba either on the roadside or to work on some buildings.
+c268afa0e2c,Settlers of Lahul and Lower Chenab,MIGRATES_TO,Pangi,,,,,Pangi,Chenab,cycle,Kupha,20,1961,ai_checked,supported,These people finally migrated to Pangi which then had plenty of both good land and green pastures.
+c2f1e90ecb0,Pangwal (Kupha),MIGRATES_TO,Ground storey,,,,,Kupha,Chenab,cycle,Kupha,27,1961,ai_checked,supported,"During winter, the entire Pangwal family moves to the ground storey."
+c41d72f857b,Pangwal (Kupha),GRAZES_AT,pasture,,,,,Kupha,Chenab,cycle,Kupha,27,1961,ai_checked,supported,"When summer approaches, the livestock is sent to the pastures"
+c767392b356,Pangwal (Kupha),MIGRATES_TO,Upper storey,,,,,Kupha,Chenab,cycle,Kupha,27,1961,ai_checked,supported,the household members shift to the upper-storey.
+c4b40c779d7,households (Kupha),GRAZES_AT,high pastures,,,,5|6,Kupha,Chenab,cycle,Kupha,80,1961,ai_checked,supported,when summer approaches the cattle are sent to the distant pastures sometimes in the middle of laishtha or early Asadha.
+c638ef3372a,Kupha,GRAZES_AT,Gail,,,,,Kupha,Chenab,cycle,Kupha,81,1961,ai_checked,supported,For Kupha and the adjoining villages like Kawas and Bhatwaas the pasture is in Gail two miles away from Bhatwaas.
+caec87a9abd,Gaddi,GRAZES_AT,pasture,,,,,the valley,,cycle,Newell,105,1961,ai_checked,supported,The only industry which can be expanded which the Gaddis understand is that of sheep and goat grating but the heavy oyer grazing in certain areas cannot be encouraged
+c5ecc2abbde,Gaddi,MOVES_VIA,kandi dhans,,,,,Kangra,Beas,cycle,Newell,18,1961,ai_checked,supported,"In coming and going from Chamba to Kangra, three months are spent in the kandi dhans"
+c5f719d0778,Gaddi,MIGRATES_TO,Kangra,,,,,Kangra,Beas,cycle,Newell,18,1961,ai_checked,supported,"In coming and going from Chamba to Kangra, three months are spent in the kandi dhans"
+c9612afeb7a,Gaddi,GRAZES_AT,Bara Bangahal,,,,,Bara Bangahal,Ravi,princely_pastures,Newell,18,1961,ai_checked,supported,for Gaddis are domiciled in Chamba State
+c0dc17e0bdd,Gaddi,MOVES_VIA,Kugti pass,,,,,Kugti pass,,cycle,Newell,18,1961,ai_checked,supported,over the high pass between Kugti village at the top of the Bu~:ll Nadl ~nd Lahul
+ce5fdac18b1,households (Brahmaur),GRAZES_AT,pasture,,,,,Brahmaur,Ravi,cycle,Newell,32,1961,ai_checked,supported,"No we use the grazing grounds of the
+govC'I'nment as we used them previously"
+c3b7b7b085f,Gaddi,GRAZES_AT,Kangra,sheep and goats,,,,,Beas,cycle,Newell,36,1961,ai_checked,supported,"to the Kangra plains, where they arrive as late as possible. There they pasture their flocks on the fields before the autumn (hharif) crops are planted,"
+c870dc82ea2,Gaddi,GRAZES_AT,Kangra,sheep and goats,,,,,Beas,cycle,Newell,36,1961,ai_checked,supported,"They remain in the valley all the winter, until, as the spring approaches, they return to Brahmaur"
+c5e7d35b9ef,Gaddi,GRAZES_AT,Bara Bangahal,sheep and goats,,,,,Ravi,cycle,Newell,36,1961,ai_checked,supported,or in the pastures on the Bara 'Bangahal.
+c26f5581880,Gaddi,MIGRATES_TO,high pastures,,,,,,,cycle,Newell,36,1961,ai_checked,supported,"As autumn continues, they travel up the Ravi over nearly all the passes between Holi and Baijnath. They remain on the tops until snow drives them down"
+cee45fbb732,Gaddi,GRAZES_AT,Lahaul,sheep and goats,,,,,Chenab,cycle,Newell,36,1961,ai_checked,supported,"During the summer, the sheep and goats are pastured on the mountains on the south and west of the Chandra Bhaga river (Sutlej) in Lahul"
+cba0a5cdf81,Gaddi,MIGRATES_TO,Lahaul,,,,,,Chenab,cycle,Newell,36,1961,ai_checked,supported,before passing up the valley to Kugti and Lahul.
+cab5f2fec9b,Gaddi,MIGRATES_TO,Chamba,,,,,,Ravi,cycle,Newell,36,1961,ai_checked,supported,make haste to descend thc track to Charnba
+cac8551e991,Gaddi,MOVES_VIA,Chamba,,,,,,Ravi,cycle,Newell,36,1961,ai_checked,supported,"they return to Brahmaur either through Dalhousie and Chamba along the main road,"
+c4aee5bf0af,Gaddi,MOVES_VIA,Dhauladhar,,,,,,,cycle,Newell,36,1961,ai_checked,supported,"or cross over the Dhaula Dhar to Palampur, Dharamsala or the Kangra valley."
+c5b9bbc984e,Gaddi,MIGRATES_TO,Dharamsala,,2,households,,Goshen,,cycle,Newell,36,1961,ai_checked,supported,"2 had land at Dharamsala, where they could work for winter crops,"
+cb90a5160dd,Gaddi,MIGRATES_TO,Brahmaur,,,,,,Ravi,cycle,Newell,36,1961,ai_checked,supported,As autumn approaches the shepherds travel slowly down the valley below Kugti to Brahmaur
+c1e5b6b15af,Gaddi,GRAZES_AT,Brahmaur,sheep and goats,,,,,Ravi,cycle,Newell,36,1961,ai_checked,supported,"they allow their flocks to rest on those lands whose owners pay a fee for the sheep manure,"
+c4f9f1a4b8d,Gaddi,MIGRATES_TO,Brahmaur,,,,,,Ravi,cycle,Newell,36,1961,ai_checked,supported,"as the spring approaches, they return to Brahmaur either through Dalhousie and Chamba along the main road,"
+c73f39aaf5e,Gaddi,GRAZES_AT,Brahmaur,sheep and goats,,,,,Ravi,cycle,Newell,36,1961,ai_checked,supported,"In the middle spring, they again stay for two or three weeks at Brahmaur and on the hills on each side,"
+c4e79f1e056,Gaddi,MOVES_VIA,Dalhousie,,,,,,,cycle,Newell,36,1961,ai_checked,supported,"they return to Brahmaur either through Dalhousie and Chamba along the main road,"
+c7840a1a5c4,households,MIGRATES_TO,Kangra,,1,family,,Goshen,Beas,cycle,Newell,36,1961,ai_checked,supported,one who owned a packhorse went to work at Kangra and stayed with relatives.
+c3b5b2d9f7c,households,MIGRATES_TO,Pathankot,,1,family,,Goshen,,cycle,Newell,36,1961,ai_checked,supported,"Another family Cllt wood at Pathankot,"
+c9df8035071,porter,MOVES_VIA,Sunuos,,,,,,,cycle,Newell,84,1961,ai_checked,supported,"Travelling along, tho fil',j rest was at 8unuo8"
+c3b9e095bdf,porter,MOVES_VIA,Herser,,,,,,,cycle,Newell,84,1961,ai_checked,supported,.'Tben thew I'm;sted at HCl'ser.
+c139dcb539a,porter,MOVES_VIA,Duncho,,,,,,,cycle,Newell,84,1961,ai_checked,supported,At Dunci;o Trilocben ask
+c40341b2300,porter,MOVES_VIA,Bandargarti,,,,,,,cycle,Newell,84,1961,ai_checked,supported,Then they passed through t'w bandargnrti and lwgan to walk more slowly.
+c9d381fb434,porter,MOVES_VIA,Barorgarti,,,,,,,cycle,Newell,84,1961,ai_checked,supported,"Then they took a re,t at the barorrntll."
+c63b1e63f4a,porter,MOVES_VIA,Barchund,,,,,,,cycle,Newell,84,1961,ai_checked,supported,"Having made the round of Gaurikund' via Barchund, they set out for Dala."
+cb4b5e8d155,porter,MOVES_VIA,Gaurikund,,,,,,,cycle,Newell,84,1961,ai_checked,supported,"Having made the round of Gaurikund' via Barchund, they set out for Dala."
+ca1972b89b6,shepherd,MOVES_VIA,Gadaren,,,,,,Ravi,cycle,Newell,9,1961,ai_checked,supported,Lahul on the Sutlej through Gadaren and dow...
+c4deb2248ce,shepherd,MIGRATES_TO,Kangra,,,,,,Beas,cycle,Newell,9,1961,ai_checked,supported,"Gadaren and dow...
+to the Kangra valley."
+c68a1ba20ec,shepherd,MOVES_VIA,Brahmaur–Lahaul pass,,,,,passes between Brahmaur and Lahaul,,cycle,Newell,90,1961,ai_checked,supported,On certam of the passes between Brahmaur and Lahul (but not between Brahmaur and Kangra) it is obligatory for shepherds to sacrifice a sheep or goat as they
+cc62ce5f867,households (Kugti village),MIGRATES_TO,low hills,,,,,Kugti village,,cycle,Brahmaur,109,1961,ai_partly,partly_supported,During the winter the area is deeply under snow and most of the inhabitants emigrate further down the valley
+c321c7462c5,households (Kugti village),MIGRATES_TO,Kangra,,,,,Kugti village,Beas,cycle,Brahmaur,109,1961,ai_partly,partly_supported,During the winter the area is deeply under snow and most of the inhabitants emigrate further down the valley or to the Kangra Plains.
+cbcf3b04282,households (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,12,1961,ai_partly,partly_supported,th~villagers migrate to low lying areas.
+c2f82daf9d2,buffaloes,MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,53,1961,ai_partly,partly_supported,"Once a villager brought a buffalo, but he was not happy with the experience as the milk yield suddenly dropped from 9 srs. to 4 srs. and the buffalo had to be taken to low hills before winter."
+c92ab05a044,households (Brahmaur),GRAZES_AT,pasture,,,,,Brahmaur,Ravi,cycle,Brahmaur,54,1961,ai_partly,partly_supported,The cattle are sometimes also let loose to feed on the grass growip.g on the fringes of the fields.
+c75e5a6d200,households (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,54,1961,ai_partly,partly_supported,Some even take these birds in baskets with them on their migration to the lower hills.
+cdb0c0a7511,shepherd (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Brahmaur,57,1961,ai_partly,partly_supported,and by this time Autumn had set in and all his companions had returned to lower hills with their flocks.
+c326ab63486,households (Brahmaur),MIGRATES_TO,Brahmaur,,,,,Brahmaur,Ravi,cycle,Brahmaur,73,1961,ai_partly,partly_supported,A mention may be made of Sui fair which .the· people of Brahmaur participate on theIr way back to home during yearly migration.
+c5b9ed833e5,households (Chitrari),MIGRATES_TO,Shahpur,,,,9|10,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_partly,partly_supported,Migration starts in September-October and is collectively known as gana. The route adopted is generally the shortest <;me and: a number of mountain ranges have to be crossed over to. reach the plains of Shahpur and Kangra.
+cd36261442e,households (Chitrari),MIGRATES_TO,Kangra,,,,9|10,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_partly,partly_supported,Migration starts in September-October and is collectively known as gana. The route adopted is generally the shortest <;me and: a number of mountain ranges have to be crossed over to. reach the plains of Shahpur and Kangra.
+cf2b4b531a1,households (Chitrari),MOVES_VIA,Chuari pass,,8000,feet,9|10,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_partly,partly_supported,"These are Chuari or Basodan with a height of 8,000 feet,"
+cd2f518f684,households (Chitrari),MOVES_VIA,Kali Nali,,8900,feet,9|10,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_partly,partly_supported,"Kali Nali between Mahla and Raipur with a height of 8,900 feet,"
+c7a9ea7936a,households (Chitrari),MOVES_VIA,Mahli pass,,8600,feet,9|10,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_partly,partly_supported,"Mahli between Mahla and Tundi at a height of 8,600 feet"
+c77d6f140f8,households (Chitrari),MOVES_VIA,Loa pass,,10500,feet,9|10,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_partly,partly_supported,"Loa between Mahla and Bhatti Tikri with 10,500 feet."
+c1881d1f3e3,households (Chitrari),MIGRATES_TO,pasture,,,,,Chitrari,Ravi,cycle,Chitrari,23,1961,ai_partly,partly_supported,A few of them migrate during the winter. They do so out of convention and due tp the cold and to get a grazing ground fpr the flocks.
+c2a83ece449,Gaddi (Chitrari),MIGRATES_TO,low hills,,,,,Chitrari,Ravi,cycle,Chitrari,26,1961,ai_partly,partly_supported,These may be purchased at Chamba while migrating to the plains.
+c8f8cc3be6e,households (Chitrari),GRAZES_AT,pasture,,,,,Chitrari,Ravi,cycle,Chitrari,53,1961,ai_partly,partly_supported,The livestock is fed with green wild grass in so-called pastures during the rainy season
+c3c0a81b31d,Gaddi,MOVES_VIA,Pangi approach passes,,,,,Pangi,Chenab,cycle,Kupha,113,1961,ai_partly,partly_supported,and cross the passes immediately the snow melts.
+c8b20a7ba3b,sheep and goats,GRAZES_AT,forest,,,,,Pangi,Chenab,cycle,Kupha,113,1961,ai_partly,partly_supported,"In some places sheep and goats have to be
+admitted as well as cattle"
+c029ea5a7c3,households (Kupha),MIGRATES_TO,low hills,,,,,Kupha,Chenab,cycle,Kupha,131,1961,ai_partly,partly_supported,they go to the plains and work as labourers.
+c19b21f4f9a,Pangwal,MOVES_VIA,Sach Pass,,1,trip per year,,Pangi,Chenab,cycle,Kupha,132,1961,ai_partly,partly_supported,hardly if ever does more than one trip across the pass in a year
+c94d8b4bb46,Pangwal,GRAZES_AT,River bank near Kilar,,,,,Kilar,,cycle,Kupha,50,1961,ai_partly,partly_supported,It is said that a Pangwal woman used to graze her cattle near the river bank.
+c089de46503,households (Kupha),GRAZES_AT,high pastures,,,,,Kupha,Chenab,cycle,Kupha,80,1961,ai_partly,partly_supported,The lhut-choor is left on the mountain pastures until snow-falls.
+c85d5b05dc4,households (Kupha),MIGRATES_TO,Kupha,,,,10,Kupha,Chenab,cycle,Kupha,80,1961,ai_partly,partly_supported,Again on sankrant of Kartika the cattle return.
+c8e36c42803,Kupha,GRAZES_AT,Bailon,,,,,Kupha,Chenab,cycle,Kupha,81,1961,ai_partly,partly_supported,For other villages-Parmas. Thamoh and Malet the pasture is in Bailon about two miles away from Rundan.
+ce2cb2d5683,households (Brahmaur),GRAZES_AT,Punjab,,0.5,year,,Brahmaur,Ravi,cycle,Newell,10,1961,ai_partly,partly_supported,"Many of the Brahmaur villagers 'rho keep sheep and goats spend at least half the year grazing' them in what is
+administratively the Punjab"
+ce78e85a76f,Gaddi (Brahmaur),MIGRATES_TO,low hills,,,,11|12|1|2,Brahmaur,Ravi,cycle,Newell,101,1961,ai_partly,partly_supported,"from November to February from the
+Brahlll<luri crops and, as the land per head becomes
+less. Gaddis will be forced to stay for
+I()nger pcriods in the pLtll1S looking for temporary labour."
+c87e6317d6b,Gaddi,GRAZES_AT,Bara Bangahal,,,,,Bara Bangahal,Ravi,cycle,Newell,18,1961,ai_partly,partly_supported,"As citizens of Chamba, they had the right to graze their flocks in the Bara Bangahal without the payment of additional tax"
+cfa1dff3b35,Gaddi,GRAZES_AT,high pastures,,,,3|4|5|6|7|8|9|10|11,Kangra,Beas,cycle,Newell,18,1961,ai_partly,partly_supported,"On the Kangra side of the Dhaula Dhar, there are three types of pasturage, motlhtainous pasturage near the tops"
+c77182d011e,Gaddi,GRAZES_AT,high pastures,,,,3|4|10|11,Chamba,Ravi,cycle,Newell,18,1961,ai_partly,partly_supported,the grass springs up every spring and autumn.
+c60deb50d8e,Gaddi,GRAZES_AT,low hills,,,,,Kangra,Beas,cycle,Newell,18,1961,ai_partly,partly_supported,pasturage amid the forests lower down and pas· turage on the plains.
+c30884c542f,Gaddi,GRAZES_AT,Lahaul,,,,,Lahaul,Chenab,cycle,Newell,18,1961,ai_partly,partly_supported,and in Lahul to graze their sheep and goats on one side of the river only.
+c322f143e68,Lahula,GRAZES_AT,Lahaul,,,,,Lahaul,Chenab,cycle,Newell,18,1961,ai_partly,partly_supported,"On the other side, the inhabitants of Lahul may graze their animals."
+cb421795dae,shepherd,MOVES_VIA,Kangra,,,,,Kangra,Beas,princely_pastures,Newell,19,1961,ai_partly,partly_supported,For periods of le'is than three days any shepherd could tra'wl through the land.
+c05b576ec72,households (Brahmaur),MIGRATES_TO,other work destinations,,,,,Brahmaur,Ravi,cycle,Newell,22,1961,ai_partly,partly_supported,so fantastic for an agncultural commul1lty Without any additional industries or way of making money in the area as practically to force the population to move elsewhere for work.
+c1a0cbc942c,households (Brahmaur),GRAZES_AT,Waste land below Brahmaur,,,,,Brahmaur,Ravi,cycle,Newell,32,1961,ai_partly,partly_supported,It was quite COIllmon to see people from other villages grazing their cows aneI sheep in the waste land immediately below the village above the Budl N adl.
+c7a78af8c4d,Gaddi,MIGRATES_TO,Dispersal destinations,,,,,,,cycle,Newell,35,1961,ai_partly,partly_supported,"completely mspended during the
+Wll1tcr, .when the people lIlay be dispersed in
+lllany dIfferent places."
+ca773a46f27,households (Brahmaur),MIGRATES_TO,low hills,,,,11|12,Brahmaur,Ravi,cycle,Newell,35,1961,ai_partly,partly_supported,"As November and December approach,
+the Villagers of the .Brahmaur district prepare
+to leave for the plalT~s."
+cb0702f9fa4,households,GRAZES_AT,land,,,,,Goshen,,cycle,Newell,35,1961,ai_partly,partly_supported,"so that cows, goats and sheep can wander at will among the dry stalks without trampling down someone's field."
+cf6bf1c93a6,households,MIGRATES_TO,Winter destinations from Goshen,,16,households,,Goshen,,cycle,Newell,36,1961,ai_partly,partly_supported,"Of the sixteen who went away, 2 had land at Dharamsala, where they could work for winter crops,"
+cebf67baf2a,Gaddi,MIGRATES_TO,Kangra,,,,,,Beas,cycle,Newell,37,1961,ai_partly,partly_supported,live with the sheep in the warm Kangra
+c730eed8fbc,Gaddi,MIGRATES_TO,Gaddi home village,,,,,,,cycle,Newell,37,1961,ai_partly,partly_supported,village activities during the summer and autumn at
+cc42df42ce9,Gaddi (Brahmaur),MIGRATES_TO,low hills,,,,,Brahmaur,Ravi,cycle,Newell,9,1961,ai_partly,partly_supported,winter months emigrate to the plams.
+cb11c08641d,Gaddi,MIGRATES_TO,Kashmir,,,,,,,cycle,Newell,9,1961,ai_partly,partly_supported,Some flocks have even been known to travel as far north as Kashmir.

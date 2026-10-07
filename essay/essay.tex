@@ -1,0 +1,331 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[top=2.2cm,bottom=2.2cm,left=1.8cm,right=1.8cm,columnsep=0.75cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{libertine}
+\usepackage[varqu,varl]{inconsolata}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{float}
+\renewcommand{\topfraction}{0.9}\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}\renewcommand{\floatpagefraction}{0.7}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage{enumitem}
+\usepackage[numbers,square,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[most]{tcolorbox}
+\usepackage{hyperref}
+
+% --- colours ------------------------------------------------------------------
+\definecolor{maroon}{HTML}{7A1F2B}
+\definecolor{maroonlight}{HTML}{F6ECEC}
+\definecolor{ink}{HTML}{2B2B2B}
+\definecolor{muted}{HTML}{6B6B6B}
+\hypersetup{colorlinks=true, linkcolor=maroon, citecolor=maroon, urlcolor=maroon,
+  pdftitle={The Mountain Year and Its Owners}, pdfauthor={Vishak Kashyap, Vedant Kulkarni, Himangi Sahoo}}
+
+% --- section headings -----------------------------------------------------------
+\titleformat{\section}{\normalfont\sffamily\Large\bfseries\color{maroon}}
+  {\thesection}{0.8em}{}[{\color{maroon!35}\titlerule[0.6pt]}]
+\titleformat{\subsection}{\normalfont\sffamily\large\bfseries\color{maroon}}{\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalfont\sffamily\normalsize\bfseries\color{maroon}}{\thesubsubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{2.2ex plus 1ex minus .2ex}{1.4ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{1.8ex plus 1ex minus .2ex}{0.8ex plus .2ex}
+
+% --- running header and footer ------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{maroon!40}\leaders\hrule height \headrulewidth\hfill}}
+\fancyhead[L]{\sffamily\small\color{muted}The Mountain Year and Its Owners}
+\fancyhead[R]{\sffamily\small\color{muted}Seasonal herding in the Himachal hills, 1881--1961}
+\fancyfoot[C]{\sffamily\small\color{maroon}\thepage}
+\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}\fancyfoot[C]{\sffamily\small\color{maroon}\thepage}}
+\setlength{\headheight}{14pt}
+
+\graphicspath{{../analysis/}}
+\captionsetup{font=small,labelfont={bf,sf,color=maroon},labelsep=period}
+\setlist{nosep}
+\setlength{\emergencystretch}{2.5em}
+\setlength{\bibsep}{2pt plus 1pt}
+
+% ---------------------------------------------------------------------------
+% Citations. \src{source}{PDF page} cites a page of a primary source; every
+% page cited this way is reproduced in sources.pdf (scripts/build_sources_pdf.py)
+% and its quotations are checked against the page text (scripts/check_essay.py).
+% \srcimg is the same citation for figures read from the page image (tables,
+% two-column text), which cannot be checked against the OCR text. Both print a
+% numbered reference with the page, e.g. [5, p. 55]; the numbers follow the
+% order of first citation (scripts/essay_references.py).
+% \an{A10} cites an entry of computational-analysis.md (a computed result).
+% ---------------------------------------------------------------------------
+\input{srckeys}  % source name -> reference key (scripts/essay_references.py)
+\newcommand{\src}[2]{\edef\srctmp{\noexpand\citep[\unexpanded{p.~#2}]{\csname srckey@#1\endcsname}}\srctmp}
+\newcommand{\srcimg}[2]{\src{#1}{#2}}
+\newcommand{\an}[1]{(analysis #1)}
+
+\begin{document}
+\thispagestyle{plain}
+\twocolumn[{%
+\begin{minipage}{\textwidth}
+\begin{tikzpicture}[remember picture, overlay]
+  \fill[maroon] (current page.north west) rectangle ([yshift=-1.1cm]current page.north east);
+  \node[anchor=west, text=white, font=\sffamily\small] at ([xshift=1.8cm, yshift=-0.55cm]current page.north west)
+    {Introduction to History (HS3.201) \;\textbar\; IIIT Hyderabad \;\textbar\; Monsoon 2026};
+  \node[anchor=east, text=white, font=\sffamily\small] at ([xshift=-1.8cm, yshift=-0.55cm]current page.north east)
+    {Computational History Project};
+\end{tikzpicture}
+
+\begingroup\setlength{\parindent}{0pt}
+\vspace*{0.2cm}
+{\sffamily\small\bfseries\color{maroon}\MakeUppercase{A computational history}}\par
+\vspace{0.3cm}
+{\fontsize{27}{31}\selectfont\bfseries\color{ink} The Mountain Year and Its Owners\par}
+\vspace{0.25cm}
+{\Large\itshape\color{maroon!85!black} Seasonal herding in the Himachal hills, 1881--1961\par}
+\vspace{0.45cm}
+{\color{maroon}\rule{\linewidth}{1.2pt}}\par
+\vspace{0.25cm}
+{\sffamily\large\color{ink}Vishak Kashyap \quad\textperiodcentered\quad Vedant Kulkarni \quad\textperiodcentered\quad Himangi Sahoo\par}
+\vspace{0.1cm}
+{\sffamily\small\color{muted}Submitted 4 November 2026 \quad\textbar\quad Sources reproduced in the companion file \texttt{sources.pdf}\par}
+\vspace{0.55cm}
+\endgroup
+
+\begin{tcolorbox}[enhanced, colback=maroonlight, colframe=maroonlight, boxrule=0pt, arc=2pt,
+  borderline west={3pt}{0pt}{maroon}, left=12pt, right=12pt, top=9pt, bottom=9pt]
+{\sffamily\small\bfseries\color{maroon}\MakeUppercase{Abstract}}\par\vspace{4pt}
+{\small Every winter the flocks of the Himachal hills came down from the high pastures, and every summer they went back up. This paper asks whether that cycle persisted between 1881 and 1961 as an adaptation to mountain and season, or whether it was reshaped by those who owned the flocks, the pastures and the shepherds' labour. We read the 1961 Census village surveys of Himachal Pradesh against the 1881 and 1931 censuses and H.~A.~Rose's \emph{Glossary}, and build from them an evidence graph of 1,964 sourced claims, each tied to a quotation and a page. Read through Braudel's levels of time, the sources show a herding calendar that barely moved in eighty years and a scale of herding set by altitude. Read through Marx, they show ownership of the flocks concentrated in the landholding castes, and a change in who took a share of the herders' product: from the raja and his fee-farmer, to the Forest Department and its permits, to the moneylender and the road contractor. Geography fixed the form of the mountain year; property and the state decided who could take part in it and who profited.\par}
+\vspace{6pt}
+{\sffamily\footnotesize\color{muted}\textbf{\color{maroon}Keywords}\; transhumance \textperiodcentered{} Gaddis \textperiodcentered{} Kinnaur \textperiodcentered{} Census of India 1961 \textperiodcentered{} Annales \textperiodcentered{} historical materialism \textperiodcentered{} knowledge graph \textperiodcentered{} large language models\par}
+\end{tcolorbox}
+
+\vspace{0.3cm}
+\begin{center}
+\begin{tikzpicture}[every node/.style={font=\sffamily\footnotesize, align=center, text=ink}]
+  \foreach \x/\n/\l in {0/1{,}964/sourced claims, 3.3/115/citations of\\ primary pages, 6.6/24/village surveys, 9.9/80 years/1881 to 1961, 13.2/USD 1.16/spent on AI}{
+    \node[font=\sffamily\Large\bfseries, text=maroon] at (\x,0.35) {\n};
+    \node at (\x,-0.35) {\l};
+  }
+  \foreach \x in {1.65,4.95,8.25,11.55}{\draw[maroon!30] (\x,-0.65) -- (\x,0.65);}
+\end{tikzpicture}
+\end{center}
+\vspace{0.2cm}
+\end{minipage}
+\vspace{0.6cm}}]
+
+\section{Introduction}
+
+In 1881 Denzil Ibbetson's census of the Punjab quoted a settlement officer's description of the Gaddis of the Dhauladhar: their wealth \enquote{consists of flocks of sheep and goats, which they feed half the year (the winter months) in the valleys of Kangra, and for the other half drive across the range into the territories of Chamba} \src{1881}{275}. Eighty years later the Census of India's survey of Brahmaur, the Gaddi heartland, wrote that \enquote{in the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu} \src{Brahmaur}{55}. The two descriptions could almost be the same sentence. Between them lie the end of princely rule, the merger of the hill states into Himachal Pradesh in 1948 \src{Kothi}{16}, the arrival of the Forest Department on the pastures \src{Newell}{19}, motor roads \src{Kanum}{133}, and the closing of the Tibetan border \src{Kanum}{51}.
+
+Our question follows from that contrast. How did the seasonal movement of flocks between high summer pastures and low winter grazing shape life in the Himachal hills between 1881 and 1961, and who controlled and profited from it? As rule over the hills and control of the pastures, roads and trade changed, did the herding cycle persist as an adaptation to mountain and season, or did the ownership of flocks, pastures and shepherds' labour reshape it?
+
+We answer in two moves, following the two approaches the course set us. The first is Annalist: Braudel's distinction between the near-motionless time of geography, the slower rhythms of economies and societies, and the time of events \citep{braudel}, together with Bloch's comparative method, which compares societies that share conditions but differ in one respect \citep{bloch}. The second is Marxist: who owned the means of production (here the flocks and the pastures), who did the work, and by what means a share of the product was taken, as rent, fees, interest or labour \citep{marx3}. Our argument is that geography fixed the \emph{form} of the mountain year, and that it survived every change of rule; but the claim on the herders' product passed from the raja's revenue farm to the state's permit and the market's credit, and by 1961 the cycle continued for fewer, permit-holding owners.
+
+The paper is computational in method. Section~\ref{sec:method} explains how we turned some 3,800 pages of census prose and tables into an \emph{evidence graph} of sourced claims, and how we checked the machine that helped us. Sections~\ref{sec:year} and~\ref{sec:valleys} give the Annales reading; Sections~\ref{sec:owners} and~\ref{sec:surplus} the Marxist one; Section~\ref{sec:interp} brings them together.
+
+\section{Sources and method}\label{sec:method}
+
+\subsection{The sources}
+
+The core of the corpus is 24 village survey monographs of the 1961 Census, mostly in the Himachal Pradesh series (Vol.~XX, Part~VI), with Tandi and Kalath in the Punjab series because Lahaul-Spiti and parts of Simla lay in Punjab in 1961; one volume covers four Pangi villages \an{A0, A1}. To these we add four 1961 reports: William Newell's study of the Gaddis in the \emph{Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh}, the Weaving Craft Survey, and the District Handbooks of Mahasu and Simla. The colonial layers are the Results volume of the 1881 Punjab census, the three volumes of Rose's \emph{Glossary of the Tribes and Castes} (1911--1919), and Part~I of the 1931 Punjab census report \citep{src-1881,src-rose,src-rose-vol3,src-rose-vol1,src-1931}. All page numbers in this paper are PDF page numbers, the counter a PDF viewer shows; every page we cite is reproduced in the companion file \texttt{sources.pdf}.
+
+\subsection{From pages to an evidence graph}
+
+A 4,000-word essay cannot rest on a reading of every page of some 2.4 million words of OCR. We therefore built a pipeline (Figure~\ref{fig:pipeline}) whose output is not a summary but an \emph{evidence graph}: a network in which every edge is one claim from one page, such as \enquote{Brahmans of Brahmaur own 2,027 sheep and goats}, carrying its subject, a predicate from a fixed vocabulary of 22, its object, any quantity, months, place and date, the conjuncture it belongs to, and the verbatim quotation and PDF page that support it \an{A4, A7}. Every table, map and chart in this paper is a query on that graph.
+
+\begin{figure*}[!t]
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[every node/.style={font=\footnotesize, align=center},
+  box/.style={draw, rounded corners=2pt, text width=31mm, minimum height=10mm, fill=black!3},
+  ai/.style={box, fill=orange!12}, me/.style={box, fill=blue!8}, arr/.style={-{Stealth[length=2mm]}, thick}]
+% row 1, left to right
+\node[box] (txt) at (0,0) {OCR text of\\3,754 + 2,939 pages};
+\node[box] (kw)  at (4,0) {keyword rates and\\page scoring (A2, A3)};
+\node[ai]  (ex)  at (8,0) {claim extraction,\\\texttt{gpt-6-luna} (A5, A13)};
+\node[box] (ver) at (12,0) {is the quotation on\\the cited page? (A6)};
+% row 2, right to left
+\node[ai]  (res) at (12,-1.9) {entity resolution\\(A11)};
+\node[ai]  (chk) at (8,-1.9) {meaning check\\(A12)};
+\node[box, fill=black!10] (kg) at (4,-1.9) {\textbf{evidence graph}\\1,964 claims (A7)};
+\node[me]  (img) at (0,-1.9) {tables read from\\page images (A9, A16)};
+% row 3
+\node[draw, rounded corners=2pt, text width=150mm, minimum height=9mm, fill=black!3] (views) at (6,-3.7)
+  {queries on the graph: calendar (A15) $\cdot$ route map (A17) $\cdot$ ownership (A10) $\cdot$ flows by conjuncture (A14) $\cdot$ altitude (A18) $\cdot$ fees (A16) $\cdot$ text reuse (A19)};
+\draw[arr] (txt) -- (kw); \draw[arr] (kw) -- (ex); \draw[arr] (ex) -- (ver);
+\draw[arr] (ver) -- (res); \draw[arr] (res) -- (chk); \draw[arr] (chk) -- (kg);
+\draw[arr] (img) -- (kg); \draw[arr] (kg) -- (kg |- views.north);
+\end{tikzpicture}}
+\caption{The pipeline. Grey steps are deterministic scripts; orange steps use a language model; the blue step was done by reading page images. Every step is a script in \texttt{scripts/} and an entry (A0--A19) in \texttt{computational-analysis.md}.}
+\label{fig:pipeline}
+\end{figure*}
+
+The steps were these. A keyword-in-context concordance of herding vocabulary, after the Programming Historian lessons on n-grams and word frequencies \citep{ph-kwic}, scored every page of the 1961 volumes; 428 of 3,754 pages were selected, and these include 56 of the 65 pages our preliminary reading had cited \an{A3}. A colonial pass did the same for the 1881, Rose and 1931 texts, keeping only pages that also name the hills: 82 pages, including all five colonial pages we had cited \an{A13}. A language model (OpenAI's \texttt{gpt-6-luna}) read each selected page and proposed claims in the graph's vocabulary, each with a quotation copied from the page: 1,843 claims, for USD~0.50 \an{A5, A13}. The livestock tables, whose OCR is scrambled, were read from the page images and entered separately: 131 rows for 24 villages \an{A9}. Names were then resolved to 674 curated entities, so that \enquote{Bharmour} and \enquote{Brahmaur}, or \enquote{money lenders} and \enquote{moneylender}, meet at one node \an{A11}.
+
+\subsection{Checking the machine}
+
+A language model can invent a quotation or misread a real one, and a historian cannot cite what a model merely asserts. Three checks stand between the model and this paper (Table~\ref{tab:checks}). First, a claim enters the graph only if its quotation is found on the cited page: word for word, or character for character with at least 85\% similarity to allow for OCR slips, and with every number in the quotation present on the page. Tested against invented sentences, paraphrases, pages two away and altered numbers, the check rejected all of them \an{A6}. Second, a second model pass judged every claim against its page: 63\% supported, 30\% partly supported (most often a subject or object stated too broadly), 6\% not supported \an{A12}. Claims judged not supported are excluded from every result below. Third, because the second pass agreed with itself on only 77\% of claims when re-run, we drew a random sample of 50 claims for our own verdicts, to measure how far the machine's judgement can be trusted \an{A12}. The machine is a filter that reads everything; the historian remains the judge of anything quoted.
+
+Two further steps were done by reading, not by script, and are recorded as such. The livestock tables and Newell's table of fee-paying flocks were read from rendered page images, because their OCR scrambles the columns; a second reading of the small-print tables at higher resolution corrected one figure (Nalag's goats, 230 at first reading and 239 on the page), and fifteen of the tables' own printed totals agree with the sums of their rows \an{A9, A10}. Finally, the evidence for each section of this paper was pulled from the graph by a query, best-attested claims first, and every quotation below was then checked by a script against the page it cites \an{A7}; the cited pages are in \texttt{sources.pdf}.
+
+\begin{table*}[!t]
+\centering\small
+\begin{tabularx}{\textwidth}{Xr}
+\toprule
+Step & Claims \\
+\midrule
+Proposed by the language model (1961 and colonial pages) & 1,843 \\
+Entered by hand (from the evidence packet and the idea files) & 50 \\
+Read from page images (livestock tables) & 174 \\
+Merged as exact duplicates & 59 \\
+Rejected: quotation not on the cited page & 44 \\
+\textbf{Kept in the evidence graph} & \textbf{1,964} \\
+\quad meaning check: supported / partly supported / not supported / unclear & 1,135 / 545 / 108 / 1 \\
+\quad not checked by the model (image-read figures and one hand-entered claim) & 175 \\
+Graph used for the analyses (not-supported claims left out): nodes / edges & 854 / 1,856 \\
+\bottomrule
+\end{tabularx}
+\caption{From proposed claims to evidence \an{A6, A7, A12}.}
+\label{tab:checks}
+\end{table*}
+
+Source criticism also needed a computational tool. Using a method modelled on \emph{passim} \citep{ph-passim}, we compared every page of every source with every page of the earlier ones and found 4,698 copied passages of twelve or more words \an{A19}. Rose builds on the 1881 census throughout; the 1961 \emph{Special Tables on Scheduled Castes and Scheduled Tribes} reprint more than 27,000 words of Rose. Barnes's description of the hill Gujars in the 1881 census \src{1881}{267} reappears in Rose \src{Rose}{346} and from Rose in the 1961 tables. Such a passage is one witness, not three. The witnesses on which our argument rests, however, are independent: Rose's account of the Gaddi year \src{Rose}{297} is not copied from 1881, and Newell's chapters copy neither \an{A19}.
+
+\section{The mountain year: geography and the longue dur\'ee}\label{sec:year}
+
+\subsection{Mountain, snow and pass}
+
+Braudel's first history is that of \enquote{man in his relationship to the environment} \citep[vol.~1, preface]{braudel}, and the sources of both centuries begin there. Barnes placed the Gaddis \enquote{from an elevation of 3,500 or 4,000 feet up to 7,000 feet. Above this altitude there is little or no cultivation} \src{1881}{275}. Above the fields lay the grass, and between the valleys the passes. The Pangi survey records that snow \enquote{usually begins to fall on the passes in October and closes them by the middle of November}, and that \enquote{it begins to disappear again in March and the passes re-open in May} \src{Kupha}{111}. Newell describes the pass between Kugti and Lahul as \enquote{a bare mountain top at a height of over 16,000} feet \srcimg{Newell}{18}, a crossing on which it is exceptional for anyone with animals \enquote{to take less than three days actually on the tops of the mountain} \src{Newell}{18}. The snow line set the calendar: the high grass could be grazed only between the opening and the closing of the passes, and the low hills only when the high ground was closed.
+
+Why move at all? The Brahmaur survey answers in ecological terms. Near pastures existed: when they were close, the malundi \enquote{returns to the village every night}, and \enquote{such pastures are locally called tarkals and are situated in the Brahmni forests near Brahmaur}; but \enquote{these tarkals are not sufficient for the upkeep of the entire sheep and goat wealth of the village and people have therefore to migrate to other pastures} \src{Brahmaur}{55}. The flock outgrew the village's grass, and the mountain offered more grass at other heights in other seasons.
+
+Altitude also set the scale of herding. Taking each village's altitude as its own survey states it, from Shakrori \enquote{at a height of 1,700 ft.\ above sea level} \src{Shakrori}{11} to Tandi \enquote{on a ten thousand feet high flat ground} \src{Tandi}{18}, and dividing its sheep and goats by its households, we find a rank correlation of 0.54 across 19 villages \an{A18}. The relation is less a slope than a threshold (Figure~\ref{fig:altitude}). In the Ravi, Sutlej and Chenab valleys every village above about 2,000 metres keeps between 13 and 45 animals per household: Brahmaur 45.3 \srcimg{Brahmaur}{54}, Devi-Kothi 22.3 \src{Devi-Kothi}{47}, Tandi 21.3 \srcimg{Tandi}{96}, Kothi 20.0 \srcimg{Kothi}{102}, Kanum 16.2 \srcimg{Kanum}{61}. Every village below it keeps fewer than six. The exception is instructive: Chaupal stands at 7,685 feet \src{Chaupal}{12} but on the Yamuna side, and keeps 1.6 \an{A18}. Height made large flocks possible; the valley one lived in decided whether a village took the opportunity.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\columnwidth]{geography/altitude_flock.png}
+\caption{Sheep and goats per household against the village's altitude, as each 1961 survey states it (SRTM elevation where the survey gives none). Sources: village altitudes and household totals with their pages in \texttt{data/village\_altitudes.csv} and \texttt{data/village\_households.csv}; livestock tables in \texttt{data/flocks.csv} \an{A9, A18}.}
+\label{fig:altitude}
+\end{figure}
+
+\subsection{A calendar that did not move}
+
+The herding calendar is the clearest instance of geographical time in our sources (Figure~\ref{fig:calendar}). In 1881 the Gaddis spent \enquote{half the year (the winter months) in the valleys of Kangra} \src{1881}{275}. In 1911 Rose recorded that \enquote{the yearly exodus to Kangra takes place in October and November, and the return journey in April and May}, the summers being spent \enquote{in the higher mountains of Pangi and Lahul; and the winters in the low hills bordering on the plains} \src{Rose}{297}. The 1931 census observed that \enquote{the hillmen of the lofty ranges leave their homes with their sheep and cattle to spend the winter in the valleys and plains of the neighbouring districts} \src{1931}{142}. In 1961 the Brahmaur flocks left in October and November and were \enquote{driven back to the village} in April \src{Brahmaur}{55}; they were led to the dhars of \enquote{Pangi and Lahaul. These pastures are called dhars. There they remain for two months} \src{Brahmaur}{55}; and the Gaddis \enquote{visit Pangi with their flocks in July and remain in the valley till September} \src{Kupha}{113}. Of Brahmaur's 99 local households, \enquote{as many as 61 move out in winter months} \src{Brahmaur}{63}. The move was a household's, not a shepherd's alone. On the winter route \enquote{the wife usually accompanies her husband} \src{Newell}{36}, and the Brahmaur survey notes that \enquote{even during migration, she carries an equal load on her back and contributes equally to the family earnings} \src{Brahmaur}{79}.
+
+Our graph counts this persistence. The Gaddis' movement to the winter grounds is attested in 1881, 1911 and 1961, with the same months where months are named; the Gujjars' movement to the summer grass in 1881 \src{1881}{267}, 1911 \src{Rose}{346} and 1961 \src{Maingal}{52}; the winter descent of hill households in general in 1881, 1919, 1931 and 1961 \an{A15}. Because the text-reuse search shows that these accounts do not copy one another \an{A19}, they are independent observations of the same cycle across eighty years.
+
+\begin{figure*}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.86\textheight,keepaspectratio]{calendar/calendar.png}
+\caption{The mountain year. Each row is a movement named in the sources with its months, grouped by river valley; the year of the source is in brackets. Blue: winter grounds; orange: summer pastures and passes; green: fairs and markets. Source: claims with named months in the evidence graph \an{A15}.}
+\label{fig:calendar}
+\end{figure*}
+
+\subsection{Routes across the ranges}
+
+The routes of the cycle (Figure~\ref{fig:map}) show what the graph calls a geography of crossings. A village sits in one valley: Brahmaur on \enquote{the Budhal stream which joins Ravi} \src{Brahmaur}{11}, Kanum with \enquote{the River Sutlej} two miles below \src{Kanum}{15}. But the flock's year crosses from one river system to another: from the Ravi south over the Dhauladhar to Kangra in winter, and north to the Chenab valleys of Pangi and Lahaul in summer \src{Brahmaur}{55}. The Kinnaur flocks went down the Sutlej to \enquote{Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur} and spent \enquote{the chilly months in these places till the end of April} \src{Kanum}{85}. The valley was the unit of settlement; the range between valleys was the unit of herding. Newell made the same observation of the Gaddi country, which he treated as a series of river units, each \enquote{a 40 mile length of river between high mountains} \src{Newell}{10}.
+
+The low villages along these routes lived off the passage of flocks they did not own. Bir's goats and sheep were \enquote{purchased from Gaddis who wander near about in winter, for 10 to 12 rupees} \src{Bir}{43}; Batal's people bought wool \enquote{from the Kinnauras who stay near about the village} in winter \src{Batal}{46}; and Shakrori's animals had been \enquote{bought from the Kinnauras that go by} \src{Shakrori}{75}. The mountain year organised a region, not only the herding villages.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.9\textwidth]{maps/routes.png}
+\caption{Routes named in the sources, from where a claim holds to its destination: winter grounds (blue), summer pastures and passes (orange, dashed), fairs and markets (green). Circles are survey villages, sized by flock. 91 claims drawn as 57 lines; the interactive map gives each line's quotations and pages \an{A17}.}
+\label{fig:map}
+\end{figure*}
+
+\section{Two valleys: the direction of trade}\label{sec:valleys}
+
+Bloch's comparative method asks what differs between societies that share their conditions \citep{bloch}. The Ravi and the upper Sutlej share the mountain year, but their rivers lead to different places, and the comparison shows how much that one difference governed.
+
+The Ravi faces south. The Gaddis' winter grounds and markets lay in Kangra and the plains, where their woollen \emph{gardus} \enquote{command a ready market in the low hills where people sell them during their stay there in winter months} \src{Brahmaur}{59}. The upper Sutlej faces Tibet. Kanum's people went down in winter \enquote{alongwith their flocks laden with chilgozas, wool, woollen patties, nuts, pasham, jira and other local herbs}, sold \enquote{either in Lavi fair at Rampur} or in the villages of the lower hills \src{Kanum}{16}; from Tibet \enquote{they brought wool, pasham, butter, ghee, goat, sheep and salt} in exchange for rice, cloth, utensils, wheat and jaggery \src{Kanum}{131}. The trade was old: Rose records Tibetan \enquote{trade sheep} crossing the Baralacha pass \src{Rose Vol1}{523}. Its hinge was the Lavi fair at Rampur: \enquote{Lavi the biggest trade fair in Himachal is held there in the second week of November every year which attracts thousands of people and traders from far off places}, famous \enquote{for shawls, chaddars, chilgoza and ponies} \src{Mahasu}{56}. The calendar of trade was the calendar of the flocks: a Kanum trader's journey to Tibet \enquote{began in July and he was back in Kanum usually by November} \src{Kanum}{132}, in time for Lavi. The difference shows in the vocabulary of the sources themselves: words of trade occur 33.6 times per 10,000 words in the Kanum survey and 13--14 in Kothi and Nachar, against 8.3 in Brahmaur and 6.6 in Maingal \an{A2}.
+
+The two valleys also held their pastures differently. Kanum's people lived under the Bushahr ruler as \enquote{Primary Owner}, to whom they owed revenue and services \enquote{including 'Athada Begar'} \src{Kanum}{18}, yet in 1961 \enquote{every villager has a right of utilizing the pastures} \src{Kanum}{133}. In Chamba, as Section~\ref{sec:surplus} shows, the raja owned all grazing and farmed out its revenue. Geography decided which shock reached which valley. The closing of the Tibetan border struck the Sutlej alone: \enquote{prior to the India-China dispute Shipki-La Pass was open to all traders without passport} \src{Kanum}{51}, and of the Gartok trade the survey says \enquote{this trade has now practically come to an end} \src{Kanum}{16}. Its effects spread beyond Kinnaur: \enquote{the Pradesh had however a great set back after the trade with Tibet stopped. An acute shortage of wool and Pasham is being experienced} \src{Weaving}{16}. Buyers changed their routes: the people of Chergaon, lower down the Sutlej's tributaries, \enquote{used to go to Rampur to purchase wool during Lavi fair. But now-a-days, they prefer to buy wool from Dodra Kawar illaqa} \src{Chergaon}{61}.
+
+\section{Who owned the flocks}\label{sec:owners}
+
+For a Marxist reading the first question is who owned the means of production \citep{marx3}. The flocks were the herders' capital, and the livestock tables of the 1961 surveys, which we read from the page images \an{A9}, show who held them (Figure~\ref{fig:owners}). Across all the caste tables, landholding castes owned 89.3\% of 12,210 sheep and goats \an{A10}. In the great herding villages the share is higher still. In Brahmaur, Brahmans and Rajputs, 40 of the village's 99 households, held 4,391 of 4,484 animals; the Sipis held 93 and the one Rehara household none \srcimg{Brahmaur}{54}. In Kothi the Rajputs held 2,416 of 2,557, the Kolis 72, the Lohars 58 and the Badhis 11 \srcimg{Kothi}{102}; in Kanum the Kanets held 1,744 and the Kolis 83 \srcimg{Kanum}{61}; in Tandi the Bodhs held 336 of 363 sheep \srcimg{Tandi}{96}; in the Pangi villages Rajputs and Brahmins held 554 of 596 \srcimg{Kupha}{80}. Within the landholding castes, too, flocks were unequal. In Nachar \enquote{on an average, 100 to 200 sheep and goats are kept by a family}, while \enquote{the Lambardar of the village has about 1,100 strong flock} \src{Nachar}{33}: the village headman, the state's local agent, was also its largest owner of animals.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.72\textwidth,height=0.52\textheight,keepaspectratio]{flocks/ownership_shares.png}
+\caption{Share of sheep and goats by caste class in the 19 villages whose surveys print a caste table, ordered by river valley and flock size; totals at right. Source: livestock tables read from the page images (\texttt{data/flocks.csv}); caste classes in \texttt{data/caste\_classes.csv} \an{A9, A10}.}
+\label{fig:owners}
+\end{figure*}
+
+The pattern is not universal, and the exception locates it. In Chaunri, Pangna, Rajana and Moginand, on the Yamuna side and in the Shimla hills, Koli households held most of the small goat flocks: 33 of Chaunri's 45 animals \srcimg{Chaunri}{34}, 302 of Rajana's 488 goats \srcimg{Rajana}{47}, 35 of Pangna's 62 \srcimg{Pangna}{53}. This is not an effect of altitude, for low Shakrori, Kot and Nalag are as landholder-dominated as Brahmaur, and across all villages the landholding share is unrelated to height \an{A18}. Concentration belonged to the large herding economies; where flocks were a household's few goats, the castes that worked the land kept them too.
+
+Ownership and labour were distinct. In Brahmaur most families herded their own flocks; a \emph{malundi} was \enquote{a shepherd who tends his own flock}, while \enquote{pohals are hired in summer season by a very few people in rare cases when they cannot spare some one from amongst the family to look after the flock} \src{Brahmaur}{55}. A pohal's pay was \enquote{free meals}, \enquote{free clothing and wool for the family}, \enquote{two or four sheep per hundred sheep and goats} and \enquote{Rs.\ 2/- in cash per month} \src{Brahmaur}{55}. In Kinnaur hired labour mattered more: a Kanum trader \enquote{had four fawals-shepherds who were paid Rs.\ 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes} \src{Kanum}{132}. In the settled Ravi villages the farmers \enquote{may also send their sheep and goats with professional graziers to high hills}, paying \enquote{twenty to twentyfive naya Paise for the period from May / June to October for a sheep or goat} \src{Devi-Kothi}{48}. Newell is explicit that \enquote{the majority of Gaddis are not shepherds} \src{Newell}{37}: herding was the business of the flock-owning families and those they paid.
+
+Those without flocks met the herding economy as debtors. In Maingal \enquote{Gujjar households are cent per cent under debt}; they \enquote{borrow money at 30\% annual interest}, repaid from the milk products the moneylenders also bought \src{Maingal}{42}, and sold their ghee \enquote{to a particular shopkeeper at Chamba who pays them much less than the market price} \src{Maingal}{60}. In Kanum the moneylender was also the landlord: \enquote{being a landlord and money lender he has lent enough amount of money to the scheduled castes and others} \src{Kanum}{53}, at a rate of 12\textonehalf\ per cent \src{Kanum}{55}. The poorest borrowed grain rather than money, \enquote{on the condition of annual charge of additional 5 seers per md., as interest} \src{Kanum}{55}. Debt could also be paid in labour: in Chergaon \enquote{instead of paying interest, the tenants-rigad are now doing agricultural labour to escape the fury of zamindars} \src{Chergaon}{66}. The Gujjar case shows that owning animals did not protect a household from this: in Maingal \enquote{all Gujjar households possess buffaloes} \src{Maingal}{48}, yet all were in debt \src{Maingal}{42}, because the moneylender who lent to them also bought their milk products and the shopkeeper set the price of their ghee \src{Maingal}{60}. Here the surplus was taken not through property in the means of production but through credit and the market. The same households that owned the flocks owned the credit.
+
+\section{Who took the surplus: four conjunctures}\label{sec:surplus}
+
+If ownership changed little, the claim on the herders' product changed a great deal. Our graph tags each claim with a conjuncture, and turns every relation of payment (fees, dues, interest, labour, the sale of rights and permits, and produce) into a flow from the party who gives to the party who takes \an{A14}. Figure~\ref{fig:flows} shows the four periods side by side, with each actor in the same place in every panel.
+
+\begin{figure*}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.86\textheight,keepaspectratio]{surplus/surplus.png}
+\caption{Who takes a share of whose product, by conjuncture. Arrows run from payer to receiver; orange: fees, taxes, dues, begar, permits and rights; blue: interest; green: labour; dotted: produce sold. 408 flow claims from the evidence graph \an{A14}.}
+\label{fig:flows}
+\end{figure*}
+
+\subsection{Two sovereigns, to 1947}
+
+The first conjuncture shows a herding people subject to two states. Barnes wrote that the Gaddis \enquote{hold lands on this side and also in Chamba}, that they used, \enquote{whenever fined by the Kangra authorities, to pay a similar penalty into the Chamba treasury}, and that \enquote{our institutions have taught them greater independence} \src{1881}{275}. Newell found the same doubling on the summer route: Gaddis crossing into Lahul \enquote{would need to pay a grazing tax to both the Chamba and Lahuli ruler} \src{Newell}{18}. The contradiction was between two sovereigns' claims on one population, and colonial rule weakened the raja's side of it.
+
+\subsection{The rulers' pastures, to about 1950}
+
+In Chamba the raja was proprietor of the land, and his subjects held only its use: he \enquote{could only dispose of the right to use the land} \src{Newell}{16}. \enquote{In Chamba all grazing rights belonged to the rajah of Chamba}, and the right to collect the fees \enquote{was auctioned by the rajah of Chamba to the highest bidder, who was usually a Gaddi}; in 1950 the rate was 2 annas 6 pies per goat and 1 anna 6 pies per sheep for each grazing district \src{Newell}{18}. The village survey describes the same arrangement from below: \enquote{during the state period the Ruler of the state used to lease out the pastures near the village (Brahmani in case of Brahmaur) on contract}, and the contractor allotted them to shepherds on condition that they manure his fallow \src{Brahmaur}{55}. In Bushahr the Primary Owner took revenue in cash or kind and the labour service of \enquote{Athada Begar} \src{Kanum}{18}. This was a revenue farm, and its contradiction ran inside the herding community: a Gaddi fee-farmer collected from other Gaddis on the raja's behalf. The raja's officials took part of the product in kind; one of them received wool in lieu of revenue and made woollen blankets for the raja \src{Newell}{14}. Attempts to push this property further met resistance. In Pangi, \enquote{in 1874 an attempt was made to lease the dhars or bigger grazing grounds}, but \enquote{it provoked much opposition and was finally abandoned} \src{Kupha}{113}. The herders' customary use set a limit on the ruler's ownership.
+
+\subsection{The Forest Department, 1948--1961}
+
+After 1948 \enquote{these rights to grazing tax have now been taken over by the Government of India State Forest Department} \src{Newell}{19}. The village survey states the change in one sentence: \enquote{Now, the pastures are allotted direct to the shepherds by the Forest Department}, and \enquote{each shepherd has his own fixed dhar which only he can use as pasture land for his flock consisting of a fixed number of sheep and goats} \src{Brahmaur}{55}. The Department charged \enquote{Rs.\ 15/- per hundred heads of sheep or goats for the summer season} \src{Brahmaur}{55}; in Devi-Kothi it issued permits \enquote{valid for the period 1st June to 15th October} \src{Devi-Kothi}{47}. Its aim was conservation. In Chitrari \enquote{intensive grazing for generations led to erosion. To check this trouble passes are issued}, and infringement was punished \enquote{either by cash penalty or forfeiture of the animal} \src{Chitrari}{23}. In Pangi \enquote{certain pastures have also been closed in order to undertake extensive measures for soil conservation}, which caused \enquote{a sense of resentment against the Forest Department} \src{Kupha}{136}. In Brahmaur \enquote{the Forest Department do not now grant any additional permit for more sheep and goats} \src{Brahmaur}{46}. The new regime also carried old privileges forward. In Devi-Kothi the villagers held rights \enquote{given to them by the early rulers of Chamba} \src{Devi-Kothi}{49}, and the Department charged accordingly: \enquote{the fee is Rs.\ 5/- from non-right holders and Re.\ 1/- from a right holder} \src{Devi-Kothi}{48}. The state forest did not abolish the princely order of rights; it priced it.
+
+What changed was not the price. Converted to rupees, the raja's contractor took about Rs~0.09 per sheep and 0.16 per goat for each grazing district in 1950; the Department took Rs~0.10--0.25 per head for the season in 1961 \an{A16}. What changed was the number of animals allowed. Newell's grazing statement for Brahmaur tahsil, which we read from the page image, records the sheep and goats that paid fees each year (Figure~\ref{fig:fees}) \srcimg{Newell}{38}. Their number fell by a quarter between 1952--53 and 1961--62, and the fall was a step, not a slide: 3.2\% in 1952--57, 22.1\% in 1957--60, and 1.4\% in 1960--62 \an{A16}. Newell's own note on 1959--60 reads \enquote{this is the year after the sheep were struck by disease} \src{Newell}{38}. Yet the series does not recover afterwards, and only animals with permits paid fees. A cap on permits explains a fall that stops and stays down better than an epidemic does, and Newell himself attributed the loss to \enquote{the Forest Department permit system} \src{Newell}{37}.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\columnwidth]{fees/fee_flocks.png}
+\caption{Sheep and goats paying grazing fees in Brahmaur tahsil, 1952--53 to 1961--62. Source: Newell's grazing statement from the Brahmaur Forest Officer, read from the page image \srcimg{Newell}{38}; \an{A16}.}
+\label{fig:fees}
+\end{figure}
+
+The permit then became property. Newell wrote: \enquote{from personal knowledge I know that these permits are freely bought and sold amongst shepherds so that shepherds have now become closed corporations} \src{Newell}{37}. The contradiction of this conjuncture was between conservation and subsistence, and its product was a new form of property: a state licence to graze that the established flock-owners could buy and sell, and newcomers could not obtain. The older form of property shaped the new one. Where the raja's grazing had been a revenue farm, the Department's grazing became a market in permits; in Kinnaur, where the pastures had been undivided commons \src{Kanum}{133}, they became fenced state land.
+
+\subsection{Roads and wages, the 1950s to 1961}
+
+The last conjuncture drew labour out of herding. In Kanum the well-to-do \enquote{found it difficult to engage labourers to attend to their sheep and goats. Men and women now prefer to work on the roads rather than work as 'fawals', agricultural labourers and 'rigries' for obvious reason that they get better wages} \src{Kanum}{51}. In Brahmaur road and timber work had opened \enquote{new avenues of income}, and \enquote{8 able-bodied persons are working there as unskilled labour at a daily wage of about Rs.\ 2/-} \src{Brahmaur}{45}. In Chitrari a Gaddi shepherd observed that on \enquote{our beaten track for centuries a jeep has started plying} \srcimg{Chitrari}{24}, and by 1961 a jeepable road had reached Kanum \src{Kanum}{133}. The Brahmaur surveyor drew the conclusion himself: \enquote{with the opening roads, new avenues of earning livelihood are available to them, and this is likely to change the cycle of their life followed since ages} \src{Brahmaur}{87}. Where families herded their own flocks, the road added a second income; where flocks depended on hired shepherds, it took the shepherds away.
+
+\section{Interpretation: the frame and the contradictions within it}\label{sec:interp}
+
+The two readings answer different halves of our question, and they do not compete. The Annales reading explains why the cycle persisted. Snow closed the passes from November to May \src{Kupha}{111}; the grass above the fields could be used only in summer \src{1881}{275}; the low hills were open in winter. The same months appear in 1881, 1911, 1931 and 1961 in independent witnesses \an{A15, A19}. The scale of herding followed altitude, and the direction of each valley's trade followed its river \an{A2, A18}. This is Braudel's geographical time, and nothing between 1881 and 1961 moved it. A second comparison, within one valley, shows that geography made herding possible but did not compel it. \enquote{The Gaddis of Maingal are different from the Gaddis of Brahmaur. They do not lead a pastoral life but have settled on agriculture as their principal occupation} \src{Maingal}{52}; the settled farmers of Devi-Kothi sent their sheep up with paid graziers \src{Devi-Kothi}{48}, while the Brahmaur families went with their own flocks \src{Brahmaur}{55}. The same mountain supported different relations of production, and which one a village had depended on who owned flocks large enough to make the journey worth making.
+
+The Marxist reading explains what moved within it. Ownership of the flocks stayed with the landholding castes throughout \an{A10}. But each conjuncture carried its own contradiction and produced a new arrangement: two sovereigns over one people, ending in the weakening of the raja's hold \src{1881}{275}; the raja's ownership against the shepherds' use, organised as a revenue farm in which a Gaddi collected from Gaddis \src{Newell}{18}; conservation against subsistence, producing the permit and then a market in permits \src{Newell}{37}; and flock-owners against labourers who could now earn road wages \src{Kanum}{51}. The appropriator changed from the raja and his contractor, to the Forest Department, to the moneylender and the market \an{A14}. The form of property before 1948 shaped its form after: a revenue farm became a permit market on the Ravi, and commons became state forest on the Sutlej.
+
+Our answer is therefore that the cycle persisted as an adaptation to mountain and season, but was reshaped in who could take part in it. By 1961 the mountain year still ran from October to April, but it ran for fewer animals, on fixed dhars, under permits that could be bought and sold, with hired shepherds leaving for the roads. Those who bore the change were the herders without permits, the Scheduled Caste households who had never owned flocks, and the indebted Gujjars; those who gained were the established flock-owners who held the permits, and the state that issued them.
+
+\section{Conclusion and limits}
+
+A historian with only the 1961 surveys would see a timeless pastoral round; one with only the colonial texts would see an ethnography of tribes. Read together, through an evidence graph that keeps every claim tied to its page, they show a stable frame and a changing distribution of its benefits. The method had costs and limits that the reader should weigh. The claims were proposed by a language model, and our meaning check, though it removed 6\% of them, is itself inconsistent on about a quarter of claims \an{A12}; every quotation in this paper has been checked against its page, and every cited page is reproduced in \texttt{sources.pdf}. Counting claims measures how often the surveys speak of a relation, not its size in rupees \an{A14}. Our village comparisons rest on 19 villages chosen by the Census, not at random \an{A18}. Several 1961 descriptions of castes repeat colonial texts, and we have treated such passages as one witness \an{A19}. Finally, we found no source in our folder that dates the closing of Shipki La; the survey says only \enquote{India-China dispute} \src{Kanum}{51}.
+
+Within those limits, the sources support a clear conclusion. Geography made the mountain year; property and the state decided who it was for.
+
+\appendix
+\section*{Appendix: how to reproduce this paper}
+
+Every result above is produced by a script in \texttt{scripts/}; \texttt{computational-analysis.md} gives the command, inputs, method, result and caveats of each step (A0--A19), and the order in which to run them. The evidence for each section of this paper was drawn from the graph by \texttt{scripts/essay\_evidence.py}; \texttt{scripts/check\_essay.py} confirms that every quotation is on its cited page and that every cited page holds a claim in the graph or an image-read table; \texttt{scripts/build\_sources\_pdf.py} builds \texttt{sources.pdf} from the citations in this file. The language models used were OpenAI's \texttt{gpt-6-luna} (claim extraction, entity resolution, meaning check; USD~1.16 in all) and Anthropic's Claude, which wrote the scripts, read the livestock and fee tables from page images, and drafted this paper with us.
+
+\input{references}
+
+\end{document}

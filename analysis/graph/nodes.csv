@@ -58,7 +58,7 @@ local_ruler,local_ruler,local ruler,authority,ruler,,,1,False
 local_village_communities,local_village_communities,local village communities,authority,local,,,1,False
 kugti_pass,kugti_pass,Kugti pass,place,pass,,,1,False
 kugti_village,kugti_village,Kugti village,place,village,,,2,False
-merger_1948,merger_1948,Formation of Himachal Pradesh (1948),event,political,,,2,False
+merger_1948,merger_1948,Formation of Himachal Pradesh (1948),event,political,,,3,False
 fee_collection_right,fee_collection_right,right to collect grazing fees,resource,right,,,3,False
 shepherd@brahmaur,shepherd,shepherd (Brahmaur),role,shepherd,Brahmaur,Ravi,17,False
 gujjar@brahmaur,gujjar,Gujjar (Brahmaur),group,tribe,Brahmaur,Ravi,2,False
@@ -752,6 +752,7 @@ spiti_men,spiti_men,Spiti men,group,community,,,1,False
 pallari,pallari,pallari,role,official,,,1,False
 churahi@devi_kothi,churahi,Churahi (Devi-Kothi),group,community,Devi-Kothi,Ravi,1,False
 tibet_trade_end,tibet_trade_end,End of the Tibet trade,event,trade,,,1,False
+kinnaur,kinnaur,Kinnaur,place,region,,Sutlej,1,False
 kanet@kanum,kanet,Kanet (Kanum),group,caste,Kanum,Sutlej,1,False
 lohar@kanum,lohar,Lohar (Kanum),group,caste,Kanum,Sutlej,1,False
 ores@kanum,ores,Ores (Kanum),group,caste,Kanum,Sutlej,1,False

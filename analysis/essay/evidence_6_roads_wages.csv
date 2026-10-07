@@ -1,0 +1,235 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c1b035f3144,Gaddi,WORKS_AS,shepherd,,,,,,,roads_and_wages,1881,167,1881,ai_checked,supported,almost all Gaddis are shepherds.
+c4e7c5aa0bb,Gujjar,WORKS_AS,grazier,,,,,Kangra,Beas,roads_and_wages,1881,267,1881,ai_checked,supported,"In the hills the Gujnrs are exclusively a pastoral tribe,—they cultivate scarcely at all."
+c65c3a2d4cc,Gujjar,WORKS_AS,grazier,,,,,Kangra,Beas,roads_and_wages,1881,267,1881,ai_checked,supported,The men graze the cattle
+c7cf814083a,Ghirath,WORKS_AS,forced labourer,,,,,Kangra,Beas,roads_and_wages,1881,272,1881,ai_checked,supported,"The men are constantly seized for begar, or forced labour, to cany travellers' bads,"
+c5e53d4fc77,Gaddi,WORKS_AS,shepherd,,,,,,,roads_and_wages,1881,275,1881,ai_checked,supported,"They are almost all shepherds, and do not in any way resemble the Khatris of the plains."
+c70228c6156,Gaddi,WORKS_AS,shepherd,,,,,Kangra,Beas,roads_and_wages,1881,297,1881,ai_checked,supported,"shepherds called Gaddis, most of whom are Khatris."
+cbbebb58c40,Dagi,WORKS_AS,wool cleaner,,,,,Kulu,Beas,roads_and_wages,1881,338,1881,ai_checked,supported,"yumla, wool-eleaner ;"
+c5627dfab84,Batwal,WORKS_AS,unskilled labourer,,,,,,,roads_and_wages,1881,340,1881,ai_checked,supported,"These men are also the coolies of the hills, and in fact occupy much the same position there"
+c355ab902ac,Batwal,WORKS_AS,Kiriwak,,,,,Kangra,Beas,roads_and_wages,1881,340,1881,ai_checked,supported,"In Kangra they are also known as Kiriwak or Kirauk, a word which properly means a man whose duty is to assemble coolies and others for begdr or forced labour"
+cde494262c0,Phangtain,WORKS_AS,Wool dealer,wool,,,,,,roads_and_wages,Rose,294,1911,ai_checked,supported,"Phangtain, dealer in phamb, wool,"
+c1a5a1befdf,Gujjar,WORKS_AS,grazier,,,,,Kangra,Beas,roads_and_wages,Rose,346,1911,ai_checked,supported,"The men graze the cattle, and frequently lie out for weeks in the woods tending their herds."
+ceca1f86976,Gaddi,WORKS_AS,shepherd,,,,,Kangra,Beas,roads_and_wages,Rose,545,1911,ai_checked,supported,"Shepherds called Gaddis, most of whom are
+Khatris."
+ca99b846d9a,Rehara,WORKS_AS,shepherd,,,,,Simla Hills,,roads_and_wages,Rose Vol3,345,1914,ai_checked,supported,In the litter he is described as a shepherd
+cc5256409d6,Gelong,WORKS_AS,Cattle attendant,,,,,Spiti,,roads_and_wages,Rose Vol3,38,1914,ai_checked,supported,"when gelong they will cook, feed cattle and sheep, and do other domestic services, but not carry loads or cut grass or wood"
+cc8b0cc72ab,households (Batal),WORKS_AS,spinner (Batal),,,,,Batal,,roads_and_wages,Batal,46,1961,ai_checked,supported,The spinning is done by many families.
+cafce1d926d,Gaddi (Brahmaur),WORKS_AS,agriculturist (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,23,1961,ai_checked,supported,"By profession they are all agriculturists, although many uf them"
+ca768754269,Rajput (Brahmaur),WORKS_AS,sheep breeder (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,23,1961,ai_checked,supported,The ~ai~ occupation of the Rajputs and Khatns IS sheep breeding and agriculture
+c075049ee4b,households (Brahmaur),WORKS_AS,Odd-job worker (Brahmaur),,61,households,10|11|12|1|2|3,Brahmaur,Ravi,roads_and_wages,Brahmaur,45,1961,ai_checked,supported,as. many as 61 households earn their livelihood from October to NIarch working at odd jobs outside the village.
+c7c1a3c28bc,shepherd (Brahmaur),WORKS_AS,Wool shearer (Brahmaur),,,,3|6|7|9|10,Brahmaur,Ravi,roads_and_wages,Brahmaur,56,1961,ai_checked,supported,"The shepherds shear the wool thrice a year, in the months of Phalgun (March), Asadh (June-July) and Kartik (September-October)."
+c02c707ef47,households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),,,,10|11|12|1|2|3,Brahmaur,Ravi,roads_and_wages,Brahmaur,63,1961,ai_checked,supported,work· either as domestic servants
+c1ff5f2b49f,households (Brahmaur),WORKS_AS,Dhan pounder (Brahmaur),,,,10|11|12|1|2|3,Brahmaur,Ravi,roads_and_wages,Brahmaur,63,1961,ai_checked,supported,pounding of dhan or do any other sundry work that they can get.
+c3a374357f9,households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,65,1961,ai_checked,supported,"The women besides working
+as domestic servants, also pound rice."
+cfb98dcb85c,households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),money,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,65,1961,ai_checked,supported,"Children above
+the age of 7 or 8 also work as domestic
+servants where they are lJaid Es. 4/- to
+Rs. 5/- a month besides food."
+cc408c661d9,households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),money,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,65,1961,ai_checked,supported,A woman working as a servant also gets food with Rs. 8/to Rs. 10/- a month.
+c7f81e373d9,households,WORKS_AS,rice pounder,grain,1,thimbi of paddy per drun of rice husked,,Kangra,Beas,roads_and_wages,Brahmaur,65,1961,ai_checked,supported,"For every drun of rice husked from paddy, they are paid
+one thimbi of paddy"
+cf5c0af56b3,households,WORKS_AS,rice pounder,grain,18,chhs. (3 kacha srs.) of broken rice per drun of rice,,Kangra,Beas,roads_and_wages,Brahmaur,65,1961,ai_checked,supported,"18 chhs. (3 kacha srs.) of broken rice
+are also given as husking charges after
+every drun of rice."
+cab06123d89,households (Brahmaur),WORKS_AS,wool spinner (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,85,1961,ai_checked,supported,"In Brahmaur, -families meet their need of woollen cloth by spinning wool."
+ca55de7d493,households (Chaupal),WORKS_AS,spinner (Chaupal),,,,,Chaupal,Yamuna,roads_and_wages,Chaupal,54,1961,ai_checked,supported,"Spinning-Is an important subsidiary occupation, done mostly during winter when it is cold outside and there is less work in the fields."
+cb9e2c7a77b,households (Chaupal),WORKS_AS,wool spinner (Chaupal),,,,,Chaupal,Yamuna,roads_and_wages,Chaupal,69,1961,ai_checked,supported,"It is only during winter that vil1agers find more time for respite. As most of the time they have to remain indoor due to snow outside, they confine to spinning wool."
+c9a7c46e68c,Debtors and family members (Chergaon),WORKS_AS,agricultural labourer (Chergaon),grain,6,bhars of grain for a man,,Chergaon,Yamuna,roads_and_wages,Chergaon,55,1961,ai_checked,supported,The rates of such wages in kind are; 6 bhars of grain for a man
+c5d67e1a109,Debtors and family members (Chergaon),WORKS_AS,agricultural labourer (Chergaon),grain,3,bhars of grain for a woman,,Chergaon,Yamuna,roads_and_wages,Chergaon,55,1961,ai_checked,supported,"and 3 bhars for a woman. On the other hand, the amount of debt"
+c5589234dc6,debtor (Chergaon),WORKS_AS,agricultural labourer (Chergaon),,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,55,1961,ai_checked,supported,This type of tenancy still exists in the village.
+ca3b86684f6,households (Chergaon),HIRES,fawal (Chergaon),grain,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,57,1961,ai_checked,supported,cereals are supplied regularly by the respective village households.
+cd402c26d89,fawal (Chergaon),MIGRATES_TO,high pastures,,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,57,1961,ai_checked,supported,"On dandas, fawals from different villages gather and start their common kitchen."
+c7b54b6c2d0,fawal (Chergaon),WORKS_AS,wool worker (Chergaon),wool,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,57,1961,ai_checked,supported,Some wool work is also carried out by them.
+c414eb891a4,households (Chergaon),WORKS_AS,weaver (Chergaon),,2,households,,Chergaon,Yamuna,roads_and_wages,Chergaon,60,1961,ai_checked,supported,In two households weaving is done besides depending upon other sources of livelihood.
+c786cd62ca9,Rajput (Chergaon),WORKS_AS,moneylender (Chergaon),,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,65,1961,ai_checked,supported,"Rich Thakurs and Rajputs are the money
+lenders in the village."
+c93069589cf,tenant-rigad (Chergaon),WORKS_AS,agricultural labourer (Chergaon),,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,66,1961,ai_checked,supported,"Instead of paying interest, tlie tenants-rigad are now doing
+agricultural labour to escape the fury of
+zamindars."
+ca7cbfbdde3,Chitrari,AFFECTED_BY,Road construction,,,,,Chitrari,Ravi,roads_and_wages,Chitrari,13,1961,ai_checked,supported,But with the alignment of Chamba-Brahmaur motorable road Chitrari now does not lie on the route mentioned above.
+ccb64e99a3d,Brahman (Chitrari),WORKS_AS,shepherd (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,19,1961,ai_checked,supported,"business and rearing of
+goats and sheep."
+c0e37881dfd,Rajput (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,19,1961,ai_checked,supported,"they practise' agriculture, business, sheep and
+goat rearing."
+c3571ec1d15,Khatri (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,19,1961,ai_checked,supported,"they practise' agriculture, business, sheep and
+goat rearing."
+c0514648d41,Gaddi (Chitrari),WORKS_AS,pastoralist (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,78,1961,ai_checked,supported,"Being hitherto exclusively pastoral, more or less they are im-pervious to change."
+cd2b9043e66,Batwal (Devi-Kothi),WORKS_AS,sheep shearer (Devi-Kothi),wool,1,sheep's wool for shearing 40 sheep,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,48,1961,ai_checked,supported,A local Batwal who is an expert in sheep shearing gets one sheep's wool for shearing 40 sheep.
+c2be6088356,households (Devi-Kothi),WORKS_AS,spinner (Devi-Kothi),,,,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,50,1961,ai_checked,supported,In fact spinning is done by every member of the household in winter when these persons remain indoors mostly.
+c2b12b06827,households (Devi-Kothi),WORKS_AS,construction labourer (Devi-Kothi),,,,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,53,1961,ai_checked,supported,In rainy season when it becomes somewhat difficult to go on work at distant jungles they get work in Devi Kothi.
+c2db15a9d29,debtor (Devi-Kothi),WORKS_AS,agricultural labourer (Devi-Kothi),,,,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,54,1961,ai_checked,supported,Sometimes the debtor may work as an agricultural labourer.
+cfb0138de93,Devi-Kothi,WORKS_AS,grazier (Devi-Kothi),,,,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,55,1961,ai_checked,supported,In this sphere women have· outnumbered men. Same is the position in cattle grazing occupation.
+c23771cef1a,Kanum,AFFECTED_BY,Road construction,,,,,Kanum,Sutlej,roads_and_wages,Kanum,130,1961,ai_checked,supported,The entire journey had to be under-taken on foot because the mad was then under construction and there was no bus service.
+c9f0347dce3,Lal Chand Negi,HIRES,fawal (Kanum),,4,fawals,,Kanum,Sutlej,roads_and_wages,Kanum,132,1961,ai_checked,supported,"He had four fawals-shepherds who were paid Rs. 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes."
+c49272bf886,Lal Chand Negi,HIRES,fawal (Kanum),money,60,Rs per fawal annually,,Kanum,Sutlej,roads_and_wages,Kanum,132,1961,ai_checked,supported,"He had four fawals-shepherds who were paid Rs. 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes."
+c13be9945b3,Narbu's father,WORKS_AS,shepherd (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,134,1961,ai_checked,supported,worked as a shepherd with the bigger farmers of Kanum.
+c3b4a332102,Narbu,WORKS_AS,shepherd (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,134,1961,ai_checked,supported,he too worked as shepherd with Penba Ram N egi of Kanum.
+c86d26e46f7,Narbu,WORKS_AS,agricultural labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,134,1961,ai_checked,supported,Now Narbu devoted his time to religious techings and worked as an agricultural labourer of one or the other landowner in Kanum.
+c8e1f5ac706,Norchang's household,WORKS_AS,road labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,134,1961,ai_checked,supported,Their mother Norchang is living with Narbu and all of them work either on the road construction work or as servants of the bigger landowners.
+c99daa870a9,Norchang's household,WORKS_AS,servant (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,134,1961,ai_checked,supported,Their mother Norchang is living with Narbu and all of them work either on the road construction work or as servants of the bigger landowners.
+c5fa2942a1d,households (Kanum),WORKS_AS,road labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,16,1961,ai_checked,supported,they work as labourers onth e roads and buildings.
+c270c2034d1,Rajput (Kanum),HIRES,fawal (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_checked,supported,'Rigries' and fawals are en.gaged for a period of one year from the 'Lossar' faIr.
+cd89e79c4c8,Rajput (Kanum),HIRES,fawal (Kanum),money,100,Rs per year,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_checked,supported,"Wages in the case of a 'fawal' for one year are, Rs. 100 cash, clothes including shoes, daily meals."
+c2666af7643,Chamang (Kanum),WORKS_AS,road labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,53,1961,ai_checked,supported,"Their women make woollen sho'es, work as part-time labourers either in the village or on the building and road 'Construction work."
+c1cfe51290c,Rajput (Kanum),WORKS_AS,agriculturist (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,56,1961,ai_checked,supported,the main caste engaged in this occupation is. Rajput.
+ca66dd9c894,households,WORKS_AS,sheep and goat rearer,,,,,,,roads_and_wages,Kanum,57,1961,ai_checked,supported,"many of them have taken to reanng of sheep 'and goats, lumbering in the forests,"
+c125c56546e,households (Kanum),WORKS_AS,agricultural labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,85,1961,ai_checked,supported,they find ample scope of work in th'e lower hills as these months are the most suited for terracing the fields.
+cdc47af4b43,households (Kanum),WORKS_AS,water carrier (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,85,1961,ai_checked,supported,There they are drawers of water and hewers of wood.
+cacd87269e4,households (Kanum),WORKS_AS,woodcutter (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,85,1961,ai_checked,supported,There they are drawers of water and hewers of wood.
+caed3525f36,households (Kanum),WORKS_AS,construction labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,85,1961,ai_checked,supported,"In some places, they work as laboun;rs on house construction work"
+c9d7aa49480,households (Kanum),WORKS_AS,manure carrier (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,85,1961,ai_checked,supported,"and as carriers of manure to the fields, but of late with the opening of fresh employment avenues"
+c5b49727295,households (Kothi),WORKS_AS,road labourer (Kothi),,24,persons,,Kothi,Sutlej,roads_and_wages,Kothi,79,1961,ai_checked,supported,"and on an average 24 persons were
+found to be working as unskilled labourers
+on roads etc."
+c1df6ec081f,Koli (Kothi),WORKS_AS,sheep breeder (Kothi),,,,,Kothi,Sutlej,roads_and_wages,Kothi,83,1961,ai_checked,supported,"Agriculture, Sheep breeding and Fruits"
+c7509c16f2c,households (Kupha),WORKS_AS,cowherd (Kupha),,,,,Kupha,Chenab,roads_and_wages,Kupha,131,1961,ai_checked,supported,The cattle are grazed by one man on behalf of the whole communi ty each family supplying the cowherdsman by turns.
+c76cd9fe456,households (Kupha),WORKS_AS,labourer (Kupha),,,,,Kupha,Chenab,roads_and_wages,Kupha,131,1961,ai_checked,supported,they go to the plains and work as labourers.
+cda28f1a0c9,Pangwal,WORKS_AS,road labourer,,,,,Chamba,Ravi,roads_and_wages,Kupha,14,1961,ai_checked,supported,They have spent many hours talking to me whenever they come down to take up odd jobs or to work as labourers in Chamba either on the roadside or to work on some buildings.
+c07b118b73c,Pangwal,WORKS_AS,Building labourer,,,,,Chamba,Ravi,roads_and_wages,Kupha,14,1961,ai_checked,supported,They have spent many hours talking to me whenever they come down to take up odd jobs or to work as labourers in Chamba either on the roadside or to work on some buildings.
+ccc0e522965,households (Kupha),WORKS_AS,Cattle attendant (Kupha),,1,member per household,,Kupha,Chenab,roads_and_wages,Kupha,81,1961,ai_checked,supported,One member from each household looks after the cattle.
+c3b58ae17aa,households (Kupha),WORKS_AS,spinner (Kupha),,,,,Kupha,Chenab,roads_and_wages,Kupha,82,1961,ai_checked,supported,The spinning is done from Jyaistha to Asvina.
+c90a0ead57f,households (Kupha),WORKS_AS,weaver (Kupha),,,,,Kupha,Chenab,roads_and_wages,Kupha,82,1961,ai_checked,supported,"When winter sets in and the entire region is covered with a tliick sheet of snow, the villagers have sufficient leisure and they devote their time towards weaving."
+c61b8b460e5,Gujjar,WORKS_AS,Buffalo rearer,,,,,,,roads_and_wages,Maingal,18,1961,ai_checked,supported,They took buffaloe rearing as their main occupation.
+cbe4cfefe49,Gujjar (Maingal),WORKS_AS,farmer (Maingal),,,,,Maingal,Ravi,roads_and_wages,Maingal,18,1961,ai_checked,supported,Gujjars here have taken up farming along with their tradisionally uccupation of cattle rearing.
+c8372598f3d,Gujjar (Maingal),WORKS_AS,cattle rearer (Maingal),,,,,Maingal,Ravi,roads_and_wages,Maingal,18,1961,ai_checked,supported,Gujjars here have taken up farming along with their tradisionally uccupation of cattle rearing.
+ca80fb1f433,Maingal,WORKS_AS,Cattle breeder (Maingal),,7,persons,,Maingal,Ravi,roads_and_wages,Maingal,38,1961,ai_checked,supported,"Out of a total population of 249 persons 7 are engaged in cattle breeding,"
+ce978a6c20e,Maingal,WORKS_AS,Agricultural and cattle breeder (Maingal),,128,persons,,Maingal,Ravi,roads_and_wages,Maingal,38,1961,ai_checked,supported,"7 are engaged in cattle breeding, 128 in agriculture and cattle breeding, 14 in agriculture,"
+c058656745c,Maingal,WORKS_AS,Agricultural and sheep breeder (Maingal),,4,persons,,Maingal,Ravi,roads_and_wages,Maingal,38,1961,ai_checked,supported,"6 in agriculture and blacksmithy, 4 in agriculture and sheep breeding."
+c920175b719,Gujjar (Maingal),WORKS_AS,cattle rearer (Maingal),,,,,Maingal,Ravi,roads_and_wages,Maingal,48,1961,ai_checked,supported,Maingal is predominantly inhabited by Gujjars whose main occupation is cattle rearing.
+c3a0abf59f9,Gujjar (Maingal),WORKS_AS,Buffalo milker (Maingal),,,,,Maingal,Ravi,roads_and_wages,Maingal,54,1961,ai_checked,supported,"Milching of buffaloes ,in the early hours of morning is her first duty."
+c0bf57d17e3,Gujjar (Maingal),WORKS_AS,Fodder gatherer (Maingal),,,,,Maingal,Ravi,roads_and_wages,Maingal,54,1961,ai_checked,supported,Men are mcstly engaged to bring fodder.
+c46ba05d7ae,Gujjar (Maingal),WORKS_AS,grazier (Maingal),,,,,Maingal,Ravi,roads_and_wages,Maingal,60,1961,ai_checked,supported,literally employed in the pastoral occupation.
+c2ce2765b1d,households (Nachar),WORKS_AS,unskilled labourer (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,32,1961,ai_checked,supported,some members from every family work as unskilled labourers during the year whenever they find spare time.
+c754b1e48b5,Kinnaura (Nachar),WORKS_AS,shepherd (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,33,1961,ai_checked,supported,"The households who keep many sheep and goats, spare one or two persons from their families to look after the flock."
+c80d6eb1d70,Kinnaura (Nachar),WORKS_AS,unskilled labourer (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,33,1961,ai_checked,supported,"Those who come to seek random employment, mostly work as unskilled labourers."
+c5e926d9494,Koli (Nachar),WORKS_AS,woollen shoe-maker (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,38,1961,ai_checked,supported,Some Koli women are engaged in preparing woollen shoes locally called spona.
+cd451060c5c,mason (Nalag),WORKS_AS,road labourer (Nalag),,,,,Nalag,Sutlej,roads_and_wages,Nalag,37,1961,ai_checked,supported,Rirkoo lives in Behna. He constructs houses in the village and during the off season works on the roads.
+c841f473a85,mason (Nalag),WORKS_AS,road labourer (Nalag),wages,,,,Nalag,Sutlej,roads_and_wages,Nalag,37,1961,ai_checked,supported,On the roads his daily wages range from Rs. 5 to Rs. 7.
+c0630ab2be0,Bhaktoo,WORKS_AS,forced labourer,,3,years,,Dehar,,roads_and_wages,Nalag,38,1961,ai_checked,supported,Sajju of Balra and Bhaktoo of Dehar worked for three years in the house of Hari Dutt.
+c368179cbcc,Gaddi,WORKS_AS,shepherd,,,,,,,roads_and_wages,Newell,36,1961,ai_checked,supported,The husband collects the firewood and looks after the sheep.
+cf8bf7dd020,households,WORKS_AS,beggar,,3,families,,Goshen,,roads_and_wages,Newell,36,1961,ai_checked,supported,"the three III usician families begged,"
+cf040c92990,households,WORKS_AS,railway labourer,,1,family,,Jullundur,,roads_and_wages,Newell,36,1961,ai_checked,supported,"one family found employment on the new Jullundur railway laying sleepers,"
+c93f39022ef,households,WORKS_AS,woodcutter,,1,family,,Pathankot,,roads_and_wages,Newell,36,1961,ai_checked,supported,"Another family Cllt wood at Pathankot,"
+c59d22919c9,pujari (Brahmaur),WORKS_AS,moneylender (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Newell,95,1961,ai_checked,supported,Some of the pujart:s are moneylenders.
+c9bee6c5f04,Harijan (Pangna),WORKS_AS,shepherd (Pangna),,,,,Pangna,,roads_and_wages,Pangna,53,1961,ai_checked,supported,The animals are set free in the mormng in the charge of some one from among the Harijans in the case of the shopkeepers
+cd9665d4e60,Koli (Rajana),WORKS_AS,labourer (Rajana),,,,,Rajana,Yamuna,roads_and_wages,Rajana,51,1961,ai_checked,supported,Kolis who are victims of such loans work as labourers under obligation.
+c73e1d46360,Simla District,AFFECTED_BY,Road construction,,,,,Simla District,,roads_and_wages,Simla,92,1961,ai_checked,supported,"Simla-Mandi, Kumar Hatti-Nahan, Solan-Gohara and Chail-Gohara roads constructed"
+cec9006fe1d,households (Tandi),WORKS_AS,Patti weaver (Tandi),,5,households,,Tandi,Chenab,roads_and_wages,Tandi,30,1961,ai_checked,supported,"Patti is woven in five households of the village, specially in winter season"
+ce788162280,Tandi,WORKS_AS,grazier (Tandi),,2,persons,,Tandi,Chenab,roads_and_wages,Tandi,58,1961,ai_checked,supported,There are two graziers. one of them is in the age group 15-34 and the other bein~ below 14 years of age.
+c52602ebe59,households (Tandi),WORKS_AS,wool spinner (Tandi),,,,12|1|2|3,Tandi,Chenab,roads_and_wages,Tandi,66,1961,ai_checked,supported,"During winter (December to March), when people have 'to stay indoors the spinning wheel and the takli are ceaselessly worked."
+cc6d3e0beb7,households (Tandi),WORKS_AS,weaver (Tandi),,,,,Tandi,Chenab,roads_and_wages,Tandi,66,1961,ai_checked,supported,"Whereas spinning is completed in winter, weaving is done mostly in summer."
+c1b626b0faa,households (Tandi),WORKS_AS,weaver (Tandi),money,,,,Tandi,Chenab,roads_and_wages,Tandi,66,1961,ai_checked,supported,Wages are accepted in cash as well as kind.
+cac195c0827,households,WORKS_AS,spinner and weaver,,,,,Himachal Pradesh,,roads_and_wages,Weaving,14,1961,ai_checked,supported,This profusion of wool made spinning and weaving an industry of many households.
+c628dc43b4d,households,WORKS_AS,wool spinner,wool,,,,Himachal Pradesh,,roads_and_wages,Weaving,16,1961,ai_checked,supported,To meet so huge a demand every household spins.
+c286bcb6a82,women,WORKS_AS,wool spinner,wool,,,,Himachal Pradesh,,roads_and_wages,Weaving,16,1961,ai_checked,supported,Throughout the Pradesh many women spin wool.
+cb18fa938d2,shepherd (Chitrari),SAYS,Road construction,,,,,Chitrari,Ravi,roads_and_wages,Chitrari,24,1961,image_unverified,,"this old beaten track below these rocks was our beaten track for centuries, a jeep has started plying"
+c5caaf8bd25,Gujjar,WORKS_AS,shepherd,,,,,high pastures,,roads_and_wages,1881,167,1881,ai_partly,partly_supported,"for the word Gujar is used in the higher hills as practically synonymous with "" shepherd,"""
+c700c89272a,households,WORKS_AS,pastoralist,,,,,,,roads_and_wages,1881,8,1881,ai_partly,partly_supported,"and the mass of the population follows ""agricultural, and in the mountain ranges pastoral pursuits."
+c1267e49b55,Lade,WORKS_AS,shopkeeper,,,,,,,roads_and_wages,Rose,294,1911,ai_partly,partly_supported,"Lade, a trader to Laddékh"
+ce57ca3cd03,Rajput,WORKS_AS,Wool-comb maker,,,,,,,roads_and_wages,Rose,295,1911,ai_partly,partly_supported,"Occupational names are: Phakru, maker of combs for cleaning wool, Ghoru (royal) groom; Ghuletu, wrestler; Bhajretu,|| porter; Gdéhri, Alpine grazier"
+c971d2d892c,Rajput,WORKS_AS,grazier,,,,,,,roads_and_wages,Rose,295,1911,ai_partly,partly_supported,"Occupational names are: Phakru, maker of combs for cleaning wool, Ghoru (royal) groom; Ghuletu, wrestler; Bhajretu,|| porter; Gdéhri, Alpine grazier"
+c26ba422708,Khatri,WORKS_AS,Wool-comber,,,,,,,roads_and_wages,Rose,295,1911,ai_partly,partly_supported,"We find occupational names: Séhni, shopkeeper (sah) ; Fadhotardé, from one who lived on a plain (padar); Rusahri, cook; Charhain, climber; Nakleti, mimic ; Sundhé, dealer in assafcetida ; Bangete, a physician who powdered zinc (bang) ; Mogu, dealer in coral ; Dhanchu, fr. one who lived with his flocks (dhan) ; Panjaru, wool-"
+c4b76894439,households (Bir),WORKS_AS,Cattle herder (Bir),,,,,Bir,Beas,roads_and_wages,Bir,31,1961,ai_partly,partly_supported,"Thos'e who do not go to school tend to the
+grazing of cattles."
+c4d5750ded6,Brahmaur,WORKS_AS,road labourer (Brahmaur),money,8,persons,,Brahmaur,Ravi,roads_and_wages,Brahmaur,45,1961,ai_partly,partly_supported,8 able-bodied persons are working there as unskilled labour at a daily wage of about Rs. 2/
+ce31d1f6d7f,Brahmaur,WORKS_AS,road labourer (Brahmaur),money,2,Rs per day,,Brahmaur,Ravi,roads_and_wages,Brahmaur,45,1961,ai_partly,partly_supported,8 able-bodied persons are working there as unskilled labour at a daily wage of about Rs. 2/
+cc12622e433,households (Brahmaur),WORKS_AS,road labourer (Brahmaur),money,2,Rs per day,,Brahmaur,Ravi,roads_and_wages,Brahmaur,45,1961,ai_partly,partly_supported,8 able-bodied persons are working there as unskilled labour at a daily wage of about Rs. 2
+cbb4b118d0d,households (Brahmaur),WORKS_AS,shepherd (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,46,1961,ai_partly,partly_supported,"They are, however, at their best as shepherds"
+c8b163b8ffe,households (Brahmaur),WORKS_AS,road labourer (Brahmaur),money,2,Rs per day,,Brahmaur,Ravi,roads_and_wages,Brahmaur,65,1961,ai_partly,partly_supported,"men take to road work or other manual
+labour and generally earn nearabout Rs. 2/as daily wages."
+c0aab04b789,Gaddi (Brahmaur),AFFECTED_BY,Road construction,,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,87,1961,ai_partly,partly_supported,"With the opening roads, new avenues of earning livelihood are available to them, and this is likely to change the cycle of their life followed since ages."
+c9d49628dc7,households (Chauntra),WORKS_AS,labourer (Chauntra),,,,,Chauntra,Beas,roads_and_wages,Chauntra,63,1961,ai_partly,partly_supported,This opened new avenues for the people in the surrounding villages to work as labourers.
+c7635d4d5f6,households (Chaupal),WORKS_AS,agricultural labourer (Chaupal),labour in lieu of interest,,,,Chaupal,Yamuna,roads_and_wages,Chaupal,56,1961,ai_partly,partly_supported,"Poor families who are unable to pay the interest, do agricultural labour in lieu of the interest."
+cba26c67cb5,households (Chaupal),WORKS_AS,cattle tender (Chaupal),,,,,Chaupal,Yamuna,roads_and_wages,Chaupal,69,1961,ai_partly,partly_supported,"During other time, villagers bring fuel and fodder from the jungle. An elderly member or a young child may also tend the cattle."
+cd0b1cdea19,households (Chergaon),WORKS_AS,road labourer (Chergaon),money,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,54,1961,ai_partly,partly_supported,"With the availability of employment pn roads and building constructions, the peasants are able to meet their urgent and daily requirements by earning cash wages."
+cd1d04f4378,households (Chergaon),WORKS_AS,building construction labourer (Chergaon),money,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,54,1961,ai_partly,partly_supported,"With the availability of employment pn roads and building constructions, the peasants are able to meet their urgent and daily requirements by earning cash wages."
+c91691933db,shopkeeper (Chergaon),WORKS_AS,moneylender (Chergaon),,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,65,1961,ai_partly,partly_supported,"There is one bania,
+who also deals in money-lending."
+c4f7215c4e8,households (Chergaon),WORKS_AS,road labourer (Chergaon),,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,66,1961,ai_partly,partly_supported,"Subsidiary source of income is based upon
+rural crafts, agricultural labour and work 0J1
+roads and buildings."
+cda4b046df2,households (Chitrari),WORKS_AS,seasonal worker (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,23,1961,ai_partly,partly_supported,They readily get work during the intervening period.
+c742ce8fa6d,Gaddi (Chitrari),WORKS_AS,agricultural labourer (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,24,1961,ai_partly,partly_supported,"Men work mostly as labourers on
+the farms."
+c05db29d9ef,households (Chitrari),WORKS_AS,road labourer (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,38,1961,ai_partly,partly_supported,"Occasionally they work on the Chamb.a-Brahmaur road as work-charged: labourers, If and when the work is _available."
+c4a251d45a8,households (Chitrari),WORKS_AS,labourer (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,38,1961,ai_partly,partly_supported,The local pfoplhe get work as labourers and masons
+cb2f7548e45,households (Chitrari),WORKS_AS,mason (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,38,1961,ai_partly,partly_supported,The local pfoplhe get work as labourers and masons
+c2399070b4a,Gaddi (Chitrari),WORKS_AS,wool spinner (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,42,1961,ai_partly,partly_supported,The Gaddis are adept in spinning that for hours together
+cba20e08423,households (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,47,1961,ai_partly,partly_supported,"many of them have taken to rearing of sheep and goats, lumbing in the forests, weaving and selling milk and vegetables."
+c985a4cff33,Gaddi (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,78,1961,ai_partly,partly_supported,sheep and goat rearing no longer continues to be the main profession of these Gaddis in the village.
+cde9fedc7d2,households (Devi-Kothi),WORKS_AS,animal husbandry (Devi-Kothi),,14,persons,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,47,1961,ai_partly,partly_supported,Fourteen persons returned animal husbandry as one of their subsidiary occupation.
+cee0756bc85,households (Devi-Kothi),WORKS_AS,weaver (Devi-Kothi),,,,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,50,1961,ai_partly,partly_supported,Weaving is done in summer months when it is easier to use a handloom fixed out of the main r'oom.
+c6c74812618,households (Devi-Kothi),WORKS_AS,road labourer (Devi-Kothi),wages,2,Rs per day,5|6|7,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,53,1961,ai_partly,partly_supported,"A villager has a scope of working as an unskilled labourer o_n the road construction work and go usually m the months of May, June and .Tuly"
+c5fe3a47c0b,Devi-Kothi,WORKS_AS,grazier (Devi-Kothi),,9,persons,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,55,1961,ai_partly,partly_supported,Nine persons were working whole time cattle graziers and shoe making.
+cd726ce4a6e,households (Kalath),WORKS_AS,cattle tender (Kalath),,5,persons aged 0-14,,Kalath,,roads_and_wages,Kalath,60,1961,ai_partly,partly_supported,"3 males and 2 females in the 0-14
+age-group are cattle tenders"
+c2bb94b486f,Lal Chand Negi,WORKS_AS,Gram Panchayat secretary (Kanum),money,60,Rs per month,,Kanum,Sutlej,roads_and_wages,Kanum,132,1961,ai_partly,partly_supported,"In the year 1955, he got a .iob as Secretary of the Gram Panchayat at Rs. GO per month"
+c866c669232,Kanum,AFFECTED_BY,Road construction,,,,,Kanum,Sutlej,roads_and_wages,Kanum,133,1961,ai_partly,partly_supported,In 1961 a jeepable road was ready for traffic and Kanum became an important intermediatery between Jangi and Poo
+cbead5a253c,Kanum,AFFECTED_BY,Road construction,,,,,Kanum,Sutlej,roads_and_wages,Kanum,133,1961,ai_partly,partly_supported,"In O,ctober 1964 the position had changed. The low~r National Hi~h Way was opened for vehIcular traffic."
+cab1114444d,Kanum,AFFECTED_BY,Road construction,,,,,Kanum,Sutlej,roads_and_wages,Kanum,133,1961,ai_partly,partly_supported,This has now resulted in shift oCinfluence from Kanum'to Spillo which is ~earer to lower alignment.
+cf7d3a8fa05,muleteer (Kanum),MOVES_VIA,Road construction,,,,,Kanum,Sutlej,roads_and_wages,Kanum,133,1961,ai_partly,partly_supported,Prior to the opening of a Jeepable road large number of muleteer were seen trecking on the Hindustan Tibet road
+c18b74d25b3,Spillo,AFFECTED_BY,Road construction,,,,,Spillo,,roads_and_wages,Kanum,133,1961,ai_partly,partly_supported,This has now resulted in shift oCinfluence from Kanum'to Spillo which is ~earer to lower alignment. Now Spillo will be m an advantageous position
+c8fd2d9d20f,households (Kanum),WORKS_AS,road labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_partly,partly_supported,Irrespective of caste or sex people have availed of this opportunity during the last about 5 years and consequently their economy has considerably improved.
+c550ccab60f,households (Kanum),WORKS_AS,road labourer (Kanum),money,3,Rs per day,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_partly,partly_supported,and an unskilled worker gets a daily wage of Rs. 3 at present.
+cd2de490623,households (Kanum),WORKS_AS,road labourer (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_partly,partly_supported,"Men and women now prefer to work on the roads rather than work as 'fawals', agricultural labourers and 'rigries' for obvious reason that they get better wages."
+cb23e615226,landholders (Kanum),HIRES,fawal (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_partly,partly_supported,found it difficult to engage labourers to attend to their sheep and goats. Men and women now prefer to work on the roads rather than work as 'fawals'
+cfae7b7dca0,Rajput (Kanum),HIRES,fawal (Kanum),money,200,Rs per year,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_partly,partly_supported,However: some of the 'fawals' get Rs. 200 in cash.
+cb98d4ba436,Kanum,AFFECTED_BY,Road construction,,,,,Kanum,Sutlej,roads_and_wages,Kanum,85,1961,ai_partly,partly_supported,"but of late with the opening of fresh employment avenues on roads and buildings, construction works, migration in search of labour has considerably decreased."
+ce577bcaa05,households,WORKS_AS,revenue carrier,,10,persons (the text says 10 or 12),,Pangi,Chenab,roads_and_wages,Kupha,133,1961,ai_partly,partly_supported,The residents of the Pargana had to provide 10 'or 12 persons to carry the land revenue up to Alwas.
+c851130577b,Pangi,AFFECTED_BY,Road construction,,,,,Pangi,Chenab,roads_and_wages,Kupha,136,1961,ai_partly,partly_supported,Within a few years of time the valley will be connected by jeepable roads to the :rest of the country.
+c4259fb809e,Pangwal (Kupha),WORKS_AS,road labourer (Kupha),,,,,Kupha,Chenab,roads_and_wages,Kupha,65,1961,ai_partly,partly_supported,"Among the important ones are the building construction
+works and road construction. The ablebodied Pangwals started working in these
+projects."
+c6510bb886f,households (Kupha),WORKS_AS,Woollen spinner and weaver (Kupha),,,,,Kupha,Chenab,roads_and_wages,Kupha,65,1961,ai_partly,partly_supported,"Most 'Of the households' weave woollen
+clothes. For this they have set up looms. The bulk of..spinning and weaving is done in winter
+months."
+cf0cafa7602,households (Kupha),WORKS_AS,agricultural labourer (Kupha),,1,day during each sowing and harvesting season,,Kupha,Chenab,roads_and_wages,Kupha,70,1961,ai_partly,partly_supported,the debtor has to work in the fields of the creditor for a day during each sowing and harvesting season.
+ce7380f1ff6,households (Nachar),WORKS_AS,labourer (Nachar),wages,,Rs per day; range 2.50 to 3.00,,Nachar,Sutlej,roads_and_wages,Nachar,14,1961,ai_partly,partly_supported,The daily wages for a labourer are Rs. 2.50 to Rs. 3.00.
+c619aa1cf07,households (Nachar),WORKS_AS,mason (Nachar),wages,,Rs per day; range 4.00 to 5.00,,Nachar,Sutlej,roads_and_wages,Nachar,14,1961,ai_partly,partly_supported,For a mason from Rs. 4.00 to Rs. 5.00.
+c46540d9bc7,households (Nachar),WORKS_AS,manual labourer (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,32,1961,ai_partly,partly_supported,Here women work hand-in-h!lnd with men in agriculture and other occupations such as manual labour.
+cee2a9597e4,households (Nachar),WORKS_AS,sheep breeder (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,7,1961,ai_partly,partly_supported,"some of them have other oC' cupation like sheep breeding and weaving,"
+cacfa825e70,households (Nachar),WORKS_AS,sheep breeder (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,9,1961,ai_partly,partly_supported,"The main occupation of the villagers is agriculture, other' occupations like sheep.breeding, weaving, silver and blacksmithy are supplementary."
+cadc3ef5f0f,households (Nalag),WORKS_AS,wool spinner (Nalag),,,,,Nalag,Sutlej,roads_and_wages,Nalag,15,1961,ai_partly,partly_supported,"During the lelsur'e tIme, mostly dUrIng the winter, w~en they have nothing else to do, the villagers spm the wool"
+c5fc39c2800,households (Nalag),WORKS_AS,forced labourer (Nalag),,,,,Nalag,Sutlej,roads_and_wages,Nalag,38,1961,ai_partly,partly_supported,"Before independence, if a debtor could not repay the interest on loan, he had to offer fon~ed labour in the house or fields until the original sum was squared off."
+c9c3e6c9697,Sajju,WORKS_AS,forced labourer,,3,years,,Dehar,,roads_and_wages,Nalag,38,1961,ai_partly,partly_supported,Sajju of Balra and Bhaktoo of Dehar worked for three years in the house of Hari Dutt.
+cef92bdb555,Gaddi (Brahmaur),WORKS_AS,government employee (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Newell,101,1961,ai_partly,partly_supported,"Those Gaddis who are able to find additional means of subsistence by
+becoming educated or by obtaining Government
+jobs"
+c839919ca14,drinkar,WORKS_AS,Gaddi,,,,,Kangra,Beas,roads_and_wages,Newell,18,1961,ai_partly,partly_supported,who was always a Gaddi (although an agent of the rajah).
+c1c71fe8c0a,Gujjar (Brahmaur),WORKS_AS,shepherd (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Newell,22,1961,ai_partly,partly_supported,most likely Gujars or other visitors from outside the boundaries of the district concerned with looking after the Hocks
+cde323996b7,Gujjar (Brahmaur),WORKS_AS,casual labourer (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Newell,22,1961,ai_partly,partly_supported,or in working with forest. contractors as casual labour.
+c18d91bfdb8,households,WORKS_AS,pastoralist,,,,,,,roads_and_wages,Newell,28,1961,ai_partly,partly_supported,"Tasks performed by anyone irrespective of caste-Agriculturists, pastoralist, tailor, government official"
+cd4177fef7c,households,WORKS_AS,shepherd,,4,families,,Goshen,,roads_and_wages,Newell,36,1961,ai_partly,partly_supported,"four other families either were looking after sheep or accompanied people who ,rere looking after sheep."
+ca1c1c26a6d,households,WORKS_AS,grazier,,,,,Goshen,,roads_and_wages,Newell,40,1961,ai_partly,partly_supported,"Cattle grazing (with the [Lssistance of children), sweeping the courtyard,"
+cad4427dd68,households,WORKS_AS,grazier,,,,,Goshen,,roads_and_wages,Newell,40,1961,ai_partly,partly_supported,storing grass for the winter and feeding the cattle.
+c654add1e21,households,WORKS_AS,grazier,,,,,Goshen,,roads_and_wages,Newell,40,1961,ai_partly,partly_supported,Cutting gl'iLSS for the winter.
+c4f1b881d20,Gaddi,WORKS_AS,shepherd,sheep and goats,,,,,,roads_and_wages,Newell,9,1961,ai_partly,partly_supported,A small proportion of the Gaddis also look after sheep and goats
+cb30fcd2f5e,farmer (Pangna),WORKS_AS,shepherd (Pangna),,,,,Pangna,,roads_and_wages,Pangna,53,1961,ai_partly,partly_supported,"while the farmers spare their own persons generally, a small boyar an elderly invalid, to graze the cattle."
+cb1b87d5943,households (Rajana),WORKS_AS,Tenant cultivator (Rajana),,,,,Rajana,Yamuna,roads_and_wages,Rajana,50,1961,ai_partly,partly_supported,"When they are not able to pay the loan, they work on the fields as tenants."
+cb9a8305620,Shakrori,AFFECTED_BY,Road construction,,,,,Shakrori,Sutlej,roads_and_wages,Shakrori,13,1961,ai_partly,partly_supported,"This is one of the major developments after 1948, but it is after 1958 that the road has settled down so well."
+caaa3f42d36,Western Tibet trade route,AFFECTED_BY,Road construction,,,,,,,roads_and_wages,Tandi,57,1961,ai_partly,partly_supported,"which was previously only a bridle
+path has now bee? made jeepable
+right from Manah to Keyl?ng, th.e
+District headquarters."
+ca653862e7f,Tandi,AFFECTED_BY,Road construction,,,,,Tandi,Chenab,roads_and_wages,Tandi,57,1961,ai_partly,partly_supported,"Tandi is also connected by a bridle path, WhICh
+at the time of this survey was jeepable
+as far as Lote with Thirot, the last
+point in Lahaul and Trilokinath, seat
+of famous Trilokinath Fair in the
+Chamba District."
+c0008555b85,Tandi,AFFECTED_BY,Road construction,,,,,Tandi,Chenab,roads_and_wages,Tandi,57,1961,ai_partly,partly_supported,"Tandi is also connected with Losar, the first village in
+Spiti after crossin~ the Kunzam from
+the Rohtang Pass end by a jeepable·
+road."
+c1c6c7dcbf8,Tandi,HIRES,fawal (Tandi),grain,1,patha buckwheat per sheep or goat for the season,5|6|7|8|9,Tandi,Chenab,roads_and_wages,Tandi,65,1961,ai_partly,partly_supported,"is paid
+by every household at the rate of one
+patha (approximately equivalent to
+one seer) of buckwheat per sheep or
+goat for the season."
+cc87188666f,Tandi,HIRES,fawal (Tandi),meals,1,"day's meals per household sending ten sheep or goats, according to the turn",5|6|7|8|9,Tandi,Chenab,roads_and_wages,Tandi,65,1961,ai_partly,partly_supported,"A household sending out ten sheep or goats gives a day's
+meals to him according to t he turn."
+c5ba60220b9,households (Tandi),WORKS_AS,weaver (Tandi),money,,Rs. 2/6/- per yard of patti having a width of 31 t inches,,Tandi,Chenab,roads_and_wages,Tandi,66,1961,ai_partly,partly_supported,The wages are Rs. 2/6/- per yard for patti having a width of 31 t inches
+c86334c12e4,households (Tandi),WORKS_AS,weaver (Tandi),money,,annas four per yard of woollen cloth,,Tandi,Chenab,roads_and_wages,Tandi,66,1961,ai_partly,partly_supported,and annas four per yard of woollen cloth.
+ce3d5055a40,households (Tandi),WORKS_AS,weaver (Tandi),money,,Rs. 3 to Rs. 5 per pattu,,Tandi,Chenab,roads_and_wages,Tandi,66,1961,ai_partly,partly_supported,"Weaving charges for a pattu., 3 yards long and 1i yards wide, vary between Rs. 3 and Rs. 5."

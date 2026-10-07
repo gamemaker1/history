@@ -7,7 +7,7 @@ v6 into a comparison of two river valleys. Both herded sheep and goats between
 high summer pastures and low winter grazing. They differed in which way their
 trade faced, who owned the pastures, and what happened to them after 1948 and
 after the 1962 closure of the Tibet border. The other idea files are in
-this folder (see [README.md](README.md)).
+the repository's history (see the note at the top of [seasonal-herding-himachal.md](seasonal-herding-himachal.md)).
 
 The interpretation works in two steps. The Annales step reads the geography
 of the two valleys and the time scales, and makes the comparison. The Marxist
@@ -15,7 +15,7 @@ step then looks inside each medium-term period (conjuncture) for the
 contradictions that drove change in each valley. The interpretive framework
 section sets this out.
 
-The sections follow the three stages in `project.docx`.
+The sections follow the three stages in [docs/project.md](../docs/project.md).
 
 ---
 

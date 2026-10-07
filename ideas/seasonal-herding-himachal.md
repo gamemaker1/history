@@ -1,18 +1,19 @@
 # The mountain year: seasonal herding in the Himachal hills, 1881 to 1961
 
-Earlier versions: [candidate-topics.md](candidate-topics.md) (16 topics),
-[shimla-hill-states-sutlej.md](shimla-hill-states-sutlej.md) (Shimla and the Sutlej),
-[begar-land-caste-12-villages.md](begar-land-caste-12-villages.md) and [begar-land-caste-5-villages.md](begar-land-caste-5-villages.md) (begar, land and
-caste), [joint-household-himachal.md](joint-household-himachal.md) (the joint household). The two-valley
+Earlier versions: `candidate-topics.md` (16 topics),
+`shimla-hill-states-sutlej.md` (Shimla and the Sutlej),
+`begar-land-caste-12-villages.md` and `begar-land-caste-5-villages.md` (begar, land and
+caste), `joint-household-himachal.md` (the joint household). The two-valley
 comparison that grew out of this file is
-[two-valleys-sutlej-ravi.md](two-valleys-sutlej-ravi.md).
+[two-valleys-sutlej-ravi.md](two-valleys-sutlej-ravi.md). The earlier versions were removed
+from the working tree when this question was chosen; they remain in the git history (commit `1f94e2f`).
 
 The interpretation works in two steps. The Annales step reads the geography
 and the time scales and makes the comparisons. The Marxist step then looks
 inside each medium-term period (conjuncture) for the contradictions that drove
 change. The interpretive framework section sets this out.
 
-The sections follow the three stages in `project.docx`. Every quote was
+The sections follow the three stages in [docs/project.md](../docs/project.md). Every quote was
 checked against the extracted text in `text/`, with obvious OCR errors
 corrected. Section 7 gives the PDF file and page of each key quote. Pages are
 PDF page numbers, the counter a PDF viewer shows. `scripts/pageref.py` finds
@@ -370,9 +371,9 @@ The essay is due on 4 November 2026. The earlier dates are a proposal.
 
 ## Section 6. Other groupings considered
 
-- **The joint household** (v1 ideas 15, 12, 11): [joint-household-himachal.md](joint-household-himachal.md).
+- **The joint household** (v1 ideas 15, 12, 11): `joint-household-himachal.md`.
   Balanced between Annales and Marxist readings.
-- **Labour and land** (v1 ideas 7, 12, 4): [begar-land-caste-5-villages.md](begar-land-caste-5-villages.md).
+- **Labour and land** (v1 ideas 7, 12, 4): `begar-land-caste-5-villages.md`.
   Strongly Marxist.
 - **Deities and mentalités** (v1 ideas 3, 4). Annales history of mentalities,
   with little census evidence.

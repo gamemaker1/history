@@ -1,0 +1,169 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+cefce7839b3,Forest Department,HOLDS_RIGHTS_OVER,forest,timber,,,,Brahmaur,Ravi,forest_department,Brahmaur,24,1961,ai_checked,supported,The people of Brahmaur are allo'Ned to have timber from the Brahmni reserved forest and an application has to be submitted to the Forest Department
+cc177f64eda,Forest Department,ISSUES_PERMIT_TO,shepherd (Brahmaur),grazing permit,,,,Brahmaur,Ravi,forest_department,Brahmaur,55,1961,ai_checked,supported,"The Forest Department is discouragi_ng the multiplication of the number of such animals and to implement this they do not issue grazing permits for more than a, fixed number of goats and sheep."
+c3ec98dbd6b,Forest Department,HOLDS_RIGHTS_OVER,pasture,,,,,Brahmaur,Ravi,forest_department,Brahmaur,55,1961,ai_checked,supported,"Now, the pastures are allotted direct to the shepherds by the Forest Department."
+c53e4f84e7f,Himachal Pradesh Government,CLOSES,riverbank,,,,,Chergaon,Yamuna,forest_department,Chergaon,52,1961,ai_checked,supported,"By the river sides, the cattle are npt permitted to graze."
+c76c429af7b,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Chitrari,Ravi,forest_department,Chitrari,38,1961,ai_checked,supported,The forests occupy the biggest area and are managed by State Fprest Department.
+c5f449e0f88,Forest Department,ISSUES_PERMIT_TO,grazier (Devi-Kothi),grazing permit,,,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_checked,supported,The Forest Department issues grazing permits on payment of normal fee.
+cd605b93f37,Forest Department,ISSUES_PERMIT_TO,grazier (Devi-Kothi),grazing permit,,,6|7|8|9|10,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_checked,supported,"All permits are valid for the period 1st June to 15th
+October."
+cfd02a00b08,Forest Department,COLLECTS_FEE_FROM,non-right holders (Devi-Kothi),money,5,Rs per permit for a non-right holder,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,48,1961,ai_checked,supported,The fee is Rs. 5/- from non-right holders and Re. 1/- from a right holder.
+c1f27179dbf,grazing permit,AFFECTED_BY,Seasonal snowfall and pass closure,,,,10|11,Pangi,Chenab,forest_department,Kupha,111,1961,ai_checked,supported,"Snow usually begins to fall on the
+passes in Odober and closes them by the
+middle of November."
+cf86703e77a,grazing permit,AFFECTED_BY,Seasonal snow disappearance and pass reopening,,,,3|5,Pangi,Chenab,forest_department,Kupha,111,1961,ai_checked,supported,"It begins to disappear
+again in March and the passes re-open in May."
+c4693d5929b,grazing permit,AFFECTED_BY,Persistent snow cover,,,,7,Pangi,Chenab,forest_department,Kupha,111,1961,ai_checked,supported,"though the snow lasts on them till July and
+some of the higher elevations remain perpetually covered."
+c58198152c2,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,forest_department,Kupha,133,1961,ai_checked,supported,In addition to the Kardars for the management of the forests there was a Revenue Forest Department and Reserve Forest Department locally called 'CHHOTI J.ANGLAT' and 'BARI JANGLAT' respectIvely.
+c3c59e86a55,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Pangi,Chenab,forest_department,Kupha,134,1961,ai_checked,supported,With the merger of the State with the Union of India the administrative distinction between the Revenue Forests and the Reserve Forests has now been abolished and the entire forest administration is in the hands of the Forest Department.
+c27f278e783,Forest Department,CLOSES,pasture,,,,,Pangi,Chenab,forest_department,Kupha,136,1961,ai_checked,supported,Certain pastures have also been closed in order to undertake extensive measures for soil conservation.
+c48577e1aa8,Forest Department,CLOSES,forest,,,,,,,forest_department,Kupha,57,1961,ai_checked,supported,she would be challaned by the Forest Department.
+c5a7b361470,Forest Department,COLLECTS_FEE_FROM,mobile herder,grazing fees,3,annas per sheep,,Arki,,forest_department,Mahasu,334,1961,ai_checked,supported,3 Annas per Sheep
+ce6777eebac,Forest Department,COLLECTS_FEE_FROM,mobile herder,grazing fees,6,annas per goat,,Arki,,forest_department,Mahasu,334,1961,ai_checked,supported,6 Annas per Goat
+cf9fc9e1b32,Forest Department,CLOSES,land,,120,acres,,Manthapal,,forest_department,Moginand,45,1961,ai_checked,supported,To begin with 120 acres of land was taken up by the Forest Department at Manthapal and was fenced with barbed wire.
+c99c94efc5d,Forest Department,HOLDS_RIGHTS_OVER,grazing permit,,,,,Chamba State,Ravi,forest_department,Newell,15,1961,ai_checked,supported,"that the issuing of grazing permits has
+!lOW .also .been taken over by the department,"
+c35883f6472,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,Chamba State,Ravi,forest_department,Newell,15,1961,ai_checked,supported,today the power of the forest department is paramount.
+c84d61a382d,Forest Department,HOLDS_RIGHTS_OVER,forest,,,,,,,forest_department,Newell,17,1961,ai_checked,supported,"the rajah's agents (such as the Forest Depart·
+ment) 'but to which villagers had. access."
+ccb06af404b,Kangra rajah,ISSUES_PERMIT_TO,herdsmen's client,grazing rights,,,,Kangra,Beas,forest_department,Newell,18,1961,ai_checked,supported,the right to graze certain of the low pastures lay with the rajah Who granted the right to a special herdsmen clieht
+c4298a2d1dc,Forest Department,HOLDS_RIGHTS_OVER,right to collect grazing fees,,,,,,,forest_department,Newell,19,1961,ai_checked,supported,These rights to grazing tax have now beeH taken over by the Government of India State Forest Department.
+c093d729863,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,,,,,,forest_department,Newell,19,1961,ai_checked,supported,The tax is now collected by an employee of the Forest Deparlillellt and a receipt issued.
+c6c086a640b,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,4,annas per goat,,Lahaul,Chenab,forest_department,Newell,19,1961,ai_checked,supported,The rates ill 1962 were in Lah III 4 annas per goat
+c87c8b999d3,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,8,n.p. per sheep,,Kangra,Beas,forest_department,Newell,19,1961,ai_checked,supported,ill Kallgra 8 n.p. per sheep
+c7280702cd8,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,4,annas per goat,,Kangra,Beas,forest_department,Newell,19,1961,ai_checked,supported,Kallgra 8 n.p. per sheep and 4 a Iln<1S per goat.
+c6630e28e3f,Forest Department,ISSUES_PERMIT_TO,shepherd (Brahmaur),grazing permit,,,,Brahmaur,Ravi,forest_department,Newell,19,1961,ai_checked,supported,This recei pt is however not issued unless the shepherd has a permit issued by the Forest Department al Brahmallr Slating how lIlany sheep and goats over olle year of age
+c9956442917,shepherd,HOLDS_RIGHTS_OVER,grazing permit,,,,,,,forest_department,Newell,37,1961,ai_checked,supported,"these permits are
+freely bought and sold amongst shepherds"
+c05f3b725a2,shepherd,SELLS_TO,shepherd,grazing permit,,,,,,forest_department,Newell,37,1961,ai_checked,supported,these permits are freely bought and sold amongst shepherds so that shepherds have now become closed corporations
+c63816389b8,Forest Department,ISSUES_PERMIT_TO,shepherd,grazing permit,,,,,,forest_department,Newell,37,1961,ai_checked,supported,"tax to the extent that one has a permit issued
+by the forest officer"
+c0e58cdf5bc,Forest Department,ISSUES_PERMIT_TO,shepherd,grazing permit,,,,,,forest_department,Newell,37,1961,ai_checked,supported,the total number of animals allowed to graze in anyone dhar is determined by the forest officer.
+c4b37df1472,Forest Department,COLLECTS_FEE_FROM,households (Batal),money,12,paise per head-load,,Batal,,forest_department,Batal,21,1961,ai_partly,partly_supported,one has to get a licence at a fee of twelve paise for one head-load from the Forest Department.
+c5b984d4f7c,Forest Department,COLLECTS_FEE_FROM,shepherd (Brahmaur),grazing fees,1,Re per head of sheep or goat without a grazing permit,,Brahmaur,Ravi,forest_department,Brahmaur,55,1961,ai_partly,partly_supported,they are charged a penalty of Re. 1/- per head of sheep or goat for which they do not possess the grazing permit.
+cf7de15fcca,Forest Department,COLLECTS_FEE_FROM,shepherd (Brahmaur),grazing fees,15,Rs per 100 heads of sheep or goats per summer season,,Brahmaur,Ravi,forest_department,Brahmaur,55,1961,ai_partly,partly_supported,The grazing tax charged from the shepherds is Rs. 15/- per hundred heads of sheep or goats for the summer season.
+c4105d167dd,shepherd (Brahmaur),PAYS_DUES_TO,Forest Department,grazing fees,2,payments per year,,Brahmaur,Ravi,forest_department,Brahmaur,55,1961,ai_partly,partly_supported,A shepherd has to pay the grazing tax twice' a year.
+c822f25d6f6,Forest Department,ISSUES_PERMIT_TO,households (Chaupal),stone collection permit,,,,Chaupal,Yamuna,forest_department,Chaupal,20,1961,ai_partly,partly_supported,Stone is collected from the nearby stone quarries after obtaining a permit from the Forest Department.
+c6b5ca0f0cb,Forest Department,ISSUES_PERMIT_TO,households (Chaupal),slate quarrying permit,,,,Chaupal,Yamuna,forest_department,Chaupal,20,1961,ai_partly,partly_supported,"For slates too, permits are obtained from the Forest Department."
+c65a8fcb8d5,Forest Department,ISSUES_PERMIT_TO,households (Chaupal),timber allocation,,,,Chaupal,Yamuna,forest_department,Chaupal,20,1961,ai_partly,partly_supported,"For obtaining the timber, villagers apply to the Forest Department through the village Panchayat. Usually the number of trees recommended by the Panchayat is sanctioned by the Forest Department."
+c69bfaeaa38,Forest Department,CLOSES,forest,,,,,Chitrari,Ravi,forest_department,Chitrari,23,1961,ai_partly,partly_supported,The areas round about have been declared Reserved Fprests and the infringement of the rules is followed either by cash penalty or forfeiture
+c2759db6bdc,Forest Department,ISSUES_PERMIT_TO,shepherd (Chitrari),grazing permit,,,,Chitrari,Ravi,forest_department,Chitrari,23,1961,ai_partly,partly_supported,Intensive grazing for generations led to erosion. To check this trouble passes are issued
+c2d8f6df6a3,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,9.0,Rs per buffalo,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00"
+c6b70400b46,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,0.5,Rs per sheep,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00
+6·00
+0·50"
+c4de5bad574,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,1.0,Rs per goat,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00
+6·00
+0·50
+0·10
+1·00"
+c9f1b661d87,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,1.0,Rs per cow/bull,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00
+6·00
+0·50
+0·10
+1·00
+0·25
+1·00"
+cbbcf3e47b9,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,4.5,Rs per buffalo,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From right holders
+Fcc
+Rs.
+
+4·50"
+c32f3161c21,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,0.1,Rs per sheep,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From right holders
+Fcc
+Rs.
+
+4·50
+0·10"
+c06827da0b3,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,0.25,Rs per goat,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From right holders
+Fcc
+Rs.
+
+4·50
+0·10
+(\'25"
+c979c937d22,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,1.0,Rs per cow/bull,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,47,1961,ai_partly,partly_supported,"From right holders
+Fcc
+Rs.
+
+4·50
+0·10
+(\'25
+1·00"
+c8a4d821ecc,Forest Department,COLLECTS_FEE_FROM,households (Devi-Kothi),money,1,Re. per permit for a right holder,,Devi-Kothi,Ravi,forest_department,Devi-Kothi,48,1961,ai_partly,partly_supported,The fee is Rs. 5/- from non-right holders and Re. 1/- from a right holder.
+c073e88d807,households (Moginand),PAYS_DUES_TO,Forest Department,grazing fees,1,anna per permit for one big bundle of grass,,Moginand,,forest_department,Moginand,47,1961,ai_partly,partly_supported,"they can bring one big bundle of grass from other charand, by obtaining a permit on payment of anna one to the forest department."
+ca777fee114,households (Moginand),PAYS_DUES_TO,Forest Department,articles of daily use,4,per cent interest,,Moginand,,forest_department,Moginand,47,1961,ai_partly,partly_supported,The shopkeepers go on giving articles to the villagers on credit and at harvest time they realise the amount in kind or cash alongwith interest at the rate of 4 per cent.
+c6d5ba7dc1e,Forest Department,COLLECTS_FEE_FROM,Gaddi,grazing fees,,,,,,forest_department,Newell,19,1961,ai_partly,partly_supported,"so that if a Gaddi shepherd grazed out an <Ii ea, he found he might have 10 pay a new tax to move to another pastureland in the same alea_ ."
+cb52dd556c5,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,,,,,,forest_department,Newell,37,1961,ai_partly,partly_supported,"one can only . pay
+tax to the extent that one has a permit issued"
+c96ae146e8a,Forest Department,COLLECTS_FEE_FROM,shepherd,land revenue and dues,1,rupee per unregistered animal over one year of age,,,,forest_department,Newell,37,1961,ai_partly,partly_supported,"The owner of every animal found over age and not registered on the
+permit is fined one rupee on the spot"

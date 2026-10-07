@@ -1,0 +1,69 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c1b035f3144,Gaddi,WORKS_AS,shepherd,,,,,,,roads_and_wages,1881,167,1881,ai_checked,supported,almost all Gaddis are shepherds.
+c4e7c5aa0bb,Gujjar,WORKS_AS,grazier,,,,,Kangra,Beas,roads_and_wages,1881,267,1881,ai_checked,supported,"In the hills the Gujnrs are exclusively a pastoral tribe,—they cultivate scarcely at all."
+c65c3a2d4cc,Gujjar,WORKS_AS,grazier,,,,,Kangra,Beas,roads_and_wages,1881,267,1881,ai_checked,supported,The men graze the cattle
+c5e53d4fc77,Gaddi,WORKS_AS,shepherd,,,,,,,roads_and_wages,1881,275,1881,ai_checked,supported,"They are almost all shepherds, and do not in any way resemble the Khatris of the plains."
+c70228c6156,Gaddi,WORKS_AS,shepherd,,,,,Kangra,Beas,roads_and_wages,1881,297,1881,ai_checked,supported,"shepherds called Gaddis, most of whom are Khatris."
+c1a5a1befdf,Gujjar,WORKS_AS,grazier,,,,,Kangra,Beas,roads_and_wages,Rose,346,1911,ai_checked,supported,"The men graze the cattle, and frequently lie out for weeks in the woods tending their herds."
+ceca1f86976,Gaddi,WORKS_AS,shepherd,,,,,Kangra,Beas,roads_and_wages,Rose,545,1911,ai_checked,supported,"Shepherds called Gaddis, most of whom are
+Khatris."
+ca99b846d9a,Rehara,WORKS_AS,shepherd,,,,,Simla Hills,,roads_and_wages,Rose Vol3,345,1914,ai_checked,supported,In the litter he is described as a shepherd
+cd34e9c1284,households (Brahmaur),HIRES,pohal (Brahmaur),,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,Pohals are hired in summer season by a very few people in rare cases when they cannot spare some one from amongst the family
+cb2a312294e,households (Brahmaur),HIRES,pohal (Brahmaur),sheep and goats,2,sheep per 100 sheep and goats,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"The pohals, when hired, are given (1) free meals, (2) free clothing and wool for the family, (3) two or four' sheep per hundred sheep and goats"
+c6f99710146,households (Brahmaur),HIRES,pohal (Brahmaur),sheep and goats,4,sheep per 100 sheep and goats,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"The pohals, when hired, are given (1) free meals, (2) free clothing and wool for the family, (3) two or four' sheep per hundred sheep and goats"
+c9d3a5a7e8b,households (Brahmaur),HIRES,pohal (Brahmaur),money,2,Rs per month,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,Rs. 2/- in cash per month as wages.
+c52c84ad0b7,households (Brahmaur),HIRES,pohal (Brahmaur),wool,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,free clothing and wool for the family
+ce66ea13ac8,households (Brahmaur),HIRES,pohal (Brahmaur),,,,,Brahmaur,Ravi,standing,Brahmaur,55,1961,ai_checked,supported,Pohals are hired in summer season by a very few people in rare cases when they cannot spare some one from amongst the family to look after the flock
+cfec86299cd,households (Brahmaur),HIRES,malundi (Brahmaur),money,,,,Brahmaur,Ravi,cycle,Brahmaur,55,1961,ai_checked,supported,"this flock is entrusted to anotner malundt m summer seasons, on payment of some fee to be mutually agreed upon."
+c0f1c10f56e,households (Chaupal),HIRES,grazier (Chaupal),grain,,,,Chaupal,Yamuna,standing,Chaupal,47,1961,ai_checked,supported,Roti from each household and some cereals were given at the end of the month.
+ca3b86684f6,households (Chergaon),HIRES,fawal (Chergaon),grain,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,57,1961,ai_checked,supported,cereals are supplied regularly by the respective village households.
+c7b54b6c2d0,fawal (Chergaon),WORKS_AS,wool worker (Chergaon),wool,,,,Chergaon,Yamuna,roads_and_wages,Chergaon,57,1961,ai_checked,supported,Some wool work is also carried out by them.
+ccb64e99a3d,Brahman (Chitrari),WORKS_AS,shepherd (Chitrari),,,,,Chitrari,Ravi,roads_and_wages,Chitrari,19,1961,ai_checked,supported,"business and rearing of
+goats and sheep."
+cfb0138de93,Devi-Kothi,WORKS_AS,grazier (Devi-Kothi),,,,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,55,1961,ai_checked,supported,In this sphere women have· outnumbered men. Same is the position in cattle grazing occupation.
+c9f0347dce3,Lal Chand Negi,HIRES,fawal (Kanum),,4,fawals,,Kanum,Sutlej,roads_and_wages,Kanum,132,1961,ai_checked,supported,"He had four fawals-shepherds who were paid Rs. 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes."
+c49272bf886,Lal Chand Negi,HIRES,fawal (Kanum),money,60,Rs per fawal annually,,Kanum,Sutlej,roads_and_wages,Kanum,132,1961,ai_checked,supported,"He had four fawals-shepherds who were paid Rs. 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes."
+c13be9945b3,Narbu's father,WORKS_AS,shepherd (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,134,1961,ai_checked,supported,worked as a shepherd with the bigger farmers of Kanum.
+c3b4a332102,Narbu,WORKS_AS,shepherd (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,134,1961,ai_checked,supported,he too worked as shepherd with Penba Ram N egi of Kanum.
+ca296770c85,Rajput (Kanum),HIRES,rigri (Kanum),,,,,Kanum,Sutlej,cycle,Kanum,51,1961,ai_checked,supported,'Rigries' and fawals are en.gaged for a period of one year from the 'Lossar' faIr.
+c584be89f40,Rajput (Kanum),HIRES,rigri (Kanum),grain,80,bl'ekhangs of cereals per year,,Kanum,Sutlej,cycle,Kanum,51,1961,ai_checked,supported,"A rigri according to the prevalent rate is given 80 'bl'ekhangs', a wooden measure of about 2 seers of cereals, 6 seers of raw wool"
+c22e3f92321,Rajput (Kanum),HIRES,rigri (Kanum),wool,6,seers per year,,Kanum,Sutlej,cycle,Kanum,51,1961,ai_checked,supported,"A rigri according to the prevalent rate is given 80 'bl'ekhangs', a wooden measure of about 2 seers of cereals, 6 seers of raw wool"
+c11654991c9,Rajput (Kanum),HIRES,rigri (Kanum),shoes,1,pair per year,,Kanum,Sutlej,cycle,Kanum,51,1961,ai_checked,supported,"of raw wool, a pair of leather shoes and woollen shoes, Rs. 2 in cash and daily meals."
+c0cc12fc27b,Rajput (Kanum),HIRES,rigri (Kanum),money,2,Rs per year,,Kanum,Sutlej,cycle,Kanum,51,1961,ai_checked,supported,"of raw wool, a pair of leather shoes and woollen shoes, Rs. 2 in cash and daily meals."
+c270c2034d1,Rajput (Kanum),HIRES,fawal (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_checked,supported,'Rigries' and fawals are en.gaged for a period of one year from the 'Lossar' faIr.
+cd89e79c4c8,Rajput (Kanum),HIRES,fawal (Kanum),money,100,Rs per year,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_checked,supported,"Wages in the case of a 'fawal' for one year are, Rs. 100 cash, clothes including shoes, daily meals."
+c46ba05d7ae,Gujjar (Maingal),WORKS_AS,grazier (Maingal),,,,,Maingal,Ravi,roads_and_wages,Maingal,60,1961,ai_checked,supported,literally employed in the pastoral occupation.
+c754b1e48b5,Kinnaura (Nachar),WORKS_AS,shepherd (Nachar),,,,,Nachar,Sutlej,roads_and_wages,Nachar,33,1961,ai_checked,supported,"The households who keep many sheep and goats, spare one or two persons from their families to look after the flock."
+c368179cbcc,Gaddi,WORKS_AS,shepherd,,,,,,,roads_and_wages,Newell,36,1961,ai_checked,supported,The husband collects the firewood and looks after the sheep.
+c5f5addff99,Gaddi flock owner,HIRES,shepherd,wool,5,ser of raw wool per sheep per season,,,,cycle,Newell,37,1961,ai_checked,supported,"The owners pay the shepherds 5 ser of
+raw wool per sheep"
+cc521d79e7d,Gaddi flock owner,HIRES,shepherd,sheep,1,sheep per small flock (loeni) per season,,,,cycle,Newell,37,1961,ai_checked,supported,for a small flock (!oeni) per season.
+c9bee6c5f04,Harijan (Pangna),WORKS_AS,shepherd (Pangna),,,,,Pangna,,roads_and_wages,Pangna,53,1961,ai_checked,supported,The animals are set free in the mormng in the charge of some one from among the Harijans in the case of the shopkeepers
+ce788162280,Tandi,WORKS_AS,grazier (Tandi),,2,persons,,Tandi,Chenab,roads_and_wages,Tandi,58,1961,ai_checked,supported,There are two graziers. one of them is in the age group 15-34 and the other bein~ below 14 years of age.
+c78eccc7007,Tandi,HIRES,grazier (Tandi),,,,5|6|7|8|9,Tandi,Chenab,cycle,Tandi,65,1961,ai_checked,supported,"graziers and shepherds are em ..
+ployed by the villagers to tend their
+livestock during the day."
+c747a284a6b,Tandi,HIRES,shepherd (Tandi),,,,5|6|7|8|9,Tandi,Chenab,cycle,Tandi,65,1961,ai_checked,supported,"graziers and shepherds are em ..
+ployed by the villagers to tend their
+livestock during the day."
+c5caaf8bd25,Gujjar,WORKS_AS,shepherd,,,,,high pastures,,roads_and_wages,1881,167,1881,ai_partly,partly_supported,"for the word Gujar is used in the higher hills as practically synonymous with "" shepherd,"""
+c971d2d892c,Rajput,WORKS_AS,grazier,,,,,,,roads_and_wages,Rose,295,1911,ai_partly,partly_supported,"Occupational names are: Phakru, maker of combs for cleaning wool, Ghoru (royal) groom; Ghuletu, wrestler; Bhajretu,|| porter; Gdéhri, Alpine grazier"
+cbb4b118d0d,households (Brahmaur),WORKS_AS,shepherd (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Brahmaur,46,1961,ai_partly,partly_supported,"They are, however, at their best as shepherds"
+c8777835527,Churahi (Devi-Kothi),HIRES,grazier (Devi-Kothi),money,,20 to 25 naya paise per sheep or goat for the season,5|6|7|8|9|10,Devi-Kothi,Ravi,standing,Devi-Kothi,48,1961,ai_partly,partly_supported,The charges of the graziers range from twenty to twentyfive naya Paise for the period from May / June to October for a sheep or goat
+c5fe3a47c0b,Devi-Kothi,WORKS_AS,grazier (Devi-Kothi),,9,persons,,Devi-Kothi,Ravi,roads_and_wages,Devi-Kothi,55,1961,ai_partly,partly_supported,Nine persons were working whole time cattle graziers and shoe making.
+cb23e615226,landholders (Kanum),HIRES,fawal (Kanum),,,,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_partly,partly_supported,found it difficult to engage labourers to attend to their sheep and goats. Men and women now prefer to work on the roads rather than work as 'fawals'
+cfae7b7dca0,Rajput (Kanum),HIRES,fawal (Kanum),money,200,Rs per year,,Kanum,Sutlej,roads_and_wages,Kanum,51,1961,ai_partly,partly_supported,However: some of the 'fawals' get Rs. 200 in cash.
+c1c71fe8c0a,Gujjar (Brahmaur),WORKS_AS,shepherd (Brahmaur),,,,,Brahmaur,Ravi,roads_and_wages,Newell,22,1961,ai_partly,partly_supported,most likely Gujars or other visitors from outside the boundaries of the district concerned with looking after the Hocks
+cd4177fef7c,households,WORKS_AS,shepherd,,4,families,,Goshen,,roads_and_wages,Newell,36,1961,ai_partly,partly_supported,"four other families either were looking after sheep or accompanied people who ,rere looking after sheep."
+ca1c1c26a6d,households,WORKS_AS,grazier,,,,,Goshen,,roads_and_wages,Newell,40,1961,ai_partly,partly_supported,"Cattle grazing (with the [Lssistance of children), sweeping the courtyard,"
+cad4427dd68,households,WORKS_AS,grazier,,,,,Goshen,,roads_and_wages,Newell,40,1961,ai_partly,partly_supported,storing grass for the winter and feeding the cattle.
+c654add1e21,households,WORKS_AS,grazier,,,,,Goshen,,roads_and_wages,Newell,40,1961,ai_partly,partly_supported,Cutting gl'iLSS for the winter.
+c4f1b881d20,Gaddi,WORKS_AS,shepherd,sheep and goats,,,,,,roads_and_wages,Newell,9,1961,ai_partly,partly_supported,A small proportion of the Gaddis also look after sheep and goats
+cb30fcd2f5e,farmer (Pangna),WORKS_AS,shepherd (Pangna),,,,,Pangna,,roads_and_wages,Pangna,53,1961,ai_partly,partly_supported,"while the farmers spare their own persons generally, a small boyar an elderly invalid, to graze the cattle."
+c1c6c7dcbf8,Tandi,HIRES,fawal (Tandi),grain,1,patha buckwheat per sheep or goat for the season,5|6|7|8|9,Tandi,Chenab,roads_and_wages,Tandi,65,1961,ai_partly,partly_supported,"is paid
+by every household at the rate of one
+patha (approximately equivalent to
+one seer) of buckwheat per sheep or
+goat for the season."
+cc87188666f,Tandi,HIRES,fawal (Tandi),meals,1,"day's meals per household sending ten sheep or goats, according to the turn",5|6|7|8|9,Tandi,Chenab,roads_and_wages,Tandi,65,1961,ai_partly,partly_supported,"A household sending out ten sheep or goats gives a day's
+meals to him according to t he turn."

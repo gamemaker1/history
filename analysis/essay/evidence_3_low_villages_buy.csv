@@ -1,0 +1,55 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+cf7b5905e88,households (Batal),BUYS_FROM,Kinnaura (Batal),wool,,,,Batal,,trade_and_credit,Batal,46,1961,ai_checked,supported,Others purchase wool from the market or from the Kinnauras who ·stay near about the village in Seri in winter.
+cb16416beea,households (Bir),BUYS_FROM,Gaddi (Bir),sheep and goats,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"These are purchased from Gaddis who wander near about in winter, for 10 to 12 rupees."
+c72f6dae89d,households (Bir),BUYS_FROM,Gaddi (Bir),kids and lambs,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"Generally, these are purchm::ed as kids and lambs at Rs. 1 Q or 12 per head"
+ccca87a7d45,households (Bir),BUYS_FROM,Gaddi (Bir),sheep and goats,,Rs 10 to 12 per animal,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"purchased from Gaddis who wander near about in winter, for 10 to 12 rupees"
+c29dea5f019,households (Bir),SELLS_TO,buyer (Bir),goats,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,are also slOld at a handsome price of Rs. 40 to 50 per goat.
+c192ea987f5,households (Bir),BUYS_FROM,Bhangrotu,buffaloes,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"The villagers buy their buffaloes, cows and bulls from Bhangrotu and Suket at the time of Nalwari fair."
+cc47e7709a7,households (Bir),BUYS_FROM,Suket,buffaloes,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"The villagers buy their buffaloes, cows and bulls from Bhangrotu and Suket at the time of Nalwari fair."
+c5e64585c76,households (Bir),TRADES_AT,Nalwari fair,,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"The villagers buy their buffaloes, cows and bulls from Bhangrotu and Suket at the time of Nalwari fair."
+c199b1952b5,households (Bir),SELLS_TO,shopkeeper (Bir),cattle,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"They also sell their unwanted cattle to the traders who come from Rupar, Hoshiarpur and Haryana."
+cf9c403d9f2,households (Bir),BUYS_FROM,Seller (Bir),bullocks,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,"The villlagers go in for cheap bullocks, costing Rs. 200 to 300 a pair."
+c6c9d813a35,Gaddi (Bir),MIGRATES_TO,Nearby area,,,,,Bir,Beas,cycle,Bir,43,1961,ai_checked,supported,These are purchased from Gaddis who wander near about in winter
+c143525f60c,shopkeeper (Bir),BUYS_FROM,households (Bir),calves,,,,Bir,Beas,trade_and_credit,Bir,43,1961,ai_checked,supported,Mostly these traders purchase calves and weak bulls of hill breed at cheap price.
+ca02b6febf1,Chamar (Bir),SELLS_TO,Buffalo owner (Bir),desi shoes,2,pairs,,Bir,Beas,trade_and_credit,Bir,44,1961,ai_checked,supported,"In return, the ChamaI' has to give ,two pairs of desi shoes to the owner of the buffaloe."
+c9653090ed4,shepherd (Chauntra),GRAZES_AT,Chauntra,,,,,Chauntra,Beas,cycle,Chauntra,16,1961,ai_checked,supported,The land served as pasture for the Hocks of sheep and goats belonging to the shepherds who migrated from high hills.
+c5860ea27f0,Rajput (Rajana),SELLS_TO,Koli (Rajana),land,,,,Rajana,Yamuna,trade_and_credit,Rajana,49,1961,ai_checked,supported,"some Rajputs have ,sold their lands compared to other castes."
+cf98e18b03e,Koli (Rajana),BUYS_FROM,Rajput (Rajana),land,,,,Rajana,Yamuna,trade_and_credit,Rajana,49,1961,ai_checked,supported,More Kolis have been purchasing these lands.
+c0820b99b6b,mortgagee (Rajana),SELLS_TO,landholders (Rajana),mortgage deed and rights,,,,Rajana,Yamuna,trade_and_credit,Rajana,50,1961,ai_checked,supported,A mortgagee can sell the deed to another landlord alongwith the rights.
+cf3f95bfd91,Gaddi (Rajana),MIGRATES_TO,Rainka Tehsil,,,,3|4,Rajana,Yamuna,cycle,Rajana,70,1961,ai_checked,supported,Gaddis-In March-April gaddis visit Rainka
+cba6f7f044e,Gaddi (Rajana),MIGRATES_TO,Giri,,,,3|4,Rajana,Yamuna,cycle,Rajana,70,1961,ai_checked,supported,and camp fllong the Giri and Jogar streams.
+ca38803c52e,households (Shakrori),TRADES_AT,Rupar,buffaloes and cattle,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,villagers sometimes buy their buffaloes and cows from traders of Bilaspur and from fairs at Rupar.
+cb624fb5ee8,households (Shakrori),SELLS_TO,shopkeeper (Shakrori),agricultural produce,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,Formerly the peasant was obliged to sell his produce to his mahajan-a shopkeeper at Seoni.
+cc45b3767b4,households (Shakrori),BUYS_FROM,Suket,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+c46f481d34f,households (Shakrori),BUYS_FROM,Arki,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+cc96de657e8,households (Shakrori),BUYS_FROM,Nalagarh,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+c96b23d03a6,households (Shakrori),BUYS_FROM,Bilaspur,buffaloes,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+c6f4d18542e,households (Shakrori),SELLS_TO,Simla,agricultural produce,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"Now, with better yields and a better market, they sell their produce like peas and rice, maize and vegetables direct at Simla."
+c936ddf5243,households (Shakrori),BUYS_FROM,Kinnaura (Shakrori),sheep and goats,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"many of which have been bought from the Kinnauras that go by, for ten to twelve rupees."
+c5e135e5be1,Kinnaura (Shakrori),SELLS_TO,Shakrori,sheep and goats,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_checked,supported,"The goats and sheep sold by the Kinnauras are however, not of improved variety."
+c131ed2edf3,Kinnaura,MIGRATES_TO,Seoni,,,,,Seoni,Sutlej,cycle,Shakrori,76,1961,ai_checked,supported,"A Kinnaura family has been coming to
+Shakrori and Seoni for the last 24 years. They
+have their tremendous good-will in the village
+and for those, in whose dhogris they stay, and
+in whose fields they lodge for winter"
+c80a2485583,Kinnaura (Shakrori),MIGRATES_TO,Shakrori,,,,,Shakrori,Sutlej,cycle,Shakrori,76,1961,ai_checked,supported,"A Kinnaura family has been coming to
+Shakrori and Seoni for the last 24 years. They
+have their tremendous good-will in the village
+and for those, in whose dhogris they stay, and
+in whose fields they lodge for winter"
+cadc2c6f2a2,Kinnaura (Shakrori),CARRIES,woollens,,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,76,1961,ai_checked,supported,"and for those, in whose dhogris they stay, and
+in whose fields they lodge for winter, they invariably bring shawls, chuli"
+c949760786a,Kinnaura (Shakrori),CARRIES,chilgoza,,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,76,1961,ai_checked,supported,"and for those, in whose dhogris they stay, and
+in whose fields they lodge for winter, they invariably bring shawls, chuli, chilgoza"
+cc4cbf8fc98,shepherd (Chauntra),MIGRATES_TO,Chauntra,,,,,Chauntra,Beas,cycle,Chauntra,16,1961,ai_partly,partly_supported,The land served as pasture for the Hocks of sheep and goats belonging to the shepherds who migrated from high hills.
+c320b33b8ad,households (Chauntra),GRAZES_AT,Chauntra,,,,,Chauntra,Beas,cycle,Chauntra,47,1961,ai_partly,partly_supported,During the day cattle are let loose for grazing.
+cebe07c83bb,households (Rajana),SELLS_TO,non-right holders (Rajana),timber,,,,Rajana,Yamuna,trade_and_credit,Rajana,47,1961,ai_partly,partly_supported,They had been reported to sell timber to non-right holders not belonging to Rajana.
+c95125780eb,households (Rajana),CARRIES,timber,timber,,,,Rajana,Yamuna,trade_and_credit,Rajana,47,1961,ai_partly,partly_supported,Now they bring timber from lubbal forest about 15-20 miles away. This is available at market rates.
+c3288698df2,households (Rajana),BUYS_FROM,Gaddi (Rajana),goats,,,3|4,Rajana,Yamuna,trade_and_credit,Rajana,70,1961,ai_partly,partly_supported,"People from this \ illaqa go to their camps and buy goats, sheep anG rams."
+c701ac30902,households (Rajana),BUYS_FROM,Gaddi (Rajana),rambulents,50,Rs per pair,3|4,Rajana,Yamuna,trade_and_credit,Rajana,70,1961,ai_partly,partly_supported,A pair of rambulents is purchased for Rs. 50/- or more.
+ceda32c99bd,households (Shakrori),BUYS_FROM,shopkeeper (Shakrori),buffaloes and cattle,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_partly,partly_supported,villagers sometimes buy their buffaloes and cows from traders of Bilaspur and from fairs at Rupar.
+c5ba50ff67a,households (Shakrori),SELLS_TO,shopkeeper (Shakrori),grain,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_partly,partly_supported,The agents from Simla generally purchase the foodgrains at Rs. 3 to Rs. 5 per mauqd less than th(~ price at Simla.
+cb703439036,households (Shakrori),SELLS_TO,shopkeeper (Shakrori),grain,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,75,1961,ai_partly,partly_supported,some wandering shopkeepers from Simla or other places go to Shakrori and purchase the produce at local rates
+c5f3a3cae5e,weaver (Shakrori),BUYS_FROM,Kinnaura (Shakrori),dyed marino yarn,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,77,1961,ai_partly,partly_supported,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.
+c0714ec0f2d,weaver (Shakrori),BUYS_FROM,Seoni,dyed marino yarn,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,77,1961,ai_partly,partly_supported,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.
+cb3f174134f,weaver (Shakrori),BUYS_FROM,Simla,dyed marino yarn,,,,Shakrori,Sutlej,trade_and_credit,Shakrori,77,1961,ai_partly,partly_supported,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.

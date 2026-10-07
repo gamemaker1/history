@@ -1,0 +1,26 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c9630a266cc,Tibetan traders,MOVES_VIA,Baralaeha Pass,,,,,,,cycle,Rose Vol1,523,1919,ai_checked,supported,Arrived afc the summit of the Baralaeha Pass the Tibetans turned sharp
+cbfd996abcd,Tibetan traders,MOVES_VIA,Left bank of the Chandra,,,,,,,cycle,Rose Vol1,523,1919,ai_checked,supported,the Tibetans turned sharp to their left and followed down the left bank of the Chandra.
+c9ce6a312b4,Tibetan traders (Chergaon),MIGRATES_TO,Chergaon,,,,,Chergaon,Yamuna,cycle,Chergaon,66,1961,ai_checked,supported,"A few Tibetans from Kinnaur side visit
+the village during winter to sell their petty
+things like heeng, jeera, zayfal, sheelajeet
+and beads."
+cd21b640b7f,Lal Chand Negi,MIGRATES_TO,Tibet,,,,7|11,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_checked,supported,The migration begain in July and he was back in Kanum usually by November.
+c4ae4944be4,Well-to-do people (Kanum),BUYS_FROM,Gartok,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"The well-to-do people of the village used to go to Gartok in Tibet· and buy wool,"
+c9d281124e3,Well-to-do people (Kanum),BUYS_FROM,Gartok,pashm,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_checked,supported,"buy wool, pasham, jira, sheep and goat."
+cb27a8dc298,Tibetan traders (Chergaon),SELLS_TO,households (Chergaon),"heeng, jira, zayfal, sheelajeet and beads",,,,Chergaon,Yamuna,trade_and_credit,Chergaon,66,1961,ai_partly,partly_supported,"A few Tibetans from Kinnaur side visit
+the village during winter to sell their petty
+things like heeng, jeera, zayfal, sheelajeet
+and beads."
+c96fbd4a302,households (Kanum),BUYS_FROM,Tibet,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,"They brought wool, pasham, butter, ghee, goat, sheep and salt from Tibet"
+c9db234384f,households (Kanum),SELLS_TO,Tibet,grain,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,"in exchange of rice, cloth, utensils, wheat, phafra and jaggery."
+c4f6fc97d06,households (Kanum),BUYS_FROM,Tibet,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,131,1961,ai_partly,partly_supported,They depended on Tibet for their requirement of snperior quality of wool
+c04b1ebe308,Lal Chand Negi,SELLS_TO,Tibet,grain,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_partly,partly_supported,"Rice phafra atta, utensils, cloth, jaggery and chillies were exchanged with pasham, wool, butter, goat, sheep and salt."
+c3d4bcba862,Padam Ram,SELLS_TO,Tibet,trade goods,,,,Kanum,Sutlej,trade_and_credit,Kanum,132,1961,ai_partly,partly_supported,Padam Ram h as been carrying on the trade with Tibet for about 15 years.
+c1e0b590744,Well-to-do people (Kanum),TRADES_AT,Gartok,wool,,,,Kanum,Sutlej,trade_and_credit,Kanum,16,1961,ai_partly,partly_supported,"The well-to-do people of the village used to go to Gartok in Tibet and buy wool, pasham, jira, sheep and goat. This trade has now practically come to an end"
+c1729aa2ca3,households (Kanum),AFFECTED_BY,India-China dispute,,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_partly,partly_supported,"Prior to the India-China dispu~e Shipki-La Pass was open to all traders without passport, customs and without let or hindranct and some of the well-ta-do villagers enjoyed this facility but no more"
+c8adc300c0e,households (Kanum),AFFECTED_BY,India-China dispute,,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_partly,partly_supported,Prior to the India-China dispute Shipki-La Pass was open to all traders without passport
+c00352e7421,households (Kanum),BUYS_FROM,Tibet,pashm,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_partly,partly_supported,"Pasham, jeera, medicinal herbs, goats and sheep' were the main items which they imported from Tibet in exchange of cereals and in cash payment as well."
+cc9a7b407a6,households (Kanum),SELLS_TO,Tibet,grain,,,,Kanum,Sutlej,trade_and_credit,Kanum,51,1961,ai_partly,partly_supported,"Pasham, jeera, medicinal herbs, goats and sheep' were the main items which they imported from Tibet in exchange of cereals and in cash payment as well."
+c0ef9fdf583,wool,AFFECTED_BY,End of the Tibet trade,,,,,,,standing,Weaving,16,1961,ai_partly,partly_supported,The Pradesh had however a great set back after the trade with Tibet stopped. An acute shortage of wool and Pasham
+c7eeb33bf3d,shopkeeper,TRADES_AT,Tibet,wool,,,,,,trade_and_credit,Weaving,38,1961,ai_partly,partly_supported,In those days traders used to go from India to Tibet and bought wool at much cheaper rates.

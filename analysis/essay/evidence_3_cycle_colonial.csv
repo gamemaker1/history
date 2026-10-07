@@ -1,0 +1,35 @@
+claim_id,subject,predicate,object,resource,qty,unit,months,place,valley,conjuncture,source,pdf_page,layer_year,evidence,ai_verdict,quote
+c8044d15fb7,Gujjar,GRAZES_AT,high pastures,,,,,Kangra,Beas,cycle,1881,267,1881,ai_checked,supported,During the hot weather the Gujars usually drive their herds to the upper range
+c4b251725fd,Gaddi (Brahmaur),MIGRATES_TO,Brahmaur,,,,,Brahmaur,Ravi,cycle,1881,275,1881,ai_checked,supported,"returning with their flocks grow the summer or rain crop at ""Barmor,"" as the province"
+c113791088a,Gaddi,GRAZES_AT,Kangra,,,,,Kangra,Beas,cycle,1881,275,1881,ai_checked,supported,"which they feed half the year (the winter months) in the valleys of Kangra,"
+cc1c5108cca,Gaddi,MIGRATES_TO,Chamba State,,,,,,Ravi,cycle,1881,275,1881,ai_checked,supported,and for the other half drive across the range into the territories of Chamba.
+c8f65a5ec8f,Gaddi,MOVES_VIA,Dhauladhar,,,,,,,cycle,Rose,293,1911,ai_checked,supported,they have spread southward across the Dhaula Dhdr into the northern part of Kangra Proper
+cba130766d1,Gaddi,MIGRATES_TO,Kangra,,,,10|11,,Beas,cycle,Rose,297,1911,ai_checked,supported,The yearly exodus to Kangra takes place in October and November
+cfcf2fe11f0,Gaddi,MIGRATES_TO,Kangra,,,,10|11,,Beas,cycle,Rose,297,1911,ai_checked,supported,"The yearly exodus to Kangra takes place in October and November, and the return journey in April and May"
+ca348d50d89,Gaddi,GRAZES_AT,low hills,,,,,,,princely_pastures,Rose,297,1911,ai_checked,supported,"and the winters in the low hills bor-
+dering on the plains."
+c4c34a42344,Gaddi,GRAZES_AT,low hills,,,,,,,cycle,Rose,297,1911,ai_checked,supported,the summers being spent in the higher mountains ot Péngiand Lihul; and the winters in the low hills
+caa36ef8de0,Gaddi,GRAZES_AT,Lahaul,,,,,,Chenab,princely_pastures,Rose,297,1911,ai_checked,supported,"With them they go far afield, the summers being spent in the higher mountains ot Péngiand Lihul"
+cd42cf82702,Gaddi,GRAZES_AT,Lahaul,,,,,,Chenab,cycle,Rose,297,1911,ai_checked,supported,the summers being spent in the higher mountains ot Péngiand Lihul; and the winters in the low hills
+cfd4e2d4e03,Gaddi,MIGRATES_TO,Brahmaur,,,,,,Ravi,cycle,Rose,297,1911,ai_checked,supported,returning in spring to cut the summer crop in Brahmaur
+cd5e47449dd,Gaddi,MIGRATES_TO,Brahmaur,,,,4|5,,Ravi,cycle,Rose,297,1911,ai_checked,supported,and the return journey in April and May.
+c4518642e9e,Gaddi,GRAZES_AT,Pangi,,,,,,Chenab,princely_pastures,Rose,297,1911,ai_checked,supported,"With them they go far afield, the summers being spent in the higher mountains ot Péngiand Lihul"
+c752a6b5845,Gaddi,GRAZES_AT,Pangi,,,,,,Chenab,cycle,Rose,297,1911,ai_checked,supported,the summers being spent in the higher mountains ot Péngiand Lihul; and the winters in the low hills
+cbbae0c07bb,Gujjar,GRAZES_AT,high pastures,,,,,Kangra,Beas,cycle,Rose,346,1911,ai_checked,supported,"During the hot weather the Gujars usually drive their herds to the upper range, where the buffaioes rejoice in the rich grass which the rains bring forth"
+cffc5fae963,sheep,GRAZES_AT,Phati Runi,,,,,Phati Runi,,cycle,Rose Vol1,523,1919,ai_checked,supported,the trade sheep marched to and grazed on the plain near Phati Runi (split rock)
+c66400b4beb,Kinnaura,MOVES_VIA,Parbati valley,,,,,,,cycle,Rose Vol1,523,1919,ai_checked,supported,"They went up the valley, which is now blocked by the Shigri glacier ; across the head of the Parbati valley"
+c9630a266cc,Tibetan traders,MOVES_VIA,Baralaeha Pass,,,,,,,cycle,Rose Vol1,523,1919,ai_checked,supported,Arrived afc the summit of the Baralaeha Pass the Tibetans turned sharp
+cbfd996abcd,Tibetan traders,MOVES_VIA,Left bank of the Chandra,,,,,,,cycle,Rose Vol1,523,1919,ai_checked,supported,the Tibetans turned sharp to their left and followed down the left bank of the Chandra.
+cb0af46bda9,households,MIGRATES_TO,low hills,,,,,,,cycle,1931,142,1931,ai_checked,supported,the hillmen of the lofty ranges leave their homes with their sheep and cattle to spend the winter in the valleys and plains
+ca8ea7ad080,Kangra,MIGRATES_TO,Other districts,,,,,,Beas,princely_pastures,1881,78,1881,ai_partly,partly_supported,we find each of these four districts in order giving population to all others.
+c793576fd00,households,MIGRATES_TO,low hills,,,,,,,princely_pastures,1881,98,1881,ai_partly,partly_supported,a considerable population was counted over again who had already been enumerated during the winter months in the lower valleys of Kulu and Kangra
+c4f399114a4,households,GRAZES_AT,Minor ranges,,,,,,,princely_pastures,1881,98,1881,ai_partly,partly_supported,pasturing their flocks and collecting wood and other forest produce in the minor ranges
+c464418a127,Churahi,MIGRATES_TO,Pangi,,,,,Chaurah,Chenab,cycle,Rose,250,1911,ai_partly,partly_supported,"like the Gaddis, they visit Pangi in summer"
+c05ab679e58,Churahi,MIGRATES_TO,low hills,,,,,Chaurah,,cycle,Rose,250,1911,ai_partly,partly_supported,they visit Pangi in summer and the low hills in winter
+ce8689a2603,Foreign herder (Malana),GRAZES_AT,Malana,,,,,Malana,,princely_pastures,Rose Vol3,279,1914,ai_partly,partly_supported,Foreigners who graze their flocks with the Malana flock* can understand aDd speak the Malina language.
+c346d5e0afb,Kumhar,GRAZES_AT,Balu Forest,,,,,Balu forest,,cycle,Rose Vol1,201,1919,ai_partly,partly_supported,in the morning a Kumhar came to graze his sheep in the forest
+c42a302bbc5,cattle,GRAZES_AT,pasture,,,,,,,cycle,Rose Vol1,249,1919,ai_partly,partly_supported,when the herds are sent to the summer grazing grounds
+c0ea64cf83f,households,MIGRATES_TO,low hills,,,,,,,princely_pastures,Rose Vol1,40,1919,ai_partly,partly_supported,migration being almost confined to the neighbouring mountains and low hills
+cc0c04bff76,caravan trader,GRAZES_AT,Kulu,,,,,Kulu,Beas,princely_pastures,Rose Vol1,522,1919,ai_partly,partly_supported,before a caravan of laden sheep could get any grazing
+ccb5e20b57c,Kinnaura,MOVES_VIA,Old mountain sheep route,,,,,,,princely_pastures,Rose Vol1,523,1919,ai_partly,partly_supported,"along the old mountain sheep route, which is still known, though seldom used;"
+cf8196f4972,households,MIGRATES_TO,low hills,,,,,,,cycle,1931,142,1931,ai_partly,partly_supported,the hillmen of the lofty ranges leave their homes with their sheep and cattle to spend the winter in the valleys and plains of the neighbouring districts.
