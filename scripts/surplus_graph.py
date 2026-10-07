@@ -28,20 +28,31 @@ Outputs in analysis/surplus/:
   relations.csv          relation x conjuncture matrix (claims), for reading change
   surplus.html           one Cytoscape.js panel per conjuncture, same layout in each
   surplus_<conj>.cyjs    each panel for Cytoscape Desktop
+  flows.png              static figure for the essay: one panel per conjuncture, payers on the
+                         left, receivers on the right, bands as wide as the number of claims
 
 Usage (from the project folder):
   .venv/bin/python scripts/surplus_graph.py
   .venv/bin/python scripts/surplus_graph.py --evidence ai     # only AI-checked or signed-off claims
 
-Needs pandas and networkx. Based on the Programming Historian lesson
+Needs pandas, networkx and matplotlib. Based on the Programming Historian lesson
 "Exploring and Analyzing Network Data with Python" (degree, in- and out-flows).
 """
 
 import argparse
 import json
 
+import textwrap
+
+import matplotlib
 import networkx as nx
 import pandas as pd
+from matplotlib.lines import Line2D
+from matplotlib.path import Path
+from matplotlib.patches import PathPatch
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt  # noqa: E402
 
 from corpus import ANALYSIS, ROOT
 
@@ -170,6 +181,107 @@ def write_html(f, pos, top):
     (OUT / "surplus.html").write_text(html, encoding="utf-8")
 
 
+FIG_ORDER = ["two_sovereigns", "princely_pastures", "forest_department", "roads_and_wages", "trade_and_credit"]
+FIG_KIND = {  # colour and line style of a band, by the kind of flow (same scheme as surplus.html)
+    "fees, dues, rights and permits": ("#eb6834", "-"),
+    "interest": ("#2a78d6", "-"),
+    "labour": ("#1baf7a", "-"),
+    "produce sold": ("#8a8983", (0, (3, 2))),
+}
+SURFACE, INK, INK2, RULE = "#fcfcfb", "#0b0b0b", "#52514e", "#dcdbd6"
+
+
+def fig_kind(kind):
+    if kind in ("interest", "labour", "produce sold"):
+        return kind
+    return "fees, dues, rights and permits"
+
+
+def draw_panel(ax, f, conj, top, wrap_at=24):
+    """One bipartite flow panel: givers on the left, receivers on the right.
+
+    Bands leave and enter each node at slightly different heights, ordered so that
+    they do not cross at the node (as in a Sankey diagram)."""
+    g = f[f.conjuncture == conj].copy()
+    g["fk"] = g.kind.map(fig_kind)
+    pairs = (g.groupby(["giver_label", "receiver_label"])
+              .agg(claims=("claim_id", "size"), fk=("fk", lambda k: k.value_counts().index[0]))
+              .reset_index().sort_values("claims", ascending=False))
+    shown = pairs.head(top)
+    ax.set_axis_off()
+    ax.set_xlim(-0.85, 1.95)
+    note = f"{len(g)} claims" + (f"; the {len(shown)} most frequent of {len(pairs)} relations shown"
+                                 if len(pairs) > len(shown) else "")
+    ax.annotate(TITLES[conj], xy=(0, 1), xycoords="axes fraction", xytext=(0, 13), textcoords="offset points",
+                fontsize=9, fontweight="bold", color=INK, va="bottom")
+    ax.annotate(note, xy=(0, 1), xycoords="axes fraction", xytext=(0, 2), textcoords="offset points",
+                fontsize=7, color=INK2, va="bottom")
+    if shown.empty:
+        return
+    givers = shown.groupby("giver_label").claims.sum().sort_values(ascending=False)
+    receivers = shown.groupby("receiver_label").claims.sum().sort_values(ascending=False)
+    n = max(len(givers), len(receivers))
+
+    def ys(labels):
+        off = (n - len(labels)) / 2
+        return {lab: n - 1 - (off + i) for i, lab in enumerate(labels)}
+    gy, ry = ys(list(givers.index)), ys(list(receivers.index))
+    ax.set_ylim(-0.7, n - 0.3)
+    biggest = shown.claims.max()
+    width = {r.Index: 1.0 + 5.5 * (r.claims / biggest) ** 0.6 for r in shown.itertuples()}
+
+    def spread(node_y, others, key):
+        """Offsets of the bands at one node, ordered by the height of their other end."""
+        out = {}
+        for node, grp in shown.groupby(key):
+            grp = grp.assign(other=grp[others].map(node_y[1])).sort_values("other", ascending=False)
+            k = len(grp)
+            span = min(0.42, 0.12 * (k - 1))
+            for i, idx in enumerate(grp.index):
+                out[idx] = node_y[0][node] + (span / 2 - (span * i / (k - 1) if k > 1 else 0))
+        return out
+    start = spread((gy, ry), "receiver_label", "giver_label")
+    end = spread((ry, gy), "giver_label", "receiver_label")
+    for r in shown.sort_values("claims").itertuples():
+        colour, style = FIG_KIND[r.fk]
+        y0, y1 = start[r.Index], end[r.Index]
+        path = Path([(0.0, y0), (0.5, y0), (0.5, y1), (1.0, y1)],
+                    [Path.MOVETO, Path.CURVE4, Path.CURVE4, Path.CURVE4])
+        ax.add_patch(PathPatch(path, facecolor="none", edgecolor=colour, lw=width[r.Index], alpha=0.85,
+                               linestyle=style, capstyle="butt"))
+
+    def wrap(t):
+        return "\n".join(textwrap.wrap(t, wrap_at))
+    for lab, y in gy.items():
+        ax.plot([-0.012, -0.012], [y - 0.24, y + 0.24], color=INK2, lw=2.2, solid_capstyle="butt", zorder=3)
+        ax.text(-0.05, y, f"{wrap(lab)}  {givers[lab]}", ha="right", va="center", fontsize=7.5, color=INK)
+    for lab, y in ry.items():
+        ax.plot([1.012, 1.012], [y - 0.24, y + 0.24], color=INK, lw=2.6, solid_capstyle="butt", zorder=3)
+        ax.text(1.05, y, f"{receivers[lab]}  {wrap(lab)}", ha="left", va="center", fontsize=8,
+                color=INK, fontweight="bold")
+
+
+def write_png(f):
+    fig = plt.figure(figsize=(7.2, 9.0), facecolor=SURFACE)
+    grid = fig.add_gridspec(3, 2, height_ratios=[0.5, 1.0, 1.3], hspace=0.22, wspace=0.12,
+                            left=0.01, right=0.99, top=0.905, bottom=0.01)
+    slots = {"two_sovereigns": grid[0, 0], "roads_and_wages": grid[0, 1], "princely_pastures": grid[1, 0],
+             "forest_department": grid[1, 1], "trade_and_credit": grid[2, :]}
+    tops = {"two_sovereigns": 4, "princely_pastures": 9, "forest_department": 8, "roads_and_wages": 6,
+            "trade_and_credit": 12}
+    for conj in FIG_ORDER:
+        ax = fig.add_subplot(slots[conj])
+        ax.set_facecolor(SURFACE)
+        draw_panel(ax, f, conj, tops[conj], wrap_at=24 if conj == "trade_and_credit" else 14)
+    handles = [Line2D([0], [0], color=c, lw=3, linestyle=st) for c, st in FIG_KIND.values()]
+    fig.legend(handles, list(FIG_KIND), loc="upper left", ncol=4, frameon=False, fontsize=8,
+               bbox_to_anchor=(0.005, 0.998), handlelength=2.4, columnspacing=1.6)
+    fig.text(0.012, 0.962, "Left: who gives up product, money or labour.   Right: who receives it.   "
+             "Numbers count claims; band width follows them.", fontsize=7.5, color=INK2)
+    fig.savefig(OUT / "flows.png", dpi=220, facecolor=SURFACE)
+    plt.close(fig)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--evidence", choices=["all", "auto", "ai", "human"], default="all")
@@ -185,6 +297,7 @@ def main():
     r = relations(f)
     r.to_csv(OUT / "relations.csv")
     write_html(f, shared_layout(f, args.top), args.top)
+    write_png(f)
 
     print(f"{len(f)} flow claims (evidence: {args.evidence}) written to {OUT.relative_to(ROOT)}/")
     print("  by conjuncture: " + ", ".join(f"{k} {v}" for k, v in f.conjuncture.value_counts().items()))

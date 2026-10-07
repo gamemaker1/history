@@ -5,53 +5,53 @@ cycle,rajput,Rajput,1,5,0,0,labour
 cycle,mortgagee,mortgagee,1,2,0,0,"dues, revenue or begar"
 cycle,gaddi,Gaddi,1,2,0,0,"dues, revenue or begar"
 cycle,gaddi_flock_owner,Gaddi flock owner,1,2,0,0,labour
-cycle,mahajan,Mahajan,1,1,0,0,"dues, revenue or begar"
-cycle,grazier,grazier,1,1,1,1,fee or tax
 cycle,brahman,Brahman,1,1,0,0,"dues, revenue or begar"
-cycle,rigri,rigri,0,0,1,5,
-cycle,pohal,pohal,0,0,1,5,
+cycle,grazier,grazier,1,1,1,1,fee or tax
+cycle,mahajan,Mahajan,1,1,0,0,"dues, revenue or begar"
 cycle,shepherd,shepherd,0,0,2,3,
-cycle,kutsa_rantauch,Kutsa-rantauch,0,0,1,1,
-cycle,totari,Totari,0,0,1,2,
 cycle,mortgagor,mortgagor,0,0,1,2,
+cycle,totari,Totari,0,0,1,2,
+cycle,rigri,rigri,0,0,1,5,
 cycle,livestock_caretaker,livestock caretaker,0,0,1,1,
+cycle,kutsa_rantauch,Kutsa-rantauch,0,0,1,1,
 cycle,malundi,malundi,0,0,1,1,
 cycle,zamindar,landholders,0,0,1,2,
+cycle,pohal,pohal,0,0,1,5,
 cycle,farmer,farmer,0,0,2,2,
 forest_department,forest_department,Forest Department,6,35,0,0,"dues, revenue or begar; fee or tax; permit"
 forest_department,kangra_rajah,Kangra rajah,1,1,0,0,permit
 forest_department,shepherd,shepherd,0,0,1,14,
-forest_department,non_right_holders,non-right holders,0,0,1,1,
+forest_department,households,households,0,0,1,7,
 forest_department,herdsmen_s_client,herdsmen's client,0,0,1,1,
 forest_department,grazier,grazier,0,0,1,10,
 forest_department,mobile_herder,mobile herder,0,0,1,2,
-forest_department,households,households,0,0,1,7,
 forest_department,gaddi,Gaddi,0,0,1,1,
+forest_department,non_right_holders,non-right holders,0,0,1,1,
 princely_pastures,raja_chamba,Raja of Chamba,4,11,0,0,"dues, revenue or begar; fee or tax; price of a right"
 princely_pastures,fee_contractor,fee contractor,1,4,1,2,"dues, revenue or begar; fee or tax"
 princely_pastures,bushahr_ruler,Bushahr ruler,2,3,0,0,"dues, revenue or begar"
 princely_pastures,gaddi,Gaddi,2,2,1,3,fee or tax; labour
-princely_pastures,zamindar,landholders,2,2,1,2,"dues, revenue or begar"
 princely_pastures,kangra_rajah,Kangra rajah,1,2,0,0,"dues, revenue or begar"
+princely_pastures,zamindar,landholders,2,2,1,2,"dues, revenue or begar"
 princely_pastures,shepherd,shepherd,1,1,12,17,"dues, revenue or begar"
 princely_pastures,local_village_communities,local village communities,1,1,0,0,"dues, revenue or begar"
+princely_pastures,hanwajiri,hanwajiri,1,1,0,0,"dues, revenue or begar"
+princely_pastures,rajput,Rajput,1,1,0,0,labour
 princely_pastures,hp_government,Himachal Pradesh Government,1,1,0,0,"dues, revenue or begar"
 princely_pastures,pallari,pallari,1,1,0,0,"dues, revenue or begar"
-princely_pastures,rajput,Rajput,1,1,0,0,labour
-princely_pastures,malundi,malundi,1,1,0,0,fee or tax
 princely_pastures,lambardar,lambardar,1,1,0,0,fee or tax
-princely_pastures,hanwajiri,hanwajiri,1,1,0,0,"dues, revenue or begar"
-princely_pastures,moneylender,moneylender,1,1,0,0,"dues, revenue or begar"
 princely_pastures,villages_at_the_bottom_of_dhans,villages at the bottom of dhans,1,1,0,0,fee or tax
-princely_pastures,local_ruler,local ruler,1,1,0,0,"dues, revenue or begar"
-princely_pastures,drinkar,drinkar,1,1,0,0,fee or tax
+princely_pastures,moneylender,moneylender,1,1,0,0,"dues, revenue or begar"
 princely_pastures,neighbouring_villages,neighbouring villages,1,1,0,0,"dues, revenue or begar"
+princely_pastures,malundi,malundi,1,1,0,0,fee or tax
+princely_pastures,drinkar,drinkar,1,1,0,0,fee or tax
+princely_pastures,local_ruler,local ruler,1,1,0,0,"dues, revenue or begar"
 princely_pastures,agricultural_labourer,agricultural labourer,0,0,1,1,
-princely_pastures,batwal,Batwal,0,0,1,1,
-princely_pastures,gh_ra_tenant,Ghéra tenant,0,0,1,1,
-princely_pastures,rajana,Rajana,0,0,1,1,
 princely_pastures,mudydri_tenant,Mudydri tenant,0,0,1,1,
+princely_pastures,batwal,Batwal,0,0,1,1,
+princely_pastures,rajana,Rajana,0,0,1,1,
 princely_pastures,households,households,0,0,4,7,
+princely_pastures,gh_ra_tenant,Ghéra tenant,0,0,1,1,
 princely_pastures,low_caste_people,low-caste people,0,0,1,1,
 roads_and_wages,rajput,Rajput,1,3,0,0,labour
 roads_and_wages,tandi,Tandi,1,2,0,0,labour
@@ -62,136 +62,136 @@ roads_and_wages,fawal,fawal,0,0,5,9,
 standing,hp_government,Himachal Pradesh Government,1,11,0,0,"dues, revenue or begar; fee or tax"
 standing,households,households,5,6,5,18,labour
 standing,moneylender,moneylender,3,4,0,0,"dues, revenue or begar; labour"
+standing,brahman,Brahman,1,2,0,0,"dues, revenue or begar"
 standing,forest_contractor,forest contractor,1,2,0,0,labour
 standing,shopkeeper,shopkeeper,1,2,0,0,"dues, revenue or begar"
-standing,brahman,Brahman,1,2,0,0,"dues, revenue or begar"
-standing,mortgagee,mortgagee,1,1,0,0,"dues, revenue or begar"
-standing,panchayat,panchayat,1,1,0,0,labour
 standing,thakur_lila_singh,Thakur Lila Singh,1,1,0,0,"dues, revenue or begar"
-standing,rich_family,rich family,1,1,0,0,labour
-standing,jubbal_devta,Jubbal devta,1,1,1,1,fee or tax
-standing,lambardar,lambardar,1,1,0,0,fee or tax
 standing,churahi,Churahi,1,1,0,0,labour
-standing,zamindar,landholders,1,1,0,0,labour
-standing,bara_bangahal_authority,Bara Bangahal authority,1,1,0,0,"dues, revenue or begar"
+standing,jubbal_devta,Jubbal devta,1,1,1,1,fee or tax
+standing,mortgagee,mortgagee,1,1,0,0,"dues, revenue or begar"
+standing,lambardar,lambardar,1,1,0,0,fee or tax
 standing,lahuli_ruler,Lahuli ruler,1,1,0,0,"dues, revenue or begar"
-standing,pohal,pohal,0,0,1,1,
+standing,rich_family,rich family,1,1,0,0,labour
+standing,panchayat,panchayat,1,1,0,0,labour
+standing,bara_bangahal_authority,Bara Bangahal authority,1,1,0,0,"dues, revenue or begar"
+standing,zamindar,landholders,1,1,0,0,labour
 standing,shepherd,shepherd,0,0,1,1,
-standing,agricultural_labourer,agricultural labourer,0,0,3,3,
-standing,scheduled_castes,Scheduled castes,0,0,1,1,
-standing,gaddi,Gaddi,0,0,1,1,
 standing,grinder,grinder,0,0,1,2,
-standing,mortgagor,mortgagor,0,0,1,1,
-standing,rajana,Rajana,0,0,1,1,
-standing,gujjar,Gujjar,0,0,1,2,
 standing,chamar,Chamar,0,0,1,1,
-standing,weaver,weaver,0,0,1,1,
-standing,gardener,Gardener,0,0,1,1,
+standing,mortgagor,mortgagor,0,0,1,1,
+standing,agricultural_labourer,agricultural labourer,0,0,3,3,
+standing,gaddi,Gaddi,0,0,1,1,
+standing,gujjar,Gujjar,0,0,1,2,
+standing,rajana,Rajana,0,0,1,1,
 standing,grazier,grazier,0,0,2,2,
+standing,gardener,Gardener,0,0,1,1,
+standing,scheduled_castes,Scheduled castes,0,0,1,1,
+standing,weaver,weaver,0,0,1,1,
+standing,pohal,pohal,0,0,1,1,
 trade_and_credit,moneylender,moneylender,7,53,0,0,interest; produce sold
 trade_and_credit,households,households,28,47,37,132,interest; produce sold
 trade_and_credit,shopkeeper,shopkeeper,6,29,3,8,interest; produce sold
 trade_and_credit,cooperative,cooperative society,4,23,1,1,interest
 trade_and_credit,zamindar,landholders,4,7,1,1,interest; produce sold
-trade_and_credit,buyer,buyer,5,6,0,0,produce sold
 trade_and_credit,wealthy_villagers,wealthy villagers,1,6,0,0,interest
 trade_and_credit,hp_government,Himachal Pradesh Government,3,6,0,0,interest
+trade_and_credit,buyer,buyer,5,6,0,0,produce sold
 trade_and_credit,rajput,Rajput,3,5,2,3,interest; produce sold
-trade_and_credit,co_operative_society_menthapal,Co-operative Society Menthapal,1,4,0,0,interest
-trade_and_credit,gujjar,Gujjar,3,4,4,15,produce sold
-trade_and_credit,friends_and_relatives,friends and relatives,1,4,0,0,interest
 trade_and_credit,tibet,Tibet,3,4,1,3,produce sold
-trade_and_credit,padam_ram,Padam Ram,1,3,1,1,interest
+trade_and_credit,friends_and_relatives,friends and relatives,1,4,0,0,interest
+trade_and_credit,gujjar,Gujjar,3,4,4,15,produce sold
+trade_and_credit,co_operative_society_menthapal,Co-operative Society Menthapal,1,4,0,0,interest
 trade_and_credit,well_to_do_farmers,well-to-do farmers,1,3,0,0,interest
+trade_and_credit,padam_ram,Padam Ram,1,3,1,1,interest
 trade_and_credit,weaver,weaver,3,3,1,1,produce sold
-trade_and_credit,mortgagee,mortgagee,1,2,1,1,interest
-trade_and_credit,simla,Simla,1,2,1,1,produce sold
 trade_and_credit,well_to_do_people,Well-to-do people,1,2,0,0,produce sold
-trade_and_credit,behra_co_operative_society,Behra Co-operative Society,1,2,0,0,interest
-trade_and_credit,dabla_temple,Dabla temple,1,2,0,0,interest
+trade_and_credit,mortgagee,mortgagee,1,2,1,1,interest
 trade_and_credit,koli,Koli,1,2,2,4,produce sold
-trade_and_credit,bride,bride,2,2,0,0,interest
-trade_and_credit,rich_family,rich family,2,2,0,0,interest
-trade_and_credit,brahman,Brahman,2,2,0,0,interest; produce sold
 trade_and_credit,peasant,peasant,1,2,0,0,interest
-trade_and_credit,dagshai,Dagshai,1,1,0,0,produce sold
-trade_and_credit,kalka,Kalka,1,1,0,0,produce sold
-trade_and_credit,gowari,Gowari,1,1,0,0,produce sold
-trade_and_credit,low_hills,low hills,1,1,0,0,produce sold
-trade_and_credit,open_market,open market,1,1,0,0,produce sold
-trade_and_credit,lavi_fair,Lavi fair,1,1,0,0,produce sold
-trade_and_credit,mahajan,Mahajan,1,1,0,0,produce sold
-trade_and_credit,satyas,Satyas,1,1,0,0,produce sold
-trade_and_credit,itinerant_coin_collector,itinerant coin collector,1,1,0,0,produce sold
-trade_and_credit,shakrori,Shakrori,1,1,0,0,produce sold
-trade_and_credit,buffalo_owner,Buffalo owner,1,1,0,0,produce sold
-trade_and_credit,kalath,Kalath,1,1,1,1,produce sold
-trade_and_credit,town,Town,1,1,0,0,produce sold
-trade_and_credit,nearby_places,nearby places,1,1,0,0,produce sold
-trade_and_credit,spiti_men,Spiti men,1,1,0,0,produce sold
-trade_and_credit,market,Market,1,1,2,2,produce sold
-trade_and_credit,nalag,Nalag,1,1,0,0,produce sold
-trade_and_credit,bhot,Bhot,1,1,1,2,produce sold
-trade_and_credit,kala_amb,Kala Amb,1,1,0,0,produce sold
-trade_and_credit,informal_lender,Informal lender,1,1,0,0,interest
-trade_and_credit,indebted_households,Indebted households,1,1,0,0,interest
-trade_and_credit,tisa,Tisa,1,1,0,0,produce sold
-trade_and_credit,shawl_weaver,shawl weaver,1,1,0,0,produce sold
-trade_and_credit,himachal_pradesh_state_co_operative_bank,Himachal Pradesh State Co-operative Bank,1,1,0,0,interest
-trade_and_credit,chamba_town,Chamba,1,1,1,1,produce sold
-trade_and_credit,non_right_holders,non-right holders,1,1,0,0,produce sold
-trade_and_credit,halwai,Halwai,1,1,0,0,produce sold
-trade_and_credit,scheduled_castes,Scheduled castes,1,1,1,1,produce sold
-trade_and_credit,neighboring_village,neighboring village,1,1,1,1,produce sold
-trade_and_credit,muleteer,muleteer,1,1,0,0,produce sold
+trade_and_credit,dabla_temple,Dabla temple,1,2,0,0,interest
+trade_and_credit,brahman,Brahman,2,2,0,0,interest; produce sold
+trade_and_credit,rich_family,rich family,2,2,0,0,interest
+trade_and_credit,bride,bride,2,2,0,0,interest
+trade_and_credit,behra_co_operative_society,Behra Co-operative Society,1,2,0,0,interest
+trade_and_credit,simla,Simla,1,2,1,1,produce sold
 trade_and_credit,middleman,middleman,1,1,0,0,interest
-trade_and_credit,shilaghrat,Shilaghrat,1,1,0,0,produce sold
-trade_and_credit,government_official,government official,1,1,0,0,produce sold
+trade_and_credit,buffalo_owner,Buffalo owner,1,1,0,0,produce sold
+trade_and_credit,nalag,Nalag,1,1,0,0,produce sold
+trade_and_credit,itinerant_coin_collector,itinerant coin collector,1,1,0,0,produce sold
+trade_and_credit,informal_lender,Informal lender,1,1,0,0,interest
+trade_and_credit,himachal_pradesh_state_co_operative_bank,Himachal Pradesh State Co-operative Bank,1,1,0,0,interest
+trade_and_credit,spiti_men,Spiti men,1,1,0,0,produce sold
+trade_and_credit,lavi_fair,Lavi fair,1,1,0,0,produce sold
+trade_and_credit,non_right_holders,non-right holders,1,1,0,0,produce sold
+trade_and_credit,shawl_weaver,shawl weaver,1,1,0,0,produce sold
+trade_and_credit,kalath,Kalath,1,1,1,1,produce sold
+trade_and_credit,kala_amb,Kala Amb,1,1,0,0,produce sold
+trade_and_credit,low_hills,low hills,1,1,0,0,produce sold
+trade_and_credit,scheduled_castes,Scheduled castes,1,1,1,1,produce sold
+trade_and_credit,satyas,Satyas,1,1,0,0,produce sold
 trade_and_credit,sirmur,Sirmur,1,1,1,1,produce sold
+trade_and_credit,muleteer,muleteer,1,1,0,0,produce sold
+trade_and_credit,halwai,Halwai,1,1,0,0,produce sold
+trade_and_credit,chamba_town,Chamba,1,1,1,1,produce sold
+trade_and_credit,market,Market,1,1,2,2,produce sold
+trade_and_credit,dagshai,Dagshai,1,1,0,0,produce sold
+trade_and_credit,nearby_places,nearby places,1,1,0,0,produce sold
+trade_and_credit,gowari,Gowari,1,1,0,0,produce sold
+trade_and_credit,shilaghrat,Shilaghrat,1,1,0,0,produce sold
+trade_and_credit,bhot,Bhot,1,1,1,2,produce sold
+trade_and_credit,shakrori,Shakrori,1,1,0,0,produce sold
+trade_and_credit,town,Town,1,1,0,0,produce sold
+trade_and_credit,open_market,open market,1,1,0,0,produce sold
+trade_and_credit,government_official,government official,1,1,0,0,produce sold
+trade_and_credit,kalka,Kalka,1,1,0,0,produce sold
+trade_and_credit,tisa,Tisa,1,1,0,0,produce sold
+trade_and_credit,indebted_households,Indebted households,1,1,0,0,interest
+trade_and_credit,neighboring_village,neighboring village,1,1,1,1,produce sold
+trade_and_credit,mahajan,Mahajan,1,1,0,0,produce sold
+trade_and_credit,tibetan_traders,Tibetan traders,0,0,1,1,
+trade_and_credit,lahula,Lahula,0,0,1,1,
+trade_and_credit,gaddi,Gaddi,0,0,3,7,
+trade_and_credit,gartok,Gartok,0,0,1,2,
+trade_and_credit,lal_chand_negi,Lal Chand Negi,0,0,1,1,
+trade_and_credit,debtor,debtor,0,0,3,5,
+trade_and_credit,nalwari_fair,Nalwari fair,0,0,1,1,
+trade_and_credit,nalagarh,Nalagarh,0,0,1,1,
+trade_and_credit,kinnaura,Kinnaura,0,0,3,6,
 trade_and_credit,shepherd,shepherd,0,0,1,2,
-trade_and_credit,tenant,tenant,0,0,3,4,
-trade_and_credit,kumhar,Kumhar,0,0,1,1,
-trade_and_credit,nearby_village,Nearby village,0,0,1,1,
-trade_and_credit,ramdasi,Ramdasi,0,0,2,2,
-trade_and_credit,bhangrotu,Bhangrotu,0,0,1,1,
-trade_and_credit,dehar,Dehar,0,0,1,1,
+trade_and_credit,kangra,Kangra,0,0,1,1,
+trade_and_credit,bodh,Bodh,0,0,2,3,
+trade_and_credit,gertse,Gertse,0,0,1,2,
+trade_and_credit,society_members,society members,0,0,2,5,
+trade_and_credit,bridegroom,bridegroom,0,0,1,1,
+trade_and_credit,seoni,Seoni,0,0,1,1,
 trade_and_credit,kot,Kot,0,0,1,1,
 trade_and_credit,dodra_kawar,Dodra-Kawar,0,0,1,1,
-trade_and_credit,buffalo_rearing_family,Buffalo-rearing family,0,0,1,1,
-trade_and_credit,suket,Suket,0,0,1,2,
 trade_and_credit,arki,Arki,0,0,1,1,
-trade_and_credit,nalagarh,Nalagarh,0,0,1,1,
-trade_and_credit,gertse,Gertse,0,0,1,2,
-trade_and_credit,namsha,Namsha,0,0,1,1,
-trade_and_credit,bridegroom,bridegroom,0,0,1,1,
-trade_and_credit,seller,Seller,0,0,1,1,
-trade_and_credit,bride_s_father,bride's father,0,0,1,1,
-trade_and_credit,bodh,Bodh,0,0,2,3,
-trade_and_credit,nalwari_fair,Nalwari fair,0,0,1,1,
+trade_and_credit,bhangrotu,Bhangrotu,0,0,1,1,
 trade_and_credit,chamar,Chamar,0,0,2,3,
-trade_and_credit,lohar,Lohar,0,0,1,1,
-trade_and_credit,cooperative_society_member,cooperative society member,0,0,1,3,
 trade_and_credit,kanum,Kanum,0,0,1,1,
-trade_and_credit,gaddi,Gaddi,0,0,3,7,
+trade_and_credit,lohar,Lohar,0,0,1,1,
+trade_and_credit,kumhar,Kumhar,0,0,1,1,
+trade_and_credit,buffalo_rearing_family,Buffalo-rearing family,0,0,1,1,
+trade_and_credit,seller,Seller,0,0,1,1,
+trade_and_credit,dehar,Dehar,0,0,1,1,
+trade_and_credit,chaurah,Chaurah,0,0,1,1,
 trade_and_credit,rampur,Rampur,0,0,1,3,
-trade_and_credit,seoni,Seoni,0,0,1,1,
-trade_and_credit,society_members,society members,0,0,2,5,
+trade_and_credit,pangwal,Pangwal,0,0,1,1,
+trade_and_credit,man,man,0,0,1,1,
+trade_and_credit,tenant,tenant,0,0,3,4,
 trade_and_credit,lahaul,Lahaul,0,0,1,1,
-trade_and_credit,kinnaura,Kinnaura,0,0,3,6,
+trade_and_credit,sarkaghat,Sarkaghat,0,0,1,1,
+trade_and_credit,suket,Suket,0,0,1,2,
+trade_and_credit,cattle_trader,cattle trader,0,0,1,1,
+trade_and_credit,cooperative_society_member,cooperative society member,0,0,1,3,
+trade_and_credit,ramdasi,Ramdasi,0,0,2,2,
+trade_and_credit,namsha,Namsha,0,0,1,1,
+trade_and_credit,bride_s_father,bride's father,0,0,1,1,
 trade_and_credit,bilaspur,Bilaspur,0,0,1,1,
 trade_and_credit,harijan,Harijan,0,0,1,1,
-trade_and_credit,pangwal,Pangwal,0,0,1,1,
-trade_and_credit,kangra,Kangra,0,0,1,1,
-trade_and_credit,chaurah,Chaurah,0,0,1,1,
-trade_and_credit,debtor,debtor,0,0,3,5,
-trade_and_credit,gartok,Gartok,0,0,1,2,
-trade_and_credit,tibetan_traders,Tibetan traders,0,0,1,1,
-trade_and_credit,sarkaghat,Sarkaghat,0,0,1,1,
-trade_and_credit,cattle_trader,cattle trader,0,0,1,1,
+trade_and_credit,nearby_village,Nearby village,0,0,1,1,
 trade_and_credit,farmer,farmer,0,0,3,3,
-trade_and_credit,lahula,Lahula,0,0,1,1,
-trade_and_credit,man,man,0,0,1,1,
-trade_and_credit,lal_chand_negi,Lal Chand Negi,0,0,1,1,
 two_sovereigns,raja_chamba,Raja of Chamba,1,1,0,0,"dues, revenue or begar"
 two_sovereigns,british_kangra,British administration in Kangra,1,1,0,0,"dues, revenue or begar"
 two_sovereigns,gaddi,Gaddi,0,0,2,2,

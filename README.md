@@ -2,7 +2,7 @@
 
 **Seasonal herding in the Himachal hills, 1881–1961: a computational history.**
 Course project for *Introduction to History* (HS3.201), IIIT Hyderabad, Monsoon 2026.
-Vishak Kashyap, Vedant Kulkarni, Himangi Sahoo.
+Vishak Kashyap K, Vedant Kulkarni, Himangi Sahoo.
 
 We asked how the seasonal movement of flocks between high summer pastures and
 low winter grazing shaped life in the Himachal hills between 1881 and 1961,

@@ -31,7 +31,7 @@
 \definecolor{ink}{HTML}{2B2B2B}
 \definecolor{muted}{HTML}{6B6B6B}
 \hypersetup{colorlinks=true, linkcolor=maroon, citecolor=maroon, urlcolor=maroon,
-  pdftitle={The Mountain Year and Its Owners}, pdfauthor={Vishak Kashyap, Vedant Kulkarni, Himangi Sahoo}}
+  pdftitle={The Mountain Year and Its Owners}, pdfauthor={Vishak Kashyap K, Vedant Kulkarni, Himangi Sahoo}}
 
 % --- section headings -----------------------------------------------------------
 \titleformat{\section}{\normalfont\sffamily\Large\bfseries\color{maroon}}
@@ -87,17 +87,13 @@
 
 \begingroup\setlength{\parindent}{0pt}
 \vspace*{0.2cm}
-{\sffamily\small\bfseries\color{maroon}\MakeUppercase{A computational history}}\par
-\vspace{0.3cm}
 {\fontsize{27}{31}\selectfont\bfseries\color{ink} The Mountain Year and Its Owners\par}
 \vspace{0.25cm}
 {\Large\itshape\color{maroon!85!black} Seasonal herding in the Himachal hills, 1881--1961\par}
 \vspace{0.45cm}
 {\color{maroon}\rule{\linewidth}{1.2pt}}\par
 \vspace{0.25cm}
-{\sffamily\large\color{ink}Vishak Kashyap \quad\textperiodcentered\quad Vedant Kulkarni \quad\textperiodcentered\quad Himangi Sahoo\par}
-\vspace{0.1cm}
-{\sffamily\small\color{muted}Submitted 4 November 2026 \quad\textbar\quad Sources reproduced in the companion file \texttt{sources.pdf}\par}
+{\sffamily\large\color{ink}Vishak Kashyap K \quad\textperiodcentered\quad Vedant Kulkarni \quad\textperiodcentered\quad Himangi Sahoo\par}
 \vspace{0.55cm}
 \endgroup
 
@@ -109,17 +105,6 @@
 {\sffamily\footnotesize\color{muted}\textbf{\color{maroon}Keywords}\; transhumance \textperiodcentered{} Gaddis \textperiodcentered{} Kinnaur \textperiodcentered{} Census of India 1961 \textperiodcentered{} Annales \textperiodcentered{} historical materialism \textperiodcentered{} knowledge graph \textperiodcentered{} large language models\par}
 \end{tcolorbox}
 
-\vspace{0.3cm}
-\begin{center}
-\begin{tikzpicture}[every node/.style={font=\sffamily\footnotesize, align=center, text=ink}]
-  \foreach \x/\n/\l in {0/1{,}964/sourced claims, 3.3/115/citations of\\ primary pages, 6.6/24/village surveys, 9.9/80 years/1881 to 1961, 13.2/USD 1.16/spent on AI}{
-    \node[font=\sffamily\Large\bfseries, text=maroon] at (\x,0.35) {\n};
-    \node at (\x,-0.35) {\l};
-  }
-  \foreach \x in {1.65,4.95,8.25,11.55}{\draw[maroon!30] (\x,-0.65) -- (\x,0.65);}
-\end{tikzpicture}
-\end{center}
-\vspace{0.2cm}
 \end{minipage}
 \vspace{0.6cm}}]
 
@@ -275,8 +260,8 @@ If ownership changed little, the claim on the herders' product changed a great d
 
 \begin{figure*}[p]
 \centering
-\includegraphics[width=\textwidth,height=0.86\textheight,keepaspectratio]{surplus/surplus.png}
-\caption{Who takes a share of whose product, by conjuncture. Arrows run from payer to receiver; orange: fees, taxes, dues, begar, permits and rights; blue: interest; green: labour; dotted: produce sold. 408 flow claims from the evidence graph \an{A14}.}
+\includegraphics[width=0.92\textwidth]{surplus/flows.png}
+\caption{Who takes a share of whose product, by conjuncture. Each band runs from the party who gives up product, money or labour (left) to the party who receives it (right); numbers count claims in the evidence graph, and band width follows them. The main receiver changes with the period: the raja and his fee contractor, then the Forest Department, then the moneylender and the shopkeeper. Where a period has many relations, only the most frequent are drawn; all 408 flow claims are in \texttt{analysis/surplus/flows.csv} \an{A14}.}
 \label{fig:flows}
 \end{figure*}
 

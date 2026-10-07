@@ -404,7 +404,7 @@ AI-read figures carry `read_by` in `data/flocks.csv` and are marked
   - SELLS_TO and BUYS_FROM: produce goes from seller to buyer.
 
   Village scoping is removed, so periods can be compared. Each conjuncture gets one Cytoscape.js panel, with every actor in the same place in every panel. *Programming Historian:* "Exploring and Analyzing Network Data with Python".
-- **Outputs.** In `analysis/surplus/`: `flows.csv`, `actors.csv` (in-flows per actor and period), `relations.csv` (relation by period), `surplus.html` and one `.cyjs` per panel.
+- **Outputs.** In `analysis/surplus/`: `flows.csv`, `actors.csv` (in-flows per actor and period), `relations.csv` (relation by period), `surplus.html` and one `.cyjs` per panel, and `flows.png`, the essay's figure: one panel per period with payers on the left and receivers on the right, bands as wide as the number of claims, fanned out at each node so they do not cross there. The essay first used a screenshot of `surplus.html`, whose labels were unreadable at print size; `flows.png` is drawn directly from `flows.csv` with matplotlib, showing the most frequent relations in each period (all 408 are in `flows.csv`).
 - **Result** (408 flow claims). The main receiver changes with the period:
   - **Two sovereigns:** the Raja of Chamba and British Kangra, each paid by the Gaddis (Barnes, 1881 p. 275).
   - **The rulers' pastures, to about 1950:** the Raja of Chamba (11 claims, from 4 kinds of payer: fees, dues and the sale of the fee right), his fee contractor, and the Bushahr ruler.
