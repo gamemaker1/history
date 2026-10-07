@@ -1,20 +1,16 @@
 subject,predicate,object,source,pdf_page
-Gaddi (Brahmaur),LOCATED_IN,Brahmaur,Newell,9
 Gaddi (Brahmaur),TRADES_AT,Brahmaur,Newell,36
+Gaddi (Brahmaur),MIGRATES_TO,Brahmaur,1881,275
 Gaddi (Brahmaur),LOCATED_ON,Ravi,Newell,9
 Gaddi (Brahmaur),LOCATED_ON,Budhal,Newell,9
-Gaddi (Brahmaur),AFFECTED_BY,Loss of Gaddi privileges and personal contact under the rajah,Newell,16
-Gaddi (Brahmaur),SELLS_TO,Gaddi (Brahmaur),Newell,36
-Gaddi (Brahmaur),WORKS_AS,temporary labourer,Newell,101
-Gaddi (Brahmaur),WORKS_AS,government employee,Newell,101
+Gaddi (Brahmaur),AFFECTED_BY,Loss of Gaddi privileges under the Raja,Newell,16
+Gaddi (Brahmaur),WORKS_AS,government employee (Brahmaur),Newell,101
 Gaddi (Brahmaur),GRAZES_AT,Kangra,Brahmaur,12
 Gaddi (Brahmaur),MIGRATES_TO,Kangra,Brahmaur,87
 Gaddi (Brahmaur),GRAZES_AT,Suket,Brahmaur,12
 Gaddi (Brahmaur),GRAZES_AT,Mandi,Brahmaur,12
-Gaddi (Brahmaur),GRAZES_AT,Chamba State,Brahmaur,12
-Gaddi (Brahmaur),GRAZES_AT,Lahaul,Brahmaur,12
 Gaddi (Brahmaur),OWNS,cattle,Brahmaur,23
-Gaddi (Brahmaur),WORKS_AS,agriculturist,Brahmaur,23
+Gaddi (Brahmaur),WORKS_AS,agriculturist (Brahmaur),Brahmaur,23
 Gaddi (Brahmaur),CARRIES,load,Brahmaur,79
 Gaddi (Brahmaur),AFFECTED_BY,Road construction,Brahmaur,87
 Brahmaur,HAS_POPULATION,shepherd (Brahmaur),Newell,22
@@ -39,104 +35,91 @@ Brahmaur,HAS_POPULATION,goats,Newell,38
 Brahmaur,HAS_POPULATION,goats,Newell,38
 Brahmaur,HAS_POPULATION,goats,Newell,38
 Brahmaur,HAS_POPULATION,goats,Newell,38
-Brahmaur,AFFECTED_BY,Road construction,Brahmaur,8
 Brahmaur,WORKS_AS,road labourer (Brahmaur),Brahmaur,45
 Brahmaur,WORKS_AS,road labourer (Brahmaur),Brahmaur,45
 Brahmaur,OWNS,sheep and goats,Brahmaur,46
 Brahmaur,OWNS,cattle,Brahmaur,53
 Brahmaur,OWNS,cattle,Brahmaur,53
-Brahmaur,OWNS,buffaloes,Brahmaur,53
-Brahmaur,LOCATED_ON,Ravi,Brahmaur,11
-Gaddi,WORKS_AS,shepherd,Newell,9
 Gaddi,COLLECTS_FEE_FROM,shepherd,Newell,18
-Gaddi,WORKS_AS,shepherd,Newell,36
 Gaddi,MIGRATES_TO,Kashmir,Newell,9
-Gaddi,HOLDS_RIGHTS_OVER,ban,Newell,18
-Gaddi,MIGRATES_TO,high pastures,Newell,18
-Gaddi,GRAZES_AT,high pastures,Newell,18
-Gaddi,GRAZES_AT,high pastures,Newell,18
-Gaddi,MIGRATES_TO,high pastures,Newell,36
-Gaddi,HOLDS_RIGHTS_OVER,pastureland,Newell,18
+Gaddi,HOLDS_RIGHTS_OVER,ban (grazing run),Newell,18
 Gaddi,MOVES_VIA,kandi dhans,Newell,18
+Gaddi,LOCATED_IN,Kangra,Rose,293
 Gaddi,GRAZES_AT,Bara Bangahal,Newell,18
 Gaddi,GRAZES_AT,Bara Bangahal,Newell,18
 Gaddi,GRAZES_AT,Bara Bangahal,Newell,36
+Gaddi,GRAZES_AT,high pastures,Newell,18
+Gaddi,GRAZES_AT,high pastures,Newell,18
+Gaddi,MIGRATES_TO,high pastures,Newell,36
 Gaddi,MIGRATES_TO,Lahaul,Newell,36
 Gaddi,PAYS_DUES_TO,Lahuli ruler,Newell,18
 Gaddi,MOVES_VIA,Kugti pass,Newell,18
-Gaddi,HAS_POPULATION,households,Newell,28
-Gaddi,HAS_POPULATION,households,Newell,28
-Gaddi,HAS_POPULATION,households,Newell,28
-Gaddi,HAS_POPULATION,households,Newell,28
 Gaddi,AFFECTED_BY,Scheduled Tribe listing,Newell,28
-Gaddi,MIGRATES_TO,many different places,Newell,35
+Gaddi,MIGRATES_TO,Dispersal destinations,Newell,35
 Gaddi,MIGRATES_TO,Chamba,Newell,36
 Gaddi,MOVES_VIA,Chamba,Newell,36
-Gaddi,MOVES_VIA,Dhauladhar,Newell,36
 Gaddi,MIGRATES_TO,Dharamsala,Newell,36
-Gaddi,SAYS,sheep and goats,Brahmaur,111
-Gaddi,MIGRATES_TO,Brahmaur,Newell,36
+Gaddi,OWNS,sheep,Newell,36
 Gaddi,GRAZES_AT,Brahmaur,Newell,36
-Gaddi,MIGRATES_TO,Brahmaur,Newell,36
 Gaddi,GRAZES_AT,Brahmaur,Newell,36
 Gaddi,MOVES_VIA,Dalhousie,Newell,36
-Gaddi,SELLS_TO,Kangra traders,Newell,36
-Gaddi,MIGRATES_TO,Gaddi home villages,Newell,37
-Gaddi,SELLS_TO,buyers,Newell,37
-Gaddi,HIRES,low caste people,Newell,45
-Gaddi,GRAZES_AT,Duncho,Newell,86
-Gaddi,GRAZES_AT,certain areas,Newell,105
-Gaddi,HAS_POPULATION,persons,Mahasu,26
-Gaddi,GRAZES_AT,pasture lands in Arki tehsil,Mahasu,334
-Gaddi,GRAZES_AT,pasture lands listed in Table 17.6,Mahasu,337
-Gaddi,CARRIES,sickle,Brahmaur,77
+Gaddi,SELLS_TO,shopkeeper,Newell,36
+Gaddi,MIGRATES_TO,Gaddi home village,Newell,37
+Gaddi,SELLS_TO,buyer,Newell,37
+Gaddi,HIRES,low-caste people,Newell,45
+Gaddi,CARRIES,Sickle,Brahmaur,77
 Gaddi,MIGRATES_TO,Pangi,Kupha,113
 Gaddi,GRAZES_AT,Pangi,Rose,297
-Gaddi,HOLDS_RIGHTS_OVER,Pangi dhars,Kupha,113
-Gaddi,MOVES_VIA,passes into Pangi,Kupha,113
-Gaddi,GRAZES_AT,demarcated forests in Pangi,Kupha,113
-Gaddi,OWNS,land,1881,275
+Gaddi,GRAZES_AT,Pangi,Rose,297
+Gaddi,MOVES_VIA,Pangi approach passes,Kupha,113
+Gaddi,MIGRATES_TO,Chamba State,1881,275
 Gaddi,PAYS_DUES_TO,British administration in Kangra,1881,275
+Gaddi,OWNS,wool,1881,275
 shepherd,MOVES_VIA,Gadaren,Newell,9
 shepherd,MIGRATES_TO,Kangra,Newell,9
 shepherd,MOVES_VIA,Kangra,Newell,19
-shepherd,PAYS_DUES_TO,Kangra rajah's agent (hanwajiri),Newell,18
+shepherd,PAYS_DUES_TO,hanwajiri,Newell,18
 shepherd,PAYS_DUES_TO,Kangra rajah,Newell,18
 shepherd,PAYS_DUES_TO,Kangra rajah,Newell,18
 shepherd,PAYS_DUES_TO,neighbouring villages,Newell,18
 shepherd,PAYS_DUES_TO,Himachal Pradesh Government,Newell,18
 shepherd,PAYS_DUES_TO,fee contractor,Newell,18
 shepherd,PAYS_DUES_TO,fee contractor,Newell,18
-shepherd,PAYS_DUES_TO,local rajah,Newell,18
-shepherd,PAYS_DUES_TO,local villages,Newell,18
+shepherd,PAYS_DUES_TO,Bara Bangahal authority,Newell,18
+shepherd,PAYS_DUES_TO,local ruler,Newell,18
+shepherd,PAYS_DUES_TO,local village communities,Newell,18
 shepherd,PAYS_DUES_TO,Raja of Chamba,Newell,18
 shepherd,HOLDS_RIGHTS_OVER,grazing rights,Newell,19
 shepherd,HOLDS_RIGHTS_OVER,grazing permit,Newell,37
-shepherd,MOVES_VIA,passes between Brahmaur and Lahaul,Newell,90
+shepherd,MOVES_VIA,Brahmaur–Lahaul pass,Newell,90
 shepherd,MIGRATES_TO,high pastures,Weaving,36
 shepherd,MIGRATES_TO,low hills,Weaving,36
 shepherd,CARRIES,wool,Weaving,36
+shepherd,CARRIES,sheep and goats,Rose,296
+shepherd,SELLS_TO,shepherd,Newell,37
+Gadaren,LOCATED_IN,Dhauladhar,Rose,293
+Kangra,HAS_POPULATION,households,1881,38
+Kangra,HAS_POPULATION,households,1881,98
+Kangra,MIGRATES_TO,Other districts,1881,78
 households (Brahmaur),GRAZES_AT,Punjab,Newell,10
-households (Brahmaur),MIGRATES_TO,elsewhere for work,Newell,22
+households (Brahmaur),MIGRATES_TO,other work destinations,Newell,22
 households (Brahmaur),HOLDS_RIGHTS_OVER,common land,Newell,32
-households (Brahmaur),HOLDS_RIGHTS_OVER,government land,Newell,32
-households (Brahmaur),HOLDS_RIGHTS_OVER,government land,Newell,32
-households (Brahmaur),GRAZES_AT,waste land below Brahmaur,Newell,32
-households (Brahmaur),AFFECTED_BY,land settlement reclassification,Newell,32
-households (Brahmaur),GRAZES_AT,government grazing grounds,Newell,32
+households (Brahmaur),HOLDS_RIGHTS_OVER,land,Newell,32
+households (Brahmaur),HOLDS_RIGHTS_OVER,land,Newell,32
+households (Brahmaur),GRAZES_AT,Waste land below Brahmaur,Newell,32
+households (Brahmaur),AFFECTED_BY,Land settlement reclassification,Newell,32
 households (Brahmaur),SELLS_TO,low hills,Brahmaur,59
-households (Brahmaur),HIRES,livestock caretaker,Newell,35
+households (Brahmaur),HIRES,livestock caretaker (Brahmaur),Newell,35
 households (Brahmaur),OWNS,grato,Newell,102
-households (Brahmaur),CARRIES,earthenware vessels,Brahmaur,35
+households (Brahmaur),CARRIES,Earthenware vessel,Brahmaur,35
 households (Brahmaur),MIGRATES_TO,Kangra,Brahmaur,36
 households (Brahmaur),TRADES_AT,Chamba,Brahmaur,36
-households (Brahmaur),WORKS_AS,odd-job worker,Brahmaur,45
-households (Brahmaur),MIGRATES_TO,outside Brahmaur,Brahmaur,45
+households (Brahmaur),WORKS_AS,Odd-job worker (Brahmaur),Brahmaur,45
+households (Brahmaur),MIGRATES_TO,Outside Brahmaur,Brahmaur,45
 households (Brahmaur),WORKS_AS,shepherd (Brahmaur),Brahmaur,46
 households (Brahmaur),CARRIES,cattle,Brahmaur,54
-households (Brahmaur),AFFECTED_BY,long trek,Brahmaur,54
-households (Brahmaur),GRAZES_AT,fringes of the fields,Brahmaur,54
-households (Brahmaur),CARRIES,poultry,Brahmaur,54
+households (Brahmaur),AFFECTED_BY,Long trek,Brahmaur,54
+households (Brahmaur),CARRIES,poultry bird,Brahmaur,54
 households (Brahmaur),HIRES,pohal (Brahmaur),Brahmaur,55
 households (Brahmaur),HIRES,pohal (Brahmaur),Brahmaur,55
 households (Brahmaur),HIRES,pohal (Brahmaur),Brahmaur,55
@@ -144,30 +127,26 @@ households (Brahmaur),HIRES,pohal (Brahmaur),Brahmaur,55
 households (Brahmaur),HIRES,pohal (Brahmaur),Brahmaur,55
 households (Brahmaur),HIRES,pohal (Brahmaur),Brahmaur,55
 households (Brahmaur),HIRES,malundi (Brahmaur),Brahmaur,55
-households (Brahmaur),MIGRATES_TO,Brahmaur,Brahmaur,55
+households (Brahmaur),OWNS,sheep,Brahmaur,56
+households (Brahmaur),OWNS,sheep,Brahmaur,59
+households (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,61
+households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),Brahmaur,63
+households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),Brahmaur,65
+households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),Brahmaur,65
+households (Brahmaur),WORKS_AS,domestic servant (Brahmaur),Brahmaur,65
+households (Brahmaur),WORKS_AS,Dhan pounder (Brahmaur),Brahmaur,63
 households (Brahmaur),MIGRATES_TO,Brahmaur,Brahmaur,65
 households (Brahmaur),MIGRATES_TO,Brahmaur,Brahmaur,73
 households (Brahmaur),MIGRATES_TO,Brahmaur,Brahmaur,84
-households (Brahmaur),OWNS,sheep,Brahmaur,56
-households (Brahmaur),OWNS,sheep,Brahmaur,59
-households (Brahmaur),SELLS_TO,households (Brahmaur),Brahmaur,59
-households (Brahmaur),WORKS_AS,domestic servant,Brahmaur,63
-households (Brahmaur),WORKS_AS,domestic servant,Brahmaur,65
-households (Brahmaur),WORKS_AS,domestic servant,Brahmaur,65
-households (Brahmaur),WORKS_AS,domestic servant,Brahmaur,65
-households (Brahmaur),WORKS_AS,dhan pounder,Brahmaur,63
 households (Brahmaur),WORKS_AS,road labourer (Brahmaur),Brahmaur,65
 households (Brahmaur),WORKS_AS,road labourer (Brahmaur),Brahmaur,45
-households (Brahmaur),AFFECTED_BY,paddy husking mills,Brahmaur,65
-households (Brahmaur),MOVES_VIA,Sui fair,Brahmaur,73
-households (Brahmaur),WORKS_AS,wool spinner,Brahmaur,85
-households (Brahmaur),OWNS,hand-loom,Brahmaur,85
+households (Brahmaur),AFFECTED_BY,Paddy husking mill,Brahmaur,65
+households (Brahmaur),WORKS_AS,wool spinner (Brahmaur),Brahmaur,85
+households (Brahmaur),OWNS,Hand loom,Brahmaur,85
 Raja of Chamba,HOLDS_RIGHTS_OVER,Chamba State,Newell,12
-Raja of Chamba,AFFECTED_BY,Removal of the rajah's administrative power,Newell,15
+Raja of Chamba,AFFECTED_BY,Removal of the Raja of Chamba's administrative power,Newell,15
 Raja of Chamba,HOLDS_RIGHTS_OVER,land,Newell,16
 Raja of Chamba,HOLDS_RIGHTS_OVER,land,Newell,19
-Raja of Chamba,HOLDS_RIGHTS_OVER,pasture,Newell,17
-Raja of Chamba,HOLDS_RIGHTS_OVER,pasture,Newell,18
 Raja of Chamba,AUCTIONS_RIGHT_TO,Gaddi,Newell,18
 Raja of Chamba,AUCTIONS_RIGHT_TO,fee contractor,Newell,18
 Raja of Chamba,AUCTIONS_RIGHT_TO,fee contractor,Newell,18
@@ -175,22 +154,20 @@ Raja of Chamba,HOLDS_RIGHTS_OVER,grazing rights,Newell,19
 Raja of Chamba,HOLDS_RIGHTS_OVER,grazing rights,Newell,18
 Raja of Chamba,COLLECTS_FEE_FROM,shepherd,Newell,37
 Raja of Chamba,HOLDS_RIGHTS_OVER,right to collect grazing fees,Newell,37
-Chamba State,AFFECTED_BY,Incorporation of Chamba into Himachal Pradesh,Newell,15
+Chamba State,AFFECTED_BY,Incorporation of Chamba into Himachal Pradesh (1951),Newell,15
 Chamba State,HOLDS_RIGHTS_OVER,land,Newell,101
 Sipi (Brahmaur),OWNS,land,Newell,12
+Sipi (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,23
 Sipi (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,23
 Sipi (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
 Sipi (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
 Sipi (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
-Sipi (Brahmaur),HAS_POPULATION,persons,Brahmaur,23
 Sipi (Brahmaur),OWNS,sheep and goats,Brahmaur,23
 Sipi (Brahmaur),OWNS,sheep and goats,Brahmaur,54
 Sipi (Brahmaur),OWNS,sheep and goats,Brahmaur,54
 land,AFFECTED_BY,Formation of Himachal Pradesh (1948),Newell,19
 forest guard,HOLDS_RIGHTS_OVER,wood,Newell,15
-Chamba Commissioner of Forests,HOLDS_RIGHTS_OVER,forest,Newell,15
 Forest Department,HOLDS_RIGHTS_OVER,grazing permit,Newell,15
-Forest Department,SAYS,grazing permit,Brahmaur,55
 Forest Department,HOLDS_RIGHTS_OVER,right to collect grazing fees,Newell,19
 Forest Department,COLLECTS_FEE_FROM,shepherd,Newell,19
 Forest Department,COLLECTS_FEE_FROM,shepherd,Newell,19
@@ -203,42 +180,45 @@ Forest Department,COLLECTS_FEE_FROM,shepherd,Newell,37
 Forest Department,COLLECTS_FEE_FROM,Gaddi,Newell,19
 Forest Department,COLLECTS_FEE_FROM,shepherd (Brahmaur),Brahmaur,55
 Forest Department,COLLECTS_FEE_FROM,shepherd (Brahmaur),Brahmaur,55
-Forest Department,COLLECTS_FEE_FROM,mobile herders,Mahasu,334
-Forest Department,COLLECTS_FEE_FROM,mobile herders,Mahasu,334
+Forest Department,COLLECTS_FEE_FROM,mobile herder,Mahasu,334
+Forest Department,COLLECTS_FEE_FROM,mobile herder,Mahasu,334
 Forest Department,HOLDS_RIGHTS_OVER,pasture,Brahmaur,55
 Forest Department,CLOSES,pasture,Kupha,136
 Forest Department,ISSUES_PERMIT_TO,grazier (Devi-Kothi),Devi-Kothi,47
 Forest Department,ISSUES_PERMIT_TO,grazier (Devi-Kothi),Devi-Kothi,47
-Forest Department,ISSUES_PERMIT_TO,households (Devi-Kothi),Devi-Kothi,48
 Forest Department,COLLECTS_FEE_FROM,households (Devi-Kothi),Devi-Kothi,48
-Forest Department,COLLECTS_FEE_FROM,households (Devi-Kothi),Devi-Kothi,49
-Forest Department,COLLECTS_FEE_FROM,non-right holders,Devi-Kothi,48
+Forest Department,COLLECTS_FEE_FROM,non-right holders (Devi-Kothi),Devi-Kothi,48
 Forest Department,COLLECTS_FEE_FROM,households (Batal),Batal,21
 Forest Department,ISSUES_PERMIT_TO,households (Chaupal),Chaupal,20
 Forest Department,ISSUES_PERMIT_TO,households (Chaupal),Chaupal,20
 Forest Department,ISSUES_PERMIT_TO,households (Chaupal),Chaupal,20
 Forest Department,CLOSES,land,Moginand,45
 Forest Department,ISSUES_PERMIT_TO,shepherd (Chitrari),Chitrari,23
-grazing permit,AFFECTED_BY,seasonal snowfall and pass closure,Kupha,111
-grazing permit,AFFECTED_BY,seasonal snow disappearance and pass reopening,Kupha,111
-grazing permit,AFFECTED_BY,persistent snow cover,Kupha,111
+grazing permit,AFFECTED_BY,Seasonal snowfall and pass closure,Kupha,111
+grazing permit,AFFECTED_BY,Seasonal snow disappearance and pass reopening,Kupha,111
+grazing permit,AFFECTED_BY,Persistent snow cover,Kupha,111
 sheep and goats,AFFECTED_BY,Forest Department permit system,Newell,37
 sheep and goats,AFFECTED_BY,Sheep disease (about 1958-59),Newell,37
+sheep and goats,MIGRATES_TO,Suni,Kanum,10
+sheep and goats,MIGRATES_TO,Tata Pani,Kanum,10
+sheep and goats,MIGRATES_TO,Karsog,Kanum,10
 sheep and goats,MOVES_VIA,Rampur,Kanum,10
 sheep and goats,MIGRATES_TO,Arki,Kanum,10
 sheep and goats,MIGRATES_TO,Sirmur,Kanum,10
-sheep and goats,GRAZES_AT,nearby pastures,Chaupal,49
-cultivator,HOLDS_RIGHTS_OVER,wastes near the holding,Newell,16
+sheep and goats,GRAZES_AT,pasture,Chaupal,49
+sheep and goats,GRAZES_AT,Pangi,Kupha,113
+sheep and goats,GRAZES_AT,forest,Kupha,113
+sheep and goats,AFFECTED_BY,Annual animal sacrifices to evil-disposed Ihds,Rose Vol3,24
+cultivator,HOLDS_RIGHTS_OVER,waste land,Newell,16
+cultivator,HOLDS_RIGHTS_OVER,grazing rights,Newell,32
 households,HOLDS_RIGHTS_OVER,pasture,Newell,17
+households,HOLDS_RIGHTS_OVER,pasture,Newell,37
 households,HOLDS_RIGHTS_OVER,grass,Newell,17
-households,WORKS_AS,pastoralist,Newell,28
 households,OWNS,cattle,Newell,35
-households,GRAZES_AT,dry-stalk fields,Newell,35
+households,GRAZES_AT,land,Newell,35
+households,OWNS,land,Devi-Kothi,48
 households,HAS_POPULATION,households,Newell,36
-households,HAS_POPULATION,households,Newell,36
-households,HAS_POPULATION,households,Newell,36
-households,MIGRATES_TO,away from Goshen,Newell,36
-households,WORKS_AS,agricultural labourer,Newell,36
+households,MIGRATES_TO,Winter destinations from Goshen,Newell,36
 households,WORKS_AS,beggar,Newell,36
 households,WORKS_AS,railway labourer,Newell,36
 households,MIGRATES_TO,Kangra,Newell,36
@@ -250,14 +230,12 @@ households,WORKS_AS,grazier,Newell,40
 households,WORKS_AS,grazier,Newell,40
 households,WORKS_AS,spinner and weaver,Weaving,14
 households,OWNS,sheep,Weaving,16
-households,OWNS,sheep,Weaving,35
 households,WORKS_AS,wool spinner,Weaving,16
 households,WORKS_AS,rice pounder,Brahmaur,65
 households,WORKS_AS,rice pounder,Brahmaur,65
-households,MIGRATES_TO,lower valley,Brahmaur,109
-households,MIGRATES_TO,Kangra Plains,Brahmaur,109
-households,OWNS,land,Devi-Kothi,48
-households,CARRIES,goods,Kothi,79
+households,CARRIES,load,Devi-Kothi,19
+households,WORKS_AS,sheep and goat rearer,Kanum,57
+households,CARRIES,Goods,Kothi,79
 households,GRAZES_AT,low hills,Kothi,92
 households,MIGRATES_TO,Suni,Kothi,92
 households,MIGRATES_TO,Tata Pani,Kothi,92
@@ -267,93 +245,117 @@ households,MIGRATES_TO,Bilaspur,Kothi,92
 households,MIGRATES_TO,Suket,Kothi,92
 households,MIGRATES_TO,Sirmur,Kothi,92
 households,MIGRATES_TO,Rajgarh,Kothi,92
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
-households,PAYS_DUES_TO,State,Kupha,133
+households,AFFECTED_BY,1874 dhar leasing attempt,Kupha,113
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
+households,PAYS_DUES_TO,Himachal Pradesh Government,Kupha,133
 households,WORKS_AS,revenue carrier,Kupha,133
-households,HOLDS_RIGHTS_OVER,Deodar trees,Kupha,133
-households,HOLDS_RIGHTS_OVER,Kail trees,Kupha,133
-households,HOLDS_RIGHTS_OVER,Tosh (fur),Kupha,133
-pasture,LOCATED_IN,lower ground,Newell,18
-pasture,AFFECTED_BY,grazing-induced erosion,Chitrari,23
-occupier,OWNS,land,Newell,17
+households,HOLDS_RIGHTS_OVER,Deodar tree,Kupha,133
+households,HOLDS_RIGHTS_OVER,Kail tree,Kupha,133
+households,HOLDS_RIGHTS_OVER,Tosh (fir),Kupha,133
+households,GRAZES_AT,Minor ranges,1881,98
+households,AFFECTED_BY,Denudation of the lower hills,1881,98
+households,SELLS_TO,shopkeeper,Rose Vol1,268
+households,PAYS_DUES_TO,moneylender,Rose,341
+households,PAYS_DUES_TO,pallari,Newell,14
+pasture,LOCATED_IN,lower pasture ground,Newell,18
+pasture,LOCATED_IN,Simla District,Simla,27
+pasture,LOCATED_IN,Simla District,Simla,27
+pasture,AFFECTED_BY,Grazing-induced erosion,Chitrari,23
+land occupier (Brahmaur),OWNS,land,Newell,17
 Kangra ruler,HOLDS_RIGHTS_OVER,grazing rights,Newell,18
-mahlundi,HOLDS_RIGHTS_OVER,ban,Newell,18
-mahlundi,HOLDS_RIGHTS_OVER,ban,Newell,18
-mahlundi,COLLECTS_FEE_FROM,shepherd,Newell,18
-high pastures,LOCATED_IN,bare rocky ground above the line of forest,Newell,18
-kandi dhans,HAS_POPULATION,gots (resting places),Newell,18
-kandi dhans,HAS_POPULATION,gots (resting places),Newell,18
-Kangra rajah,ISSUES_PERMIT_TO,special herdsmen client,Newell,18
+malundi,HOLDS_RIGHTS_OVER,ban (grazing run),Newell,18
+malundi,HOLDS_RIGHTS_OVER,ban (grazing run),Newell,18
+malundi,COLLECTS_FEE_FROM,shepherd,Newell,18
+kandi dhans,HAS_POPULATION,got,Newell,18
+kandi dhans,HAS_POPULATION,got,Newell,18
+high pastures,LOCATED_IN,nigahr,Newell,18
+Kangra rajah,ISSUES_PERMIT_TO,herdsmen's client,Newell,18
 drinkar,COLLECTS_FEE_FROM,shepherd,Newell,18
 drinkar,WORKS_AS,Gaddi,Newell,18
 villages at the bottom of dhans,COLLECTS_FEE_FROM,shepherd,Newell,18
-villages at the bottom of dhans,HOLDS_RIGHTS_OVER,manuring,Newell,18
+villages at the bottom of dhans,HOLDS_RIGHTS_OVER,manuring right,Newell,18
 neighbouring villages,HOLDS_RIGHTS_OVER,pasture,Newell,18
 agricultural labourer,PAYS_DUES_TO,shepherd,Newell,18
-special herdsmen client,HOLDS_RIGHTS_OVER,low hills,Newell,18
-Himachal Pradesh Government,HOLDS_RIGHTS_OVER,forest,Nachar,9
+herdsmen's client,HOLDS_RIGHTS_OVER,low hills,Newell,18
+Himachal Pradesh Government,OWNS,forest,Simla,26
+Himachal Pradesh Government,LENDS_TO,households (Tandi),Tandi,67
+Himachal Pradesh Government,LENDS_TO,households (Tandi),Tandi,67
 Himachal Pradesh Government,LENDS_TO,Bodh (Tandi),Tandi,70
 Himachal Pradesh Government,LENDS_TO,Bodh (Tandi),Tandi,70
 Himachal Pradesh Government,LENDS_TO,Chamar (Chaupal),Chaupal,56
 Himachal Pradesh Government,LENDS_TO,Chamar (Chaupal),Chaupal,56
-Himachal Pradesh Government,CLOSES,river sides,Chergaon,52
+Himachal Pradesh Government,CLOSES,riverbank,Chergaon,52
 Himachal Pradesh Government,HOLDS_RIGHTS_OVER,pasture,Moginand,47
 Himachal Pradesh Government,COLLECTS_FEE_FROM,households (Moginand),Moginand,47
 Himachal Pradesh Government,COLLECTS_FEE_FROM,households (Moginand),Moginand,47
 fee contractor,COLLECTS_FEE_FROM,shepherd,Newell,18
 fee contractor,COLLECTS_FEE_FROM,shepherd,Newell,18
-shepherd from outside Chamba State,PAYS_DUES_TO,authority in Bara Bangahal,Newell,18
+Lahaul,LOCATED_IN,Punjab,Rose Vol1,37
+Lahaul,LOCATED_IN,British territory,Rose Vol3,19
+Lahaul,LOCATED_IN,Chamba State,Rose Vol3,19
 Lahula,GRAZES_AT,Lahaul,Newell,18
-shepherd (Brahmaur),MOVES_VIA,high passes,Brahmaur,30
-shepherd (Brahmaur),HOLDS_RIGHTS_OVER,fixed dhar,Brahmaur,55
-shepherd (Brahmaur),GRAZES_AT,dhars of Pangi and Lahaul,Brahmaur,55
-shepherd (Brahmaur),GRAZES_AT,Brahmaur,Brahmaur,55
-shepherd (Brahmaur),GRAZES_AT,Brahmani forest tarkals,Brahmaur,55
+shepherd (Brahmaur),MOVES_VIA,high pass,Brahmaur,30
+shepherd (Brahmaur),HOLDS_RIGHTS_OVER,pasture,Brahmaur,55
+shepherd (Brahmaur),GRAZES_AT,pasture,Brahmaur,55
+shepherd (Brahmaur),GRAZES_AT,Brahmani forest tarkal,Brahmaur,55
 shepherd (Brahmaur),PAYS_DUES_TO,Forest Department,Brahmaur,55
 shepherd (Brahmaur),MOVES_VIA,Pangi,Brahmaur,55
 shepherd (Brahmaur),MOVES_VIA,Lahaul,Brahmaur,55
-shepherd (Brahmaur),WORKS_AS,wool shearer,Brahmaur,56
+shepherd (Brahmaur),WORKS_AS,Wool shearer (Brahmaur),Brahmaur,56
 shepherd (Brahmaur),MIGRATES_TO,low hills,Brahmaur,57
-shepherd (Brahmaur),SELLS_TO,shepherd (Brahmaur),Newell,37
-Gujars or other visitors from outside the district,WORKS_AS,shepherd (Brahmaur),Newell,22
-Gujars or other visitors from outside the district,WORKS_AS,casual labourer for forest contractors,Newell,22
-Rajput and allied castes,HAS_POPULATION,households,Newell,28
-Rajput and allied castes,HAS_POPULATION,households,Newell,28
-villages in the upper reaches,LOCATED_ON,Sutlej,Newell,30
+Gujjar (Brahmaur),WORKS_AS,shepherd (Brahmaur),Newell,22
+Gujjar (Brahmaur),WORKS_AS,casual labourer (Brahmaur),Newell,22
+Rajput,HAS_POPULATION,households,Newell,28
+Rajput,HAS_POPULATION,households,Newell,28
+Rajput,HOLDS_RIGHTS_OVER,Kalka-pattam mountain,Chergaon,22
+Rajput,HIRES,Batwal,1881,340
+Rajput,WORKS_AS,Wool-comb maker,Rose,295
+Rajput,WORKS_AS,grazier,Rose,295
+Rajput,HOLDS_RIGHTS_OVER,Lahaul,Rose Vol3,19
+upper-reach villages,LOCATED_ON,Sutlej,Newell,30
 Goshen,LOCATED_IN,Brahmaur,Newell,30
 Goshen,HAS_POPULATION,households,Newell,30
 Goshen,HAS_POPULATION,households,Newell,30
-Goshen,HAS_POPULATION,persons,Newell,30
-families belonging to one golra,OWNS,sheep and goats,Newell,30
-cultivators,HOLDS_RIGHTS_OVER,grazing rights,Newell,32
-cattle,AFFECTED_BY,malnutrition and debility,Kothi,100
+Goshen,HAS_POPULATION,households,Newell,30
+cattle,AFFECTED_BY,animal malnutrition and debility,Kothi,100
+cattle,GRAZES_AT,forest,Kupha,113
+cattle,GRAZES_AT,pasture,Rose Vol1,249
 sheep,AFFECTED_BY,Sheep disease (about 1958-59),Newell,38
-sheep,AFFECTED_BY,wool removal,Newell,107
-sheep,AFFECTED_BY,wool removal,Newell,107
-sheep,AFFECTED_BY,wool removal,Newell,107
+sheep,AFFECTED_BY,Sheep shearing,Newell,107
+sheep,AFFECTED_BY,Sheep shearing,Newell,107
+sheep,AFFECTED_BY,Sheep shearing,Newell,107
 sheep,AFFECTED_BY,shearing,Weaving,48
-sheep,AFFECTED_BY,cross-breeding of sheep,Mahasu,38
-sheep,AFFECTED_BY,sheep breed improvement scheme,Kupha,81
+sheep,AFFECTED_BY,sheep cross-breeding,Mahasu,38
+sheep,AFFECTED_BY,Sheep breed improvement scheme,Kupha,81
+sheep,GRAZES_AT,Phati Runi,Rose Vol1,523
+sheep,AFFECTED_BY,Annual sheep sacrifice to the Kyelang spirit,Rose Vol3,24
 landholders (Brahmaur),PAYS_DUES_TO,Gaddi (Brahmaur),Newell,36
 landholders (Brahmaur),HOLDS_RIGHTS_OVER,land,Newell,101
 landholders (Brahmaur),OWNS,trees,Newell,101
-landholders (Brahmaur),SELLS_TO,fee contractor (Brahmaur),Brahmaur,55
 landholders,PAYS_DUES_TO,Gaddi,Newell,36
 landholders,HOLDS_RIGHTS_OVER,land,Chauntra,36
 landholders,HOLDS_RIGHTS_OVER,forest,Chauntra,36
-buffaloes,AFFECTED_BY,Road construction,Newell,36
-buffaloes,MIGRATES_TO,low hills,Brahmaur,53
-Gaddi flock owners,HIRES,shepherd,Newell,37
-Gaddi flock owners,HIRES,shepherd,Newell,37
-Kugti inhabitants,HOLDS_RIGHTS_OVER,pasture,Newell,37
-goats,AFFECTED_BY,Himachal climate unsuitable for pashm-producing goats,Weaving,16
+shopkeeper,BUYS_FROM,Gertse,Weaving,14
+shopkeeper,BUYS_FROM,Gertse,Weaving,14
+shopkeeper,CARRIES,wool,Weaving,14
+shopkeeper,OWNS,sheep,Weaving,14
+shopkeeper,TRADES_AT,Tibet,Weaving,38
+shopkeeper,SELLS_TO,households,Weaving,51
+shopkeeper,TRADES_AT,Lavi fair,Mahasu,56
+shopkeeper,OWNS,shop,Mahasu,56
+shopkeeper,TRADES_AT,Amritsar,Devi-Kothi,17
+shopkeeper,TRADES_AT,Arki,Batal,49
+shopkeeper,SELLS_TO,nearby places,Nalag,12
+Gaddi flock owner,HIRES,shepherd,Newell,37
+Gaddi flock owner,HIRES,shepherd,Newell,37
+goats,AFFECTED_BY,climatic unsuitability for pashm goats,Weaving,16
 porter,CARRIES,salt,Newell,84
 porter,MOVES_VIA,Sunuos,Newell,84
 porter,MOVES_VIA,Herser,Newell,84
@@ -362,43 +364,33 @@ porter,MOVES_VIA,Bandargarti,Newell,84
 porter,MOVES_VIA,Barorgarti,Newell,84
 porter,MOVES_VIA,Barchund,Newell,84
 porter,MOVES_VIA,Gaurikund,Newell,84
-porter,MOVES_VIA,Dala,Newell,84
-porter,CARRIES,commodities,Devi-Kothi,19
-pujari,OWNS,shops,Newell,95
-pujari,WORKS_AS,moneylender (Brahmaur),Newell,95
+pujari (Brahmaur),OWNS,shop,Newell,95
+pujari (Brahmaur),WORKS_AS,moneylender (Brahmaur),Newell,95
 moneylender (Brahmaur),LENDS_TO,households (Brahmaur),Brahmaur,62
-non-government agency or firm,HIRES,Gaddi,Newell,105
-person allowing sheep to graze on their land,HOLDS_RIGHTS_OVER,land,Newell,107
-Rampur traders,BUYS_FROM,Gertse,Weaving,14
-Rampur traders,BUYS_FROM,Gertse,Weaving,14
-Rampur traders,CARRIES,wool,Weaving,14
-Rampur traders,OWNS,sheep,Weaving,14
+grazing landholder,HOLDS_RIGHTS_OVER,land,Newell,107
 wool,AFFECTED_BY,cessation of trade with Tibet,Weaving,16
-wool,AFFECTED_BY,shortage of wool,Weaving,16
-wool,AFFECTED_BY,Cross-breeding of Rampur Bushahri ewes and imported Merino sheep,Weaving,37
-wool,AFFECTED_BY,India-China dispute,Weaving,16
-Indian caravans,CARRIES,wool,Weaving,14
-pashm,AFFECTED_BY,shortage of pashm,Weaving,16
+wool,AFFECTED_BY,wool shortage,Weaving,16
+wool,AFFECTED_BY,Rampur Bushahri–Merino cross-breeding,Weaving,37
+wool,AFFECTED_BY,End of the Tibet trade,Weaving,16
+caravan trader,CARRIES,wool,Weaving,14
+caravan trader,GRAZES_AT,Kulu,Rose Vol1,522
+pashm,AFFECTED_BY,pashm shortage,Weaving,16
 women,WORKS_AS,wool spinner,Weaving,16
+women,CARRIES,milk,Rose,346
+women,CARRIES,ghee,Rose,346
 Himachal Pradesh,HAS_POPULATION,handloom weaver,Weaving,16
 Himachal Pradesh,HAS_POPULATION,cotton weaver,Weaving,16
-sheep breeders,AFFECTED_BY,sheep development programme,Weaving,36
-shopkeeper,TRADES_AT,Tibet,Weaving,38
-shopkeeper,SELLS_TO,households,Weaving,51
-shopkeeper,TRADES_AT,Lavi fair,Mahasu,56
-shopkeeper,TRADES_AT,Amritsar,Devi-Kothi,17
-shopkeeper,TRADES_AT,Arki,Batal,49
-shopkeeper,SELLS_TO,nearest places,Nalag,12
-shawl weaver,BUYS_FROM,market,Weaving,69
-Muslim Gujjars,MIGRATES_TO,high pastures,Mahasu,23
-Muslim Gujjars,MIGRATES_TO,lower areas,Mahasu,23
-Gujjar,HAS_POPULATION,persons,Mahasu,26
-Gujjar,GRAZES_AT,pasture lands in Arki tehsil,Mahasu,334
-Gujjar,GRAZES_AT,pasture lands listed in Table 17.6,Mahasu,337
+sheep breeder,AFFECTED_BY,sheep development programme,Weaving,36
+shawl weaver,BUYS_FROM,Market,Weaving,69
+Muslim Gujjar,MIGRATES_TO,high pastures,Mahasu,23
+Muslim Gujjar,MIGRATES_TO,low hills,Mahasu,23
+Gujjar,HAS_POPULATION,households,Mahasu,26
+Gujjar,GRAZES_AT,pasture,Mahasu,334
+Gujjar,GRAZES_AT,pasture,Mahasu,337
 Gujjar,MIGRATES_TO,high pastures,Maingal,9
 Gujjar,MIGRATES_TO,low hills,Maingal,9
-Gujjar,WORKS_AS,buffalo rearer,Maingal,18
-Gujjar,MIGRATES_TO,Northern India edging the Himalayan hills,Maingal,18
+Gujjar,WORKS_AS,Buffalo rearer,Maingal,18
+Gujjar,MIGRATES_TO,Northern India along the Himalayan hills,Maingal,18
 Gujjar,MIGRATES_TO,Jammu,Maingal,18
 Gujjar,MIGRATES_TO,Chamba District,Maingal,18
 Gujjar,MIGRATES_TO,Chamba District,Maingal,18
@@ -407,33 +399,31 @@ Gujjar,MIGRATES_TO,Chamba State,Maingal,18
 Gujjar,SELLS_TO,moneylender,Maingal,42
 Gujjar,SELLS_TO,moneylender,Maingal,42
 Gujjar,SELLS_TO,shopkeeper,Maingal,60
-Gujjar,OWNS,buffaloes,1881,267
+Gujjar,WORKS_AS,shepherd,1881,167
+Gujjar,SELLS_TO,buyer,1881,267
+Gujjar,LOCATED_IN,Kangra,1881,267
+Gujjar,TRADES_AT,Market,Rose,346
 "Sheep Breeding Farm, Jeori",OWNS,sheep,Mahasu,38
-panchayat,HOLDS_RIGHTS_OVER,forest,Mahasu,40
-panchayat,OWNS,forest,Simla,26
-panchayat,OWNS,loom,Brahmaur,85
-panchayat,HIRES,gardener,Maingal,56
-down-country merchants,OWNS,shops,Mahasu,56
-Kinnaura,GRAZES_AT,pasture lands in Arki tehsil,Mahasu,334
-Kinnaura,GRAZES_AT,pasture lands listed in Table 17.6,Mahasu,337
-Kinnaura,GRAZES_AT,hill top,Kanum,42
-Kinnaura,GRAZES_AT,high pastures,Nachar,33
+Kinnaura,GRAZES_AT,pasture,Mahasu,334
+Kinnaura,GRAZES_AT,pasture,Mahasu,337
 Kinnaura,MIGRATES_TO,Seoni,Shakrori,76
-"mobile Gujjars, Gaddis and Kannaura",GRAZES_AT,Lambi Dhar,Mahasu,335
-"mobile Gujjars, Gaddis and Kannaura",GRAZES_AT,Shagh Thatch,Mahasu,335
-"mobile Gujjars, Gaddis and Kannaura",GRAZES_AT,Lamba Thatch,Mahasu,335
-"mobile Gujjars, Gaddis and Kannaura",GRAZES_AT,Kamiri Thatch,Mahasu,335
-"mobile Gujjars, Gaddis and Kannaura",GRAZES_AT,Nathi Thatch,Mahasu,335
-"mobile Gujjars, Gaddis and Kannaura",GRAZES_AT,Thalashar Thatch,Mahasu,335
-"mobile Gujjars, Gaddis and Kannaura",GRAZES_AT,Gajyan Thatch,Mahasu,335
-State,OWNS,forest,Simla,26
-State,HOLDS_RIGHTS_OVER,forest,Kupha,133
-State,HOLDS_RIGHTS_OVER,forest,Kupha,133
+Kinnaura,TRADES_AT,Phati Runi,Rose Vol1,523
+Kinnaura,MOVES_VIA,Parbati valley,Rose Vol1,523
+Kinnaura,MOVES_VIA,Old mountain sheep route,Rose Vol1,523
+"mobile herders (Gujjars, Gaddis and Kinnauras)",GRAZES_AT,Lambi Dhar,Mahasu,335
+"mobile herders (Gujjars, Gaddis and Kinnauras)",GRAZES_AT,Shagh Thatch,Mahasu,335
+"mobile herders (Gujjars, Gaddis and Kinnauras)",GRAZES_AT,Lamba Thatch,Mahasu,335
+"mobile herders (Gujjars, Gaddis and Kinnauras)",GRAZES_AT,Kamiri Thatch,Mahasu,335
+"mobile herders (Gujjars, Gaddis and Kinnauras)",GRAZES_AT,Nathi Thatch,Mahasu,335
+"mobile herders (Gujjars, Gaddis and Kinnauras)",GRAZES_AT,Thalashar Thatch,Mahasu,335
+"mobile herders (Gujjars, Gaddis and Kinnauras)",GRAZES_AT,Gajyan Thatch,Mahasu,335
 Simla Municipal Committee,OWNS,forest,Simla,26
-Cantonment Boards,OWNS,forest,Simla,26
-individuals,OWNS,forest,Simla,26
-Permanent pastures and other grazing lands in Simla District,LOCATED_IN,Simla District,Simla,27
-Permanent pastures and other grazing lands in Simla District,LOCATED_IN,Simla District,Simla,27
+Cantonment Board,OWNS,forest,Simla,26
+panchayat,OWNS,forest,Simla,26
+panchayat,OWNS,Loom,Brahmaur,85
+panchayat,HIRES,Gardener (Maingal),Maingal,56
+panchayat,HOLDS_RIGHTS_OVER,pasture,Kalath,76
+Individual forest owners,OWNS,forest,Simla,26
 Simla District,HAS_POPULATION,sheep,Simla,29
 Simla District,HAS_POPULATION,goats,Simla,29
 Simla District,HAS_POPULATION,buffaloes,Simla,29
@@ -445,34 +435,28 @@ Simla District,HAS_POPULATION,mules,Simla,29
 Simla District,HAS_POPULATION,mules,Simla,29
 Simla District,HAS_POPULATION,sheep and goats,Simla,29
 Simla District,AFFECTED_BY,Road construction,Simla,92
-livestock,GRAZES_AT,Permanent pastures and other grazing lands in Simla District,Simla,27
-farmers,OWNS,cattle,Pangna,53
-farmers,OWNS,cattle,Pangna,53
-farmers,PAYS_DUES_TO,Mahajan (Pangna),Pangna,53
-farmers,SELLS_TO,Mahajan (Pangna),Pangna,53
-farmers,PAYS_DUES_TO,Brahman (Pangna),Pangna,53
-farmers,SELLS_TO,Brahman (Pangna),Pangna,53
-farmers,WORKS_AS,shepherd (Pangna),Pangna,53
-Brahman (Brahmaur),HAS_POPULATION,persons,Brahmaur,23
+livestock,GRAZES_AT,high pastures,Kupha,113
+buffaloes,MIGRATES_TO,low hills,Brahmaur,53
+Brahman (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,23
+Brahman (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
+Brahman (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
+Brahman (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
 Brahman (Brahmaur),OWNS,sheep and goats,Brahmaur,54
 Brahman (Brahmaur),OWNS,sheep and goats,Brahmaur,54
-Brahman (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
-Brahman (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
-Brahman (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
-Rajputs/Khatris,HAS_POPULATION,persons,Brahmaur,23
-Rajputs/Khatris,WORKS_AS,sheep breeder,Brahmaur,23
-Rajputs/Khatris,OWNS,sheep and goats,Brahmaur,23
+Rajput (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,23
 Rajput (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,23
 Rajput (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
 Rajput (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
 Rajput (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
+Rajput (Brahmaur),WORKS_AS,sheep breeder (Brahmaur),Brahmaur,23
+Rajput (Brahmaur),OWNS,sheep and goats,Brahmaur,23
 Rajput (Brahmaur),OWNS,sheep and goats,Brahmaur,54
 Rajput (Brahmaur),OWNS,sheep and goats,Brahmaur,54
 Rehara (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,23
 Rehara (Brahmaur),HAS_POPULATION,households (Brahmaur),Brahmaur,54
 Rehara (Brahmaur),OWNS,sheep and goats,Brahmaur,54
 malundi (Brahmaur),OWNS,sheep and goats,Brahmaur,55
-malundi (Brahmaur),GRAZES_AT,Brahmani forest tarkals,Brahmaur,55
+malundi (Brahmaur),GRAZES_AT,Brahmani forest tarkal,Brahmaur,55
 malundi (Brahmaur),MIGRATES_TO,low hills,Brahmaur,55
 malundi (Brahmaur),MIGRATES_TO,Pangi,Brahmaur,55
 malundi (Brahmaur),MIGRATES_TO,Lahaul,Brahmaur,55
@@ -496,7 +480,7 @@ pohal (Brahmaur),GRAZES_AT,Jammu,Brahmaur,55
 Pangi,MOVES_VIA,Sach Pass,Kupha,111
 Pangi,MOVES_VIA,Sach Pass,Kupha,128
 Pangi,MOVES_VIA,Cheni pass,Kupha,111
-Pangi,MOVES_VIA,Marwa or Chara pass,Kupha,111
+Pangi,MOVES_VIA,Marwa (Chara) pass,Kupha,111
 Pangi,MOVES_VIA,Drati pass,Kupha,111
 Pangi,MOVES_VIA,Kalicho pass,Kupha,111
 Pangi,MOVES_VIA,Chobia pass,Kupha,111
@@ -506,14 +490,10 @@ Pangi,HAS_POPULATION,Bhot,Kupha,111
 Pangi,MOVES_VIA,Rohtang pass,Kupha,128
 Pangi,MOVES_VIA,Kishtwar,Kupha,128
 Pangi,AFFECTED_BY,Road construction,Kupha,136
-Pangi,AFFECTED_BY,Road construction,Kupha,136
-State ruler,HOLDS_RIGHTS_OVER,pasture,Brahmaur,55
 fee contractor (Brahmaur),HOLDS_RIGHTS_OVER,pasture,Brahmaur,55
-fee contractor (Brahmaur),SELLS_TO,shepherd (Brahmaur),Brahmaur,55
 Lahula (Brahmaur),MIGRATES_TO,low hills,Brahmaur,58
-"households practising agriculture, labour and grazing",HAS_POPULATION,households (Brahmaur),Brahmaur,61
-"households practising agriculture, labour and grazing",HAS_POPULATION,households (Brahmaur),Brahmaur,61
-"households practising agriculture, labour and sheep breeding",HAS_POPULATION,households (Brahmaur),Brahmaur,61
+"households practising agriculture, labour and grazing (Brahmaur)",HAS_POPULATION,households (Brahmaur),Brahmaur,61
+"households practising agriculture, labour and grazing (Brahmaur)",HAS_POPULATION,households (Brahmaur),Brahmaur,61
 cooperative society,LENDS_TO,households (Brahmaur),Brahmaur,84
 cooperative society,LENDS_TO,households (Brahmaur),Brahmaur,84
 cooperative society,LENDS_TO,households (Brahmaur),Brahmaur,84
@@ -523,36 +503,28 @@ cooperative society,LENDS_TO,households (Basal),Basal,62
 cooperative society,LENDS_TO,households (Basal),Basal,62
 cooperative society,LENDS_TO,households (Kalath),Kalath,60
 cooperative society,LENDS_TO,households (Kalath),Kalath,60
-cooperative society,COLLECTS_FEE_FROM,households (Kalath),Kalath,60
 cooperative society,LENDS_TO,households (Kalath),Kalath,77
 cooperative society,LENDS_TO,households (Kalath),Kalath,77
-cooperative society,LENDS_TO,Ramdasi,Kalath,77
+cooperative society,LENDS_TO,Ramdasi (Kalath),Kalath,77
 cooperative society,LENDS_TO,households (Kot),Kot,47
 cooperative society,LENDS_TO,households (Kot),Kot,47
 cooperative society,LENDS_TO,households (Kot),Kot,47
-cooperative society,LENDS_TO,Society members,Kot,65
+cooperative society,LENDS_TO,society members (Tihra),Kot,65
 cooperative society,LENDS_TO,households (Pangna),Pangna,47
 cooperative society,LENDS_TO,households (Pangna),Pangna,47
 cooperative society,LENDS_TO,households (Pangna),Pangna,58
 cooperative society,LENDS_TO,households (Pangna),Pangna,58
-cooperative society,LENDS_TO,cooperative society members,Rajana,72
-cooperative society,LENDS_TO,cooperative society members,Rajana,72
-cooperative society,LENDS_TO,cooperative society members,Rajana,72
-Lower Kugti,HAS_POPULATION,households,Brahmaur,109
-Lower Kugti,HAS_POPULATION,Brahman,Brahmaur,109
-Lower Kugti,HAS_POPULATION,Sipi,Brahmaur,109
-Lower Kugti,HAS_POPULATION,Riara,Brahmaur,109
-Gaddi (Chitrari),OWNS,sheep and goats,Chitrari,13
-Gaddi (Chitrari),WORKS_AS,agricultural labourer (Chitrari),Chitrari,24
-Gaddi (Chitrari),MIGRATES_TO,low hills,Chitrari,26
-Gaddi (Chitrari),WORKS_AS,wool spinner,Chitrari,42
-Gaddi (Chitrari),MOVES_VIA,the valley,Chitrari,58
-Gaddi (Chitrari),MOVES_VIA,high-mountain passes,Chitrari,58
-Gaddi (Chitrari),WORKS_AS,sheep and goat rearer,Chitrari,78
-Gaddi (Chitrari),WORKS_AS,pastoralist,Chitrari,78
-Chitrari,LOCATED_IN,Brahmaur,Chitrari,13
+cooperative society,LENDS_TO,cooperative society member (Rajana),Rajana,72
+cooperative society,LENDS_TO,cooperative society member (Rajana),Rajana,72
+cooperative society,LENDS_TO,cooperative society member (Rajana),Rajana,72
+households (Kugti village),MIGRATES_TO,low hills,Brahmaur,109
+households (Kugti village),MIGRATES_TO,Kangra,Brahmaur,109
+Lower Kugti,HAS_POPULATION,households (Lower Kugti),Brahmaur,109
+Lower Kugti,HAS_POPULATION,Brahman (Lower Kugti),Brahmaur,109
+Lower Kugti,HAS_POPULATION,Sipi (Lower Kugti),Brahmaur,109
+Lower Kugti,HAS_POPULATION,Riara (Lower Kugti),Brahmaur,109
 Chitrari,AFFECTED_BY,Road construction,Chitrari,13
-Chitrari,HAS_POPULATION,migratories,Chitrari,23
+Chitrari,HAS_POPULATION,migrants (Chitrari),Chitrari,23
 Chitrari,OWNS,sheep,Chitrari,38
 Chitrari,OWNS,goats,Chitrari,38
 Chitrari,OWNS,cattle,Chitrari,38
@@ -573,12 +545,13 @@ households (Chitrari),MOVES_VIA,Chuari pass,Chitrari,23
 households (Chitrari),MOVES_VIA,Kali Nali,Chitrari,23
 households (Chitrari),MOVES_VIA,Mahli pass,Chitrari,23
 households (Chitrari),MOVES_VIA,Loa pass,Chitrari,23
-households (Chitrari),MIGRATES_TO,winter grazing ground,Chitrari,23
-households (Chitrari),WORKS_AS,seasonal worker,Chitrari,23
+households (Chitrari),MIGRATES_TO,pasture,Chitrari,23
+households (Chitrari),GRAZES_AT,pasture,Chitrari,53
+households (Chitrari),WORKS_AS,seasonal worker (Chitrari),Chitrari,23
 households (Chitrari),WORKS_AS,road labourer (Chitrari),Chitrari,38
-households (Chitrari),WORKS_AS,labourer,Chitrari,38
-households (Chitrari),WORKS_AS,mason,Chitrari,38
-households (Chitrari),WORKS_AS,sheep and goat rearer,Chitrari,47
+households (Chitrari),WORKS_AS,labourer (Chitrari),Chitrari,38
+households (Chitrari),WORKS_AS,mason (Chitrari),Chitrari,38
+households (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),Chitrari,47
 households (Chitrari),OWNS,cattle,Chitrari,52
 households (Chitrari),OWNS,cattle,Chitrari,52
 households (Chitrari),OWNS,cattle,Chitrari,52
@@ -587,46 +560,52 @@ households (Chitrari),OWNS,cattle,Chitrari,52
 households (Chitrari),OWNS,cattle,Chitrari,52
 households (Chitrari),OWNS,cattle,Chitrari,53
 households (Chitrari),OWNS,sheep and goats,Chitrari,53
-households (Chitrari),GRAZES_AT,so-called pastures,Chitrari,53
-Brahman (Chitrari),WORKS_AS,goat and sheep rearer,Chitrari,19
-Rajput (Chitrari),WORKS_AS,sheep and goat rearer,Chitrari,19
-Khatri (Chitrari),WORKS_AS,sheep and goat rearer,Chitrari,19
+Brahman (Chitrari),WORKS_AS,shepherd (Chitrari),Chitrari,19
 shepherd (Chitrari),OWNS,sheep and goats,Chitrari,23
-shepherd (Chitrari),GRAZES_AT,assigned dhar pasture,Chitrari,23
+shepherd (Chitrari),GRAZES_AT,pasture,Chitrari,23
 shepherd (Chitrari),AFFECTED_BY,Reserved Forest grazing restrictions,Chitrari,23
 shepherd (Chitrari),SAYS,Road construction,Chitrari,24
-mason,MIGRATES_TO,Nachar,Nachar,14
+Rajput (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),Chitrari,19
+Khatri (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),Chitrari,19
+Gaddi (Chitrari),WORKS_AS,agricultural labourer (Chitrari),Chitrari,24
+Gaddi (Chitrari),MIGRATES_TO,low hills,Chitrari,26
+Gaddi (Chitrari),WORKS_AS,wool spinner (Chitrari),Chitrari,42
+Gaddi (Chitrari),MOVES_VIA,the valley,Chitrari,58
+Gaddi (Chitrari),MOVES_VIA,high-mountain pass,Chitrari,58
+Gaddi (Chitrari),WORKS_AS,sheep and goat rearer (Chitrari),Chitrari,78
+Gaddi (Chitrari),WORKS_AS,pastoralist (Chitrari),Chitrari,78
 shopkeeper (Chitrari),LENDS_TO,households (Chitrari),Chitrari,46
-Gujjar (Devi-Kothi),MIGRATES_TO,hills near Devi-Kothi,Devi-Kothi,11
+Gujjar (Devi-Kothi),MIGRATES_TO,Hills near Devi-Kothi,Devi-Kothi,11
 Gujjar (Devi-Kothi),CARRIES,load,Devi-Kothi,11
-Devi-Kothi,HAS_POPULATION,persons,Devi-Kothi,13
+Devi-Kothi,HAS_POPULATION,households (Devi-Kothi),Devi-Kothi,13
 Devi-Kothi,LOCATED_ON,Khabla Nala,Devi-Kothi,13
 Devi-Kothi,OWNS,sheep,Devi-Kothi,47
 Devi-Kothi,OWNS,goats,Devi-Kothi,47
-Devi-Kothi,OWNS,"cows, bullocks or buffaloes",Devi-Kothi,47
 Devi-Kothi,OWNS,cattle,Devi-Kothi,47
 Devi-Kothi,OWNS,cattle,Devi-Kothi,47
-Devi-Kothi,OWNS,calves over 3 years,Devi-Kothi,47
+Devi-Kothi,OWNS,cattle,Devi-Kothi,47
+Devi-Kothi,OWNS,cattle,Devi-Kothi,47
+Devi-Kothi,OWNS,cattle,Devi-Kothi,47
 Devi-Kothi,OWNS,buffaloes,Devi-Kothi,47
-Devi-Kothi,OWNS,buffalo calves under 3 years,Devi-Kothi,47
-Devi-Kothi,OWNS,cow calves under 3 years,Devi-Kothi,47
+Devi-Kothi,OWNS,buffaloes,Devi-Kothi,47
 Devi-Kothi,WORKS_AS,grazier (Devi-Kothi),Devi-Kothi,55
 Devi-Kothi,WORKS_AS,grazier (Devi-Kothi),Devi-Kothi,55
 households (Devi-Kothi),MIGRATES_TO,high pastures,Devi-Kothi,17
+households (Devi-Kothi),OWNS,mules,Devi-Kothi,19
 households (Devi-Kothi),OWNS,sheep,Devi-Kothi,26
 households (Devi-Kothi),OWNS,sheep,Devi-Kothi,47
 households (Devi-Kothi),BUYS_FROM,households (Devi-Kothi),Devi-Kothi,26
+households (Devi-Kothi),LENDS_TO,households (Devi-Kothi),Devi-Kothi,53
 households (Devi-Kothi),BUYS_FROM,shepherd (Devi-Kothi),Devi-Kothi,26
 households (Devi-Kothi),BUYS_FROM,shepherd (Devi-Kothi),Devi-Kothi,26
-households (Devi-Kothi),WORKS_AS,animal husbandry,Devi-Kothi,47
-households (Devi-Kothi),GRAZES_AT,Devi-Kothi grazing grounds,Devi-Kothi,47
+households (Devi-Kothi),WORKS_AS,animal husbandry (Devi-Kothi),Devi-Kothi,47
+households (Devi-Kothi),GRAZES_AT,pasture,Devi-Kothi,47
+households (Devi-Kothi),GRAZES_AT,pasture,Devi-Kothi,48
+households (Devi-Kothi),MIGRATES_TO,pasture,Devi-Kothi,48
 households (Devi-Kothi),SELLS_TO,Tisa,Devi-Kothi,47
 households (Devi-Kothi),SELLS_TO,Gowari,Devi-Kothi,47
 households (Devi-Kothi),SELLS_TO,Satyas,Devi-Kothi,47
-households (Devi-Kothi),GRAZES_AT,odhwaries,Devi-Kothi,48
-households (Devi-Kothi),MIGRATES_TO,odhwaries,Devi-Kothi,48
-households (Devi-Kothi),OWNS,wool,Devi-Kothi,48
-households (Devi-Kothi),OWNS,skins,Devi-Kothi,48
+households (Devi-Kothi),OWNS,skin,Devi-Kothi,48
 households (Devi-Kothi),HIRES,Chamar (Devi-Kothi),Devi-Kothi,48
 households (Devi-Kothi),SELLS_TO,shopkeeper (Devi-Kothi),Devi-Kothi,48
 households (Devi-Kothi),HOLDS_RIGHTS_OVER,forest,Devi-Kothi,48
@@ -635,34 +614,35 @@ households (Devi-Kothi),HOLDS_RIGHTS_OVER,forest,Devi-Kothi,49
 households (Devi-Kothi),HOLDS_RIGHTS_OVER,Lower Tan Forest,Devi-Kothi,49
 households (Devi-Kothi),HOLDS_RIGHTS_OVER,Devi Kothi jungle,Devi-Kothi,49
 households (Devi-Kothi),HOLDS_RIGHTS_OVER,grazing rights,Devi-Kothi,49
-households (Devi-Kothi),WORKS_AS,spinner,Devi-Kothi,50
-households (Devi-Kothi),WORKS_AS,weaver,Devi-Kothi,50
-households (Devi-Kothi),OWNS,handloom,Devi-Kothi,50
+households (Devi-Kothi),WORKS_AS,spinner (Devi-Kothi),Devi-Kothi,50
+households (Devi-Kothi),WORKS_AS,weaver (Devi-Kothi),Devi-Kothi,50
+households (Devi-Kothi),OWNS,Handloom,Devi-Kothi,50
 households (Devi-Kothi),SELLS_TO,Bhot (Devi-Kothi),Devi-Kothi,53
 households (Devi-Kothi),WORKS_AS,road labourer (Devi-Kothi),Devi-Kothi,53
-households (Devi-Kothi),WORKS_AS,construction labourer,Devi-Kothi,53
+households (Devi-Kothi),WORKS_AS,construction labourer (Devi-Kothi),Devi-Kothi,53
 households (Devi-Kothi),MOVES_VIA,Sach Pass,Devi-Kothi,53
-households (Devi-Kothi),MIGRATES_TO,Pangi,Devi-Kothi,53
-households (Devi-Kothi),MIGRATES_TO,Trella,Devi-Kothi,53
 households (Devi-Kothi),CARRIES,grain,Devi-Kothi,53
 households (Devi-Kothi),CARRIES,salt,Devi-Kothi,53
-households (Devi-Kothi),CARRIES,dals,Devi-Kothi,53
+households (Devi-Kothi),CARRIES,Pulse,Devi-Kothi,53
 households (Devi-Kothi),CARRIES,ghee,Devi-Kothi,53
 households (Devi-Kothi),AFFECTED_BY,indebtedness,Devi-Kothi,53
 households (Devi-Kothi),OWNS,goats,Devi-Kothi,47
-one villager,OWNS,mules,Devi-Kothi,19
-one villager,CARRIES,loads,Devi-Kothi,19
-Pangwal,CARRIES,commodities,Devi-Kothi,19
+porter (Devi-Kothi),CARRIES,Goods,Devi-Kothi,19
+Pangwal,CARRIES,Goods,Devi-Kothi,19
 Pangwal,MOVES_VIA,Chaini Pass,Devi-Kothi,19
 Pangwal,MIGRATES_TO,Chamba,Kupha,14
 Pangwal,WORKS_AS,road labourer,Kupha,14
-Pangwal,WORKS_AS,building labourer,Kupha,14
+Pangwal,WORKS_AS,Building labourer,Kupha,14
 Pangwal,OWNS,cattle,Kupha,50
-Pangwal,GRAZES_AT,river bank near Kilar,Kupha,50
+Pangwal,GRAZES_AT,River bank near Kilar,Kupha,50
 Pangwal,TRADES_AT,Tarela,Kupha,132
 Pangwal,MOVES_VIA,Sach Pass,Kupha,132
-Churahi,CARRIES,commodities,Devi-Kothi,19
+Churahi,CARRIES,Goods,Devi-Kothi,19
 Churahi,MOVES_VIA,Chaini Pass,Devi-Kothi,19
+Churahi,OWNS,land,Rose,250
+Churahi,OWNS,sheep and goats,Rose,250
+Churahi,MIGRATES_TO,Pangi,Rose,250
+Churahi,MIGRATES_TO,low hills,Rose,250
 grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,Devi-Kothi,47
 grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,Devi-Kothi,47
 grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,Devi-Kothi,47
@@ -673,60 +653,50 @@ grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,Devi-Kothi,47
 grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,Devi-Kothi,47
 grazier (Devi-Kothi),GRAZES_AT,high pastures,Devi-Kothi,48
 grazier (Devi-Kothi),COLLECTS_FEE_FROM,households (Devi-Kothi),Devi-Kothi,48
-Batwal,WORKS_AS,sheep shearer,Devi-Kothi,48
-forest contractor,HIRES,households (Devi-Kothi),Devi-Kothi,48
-forest contractor,HIRES,households (Devi-Kothi),Devi-Kothi,48
+Batwal (Devi-Kothi),WORKS_AS,sheep shearer (Devi-Kothi),Devi-Kothi,48
+forest contractor (Devi-Kothi),HIRES,households (Devi-Kothi),Devi-Kothi,48
+forest contractor (Devi-Kothi),HIRES,households (Devi-Kothi),Devi-Kothi,48
 shopkeeper (Devi-Kothi),SELLS_TO,households (Devi-Kothi),Devi-Kothi,53
 shopkeeper (Devi-Kothi),TRADES_AT,Baira Garh,Devi-Kothi,61
-weaver,BUYS_FROM,Kinnaura (Shakrori),Shakrori,77
-weaver,BUYS_FROM,Seoni,Shakrori,77
-weaver,BUYS_FROM,Simla,Shakrori,77
-weaver,TRADES_AT,Tandi,Tandi,66
 Bhot (Devi-Kothi),SELLS_TO,households (Devi-Kothi),Devi-Kothi,53
-relatives or friends,LENDS_TO,households (Devi-Kothi),Devi-Kothi,53
-debtor,WORKS_AS,agricultural labourer (Devi-Kothi),Devi-Kothi,54
-debtor,WORKS_AS,agricultural labourer (Chergaon),Chergaon,55
+debtor (Devi-Kothi),WORKS_AS,agricultural labourer (Devi-Kothi),Devi-Kothi,54
 Maingal,HAS_POPULATION,households (Maingal),Maingal,17
 Maingal,HAS_POPULATION,households (Maingal),Maingal,21
 Maingal,HAS_POPULATION,households (Maingal),Maingal,21
 Maingal,HAS_POPULATION,households (Maingal),Maingal,21
+Maingal,HAS_POPULATION,households (Maingal),Maingal,38
 Maingal,HAS_POPULATION,households (Maingal),Maingal,42
 Maingal,HAS_POPULATION,households (Maingal),Maingal,46
-Maingal,HAS_POPULATION,persons,Maingal,38
-Maingal,WORKS_AS,cattle breeder,Maingal,38
-Maingal,WORKS_AS,agricultural and cattle breeder,Maingal,38
-Maingal,WORKS_AS,agricultural and sheep breeder,Maingal,38
+Maingal,WORKS_AS,Cattle breeder (Maingal),Maingal,38
+Maingal,WORKS_AS,Agricultural and cattle breeder (Maingal),Maingal,38
+Maingal,WORKS_AS,Agricultural and sheep breeder (Maingal),Maingal,38
 Maingal,AFFECTED_BY,indebtedness,Maingal,42
-households (Maingal),OWNS,hurricane lanterns and wick lamps,Maingal,22
+households (Maingal),OWNS,Lantern,Maingal,22
 households (Maingal),SELLS_TO,Gujjar (Maingal),Maingal,46
 households (Maingal),SELLS_TO,Shilaghrat,Maingal,48
-households (Maingal),OWNS,poultry,Maingal,48
-households (Maingal),GRAZES_AT,pasture grounds,Maingal,48
+households (Maingal),OWNS,poultry bird,Maingal,48
+households (Maingal),GRAZES_AT,pasture,Maingal,48
+Gujjar (Maingal),HAS_POPULATION,households (Maingal),Maingal,17
 Gujjar (Maingal),HAS_POPULATION,households (Maingal),Maingal,17
 Gujjar (Maingal),HAS_POPULATION,households (Maingal),Maingal,21
 Gujjar (Maingal),HAS_POPULATION,households (Maingal),Maingal,21
 Gujjar (Maingal),BUYS_FROM,households (Maingal),Maingal,46
 Gujjar (Maingal),HAS_POPULATION,households (Maingal),Maingal,54
-Gujjar (Maingal),HAS_POPULATION,persons,Maingal,17
-Gujjar (Maingal),HAS_POPULATION,male persons,Maingal,17
-Gujjar (Maingal),HAS_POPULATION,female persons,Maingal,17
+Gujjar (Maingal),HAS_POPULATION,Male population (Maingal),Maingal,17
+Gujjar (Maingal),HAS_POPULATION,Female population (Maingal),Maingal,17
 Gujjar (Maingal),AFFECTED_BY,Scheduled Tribe listing,Maingal,17
 Gujjar (Maingal),MIGRATES_TO,Maingal,Maingal,18
 Gujjar (Maingal),MIGRATES_TO,Maingal,Maingal,52
-Gujjar (Maingal),WORKS_AS,farmer,Maingal,18
-Gujjar (Maingal),WORKS_AS,cattle rearer,Maingal,18
-Gujjar (Maingal),WORKS_AS,cattle rearer,Maingal,48
+Gujjar (Maingal),WORKS_AS,farmer (Maingal),Maingal,18
+Gujjar (Maingal),WORKS_AS,cattle rearer (Maingal),Maingal,18
+Gujjar (Maingal),WORKS_AS,cattle rearer (Maingal),Maingal,48
 Gujjar (Maingal),OWNS,cattle,Maingal,20
 Gujjar (Maingal),OWNS,cattle,Maingal,48
 Gujjar (Maingal),OWNS,cattle,Maingal,51
 Gujjar (Maingal),OWNS,cattle,Maingal,60
-Gujjar (Maingal),CARRIES,heavy loads,Maingal,25
-Gujjar (Maingal),OWNS,buffaloes,Maingal,38
-Gujjar (Maingal),OWNS,buffaloes,Maingal,38
-Gujjar (Maingal),OWNS,buffaloes,Maingal,44
-Gujjar (Maingal),OWNS,buffaloes,Maingal,48
-Gujjar (Maingal),OWNS,buffaloes,Maingal,49
-Gujjar (Maingal),SELLS_TO,buyers,Maingal,38
+Gujjar (Maingal),CARRIES,load,Maingal,25
+Gujjar (Maingal),CARRIES,load,Maingal,54
+Gujjar (Maingal),SELLS_TO,buyer (Maingal),Maingal,38
 Gujjar (Maingal),PAYS_DUES_TO,Brahman (Maingal),Maingal,38
 Gujjar (Maingal),PAYS_DUES_TO,Brahman (Maingal),Maingal,42
 Gujjar (Maingal),CARRIES,grass,Maingal,38
@@ -734,6 +704,9 @@ Gujjar (Maingal),CARRIES,milk,Maingal,38
 Gujjar (Maingal),CARRIES,ghee,Maingal,38
 Gujjar (Maingal),OWNS,ghee,Maingal,52
 Gujjar (Maingal),AFFECTED_BY,indebtedness,Maingal,42
+Gujjar (Maingal),OWNS,buffaloes,Maingal,44
+Gujjar (Maingal),OWNS,buffaloes,Maingal,48
+Gujjar (Maingal),OWNS,buffaloes,Maingal,49
 Gujjar (Maingal),MIGRATES_TO,high pastures,Maingal,46
 Gujjar (Maingal),MIGRATES_TO,high pastures,Maingal,52
 Gujjar (Maingal),BUYS_FROM,shopkeeper (Maingal),Maingal,48
@@ -744,12 +717,8 @@ Gujjar (Maingal),SELLS_TO,Chamba,Maingal,48
 Gujjar (Maingal),MIGRATES_TO,pasture,Maingal,51
 Gujjar (Maingal),MIGRATES_TO,pasture,Maingal,54
 Gujjar (Maingal),MIGRATES_TO,pasture,Maingal,61
-Gujjar (Maingal),GRAZES_AT,Chandi,Maingal,52
-Gujjar (Maingal),GRAZES_AT,Chal Sakri,Maingal,52
-Gujjar (Maingal),GRAZES_AT,Nadin,Maingal,52
-Gujjar (Maingal),CARRIES,loads,Maingal,54
-Gujjar (Maingal),WORKS_AS,buffalo milker,Maingal,54
-Gujjar (Maingal),WORKS_AS,fodder gatherer,Maingal,54
+Gujjar (Maingal),WORKS_AS,Buffalo milker (Maingal),Maingal,54
+Gujjar (Maingal),WORKS_AS,Fodder gatherer (Maingal),Maingal,54
 Gujjar (Maingal),MIGRATES_TO,Maingal jots,Maingal,60
 Gujjar (Maingal),OWNS,land,Maingal,60
 Gujjar (Maingal),WORKS_AS,grazier (Maingal),Maingal,60
@@ -758,52 +727,42 @@ Gujjar (Maingal),OWNS,goats,Maingal,48
 Gaddi (Maingal),AFFECTED_BY,Scheduled Tribe listing,Maingal,17
 Gaddi (Maingal),OWNS,sheep and goats,Maingal,52
 Brahman (Maingal),HAS_POPULATION,households (Maingal),Maingal,18
+Brahman (Maingal),HAS_POPULATION,households (Maingal),Maingal,18
 Brahman (Maingal),HAS_POPULATION,households (Maingal),Maingal,21
 Brahman (Maingal),HAS_POPULATION,households (Maingal),Maingal,54
-Brahman (Maingal),HAS_POPULATION,persons,Maingal,18
 Brahman (Maingal),OWNS,sheep and goats,Maingal,18
-Brahman (Maingal),OWNS,sheep and goats,Maingal,18
-Brahman (Maingal),OWNS,sheep and goats,Maingal,38
-Brahman (Maingal),OWNS,sheep and goats,Maingal,38
-Brahman (Maingal),AFFECTED_BY,indebtedness,Maingal,42
 Brahman (Maingal),OWNS,cattle,Maingal,48
 Brahman (Maingal),OWNS,sheep,Maingal,48
 Brahman (Maingal),OWNS,sheep,Maingal,48
 Brahman (Maingal),OWNS,goats,Maingal,48
 Brahman (Maingal),OWNS,goats,Maingal,48
-Rajput (Maingal),OWNS,sheep and goats,Maingal,38
-Rajput (Maingal),OWNS,cattle,Maingal,48
-Rajput (Maingal),OWNS,sheep,Maingal,48
-Rajput (Maingal),OWNS,goats,Maingal,48
 moneylender (Maingal),LENDS_TO,Gujjar (Maingal),Maingal,42
 moneylender (Maingal),LENDS_TO,Gujjar (Maingal),Maingal,42
 moneylender (Maingal),LENDS_TO,Gujjar (Maingal),Maingal,60
 moneylender (Maingal),LENDS_TO,Gujjar (Maingal),Maingal,42
+moneylender,LENDS_TO,households,Rose,341
+moneylender,LENDS_TO,households,Rose,341
+moneylender,LENDS_TO,households,Rose,341
+moneylender,HOLDS_RIGHTS_OVER,Trade between the hills and the plains,Rose,341
+moneylender,LOCATED_IN,Kangra,Rose,341
 shopkeeper (Maingal),BUYS_FROM,Gujjar (Maingal),Maingal,48
 shopkeeper (Maingal),LENDS_TO,Gujjar (Maingal),Maingal,61
 shopkeeper (Maingal),LENDS_TO,Gujjar (Maingal),Maingal,61
 Lohar (Maingal),OWNS,cattle,Maingal,48
 Lohar (Maingal),OWNS,sheep,Maingal,48
 Lohar (Maingal),OWNS,goats,Maingal,48
-"flocks from Ashang, Pangi, Rogi, Kalpa and Nachar",MIGRATES_TO,Suni,Kanum,10
-"flocks from Ashang, Pangi, Rogi, Kalpa and Nachar",MIGRATES_TO,Tata Pani,Kanum,10
-"flocks from Ashang, Pangi, Rogi, Kalpa and Nachar",MIGRATES_TO,Karsog,Kanum,10
-Kanum,HAS_POPULATION,population,Kanum,15
+Rajput (Maingal),OWNS,cattle,Maingal,48
+Rajput (Maingal),OWNS,sheep,Maingal,48
+Rajput (Maingal),OWNS,goats,Maingal,48
+Sirmur,SELLS_TO,households (Chergaon),Chergaon,66
+Kanum,HAS_POPULATION,households (Kanum),Kanum,15
+Kanum,HAS_POPULATION,households (Kanum),Kanum,16
+Kanum,HAS_POPULATION,households (Kanum),Kanum,55
+Kanum,HAS_POPULATION,households (Kanum),Kanum,55
+Kanum,HAS_POPULATION,households (Kanum),Kanum,131
+Kanum,HAS_POPULATION,households (Kanum),Kanum,133
 Kanum,LOCATED_ON,Sutlej,Kanum,15
 Kanum,LOCATED_ON,Sutlej,Kanum,19
-Kanum,AFFECTED_BY,Road construction,Kanum,15
-Kanum,AFFECTED_BY,Road construction,Kanum,15
-Kanum,AFFECTED_BY,Road construction,Kanum,85
-Kanum,AFFECTED_BY,Road construction,Kanum,130
-Kanum,AFFECTED_BY,Road construction,Kanum,130
-Kanum,AFFECTED_BY,Road construction,Kanum,130
-Kanum,AFFECTED_BY,Road construction,Kanum,130
-Kanum,AFFECTED_BY,Road construction,Kanum,130
-Kanum,AFFECTED_BY,Road construction,Kanum,133
-Kanum,AFFECTED_BY,Road construction,Kanum,133
-Kanum,AFFECTED_BY,Road construction,Kanum,133
-Kanum,HAS_POPULATION,persons,Kanum,16
-Kanum,AFFECTED_BY,ending of trade with Gartok,Kanum,16
 Kanum,TRADES_AT,Lavi fair,Kanum,50
 Kanum,TRADES_AT,Karsog,Kanum,50
 Kanum,TRADES_AT,Bilaspur,Kanum,50
@@ -811,16 +770,16 @@ Kanum,TRADES_AT,Arki,Kanum,50
 Kanum,TRADES_AT,Seoni,Kanum,50
 Kanum,TRADES_AT,Mehlog,Kanum,50
 Kanum,TRADES_AT,Sirmur,Kanum,50
-Kanum,CARRIES,goat-hair bags,Kanum,50
-Kanum,HAS_POPULATION,households (Kanum),Kanum,55
-Kanum,HAS_POPULATION,households (Kanum),Kanum,55
-Kanum,HAS_POPULATION,households (Kanum),Kanum,131
-Kanum,HAS_POPULATION,households (Kanum),Kanum,133
+Kanum,CARRIES,goat-hair bag,Kanum,50
+Kanum,AFFECTED_BY,Road construction,Kanum,85
+Kanum,AFFECTED_BY,Road construction,Kanum,130
+Kanum,AFFECTED_BY,Road construction,Kanum,133
+Kanum,AFFECTED_BY,Road construction,Kanum,133
+Kanum,AFFECTED_BY,Road construction,Kanum,133
 households (Kanum),MIGRATES_TO,low hills,Kanum,16
 households (Kanum),MIGRATES_TO,low hills,Kanum,51
 households (Kanum),MIGRATES_TO,low hills,Kanum,67
 households (Kanum),MIGRATES_TO,low hills,Kanum,85
-households (Kanum),GRAZES_AT,low hills,Kanum,85
 households (Kanum),MIGRATES_TO,low hills,Kanum,85
 households (Kanum),MIGRATES_TO,low hills,Kanum,85
 households (Kanum),MIGRATES_TO,low hills,Kanum,136
@@ -830,8 +789,10 @@ households (Kanum),HOLDS_RIGHTS_OVER,chilgoza,Kanum,51
 households (Kanum),CARRIES,chilgoza,Kanum,85
 households (Kanum),CARRIES,chilgoza,Kanum,85
 households (Kanum),HOLDS_RIGHTS_OVER,chilgoza,Kanum,133
+households (Kanum),CARRIES,chilgoza,Kanum,16
 households (Kanum),CARRIES,wool,Kanum,16
 households (Kanum),CARRIES,wool,Kanum,85
+households (Kanum),CARRIES,wool,Kanum,16
 households (Kanum),CARRIES,woollens,Kanum,16
 households (Kanum),CARRIES,woollens,Kanum,85
 households (Kanum),CARRIES,pashm,Kanum,16
@@ -842,14 +803,17 @@ households (Kanum),TRADES_AT,Lavi fair,Kanum,16
 households (Kanum),SELLS_TO,Lavi fair,Kanum,51
 households (Kanum),TRADES_AT,Lavi fair,Kanum,85
 households (Kanum),TRADES_AT,Lavi fair,Kanum,131
+households (Kanum),TRADES_AT,Lavi fair,Kanum,16
 households (Kanum),TRADES_AT,Sirmur,Kanum,16
 households (Kanum),MIGRATES_TO,Sirmur,Kanum,85
 households (Kanum),TRADES_AT,Seoni,Kanum,16
 households (Kanum),MIGRATES_TO,Seoni,Kanum,85
 households (Kanum),TRADES_AT,Arki,Kanum,16
 households (Kanum),MIGRATES_TO,Arki,Kanum,85
+households (Kanum),MIGRATES_TO,Arki,Kanum,85
 households (Kanum),TRADES_AT,Suket,Kanum,16
 households (Kanum),TRADES_AT,Bilaspur,Kanum,16
+households (Kanum),MIGRATES_TO,Bilaspur,Kanum,85
 households (Kanum),MIGRATES_TO,Bilaspur,Kanum,85
 households (Kanum),TRADES_AT,Mehlog,Kanum,16
 households (Kanum),MIGRATES_TO,Mehlog,Kanum,85
@@ -878,11 +842,12 @@ households (Kanum),BUYS_FROM,Tibet,Kanum,131
 households (Kanum),SELLS_TO,Tibet,Kanum,131
 households (Kanum),BUYS_FROM,Tibet,Kanum,131
 households (Kanum),HAS_POPULATION,households (Kanum),Kanum,51
+households (Kanum),HAS_POPULATION,households (Kanum),Kanum,131
 households (Kanum),OWNS,sheep and goats,Kanum,53
 households (Kanum),OWNS,sheep and goats,Kanum,61
 households (Kanum),OWNS,sheep and goats,Kanum,85
 households (Kanum),PAYS_DUES_TO,moneylender (Kanum),Kanum,55
-households (Kanum),PAYS_DUES_TO,creditors,Kanum,55
+households (Kanum),PAYS_DUES_TO,moneylender (Kanum),Kanum,55
 households (Kanum),OWNS,cattle,Kanum,61
 households (Kanum),AFFECTED_BY,fodder scarcity,Kanum,61
 households (Kanum),MIGRATES_TO,Karsog,Kanum,85
@@ -894,84 +859,75 @@ households (Kanum),GRAZES_AT,Rao,Kanum,85
 households (Kanum),GRAZES_AT,Runang,Kanum,85
 households (Kanum),GRAZES_AT,Hangrang valley,Kanum,85
 households (Kanum),GRAZES_AT,Dubbling,Kanum,85
-households (Kanum),GRAZES_AT,Shayal-K.har,Kanum,85
+households (Kanum),GRAZES_AT,Shayal-Khar,Kanum,85
 households (Kanum),WORKS_AS,agricultural labourer (Kanum),Kanum,85
-households (Kanum),WORKS_AS,water carrier,Kanum,85
-households (Kanum),WORKS_AS,woodcutter,Kanum,85
-households (Kanum),WORKS_AS,construction labourer,Kanum,85
-households (Kanum),WORKS_AS,manure carrier,Kanum,85
-households (Kanum),HAS_POPULATION,households engaged in trade,Kanum,131
+households (Kanum),WORKS_AS,water carrier (Kanum),Kanum,85
+households (Kanum),WORKS_AS,woodcutter (Kanum),Kanum,85
+households (Kanum),WORKS_AS,construction labourer (Kanum),Kanum,85
+households (Kanum),WORKS_AS,manure carrier (Kanum),Kanum,85
 households (Kanum),AFFECTED_BY,Closure of trade with Tibet,Kanum,131
 households (Kanum),BUYS_FROM,Rampur,Kanum,131
-households (Kanum),GRAZES_AT,protected area,Kanum,133
+households (Kanum),GRAZES_AT,pasture,Kanum,133
 households (Kanum),HOLDS_RIGHTS_OVER,pasture,Kanum,133
 households (Kanum),HOLDS_RIGHTS_OVER,pasture,Kanum,133
 households (Kanum),OWNS,pasture,Kanum,136
 households (Kanum),HOLDS_RIGHTS_OVER,torchwood,Kanum,133
-households (Kanum),SELLS_TO,muleteer,Kanum,133
+households (Kanum),SELLS_TO,muleteer (Kanum),Kanum,133
 households (Kanum),OWNS,land,Kanum,136
-households (Kanum),MIGRATES_TO,PaUa,Kanum,136
+households (Kanum),MIGRATES_TO,Paua,Kanum,136
 households (Kanum),CARRIES,cloth,Kanum,136
 households (Kanum),CARRIES,pulses,Kanum,136
 households (Kanum),CARRIES,jaggery,Kanum,136
 households (Kanum),MIGRATES_TO,Shayalkhar,Kanum,136
 households (Kanum),PAYS_DUES_TO,Bushahr ruler,Kanum,18
-well-to-do people of Kanum,BUYS_FROM,Gartok,Kanum,16
-well-to-do people of Kanum,BUYS_FROM,Gartok,Kanum,16
-Primary Owner,HOLDS_RIGHTS_OVER,pasture,Kanum,18
+Well-to-do people (Kanum),BUYS_FROM,Gartok,Kanum,16
+Well-to-do people (Kanum),BUYS_FROM,Gartok,Kanum,16
+Well-to-do people (Kanum),TRADES_AT,Gartok,Kanum,16
+Bushahr ruler,HOLDS_RIGHTS_OVER,pasture,Kanum,18
 landholders (Kanum),OWNS,land,Kanum,18
-landholders (Kanum),PAYS_DUES_TO,Primary Owner,Kanum,18
-landholders (Kanum),PAYS_DUES_TO,Ruling Chief,Kanum,18
-landholders (Kanum),TRADES_AT,Gartok,Kanum,16
+landholders (Kanum),OWNS,land,Kanum,53
+landholders (Kanum),PAYS_DUES_TO,Bushahr ruler,Kanum,18
+landholders (Kanum),PAYS_DUES_TO,Bushahr ruler,Kanum,18
+landholders (Kanum),SELLS_TO,Scheduled castes (Kanum),Kanum,53
 landholders (Kanum),HIRES,fawal (Kanum),Kanum,51
 Koli (Kanum),HAS_POPULATION,households (Kanum),Kanum,18
 Koli (Kanum),MIGRATES_TO,Moorang,Kanum,18
 Koli (Kanum),MIGRATES_TO,Kanum,Kanum,18
 Koli (Kanum),MIGRATES_TO,Kanum,Kanum,18
 Koli (Kanum),OWNS,sheep and goats,Kanum,61
-middlemen,LENDS_TO,Namsha,Kanum,44
-Negi,OWNS,goats,Kanum,51
-Negi,OWNS,sheep,Kanum,51
-scheduled castes,OWNS,goats and sheep,Kanum,51
-Chamang,HAS_POPULATION,households (Kanum),Kanum,51
-Chamang,HAS_POPULATION,households (Kanum),Kanum,51
-Chamang,HAS_POPULATION,households (Kanum),Kanum,53
-Chamang,WORKS_AS,road labourer (Kanum),Kanum,53
+middleman (Kanum),LENDS_TO,Namsha (Kanum),Kanum,44
+Negi (Kanum),OWNS,goats,Kanum,51
+Negi (Kanum),OWNS,sheep,Kanum,51
+Scheduled castes (Kanum),OWNS,sheep and goats,Kanum,51
+Scheduled castes (Kanum),PAYS_DUES_TO,moneylender (Kanum),Kanum,53
+Chamang (Kanum),HAS_POPULATION,households (Kanum),Kanum,51
+Chamang (Kanum),HAS_POPULATION,households (Kanum),Kanum,51
+Chamang (Kanum),HAS_POPULATION,households (Kanum),Kanum,53
+Chamang (Kanum),WORKS_AS,road labourer (Kanum),Kanum,53
 Badhi (Kanum),HAS_POPULATION,households (Kanum),Kanum,51
 Doomna (Kanum),HAS_POPULATION,households (Kanum),Kanum,51
-Rajput (Kanum),HIRES,rigri,Kanum,51
-Rajput (Kanum),HIRES,rigri,Kanum,51
-Rajput (Kanum),HIRES,rigri,Kanum,51
-Rajput (Kanum),HIRES,rigri,Kanum,51
-Rajput (Kanum),HIRES,rigri,Kanum,51
+Rajput (Kanum),HIRES,rigri (Kanum),Kanum,51
+Rajput (Kanum),HIRES,rigri (Kanum),Kanum,51
+Rajput (Kanum),HIRES,rigri (Kanum),Kanum,51
+Rajput (Kanum),HIRES,rigri (Kanum),Kanum,51
+Rajput (Kanum),HIRES,rigri (Kanum),Kanum,51
 Rajput (Kanum),HIRES,fawal (Kanum),Kanum,51
 Rajput (Kanum),HIRES,fawal (Kanum),Kanum,51
 Rajput (Kanum),HIRES,fawal (Kanum),Kanum,51
-Rajput (Kanum),WORKS_AS,agriculturist,Kanum,56
-village's biggest landlord,OWNS,land,Kanum,53
-village's biggest landlord,SELLS_TO,Scheduled castes and others,Kanum,53
-moneylender (Kanum),LENDS_TO,Scheduled castes and others,Kanum,53
+Rajput (Kanum),WORKS_AS,agriculturist (Kanum),Kanum,56
+moneylender (Kanum),LENDS_TO,Scheduled castes (Kanum),Kanum,53
 moneylender (Kanum),HIRES,agricultural labourer (Kanum),Kanum,53
 moneylender (Kanum),LENDS_TO,households (Kanum),Kanum,55
 moneylender (Kanum),LENDS_TO,households (Kanum),Kanum,55
-moneylender (Kanum),LENDS_TO,debtors,Kanum,56
-Scheduled castes and others,PAYS_DUES_TO,moneylender (Kanum),Kanum,53
-creditors,LENDS_TO,households (Kalath),Kalath,77
-agriculturists,OWNS,cattle,Kanum,56
-working members of land owners and tenants families,WORKS_AS,sheep and goat rearer,Kanum,57
-breeders,AFFECTED_BY,yak bull distribution for cross breeding,Kanum,61
-breeders,AFFECTED_BY,distribution of imported-breed rams,Kanum,61
-breeders,AFFECTED_BY,seasonal provision of improved rams,Kanum,61
+moneylender (Kanum),LENDS_TO,debtor (Kanum),Kanum,56
+agriculturist (Kanum),OWNS,cattle,Kanum,56
+breeder (Kanum),AFFECTED_BY,Distribution of yak bulls for crossbreeding,Kanum,61
+breeder (Kanum),AFFECTED_BY,Provision of improved rams,Kanum,61
+breeder (Kanum),AFFECTED_BY,seasonal provision of improved rams,Kanum,61
 Dabla temple,LENDS_TO,households (Kanum),Kanum,82
 Dabla temple,LENDS_TO,households (Kanum),Kanum,82
 Makhan Lal Negi,OWNS,sheep,Kanum,131
-Makhan Lal Negi,OWNS,asses,Kanum,131
-Makhan Lal Negi,MIGRATES_TO,Rampur,Kanum,131
-Makhan Lal Negi,MIGRATES_TO,Suket,Kanum,131
-Makhan Lal Negi,MIGRATES_TO,Naina Tikkar,Kanum,131
-Makhan Lal Negi,HIRES,agricultural labourer (Kanum),Kanum,131
-Lal Chand Negi,OWNS,goats,Kanum,132
-Lal Chand Negi,OWNS,donkeys,Kanum,132
+Makhan Lal Negi,OWNS,ass,Kanum,131
 Lal Chand Negi,OWNS,mules,Kanum,132
 Lal Chand Negi,MIGRATES_TO,Tibet,Kanum,132
 Lal Chand Negi,SELLS_TO,Tibet,Kanum,132
@@ -979,74 +935,72 @@ Lal Chand Negi,HIRES,fawal (Kanum),Kanum,132
 Lal Chand Negi,HIRES,fawal (Kanum),Kanum,132
 Lal Chand Negi,TRADES_AT,Lavi fair,Kanum,132
 Lal Chand Negi,CARRIES,grain,Kanum,132
-Lal Chand Negi,WORKS_AS,Secretary of the Gram Panchayat,Kanum,132
+Lal Chand Negi,WORKS_AS,Gram Panchayat secretary (Kanum),Kanum,132
 Padam Ram,SELLS_TO,Tibet,Kanum,132
 Padam Ram,CARRIES,wool,Kanum,132
 Padam Ram,CARRIES,pashm,Kanum,132
 Padam Ram,CARRIES,ghee,Kanum,132
 Padam Ram,AFFECTED_BY,Closure of Tibet border,Kanum,132
-Padam Ram,LENDS_TO,debtors,Kanum,132
-Padam Ram,LENDS_TO,debtors,Kanum,132
-Padam Ram,LENDS_TO,debtors,Kanum,132
-bigger farmers,GRAZES_AT,Hangrang valley,Kanum,133
-muleteer,MOVES_VIA,Road construction,Kanum,133
-shopkeeper (Kanum),TRADES_AT,Kanum,Kanum,133
+Padam Ram,LENDS_TO,debtor (Kanum),Kanum,132
+Padam Ram,LENDS_TO,debtor (Kanum),Kanum,132
+Padam Ram,LENDS_TO,debtor (Kanum),Kanum,132
+larger farmers (Kanum),GRAZES_AT,Hangrang valley,Kanum,133
+muleteer (Kanum),MOVES_VIA,Road construction,Kanum,133
 Spillo,AFFECTED_BY,Road construction,Kanum,133
 Narbu's father,WORKS_AS,shepherd (Kanum),Kanum,134
 Narbu,WORKS_AS,shepherd (Kanum),Kanum,134
 Narbu,WORKS_AS,agricultural labourer (Kanum),Kanum,134
 Norchang's household,WORKS_AS,road labourer (Kanum),Kanum,134
-Norchang's household,WORKS_AS,servant,Kanum,134
-bride,LENDS_TO,bride's father,Kothi,47
-bride,LENDS_TO,bridegroom,Nachar,23
+Norchang's household,WORKS_AS,servant (Kanum),Kanum,134
+bride (Kothi),LENDS_TO,bride's father (Kothi),Kothi,47
 Kinnaura (Kothi),MIGRATES_TO,low hills,Kothi,52
 households (Kothi),MIGRATES_TO,Kanda,Kothi,53
 households (Kothi),OWNS,sheep and goats,Kothi,79
 households (Kothi),OWNS,sheep and goats,Kothi,91
 households (Kothi),HOLDS_RIGHTS_OVER,chilgoza,Kothi,79
 households (Kothi),TRADES_AT,Lavi fair,Kothi,79
-households (Kothi),CARRIES,trading commodities,Kothi,79
+households (Kothi),CARRIES,trade good,Kothi,79
 households (Kothi),WORKS_AS,road labourer (Kothi),Kothi,79
 households (Kothi),PAYS_DUES_TO,shopkeeper (Kothi),Kothi,86
 households (Kothi),GRAZES_AT,high pastures,Kothi,91
+households (Kothi),GRAZES_AT,high pastures,Kothi,100
 households (Kothi),OWNS,sheep,Kothi,100
 households (Kothi),OWNS,goats,Kothi,100
 households (Kothi),OWNS,cattle,Kothi,100
 households (Kothi),OWNS,yak,Kothi,100
 households (Kothi),OWNS,zo,Kothi,100
 households (Kothi),OWNS,zumoo,Kothi,100
-households (Kothi),OWNS,donkeys,Kothi,100
+households (Kothi),OWNS,donkey,Kothi,100
 households (Kothi),OWNS,mules,Kothi,100
-households (Kothi),GRAZES_AT,hills,Kothi,100
-Koli (Kothi),WORKS_AS,sheep breeder,Kothi,83
+Koli (Kothi),WORKS_AS,sheep breeder (Kothi),Kothi,83
 Koli (Kothi),OWNS,sheep and goats,Kothi,102
 Kothi,HAS_POPULATION,households (Kothi),Kothi,86
 moneylender (Kothi),LENDS_TO,households (Kothi),Kothi,86
 moneylender (Kothi),LENDS_TO,households (Kothi),Kothi,86
 shopkeeper (Kothi),LENDS_TO,households (Kothi),Kothi,86
 shopkeeper (Kothi),LENDS_TO,households (Kothi),Kothi,86
-mortgagee,LENDS_TO,households (Kothi),Kothi,87
-mortgagee,LENDS_TO,households (Kothi),Kothi,87
-mortgagee,SELLS_TO,landholders (Rajana),Rajana,50
-households (Nachar),WORKS_AS,sheep breeder,Nachar,7
-households (Nachar),WORKS_AS,sheep breeder,Nachar,9
-households (Nachar),WORKS_AS,labourer,Nachar,14
-households (Nachar),WORKS_AS,mason,Nachar,14
+mortgagee (Kothi),LENDS_TO,households (Kothi),Kothi,87
+mortgagee (Kothi),LENDS_TO,households (Kothi),Kothi,87
+households (Nachar),WORKS_AS,sheep breeder (Nachar),Nachar,7
+households (Nachar),WORKS_AS,sheep breeder (Nachar),Nachar,9
+households (Nachar),WORKS_AS,labourer (Nachar),Nachar,14
+households (Nachar),WORKS_AS,mason (Nachar),Nachar,14
 households (Nachar),OWNS,sheep and goats,Nachar,18
 households (Nachar),OWNS,sheep and goats,Nachar,33
 households (Nachar),OWNS,cattle,Nachar,18
-households (Nachar),WORKS_AS,unskilled labourer,Nachar,32
-households (Nachar),WORKS_AS,manual labourer,Nachar,32
+households (Nachar),WORKS_AS,unskilled labourer (Nachar),Nachar,32
+households (Nachar),WORKS_AS,manual labourer (Nachar),Nachar,32
 households (Nachar),OWNS,sheep,Nachar,38
 households (Nachar),MIGRATES_TO,low hills,Nachar,39
 Nachar,LOCATED_ON,Sutlej,Nachar,9
 Nachar,HAS_POPULATION,households (Nachar),Nachar,9
+Nachar,HAS_POPULATION,households (Nachar),Nachar,9
 Nachar,HAS_POPULATION,households (Nachar),Nachar,31
 Nachar,HAS_POPULATION,households (Nachar),Nachar,31
 Nachar,HAS_POPULATION,households (Nachar),Nachar,32
-Nachar,HAS_POPULATION,persons,Nachar,9
 Punjab Government,HOLDS_RIGHTS_OVER,forest,Nachar,9
 Hindustan-Tibet mule road,MOVES_VIA,Nachar,Nachar,9
+bride (Nachar),LENDS_TO,bridegroom (Nachar),Nachar,23
 shopkeeper (Nachar),LENDS_TO,households (Nachar),Nachar,31
 shopkeeper (Nachar),LENDS_TO,households (Nachar),Nachar,31
 moneylender (Nachar),LENDS_TO,households (Nachar),Nachar,31
@@ -1058,15 +1012,15 @@ Kinnaura (Nachar),MIGRATES_TO,Mahasu,Nachar,33
 Kinnaura (Nachar),MIGRATES_TO,Mandi,Nachar,33
 Kinnaura (Nachar),OWNS,sheep and goats,Nachar,33
 Kinnaura (Nachar),WORKS_AS,shepherd (Nachar),Nachar,33
-Kinnaura (Nachar),WORKS_AS,unskilled labourer,Nachar,33
-Kinnaura (Nachar),OWNS,horses and asses,Nachar,33
+Kinnaura (Nachar),WORKS_AS,unskilled labourer (Nachar),Nachar,33
+Kinnaura (Nachar),OWNS,mules,Nachar,33
 Kinnaura (Nachar),CARRIES,grain,Nachar,33
 Kinnaura (Nachar),CARRIES,salt,Nachar,33
-Kinnaura (Nachar),SELLS_TO,villages visited,Nachar,33
-Kinnaura (Nachar),CARRIES,general merchandise,Nachar,33
+Kinnaura (Nachar),SELLS_TO,households (Nachar),Nachar,33
+Kinnaura (Nachar),CARRIES,trade good,Nachar,33
 Kinnaura (Nachar),CARRIES,chilgoza,Nachar,33
-Lambardar,OWNS,sheep and goats,Nachar,33
-Koli (Nachar),WORKS_AS,woollen shoe-maker,Nachar,38
+lambardar (Nachar),OWNS,sheep and goats,Nachar,33
+Koli (Nachar),WORKS_AS,woollen shoe-maker (Nachar),Nachar,38
 Shakrori,AFFECTED_BY,Road construction,Shakrori,13
 Shakrori,OWNS,buffaloes,Shakrori,75
 Shakrori,OWNS,buffaloes,Shakrori,75
@@ -1079,7 +1033,6 @@ households (Shakrori),BUYS_FROM,Suket,Shakrori,75
 households (Shakrori),BUYS_FROM,Arki,Shakrori,75
 households (Shakrori),BUYS_FROM,Nalagarh,Shakrori,75
 households (Shakrori),BUYS_FROM,Bilaspur,Shakrori,75
-households (Shakrori),MIGRATES_TO,Moongna,Shakrori,75
 households (Shakrori),SELLS_TO,Simla,Shakrori,75
 households (Shakrori),BUYS_FROM,Kinnaura (Shakrori),Shakrori,75
 households (Shakrori),OWNS,sheep,Shakrori,77
@@ -1088,34 +1041,36 @@ Kinnaura (Shakrori),MIGRATES_TO,Shakrori,Shakrori,76
 Kinnaura (Shakrori),CARRIES,woollens,Shakrori,76
 Kinnaura (Shakrori),CARRIES,chilgoza,Shakrori,76
 agricultural labourer (Shakrori),OWNS,goats,Shakrori,75
+weaver (Shakrori),BUYS_FROM,Kinnaura (Shakrori),Shakrori,77
+weaver (Shakrori),BUYS_FROM,Seoni,Shakrori,77
+weaver (Shakrori),BUYS_FROM,Simla,Shakrori,77
 households (Bir),OWNS,sheep,Bir,19
 households (Bir),OWNS,sheep,Bir,43
 households (Bir),OWNS,sheep,Bir,43
 households (Bir),OWNS,sheep,Bir,43
-households (Bir),WORKS_AS,cattle-grazing attendant,Bir,31
+households (Bir),WORKS_AS,Cattle herder (Bir),Bir,31
 households (Bir),LENDS_TO,households (Bir),Bir,35
 households (Bir),OWNS,cattle,Bir,43
 households (Bir),OWNS,cattle,Bir,43
 households (Bir),OWNS,cattle,Bir,43
-households (Bir),OWNS,he-calves,Bir,43
-households (Bir),OWNS,she-calves,Bir,43
-households (Bir),OWNS,she-calves,Bir,43
+households (Bir),OWNS,cattle,Bir,43
+households (Bir),OWNS,He-calf,Bir,43
+households (Bir),OWNS,she-calf,Bir,43
+households (Bir),OWNS,she-calf,Bir,43
 households (Bir),OWNS,buffaloes,Bir,43
 households (Bir),OWNS,buffaloes,Bir,43
-households (Bir),OWNS,bulls,Bir,43
-households (Bir),OWNS,bulls,Bir,43
 households (Bir),OWNS,goats,Bir,43
 households (Bir),OWNS,goats,Bir,43
 households (Bir),OWNS,sheep and goats,Bir,43
 households (Bir),BUYS_FROM,Gaddi (Bir),Bir,43
 households (Bir),BUYS_FROM,Gaddi (Bir),Bir,43
 households (Bir),BUYS_FROM,Gaddi (Bir),Bir,43
-households (Bir),SELLS_TO,buyers,Bir,43
+households (Bir),SELLS_TO,buyer (Bir),Bir,43
 households (Bir),BUYS_FROM,Bhangrotu,Bir,43
 households (Bir),BUYS_FROM,Suket,Bir,43
 households (Bir),TRADES_AT,Nalwari fair,Bir,43
 households (Bir),SELLS_TO,shopkeeper (Bir),Bir,43
-households (Bir),BUYS_FROM,sellers,Bir,43
+households (Bir),BUYS_FROM,Seller (Bir),Bir,43
 Rajput (Bir),OWNS,cattle,Bir,31
 Rajput (Bir),OWNS,cattle,Bir,31
 Rajput (Bir),OWNS,cattle,Bir,31
@@ -1138,30 +1093,28 @@ Bir,HAS_POPULATION,households (Bir),Bir,35
 Bir,HAS_POPULATION,households (Bir),Bir,43
 Chamar (Bir),HAS_POPULATION,households (Bir),Bir,34
 Chamar (Bir),OWNS,buffaloes,Bir,43
-Chamar (Bir),OWNS,poultry birds,Bir,43
-Chamar (Bir),OWNS,poultry birds,Bir,43
-Chamar (Bir),SELLS_TO,owner of a buffalo,Bir,44
+Chamar (Bir),OWNS,poultry bird,Bir,43
+Chamar (Bir),OWNS,poultry bird,Bir,43
+Chamar (Bir),SELLS_TO,Buffalo owner (Bir),Bir,44
 moneylender (Bir),LENDS_TO,households (Bir),Bir,35
 moneylender (Bir),LENDS_TO,households (Bir),Bir,35
-Gaddi (Bir),MIGRATES_TO,nearby area,Bir,43
+Gaddi (Bir),MIGRATES_TO,Nearby area,Bir,43
 shopkeeper (Bir),BUYS_FROM,households (Bir),Bir,43
-lower western chil forests,AFFECTED_BY,heavy grazing after rain,Bir,60
-slate and shale soil,AFFECTED_BY,soil loss under heavy grazing,Bir,61
-households (Tandi),WORKS_AS,patti weaver,Tandi,30
-households (Tandi),OWNS,sheep,Tandi,41
+Lower western chil forests,AFFECTED_BY,Heavy grazing after rain,Bir,60
+Slate and shale soil,AFFECTED_BY,Soil loss under heavy grazing,Bir,61
+households (Tandi),WORKS_AS,Patti weaver (Tandi),Tandi,30
 households (Tandi),GRAZES_AT,high pastures,Tandi,65
-households (Tandi),WORKS_AS,wool spinner,Tandi,66
-households (Tandi),WORKS_AS,weaver,Tandi,66
-households (Tandi),WORKS_AS,weaver,Tandi,66
-households (Tandi),WORKS_AS,weaver,Tandi,66
-households (Tandi),WORKS_AS,weaver,Tandi,66
-households (Tandi),WORKS_AS,weaver,Tandi,66
-households (Tandi),TRADES_AT,Tibet,Tandi,67
+households (Tandi),WORKS_AS,wool spinner (Tandi),Tandi,66
+households (Tandi),WORKS_AS,weaver (Tandi),Tandi,66
+households (Tandi),WORKS_AS,weaver (Tandi),Tandi,66
+households (Tandi),WORKS_AS,weaver (Tandi),Tandi,66
+households (Tandi),WORKS_AS,weaver (Tandi),Tandi,66
+households (Tandi),WORKS_AS,weaver (Tandi),Tandi,66
 households (Tandi),TRADES_AT,Kulu,Tandi,67
 households (Tandi),TRADES_AT,Manali,Tandi,67
 households (Tandi),LENDS_TO,households (Tandi),Tandi,67
-western Tibet trade route,MOVES_VIA,Rohtang pass,Tandi,57
-western Tibet trade route,AFFECTED_BY,Road construction,Tandi,57
+Western Tibet trade route,MOVES_VIA,Rohtang pass,Tandi,57
+Western Tibet trade route,AFFECTED_BY,Road construction,Tandi,57
 Tandi,AFFECTED_BY,Road construction,Tandi,57
 Tandi,AFFECTED_BY,Road construction,Tandi,57
 Tandi,HAS_POPULATION,households (Tandi),Tandi,57
@@ -1170,16 +1123,16 @@ Tandi,HIRES,grazier (Tandi),Tandi,65
 Tandi,HIRES,shepherd (Tandi),Tandi,65
 Tandi,HIRES,fawal (Tandi),Tandi,65
 Tandi,HIRES,fawal (Tandi),Tandi,65
-Tandi,HIRES,Totari,Tandi,65
-Tandi,HIRES,Totari,Tandi,65
-Tandi,HIRES,kU7'tsa-rantaucJl((,Tandi,65
+Tandi,HIRES,Totari (Tandi),Tandi,65
+Tandi,HIRES,Totari (Tandi),Tandi,65
+Tandi,HIRES,Kutsa-rantauch (Tandi),Tandi,65
 Tandi,LOCATED_ON,Chenab,Tandi,11
 shopkeeper (Tandi),CARRIES,yak,Tandi,65
-Bodh households,OWNS,cattle,Tandi,65
-Bodh households,OWNS,cattle,Tandi,65
-Bodh households,OWNS,mules,Tandi,65
-Bodh households,OWNS,sheep,Tandi,65
-Bodh households,OWNS,churis,Tandi,65
+Bodh households (Tandi),OWNS,cattle,Tandi,65
+Bodh households (Tandi),OWNS,cattle,Tandi,65
+Bodh households (Tandi),OWNS,mules,Tandi,65
+Bodh households (Tandi),OWNS,sheep,Tandi,65
+Bodh households (Tandi),OWNS,Churi,Tandi,65
 Lohar (Tandi),OWNS,goats,Tandi,65
 Lohar (Tandi),OWNS,goats,Tandi,96
 Lohar (Tandi),OWNS,sheep,Tandi,65
@@ -1196,59 +1149,48 @@ Bodh (Tandi),HAS_POPULATION,households (Tandi),Tandi,70
 Bodh (Tandi),HAS_POPULATION,households (Tandi),Tandi,96
 Bodh (Tandi),OWNS,sheep,Tandi,96
 Bodh (Tandi),OWNS,goats,Tandi,96
-Lahar,AFFECTED_BY,indebtedness,Tandi,67
+Lahula (Tandi),AFFECTED_BY,indebtedness,Tandi,67
 landholders (Tandi),LENDS_TO,households (Tandi),Tandi,67
 landholders (Tandi),LENDS_TO,households (Tandi),Tandi,67
 landholders (Tandi),LENDS_TO,Lohar (Tandi),Tandi,70
 moneylender (Tandi),LENDS_TO,households (Tandi),Tandi,67
 moneylender (Tandi),LENDS_TO,households (Tandi),Tandi,67
 moneylender (Tandi),LENDS_TO,Bodh (Tandi),Tandi,70
-Government Departments,LENDS_TO,households (Tandi),Tandi,67
-Government agencies,LENDS_TO,households (Tandi),Tandi,67
 households (Basal),OWNS,livestock,Basal,30
-households (Basal),SELLS_TO,market,Basal,30
-households (Basal),LENDS_TO,households (Basal),Basal,62
+households (Basal),SELLS_TO,Market,Basal,30
 households (Basal),OWNS,cattle,Basal,77
 households (Basal),OWNS,buffaloes,Basal,77
 households (Basal),OWNS,sheep and goats,Basal,77
-households (Basal),GRAZES_AT,jungle,Basal,77
-households (Basal),SELLS_TO,town,Basal,77
+households (Basal),GRAZES_AT,forest,Basal,77
+households (Basal),SELLS_TO,Town,Basal,77
 households (Basal),OWNS,sheep,Basal,79
-households (Basal),BUYS_FROM,weaver,Basal,79
-Basal,HAS_POPULATION,households (Basal),Basal,62
-unspecified lenders,LENDS_TO,households (Basal),Basal,62
-unspecified lenders,LENDS_TO,households (Basal),Basal,62
-unspecified lenders,LENDS_TO,households (Kot),Kot,47
-unspecified lenders,LENDS_TO,households (Kot),Kot,47
-unspecified lenders,LENDS_TO,households (Kot),Kot,47
-unspecified lenders,LENDS_TO,households (Kot),Kot,47
-unspecified lenders,LENDS_TO,households (Kot),Kot,47
-well-to-do farmers,LENDS_TO,households (Basal),Basal,62
-well-to-do farmers,LENDS_TO,households (Basal),Basal,62
-well-to-do farmers,LENDS_TO,households (Basal),Basal,62
+households (Basal),BUYS_FROM,weaver (Basal),Basal,79
+moneylender (Basal),LENDS_TO,households (Basal),Basal,62
+moneylender (Basal),LENDS_TO,households (Basal),Basal,62
+well-to-do farmers (Basal),LENDS_TO,households (Basal),Basal,62
+well-to-do farmers (Basal),LENDS_TO,households (Basal),Basal,62
+well-to-do farmers (Basal),LENDS_TO,households (Basal),Basal,62
 Batal,HAS_POPULATION,households (Batal),Batal,16
 Batal,HAS_POPULATION,households (Batal),Batal,16
-Batal,GRAZES_AT,pasture grounds,Batal,43
+Batal,GRAZES_AT,pasture,Batal,43
 households (Batal),OWNS,sheep and goats,Batal,16
 households (Batal),OWNS,sheep and goats,Batal,43
 households (Batal),HOLDS_RIGHTS_OVER,grazing rights,Batal,21
 households (Batal),OWNS,cattle,Batal,43
 households (Batal),OWNS,sheep,Batal,46
-households (Batal),BUYS_FROM,market,Batal,46
+households (Batal),BUYS_FROM,Market,Batal,46
 households (Batal),BUYS_FROM,Kinnaura (Batal),Batal,46
-households (Batal),WORKS_AS,spinner,Batal,46
-moneylender (Batal),LENDS_TO,persons with scanty means of repayment,Batal,37
+households (Batal),WORKS_AS,spinner (Batal),Batal,46
 moneylender (Batal),LENDS_TO,households (Batal),Batal,38
 shopkeeper (Batal),LENDS_TO,households (Batal),Batal,38
 Kinnaura (Batal),MIGRATES_TO,Seri,Batal,46
 Chaunri,OWNS,cattle,Chaunri,34
 Chaunri,OWNS,buffaloes,Chaunri,34
 Chaunri,OWNS,sheep and goats,Chaunri,34
-agriculturist families,OWNS,cattle,Chaunri,34
-buffalo-rearing families,SELLS_TO,halwais,Chaunri,34
+Agriculturist family (Chaunri),OWNS,cattle,Chaunri,34
+Buffalo-rearing family (Chaunri),SELLS_TO,Halwai (Chaunri),Chaunri,34
 Gaddi (Chauntra),OWNS,sheep and goats,Chauntra,7
-Gaddi (Chauntra),GRAZES_AT,Chauntra,Chauntra,7
-Chauntra,LOCATED_ON,"Ba,)gar Khad",Chauntra,11
+Chauntra,LOCATED_ON,Bagar Khad,Chauntra,11
 Chauntra,LOCATED_ON,Makkar Nal,Chauntra,11
 Chauntra,HAS_POPULATION,households (Chauntra),Chauntra,52
 Chauntra,HAS_POPULATION,households (Chauntra),Chauntra,52
@@ -1258,49 +1200,45 @@ shepherd (Chauntra),OWNS,sheep and goats,Chauntra,16
 Raja Bijai Sen,OWNS,tea plantation,Chauntra,16
 Brahman (Chauntra),OWNS,land,Chauntra,16
 Brahman (Chauntra),OWNS,sheep and goats,Chauntra,46
-other communities,OWNS,land,Chauntra,16
+other communities (Chauntra),OWNS,land,Chauntra,16
 households (Chauntra),OWNS,cattle,Chauntra,47
 households (Chauntra),GRAZES_AT,Chauntra,Chauntra,47
-households (Chauntra),WORKS_AS,labourer,Chauntra,63
+households (Chauntra),WORKS_AS,labourer (Chauntra),Chauntra,63
 moneylender (Chauntra),LENDS_TO,households (Chauntra),Chauntra,52
 Sahai,HOLDS_RIGHTS_OVER,right to collect grazing fees,Chauntra,88
 Sahai,HOLDS_RIGHTS_OVER,land revenue and dues,Chauntra,88
 Sahai,HOLDS_RIGHTS_OVER,land revenue and dues,Chauntra,88
 Sahai,HOLDS_RIGHTS_OVER,free service,Chauntra,88
-Chaupal,OWNS,buffaloes,Chaupal,16
-Chaupal,OWNS,goats,Chaupal,16
-Chaupal,OWNS,sheep,Chaupal,16
-Chaupal,OWNS,cattle,Chaupal,16
-Chaupal,HAS_POPULATION,households (Chaupal),Chaupal,56
 households (Chaupal),OWNS,cattle,Chaupal,47
 households (Chaupal),OWNS,cattle,Chaupal,47
-households (Chaupal),GRAZES_AT,jungle,Chaupal,47
-households (Chaupal),GRAZES_AT,jungle,Chaupal,47
+households (Chaupal),OWNS,buffaloes,Chaupal,47
+households (Chaupal),GRAZES_AT,forest,Chaupal,47
+households (Chaupal),GRAZES_AT,forest,Chaupal,47
+households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
+households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
+households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
+households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
+households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
 households (Chaupal),HIRES,grazier (Chaupal),Chaupal,47
-households (Chaupal),GRAZES_AT,nearby pastures,Chaupal,47
+households (Chaupal),GRAZES_AT,pasture,Chaupal,47
 households (Chaupal),OWNS,sheep,Chaupal,54
-households (Chaupal),WORKS_AS,spinner,Chaupal,54
+households (Chaupal),WORKS_AS,spinner (Chaupal),Chaupal,54
+households (Chaupal),OWNS,bees,Chaupal,54
 households (Chaupal),SELLS_TO,open market,Chaupal,54
 households (Chaupal),BUYS_FROM,households (Chaupal),Chaupal,54
-households (Chaupal),CARRIES,potatoes,Chaupal,54
+households (Chaupal),CARRIES,potato,Chaupal,54
 households (Chaupal),SELLS_TO,Simla,Chaupal,54
-households (Chaupal),HIRES,grinder,Chaupal,54
-households (Chaupal),HIRES,grinder,Chaupal,54
-households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
-households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
-households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
-households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
-households (Chaupal),HOLDS_RIGHTS_OVER,forest,Chaupal,55
+households (Chaupal),HIRES,grinder (Chaupal),Chaupal,54
+households (Chaupal),HIRES,grinder (Chaupal),Chaupal,54
 households (Chaupal),HOLDS_RIGHTS_OVER,grazing rights,Chaupal,55
 households (Chaupal),HOLDS_RIGHTS_OVER,grazing rights,Chaupal,55
 households (Chaupal),WORKS_AS,agricultural labourer (Chaupal),Chaupal,56
 households (Chaupal),CARRIES,grass,Chaupal,59
-households (Chaupal),WORKS_AS,wool spinner,Chaupal,69
-households (Chaupal),WORKS_AS,cattle tender,Chaupal,69
-slate quarries,LOCATED_IN,nearby grazing pastures,Chaupal,20
-better-off families,OWNS,buffaloes,Chaupal,47
-Jujjars,MIGRATES_TO,Chaupal,Chaupal,52
-housekeepers,OWNS,bees,Chaupal,54
+households (Chaupal),WORKS_AS,wool spinner (Chaupal),Chaupal,69
+households (Chaupal),WORKS_AS,cattle tender (Chaupal),Chaupal,69
+slate quarry,LOCATED_IN,pasture,Chaupal,20
+Gujjar (Chaupal),MIGRATES_TO,Chaupal,Chaupal,52
+Chaupal,HAS_POPULATION,households (Chaupal),Chaupal,56
 Brahman (Chaupal),HAS_POPULATION,households (Chaupal),Chaupal,56
 Brahman (Chaupal),OWNS,goats,Chaupal,48
 Chamar (Chaupal),OWNS,goats,Chaupal,48
@@ -1318,28 +1256,26 @@ Chergaon,HAS_POPULATION,households (Chergaon),Chergaon,19
 Chergaon,HAS_POPULATION,households (Chergaon),Chergaon,65
 Chergaon,HAS_POPULATION,households (Chergaon),Chergaon,65
 Chergaon,HAS_POPULATION,households (Chergaon),Chergaon,66
-households (Chergaon),HOLDS_RIGHTS_OVER,"Punjali, Bobla and Sa:ndasu forest ranges",Chergaon,23
+households (Chergaon),HOLDS_RIGHTS_OVER,forest,Chergaon,23
 households (Chergaon),OWNS,buffaloes,Chergaon,30
 households (Chergaon),OWNS,buffaloes,Chergaon,70
 households (Chergaon),SELLS_TO,shopkeeper (Chergaon),Chergaon,30
-households (Chergaon),SELLS_TO,Government officials,Chergaon,30
+households (Chergaon),SELLS_TO,government official (Chergaon),Chergaon,30
 households (Chergaon),WORKS_AS,road labourer (Chergaon),Chergaon,54
 households (Chergaon),WORKS_AS,road labourer (Chergaon),Chergaon,66
-households (Chergaon),WORKS_AS,building construction labourer,Chergaon,54
+households (Chergaon),WORKS_AS,building construction labourer (Chergaon),Chergaon,54
 households (Chergaon),OWNS,sheep and goats,Chergaon,57
 households (Chergaon),HIRES,fawal (Chergaon),Chergaon,57
-households (Chergaon),WORKS_AS,weaver,Chergaon,60
+households (Chergaon),WORKS_AS,weaver (Chergaon),Chergaon,60
 households (Chergaon),OWNS,sheep,Chergaon,61
 households (Chergaon),BUYS_FROM,Rampur,Chergaon,61
-households (Chergaon),BUYS_FROM,Dodra-Kawar illaqa,Chergaon,61
-households (Chergaon),SAYS,wool,Chergaon,61
+households (Chergaon),BUYS_FROM,Dodra-Kawar,Chergaon,61
 households (Chergaon),HOLDS_RIGHTS_OVER,pasture,Chergaon,63
-households (Chergaon),GRAZES_AT,hills around Chergaon,Chergaon,63
-Jubbal devta,COLLECTS_FEE_FROM,Khabbal villagers,Chergaon,22
+households (Chergaon),HOLDS_RIGHTS_OVER,pasture,Chergaon,80
+households (Chergaon),GRAZES_AT,high pastures,Chergaon,63
+households (Chergaon),GRAZES_AT,Kalkapattam mountain,Chergaon,80
+Jubbal devta,COLLECTS_FEE_FROM,households,Chergaon,22
 Jubbal devta,PAYS_DUES_TO,Thakur Lila Singh,Chergaon,22
-Khabbal villagers,GRAZES_AT,Kalkapattam mountain,Chergaon,80
-Khabbal villagers,HOLDS_RIGHTS_OVER,pasture,Chergaon,80
-Rajput,HOLDS_RIGHTS_OVER,Kalka-pattam mountain,Chergaon,22
 Rajput (Chergaon),HAS_POPULATION,households (Chergaon),Chergaon,22
 Rajput (Chergaon),LENDS_TO,Koli (Chergaon),Chergaon,54
 Rajput (Chergaon),LENDS_TO,Rajput (Chergaon),Chergaon,54
@@ -1347,6 +1283,7 @@ Rajput (Chergaon),WORKS_AS,moneylender (Chergaon),Chergaon,65
 Rajput (Chergaon),OWNS,sheep and goats,Chergaon,56
 Rajput (Chergaon),OWNS,sheep and goats,Chergaon,56
 shopkeeper (Chergaon),SELLS_TO,households (Chergaon),Chergaon,62
+shopkeeper (Chergaon),BUYS_FROM,households (Chergaon),Chergaon,66
 shopkeeper (Chergaon),BUYS_FROM,households (Chergaon),Chergaon,70
 shopkeeper (Chergaon),OWNS,mules,Chergaon,63
 shopkeeper (Chergaon),OWNS,cattle,Chergaon,63
@@ -1359,55 +1296,51 @@ moneylender (Chergaon),LENDS_TO,households (Chergaon),Chergaon,65
 moneylender (Chergaon),LENDS_TO,households (Chergaon),Chergaon,65
 moneylender (Chergaon),LENDS_TO,households (Chergaon),Chergaon,66
 moneylender (Chergaon),OWNS,jewellery,Chergaon,54
-moneylender (Chergaon),LENDS_TO,peasant,Chergaon,55
-moneylender (Chergaon),LENDS_TO,farmers,Chergaon,90
-Koli (Chergaon),OWNS,cattle carcasses,Chergaon,57
+moneylender (Chergaon),LENDS_TO,farmer (Chergaon),Chergaon,90
+Koli (Chergaon),OWNS,cattle carcass,Chergaon,57
 Koli (Chergaon),SELLS_TO,Rajput (Chergaon),Chergaon,63
 Koli (Chergaon),SELLS_TO,Rajput (Chergaon),Chergaon,63
 Koli (Chergaon),SELLS_TO,shopkeeper (Chergaon),Chergaon,63
 Koli (Chergaon),OWNS,sheep and goats,Chergaon,56
-mortgagor,PAYS_DUES_TO,mortgagee,Chergaon,55
-mortgagor,PAYS_DUES_TO,mortgagee,Chergaon,55
-mortgagor,PAYS_DUES_TO,mortgagee,Chergaon,55
-rich family,LENDS_TO,man,Chergaon,55
-rich family,HIRES,agricultural labourer (Chergaon),Chergaon,55
-rich family,LENDS_TO,debtor,Chergaon,55
-debtor or family members,WORKS_AS,agricultural labourer (Chergaon),Chergaon,55
-debtor or family members,WORKS_AS,agricultural labourer (Chergaon),Chergaon,55
+mortgagor (Chergaon),PAYS_DUES_TO,mortgagee (Chergaon),Chergaon,55
+mortgagor (Chergaon),PAYS_DUES_TO,mortgagee (Chergaon),Chergaon,55
+mortgagor (Chergaon),PAYS_DUES_TO,mortgagee (Chergaon),Chergaon,55
+rich family (Chergaon),LENDS_TO,man,Chergaon,55
+rich family (Chergaon),HIRES,agricultural labourer (Chergaon),Chergaon,55
+rich family (Chergaon),LENDS_TO,debtor (Chergaon),Chergaon,55
+rich family (Chergaon),OWNS,pasture,Chergaon,63
+Debtors and family members (Chergaon),WORKS_AS,agricultural labourer (Chergaon),Chergaon,55
+Debtors and family members (Chergaon),WORKS_AS,agricultural labourer (Chergaon),Chergaon,55
+debtor (Chergaon),WORKS_AS,agricultural labourer (Chergaon),Chergaon,55
 fawal (Chergaon),MIGRATES_TO,high pastures,Chergaon,57
-fawal (Chergaon),WORKS_AS,wool worker,Chergaon,57
-rich families,OWNS,pasture,Chergaon,63
-women of Chergaon,CARRIES,green grass,Chergaon,63
-tenants-rigad,WORKS_AS,agricultural labourer (Chergaon),Chergaon,66
-old Sikh from Amritsar side,BUYS_FROM,households (Chergaon),Chergaon,66
-party of two-three men from Jagadhri side,BUYS_FROM,households (Chergaon),Chergaon,66
-Tibetans from Kinnaur,MIGRATES_TO,Chergaon,Chergaon,66
-Tibetans from Kinnaur,SELLS_TO,households (Chergaon),Chergaon,66
+fawal (Chergaon),WORKS_AS,wool worker (Chergaon),Chergaon,57
+women (Chergaon),CARRIES,green grass,Chergaon,63
+tenant-rigad (Chergaon),WORKS_AS,agricultural labourer (Chergaon),Chergaon,66
+itinerant coin collector (Chergaon),BUYS_FROM,households (Chergaon),Chergaon,66
+Tibetan traders (Chergaon),MIGRATES_TO,Chergaon,Chergaon,66
+Tibetan traders (Chergaon),SELLS_TO,households (Chergaon),Chergaon,66
 Kinnaura (Chergaon),SELLS_TO,households (Chergaon),Chergaon,66
 Kinnaura (Chergaon),MOVES_VIA,Sangla-Buranghati route,Chergaon,66
-visitors from Sirmur District,SELLS_TO,households (Chergaon),Chergaon,66
-potters from Mandi and Bilaspur Districts,SELLS_TO,households (Chergaon),Chergaon,66
-people from Dodrakawar,GRAZES_AT,Bilaspur,Chergaon,66
-people from Dodrakawar,GRAZES_AT,Dhami,Chergaon,66
-people from Dodrakawar,GRAZES_AT,Arki,Chergaon,66
-people from Dodrakawar,GRAZES_AT,Tatapani,Chergaon,66
-people from Dodrakawar,GRAZES_AT,Mahlog,Chergaon,66
-people from Dodrakawar,GRAZES_AT,Solon,Chergaon,66
-Gujjar (Chergaon),MIGRATES_TO,Chanshal,Chergaon,66
+Kumhar (Chergaon),SELLS_TO,households (Chergaon),Chergaon,66
+Dodrakawar people (Chergaon),GRAZES_AT,Bilaspur,Chergaon,66
+Dodrakawar people (Chergaon),GRAZES_AT,Dhami,Chergaon,66
+Dodrakawar people (Chergaon),GRAZES_AT,Arki,Chergaon,66
+Dodrakawar people (Chergaon),GRAZES_AT,Tatapani,Chergaon,66
+Dodrakawar people (Chergaon),GRAZES_AT,Mehlog,Chergaon,66
+Dodrakawar people (Chergaon),GRAZES_AT,Solon,Chergaon,66
 shepherd (Chergaon),GRAZES_AT,Surati,Chergaon,80
-shepherd (Chergaon),MOVES_VIA,Daiwanoo,Chergaon,80
 shepherd (Chergaon),AFFECTED_BY,Killing of Vaziioo,Chergaon,80
-J abbal villagers,GRAZES_AT,Kalkapattam mountain,Chergaon,80
-J abbal villagers,HOLDS_RIGHTS_OVER,pasture,Chergaon,80
-people of Garhwal and Chergaon area,GRAZES_AT,dandas on the Bushahr-Garhwal boundary,Chergaon,85
-people of Garhwal and Chergaon area,AFFECTED_BY,theft of sheep and goats by men of Chuhara valley,Chergaon,85
+Jabbal villagers (Chergaon),GRAZES_AT,Kalkapattam mountain,Chergaon,80
+Jabbal villagers (Chergaon),HOLDS_RIGHTS_OVER,pasture,Chergaon,80
+Garhwal and Chergaon-area people (Chergaon),GRAZES_AT,Bushahr-Garhwal boundary dandas,Chergaon,85
+Garhwal and Chergaon-area people (Chergaon),AFFECTED_BY,Theft of sheep and goats by men of Chuhara valley,Chergaon,85
 Kalath,HAS_POPULATION,households (Kalath),Kalath,60
 Kalath,HAS_POPULATION,households (Kalath),Kalath,60
 Kalath,HAS_POPULATION,households (Kalath),Kalath,77
 Kalath,HAS_POPULATION,households (Kalath),Kalath,77
-Kalath,SELLS_TO,neighboring villages,Kalath,77
-Kalath,BUYS_FROM,neighboring villages,Kalath,77
-households (Kalath),WORKS_AS,cattle tender,Kalath,60
+Kalath,SELLS_TO,neighboring village,Kalath,77
+Kalath,BUYS_FROM,neighboring village,Kalath,77
+households (Kalath),WORKS_AS,cattle tender (Kalath),Kalath,60
 households (Kalath),OWNS,cattle,Kalath,76
 households (Kalath),OWNS,cattle,Kalath,76
 households (Kalath),OWNS,buffaloes,Kalath,76
@@ -1420,26 +1353,31 @@ households (Kalath),GRAZES_AT,pasture,Kalath,76
 households (Kalath),HOLDS_RIGHTS_OVER,forest,Kalath,76
 households (Kalath),SELLS_TO,Dagshai,Kalath,77
 households (Kalath),SELLS_TO,Kalka,Kalath,77
-households (Kalath),AFFECTED_BY,measures extending or restricting grazing rights and forest-produce use,Kalath,94
-households (Kalath),AFFECTED_BY,abolition of forced labour,Kalath,94
 moneylender (Kalath),LENDS_TO,households (Kalath),Kalath,60
 moneylender (Kalath),LENDS_TO,households (Kalath),Kalath,60
-moneylender (Kalath),COLLECTS_FEE_FROM,households (Kalath),Kalath,60
-moneylender (Kalath),COLLECTS_FEE_FROM,households (Kalath),Kalath,60
 moneylender (Kalath),LENDS_TO,households (Kalath),Kalath,77
 moneylender (Kalath),LENDS_TO,households (Kalath),Kalath,77
-friends and relatives,LENDS_TO,households (Kalath),Kalath,60
-friends and relatives,LENDS_TO,households (Kalath),Kalath,60
-friends and relatives,LENDS_TO,households (Kalath),Kalath,77
-friends and relatives,LENDS_TO,households (Kalath),Kalath,77
-well-to-do owner cultivators,LENDS_TO,tenants,Kalath,60
-well-to-do owner cultivators,LENDS_TO,tenants,Kalath,60
-Rajput (Kalath),SELLS_TO,buyers,Kalath,77
-Ramdasi,SELLS_TO,buyers,Kalath,77
-households (Kot),LENDS_TO,unspecified lenders,Kot,47
+moneylender (Kalath),LENDS_TO,households (Kalath),Kalath,77
+friends and relatives (Kalath),LENDS_TO,households (Kalath),Kalath,60
+friends and relatives (Kalath),LENDS_TO,households (Kalath),Kalath,60
+friends and relatives (Kalath),LENDS_TO,households (Kalath),Kalath,77
+friends and relatives (Kalath),LENDS_TO,households (Kalath),Kalath,77
+landholders (Kalath),LENDS_TO,tenant (Kalath),Kalath,60
+landholders (Kalath),LENDS_TO,tenant (Kalath),Kalath,60
+Rajput (Kalath),SELLS_TO,buyer (Kalath),Kalath,77
+Ramdasi (Kalath),SELLS_TO,buyer (Kalath),Kalath,77
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
+moneylender (Kot),LENDS_TO,households (Kot),Kot,47
 households (Kot),LENDS_TO,households (Kot),Kot,48
 households (Kot),LENDS_TO,households (Kot),Kot,48
 households (Kot),LENDS_TO,households (Kot),Kot,48
+households (Kot),SELLS_TO,households (Kot),Kot,58
 households (Kot),OWNS,cattle,Kot,56
 households (Kot),OWNS,buffaloes,Kot,56
 households (Kot),OWNS,sheep and goats,Kot,56
@@ -1448,11 +1386,7 @@ households (Kot),BUYS_FROM,Sarkaghat,Kot,56
 households (Kot),BUYS_FROM,Kangra,Kot,56
 households (Kot),TRADES_AT,Barchhwar-Nalwari Fair,Kot,56
 households (Kot),OWNS,sheep,Kot,58
-households (Kot),SELLS_TO,others,Kot,58
-moneylender (Kot),LENDS_TO,households (Kot),Kot,47
-moneylender (Kot),LENDS_TO,households (Kot),Kot,47
-moneylender (Kot),LENDS_TO,households (Kot),Kot,47
-Settlers of Lahul and Lower Chaneb,MIGRATES_TO,Pangi,Kupha,20
+Settlers of Lahul and Lower Chenab,MIGRATES_TO,Pangi,Kupha,20
 Kupha,LOCATED_ON,Chenab,Kupha,21
 Kupha,HAS_POPULATION,households (Kupha),Kupha,65
 Kupha,HAS_POPULATION,households (Kupha),Kupha,69
@@ -1460,14 +1394,13 @@ Kupha,HAS_POPULATION,households (Kupha),Kupha,69
 Kupha,GRAZES_AT,Gail,Kupha,81
 Kupha,HOLDS_RIGHTS_OVER,Gail,Kupha,81
 Kupha,GRAZES_AT,Bailon,Kupha,81
-Pangwal (Kupha),MIGRATES_TO,ground storey,Kupha,27
+Pangwal (Kupha),MIGRATES_TO,Ground storey,Kupha,27
 Pangwal (Kupha),GRAZES_AT,pasture,Kupha,27
-Pangwal (Kupha),MIGRATES_TO,upper-storey,Kupha,27
+Pangwal (Kupha),MIGRATES_TO,Upper storey,Kupha,27
 Pangwal (Kupha),WORKS_AS,road labourer (Kupha),Kupha,65
 Pangwal (Kupha),TRADES_AT,Tarela,Kupha,69
 Pangwal (Kupha),CARRIES,salt,Kupha,69
 Pangwal (Kupha),SELLS_TO,shopkeeper (Kupha),Kupha,69
-households (Kupha),PAYS_DUES_TO,gawalay,Kupha,54
 households (Kupha),OWNS,sheep and goats,Kupha,55
 households (Kupha),OWNS,sheep and goats,Kupha,65
 households (Kupha),OWNS,sheep and goats,Kupha,65
@@ -1475,85 +1408,68 @@ households (Kupha),OWNS,sheep and goats,Kupha,131
 households (Kupha),OWNS,cattle,Kupha,65
 households (Kupha),OWNS,cattle,Kupha,65
 households (Kupha),OWNS,cattle,Kupha,131
-households (Kupha),OWNS,chaors and chaar,Kupha,65
-households (Kupha),WORKS_AS,woollen spinner and weaver,Kupha,65
+households (Kupha),OWNS,Chaor and chaar,Kupha,65
+households (Kupha),WORKS_AS,Woollen spinner and weaver (Kupha),Kupha,65
 households (Kupha),WORKS_AS,agricultural labourer (Kupha),Kupha,70
 households (Kupha),LENDS_TO,households (Kupha),Kupha,70
 households (Kupha),BUYS_FROM,households (Kupha),Kupha,82
-households (Kupha),OWNS,choor and choori,Kupha,80
+households (Kupha),OWNS,cow-yak crossbreed,Kupha,80
 households (Kupha),OWNS,goats,Kupha,80
 households (Kupha),OWNS,sheep,Kupha,80
 households (Kupha),BUYS_FROM,Chaurah,Kupha,80
 households (Kupha),BUYS_FROM,Bhot (Kupha),Kupha,80
-households (Kupha),GRAZES_AT,distant pastures,Kupha,80
-households (Kupha),GRAZES_AT,mountain pastures,Kupha,80
+households (Kupha),GRAZES_AT,high pastures,Kupha,80
+households (Kupha),GRAZES_AT,high pastures,Kupha,80
 households (Kupha),MIGRATES_TO,Kupha,Kupha,80
-households (Kupha),CARRIES,grass,Kupha,80
 households (Kupha),OWNS,land,Kupha,81
-households (Kupha),WORKS_AS,cattle attendant,Kupha,81
+households (Kupha),WORKS_AS,Cattle attendant (Kupha),Kupha,81
 households (Kupha),CARRIES,milk,Kupha,81
 households (Kupha),OWNS,wool,Kupha,82
-households (Kupha),WORKS_AS,spinners,Kupha,82
-households (Kupha),WORKS_AS,weavers,Kupha,82
+households (Kupha),WORKS_AS,spinner (Kupha),Kupha,82
+households (Kupha),WORKS_AS,weaver (Kupha),Kupha,82
 households (Kupha),BUYS_FROM,Lahaul,Kupha,82
-households (Kupha),GRAZES_AT,Dudhars,Kupha,131
-households (Kupha),WORKS_AS,cowherd,Kupha,131
+households (Kupha),GRAZES_AT,pasture,Kupha,131
+households (Kupha),WORKS_AS,cowherd (Kupha),Kupha,131
 households (Kupha),MIGRATES_TO,low hills,Kupha,131
-households (Kupha),WORKS_AS,labourer,Kupha,131
+households (Kupha),WORKS_AS,labourer (Kupha),Kupha,131
 households (Kupha),TRADES_AT,Trella,Kupha,131
-households (Kupha),MOVES_VIA,Sach Pass,Kupha,131
-wealthy villagers,LENDS_TO,households (Kupha),Kupha,70
-wealthy villagers,LENDS_TO,households (Kupha),Kupha,70
-wealthy villagers,LENDS_TO,households (Kupha),Kupha,70
-wealthy villagers,LENDS_TO,households (Kupha),Kupha,70
-wealthy villagers,LENDS_TO,households (Kupha),Kupha,70
-wealthy villagers,LENDS_TO,households (Kupha),Kupha,70
-choor and choori,SAYS,cow-Yak cross-breeds,Kupha,80
+wealthy villagers (Kupha),LENDS_TO,households (Kupha),Kupha,70
+wealthy villagers (Kupha),LENDS_TO,households (Kupha),Kupha,70
+wealthy villagers (Kupha),LENDS_TO,households (Kupha),Kupha,70
+wealthy villagers (Kupha),LENDS_TO,households (Kupha),Kupha,70
+wealthy villagers (Kupha),LENDS_TO,households (Kupha),Kupha,70
+wealthy villagers (Kupha),LENDS_TO,households (Kupha),Kupha,70
 Kawas,HOLDS_RIGHTS_OVER,Gail,Kupha,81
 Bhatwaas,HOLDS_RIGHTS_OVER,Gail,Kupha,81
-Veterinary Department,OWNS,sheep,Kupha,81
-Pangi herds,GRAZES_AT,Pangi,Kupha,113
-Pangi livestock,GRAZES_AT,wastes near Pangi villages,Kupha,113
-Pangi livestock,GRAZES_AT,high pastures,Kupha,113
-Pangi cattle,GRAZES_AT,Pangi forests,Kupha,113
-Pangi sheep and goats,GRAZES_AT,Pangi forests,Kupha,113
-local rights-holders,AFFECTED_BY,1874 dhar leasing attempt,Kupha,113
-fodder,LOCATED_IN,room just above the Kothi,Kupha,129
-Mukaddam,COLLECTS_FEE_FROM,households,Kupha,133
-Mukaddam,COLLECTS_FEE_FROM,households,Kupha,133
-Mukaddam,COLLECTS_FEE_FROM,households,Kupha,133
+fodder,LOCATED_IN,Kothi fodder room,Kupha,129
 British administration in Kangra,HOLDS_RIGHTS_OVER,forest,Kupha,133
-Moginand,OWNS,pasture,Moginand,12
 Moginand,HAS_POPULATION,households (Moginand),Moginand,45
 Moginand,OWNS,cattle,Moginand,45
 Moginand,OWNS,goats,Moginand,45
 Moginand,OWNS,sheep,Moginand,45
-Moginand,HAS_POPULATION,families under debt,Moginand,52
+Moginand,HAS_POPULATION,Indebted households (Moginand),Moginand,52
 households (Moginand),SELLS_TO,Sirmur,Moginand,45
 households (Moginand),SELLS_TO,Kala Amb,Moginand,45
 households (Moginand),HOLDS_RIGHTS_OVER,pasture,Moginand,47
 households (Moginand),PAYS_DUES_TO,Forest Department,Moginand,47
 households (Moginand),PAYS_DUES_TO,Forest Department,Moginand,47
 households (Moginand),PAYS_DUES_TO,shopkeeper (Moginand),Moginand,47
-Agarwal,HAS_POPULATION,households (Moginand),Moginand,47
+Agarwal (Moginand),HAS_POPULATION,households (Moginand),Moginand,47
 shopkeeper (Moginand),SELLS_TO,households (Moginand),Moginand,47
 shopkeeper (Moginand),SELLS_TO,households (Moginand),Moginand,47
-Moginand households in debt,LENDS_TO,households (Moginand),Moginand,52
-rich persons of the nearby villages,LENDS_TO,households (Moginand),Moginand,52
-rich persons of the nearby villages,LENDS_TO,households (Moginand),Moginand,52
-children,GRAZES_AT,jungle,Moginand,61
-Co-operative Society Menthapal,LENDS_TO,Society members,Moginand,65
-Co-operative Society Menthapal,LENDS_TO,Society members,Moginand,65
-Co-operative Society Menthapal,LENDS_TO,Society members,Moginand,65
-Co-operative Society Menthapal,LENDS_TO,Society members,Moginand,65
+Indebted households (Moginand),LENDS_TO,households (Moginand),Moginand,52
+moneylender (Moginand),LENDS_TO,households (Moginand),Moginand,52
+moneylender (Moginand),LENDS_TO,households (Moginand),Moginand,52
+Co-operative Society Menthapal,LENDS_TO,society members (Moginand),Moginand,65
+Co-operative Society Menthapal,LENDS_TO,society members (Moginand),Moginand,65
+Co-operative Society Menthapal,LENDS_TO,society members (Moginand),Moginand,65
+Co-operative Society Menthapal,LENDS_TO,society members (Moginand),Moginand,65
 Nalag,BUYS_FROM,Dehar,Nalag,12
-Nalag,BUYS_FROM,Dehar,Nalag,12
-Nalag,GRAZES_AT,jungle,Nalag,31
-Nalag,GRAZES_AT,jungle,Nalag,31
+Nalag,GRAZES_AT,forest,Nalag,31
 Nalag,HAS_POPULATION,households (Nalag),Nalag,37
 Nalag,AFFECTED_BY,indebtedness,Nalag,37
-households (Nalag),WORKS_AS,wool spinner,Nalag,15
-households (Nalag),HIRES,weaver,Nalag,15
+households (Nalag),WORKS_AS,wool spinner (Nalag),Nalag,15
+households (Nalag),HIRES,weaver (Nalag),Nalag,15
 households (Nalag),OWNS,cattle,Nalag,31
 households (Nalag),OWNS,cattle,Nalag,31
 households (Nalag),OWNS,cattle,Nalag,31
@@ -1563,26 +1479,34 @@ households (Nalag),OWNS,goats,Nalag,31
 households (Nalag),OWNS,goats,Nalag,31
 households (Nalag),OWNS,sheep,Nalag,31
 households (Nalag),OWNS,sheep,Nalag,31
-households (Nalag),BUYS_FROM,nearby villages,Nalag,31
+households (Nalag),BUYS_FROM,Nearby village,Nalag,31
 households (Nalag),BUYS_FROM,Nalwari fair,Nalag,31
 households (Nalag),AFFECTED_BY,indebtedness,Nalag,37
-households (Nalag),WORKS_AS,forced labourer,Nalag,38
-village mason,WORKS_AS,road labourer (Nalag),Nalag,37
-village mason,WORKS_AS,road labourer (Nalag),Nalag,37
+households (Nalag),WORKS_AS,forced labourer (Nalag),Nalag,38
+mason (Nalag),WORKS_AS,road labourer (Nalag),Nalag,37
+mason (Nalag),WORKS_AS,road labourer (Nalag),Nalag,37
 shopkeeper (Nalag),LENDS_TO,households (Nalag),Nalag,38
 Sajju,WORKS_AS,forced labourer,Nalag,38
 Bhaktoo,WORKS_AS,forced labourer,Nalag,38
-Behra Co-operative Society,LENDS_TO,households,Nalag,38
-Behra Co-operative Society,LENDS_TO,households,Nalag,38
-herder,SAYS,cattle,Pangna,42
+Behra Co-operative Society,LENDS_TO,households (Behra),Nalag,38
+Behra Co-operative Society,LENDS_TO,households (Behra),Nalag,38
+grazier (Pangna),SAYS,cattle,Pangna,42
 Pangna,HAS_POPULATION,households (Pangna),Pangna,47
-Pangna,HAS_POPULATION,indebted households,Pangna,47
-Pangna,CARRIES,goods,Pangna,53
-households (Pangna),BUYS_FROM,Punjab cattle traders,Pangna,53
+Pangna,HAS_POPULATION,Indebted households (Pangna),Pangna,47
+Pangna,CARRIES,Goods,Pangna,53
+households (Pangna),BUYS_FROM,cattle trader (Pangna),Pangna,53
 moneylender (Pangna),LENDS_TO,households (Pangna),Pangna,47
-moneylender (Pangna),LENDS_TO,Harijans,Pangna,58
+moneylender (Pangna),LENDS_TO,Harijan (Pangna),Pangna,58
 shopkeeper (Pangna),LENDS_TO,households (Pangna),Pangna,47
-mule owners,OWNS,mules,Pangna,53
+Mule owner (Pangna),OWNS,mules,Pangna,53
+farmer (Pangna),OWNS,cattle,Pangna,53
+farmer (Pangna),OWNS,cattle,Pangna,53
+farmer (Pangna),OWNS,sheep and goats,Pangna,53
+farmer (Pangna),PAYS_DUES_TO,Mahajan (Pangna),Pangna,53
+farmer (Pangna),SELLS_TO,Mahajan (Pangna),Pangna,53
+farmer (Pangna),PAYS_DUES_TO,Brahman (Pangna),Pangna,53
+farmer (Pangna),SELLS_TO,Brahman (Pangna),Pangna,53
+farmer (Pangna),WORKS_AS,shepherd (Pangna),Pangna,53
 Mahajan (Pangna),OWNS,cattle,Pangna,53
 Mahajan (Pangna),OWNS,cattle,Pangna,53
 Mahajan (Pangna),OWNS,buffaloes,Pangna,53
@@ -1591,56 +1515,85 @@ Brahman (Pangna),OWNS,cattle,Pangna,53
 Brahman (Pangna),OWNS,cattle,Pangna,53
 Brahman (Pangna),OWNS,buffaloes,Pangna,53
 Brahman (Pangna),OWNS,sheep and goats,Pangna,53
-Harijans,WORKS_AS,shepherd (Pangna),Pangna,53
-all castes,OWNS,goats,Rajana,46
+Harijan (Pangna),WORKS_AS,shepherd (Pangna),Pangna,53
+all castes (Pangna),OWNS,cattle,Pangna,53
+all castes (Pangna),OWNS,buffaloes,Pangna,53
 Himachal Pradesh State Co-operative Bank,LENDS_TO,cooperative society,Pangna,58
+all castes (Rajana),OWNS,cattle,Rajana,46
+all castes (Rajana),OWNS,buffaloes,Rajana,46
+all castes (Rajana),OWNS,goats,Rajana,46
 households (Rajana),OWNS,sheep,Rajana,46
 households (Rajana),OWNS,goats,Rajana,46
-households (Rajana),SELLS_TO,non-right holders not belonging to Rajana,Rajana,47
+households (Rajana),SELLS_TO,non-right holders (Rajana),Rajana,47
 households (Rajana),CARRIES,timber,Rajana,47
-households (Rajana),WORKS_AS,tenant cultivator,Rajana,50
-households (Rajana),PAYS_DUES_TO,moneylender (Rajana),Rajana,50
+households (Rajana),WORKS_AS,Tenant cultivator (Rajana),Rajana,50
 households (Rajana),BUYS_FROM,Gaddi (Rajana),Rajana,70
 households (Rajana),BUYS_FROM,Gaddi (Rajana),Rajana,70
 households (Rajana),HOLDS_RIGHTS_OVER,pasture,Rajana,117
 Rajana,HOLDS_RIGHTS_OVER,forest,Rajana,47
 Rajana,HOLDS_RIGHTS_OVER,timber,Rajana,47
-Rajana,AFFECTED_BY,land mortgage cases,Rajana,50
-Rajana,AFFECTED_BY,mortgage redemption cases,Rajana,50
-Rajana,AFFECTED_BY,household debt,Rajana,50
+Rajana,AFFECTED_BY,Land mortgage case,Rajana,50
+Rajana,AFFECTED_BY,Mortgage redemption case,Rajana,50
+Rajana,AFFECTED_BY,money,Rajana,50
 Rajput (Rajana),SELLS_TO,Koli (Rajana),Rajana,49
-Rajput (Rajana),LENDS_TO,tenants,Rajana,50
+Rajput (Rajana),LENDS_TO,tenant (Rajana),Rajana,50
 Rajput (Rajana),OWNS,sheep,Rajana,47
 Rajput (Rajana),OWNS,goats,Rajana,47
 Koli (Rajana),BUYS_FROM,Rajput (Rajana),Rajana,49
-Koli (Rajana),WORKS_AS,labourer,Rajana,51
+Koli (Rajana),WORKS_AS,labourer (Rajana),Rajana,51
 Koli (Rajana),OWNS,sheep,Rajana,47
 Koli (Rajana),OWNS,goats,Rajana,47
-Brahman (Rajana),LENDS_TO,tenants,Rajana,50
+Brahman (Rajana),LENDS_TO,tenant (Rajana),Rajana,50
 Brahman (Rajana),OWNS,sheep,Rajana,47
 Brahman (Rajana),OWNS,goats,Rajana,47
 moneylender (Rajana),LENDS_TO,households (Rajana),Rajana,50
 moneylender (Rajana),LENDS_TO,households (Rajana),Rajana,50
 moneylender (Rajana),LENDS_TO,households (Rajana),Rajana,50
-"friends, relatives and neighbours",LENDS_TO,households (Rajana),Rajana,50
-peasants,LENDS_TO,households (Rajana),Rajana,51
-peasants,LENDS_TO,households (Rajana),Rajana,51
+Informal lender (Rajana),LENDS_TO,households (Rajana),Rajana,50
+mortgagee (Rajana),SELLS_TO,landholders (Rajana),Rajana,50
+landholders (Rajana),HOLDS_RIGHTS_OVER,Rajana,Rajana,70
+peasant (Rajana),LENDS_TO,households (Rajana),Rajana,51
+peasant (Rajana),LENDS_TO,households (Rajana),Rajana,51
 Gaddi (Rajana),MIGRATES_TO,Rainka Tehsil,Rajana,70
-Gaddi (Rajana),MIGRATES_TO,Giri and Jogar streams,Rajana,70
-rich villagers,HOLDS_RIGHTS_OVER,Rajana,Rajana,70
-Lumberdar,COLLECTS_FEE_FROM,Rajana,Rajana,70
-Lumberdar,COLLECTS_FEE_FROM,Rajana,Rajana,70
-Lumberdar,HIRES,village labourers,Rajana,70
+Gaddi (Rajana),MIGRATES_TO,Giri,Rajana,70
+lambardar (Rajana),COLLECTS_FEE_FROM,Rajana,Rajana,70
+lambardar (Rajana),COLLECTS_FEE_FROM,Rajana,Rajana,70
 Zaildar,AFFECTED_BY,Formation of Himachal Pradesh (1948),Rajana,70
 Gram Sudhar Committee,HOLDS_RIGHTS_OVER,forest,Rajana,70
 households (Shathla),BUYS_FROM,Rampur,Shathla,22
 households (Shathla),TRADES_AT,Lavi fair,Shathla,22
-Kinnaura (Kanum),CARRIES,chilgoza,Kanum,16
-Kinnaura (Kanum),CARRIES,wool,Kanum,16
-Kinnaura (Kanum),TRADES_AT,Lavi fair,Kanum,16
-Kinnaura (Kanum),GRAZES_AT,Bilaspur,Kanum,85
-Kinnaura (Kanum),GRAZES_AT,Arki,Kanum,85
-Bushahr ruler,HOLDS_RIGHTS_OVER,land,Kanum,18
+Gujari speakers,HAS_POPULATION,households,1881,166
+Gujar woman,TRADES_AT,Market,1881,267
+Gujar woman,CARRIES,milk,1881,267
+Gujar woman,CARRIES,ghee,1881,267
+Gujar woman,CARRIES,buttermilk,1881,267
+Ghirath,WORKS_AS,forced labourer,1881,272
+Ghirath,CARRIES,wood,1881,272
+Thori,CARRIES,Merchandise,1881,312
+Dagi,HOLDS_RIGHTS_OVER,cattle carcass,1881,338
+Dagi,WORKS_AS,wool cleaner,1881,338
+Chamar,HOLDS_RIGHTS_OVER,skin,1881,338
+Batwal,WORKS_AS,unskilled labourer,1881,340
+Batwal,WORKS_AS,Kiriwak,1881,340
+Kumhar,GRAZES_AT,Balu Forest,Rose Vol1,201
+Tibetan traders,MOVES_VIA,Baralaeha Pass,Rose Vol1,523
+Tibetan traders,MOVES_VIA,Left bank of the Chandra,Rose Vol1,523
+Old trade route,AFFECTED_BY,Shigri glacier flood (1886),Rose Vol1,523
+Ghéra tenant,PAYS_DUES_TO,landholders,Rose,250
+Mudydri tenant,PAYS_DUES_TO,landholders,Rose,250
+Lade,WORKS_AS,shopkeeper,Rose,294
+Phangtain,WORKS_AS,Wool dealer,Rose,294
+Khatri,WORKS_AS,Wool-comber,Rose,295
+Banglot valley,LOCATED_ON,Chandra,Rose Vol3,19
+Gara or Punan valley,LOCATED_ON,Bhaga,Rose Vol3,19
+Pattan valley,LOCATED_ON,Chenab,Rose Vol3,19
+Tsun-pa or ge-tsul,CARRIES,load,Rose Vol3,38
+Gelong,WORKS_AS,Cattle attendant,Rose Vol3,38
+Foreign herder (Malana),GRAZES_AT,Malana,Rose Vol3,279
+Rehara,LOCATED_IN,Kangra,Rose Vol3,345
+Rehara,LOCATED_IN,Simla Hills,Rose Vol3,345
+Rehara,WORKS_AS,shepherd,Rose Vol3,345
+Spiti men,BUYS_FROM,Lahula,Rose Vol3,482
 Churahi (Devi-Kothi),HIRES,grazier (Devi-Kothi),Devi-Kothi,48
 Kanet (Kanum),OWNS,sheep and goats,Kanum,61
 Lohar (Kanum),OWNS,sheep and goats,Kanum,61

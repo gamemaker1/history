@@ -72,9 +72,10 @@ def main():
                           "source", "pdf_page", "layer_year", "evidence", "quote"])
 
     m = folium.Map(location=[32.0, 77.0], zoom_start=8, tiles=None, control_scale=True)
-    folium.TileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", name="Relief (OpenTopoMap)",
+    # Relief is the default; the plain layer is standard OpenStreetMap (CartoDB tiles now need an API key).
+    folium.TileLayer("OpenStreetMap", name="Plain (OpenStreetMap)", show=False).add_to(m)
+    folium.TileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", name="Relief (OpenTopoMap)", show=True,
                      attr="Map data: OpenStreetMap contributors, SRTM | Style: OpenTopoMap (CC-BY-SA)").add_to(m)
-    folium.TileLayer("cartodbpositron", name="Plain").add_to(m)
 
     for valley, g in lines.groupby(lines.valley.where(lines.valley != "", "other or none")):
         layer = folium.FeatureGroup(name=f"Routes: {valley} ({len(g)} claims)", show=True)

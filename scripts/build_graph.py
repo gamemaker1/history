@@ -62,9 +62,10 @@ def conjuncture(r):
     """Assign a claim to a conjuncture. The first rule that matches wins."""
     ids = {r["subject_id"], r["object_id"], r["resource_id"]}
     pred, when, colonial = r["predicate"], r["when"], int(r["layer_year"]) < 1948
-    # Two sovereigns: British Kangra, or a colonial source on Gaddi dues and land across the range.
-    if "british_kangra" in ids or (colonial and pred == "PAYS_DUES_TO") or \
-            (colonial and pred == "OWNS" and r["object_id"] == "land"):
+    # Two sovereigns: British authority, or a colonial source on the Gaddis' dues and land on both
+    # sides of the range. (Other colonial dues, such as tenants' rent to landholders, fall through.)
+    if "british_kangra" in ids or (colonial and r["subject_id"] == "gaddi" and
+                                   (pred == "PAYS_DUES_TO" or (pred == "OWNS" and r["object_id"] == "land"))):
         return "two_sovereigns"
     # Who owns the flocks and how many households there are: the standing contradiction.
     if pred in ("OWNS", "HAS_POPULATION") and r["object_id"] not in ("land", "grazing_permit", "grazing_right"):

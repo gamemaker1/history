@@ -1,34 +1,31 @@
 group,destination_class,source_years,years_with_months,months_named,claims,sources
 Batal,other,1961,,,1,Batal p. 43
-Children,other,1961,,,1,Moginand p. 61
-Churahi,summer pastures,"1911, 1961",,,3,Devi-Kothi p. 19; Rose p. 250
-Churahi,winter grounds,1911,,,2,Rose p. 250
+Churahi,summer pastures,"1911, 1961",,,2,Devi-Kothi p. 19; Rose p. 250
+Churahi,winter grounds,1911,,,1,Rose p. 250
 Dodrakawar people,winter grounds,1961,,,6,Chergaon p. 66
 Foreign herder,other,1914,,,1,Rose Vol3 p. 279
-Gaddi,other,"1881, 1911, 1961","1911, 1961","Mar, Apr, May",22,1881 p. 275; Bir p. 43; Brahmaur p. 12; Chauntra p. 7; Chitrari p. 58; Kupha p. 113; Mahasu p. 334; Mahasu p. 337; Newell p. 105; Newell p. 35; Newell p. 36; Newell p. 37; Newell p. 86; Newell p. 9; Rajana p. 70; Rose p. 297
-Gaddi,summer pastures,"1911, 1961",1961,"Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov",22,Brahmaur p. 12; Chitrari p. 58; Kupha p. 113; Newell p. 18; Newell p. 36; Rose p. 293; Rose p. 297
+Gaddi,other,"1881, 1911, 1961","1911, 1961","Mar, Apr, May",18,1881 p. 275; Bir p. 43; Chitrari p. 58; Mahasu p. 334; Mahasu p. 337; Newell p. 105; Newell p. 35; Newell p. 36; Newell p. 37; Newell p. 9; Rajana p. 70; Rose p. 297
+Gaddi,summer pastures,"1911, 1961",1961,"Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov",20,Chitrari p. 58; Kupha p. 113; Newell p. 18; Newell p. 36; Rose p. 293; Rose p. 297
 Gaddi,winter grounds,"1881, 1911, 1961","1911, 1961","Jan, Feb, Oct, Nov, Dec",22,1881 p. 275; Brahmaur p. 12; Brahmaur p. 79; Brahmaur p. 87; Chitrari p. 26; Newell p. 101; Newell p. 18; Newell p. 36; Newell p. 37; Newell p. 9; Rose p. 297
 Garhwal and Chergaon-area people,summer pastures,1961,,,1,Chergaon p. 85
-Gujjar,other,1961,1961,Sep,15,Chaupal p. 52; Chergaon p. 66; Devi-Kothi p. 11; Mahasu p. 334; Mahasu p. 337; Maingal p. 18; Maingal p. 51; Maingal p. 52; Maingal p. 54; Maingal p. 61
-Gujjar,summer pastures,"1881, 1911, 1961",1961,"Apr, May",9,1881 p. 267; Maingal p. 46; Maingal p. 52; Maingal p. 60; Maingal p. 9; Rose p. 346
+Gujjar,other,1961,1961,Sep,14,Chaupal p. 52; Devi-Kothi p. 11; Mahasu p. 334; Mahasu p. 337; Maingal p. 18; Maingal p. 51; Maingal p. 52; Maingal p. 54; Maingal p. 61
+Gujjar,summer pastures,"1881, 1911, 1961",1961,"Apr, May",6,1881 p. 267; Maingal p. 46; Maingal p. 52; Maingal p. 60; Maingal p. 9; Rose p. 346
 Gujjar,winter grounds,1961,,,2,Maingal p. 18; Maingal p. 9
 Hindustan-Tibet mule road,other,1961,,,1,Nachar p. 9
 Jabbal villagers,other,1961,,,1,Chergaon p. 80
 Kangra,other,1881,,,1,1881 p. 78
 Kinnaura,other,"1919, 1961",,,7,Chergaon p. 66; Mahasu p. 334; Mahasu p. 337; Nachar p. 33; Rose Vol1 p. 523; Shakrori p. 76
 Kinnaura,summer pastures,1961,,,2,Kanum p. 42; Nachar p. 33
-Kinnaura,winter grounds,"1919, 1961",,,9,Batal p. 46; Kothi p. 52; Nachar p. 33; Rose Vol1 p. 523; Shakrori p. 76
+Kinnaura,winter grounds,1961,,,8,Batal p. 46; Kothi p. 52; Nachar p. 33; Shakrori p. 76
 Koli,other,1961,,,3,Kanum p. 18
 Kumhar,other,1919,,,1,Rose Vol1 p. 201
 Kupha,summer pastures,1961,,,2,Kupha p. 81
 Lahula,summer pastures,1961,,,1,Newell p. 18
 Lahula,winter grounds,1961,,,1,Brahmaur p. 58
 Lal Chand Negi,other,1961,1961,"Jul, Nov",1,Kanum p. 132
-Makhan Lal Negi,other,1961,,,1,Kanum p. 131
-Makhan Lal Negi,winter grounds,1961,,,2,Kanum p. 131
 Muslim Gujjar,summer pastures,1961,,,1,Mahasu p. 23
 Muslim Gujjar,winter grounds,1961,,,1,Mahasu p. 23
-Nalag,other,1961,,,2,Nalag p. 31
+Nalag,other,1961,,,1,Nalag p. 31
 Pangi,summer pastures,1961,,,8,Kupha p. 111; Kupha p. 128
 Pangi,winter grounds,1961,,,1,Kupha p. 128
 Pangwal,other,1961,,,4,Kupha p. 27; Kupha p. 50
@@ -43,25 +40,23 @@ caravan trader,winter grounds,1919,,,1,Rose Vol1 p. 522
 cattle,other,"1919, 1961",,,2,Kupha p. 113; Rose Vol1 p. 249
 fawal,summer pastures,1961,,,1,Chergaon p. 57
 grazier,summer pastures,1961,1961,"May, Jun, Oct",1,Devi-Kothi p. 48
-households,fairs and markets,1961,,,2,Brahmaur p. 73; Devi-Kothi p. 53
-households,other,1961,1961,"Jan, Feb, Mar, Apr, May, Jun, Oct, Nov, Dec",30,Basal p. 77; Brahmaur p. 45; Brahmaur p. 54; Brahmaur p. 55; Brahmaur p. 65; Brahmaur p. 73; Brahmaur p. 84; Chauntra p. 47; Chaupal p. 47; Chergaon p. 80; Chitrari p. 23; Chitrari p. 53; Devi-Kothi p. 47; Devi-Kothi p. 48; Kalath p. 76; Kanum p. 133; Kanum p. 136; Kanum p. 16; Kupha p. 131; Kupha p. 80; Maingal p. 48; Newell p. 10; Newell p. 22; Newell p. 32; Newell p. 35; Newell p. 36; Shakrori p. 75
-households,summer pastures,"1881, 1961",1961,"May, Jun, Aug, Sep, Oct",27,1881 p. 98; Chergaon p. 63; Chitrari p. 23; Devi-Kothi p. 17; Devi-Kothi p. 53; Kanum p. 136; Kanum p. 85; Kothi p. 100; Kothi p. 53; Kothi p. 91; Kupha p. 131; Kupha p. 80; Newell p. 32; Tandi p. 65
-households,winter grounds,"1881, 1919, 1931, 1961",1961,"Jan, Feb, Mar, Apr, Sep, Oct, Nov, Dec",52,1881 p. 98; 1931 p. 142; Brahmaur p. 109; Brahmaur p. 12; Brahmaur p. 36; Brahmaur p. 54; Brahmaur p. 59; Brahmaur p. 63; Brahmaur p. 65; Chitrari p. 23; Kanum p. 136; Kanum p. 16; Kanum p. 51; Kanum p. 67; Kanum p. 85; Kothi p. 92; Kupha p. 131; Nachar p. 39; Newell p. 35; Newell p. 36; Rose Vol1 p. 40
+households,other,1961,1961,"Jan, Feb, Mar, Apr, May, Jun, Oct, Nov, Dec",28,Basal p. 77; Brahmaur p. 45; Brahmaur p. 54; Brahmaur p. 65; Brahmaur p. 73; Brahmaur p. 84; Chauntra p. 47; Chaupal p. 47; Chergaon p. 80; Chitrari p. 23; Chitrari p. 53; Devi-Kothi p. 47; Devi-Kothi p. 48; Kalath p. 76; Kanum p. 133; Kanum p. 136; Kanum p. 16; Kupha p. 131; Kupha p. 80; Maingal p. 48; Newell p. 10; Newell p. 22; Newell p. 32; Newell p. 35; Newell p. 36
+households,summer pastures,"1881, 1961",1961,"May, Jun, Aug, Sep, Oct",25,1881 p. 98; Chergaon p. 63; Chitrari p. 23; Devi-Kothi p. 17; Devi-Kothi p. 53; Kanum p. 136; Kanum p. 85; Kothi p. 100; Kothi p. 53; Kothi p. 91; Kupha p. 80; Newell p. 32; Tandi p. 65
+households,winter grounds,"1881, 1919, 1931, 1961",1961,"Jan, Feb, Mar, Apr, Sep, Oct, Nov, Dec",50,1881 p. 98; 1931 p. 142; Brahmaur p. 109; Brahmaur p. 12; Brahmaur p. 36; Brahmaur p. 54; Brahmaur p. 59; Brahmaur p. 63; Chitrari p. 23; Kanum p. 136; Kanum p. 16; Kanum p. 51; Kanum p. 67; Kanum p. 85; Kothi p. 92; Kupha p. 131; Nachar p. 39; Newell p. 35; Newell p. 36; Rose Vol1 p. 40
 larger farmers,summer pastures,1961,,,1,Kanum p. 133
 livestock,other,1961,,,2,Kupha p. 113; Simla p. 27
 livestock,summer pastures,1961,,,1,Kupha p. 113
 malundi,summer pastures,1961,,,3,Brahmaur p. 55
 malundi,winter grounds,1961,1961,"Oct, Nov",9,Brahmaur p. 55; Brahmaur p. 56
-mason,other,1961,,,1,Nachar p. 14
 "mobile herders (Gujjars, Gaddis and Kinnauras)",summer pastures,1961,,,7,Mahasu p. 335
 muleteer,other,1961,,,1,Kanum p. 133
 pohal,summer pastures,1961,,,4,Brahmaur p. 55; Brahmaur p. 57; Brahmaur p. 58
 pohal,winter grounds,1961,1961,"Oct, Nov",5,Brahmaur p. 55
-porter,other,1961,,,8,Newell p. 84
+porter,other,1961,,,7,Newell p. 84
 sheep,other,1919,,,1,Rose Vol1 p. 523
 sheep and goats,other,1961,,,2,Chaupal p. 49; Kupha p. 113
 sheep and goats,summer pastures,1961,,,1,Kupha p. 113
 sheep and goats,winter grounds,1961,,,6,Kanum p. 10
-shepherd,other,1961,,,6,Brahmaur p. 55; Chauntra p. 16; Chitrari p. 23; Newell p. 9
-shepherd,summer pastures,1961,1961,Sep,8,Brahmaur p. 30; Brahmaur p. 55; Chergaon p. 80; Newell p. 90; Weaving p. 36
+shepherd,other,1961,,,5,Brahmaur p. 55; Chauntra p. 16; Chitrari p. 23; Newell p. 9
+shepherd,summer pastures,1961,1961,Sep,7,Brahmaur p. 30; Brahmaur p. 55; Chergaon p. 80; Newell p. 90; Weaving p. 36
 shepherd,winter grounds,1961,,,4,Brahmaur p. 57; Newell p. 19; Newell p. 9; Weaving p. 36

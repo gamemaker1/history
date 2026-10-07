@@ -7,3 +7,4 @@ analysis/**/*.png filter=lfs diff=lfs merge=lfs -text
 analysis/**/*.cyjs filter=lfs diff=lfs merge=lfs -text
 analysis/**/*.graphml filter=lfs diff=lfs merge=lfs -text
 analysis/graph/kg.html filter=lfs diff=lfs merge=lfs -text
+analysis/text_reuse/passages.csv filter=lfs diff=lfs merge=lfs -text

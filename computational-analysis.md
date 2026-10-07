@@ -22,8 +22,15 @@ numbers printed on the scans, as in the idea files.
 
 ```
 brew install git-lfs && git lfs install --local && git lfs pull   # sources/ are Git LFS objects
-uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python -r requirements.txt
+UV_PYTHON_INSTALL_DIR=$PWD/.python uv python install 3.12
+UV_PYTHON_INSTALL_DIR=$PWD/.python uv venv .venv --python 3.12 --python-preference only-managed
+uv pip install --python .venv/bin/python -r requirements.txt
 ```
+
+The Python interpreter itself lives inside the project (`.python/`, not
+committed), so the scripts can run inside Claude Code's command sandbox, which
+cannot read the rest of the home directory. API keys go in `.env` (not
+committed).
 
 `pageref.py`, `kwic.py` and `candidate_pages.py` use only the standard
 library and run with any Python 3. The others need `.venv/bin/python`.
@@ -31,20 +38,28 @@ library and run with any Python 3. The others need `.venv/bin/python`.
 | Order | Command | Entry |
 | --- | --- | --- |
 | 1 | `.venv/bin/python scripts/unpack_sources.py` | A0 |
-| 2 | `python3 scripts/kwic.py --all-villages` | A2 |
-| 3 | `python3 scripts/kwic.py --terms labour --all-villages` | A2 |
-| 4 | `python3 scripts/candidate_pages.py` | A3 |
-| 5 | `.venv/bin/python scripts/extract_claims.py --scope all --budget 2 --workers 8` (key in `.env`) | A5 |
+| 2 | `python3 scripts/kwic.py --all-villages` (and `--terms labour`) | A2 |
+| 3 | `python3 scripts/candidate_pages.py` and `--colonial` | A3, A13 |
+| 4 | `.venv/bin/python scripts/extract_claims.py --scope all --budget 2 --workers 8`, then `--scope colonial` (key in `.env`) | A5, A13 |
+| 5 | `.venv/bin/python scripts/find_tables.py --render` (the livestock tables are then read from the images) | A9 |
 | 6 | `python3 scripts/verify_claims.py` | A6 |
-| 7 | `.venv/bin/python scripts/build_graph.py` | A7 |
-| 8 | `.venv/bin/python scripts/query_graph.py` | A8 |
-| 9 | `.venv/bin/python scripts/find_tables.py --render` (then the tables are read from the images, A9) | A9 |
-| 10 | `.venv/bin/python scripts/flocks.py` | A10 |
-| 11 | `.venv/bin/python scripts/resolve_entities.py`, then `--apply` (then rerun 6) | A11 |
-| 12 | `.venv/bin/python scripts/check_claims.py` (then rerun 7 and 8) | A12 |
+| 7 | `.venv/bin/python scripts/resolve_entities.py`, then `--apply`, then step 6 again | A11 |
+| 8 | `.venv/bin/python scripts/check_claims.py`, then `--sample 50` for the group | A12 |
+| 9 | `.venv/bin/python scripts/build_graph.py` | A7 |
+| 10 | `.venv/bin/python scripts/query_graph.py` | A8 |
+| 11 | `.venv/bin/python scripts/flocks.py` | A10 |
+| 12 | `.venv/bin/python scripts/surplus_graph.py` | A14 |
+| 13 | `.venv/bin/python scripts/calendar_chart.py` | A15 |
+| 14 | `.venv/bin/python scripts/fees.py` | A16 |
+| 15 | `.venv/bin/python scripts/geocode.py --no-wikidata` (network) | A17 |
+| 16 | `.venv/bin/python scripts/map_routes.py` | A17 |
+| 17 | `python3 scripts/altitude.py --pages 60` and `python3 scripts/households.py` (candidates; the figures used are in `data/`) | A18 |
+| 18 | `.venv/bin/python scripts/geography.py` | A18 |
+| 19 | `python3 scripts/text_reuse.py` | A19 |
 
 `verify_claims.py` also reads `data/flocks.csv`, so after changing the
-livestock tables rerun steps 6, 7, 8 and 10.
+livestock tables rerun from step 6. Steps 9 onwards only read files, so they
+can be rerun at any time.
 
 Tools on demand: `python3 scripts/pageref.py find "<quote>"` gives the PDF page
 of a quote. `.venv/bin/python scripts/render_page.py <source> <page>` renders a
@@ -62,7 +77,8 @@ such step is listed here, and the entries below say which outputs it touched.
 | Claude, **reading page images** | Read the livestock tables of all 24 village surveys from page images rendered by `render_page.py` and `find_tables.py`, and typed the figures into `data/flocks.csv`. Also read Brahmaur p. 54 and Kothi p. 102 first, which found the missing Badhi row (A4), and the Chitrari shepherd's speech (two-column OCR). A second pass re-read the small-print tables from close-up crops at 250 dpi | A4, A9 |
 | **OpenAI `gpt-6-luna`**, through `scripts/resolve_entities.py` | Proposed, for each of 597 names in claims that matched no entity, either an alias of an existing entity or a new entity. Claude reviewed the proposals and overrode 4 | A11 |
 | **OpenAI `gpt-6-luna`**, through `scripts/check_claims.py` | Judged every text-based claim against its page (supported, partly supported, not supported, unclear), as a second pass independent of the extraction | A12 |
-| Claude, **looking at screenshots** | Took headless-browser screenshots of the graph viewer (`kg.html`) and looked at the rendered charts (`analysis/flocks/*.png`), to check legends, overlapping labels and layout before calling them done. This changed the layout code only, not any data | A7, A10 |
+| Claude, **reading page images and choosing figures** | Read Newell's grazing statement (fee-paying sheep and goats, 1952-53 to 1961-62) from the page image; chose each village's altitude and household total from candidate sentences found by script, checking each against its page | A16, A18 |
+| Claude, **looking at screenshots** | Took headless-browser screenshots of the graph viewer (`kg.html`) and looked at the rendered charts (`analysis/flocks/*.png`), to check legends, overlapping labels and layout before calling them done. This changed the layout code only, not any data | A7, A10, A14 to A18 |
 
 Nothing an AI produced counts as checked until a person has checked it. The
 AI-read figures carry `read_by` in `data/flocks.csv` and are marked
@@ -233,6 +249,7 @@ AI-read figures carry `read_by` in `data/flocks.csv` and are marked
   | two sovereigns | 4 |
 
   517 nodes are uncurated (see A6).
+- **Final build (7 Oct, evening).** After the colonial claims (A13), entity resolution (A11) and the AI check (A12): 853 nodes, 1,855 edges. By evidence: 1,135 supported by the AI checker, 545 partly supported, 174 image-read, 1 unchecked. The 108 claims the checker found not supported are left out by default (`--evidence everything` keeps them). The "two sovereigns" rule was narrowed on review: a colonial source's "pays dues" claim counts there only when the payer is the Gaddis. Rose's tenants paying rent to landholders (Rose p. 250) had been put there wrongly.
 - **Checking the layout.** Claude took headless Chrome screenshots of `kg.html` and looked at them. The first version printed the names of node shapes in the legend, where they overflowed, and its central labels collided. It was changed to draw the shapes and to spread the layout. The screenshots also showed that a single "households" node joined every village into one hub, which led to scoping groups and roles by village.
 - **Result** (first build, hand-entered claims only). 61 nodes and 61 edges:
 
@@ -302,7 +319,7 @@ AI-read figures carry `read_by` in `data/flocks.csv` and are marked
   - **The high herding villages** on the Ravi, Sutlej, Chenab and Beas give landholding castes 92 to 99%: Brahmaur 97.9, Kothi 94.5, Kanum 95.5, Nalag 98.6, Kupha 93.0, Tandi 92.2, Kot 98.6. Maingal is the exception (54.6%), where the Gujjars, a herding tribe, hold 43%.
   - **The pattern reverses in the Yamuna-side and Shimla-hills villages**, where flocks are small and mostly goats. Koli households (a scheduled caste) hold the majority: Chaunri 91.1% scheduled caste, Pangna 67.7%, Rajana 59.9%, Moginand 42.5%.
 
-  Concentration in the landholding castes therefore holds in the large herding economies but not in every hill village. **Correction (A16):** it is not an effect of altitude. Low Shakrori (518 m), Kot and Nalag are over 95% landholding too, and the rank correlation between altitude and the landholding share is −0.05. The reversal is regional: it follows the caste structure of the Yamuna side and the Shimla hills, where Kolis are a large part of the cultivating population.
+  Concentration in the landholding castes therefore holds in the large herding economies but not in every hill village. **Correction (A18):** it is not an effect of altitude. Low Shakrori (518 m), Kot and Nalag are over 95% landholding too, and the rank correlation between altitude and the landholding share is −0.05. The reversal is regional: it follows the caste structure of the Yamuna side and the Shimla hills, where Kolis are a large part of the cultivating population.
 - **Caveats.** Shares are by caste, not by household, so they say nothing about inequality inside a caste. Village household totals, needed for animals per household across all villages, are not yet collected. The caste classes need checking. Four villages have totals but no caste table.
 - **Run.** 7 Oct 2026, Vishak (scripts run by Claude).
 
@@ -326,6 +343,166 @@ AI-read figures carry `read_by` in `data/flocks.csv` and are marked
 - **Result.** 123 aliases added and 463 new entities, so 627 entities in all. Claims resolving to entities rose **from 869 to 1,677 of 1,680** text-based claims; the 3 left are the "the valley" claims. Cost: **USD 0.042**.
 - **Caveats.** 463 new entities came from the model and are marked to check. Some are near-duplicate roles ("sheep breeder", "sheep and goat rearer", "shepherd") that a person may want to merge. Aliases are global, so a context-bound alias ("Ruling Chief" for the Bushahr ruler, from Kanum) would be wrong in another village; there is one such case.
 - **Also changed.** `extract_claims.py` used to key its cache on the whole system prompt, which includes the entity list, so any change to `entities.csv` would have orphaned all 428 paid responses. The key is now prompt version, model, effort and page text. `--reindex-cache` renamed the existing files. The rebuilt `claims_raw.jsonl` is byte-identical to the one before (checked with `cmp`).
+- **Run.** 7 Oct 2026 (run by Claude).
+
+## A12. AI meaning check of every claim
+
+- **Question served.** Source criticism for all three sub-questions. It catches claims whose quote is genuine but which misread it.
+- **Script and command.** [scripts/check_claims.py](scripts/check_claims.py): `.venv/bin/python scripts/check_claims.py`; `--sample 50` draws the group's sample; `--agreement` scores it once filled in.
+- **Method.** For each page, `gpt-6-luna` (effort high) receives the page text and every claim drawn from it. It returns, per claim, a verdict (supported, partly supported, not supported, unclear), the wrong fields and a one-sentence reason quoting the page. Verdicts are in `data/claim_checks.csv`. Image-read claims are not checked here.
+- **Version 1 (all 1961 claims).** USD 0.30. The checker flagged three of Claude's own hand-entered claims on its first three pages, and on the full run 11 of 41 hand-entered claims were judged not supported. Seventeen corrections (19 claims) were made; they are recorded in the note column of `data/claims_manual.csv`:
+  - Newell's 1950 fee rates had been tagged "before 1948";
+  - "the Forest Department do not now grant any additional permit" had been recorded as issuing permits;
+  - a computed midpoint (Devi-Kothi grazier charge) had been entered as a source figure;
+  - Barnes's "penalty into the Chamba treasury" had been called revenue;
+  - "wool in lieu of revenue" went to a pallari, not the Raja;
+  - "Primary Owner" in Kanum had been silently identified as the Bushahr ruler (now an alias, so the claim uses the page's words).
+- **A flaw in version 1.** The checker's prompt had its own short definitions of the predicates. It defined LOCATED_ON as "lies on a river" where the schema says "on or near", so it rejected most river-location claims. Version 2 gives the checker exactly the definitions the extractor had. Of the 10 LOCATED_ON claims rejected in version 1, 8 are supported in version 2.
+- **Version 2 (all 1,789 text claims, including the colonial ones).** USD 0.31:
+  - supported: 1,135 (63%);
+  - partly supported: 545 (30%), with the subject the commonest wrong field (262), then object (180), quantity (61) and when (48);
+  - not supported: 108 (6%);
+  - unclear: 1.
+
+  Hand-entered claims after correction: 22 supported, 12 partly, 3 not.
+- **How stable is the checker?** On the 1,666 claims checked by both versions, the verdict is the same for 77%. Most changes are between supported and partly supported. A verdict is a filter, not a proof.
+- **Sample for the group.** `analysis/claim_check_sample.csv` holds 50 claims drawn at random within each verdict (seed 7): 22 supported, 15 partly, 12 not, 1 unclear. Rare verdicts are over-sampled so the checker's errors in each direction can be measured. Each row has empty `human_verdict`, `human_note` and `checked_by` columns. When they are filled, `check_claims.py --agreement` gives the agreement rate and the confusion table, which belong in the essay's account of method.
+- **Run.** 7 Oct 2026 (run by Claude). Total spent on checking: USD 0.61.
+
+## A13. Claims from the colonial sources
+
+- **Question served.** SQ1: did the herding cycle of 1961 already exist in 1881 and 1911? Before this step the colonial layers had only 11 claims, all entered by hand.
+- **Scripts and commands.**
+  - `python3 scripts/candidate_pages.py --colonial`
+  - `.venv/bin/python scripts/extract_claims.py --scope colonial --budget 1.0`
+- **Method.**
+  - **Page selection.** The same scoring as A3, over the 1881 Results, Rose's three volumes and the 1931 Report. Because these cover the whole Punjab, a page must also name the hills at least twice (Gaddi, Kangra, Chamba, Lahul, Kinnaur, Bushahr, the Simla hill states ...).
+  - **Prompt version 3.** It names the colonial sources, tells the model to keep only hill material, and sets "when" for a colonial statement to "before 1948" with the source's year.
+  - **Cache.** It is now keyed on prompt version, model, effort and page text, not on the whole system prompt (A11). A page already answered under any prompt version is not sent again unless `--refresh` is given, and `claims_raw.jsonl` is always rebuilt from every selected page.
+- **Result.**
+  - **Pages.** 82 selected (1881: 25; Rose: 53; 1931: 4). All 5 colonial pages cited in the idea files were among them.
+  - **Claims.** 115 (1881: 42; Rose: 71; 1931: 2), for USD 0.06. The total extraction spend is now USD 0.50.
+  - **Checks.** After verification and the AI check: 75 supported, 41 partly, 4 not supported.
+- **Caveat.** The 1931 Report yields only 2 claims. It says little about hill herding beyond the passage on "hillmen of the lofty ranges" (p. 142).
+- **Run.** 7 Oct 2026 (run by Claude).
+
+## A14. Who takes a share of whose product: flows by conjuncture
+
+- **Question served.** SQ2 and SQ3, the Marxist step: how the appropriation of surplus changed between conjunctures.
+- **Script and command.** [scripts/surplus_graph.py](scripts/surplus_graph.py): `.venv/bin/python scripts/surplus_graph.py`.
+- **Method.** Eight predicates are turned into directed flows from the party who gives up product, labour or money to the party who receives it:
+  - COLLECTS_FEE_FROM: the payer gives to the collector;
+  - PAYS_DUES_TO: the payer gives to the recipient;
+  - LENDS_TO: the borrower pays interest to the lender;
+  - HIRES: the worker's labour goes to the employer;
+  - AUCTIONS_RIGHT_TO and ISSUES_PERMIT_TO: the buyer or holder pays the seller or issuer;
+  - SELLS_TO and BUYS_FROM: produce goes from seller to buyer.
+
+  Village scoping is removed, so periods can be compared. Each conjuncture gets one Cytoscape.js panel, with every actor in the same place in every panel. *Programming Historian:* "Exploring and Analyzing Network Data with Python".
+- **Outputs.** In `analysis/surplus/`: `flows.csv`, `actors.csv` (in-flows per actor and period), `relations.csv` (relation by period), `surplus.html` and one `.cyjs` per panel.
+- **Result** (408 flow claims). The main receiver changes with the period:
+  - **Two sovereigns:** the Raja of Chamba and British Kangra, each paid by the Gaddis (Barnes, 1881 p. 275).
+  - **The rulers' pastures, to about 1950:** the Raja of Chamba (11 claims, from 4 kinds of payer: fees, dues and the sale of the fee right), his fee contractor, and the Bushahr ruler.
+  - **The Forest Department, 1948 to 1961:** the Forest Department (35 claims from 6 kinds of payer: shepherds, graziers, households, Gaddis and holders of permits).
+  - **Trade and credit:** moneylenders (53 claims), shopkeepers (29) and the cooperative society (23), with interest the largest single kind of flow (137 claims).
+
+  The appropriator moves from the ruler and his contractor to the state forest and the market.
+- **Caveats.** Counts of claims measure how often the surveys mention a relation, not its size in rupees. The rulers'-pastures panel is small-print, because the shared layout spreads its actors out; zoom in the browser.
+- **Run.** 7 Oct 2026 (run by Claude; screenshots looked at by Claude).
+
+## A15. The mountain year: calendar and persistence
+
+- **Question served.** SQ1, the Annales step: do the months and routes of 1961 match those of the colonial sources?
+- **Script and command.** [scripts/calendar_chart.py](scripts/calendar_chart.py): `.venv/bin/python scripts/calendar_chart.py`.
+- **Method.**
+  - **Rows.** Each claim that names months becomes a row of month cells.
+  - **Destinations.** Each is classed as winter grounds, summer pastures, fairs and markets, or other, from its entity.
+  - **Merging.** Claims for the same village, group and destination are merged, so the row shows every month any of them names.
+  - **Order.** Rows are grouped by river valley, with the valley named in the margin.
+  - **Persistence table.** It also counts claims that name a season but no month, because Barnes (1881) says "the winter months" and the 1931 Report "the winter".
+- **Outputs.** In `analysis/calendar/`: `calendar.png`, `calendar.csv` and `persistence.csv`.
+- **Result.**
+  - **The chart:** 69 claims with months make 47 rows.
+  - **The Gaddis.** Their movement to the winter grounds is attested in 1881, 1911 and 1961, with months named in 1911 (October to November, Rose p. 297) and 1961 (October to March, Brahmaur p. 55; Newell). Their movement to the summer pastures is attested in 1911 and 1961.
+  - **Hill households generally.** Winter movement is attested in 1881, 1919, 1931 and 1961.
+  - **The Gujjars.** The move to the summer pastures is attested in 1881, 1911 and 1961.
+  - **Kanum's flocks.** They are away from October to April (Kanum p. 85).
+
+  A19 shows that the 1881, Rose and 1961 descriptions of the Gaddi cycle are not copies of one another, so the persistence rests on independent witnesses.
+- **Caveats.** Few claims name months: the surveys more often say "winter" or "summer". "Other" mixes returns home with work away.
+- **Run.** 7 Oct 2026 (run by Claude; chart looked at by Claude and adjusted: merged rows, valley labels, title).
+
+## A16. Grazing fees and fee-paying flocks
+
+- **Question served.** SQ3, the Marxist step: did the Forest Department change what herding cost, or how many animals could graze?
+- **Script and command.** [scripts/fees.py](scripts/fees.py): `.venv/bin/python scripts/fees.py`.
+- **Inputs.**
+  - [data/fee_flocks.csv](data/fee_flocks.csv): Newell's grazing statement for Brahmaur tahsil (p. 38), **read from the page image by Claude** at 170 dpi. It adds the two years the idea files lacked: 1953-54, 40,515 sheep and 28,301 goats; 1954-55, 41,220 and 30,831.
+  - [data/fee_rates.csv](data/fee_rates.csv): rates as printed, with their rupee value (Newell p. 18; Brahmaur p. 55; Devi-Kothi p. 47, Table XIV).
+- **Result.**
+  - **The fall overall.** Fee-paying sheep and goats fell from 73,871 (1952-53) to 54,921 (1961-62), down 25.7%: sheep 27.6%, goats 23.0%.
+  - **A step, not a slide.** They fell 3.2% in 1952 to 1957, then **22.1% in 1957 to 1960**, then only 1.4% in 1960 to 1962, with no recovery after the disease year. Newell says the flocks themselves were "coming back" by 1962 (p. 37), and fee-paying numbers count permits. So the series fits his own explanation, a cap on permits, better than disease alone.
+  - **The rate per head hardly changed.** In 1950 the Raja's contractor took Rs 0.09 (sheep) and 0.16 (goat) per head per grazing district. In 1961 the Forest Department took Rs 0.10 to 0.25 per head per season. What changed was who collected and how many animals were allowed.
+- **Caveats.**
+  - One rupee = 16 annas = 192 pies before 1957, so 2 annas 6 pies is Rs 0.156.
+  - The 1950 rate is per grazing district and a flock may cross several, so the comparison is approximate.
+  - No series exists for Kinnaur.
+- **Run.** 7 Oct 2026 (run by Claude).
+
+## A17. Places, coordinates and the route map
+
+- **Question served.** SQ1 and the two-valley comparison: where the routes ran.
+- **Scripts and commands.** [scripts/geocode.py](scripts/geocode.py): `.venv/bin/python scripts/geocode.py --no-wikidata`. [scripts/map_routes.py](scripts/map_routes.py): `.venv/bin/python scripts/map_routes.py`.
+- **Method.**
+  - **Lookup.** OpenStreetMap's Nominatim (one request a second), with each village's 1961 district and tahsil. Elevations come from SRTM through OpenTopoData. A match outside the western Himalaya, Punjab and western Tibet is refused.
+  - **Wikidata.** It was tried as a fallback but answered HTTP 429 (rate limit) for an anonymous client. The script respects Retry-After, then gives up on Wikidata for the run; 72 answers it did give are cached and used.
+  - **Manual rules.** [data/places_manual.csv](data/places_manual.csv) records three kinds of rule:
+    - *same place as:* the Lavi fair is at Rampur; the Nalwari fair is at Mandi;
+    - *rejected matches:* Kalath matched a Kalath near Manali in Kullu, but the survey village is in Simla district; Basal matched a Basal in Una, but the survey village is near Solan; Bir matched Bir Khad, a stream.
+- **Result.**
+  - **Places located.** 82 of 168 places, including 16 of the 24 survey villages. The rest are minor localities, pastures and passes that OSM does not hold.
+  - **The map** (`analysis/maps/routes.html`, relief base). 91 claims drawn as 57 lines: winter grounds 39, fairs and markets 29, summer pastures 23. By valley: Sutlej 46, Ravi 27, Chenab 12, Beas 4.
+  - **Not drawn.** 235 movement claims, because one end has no coordinates or is generic ("low hills").
+- **Caveats.**
+  - The geocoded point is not always the village: SRTM at Nachar's point is 3,624 m against the survey's 6,500 to 7,200 ft (A18). For altitude, the survey's own figure is used.
+  - The first version of the map opened on a CartoDB layer that now needs an API key. It now opens on relief, with OpenStreetMap as the plain alternative.
+- **Run.** 7 Oct 2026 (run by Claude; map looked at by Claude).
+
+## A18. Does the mountain predict the flock? Altitude and households
+
+- **Question served.** SQ1, the Annales test: do high villages keep more sheep and goats per household, whatever their castes?
+- **Scripts and commands.**
+  - `python3 scripts/altitude.py --pages 60` and `python3 scripts/households.py`: candidate sentences in `analysis/altitude_candidates.csv` and `analysis/household_candidates.csv`.
+  - `.venv/bin/python scripts/geography.py`.
+- **Inputs, chosen by Claude from the candidates and checked against the page.**
+  - [data/village_altitudes.csv](data/village_altitudes.csv): the altitude each survey states, for 17 villages, with page and words; for example "Brahmaur lies at a height of about 7,000'" (p. 11) and Tandi "on a ten thousand feet high flat ground" (p. 18). A figure that belongs to something else was rejected: Kupha's 8,550 ft is Bhanodi, a halt on the road.
+  - For villages that state none (Batal, Nalag, Shathla, Pangna, Chauntra), SRTM at the geocoded point is used and marked as such.
+  - [data/village_households.csv](data/village_households.csv): 23 villages with page and words. For Brahmaur, 99 local households is used (p. 63), not 146 in all (p. 25), because the livestock table covers the 99. Pangna states no total.
+- **Result.**
+  - **Altitude and flocks.** The Spearman rank correlation between altitude and sheep and goats per household is **0.54 across 19 villages**. In the Ravi, Sutlej and Chenab valleys, every village above about 2,000 m keeps 13 to 45 sheep and goats per household (Brahmaur 45.3, Devi-Kothi 22.3, Tandi 21.3, Kothi 20.0, Kanum 16.2, Maingal 13.1); villages below keep fewer than 6. Chaupal is the exception: high (2,342 m) but on the Yamuna side, with 1.6. So the valley matters as well as the height.
+  - **Altitude and ownership.** The rank correlation between altitude and the landholding castes' share of the flock is **−0.05**: no relation (see the correction in A10).
+  - **Check of the geocoding.** 8 of 11 geocoded villages lie within 300 m of the survey's own altitude. Chaupal, Nachar and Rajana do not.
+- **Caveats.** With 19 villages this is description, not proof. The village sample was chosen by the Census, not at random. Two figures are houses, not households (Chaupal, Kupha).
+- **Run.** 7 Oct 2026 (run by Claude; chart looked at by Claude, label collision fixed).
+
+## A19. Text reuse: which sources copy which
+
+- **Question served.** Source criticism: are the 1881, 1911 and 1961 accounts independent witnesses?
+- **Script and command.** [scripts/text_reuse.py](scripts/text_reuse.py): `python3 scripts/text_reuse.py`.
+- **Method.** After the Programming Historian lesson "Detecting Text Reuse with Passim", in plain Python:
+  1. Every page is cut into overlapping 7-word sequences.
+  2. Sequences found more than 6 times in the earlier sources are ignored as boilerplate.
+  3. Each page of a later source is compared with every page of strictly earlier sources (Rose's volumes count as one work).
+  4. Shared sequences at consecutive positions are merged into runs, allowing one OCR slip; runs of 12 words or more are reported.
+- **Outputs.** In `analysis/text_reuse/`: `passages.csv` (4,698 passages), `pairs.csv` and `claims.csv` (claims whose quote lies in a copied passage).
+- **Result.**
+  - **Rose builds on the 1881 census throughout:** over 45,000 words in Vols. 1 to 3.
+  - **The 1961 Special Tables reprint colonial ethnography.** The *Special Tables on SC and ST, Himachal Pradesh* reprint 27,617 words of Rose and 7,963 of the 1881 census, so its caste descriptions are colonial text, not 1961 observation.
+  - **Three village volumes quote Rose:** Chaupal (1,649 words), Newell (1,618) and Kupha (985). The 1961 Subsidiary Tables and the Mahasu Handbook quote the 1931 Report.
+  - **A chain of copying.** Barnes on the Gujars (1881 p. 267) is copied by Rose (p. 346, 53 words), and from Rose by the Special Tables (p. 387, 74 words). Barnes on the Gaddis (1881 p. 275) is copied by the Special Tables (p. 372).
+  - **The witnesses for SQ1 are independent.** Rose's account of the Gaddi cycle (p. 297) is not copied from 1881, and Newell's pp. 18 and 36 copy neither. The persistence in A15 therefore rests on independent witnesses.
+  - **Copied claims.** Three claims rest on copied passages (Maingal p. 51, Rose Vol1 p. 40, Rose p. 545). They should be cited as one witness with their originals.
+- **Caveats.** Exact 7-word sequences miss paraphrase and heavily garbled OCR, so the counts are lower bounds.
 - **Run.** 7 Oct 2026 (run by Claude).
 
 ---

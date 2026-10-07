@@ -1,194 +1,187 @@
 relation,cycle,forest_department,princely_pastures,roads_and_wages,standing,trade_and_credit,two_sovereigns,conjunctures,total
-households -> moneylender (interest),0,0,0,0,0,40,0,1,40
+households -> moneylender (interest),0,0,0,0,0,42,0,1,42
 households -> cooperative society (interest),0,0,0,0,0,18,0,1,18
-households -> shopkeeper (produce sold),0,0,0,0,0,9,0,1,9
+households -> shopkeeper (produce sold),0,0,0,0,0,10,0,1,10
 "households -> Himachal Pradesh Government (dues, revenue or begar)",0,0,0,0,9,0,0,1,9
-"grazier -> Forest Department (dues, revenue or begar)",0,8,0,0,0,0,0,1,8
 households -> shopkeeper (interest),0,0,0,0,0,8,0,1,8
+"grazier -> Forest Department (dues, revenue or begar)",0,8,0,0,0,0,0,1,8
 shepherd -> Forest Department (fee or tax),0,8,0,0,0,0,0,1,8
 pohal -> households (labour),5,0,0,0,1,0,0,2,6
 shopkeeper -> households (produce sold),0,0,0,0,0,6,0,1,6
-shepherd -> Forest Department (permit),0,6,0,0,0,0,0,1,6
 households -> wealthy villagers (interest),0,0,0,0,0,6,0,1,6
-"households -> Raja of Chamba (dues, revenue or begar)",0,0,5,0,0,0,0,1,5
 Gaddi -> households (produce sold),0,0,0,0,0,5,0,1,5
+shepherd -> Forest Department (permit),0,5,0,0,0,0,0,1,5
 rigri -> Rajput (labour),5,0,0,0,0,0,0,1,5
-households -> Forest Department (permit),0,4,0,0,0,0,0,1,4
-Kinnaura -> households (produce sold),0,0,0,0,0,4,0,1,4
+"households -> Raja of Chamba (dues, revenue or begar)",0,0,4,0,0,0,0,1,4
 society members -> Co-operative Society Menthapal (interest),0,0,0,0,0,4,0,1,4
+households -> friends and relatives (interest),0,0,0,0,0,4,0,1,4
+Kinnaura -> households (produce sold),0,0,0,0,0,4,0,1,4
 Gujjar -> moneylender (interest),0,0,0,0,0,4,0,1,4
 Gujjar -> shopkeeper (produce sold),0,0,0,0,0,4,0,1,4
-households -> friends and relatives (interest),0,0,0,0,0,4,0,1,4
+households -> Forest Department (permit),0,3,0,0,0,0,0,1,3
+Tibet -> households (produce sold),0,0,0,0,0,3,0,1,3
+debtor -> Padam Ram (interest),0,0,0,0,0,3,0,1,3
+cooperative society member -> cooperative society (interest),0,0,0,0,0,3,0,1,3
+fawal -> Rajput (labour),0,0,0,3,0,0,0,1,3
+households -> well-to-do farmers (interest),0,0,0,0,0,3,0,1,3
+"mortgagor -> mortgagee (dues, revenue or begar)",2,0,0,0,1,0,0,2,3
+households -> landholders (interest),0,0,0,0,0,3,0,1,3
+"households -> moneylender (dues, revenue or begar)",0,0,1,0,2,0,0,2,3
 "Gaddi -> Raja of Chamba (dues, revenue or begar)",0,0,2,0,0,0,1,2,3
 Rampur -> households (produce sold),0,0,0,0,0,3,0,1,3
-Tibet -> households (produce sold),0,0,0,0,0,3,0,1,3
-"mortgagor -> mortgagee (dues, revenue or begar)",2,0,0,0,1,0,0,2,3
-"households -> moneylender (dues, revenue or begar)",0,0,0,0,3,0,0,1,3
-cooperative society member -> cooperative society (interest),0,0,0,0,0,3,0,1,3
-households -> landholders (interest),0,0,0,0,0,3,0,1,3
-debtor -> Padam Ram (interest),0,0,0,0,0,3,0,1,3
-fawal -> Rajput (labour),0,0,0,3,0,0,0,1,3
-households -> mukaddam (fee or tax),0,0,0,0,3,0,0,1,3
-households -> well-to-do farmers (interest),0,0,0,0,0,3,0,1,3
-households -> Forest Department (fee or tax),0,3,0,0,0,0,0,1,3
+Suket -> households (produce sold),0,0,0,0,0,2,0,1,2
+Gujjar -> shopkeeper (interest),0,0,0,0,0,2,0,1,2
+Rajput -> Koli (produce sold),0,0,0,0,0,2,0,1,2
+Rajana -> lambardar (fee or tax),0,0,1,0,1,0,0,2,2
+"Gujjar -> Brahman (dues, revenue or begar)",0,0,0,0,2,0,0,1,2
+Gertse -> shopkeeper (produce sold),0,0,0,0,0,2,0,1,2
 households -> Behra Co-operative Society (interest),0,0,0,0,0,2,0,1,2
+Koli -> Rajput (produce sold),0,0,0,0,0,2,0,1,2
+Gujjar -> buyer (produce sold),0,0,0,0,0,2,0,1,2
+households -> Tibet (produce sold),0,0,0,0,0,2,0,1,2
+households -> forest contractor (labour),0,0,0,0,2,0,0,1,2
+households -> Dabla temple (interest),0,0,0,0,0,2,0,1,2
+"households -> Forest Department (dues, revenue or begar)",0,2,0,0,0,0,0,1,2
+mobile herder -> Forest Department (fee or tax),0,2,0,0,0,0,0,1,2
+grinder -> households (labour),0,0,0,0,2,0,0,1,2
+Totari -> Tandi (labour),2,0,0,0,0,0,0,1,2
+fawal -> Tandi (labour),0,0,0,2,0,0,0,1,2
+fawal -> Lal Chand Negi (labour),0,0,0,2,0,0,0,1,2
+households -> Forest Department (fee or tax),0,2,0,0,0,0,0,1,2
+households -> Himachal Pradesh Government (fee or tax),0,0,0,0,2,0,0,1,2
+fee contractor -> Raja of Chamba (price of a right),0,0,2,0,0,0,0,1,2
+grazier -> Forest Department (permit),0,2,0,0,0,0,0,1,2
+households -> mortgagee (interest),0,0,0,0,0,2,0,1,2
+"households -> shopkeeper (dues, revenue or begar)",0,0,0,0,2,0,0,1,2
+households -> peasant (interest),0,0,0,0,0,2,0,1,2
+Gartok -> Well-to-do people (produce sold),0,0,0,0,0,2,0,1,2
+Bhot -> households (produce sold),0,0,0,0,0,2,0,1,2
 households -> Himachal Pradesh Government (interest),0,0,0,0,0,2,0,1,2
 households -> Gujjar (produce sold),0,0,0,0,0,2,0,1,2
-Gertse -> shopkeeper (produce sold),0,0,0,0,0,2,0,1,2
-"Gujjar -> Brahman (dues, revenue or begar)",0,0,0,0,2,0,0,1,2
-grinder -> households (labour),0,0,0,0,2,0,0,1,2
-grazier -> Forest Department (permit),0,2,0,0,0,0,0,1,2
-mobile herder -> Forest Department (fee or tax),0,2,0,0,0,0,0,1,2
+households -> Simla (produce sold),0,0,0,0,0,2,0,1,2
+shepherd -> Gaddi flock owner (labour),2,0,0,0,0,0,0,1,2
+"shepherd -> fee contractor (dues, revenue or begar)",0,0,2,0,0,0,0,1,2
+shepherd -> fee contractor (fee or tax),0,0,2,0,0,0,0,1,2
+"landholders -> Gaddi (dues, revenue or begar)",2,0,0,0,0,0,0,1,2
+"landholders -> Bushahr ruler (dues, revenue or begar)",0,0,2,0,0,0,0,1,2
 "shepherd -> Kangra rajah (dues, revenue or begar)",0,0,2,0,0,0,0,1,2
 tenant -> landholders (interest),0,0,0,0,0,2,0,1,2
 shepherd -> households (produce sold),0,0,0,0,0,2,0,1,2
-households -> mortgagee (interest),0,0,0,0,0,2,0,1,2
-"landholders -> Gaddi (dues, revenue or begar)",2,0,0,0,0,0,0,1,2
-households -> Tibet (produce sold),0,0,0,0,0,2,0,1,2
-households -> forest contractor (labour),0,0,0,0,2,0,0,1,2
-"households -> Forest Department (dues, revenue or begar)",0,2,0,0,0,0,0,1,2
-households -> Dabla temple (interest),0,0,0,0,0,2,0,1,2
-households -> peasant (interest),0,0,0,0,0,2,0,1,2
-"households -> shopkeeper (dues, revenue or begar)",0,0,0,0,2,0,0,1,2
-fawal -> Lal Chand Negi (labour),0,0,0,2,0,0,0,1,2
-fawal -> Tandi (labour),0,0,0,2,0,0,0,1,2
-shepherd -> fee contractor (fee or tax),0,0,2,0,0,0,0,1,2
-households -> moneylender (fee or tax),0,0,0,0,2,0,0,1,2
-Dehar -> Nalag (produce sold),0,0,0,0,0,2,0,1,2
 Chamar -> Himachal Pradesh Government (interest),0,0,0,0,0,2,0,1,2
-Gartok -> Well-to-do people (produce sold),0,0,0,0,0,2,0,1,2
-Koli -> Rajput (produce sold),0,0,0,0,0,2,0,1,2
-Gujjar -> shopkeeper (interest),0,0,0,0,0,2,0,1,2
-Gujjar -> moneylender (produce sold),0,0,0,0,0,2,0,1,2
-Rajput -> Koli (produce sold),0,0,0,0,0,2,0,1,2
-Rajana -> lambardar (fee or tax),0,0,1,0,1,0,0,2,2
-Suket -> households (produce sold),0,0,0,0,0,2,0,1,2
-households -> Himachal Pradesh Government (fee or tax),0,0,0,0,2,0,0,1,2
-households -> Simla (produce sold),0,0,0,0,0,2,0,1,2
-fee contractor -> Raja of Chamba (price of a right),0,0,2,0,0,0,0,1,2
-shepherd -> Gaddi flock owner (labour),2,0,0,0,0,0,0,1,2
-"shepherd -> fee contractor (dues, revenue or begar)",0,0,2,0,0,0,0,1,2
 Bodh -> Himachal Pradesh Government (interest),0,0,0,0,0,2,0,1,2
-Bhot -> households (produce sold),0,0,0,0,0,2,0,1,2
-Totari -> Tandi (labour),2,0,0,0,0,0,0,1,2
-Chaurah -> households (produce sold),0,0,0,0,0,1,0,1,1
-Gaddi -> Raja of Chamba (price of a right),0,0,1,0,0,0,0,1,1
-"Gaddi -> Lahuli ruler (dues, revenue or begar)",0,0,0,0,1,0,0,1,1
+Gujjar -> moneylender (produce sold),0,0,0,0,0,2,0,1,2
+Arki -> households (produce sold),0,0,0,0,0,1,0,1,1
 Bilaspur -> households (produce sold),0,0,0,0,0,1,0,1,1
-Bodh -> moneylender (interest),0,0,0,0,0,1,0,1,1
+Chamar -> households (labour),0,0,0,0,1,0,0,1,1
 Chamar -> Buffalo owner (produce sold),0,0,0,0,0,1,0,1,1
 Buffalo-rearing family -> Halwai (produce sold),0,0,0,0,0,1,0,1,1
-Arki -> households (produce sold),0,0,0,0,0,1,0,1,1
-Dodra-Kawar -> households (produce sold),0,0,0,0,0,1,0,1,1
-Gaddi -> Forest Department (fee or tax),0,1,0,0,0,0,0,1,1
-"Gaddi -> British administration in Kangra (dues, revenue or begar)",0,0,0,0,0,0,1,1,1
-bridegroom -> bride (interest),0,0,0,0,0,1,0,1,1
-bride's father -> bride (interest),0,0,0,0,0,1,0,1,1
-"agricultural labourer -> shepherd (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
-agricultural labourer -> rich family (labour),0,0,0,0,1,0,0,1,1
-agricultural labourer -> moneylender (labour),0,0,0,0,1,0,0,1,1
-agricultural labourer -> landholders (labour),0,0,0,0,1,0,0,1,1
-agricultural labourer -> Makhan Lal Negi (labour),0,0,0,0,1,0,0,1,1
-Village labourer -> lambardar (labour),0,0,1,0,0,0,0,1,1
-Tibetan traders -> households (produce sold),0,0,0,0,0,1,0,1,1
-Seoni -> weaver (produce sold),0,0,0,0,0,1,0,1,1
 Simla -> weaver (produce sold),0,0,0,0,0,1,0,1,1
 Sirmur -> households (produce sold),0,0,0,0,0,1,0,1,1
 Seller -> households (produce sold),0,0,0,0,0,1,0,1,1
-Sarkaghat -> households (produce sold),0,0,0,0,0,1,0,1,1
-"Scheduled castes -> moneylender (dues, revenue or begar)",0,0,0,0,1,0,0,1,1
+Seoni -> weaver (produce sold),0,0,0,0,0,1,0,1,1
 Scheduled castes -> moneylender (interest),0,0,0,0,0,1,0,1,1
-Nalagarh -> households (produce sold),0,0,0,0,0,1,0,1,1
-Nalwari fair -> households (produce sold),0,0,0,0,0,1,0,1,1
-Nearby village -> households (produce sold),0,0,0,0,0,1,0,1,1
+"Scheduled castes -> moneylender (dues, revenue or begar)",0,0,0,0,1,0,0,1,1
 Ramdasi -> cooperative society (interest),0,0,0,0,0,1,0,1,1
+Sarkaghat -> households (produce sold),0,0,0,0,0,1,0,1,1
+Pangwal -> shopkeeper (produce sold),0,0,0,0,0,1,0,1,1
 Rajput -> buyer (produce sold),0,0,0,0,0,1,0,1,1
 Ramdasi -> buyer (produce sold),0,0,0,0,0,1,0,1,1
-Padam Ram -> Tibet (produce sold),0,0,0,0,0,1,0,1,1
-Pangwal -> shopkeeper (produce sold),0,0,0,0,0,1,0,1,1
-Market -> shawl weaver (produce sold),0,0,0,0,0,1,0,1,1
+Nalagarh -> households (produce sold),0,0,0,0,0,1,0,1,1
+Nalwari fair -> households (produce sold),0,0,0,0,0,1,0,1,1
 Namsha -> middleman (interest),0,0,0,0,0,1,0,1,1
-Kumhar -> households (produce sold),0,0,0,0,0,1,0,1,1
-Kutsa-rantauch -> Tandi (labour),1,0,0,0,0,0,0,1,1
-Lahaul -> households (produce sold),0,0,0,0,0,1,0,1,1
-Lal Chand Negi -> Tibet (produce sold),0,0,0,0,0,1,0,1,1
+Nearby village -> households (produce sold),0,0,0,0,0,1,0,1,1
+Padam Ram -> Tibet (produce sold),0,0,0,0,0,1,0,1,1
 Lohar -> landholders (interest),0,0,0,0,0,1,0,1,1
+Lal Chand Negi -> Tibet (produce sold),0,0,0,0,0,1,0,1,1
+Lahula -> Spiti men (produce sold),0,0,0,0,0,1,0,1,1
+Lahaul -> households (produce sold),0,0,0,0,0,1,0,1,1
+Kutsa-rantauch -> Tandi (labour),1,0,0,0,0,0,0,1,1
+"Mudydri tenant -> landholders (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
+Market -> shawl weaver (produce sold),0,0,0,0,0,1,0,1,1
 Market -> households (produce sold),0,0,0,0,0,1,0,1,1
-Gaddi -> shopkeeper (produce sold),0,0,0,0,0,1,0,1,1
-Gaddi -> non-government agency or firm (labour),0,0,0,0,1,0,0,1,1
-Gujjar -> buyer (produce sold),0,0,0,0,0,1,0,1,1
-Gujjar -> Chamba (produce sold),0,0,0,0,0,1,0,1,1
-Gaddi -> buyer (produce sold),0,0,0,0,0,1,0,1,1
-Gardener -> panchayat (labour),0,0,0,0,1,0,0,1,1
 Kot -> households (produce sold),0,0,0,0,0,1,0,1,1
+Kumhar -> households (produce sold),0,0,0,0,0,1,0,1,1
 Koli -> shopkeeper (produce sold),0,0,0,0,0,1,0,1,1
-Koli -> Rajput (interest),0,0,0,0,0,1,0,1,1
-Kinnaura -> weaver (produce sold),0,0,0,0,0,1,0,1,1
-Kanum -> households (interest),0,0,0,0,0,1,0,1,1
-Kinnaura -> Shakrori (produce sold),0,0,0,0,0,1,0,1,1
 Kangra -> households (produce sold),0,0,0,0,0,1,0,1,1
+Kinnaura -> Shakrori (produce sold),0,0,0,0,0,1,0,1,1
+Kanum -> households (interest),0,0,0,0,0,1,0,1,1
+Kinnaura -> weaver (produce sold),0,0,0,0,0,1,0,1,1
+Koli -> Rajput (interest),0,0,0,0,0,1,0,1,1
+Dehar -> Nalag (produce sold),0,0,0,0,0,1,0,1,1
+Dodra-Kawar -> households (produce sold),0,0,0,0,0,1,0,1,1
+Chaurah -> households (produce sold),0,0,0,0,0,1,0,1,1
+Gaddi -> Raja of Chamba (price of a right),0,0,1,0,0,0,0,1,1
+Gardener -> panchayat (labour),0,0,0,0,1,0,0,1,1
 Kalath -> neighboring village (produce sold),0,0,0,0,0,1,0,1,1
 Harijan -> moneylender (interest),0,0,0,0,0,1,0,1,1
 "Jubbal devta -> Thakur Lila Singh (dues, revenue or begar)",0,0,0,0,1,0,0,1,1
+Gujjar -> Chamba (produce sold),0,0,0,0,0,1,0,1,1
+"Gaddi -> Lahuli ruler (dues, revenue or begar)",0,0,0,0,1,0,0,1,1
+Gaddi -> Forest Department (fee or tax),0,1,0,0,0,0,0,1,1
+"Gaddi -> British administration in Kangra (dues, revenue or begar)",0,0,0,0,0,0,1,1,1
+Gaddi -> buyer (produce sold),0,0,0,0,0,1,0,1,1
+Gaddi -> shopkeeper (produce sold),0,0,0,0,0,1,0,1,1
+"Ghéra tenant -> landholders (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
 Chamba -> Gujjar (produce sold),0,0,0,0,0,1,0,1,1
-Chamar -> households (labour),0,0,0,0,1,0,0,1,1
 Bhangrotu -> households (produce sold),0,0,0,0,0,1,0,1,1
+Batwal -> Rajput (labour),0,0,1,0,0,0,0,1,1
+Bodh -> moneylender (interest),0,0,0,0,0,1,0,1,1
 herdsmen's client -> Kangra rajah (permit),0,1,0,0,0,0,0,1,1
-grazier -> Churahi (labour),0,0,0,0,1,0,0,1,1
-fee contractor -> shepherd (produce sold),0,0,1,0,0,0,0,1,1
-households -> Bhot (produce sold),0,0,0,0,0,1,0,1,1
-"households -> Bushahr ruler (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
-households -> Dagshai (produce sold),0,0,0,0,0,1,0,1,1
-fawal -> households (labour),0,0,0,1,0,0,0,1,1
-farmer -> Mahajan (produce sold),0,0,0,0,0,1,0,1,1
 farmer -> moneylender (interest),0,0,0,0,0,1,0,1,1
-fawal -> landholders (labour),0,0,0,1,0,0,0,1,1
-debtor -> moneylender (interest),0,0,0,0,0,1,0,1,1
-cooperative society -> Himachal Pradesh State Co-operative Bank (interest),0,0,0,0,0,1,0,1,1
-cattle trader -> households (produce sold),0,0,0,0,0,1,0,1,1
-households -> itinerant coin collector (produce sold),0,0,0,0,0,1,0,1,1
-households -> grazier (fee or tax),1,0,0,0,0,0,0,1,1
-households -> government official (produce sold),0,0,0,0,0,1,0,1,1
-"households -> gawalay (dues, revenue or begar)",1,0,0,0,0,0,0,1,1
-households -> Tisa (produce sold),0,0,0,0,0,1,0,1,1
+grazier -> households (labour),0,0,0,0,1,0,0,1,1
+grazier -> Tandi (labour),1,0,0,0,0,0,0,1,1
+grazier -> Churahi (labour),0,0,0,0,1,0,0,1,1
+farmer -> Brahman (produce sold),0,0,0,0,0,1,0,1,1
+"farmer -> Brahman (dues, revenue or begar)",1,0,0,0,0,0,0,1,1
+bridegroom -> bride (interest),0,0,0,0,0,1,0,1,1
+Tibetan traders -> households (produce sold),0,0,0,0,0,1,0,1,1
+agricultural labourer -> rich family (labour),0,0,0,0,1,0,0,1,1
+"agricultural labourer -> shepherd (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
+agricultural labourer -> landholders (labour),0,0,0,0,1,0,0,1,1
+agricultural labourer -> moneylender (labour),0,0,0,0,1,0,0,1,1
 households -> Town (produce sold),0,0,0,0,0,1,0,1,1
 households -> buyer (produce sold),0,0,0,0,0,1,0,1,1
-households -> cooperative society (fee or tax),0,0,0,0,1,0,0,1,1
 households -> Sirmur (produce sold),0,0,0,0,0,1,0,1,1
-households -> Shilaghrat (produce sold),0,0,0,0,0,1,0,1,1
-households -> Kalka (produce sold),0,0,0,0,0,1,0,1,1
-households -> Kala Amb (produce sold),0,0,0,0,0,1,0,1,1
-households -> Lavi fair (produce sold),0,0,0,0,0,1,0,1,1
+households -> Tisa (produce sold),0,0,0,0,0,1,0,1,1
 households -> Market (produce sold),0,0,0,0,0,1,0,1,1
 households -> Rajput (interest),0,0,0,0,0,1,0,1,1
 households -> Satyas (produce sold),0,0,0,0,0,1,0,1,1
+households -> Shilaghrat (produce sold),0,0,0,0,0,1,0,1,1
+households -> Kalka (produce sold),0,0,0,0,0,1,0,1,1
+households -> Lavi fair (produce sold),0,0,0,0,0,1,0,1,1
+households -> Kala Amb (produce sold),0,0,0,0,0,1,0,1,1
+"households -> Bushahr ruler (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
 households -> Gowari (produce sold),0,0,0,0,0,1,0,1,1
 households -> Indebted households (interest),0,0,0,0,0,1,0,1,1
-households -> Jubbal devta (fee or tax),0,0,0,0,1,0,0,1,1
 households -> Informal lender (interest),0,0,0,0,0,1,0,1,1
-"farmer -> Mahajan (dues, revenue or begar)",1,0,0,0,0,0,0,1,1
+households -> Jubbal devta (fee or tax),0,0,0,0,1,0,0,1,1
+households -> Dagshai (produce sold),0,0,0,0,0,1,0,1,1
+households -> Bhot (produce sold),0,0,0,0,0,1,0,1,1
 debtor -> rich family (interest),0,0,0,0,0,1,0,1,1
-"farmer -> Brahman (dues, revenue or begar)",1,0,0,0,0,0,0,1,1
-farmer -> Brahman (produce sold),0,0,0,0,0,1,0,1,1
-grazier -> households (labour),0,0,0,0,1,0,0,1,1
-grazier -> Tandi (labour),1,0,0,0,0,0,0,1,1
-"landholders -> Bushahr ruler (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
-households -> non-right holders (produce sold),0,0,0,0,0,1,0,1,1
-livestock caretaker -> households (labour),1,0,0,0,0,0,0,1,1
-households -> open market (produce sold),0,0,0,0,0,1,0,1,1
+debtor -> moneylender (interest),0,0,0,0,0,1,0,1,1
+cattle trader -> households (produce sold),0,0,0,0,0,1,0,1,1
+cooperative society -> Himachal Pradesh State Co-operative Bank (interest),0,0,0,0,0,1,0,1,1
+bride's father -> bride (interest),0,0,0,0,0,1,0,1,1
+"farmer -> Mahajan (dues, revenue or begar)",1,0,0,0,0,0,0,1,1
+fawal -> landholders (labour),0,0,0,1,0,0,0,1,1
+fawal -> households (labour),0,0,0,1,0,0,0,1,1
+farmer -> Mahajan (produce sold),0,0,0,0,0,1,0,1,1
+"households -> pallari (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
+households -> itinerant coin collector (produce sold),0,0,0,0,0,1,0,1,1
 households -> muleteer (produce sold),0,0,0,0,0,1,0,1,1
-households -> low hills (produce sold),0,0,0,0,0,1,0,1,1
-peasant -> moneylender (interest),0,0,0,0,0,1,0,1,1
+households -> non-right holders (produce sold),0,0,0,0,0,1,0,1,1
+households -> open market (produce sold),0,0,0,0,0,1,0,1,1
 non-right holders -> Forest Department (fee or tax),0,1,0,0,0,0,0,1,1
 neighboring village -> Kalath (produce sold),0,0,0,0,0,1,0,1,1
-mortgagee -> landholders (produce sold),0,0,0,0,0,1,0,1,1
-moneylender -> households (interest),0,0,0,0,0,1,0,1,1
-low-caste people -> Gaddi (labour),0,0,1,0,0,0,0,1,1
-malundi -> households (labour),1,0,0,0,0,0,0,1,1
 man -> rich family (interest),0,0,0,0,0,1,0,1,1
-landholders -> fee contractor (produce sold),0,0,1,0,0,0,0,1,1
+mortgagee -> landholders (produce sold),0,0,0,0,0,1,0,1,1
+malundi -> households (labour),1,0,0,0,0,0,0,1,1
 landholders -> Scheduled castes (produce sold),0,0,0,0,0,1,0,1,1
-"landholders -> Primary Owner (dues, revenue or begar)",0,0,0,0,1,0,0,1,1
+livestock caretaker -> households (labour),1,0,0,0,0,0,0,1,1
+low-caste people -> Gaddi (labour),0,0,1,0,0,0,0,1,1
+households -> low hills (produce sold),0,0,0,0,0,1,0,1,1
+households -> government official (produce sold),0,0,0,0,0,1,0,1,1
+households -> grazier (fee or tax),1,0,0,0,0,0,0,1,1
 "shepherd -> Raja of Chamba (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
 "shepherd -> Himachal Pradesh Government (dues, revenue or begar)",0,0,1,0,0,0,0,1,1
 shepherd -> Gaddi (fee or tax),0,0,1,0,0,0,0,1,1
