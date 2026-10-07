@@ -1,0 +1,121 @@
+origin,dest,dest_class,predicate,subject,object,months,valley,source,pdf_page,layer_year,evidence,quote
+brahmaur,kangra,winter grounds,GRAZES_AT,Gaddi (Brahmaur),Kangra,,Ravi,Brahmaur,12,1961,ai_checked,during winter in the valley of Kangra a!ld
+brahmaur,kangra,winter grounds,MIGRATES_TO,Gaddi (Brahmaur),Kangra,,Ravi,Brahmaur,87,1961,ai_checked,The yearly migration to Kangra and other places is on the decline.
+brahmaur,suket,winter grounds,GRAZES_AT,Gaddi (Brahmaur),Suket,,Ravi,Brahmaur,12,1961,ai_checked,in Suket and Mandi illaqas.
+brahmaur,mandi,winter grounds,GRAZES_AT,Gaddi (Brahmaur),Mandi,,Ravi,Brahmaur,12,1961,ai_checked,in Suket and Mandi illaqas.
+brahmaur,kangra,winter grounds,MIGRATES_TO,households (Brahmaur),Kangra,,Ravi,Brahmaur,36,1961,ai_checked,"These, they purchased during their'migration to Kangra and other places."
+brahmaur,chamba_town,fairs and markets,TRADES_AT,households (Brahmaur),Chamba,,Ravi,Brahmaur,36,1961,ai_checked,a good number of walnut trees but the nuts are very little used locally and are exchanged for cash at Chamba.
+kinnaur,suni,winter grounds,MIGRATES_TO,households,Suni,,Sutlej,Kothi,92,1961,ai_checked,"pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog."
+kinnaur,karsog,winter grounds,MIGRATES_TO,households,Karsog,,Sutlej,Kothi,92,1961,ai_checked,"pastures in lower hills in winter as far into Suni, Tata Pani, parts of Karsog."
+kinnaur,arki,winter grounds,MIGRATES_TO,households,Arki,,Sutlej,Kothi,92,1961,ai_checked,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+kinnaur,bilaspur,winter grounds,MIGRATES_TO,households,Bilaspur,,Sutlej,Kothi,92,1961,ai_checked,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+kinnaur,suket,winter grounds,MIGRATES_TO,households,Suket,,Sutlej,Kothi,92,1961,ai_checked,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+kinnaur,sirmur,winter grounds,MIGRATES_TO,households,Sirmur,,Sutlej,Kothi,92,1961,ai_checked,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+kinnaur,rajgarh,winter grounds,MIGRATES_TO,households,Rajgarh,,Sutlej,Kothi,92,1961,ai_checked,"They also go to Arki, Bilaspur, Suket, Sirmur and Raj garh ."
+brahmaur,pangi,summer pastures,MOVES_VIA,shepherd (Brahmaur),Pangi,9,Ravi,Brahmaur,55,1961,ai_checked,In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven
+brahmaur,lahaul,summer pastures,MOVES_VIA,shepherd (Brahmaur),Lahaul,9,Ravi,Brahmaur,55,1961,ai_checked,In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven
+rampur,lavi_fair,fairs and markets,TRADES_AT,shopkeeper,Lavi fair,11,Sutlej,Mahasu,56,1961,ai_checked,"is held there in the second week of
+November every year which attracts thousands of people and traders from far off
+places."
+kangra,market,fairs and markets,TRADES_AT,Gujjar,Market,,Beas,Rose,346,1911,ai_checked,"The women repair to the markets every morning with baskets on their heads, with little earthen pots filled with milk, butter-"
+rohru,lambi_dhar,summer pastures,GRAZES_AT,"mobile herders (Gujjars, Gaddis and Kinnauras)",Lambi Dhar,,,Mahasu,335,1961,ai_checked,"Lambi Dhar
+
+300
+
+53
+
+53
+
+Shagh Thatch"
+brahmaur,pangi,summer pastures,MIGRATES_TO,malundi (Brahmaur),Pangi,,Ravi,Brahmaur,55,1961,ai_checked,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+brahmaur,lahaul,summer pastures,MIGRATES_TO,malundi (Brahmaur),Lahaul,,Ravi,Brahmaur,55,1961,ai_checked,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+brahmaur,kangra,winter grounds,GRAZES_AT,malundi (Brahmaur),Kangra,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+brahmaur,kangra,winter grounds,MIGRATES_TO,malundi (Brahmaur),Kangra,,Ravi,Brahmaur,56,1961,ai_checked,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and"
+brahmaur,nurpur,winter grounds,GRAZES_AT,malundi (Brahmaur),Nurpur,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+brahmaur,nurpur,winter grounds,MIGRATES_TO,malundi (Brahmaur),Nurpur,,Ravi,Brahmaur,56,1961,ai_checked,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and"
+brahmaur,pathankot,winter grounds,GRAZES_AT,malundi (Brahmaur),Pathankot,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+brahmaur,pathankot,winter grounds,MIGRATES_TO,malundi (Brahmaur),Pathankot,,Ravi,Brahmaur,56,1961,ai_checked,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and"
+brahmaur,jammu,winter grounds,GRAZES_AT,malundi (Brahmaur),Jammu,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+brahmaur,jammu,winter grounds,MIGRATES_TO,malundi (Brahmaur),Jammu,,Ravi,Brahmaur,56,1961,ai_checked,"After staying there for 15 to 20 days, they migrate to the low lying pastures in Nurpur, Kangra, Pathankot and
+Jammu."
+brahmaur,pangi,summer pastures,MIGRATES_TO,pohal (Brahmaur),Pangi,,Ravi,Brahmaur,55,1961,ai_checked,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+brahmaur,lahaul,summer pastures,MIGRATES_TO,pohal (Brahmaur),Lahaul,,Ravi,Brahmaur,55,1961,ai_checked,The malundis as well as the pohals keep constantly migrating b.etween the low hills and the inner moun tams of Pangi and Lahaul alongwith their flocks.
+brahmaur,lahaul,summer pastures,GRAZES_AT,pohal (Brahmaur),Lahaul,,Ravi,Brahmaur,57,1961,ai_checked,He took his flock for grazing to Lahaul
+brahmaur,lahaul,summer pastures,GRAZES_AT,pohal (Brahmaur),Lahaul,,Ravi,Brahmaur,58,1961,ai_checked,when some pohals went to Lahaul to graze their flocks
+brahmaur,kangra,winter grounds,GRAZES_AT,pohal (Brahmaur),Kangra,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+brahmaur,nurpur,winter grounds,GRAZES_AT,pohal (Brahmaur),Nurpur,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+brahmaur,pathankot,winter grounds,GRAZES_AT,pohal (Brahmaur),Pathankot,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+brahmaur,jammu,winter grounds,GRAZES_AT,pohal (Brahmaur),Jammu,10|11,Ravi,Brahmaur,55,1961,ai_checked,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+pangi,sach_pass,summer pastures,MOVES_VIA,Pangi,Sach Pass,,Chenab,Kupha,111,1961,ai_checked,"That over the Sach (14,328 feet elevation), though
+longest. is the best and most generally used."
+pangi,sach_pass,summer pastures,MOVES_VIA,Pangi,Sach Pass,,Chenab,Kupha,128,1961,ai_checked,The easiest approach from Chamba to Pangi is via Sach Pass (14478 :fl.).
+pangi,cheni_pass,summer pastures,MOVES_VIA,Pangi,Cheni pass,,Chenab,Kupha,111,1961,ai_checked,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+pangi,kalicho_pass,summer pastures,MOVES_VIA,Pangi,Kalicho pass,,Chenab,Kupha,111,1961,ai_checked,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+pangi,chobia_pass,summer pastures,MOVES_VIA,Pangi,Chobia pass,,Chenab,Kupha,111,1961,ai_checked,"There are six routes from it. connecting
+Pangi with Chamba over passes of various altitudes from which they derive their names.
+ viz., the Sach, the Cheni, the Marwa or Chara,
+the Drati, the Kalicho. and the Chobia."
+pangi,rohtang,summer pastures,MOVES_VIA,Pangi,Rohtang pass,,Chenab,Kupha,128,1961,ai_checked,The Sub Tehsil can be apprqached from Manali-Kulu side after crossing Rohtang Pass in Punjab Lauhal.
+pangi,kishtwar,winter grounds,MOVES_VIA,Pangi,Kishtwar,,Chenab,Kupha,128,1961,ai_checked,"The 'third approach to the valley is via Kishtwar, where River Chandra Bhaga cuts a chasm in the Pangi Range of mountains and flows into Jammu and Kashmir territory."
+kugti_village,kangra,winter grounds,MIGRATES_TO,households (Kugti village),Kangra,,Beas,Brahmaur,109,1961,ai_partly,During the winter the area is deeply under snow and most of the inhabitants emigrate further down the valley or to the Kangra Plains.
+devi_kothi,sach_pass,summer pastures,MOVES_VIA,households (Devi-Kothi),Sach Pass,5|6|8|9,Ravi,Devi-Kothi,53,1961,ai_checked,Some villagers calry loads to Pangi during May and June or August and September. The route via Sach Pass is preferred.
+pangi,tarela,fairs and markets,TRADES_AT,Pangwal,Tarela,,Chenab,Kupha,132,1961,ai_checked,readily excbanged for saIT at Tr~la across the Sach Pass.
+pangi,sach_pass,summer pastures,MOVES_VIA,Pangwal,Sach Pass,,Chenab,Kupha,132,1961,ai_partly,hardly if ever does more than one trip across the pass in a year
+chaurah,pangi,summer pastures,MIGRATES_TO,Churahi,Pangi,,Chenab,Rose,250,1911,ai_partly,"like the Gaddis, they visit Pangi in summer"
+kanum,lavi_fair,fairs and markets,TRADES_AT,Kanum,Lavi fair,,Sutlej,Kanum,50,1961,ai_checked,"exchange of produce o~their country viz, wool, woollen pattIes, chilgoz , goat and sheep with corns of all kinds either n the Lavi Fair at Ramput"
+kanum,karsog,fairs and markets,TRADES_AT,Kanum,Karsog,,Sutlej,Kanum,50,1961,ai_checked,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+kanum,bilaspur,fairs and markets,TRADES_AT,Kanum,Bilaspur,,Sutlej,Kanum,50,1961,ai_checked,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+kanum,arki,fairs and markets,TRADES_AT,Kanum,Arki,,Sutlej,Kanum,50,1961,ai_checked,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+kanum,seoni,fairs and markets,TRADES_AT,Kanum,Seoni,,Sutlej,Kanum,50,1961,ai_checked,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+kanum,mehlog,fairs and markets,TRADES_AT,Kanum,Mehlog,,Sutlej,Kanum,50,1961,ai_checked,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+kanum,sirmur,fairs and markets,TRADES_AT,Kanum,Sirmur,,Sutlej,Kanum,50,1961,ai_checked,"respec lye camping places in
+Karsog, Bilaspur, ArKi, Seoni, ;'vlehlog and Sirmur."
+kanum,lavi_fair,fairs and markets,TRADES_AT,households (Kanum),Lavi fair,,Sutlej,Kanum,16,1961,ai_checked,sold by them either in Lavi fair at Rampur
+kanum,lavi_fair,fairs and markets,TRADES_AT,households (Kanum),Lavi fair,,Sutlej,Kanum,85,1961,ai_partly,"Some well-to-do persons have donkeys to carry mi$cellaneous articles like woollen patties, chilgoza and pasham which they sell in Lavi fair at Rampur"
+kanum,lavi_fair,fairs and markets,TRADES_AT,households (Kanum),Lavi fair,,Sutlej,Kanum,131,1961,ai_partly,in return from Tibet they sold their merchandise in the famous Lavi fair at Rampur.
+kanum,lavi_fair,fairs and markets,TRADES_AT,households (Kanum),Lavi fair,,Sutlej,Kanum,16,1961,ai_checked,which are sold by them either in Lavi fair at Rampur
+kanum,sirmur,fairs and markets,TRADES_AT,households (Kanum),Sirmur,,Sutlej,Kanum,16,1961,ai_checked,"or in the villages in Sirmur, Seoni, Arki."
+kanum,sirmur,winter grounds,MIGRATES_TO,households (Kanum),Sirmur,10,Sutlej,Kanum,85,1961,ai_partly,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+kanum,seoni,fairs and markets,TRADES_AT,households (Kanum),Seoni,,Sutlej,Kanum,16,1961,ai_checked,"or in the villages in Sirmur, Seoni, Arki."
+kanum,seoni,winter grounds,MIGRATES_TO,households (Kanum),Seoni,10,Sutlej,Kanum,85,1961,ai_partly,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+kanum,arki,fairs and markets,TRADES_AT,households (Kanum),Arki,,Sutlej,Kanum,16,1961,ai_checked,"or in the villages in Sirmur, Seoni, Arki."
+kanum,arki,winter grounds,MIGRATES_TO,households (Kanum),Arki,10,Sutlej,Kanum,85,1961,ai_partly,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+kanum,arki,winter grounds,MIGRATES_TO,households (Kanum),Arki,10|11|12|1|2|3|4,Sutlej,Kanum,85,1961,ai_checked,They spend the chilly months in these places till the end of April
+kanum,suket,fairs and markets,TRADES_AT,households (Kanum),Suket,,Sutlej,Kanum,16,1961,ai_checked,"Suket, Bilaspur and Mehlog in their camping places."
+kanum,bilaspur,fairs and markets,TRADES_AT,households (Kanum),Bilaspur,,Sutlej,Kanum,16,1961,ai_checked,"Suket, Bilaspur and Mehlog in their camping places."
+kanum,bilaspur,winter grounds,MIGRATES_TO,households (Kanum),Bilaspur,10,Sutlej,Kanum,85,1961,ai_partly,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+kanum,bilaspur,winter grounds,MIGRATES_TO,households (Kanum),Bilaspur,10|11|12|1|2|3|4,Sutlej,Kanum,85,1961,ai_checked,During winter from October they migrate to Lower Hills as far into Bilaspur
+kanum,mehlog,fairs and markets,TRADES_AT,households (Kanum),Mehlog,,Sutlej,Kanum,16,1961,ai_checked,"Suket, Bilaspur and Mehlog in their camping places."
+kanum,mehlog,winter grounds,MIGRATES_TO,households (Kanum),Mehlog,10,Sutlej,Kanum,85,1961,ai_partly,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+kanum,mehlog,winter grounds,MIGRATES_TO,households (Kanum),Mehlog,,Sutlej,Kanum,136,1961,ai_partly,"During winter Virender m'igrates to lower hills, PaUa and Mehlog in Arki Tehsil with his goats and sheep."
+kanum,karsog,winter grounds,MIGRATES_TO,households (Kanum),Karsog,10,Sutlej,Kanum,85,1961,ai_partly,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+kanum,rao,summer pastures,GRAZES_AT,households (Kanum),Rao,,Sutlej,Kanum,85,1961,ai_checked,"while going to the alpine pastures in Pruti, Brati, Rao,"
+kanum,runang,summer pastures,GRAZES_AT,households (Kanum),Runang,,Sutlej,Kanum,85,1961,ai_checked,"Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise"
+kanum,hangrang,summer pastures,GRAZES_AT,households (Kanum),Hangrang valley,,Sutlej,Kanum,85,1961,ai_checked,"Runang, Weh Hangrang, Valley, Dubbling and Shayal-K.har, likewise"
+kanum,gartok,fairs and markets,TRADES_AT,Well-to-do people (Kanum),Gartok,,Sutlej,Kanum,16,1961,ai_partly,"The well-to-do people of the village used to go to Gartok in Tibet and buy wool, pasham, jira, sheep and goat. This trade has now practically come to an end"
+rampur,lavi_fair,fairs and markets,TRADES_AT,Lal Chand Negi,Lavi fair,,Sutlej,Kanum,132,1961,ai_checked,"After a short stay in Kanum, Lal Chand brought these things to Rampur and sold them in the Lavi fair."
+kanum,hangrang,summer pastures,GRAZES_AT,larger farmers (Kanum),Hangrang valley,,Sutlej,Kanum,133,1961,ai_checked,Some of the bigger farmers take tbeir goats and sheep to Hangrang Valley for grazing.
+kothi,kanda,summer pastures,MIGRATES_TO,households (Kothi),Kanda,,Sutlej,Kothi,53,1961,ai_partly,One or two members from the family where a death might have occurred before this festival go to the Kanda and offer some food and fruits to the shephards in memory of the departed soul.
+kothi,lavi_fair,fairs and markets,TRADES_AT,households (Kothi),Lavi fair,,Sutlej,Kothi,79,1961,ai_checked,"The seeds thus collected are mostly
+sold in Lavi fair at Rall'Ipllr._ ~ome are
+consumed by them also."
+nachar,sirmur,winter grounds,MIGRATES_TO,Kinnaura (Nachar),Sirmur,,Sutlej,Nachar,33,1961,ai_checked,"They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures."
+nachar,bilaspur,winter grounds,MIGRATES_TO,Kinnaura (Nachar),Bilaspur,,Sutlej,Nachar,33,1961,ai_checked,"They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures."
+nachar,mandi,winter grounds,MIGRATES_TO,Kinnaura (Nachar),Mandi,,Sutlej,Nachar,33,1961,ai_checked,"They go to Sirmur, Bilaspur, Mahasu and Mandi districts with their flocks of sheep and goats in search of pastures."
+tandi,kulu,fairs and markets,TRADES_AT,households (Tandi),Kulu,,Chenab,Tandi,67,1961,ai_checked,which they sell at Kulu and Manali.
+tandi,manali,fairs and markets,TRADES_AT,households (Tandi),Manali,,Chenab,Tandi,67,1961,ai_checked,which they sell at Kulu and Manali.
+batal,seri,winter grounds,MIGRATES_TO,Kinnaura (Batal),Seri,,,Batal,46,1961,ai_checked,Kinnauras who ·stay near about the village in Seri in winter.
+kot,barchhwar_nalwari_fair,fairs and markets,TRADES_AT,households (Kot),Barchhwar-Nalwari Fair,,Beas,Kot,56,1961,ai_checked,These animals are purchased localliY or from Sarkaghat and Kangra or at the time of Barchhwar-Nalwari Fair.
+shathla,lavi_fair,fairs and markets,TRADES_AT,households (Shathla),Lavi fair,,Sutlej,Shathla,22,1961,ai_checked,"Gudmas, Namdas and Pashmina chadars are bought in the Lavi fair."
+kangra,market,fairs and markets,TRADES_AT,Gujar woman,Market,,Beas,1881,267,1881,ai_checked,The women repair to the markets every morning with basket* on their beads

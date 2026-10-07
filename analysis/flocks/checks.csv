@@ -1,0 +1,16 @@
+village,pdf_page,column,printed,sum_of_rows,ok,basis
+Brahmaur,54,sheep_and_goats,4484,4484.0,True,Total row
+Brahmaur,54,hh_owning_flock,48,48.0,True,Total row
+Chergaon,56,sheep_and_goats,143,143.0,True,Total row
+Chergaon,56,hh_owning_flock,16,16.0,True,Total row
+Moginand,46,sheep_and_goats,160,160.0,True,Total row
+Moginand,46,hh_owning_flock,23,23.0,True,Total row
+Chauntra,46,sheep_and_goats,41,41.0,True,Total row; prose: fourteen households possess 41
+Chauntra,46,hh_owning_flock,14,14.0,True,Total row
+Tandi,96,sheep,363,363.0,True,Total row
+Tandi,96,goats,21,21.0,True,Total row
+Tandi,96,hh_owning_sheep,17,17.0,True,Total row
+Shakrori,76,sheep,23,23.0,True,Total row
+Shakrori,76,goats,53,53.0,True,Total row
+Kupha,80,sheep_and_goats,596,596.0,True,Text: 596 held by 82 households (Kupha p. 81)
+Kupha,80,hh_owning_flock,82,82.0,True,"Text, Kupha p. 81"

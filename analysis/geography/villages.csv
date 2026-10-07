@@ -1,0 +1,25 @@
+village,river_system,altitude_m,altitude_basis,feet_low,feet_high,pdf_page,srtm_m,households,sheep_and_goats,per_household,landholding_pct
+Tandi,Chenab,3048.0,survey,10000,10000,18,2950.0,18.0,384.0,21.3,92.2
+Kanum,Sutlej,2926.1,survey,9600,9600,15,2763.0,113.0,1827.0,16.2,95.5
+Kothi,Sutlej,2514.6,survey,7000,9500,14,2550.0,128.0,2557.0,20.0,94.5
+Chaupal,Yamuna,2342.4,survey,7685,7685,12,2709.0,80.0,126.0,1.6,31.0
+Maingal,Ravi,2286.0,survey,7500,7500,12,2302.0,31.0,405.0,13.1,54.6
+Devi-Kothi,Ravi,2164.1,survey,7100,7100,13,2408.0,60.0,1337.0,22.3,
+Brahmaur,Ravi,2133.6,survey,7000,7000,11,2149.0,99.0,4484.0,45.3,97.9
+Nachar,Sutlej,2087.9,survey,6500,7200,9,3624.0,213.0,,,
+Shathla,,1937.0,SRTM at geocoded point,,,,1937.0,69.0,,,
+Kalath,,1828.8,survey,6000,6000,16,,8.0,7.0,0.9,
+Chitrari,Ravi,1828.8,survey,6000,6000,16,,80.0,159.0,2.0,
+Chergaon,Yamuna,1828.8,survey,6000,6000,14,,68.0,143.0,2.1,90.9
+Rajana,Yamuna,1676.4,survey,5500,5500,12,1251.0,161.0,559.0,3.5,40.1
+Chaunri,Yamuna,1600.2,survey,5000,5500,11,1537.0,58.0,45.0,0.8,8.9
+Pangna,,1498.0,SRTM at geocoded point,,,,1498.0,,62.0,,4.8
+Chauntra,Beas,1278.0,SRTM at geocoded point,,,,1278.0,53.0,41.0,0.8,68.3
+Kot,Beas,1219.2,survey,4000,4000,13,1036.0,101.0,207.0,2.0,98.6
+Bir,Beas,1219.2,survey,4000,4000,13,,36.0,208.0,5.8,
+Batal,,1088.0,SRTM at geocoded point,,,,1088.0,140.0,40.0,0.3,75.0
+Nalag,Sutlej,982.0,SRTM at geocoded point,,,,982.0,82.0,359.0,4.4,98.6
+Moginand,,792.5,survey,2600,2600,12,,69.0,160.0,2.3,26.2
+Shakrori,Sutlej,518.2,survey,1700,1700,11,,60.0,76.0,1.3,96.1
+Basal,,,,,,,,119.0,139.0,1.2,65.5
+Kupha,Chenab,,,,,,,119.0,596.0,5.0,93.0

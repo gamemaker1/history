@@ -1,0 +1,11 @@
+year,sheep,goats,remark,source,pdf_page,read_by,checked_by,total,sheep_change_pct,goats_change_pct,total_change_pct
+1952-53,42176,31695,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,73871,0.0,0.0,0.0
+1953-54,40515,28301,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,68816,-3.9,-10.7,-6.8
+1954-55,41220,30831,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,72051,-2.3,-2.7,-2.5
+1955-56,41117,32458,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,73575,-2.5,2.4,-0.4
+1956-57,40600,30896,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,71496,-3.7,-2.5,-3.2
+1957-58,38346,28921,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,67267,-9.1,-8.8,-8.9
+1958-59,35733,25098,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,60831,-15.3,-20.8,-17.7
+1959-60,30828,24864,This is the year after the sheep were struck by disease.,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,55692,-26.9,-21.6,-24.6
+1960-61,30715,24629,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,55344,-27.2,-22.3,-25.1
+1961-62,30515,24406,,Newell,38,"Claude (claude-opus-5-5), page image 170 dpi, 7 Oct 2026",,54921,-27.6,-23.0,-25.7

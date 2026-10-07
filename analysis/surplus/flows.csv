@@ -1,0 +1,606 @@
+conjuncture,giver,giver_label,receiver,receiver_label,giver_type,receiver_type,kind,predicate,resource,qty,unit,place,valley,source,pdf_page,evidence,claim_id,quote
+princely_pastures,shepherd,shepherd,gaddi,Gaddi,role,group,fee or tax,COLLECTS_FEE_FROM,grazing fees,,,Kangra,Beas,Newell,18,auto,c3e80e610f0,the grazing tax was collected by a Gaddi (who was an agent of the rajah)
+princely_pastures,gaddi,Gaddi,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,Lahaul,Chenab,Newell,18,auto,c6137fc8cbf,If Gaddis were to cross they would need to pay a grazing tax to both the Chamba and Lahuli ruler.
+princely_pastures,gaddi,Gaddi,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,sheep and goats,,,Kugti pass,,Newell,18,auto,ca9d2edb4ff,Gaddis even today never fall to sacnfice some of their animals which were formerly presented to the rajah.
+two_sovereigns,gaddi,Gaddi,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,revenue,,,,,1881,275,ai_partly,cdb1daedee0,"whenever fined by the Kangra authorities, to pay a similar penalty into the Chamba treasury"
+standing,gaddi,Gaddi,lahuli_ruler,Lahuli ruler,group,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,Lahaul,Chenab,Newell,18,auto,ceebdda883a,If Gaddis were to cross they would need to pay a grazing tax to both the Chamba and Lahuli ruler.
+trade_and_credit,gaddi,Gaddi,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,wool,,,Kangra,Beas,Newell,36,auto,c19cbf83915,"In February, the clip is sold to Kangra tr:tders and the money lIsed to buy food"
+trade_and_credit,gaddi,Gaddi,buyer,buyer,group,role,produce sold,SELLS_TO,wool,,,,,Newell,37,auto,c3f782f6ebd,"The product of the sheep is in the nature of a cash crop which
+can either be sold or made into clothing"
+princely_pastures,low_caste_people,low-caste people,gaddi,Gaddi,group,group,labour,HIRES,,,,Brahmaur valley,,Newell,45,auto,c47fa5c6258,Gaddis used often to ask low caste people (0 undertake their beg([ri for th.em and ill exchange would ofler to protect thelll III other circumstance
+two_sovereigns,gaddi,Gaddi,british_kangra,British administration in Kangra,group,authority,"dues, revenue or begar",PAYS_DUES_TO,revenue,,,,,1881,275,ai_partly,ce8d07ad25e,"whenever fined by the Kangra authorities, to pay a similar penalty into the Chamba treasury"
+princely_pastures,shepherd,shepherd,hanwajiri,hanwajiri,role,role,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,Kangra,Beas,Newell,18,auto,c8fe4e484da,"On paying fees· to the rajah's agent (hanwajiri), all paid equally"
+princely_pastures,shepherd,shepherd,kangra_rajah,Kangra rajah,role,authority,"dues, revenue or begar",PAYS_DUES_TO,goats,1,goat per crossing,Kangra,Beas,Newell,18,auto,cb5fc1ceaf4,"Formerly a tax, langekoru (crossing tax) was paid of one or two goats and the fleece of a sheep."
+princely_pastures,shepherd,shepherd,kangra_rajah,Kangra rajah,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,Kangra,Beas,Newell,18,auto,cdce24a3168,In the case of the first a tax was paid to the rajah
+princely_pastures,shepherd,shepherd,neighbouring_villages,neighbouring villages,role,group,"dues, revenue or begar",PAYS_DUES_TO,manure,,,Kangra,Beas,Newell,18,auto,c6103f218ca,These obligations were paid by arranging for the sheep and goats to manure the fields of the agricultutists in certain seasons.
+princely_pastures,shepherd,shepherd,hp_government,Himachal Pradesh Government,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,Bara Bangahal,Ravi,Newell,18,auto,c056848b250,the grazing tax was paid to the government by shepherds from Mandi but not from Gaddis
+princely_pastures,shepherd,shepherd,fee_contractor,fee contractor,role,role,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,2.5,annas per goat per grazing district,Chamba,Ravi,Newell,18,auto,c773b24cee2,The rate in 1950 was 2 annas 6 pies (2td.) per goat per grazing district
+princely_pastures,shepherd,shepherd,fee_contractor,fee contractor,role,role,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,1.375,annas per sheep per grazing district,Chamba,Ravi,Newell,18,auto,c0bd9e19a02,and one anna G pies (ltd.) per sheep.
+standing,shepherd,shepherd,bara_bangahal_authority,Bara Bangahal authority,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,Bara Bangahal,Ravi,Newell,18,auto,cbc3e591f66,although shepherds from outside Chamba State had to pay it
+princely_pastures,shepherd,shepherd,local_ruler,local ruler,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,,,Newell,18,auto,ce443ae1afd,a grazing tax paid to the local tajah either directly or through a mahlundi
+princely_pastures,shepherd,shepherd,local_village_communities,local village communities,role,authority,"dues, revenue or begar",PAYS_DUES_TO,manure,,,,,Newell,18,auto,c7e4aecb394,and to manuring rights paid to local villages
+princely_pastures,shepherd,shepherd,raja_chamba,Raja of Chamba,role,authority,"dues, revenue or begar",PAYS_DUES_TO,land revenue and dues,,,Kangra,Beas,Newell,18,auto,c5e686ea644,This tax was given to the rajah not for revenue but in accordance with his religious status
+trade_and_credit,households,households,low_hills,low hills,group,place,produce sold,SELLS_TO,woollens,,,Brahmaur,Ravi,Brahmaur,59,auto,cc13a3be8dd,The gardus are really of fine quality and command a ready market in the low hills where people sell them durini! their stay there in winter months.
+cycle,livestock_caretaker,livestock caretaker,households,households,role,group,labour,HIRES,money,2,Rs per animal per month,Brahmaur,Ravi,Newell,35,auto,c594a5c25e8,"to look after their. cows and bulls at 2 rupees a
+month per animal (1952)."
+cycle,pohal,pohal,households,households,role,group,labour,HIRES,,,,Brahmaur,Ravi,Brahmaur,55,auto,cd34e9c1284,Pohals are hired in summer season by a very few people in rare cases when they cannot spare some one from amongst the family
+cycle,pohal,pohal,households,households,role,group,labour,HIRES,sheep and goats,2,sheep per 100 sheep and goats,Brahmaur,Ravi,Brahmaur,55,auto,cb2a312294e,"The pohals, when hired, are given (1) free meals, (2) free clothing and wool for the family, (3) two or four' sheep per hundred sheep and goats"
+cycle,pohal,pohal,households,households,role,group,labour,HIRES,sheep and goats,4,sheep per 100 sheep and goats,Brahmaur,Ravi,Brahmaur,55,auto,c6f99710146,"The pohals, when hired, are given (1) free meals, (2) free clothing and wool for the family, (3) two or four' sheep per hundred sheep and goats"
+cycle,pohal,pohal,households,households,role,group,labour,HIRES,money,2,Rs per month,Brahmaur,Ravi,Brahmaur,55,auto,c9d3a5a7e8b,Rs. 2/- in cash per month as wages.
+cycle,pohal,pohal,households,households,role,group,labour,HIRES,wool,,,Brahmaur,Ravi,Brahmaur,55,auto,c52c84ad0b7,free clothing and wool for the family
+standing,pohal,pohal,households,households,role,group,labour,HIRES,,,,Brahmaur,Ravi,Brahmaur,55,auto,ce66ea13ac8,Pohals are hired in summer season by a very few people in rare cases when they cannot spare some one from amongst the family to look after the flock
+cycle,malundi,malundi,households,households,role,group,labour,HIRES,money,,,Brahmaur,Ravi,Brahmaur,55,auto,cfec86299cd,"this flock is entrusted to anotner malundt m summer seasons, on payment of some fee to be mutually agreed upon."
+princely_pastures,gaddi,Gaddi,raja_chamba,Raja of Chamba,group,authority,price of a right,AUCTIONS_RIGHT_TO,right to collect grazing fees,,,Chamba,Ravi,Newell,18,auto,c87eb3c6c0e,"the right to collect the fees in such areas was auctioned by the rajah of Chamba to the highest bidder, who was usually a Gaddi."
+princely_pastures,fee_contractor,fee contractor,raja_chamba,Raja of Chamba,role,authority,price of a right,AUCTIONS_RIGHT_TO,right to collect grazing fees,,,Chamba,Ravi,Newell,18,auto,c5121e3ec71,the right to collect the fees in such areas was auctioned by the rajah of Chamba to the highest bidder
+princely_pastures,fee_contractor,fee contractor,raja_chamba,Raja of Chamba,role,authority,price of a right,AUCTIONS_RIGHT_TO,right to collect grazing fees,,,Chamba State,Ravi,Newell,18,auto,ccb5b377867,"the right to collect the fees in such areas was auctioned by the rajah of Chamba to the highest bidder, who was usually a Gaddi"
+princely_pastures,shepherd,shepherd,raja_chamba,Raja of Chamba,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,,,,,Newell,37,auto,c7607a40c00,"At the time of the rajah,
+any person who wished to graze on the dhars"
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,,,,,Newell,19,auto,c093d729863,The tax is now collected by an employee of the Forest Deparlillellt and a receipt issued.
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,4,annas per goat,Lahaul,Chenab,Newell,19,auto,c6c086a640b,The rates ill 1962 were in Lah III 4 annas per goat
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,8,n.p. per sheep,Kangra,Beas,Newell,19,auto,c87c8b999d3,ill Kallgra 8 n.p. per sheep
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,4,annas per goat,Kangra,Beas,Newell,19,auto,c7280702cd8,Kallgra 8 n.p. per sheep and 4 a Iln<1S per goat.
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,,,Newell,37,auto,c63816389b8,"tax to the extent that one has a permit issued
+by the forest officer"
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,,,,,Newell,37,auto,cb52dd556c5,"one can only . pay
+tax to the extent that one has a permit issued"
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,,,Newell,37,auto,c0e58cdf5bc,the total number of animals allowed to graze in anyone dhar is determined by the forest officer.
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,land revenue and dues,1,rupee per unregistered animal over one year of age,,,Newell,37,auto,c96ae146e8a,"The owner of every animal found over age and not registered on the
+permit is fined one rupee on the spot"
+forest_department,gaddi,Gaddi,forest_department,Forest Department,group,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,,,,,Newell,19,auto,c6d5ba7dc1e,"so that if a Gaddi shepherd grazed out an <Ii ea, he found he might have 10 pay a new tax to move to another pastureland in the same alea_ ."
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,Brahmaur,Ravi,Newell,19,auto,c6630e28e3f,This recei pt is however not issued unless the shepherd has a permit issued by the Forest Department al Brahmallr Slating how lIlany sheep and goats over olle year of age
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,Brahmaur,Ravi,Brahmaur,55,auto,cc177f64eda,"The Forest Department is discouragi_ng the multiplication of the number of such animals and to implement this they do not issue grazing permits for more than a, fixed number of goats and sheep."
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,1,Re per head of sheep or goat without a grazing permit,Brahmaur,Ravi,Brahmaur,55,auto,c5b984d4f7c,they are charged a penalty of Re. 1/- per head of sheep or goat for which they do not possess the grazing permit.
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,15,Rs per 100 heads of sheep or goats per summer season,Brahmaur,Ravi,Brahmaur,55,auto,cf7de15fcca,The grazing tax charged from the shepherds is Rs. 15/- per hundred heads of sheep or goats for the summer season.
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,Brahmaur,Ravi,Brahmaur,46,auto,c3fe5968100,the Forest Department do not now grant any additional permit for more sheep and goats
+forest_department,mobile_herder,mobile herder,forest_department,Forest Department,group,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,3,annas per sheep,Arki,,Mahasu,334,auto,c5a7b361470,3 Annas per Sheep
+forest_department,mobile_herder,mobile herder,forest_department,Forest Department,group,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,6,annas per goat,Arki,,Mahasu,334,auto,ce6777eebac,6 Annas per Goat
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c5f449e0f88,The Forest Department issues grazing permits on payment of normal fee.
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,Devi-Kothi,Ravi,Devi-Kothi,47,auto,cd605b93f37,"All permits are valid for the period 1st June to 15th
+October."
+forest_department,households,households,forest_department,Forest Department,group,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,Devi-Kothi,Ravi,Devi-Kothi,48,auto,c3b30249f34,"Dhup is forbidden to be extracted: from the hill tops without a valid permit from the Divisional Forest Officer, Chaurah."
+forest_department,households,households,forest_department,Forest Department,group,authority,fee or tax,COLLECTS_FEE_FROM,money,1,Re. per permit for a right holder,Devi-Kothi,Ravi,Devi-Kothi,48,auto,c8a4d821ecc,The fee is Rs. 5/- from non-right holders and Re. 1/- from a right holder.
+forest_department,households,households,forest_department,Forest Department,group,authority,fee or tax,COLLECTS_FEE_FROM,money,,,Devi-Kothi,Ravi,Devi-Kothi,49,auto,c2550f9974e,the forest department charges the prices as well as compensation: from the right holders are shown on the next page.
+forest_department,non_right_holders,non-right holders,forest_department,Forest Department,group,authority,fee or tax,COLLECTS_FEE_FROM,money,5,Rs per permit for a non-right holder,Devi-Kothi,Ravi,Devi-Kothi,48,auto,cfd02a00b08,The fee is Rs. 5/- from non-right holders and Re. 1/- from a right holder.
+forest_department,households,households,forest_department,Forest Department,group,authority,fee or tax,COLLECTS_FEE_FROM,money,12,paise per head-load,Batal,,Batal,21,auto,c4b37df1472,one has to get a licence at a fee of twelve paise for one head-load from the Forest Department.
+forest_department,households,households,forest_department,Forest Department,group,authority,permit,ISSUES_PERMIT_TO,stone collection permit,,,Chaupal,Yamuna,Chaupal,20,auto,c822f25d6f6,Stone is collected from the nearby stone quarries after obtaining a permit from the Forest Department.
+forest_department,households,households,forest_department,Forest Department,group,authority,permit,ISSUES_PERMIT_TO,slate quarrying permit,,,Chaupal,Yamuna,Chaupal,20,auto,c6b5ca0f0cb,"For slates too, permits are obtained from the Forest Department."
+forest_department,households,households,forest_department,Forest Department,group,authority,permit,ISSUES_PERMIT_TO,timber allocation,,,Chaupal,Yamuna,Chaupal,20,auto,c65a8fcb8d5,"For obtaining the timber, villagers apply to the Forest Department through the village Panchayat. Usually the number of trees recommended by the Panchayat is sanctioned by the Forest Department."
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,permit,ISSUES_PERMIT_TO,grazing permit,,,Chitrari,Ravi,Chitrari,23,auto,c2759db6bdc,Intensive grazing for generations led to erosion. To check this trouble passes are issued
+princely_pastures,households,households,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,money,1,Rs per annum per new house,,,Newell,17,auto,c2b40689404,For new houses a sum of one rupee per annum had to be paid
+princely_pastures,households,households,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,money,1,Rs per water mill,,,Newell,17,auto,c8f4c509bbb,for each water mill built along the ':\nd\nde of a stwam a ~ep3..rate tee of OI;-'C rupee had to be paid.
+princely_pastures,households,households,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,land revenue and dues,,,,,Newell,17,auto,ca542fb1c13,the subjects had to pay revenue for their land
+princely_pastures,households,households,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,land revenue and dues,,,Pangi,Chenab,Kupha,133,auto,c554b7ca530,When His Highpess would·visit this place the labourers were also supplied on no cost basis by the ilaqa.
+princely_pastures,households,households,raja_chamba,Raja of Chamba,group,authority,"dues, revenue or begar",PAYS_DUES_TO,wool,,,Chamba State,Ravi,Newell,14,auto,ced2754877f,"I('Cci \'ed ,,'ool in lieu of rC\CtlliC"
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,land revenue and dues,,,Pangi,Chenab,Kupha,133,auto,cab9f863845,People of Pangi had to pay land revenue to the State.
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,land revenue and dues,1,Pertti per two families,Pangi,Chenab,Kupha,133,auto,c18aaa6408a,In addition they had to pay to the State one· Pertti for two families
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,jira,1,Batti,Pangi,Chenab,Kupha,133,auto,c1447f7b5ed,"One or two Battis of Zira, from"
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,Pulas (grass shoes),1,pair,Pangi,Chenab,Kupha,133,auto,caf226a29aa,"and one pair of Pulas (grass shoes), about 2 seers of Seski"
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,Seski (Artmesia),2,seers,Pangi,Chenab,Kupha,133,auto,c55f6494c99,"about 2 seers of Seski (Artmesia), 2 Battis of ThaIlgi"
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,ThaIlgi,2,Battis,Pangi,Chenab,Kupha,133,auto,cac6f0ef441,"2 Battis of ThaIlgi, and about 2 seers of Bhutkeshi."
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,Bhutkeshi,2,seers,Pangi,Chenab,Kupha,133,auto,c7a4c4f40a6,and about 2 seers of Bhutkeshi. About 20 pieces of milk bread also had to be given to the State
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,milk bread,20,pieces,Pangi,Chenab,Kupha,133,auto,c16e15d9709,About 20 pieces of milk bread also had to be given to the State alongwith the land revenue.
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,"dues, revenue or begar",PAYS_DUES_TO,land revenue and dues,,,Pangi,Chenab,Kupha,133,auto,cd0647f69d1,People had tp contribute compulsory free labour .for making the road upto Kilar from Sach Pass and also roads in the interior.
+princely_pastures,shepherd,shepherd,malundi,malundi,role,role,fee or tax,COLLECTS_FEE_FROM,grazing fees,,,Kangra,Beas,Newell,18,auto,c3e9c54fdeb,Holders of warisi often exact a toll from other shepherds
+forest_department,herdsmen_s_client,herdsmen's client,kangra_rajah,Kangra rajah,role,authority,permit,ISSUES_PERMIT_TO,grazing rights,,,Kangra,Beas,Newell,18,auto,ccb06af404b,the right to graze certain of the low pastures lay with the rajah Who granted the right to a special herdsmen clieht
+princely_pastures,shepherd,shepherd,drinkar,drinkar,role,role,fee or tax,COLLECTS_FEE_FROM,land revenue and dues,,,Kangra,Beas,Newell,18,auto,c6b8e99d3c4,They were collected by a village official termed a drinkar) who was always a Gaddi
+princely_pastures,shepherd,shepherd,villages_at_the_bottom_of_dhans,villages at the bottom of dhans,role,group,fee or tax,COLLECTS_FEE_FROM,manure,,,Kangra,Beas,Newell,18,auto,c1c7d635aa9,Villages at the bottom of dhans formerly demanded payment for their use in the form of manuring
+princely_pastures,agricultural_labourer,agricultural labourer,shepherd,shepherd,role,role,"dues, revenue or begar",PAYS_DUES_TO,money,,,Kangra,Beas,Newell,18,auto,ce63c6855cc,At other seasons if the agriculturists wished for the animals' manure they had to pay for the privilege either in dsh or in food.
+trade_and_credit,households,households,hp_government,Himachal Pradesh Government,group,authority,interest,LENDS_TO,money,,,Tandi,Chenab,Tandi,67,auto,cc1998dfb87,"Friends and relations, well-to-do zamindars, money-lenders and :Government Departments are the di~erent agencies from which loans are obtained."
+trade_and_credit,households,households,hp_government,Himachal Pradesh Government,group,authority,interest,LENDS_TO,money,5,per cent interest (period not stated),Tandi,Chenab,Tandi,67,auto,c6634d3aa83,"The Co-operative Society and the Government agencies charge an interest of 9 per cent and 5 per cent, respectively."
+trade_and_credit,bodh,Bodh,hp_government,Himachal Pradesh Government,group,authority,interest,LENDS_TO,money,4000,Rs,Tandi,Chenab,Tandi,70,auto,c9a66d4a1d1,"obtained loans of Hs. 4,000 and R.s. 1.000
+from the Governn1ent in 1956 and 1957! respectively."
+trade_and_credit,bodh,Bodh,hp_government,Himachal Pradesh Government,group,authority,interest,LENDS_TO,money,1000,Rs,Tandi,Chenab,Tandi,70,auto,c49e42e329a,"obtained loans of Hs. 4,000 and R.s. 1.000
+from the Governn1ent in 1956 and 1957! respectively."
+trade_and_credit,chamar,Chamar,hp_government,Himachal Pradesh Government,group,authority,interest,LENDS_TO,money,3000,Rs loan,Chaupal,Yamuna,Chaupal,56,auto,c2cc661d38a,Two households of Chamar have taken loans from the government amounting to Rs. 3000 and 800.
+trade_and_credit,chamar,Chamar,hp_government,Himachal Pradesh Government,group,authority,interest,LENDS_TO,money,800,Rs loan,Chaupal,Yamuna,Chaupal,56,auto,c188c930b54,Two households of Chamar have taken loans from the government amounting to Rs. 3000 and 800.
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,6,annas per goat,Moginand,,Moginand,47,auto,c18b7488230,The permit fee is ann as -/ 6 / - per goat and Rs. 1/per buffalo.
+standing,households,households,hp_government,Himachal Pradesh Government,group,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,1,Rs per buffalo,Moginand,,Moginand,47,auto,c00e69ea1d4,The permit fee is ann as -/ 6 / - per goat and Rs. 1/per buffalo.
+princely_pastures,shepherd,shepherd,fee_contractor,fee contractor,role,role,fee or tax,COLLECTS_FEE_FROM,grazing fees,2.5,annas per goat per grazing district,Chamba State,Ravi,Newell,18,auto,c1e9cf49e96,The rate in 1950 was 2 annas 6 pies (2td.) per goat per grazing district
+princely_pastures,shepherd,shepherd,fee_contractor,fee contractor,role,role,fee or tax,COLLECTS_FEE_FROM,grazing fees,1.5,annas per sheep per grazing district,Chamba State,Ravi,Newell,18,auto,cac61040235,one anna G pies (ltd.) per sheep
+forest_department,shepherd,shepherd,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,2,payments per year,Brahmaur,Ravi,Brahmaur,55,auto,c4105d167dd,A shepherd has to pay the grazing tax twice' a year.
+cycle,zamindar,landholders,gaddi,Gaddi,group,group,"dues, revenue or begar",PAYS_DUES_TO,sheep manure,,,Brahmaur,Ravi,Newell,36,auto,c8ab3f30368,"they allow their flocks to rest on those lands whose owners pay a fee for the sheep manure,"
+princely_pastures,zamindar,landholders,fee_contractor,fee contractor,group,role,produce sold,SELLS_TO,grain,,,Brahmaur,Ravi,Brahmaur,55,auto,c3b595bfe1f,In return the owner of the fields used to give grains to the contractor who further passed on half of the grains so collected to the shepherd concerned as his share.
+cycle,zamindar,landholders,gaddi,Gaddi,group,group,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,,,Kangra,Beas,Newell,36,auto,c16ad43aea0,"There they pasture their flocks on the fields before the autumn (hharif) crops are planted, and receive payment from the landowners for so doing."
+trade_and_credit,gertse,Gertse,shopkeeper,shopkeeper,place,role,produce sold,BUYS_FROM,wool,,,Gertse,,Weaving,14,auto,ca7da9c1964,"They come from Rampur and have bought wool in Gertse, which they will carry to Gartok and India"
+trade_and_credit,gertse,Gertse,shopkeeper,shopkeeper,place,role,produce sold,BUYS_FROM,sheep,2,rupees per sheep,Gertse,,Weaving,14,auto,cf328a1a900,They have paid two rupees for each sheep.
+trade_and_credit,shopkeeper,shopkeeper,households,households,role,group,produce sold,SELLS_TO,pashm,,,,,Weaving,51,auto,c94577a77c6,Traders sell pashmina to villagers !n impure form.
+trade_and_credit,shopkeeper,shopkeeper,nearby_places,nearby places,role,place,produce sold,SELLS_TO,ginger,,,Dehar,,Nalag,12,auto,c639bae1fb8,"They send these commodities to the
+nearest places for sale"
+cycle,shepherd,shepherd,gaddi_flock_owner,Gaddi flock owner,role,group,labour,HIRES,wool,5,ser of raw wool per sheep per season,,,Newell,37,auto,c5f5addff99,"The owners pay the shepherds 5 ser of
+raw wool per sheep"
+cycle,shepherd,shepherd,gaddi_flock_owner,Gaddi flock owner,role,group,labour,HIRES,sheep,1,sheep per small flock (loeni) per season,,,Newell,37,auto,cc521d79e7d,for a small flock (!oeni) per season.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,12,per cent interest,Brahmaur,Ravi,Brahmaur,62,auto,cde7e69529f,"The rate of interest Charged by money-lenders IS generally 12 per cent, but may vary."
+standing,gaddi,Gaddi,non_government_agency_or_firm,non-government agency or firm,group,authority,labour,HIRES,,,,the valley,,Newell,105,auto,c5b48ffff69,There is as yet no nOll-goverllment agency or firm in the valley which can employ Gaddis all the year round.
+trade_and_credit,market,Market,shawl_weaver,shawl weaver,place,role,produce sold,BUYS_FROM,marino yarn,,,,,Weaving,69,auto,c462f795012,"For coloured in-lay work weft threads called marino yarn is bought from the market in blue, green, 'red, white and yellow hues."
+trade_and_credit,gujjar,Gujjar,moneylender,moneylender,group,role,produce sold,SELLS_TO,ghee,,,Chamba,Ravi,Maingal,42,auto,ca5049bbb2a,when the Gujjars go to sell their ghee and milk.
+trade_and_credit,gujjar,Gujjar,moneylender,moneylender,group,role,produce sold,SELLS_TO,ghee,,,Chamba,Ravi,Maingal,42,auto,c26493477dd,This in actual transaction a Gujjar gets the price of his ghee for 2 seers only.
+trade_and_credit,gujjar,Gujjar,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,ghee,,,Chamba,Ravi,Maingal,60,auto,c672e26f092,they would sell their ghee to a particular shop~ keeper at Chamba who pays them much less than the market price.
+standing,gardener,Gardener,panchayat,panchayat,role,authority,labour,HIRES,,,,Maingal,Ravi,Maingal,56,auto,c51aaad763f,"On the paid staff of the 'Panchayat are a secretary, Chowkidar and lately a gardner was also appointed to look after the apple orchard."
+princely_pastures,fee_contractor,fee contractor,shepherd,shepherd,role,role,produce sold,SELLS_TO,grain,0.5,share of grains collected,Brahmaur,Ravi,Brahmaur,55,auto,c4901bc698d,In return the owner of the fields used to give grains to the contractor who further passed on half of the grains so collected to the shepherd concerned as his share.
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Brahmaur,Ravi,Brahmaur,84,auto,cbe103b5a5b,"The scope was limited to advance loans for
+purchase of cattle, seeds and repairing of
+houses"
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,2212.51,Rs advanced as loans,Brahmaur,Ravi,Brahmaur,84,auto,c1d96be06f7,"out of which R<;. 2,212.51 nP.
+have been advanced as loan to the members"
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Brahmaur,Ravi,Brahmaur,84,auto,c0ad7b3b8b0,"have been advanced as loan to the members
+from whom the interest is charged at the"
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Chitrari,Ravi,Chitrari,79,auto,cc042201f7f,Loans should be linked to the productivity and advanced for purchase of sheep and goats.
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,9,per cent interest (period not stated),Tandi,Chenab,Tandi,67,auto,c5fce11e4bb,"The Co-operative Society and the Government agencies charge an interest of 9 per cent and 5 per cent, respectively."
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,9,per cent interest per annum,Basal,,Basal,62,auto,cf6b564e7a2,"The society charges interest at the rate of , 9 per cent per annum."
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Basal,,Basal,62,auto,c41cf9707bd,"It sanctions loans to its members only, subject to the availability of funds."
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,9.33,per cent of total outstanding debt,Kalath,,Kalath,60,auto,cb864332c94,"money-lenders of Bhojnagar, friends and relatives and co-operative society
+which have provided 56 per cent, 34.67 per cent and 9.33 per cent re~ectively. of the total outstanding debt."
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,350,Rs of outstanding debt advanced,Kalath,,Kalath,60,auto,cdc2072fc00,"The total amounts provided by these three sources being Rs. 2,100, Rs. 1,300 and
+Rs. 350, respectively."
+standing,households,households,cooperative,cooperative society,group,authority,fee or tax,COLLECTS_FEE_FROM,money,9.27,Rs per 100 rupees of loans advanced,Kalath,,Kalath,60,auto,c8834fe9d5e,"The co-o:perat~ve society ,collects
+Rs 9.27 per hundred rupees of loans advanced
+by it."
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,9.33,per cent of the amount advanced,Kalath,,Kalath,77,auto,cbf3bde1380,"Money-lenders have advanced 56 per cent of the amount, the co-operative society 9·33 per cent and friends and relatives 34.67 per cent."
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,150,Rs,Kalath,,Kalath,77,auto,cdeda133435,"Rs. 1,500 were obtained in 1957 from friends or relatives; Rs. 150 in 1958 from the co-operative society"
+trade_and_credit,ramdasi,Ramdasi,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,150,Rs,Kalath,,Kalath,77,auto,c4662ef6ea4,only one Ramdasi has obtained a loan of B.s. 150 from the co-operative society for the purchase of bullocks.
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Kot,Beas,Kot,47,auto,c3e875bf4a0,From the co-operative societies only those can obtam loans who are its members.
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Kot,Beas,Kot,47,auto,c9f8a52afc7,the villager!'. cannot get the whole amount they need. It ranges somewhere between half to three fourth o~ th~ desired sum.
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Kot,Beas,Kot,47,auto,cfcb744b442,"Finally due to red t~pe whlch mvolv~s considerable delay, the vIllagers cannot get the money at the hour of need."
+trade_and_credit,society_members,society members,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,9.37,per cent interest per year,Tihra,,Kot,65,auto,c3bfa8d0c1f,The Society provides loans to its members at a simple interest of Rs. 9.37 per cent per annum.
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,9,per cent interest,Pangna,,Pangna,47,auto,c3da429722e,The multipurpose cooperative society Pangna gives loans for productive purposes only at 9 per cent interest
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Pangna,,Pangna,47,auto,cf5204ec084,"Recently, however, the society has stopped giving loans because the amount advanced already by it has not so far been recovered."
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Pangna,,Pangna,58,auto,cf3b529937d,"advance loans to the mem~ bers, for various purposes like house construction and for the purchase of cattle"
+trade_and_credit,households,households,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,2300,"Rs in loans outstanding, inclusive of interest",Pangna,,Pangna,58,auto,cf85e8e7fea,"a sum of Rs. 2,300.00 is with the members as loans to them inclusive of the interest charges."
+trade_and_credit,cooperative_society_member,cooperative society member,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,,,Rajana,Yamuna,Rajana,72,auto,c58eebcffd2,"Loans are given for raising crops. Some loans are taken to purchase,,s.ullocks, cows or buffaloes."
+trade_and_credit,cooperative_society_member,cooperative society member,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,9,per cent interest,Rajana,Yamuna,Rajana,72,auto,c81633e2472,"Rate of interest.
+9 %only.
+The society started functioning with a p~id up capital"
+trade_and_credit,cooperative_society_member,cooperative society member,cooperative,cooperative society,group,authority,interest,LENDS_TO,money,2,years until repayment,Rajana,Yamuna,Rajana,72,auto,c95edb3e264,The loan is recovered after two years. The loan is repaid in cash and not in kind favourably after the harvesting season.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,,,Chitrari,Ravi,Chitrari,46,auto,c06bc19f21c,The agencies which cater to their requirement of loans includ:e the petty shopkeepers of the village and nearby places
+trade_and_credit,shepherd,shepherd,households,households,role,group,produce sold,BUYS_FROM,wool,7,Rs per batti,Devi-Kothi,Ravi,Devi-Kothi,26,auto,c0d6b97d2ab,purchase it either from the fellow villagers or shepherds of Brahmaur and Chaurah Tehsils
+trade_and_credit,shepherd,shepherd,households,households,role,group,produce sold,BUYS_FROM,wool,,,Devi-Kothi,Ravi,Devi-Kothi,26,auto,c48aca854e4,But it is mostly purchased on a barter system.
+trade_and_credit,households,households,tisa,Tisa,group,place,produce sold,SELLS_TO,ghee,12,Rs per batti (Chamba tole),Devi-Kothi,Ravi,Devi-Kothi,47,auto,ce66b702870,"Tisa, G.owari and Satyas are the markets for selling ghee. It was being sold at the rate. of Rs. 12.00 per batti (Chamba tole) in 1962."
+trade_and_credit,households,households,gowari,Gowari,group,place,produce sold,SELLS_TO,ghee,12,Rs per batti (Chamba tole),Devi-Kothi,Ravi,Devi-Kothi,47,auto,ca307329074,"Tisa, G.owari and Satyas are the markets for selling ghee. It was being sold at the rate. of Rs. 12.00 per batti (Chamba tole) in 1962."
+trade_and_credit,households,households,satyas,Satyas,group,place,produce sold,SELLS_TO,ghee,12,Rs per batti (Chamba tole),Devi-Kothi,Ravi,Devi-Kothi,47,auto,c25455279f2,"Tisa, G.owari and Satyas are the markets for selling ghee. It was being sold at the rate. of Rs. 12.00 per batti (Chamba tole) in 1962."
+standing,chamar,Chamar,households,households,group,group,labour,HIRES,Chamba chappal,2,"pairs, free",Devi-Kothi,Ravi,Devi-Kothi,48,auto,c86a9c9fd6a,The owner has a right to demand two pairs of Chamba chappal of any ~ize free.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,herbs,,,Devi-Kothi,Ravi,Devi-Kothi,48,auto,c08c4b8a048,the villagers collect herbs from the jungle and sell them to the .local shopkeepers.
+trade_and_credit,households,households,bhot,Bhot,group,group,produce sold,SELLS_TO,grain,4,times the original cost of the commodity,Devi-Kothi,Ravi,Devi-Kothi,53,auto,c94d4079832,A person may pay the cost in grains which is seldom less than four times of the original cost of the commodity purchased.
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,9.0,Rs per buffalo,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c2d8f6df6a3,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00"
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,0.5,Rs per sheep,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c6b70400b46,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00
+6·00
+0·50"
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,1.0,Rs per goat,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c4de5bad574,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00
+6·00
+0·50
+0·10
+1·00"
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,1.0,Rs per cow/bull,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c9f1b661d87,"From non-right
+holders
+
+Buffalo
+
+Sheep
+Goat
+Cow/Bull
+
+Fee
+
+Penalty
+
+Rs.
+
+Rs.
+
+9·00
+6·00
+0·50
+0·10
+1·00
+0·25
+1·00"
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,4.5,Rs per buffalo,Devi-Kothi,Ravi,Devi-Kothi,47,auto,cbbcf3e47b9,"From right holders
+Fcc
+Rs.
+
+4·50"
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,0.1,Rs per sheep,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c32f3161c21,"From right holders
+Fcc
+Rs.
+
+4·50
+0·10"
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,0.25,Rs per goat,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c06827da0b3,"From right holders
+Fcc
+Rs.
+
+4·50
+0·10
+(\'25"
+forest_department,grazier,grazier,forest_department,Forest Department,role,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,1.0,Rs per cow/bull,Devi-Kothi,Ravi,Devi-Kothi,47,auto,c979c937d22,"From right holders
+Fcc
+Rs.
+
+4·50
+0·10
+(\'25
+1·00"
+cycle,households,households,grazier,grazier,group,role,fee or tax,COLLECTS_FEE_FROM,grazing fees,20,naya Paise per sheep or goat for the stated period,Devi-Kothi,Ravi,Devi-Kothi,48,auto,c97443bd40c,The charges of the graziers range from twenty to twentyfive naya Paise for the period from May / June to October for a sheep or goat.
+standing,households,households,forest_contractor,forest contractor,group,role,labour,HIRES,,70,people employed,Devi-Kothi,Ravi,Devi-Kothi,48,auto,cea0c29382c,"The villagers are ,employed by forest contractors for extracting the timber. About 70 people are employed'and they earn nearabout Rs. 4/- a day."
+standing,households,households,forest_contractor,forest contractor,group,role,labour,HIRES,money,4,Rs per day,Devi-Kothi,Ravi,Devi-Kothi,48,auto,c9eec3a1634,About 70 people are employed'and they earn nearabout Rs. 4/- a day.
+trade_and_credit,shopkeeper,shopkeeper,households,households,role,group,produce sold,SELLS_TO,shop goods,,,Devi-Kothi,Ravi,Devi-Kothi,53,auto,c8c7a1b7612,"He deals in articles like food-grains, cigarettes, kerosene oil, salt, tea, SUgH and oils."
+trade_and_credit,bhot,Bhot,households,households,group,group,produce sold,SELLS_TO,petty merchandise,,,Devi-Kothi,Ravi,Devi-Kothi,53,auto,c0c32c6d83d,"Bhot traders of Pangi who pass by on their way back from the plains sell. needles, heeing,. soaps, cigarettes and petty Items of general merchandise in summer months."
+trade_and_credit,households,households,gujjar,Gujjar,group,group,produce sold,SELLS_TO,grain,,,Maingal,Ravi,Maingal,46,auto,c126a146d08,Standing wheat or barley crops are sold in the lower areas to the Gajjars.
+trade_and_credit,households,households,shilaghrat,Shilaghrat,group,place,produce sold,SELLS_TO,milk,,,Maingal,Ravi,Maingal,48,auto,c15f515712b,For making small purchases some families sell milk and ghee in Shilaghrat.
+trade_and_credit,households,households,gujjar,Gujjar,group,group,produce sold,BUYS_FROM,grain,,,Maingal,Ravi,Maingal,46,auto,ccdf668ddc3,During April and May Gujjars start migrating to the upper hills and they buy standing crops of wheat and barley.
+trade_and_credit,gujjar,Gujjar,buyer,buyer,group,role,produce sold,SELLS_TO,ghee,,,Maingal,Ravi,Maingal,38,auto,cf868f1be4d,They sell ghee andmUk to buy other necessities of life.
+standing,gujjar,Gujjar,brahman,Brahman,group,group,"dues, revenue or begar",PAYS_DUES_TO,grain,,,Maingal,Ravi,Maingal,38,auto,c9537c4d990,It was found during study that Gujjars had to pay food· grain debts to Gaddi brahmins.
+standing,gujjar,Gujjar,brahman,Brahman,group,group,"dues, revenue or begar",PAYS_DUES_TO,money,,,Maingal,Ravi,Maingal,42,auto,ce20b01f05f,some of the Gujjars had to pay small amounts of money to them.
+trade_and_credit,shopkeeper,shopkeeper,gujjar,Gujjar,role,group,produce sold,BUYS_FROM,grain,,,Maingal,Ravi,Maingal,48,auto,ce18b7e3975,They buy maize from the local shop· keepers in Shilaghrat
+trade_and_credit,gujjar,Gujjar,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,produce,,,Maingal,Ravi,Maingal,61,auto,c2ec6e05abc,the Gujjars who are in debt are obliged to sell their produce to them in lieu of the interest as well as the principal amount.
+trade_and_credit,gujjar,Gujjar,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,ghee,,,Maingal,Ravi,Maingal,61,auto,c646b1dfc61,The rates of their ghee are also said to be lower than the actual market rates.
+trade_and_credit,chamba_town,Chamba,gujjar,Gujjar,place,group,produce sold,BUYS_FROM,grain,,,Maingal,Ravi,Maingal,48,auto,cf1a5e3578d,whenev~r they go to Chamba rice and other cereals are ;bought from there.
+trade_and_credit,gujjar,Gujjar,chamba_town,Chamba,group,place,produce sold,SELLS_TO,ghee,,,Maingal,Ravi,Maingal,48,auto,cfe53393537,Ghee is the chief marketing produce which they usually sell in Chamba.
+trade_and_credit,gujjar,Gujjar,moneylender,moneylender,group,role,interest,LENDS_TO,money,30,per cent interest per year,Maingal,Ravi,Maingal,42,auto,cd0a699497a,borrow money at 30% annual interest which is realised by the money lenders
+trade_and_credit,gujjar,Gujjar,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Maingal,Ravi,Maingal,42,auto,caf60745fdd,"Whenever they purchase new buffaloes, clothes and other articles of necessity, they go to the money lenders"
+trade_and_credit,gujjar,Gujjar,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Maingal,Ravi,Maingal,60,auto,c14602e1615,Large portions of their income are realised by money lenders in Chamba as lnterest on th.e princi~al sums.
+trade_and_credit,gujjar,Gujjar,moneylender,moneylender,group,role,interest,LENDS_TO,money,30,per cent interest per year,Maingal,Ravi,Maingal,42,auto,ccd4596c2f5,go to the money lenders who also buy their milk products in Chamba and borrow money at 30% annual interest
+trade_and_credit,gujjar,Gujjar,shopkeeper,shopkeeper,group,role,produce sold,BUYS_FROM,milk,0.5,paise per kilogram,Maingal,Ravi,Maingal,48,auto,cef85add4ff,Usually he buys milk at 0.50 paise per kilogram from the Gujjars.
+trade_and_credit,gujjar,Gujjar,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,,,Maingal,Ravi,Maingal,61,auto,c63afc0773e,Loans are easily available from the shopkeepers in Chamba and the Gujjars who are in debt are obliged to sell
+trade_and_credit,gujjar,Gujjar,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,,,Maingal,Ravi,Maingal,61,auto,c2a26ad93b1,many Gujjars in Maingal did not know the rate of.interest charged from them.
+trade_and_credit,sirmur,Sirmur,households,households,place,group,produce sold,SELLS_TO,ginger,,,Chergaon,Yamuna,Chergaon,66,auto,ce20eb22898,"Some from Sirmur District visit this
+illaqa to sell their ginger against cash or
+kind."
+trade_and_credit,households,households,lavi_fair,Lavi fair,group,place,produce sold,SELLS_TO,chilgoza,,,Kanum,Sutlej,Kanum,51,auto,c6a5695f5f1,The seeds thus collected are either sold at Lavi Fair at Rampur or consumed by them
+trade_and_credit,kanum,Kanum,households,households,place,group,interest,LENDS_TO,money,,,Kanum,Sutlej,Kanum,131,auto,cbeeb346854,Rarely one or two obtained things on credit from the traders at Rampur to whom they were obliged to
+trade_and_credit,tibet,Tibet,households,households,place,group,produce sold,BUYS_FROM,pashm,,,Kanum,Sutlej,Kanum,51,auto,c00352e7421,"Pasham, jeera, medicinal herbs, goats and sheep' were the main items which they imported from Tibet in exchange of cereals and in cash payment as well."
+trade_and_credit,households,households,tibet,Tibet,group,place,produce sold,SELLS_TO,grain,,,Kanum,Sutlej,Kanum,51,auto,cc9a7b407a6,"Pasham, jeera, medicinal herbs, goats and sheep' were the main items which they imported from Tibet in exchange of cereals and in cash payment as well."
+trade_and_credit,tibet,Tibet,households,households,place,group,produce sold,BUYS_FROM,wool,,,Kanum,Sutlej,Kanum,131,auto,c96fbd4a302,"They brought wool, pasham, butter, ghee, goat, sheep and salt from Tibet"
+trade_and_credit,households,households,tibet,Tibet,group,place,produce sold,SELLS_TO,grain,,,Kanum,Sutlej,Kanum,131,auto,c9db234384f,"in exchange of rice, cloth, utensils, wheat, phafra and jaggery."
+trade_and_credit,tibet,Tibet,households,households,place,group,produce sold,BUYS_FROM,wool,,,Kanum,Sutlej,Kanum,131,auto,c4f6fc97d06,They depended on Tibet for their requirement of snperior quality of wool
+standing,households,households,moneylender,moneylender,group,role,"dues, revenue or begar",PAYS_DUES_TO,grain,5,seers in addition to one maund borrowed,Kanum,Sutlej,Kanum,55,auto,cc8d918e154,Thus a person who borrows one maund of foodgrains is required to pay back one maund and five seers of the grains to the lender.
+standing,households,households,moneylender,moneylender,group,role,"dues, revenue or begar",PAYS_DUES_TO,money,2,households,Kanum,Sutlej,Kanum,55,auto,cec3eaf444c,"2 households running business have to pay heavy amount,s to their creditors at Kalpa."
+trade_and_credit,rampur,Rampur,households,households,place,group,produce sold,BUYS_FROM,trade goods,,,Kanum,Sutlej,Kanum,131,auto,cd24f7105a9,"The items of exchange. ,usc:d to be purchased by them at Rampur"
+trade_and_credit,households,households,muleteer,muleteer,group,role,produce sold,SELLS_TO,husk and hay,,,Kanum,Sutlej,Kanum,133,auto,cf381c0380f,Kanum was an important halting station for them. This afforded an opportunity to the villagers to sell their husk and hey.
+princely_pastures,households,households,bushahr_ruler,Bushahr ruler,group,authority,"dues, revenue or begar",PAYS_DUES_TO,revenue,,,Kanum,Sutlej,Kanum,18,auto,c44bdf5ddf3,The standard with regard to the payment of revenue whether in cash or kind including 'Athada Begar'
+trade_and_credit,gartok,Gartok,well_to_do_people,Well-to-do people,place,group,produce sold,BUYS_FROM,wool,,,Kanum,Sutlej,Kanum,16,auto,c4ae4944be4,"The well-to-do people of the village used to go to Gartok in Tibet· and buy wool,"
+trade_and_credit,gartok,Gartok,well_to_do_people,Well-to-do people,place,group,produce sold,BUYS_FROM,pashm,,,Kanum,Sutlej,Kanum,16,auto,c9d281124e3,"buy wool, pasham, jira, sheep and goat."
+standing,zamindar,landholders,primary_owner,Primary Owner,group,authority,"dues, revenue or begar",PAYS_DUES_TO,land revenue and dues,,,Kanum,Sutlej,Kanum,18,auto,c3f968911e1,including 'Athada Begar' or other services to the Primary Owner was laid down in Saplbat 1933 (BK)
+princely_pastures,zamindar,landholders,bushahr_ruler,Bushahr ruler,group,authority,"dues, revenue or begar",PAYS_DUES_TO,grain,,,Kanum,Sutlej,Kanum,18,auto,c606d5d49ba,"the form
+of cereals, ghee, or oil."
+trade_and_credit,zamindar,landholders,scheduled_castes,Scheduled castes,group,group,produce sold,SELLS_TO,consumer goods,,,Kanum,Sutlej,Kanum,53,auto,c482133fe8e,Consumer goods are supplied to them from his shop at high rates
+roads_and_wages,fawal,fawal,zamindar,landholders,role,group,labour,HIRES,,,,Kanum,Sutlej,Kanum,51,auto,c8bf01e8006,found it difficult to engage labourers to attend to their sheep and goats. Men and women now prefer to work on the roads rather than work as 'fawals'
+trade_and_credit,namsha,Namsha,middleman,middleman,role,role,interest,LENDS_TO,money,12.5,per cent interest per year,Kanum,Sutlej,Kanum,44,auto,c80cf1c6587,money collected as 'Udanang' on the bride's side is distributed amongst the middlemen and they are supposed to return it to the namsha as and when required by her together with an interest at the rate of Rs. 12i per
+standing,scheduled_castes,Scheduled castes,moneylender,moneylender,group,role,"dues, revenue or begar",PAYS_DUES_TO,money,,,Kanum,Sutlej,Kanum,53,auto,ca368436b59,"The wages earned by them are set off against the interest on the loans advanced to
+them."
+cycle,rigri,rigri,rajput,Rajput,role,group,labour,HIRES,,,,Kanum,Sutlej,Kanum,51,auto,ca296770c85,'Rigries' and fawals are en.gaged for a period of one year from the 'Lossar' faIr.
+cycle,rigri,rigri,rajput,Rajput,role,group,labour,HIRES,grain,80,bl'ekhangs of cereals per year,Kanum,Sutlej,Kanum,51,auto,c584be89f40,"A rigri according to the prevalent rate is given 80 'bl'ekhangs', a wooden measure of about 2 seers of cereals, 6 seers of raw wool"
+cycle,rigri,rigri,rajput,Rajput,role,group,labour,HIRES,wool,6,seers per year,Kanum,Sutlej,Kanum,51,auto,c22e3f92321,"A rigri according to the prevalent rate is given 80 'bl'ekhangs', a wooden measure of about 2 seers of cereals, 6 seers of raw wool"
+cycle,rigri,rigri,rajput,Rajput,role,group,labour,HIRES,shoes,1,pair per year,Kanum,Sutlej,Kanum,51,auto,c11654991c9,"of raw wool, a pair of leather shoes and woollen shoes, Rs. 2 in cash and daily meals."
+cycle,rigri,rigri,rajput,Rajput,role,group,labour,HIRES,money,2,Rs per year,Kanum,Sutlej,Kanum,51,auto,c0cc12fc27b,"of raw wool, a pair of leather shoes and woollen shoes, Rs. 2 in cash and daily meals."
+roads_and_wages,fawal,fawal,rajput,Rajput,role,group,labour,HIRES,,,,Kanum,Sutlej,Kanum,51,auto,c270c2034d1,'Rigries' and fawals are en.gaged for a period of one year from the 'Lossar' faIr.
+roads_and_wages,fawal,fawal,rajput,Rajput,role,group,labour,HIRES,money,100,Rs per year,Kanum,Sutlej,Kanum,51,auto,cd89e79c4c8,"Wages in the case of a 'fawal' for one year are, Rs. 100 cash, clothes including shoes, daily meals."
+roads_and_wages,fawal,fawal,rajput,Rajput,role,group,labour,HIRES,money,200,Rs per year,Kanum,Sutlej,Kanum,51,auto,cfae7b7dca0,However: some of the 'fawals' get Rs. 200 in cash.
+trade_and_credit,scheduled_castes,Scheduled castes,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Kanum,Sutlej,Kanum,53,auto,cd7cace17d9,Being a landlord and money lender he has lent enough amount pf money to the scheduled castes and others.
+standing,agricultural_labourer,agricultural labourer,moneylender,moneylender,role,role,labour,HIRES,,,,Kanum,Sutlej,Kanum,53,auto,cc7d643c10f,He employs them as labourers in his fields.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Kanum,Sutlej,Kanum,55,auto,cf93fc79e78,people get loans from the village money lenders and the rate of interest prevalent here is Rs. 12t% per annum.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,grain,5,"seers per maund borrowed, as annual interest",Kanum,Sutlej,Kanum,55,auto,c5fdeb52682,"most of the people in the lowest rung of the society have borrowed cereals on the condition of annual charge of additional-5 seers per md., as interest on cereals."
+trade_and_credit,debtor,debtor,moneylender,moneylender,role,role,interest,LENDS_TO,money,,,Kanum,Sutlej,Kanum,56,auto,c97f8a5a632,"Due to the high rate of interest charged by the local money lenders, it appears difficult for the debtors to clear off their outstanding debts"
+trade_and_credit,households,households,dabla_temple,Dabla temple,group,authority,interest,LENDS_TO,money,15,Rs per household,Kanum,Sutlej,Kanum,82,auto,c71621edd2b,"Besides this sum, each household is indebted to the temple for Rs. IS."
+trade_and_credit,households,households,dabla_temple,Dabla temple,group,authority,interest,LENDS_TO,money,,"per cent interest, collected annually",Kanum,Sutlej,Kanum,82,auto,cfbf052dd63,On this principal amount in interest at the rate of Rs. l2t per cent is collected annually from every debtor on the occasion of fair Kangyur jalma held on the 15th Ashadh.
+standing,agricultural_labourer,agricultural labourer,makhan_lal_negi,Makhan Lal Negi,role,person,labour,HIRES,wages,,,Kanum,Sutlej,Kanum,131,auto,cef39d43e7a,"This continued till 1958, but while in trade he could not repay the borrowed"
+trade_and_credit,lal_chand_negi,Lal Chand Negi,tibet,Tibet,person,place,produce sold,SELLS_TO,grain,,,Kanum,Sutlej,Kanum,132,auto,c04b1ebe308,"Rice phafra atta, utensils, cloth, jaggery and chillies were exchanged with pasham, wool, butter, goat, sheep and salt."
+roads_and_wages,fawal,fawal,lal_chand_negi,Lal Chand Negi,role,person,labour,HIRES,,4,fawals,Kanum,Sutlej,Kanum,132,auto,c9f0347dce3,"He had four fawals-shepherds who were paid Rs. 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes."
+roads_and_wages,fawal,fawal,lal_chand_negi,Lal Chand Negi,role,person,labour,HIRES,money,60,Rs per fawal annually,Kanum,Sutlej,Kanum,132,auto,c49272bf886,"He had four fawals-shepherds who were paid Rs. 60 each (annually) free meals, 8 kilogram of wool, shoes and clothes."
+trade_and_credit,padam_ram,Padam Ram,tibet,Tibet,person,place,produce sold,SELLS_TO,trade goods,,,Kanum,Sutlej,Kanum,132,auto,c3d4bcba862,Padam Ram h as been carrying on the trade with Tibet for about 15 years.
+trade_and_credit,debtor,debtor,padam_ram,Padam Ram,role,person,interest,LENDS_TO,money,300,Rs interest annually,Kanum,Sutlej,Kanum,132,auto,c629a522eb8,Money lending is also done in the village and he gets nearly Rs. 300 as interest annually from the debtors.
+trade_and_credit,debtor,debtor,padam_ram,Padam Ram,role,person,interest,LENDS_TO,money,,,Kanum,Sutlej,Kanum,132,auto,cbd3ec184e9,The prevelent rate of interest here is 12t per cent.
+trade_and_credit,debtor,debtor,padam_ram,Padam Ram,role,person,interest,LENDS_TO,money,,,Kanum,Sutlej,Kanum,132,auto,c92775daf2f,Of late money debts have become over due and there was little hope about the repayment of even the principal amount.
+trade_and_credit,bride_s_father,bride's father,bride,bride,role,role,interest,LENDS_TO,money,12.5,per cent interest per year,Kothi,Sutlej,Kothi,47,auto,c2de15fe7d7,"The money can, however, be utilised by the girl's father for three years without any interest and thereafter an interest at the rate of ] 2t%. p.a. is charged."
+standing,households,households,shopkeeper,shopkeeper,group,role,"dues, revenue or begar",PAYS_DUES_TO,money,,,Kothi,Sutlej,Kothi,86,auto,ca37ed4ff9c,The Lill is squared off at the end of a harvest or so.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Kothi,Sutlej,Kothi,86,auto,c79f0f6dd4a,private money l('nders in the village.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,12.5,per cent interest,Kothi,Sutlej,Kothi,86,auto,cb1f7243c16,'rhe interest rate ('h)rgerl it:. ]:2~ p0r cent.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,17,Rs per family on average,Kothi,Sutlej,Kothi,86,auto,cec0ef3e64b,"the amount, per family on an average Gomes to about RH. 17 and this rcprcsenttl the' purehasm; made from the tlhopkeep0rs."
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,,,Kothi,Sutlej,Kothi,86,auto,c960d2a1999,No interest is charged or paid on sueh borrowings.
+trade_and_credit,households,households,mortgagee,mortgagee,group,role,interest,LENDS_TO,money,6,mortgage cases,Kothi,Sutlej,Kothi,87,auto,c7926fe6a1b,In all 6 cases were recorded during the last ten years
+trade_and_credit,households,households,mortgagee,mortgagee,group,role,interest,LENDS_TO,money,1306,Rs over ten years,Kothi,Sutlej,Kothi,87,auto,cca5eb33090,"The total mortgage debt incurred during the ten years under study amounted to Rs. 1,306"
+trade_and_credit,bridegroom,bridegroom,bride,bride,role,role,interest,LENDS_TO,money,12.5,per cent interest per year,Nachar,Sutlej,Nachar,23,auto,c49e94744bb,The money ran be utIlIsed by the baws for a year without interest. After that if he wants to retain the money an interest is charged at the rate of 12i%
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,180,Rs per family on average,Nachar,Sutlej,Nachar,31,auto,c701709c66d,The amount per family on an average comes to about Rs. 180. This normally represents purchases from shopkeepers.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,,,Nachar,Sutlej,Nachar,31,auto,cd1a2a04e54,The bill is squared off at the end of the harvest: No interest is charged or paid on such· borrowmngs.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Nachar,Sutlej,Nachar,31,auto,cb434f65338,"from the money-lenders, an interest at the rate of about 12t per cent is charged."
+trade_and_credit,kinnaura,Kinnaura,households,households,group,group,produce sold,SELLS_TO,wool,,,Nachar,Sutlej,Nachar,33,auto,cc5c15c4e9d,"During periods of migration, they sell the wool to the villages they visit and on their way back home, carry with them most of their requirements of general merchandise not locally available."
+trade_and_credit,shopkeeper,shopkeeper,households,households,role,group,produce sold,BUYS_FROM,buffaloes and cattle,,,Shakrori,Sutlej,Shakrori,75,auto,ceda32c99bd,villagers sometimes buy their buffaloes and cows from traders of Bilaspur and from fairs at Rupar.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,agricultural produce,,,Shakrori,Sutlej,Shakrori,75,auto,cb624fb5ee8,Formerly the peasant was obliged to sell his produce to his mahajan-a shopkeeper at Seoni.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,grain,,,Shakrori,Sutlej,Shakrori,75,auto,c5ba50ff67a,The agents from Simla generally purchase the foodgrains at Rs. 3 to Rs. 5 per mauqd less than th(~ price at Simla.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,grain,,,Shakrori,Sutlej,Shakrori,75,auto,cb703439036,some wandering shopkeepers from Simla or other places go to Shakrori and purchase the produce at local rates
+trade_and_credit,suket,Suket,households,households,place,group,produce sold,BUYS_FROM,buffaloes,,,Shakrori,Sutlej,Shakrori,75,auto,cc45b3767b4,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+trade_and_credit,arki,Arki,households,households,place,group,produce sold,BUYS_FROM,buffaloes,,,Shakrori,Sutlej,Shakrori,75,auto,c46f481d34f,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+trade_and_credit,nalagarh,Nalagarh,households,households,place,group,produce sold,BUYS_FROM,buffaloes,,,Shakrori,Sutlej,Shakrori,75,auto,cc96de657e8,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+trade_and_credit,bilaspur,Bilaspur,households,households,place,group,produce sold,BUYS_FROM,buffaloes,,,Shakrori,Sutlej,Shakrori,75,auto,c96b23d03a6,"Villagers generally purchase them from nearabout villages in Suket, Arki, Nalagarh and Bilaspur."
+trade_and_credit,households,households,simla,Simla,group,place,produce sold,SELLS_TO,agricultural produce,,,Shakrori,Sutlej,Shakrori,75,auto,c6f4d18542e,"Now, with better yields and a better market, they sell their produce like peas and rice, maize and vegetables direct at Simla."
+trade_and_credit,kinnaura,Kinnaura,households,households,group,group,produce sold,BUYS_FROM,sheep and goats,,,Shakrori,Sutlej,Shakrori,75,auto,c936ddf5243,"many of which have been bought from the Kinnauras that go by, for ten to twelve rupees."
+trade_and_credit,kinnaura,Kinnaura,shakrori,Shakrori,group,place,produce sold,SELLS_TO,sheep and goats,,,Shakrori,Sutlej,Shakrori,75,auto,c5e135e5be1,"The goats and sheep sold by the Kinnauras are however, not of improved variety."
+trade_and_credit,kinnaura,Kinnaura,weaver,weaver,group,role,produce sold,BUYS_FROM,dyed marino yarn,,,Shakrori,Sutlej,Shakrori,77,auto,c5f3a3cae5e,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.
+trade_and_credit,seoni,Seoni,weaver,weaver,place,role,produce sold,BUYS_FROM,dyed marino yarn,,,Shakrori,Sutlej,Shakrori,77,auto,c0714ec0f2d,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.
+trade_and_credit,simla,Simla,weaver,weaver,place,role,produce sold,BUYS_FROM,dyed marino yarn,,,Shakrori,Sutlej,Shakrori,77,auto,cb3f174134f,The dyed marino yarn for the designs is generally provided by the weaver himself who purchases them from Kinnallras or from Seoni or Simla.
+trade_and_credit,gaddi,Gaddi,households,households,group,group,produce sold,BUYS_FROM,sheep and goats,,,Bir,Beas,Bir,43,auto,cb16416beea,"These are purchased from Gaddis who wander near about in winter, for 10 to 12 rupees."
+trade_and_credit,gaddi,Gaddi,households,households,group,group,produce sold,BUYS_FROM,kids and lambs,,,Bir,Beas,Bir,43,auto,c72f6dae89d,"Generally, these are purchm::ed as kids and lambs at Rs. 1 Q or 12 per head"
+trade_and_credit,gaddi,Gaddi,households,households,group,group,produce sold,BUYS_FROM,sheep and goats,,Rs 10 to 12 per animal,Bir,Beas,Bir,43,auto,ccca87a7d45,"purchased from Gaddis who wander near about in winter, for 10 to 12 rupees"
+trade_and_credit,households,households,buyer,buyer,group,role,produce sold,SELLS_TO,goats,,,Bir,Beas,Bir,43,auto,c29dea5f019,are also slOld at a handsome price of Rs. 40 to 50 per goat.
+trade_and_credit,bhangrotu,Bhangrotu,households,households,place,group,produce sold,BUYS_FROM,buffaloes,,,Bir,Beas,Bir,43,auto,c192ea987f5,"The villagers buy their buffaloes, cows and bulls from Bhangrotu and Suket at the time of Nalwari fair."
+trade_and_credit,suket,Suket,households,households,place,group,produce sold,BUYS_FROM,buffaloes,,,Bir,Beas,Bir,43,auto,cc47e7709a7,"The villagers buy their buffaloes, cows and bulls from Bhangrotu and Suket at the time of Nalwari fair."
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,cattle,,,Bir,Beas,Bir,43,auto,c199b1952b5,"They also sell their unwanted cattle to the traders who come from Rupar, Hoshiarpur and Haryana."
+trade_and_credit,seller,Seller,households,households,role,group,produce sold,BUYS_FROM,bullocks,,,Bir,Beas,Bir,43,auto,cf9c403d9f2,"The villlagers go in for cheap bullocks, costing Rs. 200 to 300 a pair."
+trade_and_credit,chamar,Chamar,buffalo_owner,Buffalo owner,group,role,produce sold,SELLS_TO,desi shoes,2,pairs,Bir,Beas,Bir,44,auto,ca02b6febf1,"In return, the ChamaI' has to give ,two pairs of desi shoes to the owner of the buffaloe."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Bir,Beas,Bir,35,auto,cb7bdbfbef0,It appears that their money lenders are in Mandi town.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Bir,Beas,Bir,35,auto,c50144aad59,"The rate of interest varies from 10 per,cent to 20 per
+cent."
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,BUYS_FROM,calves,,,Bir,Beas,Bir,43,auto,c143525f60c,Mostly these traders purchase calves and weak bulls of hill breed at cheap price.
+cycle,grazier,grazier,tandi,Tandi,role,place,labour,HIRES,,,,Tandi,Chenab,Tandi,65,auto,c78eccc7007,"graziers and shepherds are em ..
+ployed by the villagers to tend their
+livestock during the day."
+cycle,shepherd,shepherd,tandi,Tandi,role,place,labour,HIRES,,,,Tandi,Chenab,Tandi,65,auto,c747a284a6b,"graziers and shepherds are em ..
+ployed by the villagers to tend their
+livestock during the day."
+roads_and_wages,fawal,fawal,tandi,Tandi,role,place,labour,HIRES,grain,1,patha buckwheat per sheep or goat for the season,Tandi,Chenab,Tandi,65,auto,c1c6c7dcbf8,"is paid
+by every household at the rate of one
+patha (approximately equivalent to
+one seer) of buckwheat per sheep or
+goat for the season."
+roads_and_wages,fawal,fawal,tandi,Tandi,role,place,labour,HIRES,meals,1,"day's meals per household sending ten sheep or goats, according to the turn",Tandi,Chenab,Tandi,65,auto,cc87188666f,"A household sending out ten sheep or goats gives a day's
+meals to him according to t he turn."
+cycle,totari,Totari,tandi,Tandi,role,place,labour,HIRES,grain,20,patha of grains from every household for the season,Tandi,Chenab,Tandi,65,auto,ca39ce8afc2,"is called Tot.ari and gets ::~O patha of grains from every household for the
+season"
+cycle,totari,Totari,tandi,Tandi,role,place,labour,HIRES,bread,1,loaf of bread a day,Tandi,Chenab,Tandi,65,auto,c1f5fafac20,"gets ::~O patha of grains from every household for the
+season in addition to getting one loaf
+of bread a day."
+cycle,kutsa_rantauch,Kutsa-rantauch,tandi,Tandi,role,place,labour,HIRES,,,,Tandi,Chenab,Tandi,65,auto,c1f230455d8,"The grazier of lambs
+and calves is called kU7'tsa-rantaucJl((
+and is employed on the same terms
+as the phogaZa."
+trade_and_credit,households,households,zamindar,landholders,group,group,interest,LENDS_TO,money,,,Tandi,Chenab,Tandi,67,auto,c740140e8d3,"Friends and relations, well-to-do zamindars, money-lenders and :Government Departments are the di~erent agencies from which loans are obtained."
+trade_and_credit,households,households,zamindar,landholders,group,group,interest,LENDS_TO,money,10,per cent interest (period not stated),Tandi,Chenab,Tandi,67,auto,ce55deff70e,It is not possible accurately to state the rate of interest charged by the money-lender and zamindars but approximately it stands at 10 per cent.
+trade_and_credit,lohar,Lohar,zamindar,landholders,group,group,interest,LENDS_TO,money,800,Rs,Tandi,Chenab,Tandi,70,auto,c664511d571,"Loan alTIonnting to Rs. 800
+was obtained by Lohars from Zamindars only in 1959"
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Tandi,Chenab,Tandi,67,auto,cba2c64ba64,"Friends and relations, well-to-do zamindars, money-lenders and :Government Departments are the di~erent agencies from which loans are obtained."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,10,per cent interest (period not stated),Tandi,Chenab,Tandi,67,auto,ce84c7c7806,It is not possible accurately to state the rate of interest charged by the money-lender and zamindars but approximately it stands at 10 per cent.
+trade_and_credit,bodh,Bodh,moneylender,moneylender,group,role,interest,LENDS_TO,money,800,Rs,Tandi,Chenab,Tandi,70,auto,ce49d4dddf3,"Bodhs incurred a debt of Rs~ 800 from the
+money-lenders in 1953"
+trade_and_credit,households,households,market,Market,group,place,produce sold,SELLS_TO,milk,,,Basal,,Basal,30,auto,c3072bc79d3,milk is sold in the market to supplement the income
+trade_and_credit,households,households,town,Town,group,place,produce sold,SELLS_TO,milk,,,Basal,,Basal,77,auto,c119c67dd8a,Most of the villagers sell milk in the town.
+trade_and_credit,weaver,weaver,households,households,role,group,produce sold,BUYS_FROM,grain,2,pathas of grain per article,Basal,,Basal,79,auto,c8155ad4f7b,"The villagers of Basal pay them in kind at the rate of two
+
+pathas of grains for each article."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,500,Rs average debt per household,Basal,,Basal,62,auto,c569b31e17d,The average debt per household comes to about Rs. 500.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Basal,,Basal,62,auto,c7564508a5f,"Bulk of the loans were obtained f()r ordinary wants like the . purchasing of foodgrains, and clothes."
+trade_and_credit,households,households,well_to_do_farmers,well-to-do farmers,group,group,interest,LENDS_TO,money,,,Basal,,Basal,62,auto,c965b4c1bd5,The well-ta-do farmers also advance loans to the needy.
+trade_and_credit,households,households,well_to_do_farmers,well-to-do farmers,group,group,interest,LENDS_TO,money,,no interest when borrower is a relative,Basal,,Basal,62,auto,c10a67ffc18,"If the loan is advanced to a 'r"",lative, no interest is charged."
+trade_and_credit,households,households,well_to_do_farmers,well-to-do farmers,group,group,interest,LENDS_TO,money,10,per cent interest per annum or more,Basal,,Basal,62,auto,c42c5787385,"Otherwise, an-....interest ranging from 10 per cent or more per annum is charged."
+trade_and_credit,market,Market,households,households,place,group,produce sold,BUYS_FROM,wool,,,Batal,,Batal,46,auto,c80a8f262b6,Others purchase wool from the market
+trade_and_credit,kinnaura,Kinnaura,households,households,group,group,produce sold,BUYS_FROM,wool,,,Batal,,Batal,46,auto,cf7b5905e88,Others purchase wool from the market or from the Kinnauras who ·stay near about the village in Seri in winter.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Batal,,Batal,37,auto,c49ddca61ff,"money
+lenders are reluctant to lend out money to such
+persons who have scanty means"
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,12.5,per cent per annum,Batal,,Batal,38,auto,cb5b9a7bb16,"are the village money lenders or some shopkeepers at Arki. They charge interest at,Rs. 12.50 per cent per annum."
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,12.5,per cent per annum,Batal,,Batal,38,auto,cca605de115,"are the village money lenders or some shopkeepers at Arki. They charge interest at,Rs. 12.50 per cent per annum."
+trade_and_credit,buffalo_rearing_family,Buffalo-rearing family,halwai,Halwai,group,role,produce sold,SELLS_TO,milk,,,Chaunri,Yamuna,Chaunri,34,auto,c118ef2f430,Those families who rear buffaloes sell milk to the' halwais in the village bazar.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,15,per cent interest,Chauntra,Beas,Chauntra,52,auto,cd87473a6ac,The loans are mostly raised from the private money lenders who charge interest at the rate of 15 per cent.
+standing,grazier,grazier,households,households,role,group,labour,HIRES,grain,,,Chaupal,Yamuna,Chaupal,47,auto,c0f1c10f56e,Roti from each household and some cereals were given at the end of the month.
+trade_and_credit,households,households,open_market,open market,group,place,produce sold,SELLS_TO,honey,4,Rs per kilogram,Chaupal,Yamuna,Chaupal,54,auto,c58e8bfa38e,It is sold at the rate of Rs. 4 per kilogram in the open market.
+trade_and_credit,households,households,simla,Simla,group,place,produce sold,SELLS_TO,apples,,,Chaupal,Yamuna,Chaupal,54,auto,ca99acc4868,Similarly apples are exported to Simla.
+standing,grinder,grinder,households,households,role,group,labour,HIRES,grain,1,nad per 16 nads,Chaupal,Yamuna,Chaupal,54,auto,cbbee144748,"For every 16 such nads,the grinder receives one nad as his charges."
+standing,grinder,grinder,households,households,role,group,labour,HIRES,apricot oil,4,chhatank of oil per seer extracted,Chaupal,Yamuna,Chaupal,54,auto,ccd1386e329,The wages are paid in kind. This is about four chhatank of oil against one seer oil extracted.
+trade_and_credit,households,households,rajput,Rajput,group,group,interest,LENDS_TO,money,,,Chaupal,Yamuna,Chaupal,56,auto,cae5927f0b4,Rajputs are the principal money lenders.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,12,per cent interest per annum,Chaupal,Yamuna,Chaupal,56,auto,cc7e9975a40,"The rate of interest as reported may be anything between 12 to 20 per cent per annum, or this may be more."
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,milk,,,Chergaon,Yamuna,Chergaon,30,auto,c74bce32365,Households possessing buffaloes sell milk to the Banias and to Govcrn.llf:nt offlcials.
+trade_and_credit,households,households,government_official,government official,group,role,produce sold,SELLS_TO,milk,,,Chergaon,Yamuna,Chergaon,30,auto,c9a3311a622,Households possessing buffaloes sell milk to the Banias and to Govcrn.llf:nt offlcials.
+roads_and_wages,fawal,fawal,households,households,role,group,labour,HIRES,grain,,,Chergaon,Yamuna,Chergaon,57,auto,ca3b86684f6,cereals are supplied regularly by the respective village households.
+trade_and_credit,rampur,Rampur,households,households,place,group,produce sold,BUYS_FROM,wool,,,Chergaon,Yamuna,Chergaon,61,auto,c1f07b991ec,people used to go to Rampur to purchase wool during Lavi fair.
+trade_and_credit,dodra_kawar,Dodra-Kawar,households,households,place,group,produce sold,BUYS_FROM,wool,,,Chergaon,Yamuna,Chergaon,61,auto,c0bdb8b9f25,"now-a-days, they prefer to buy wool from Dodra Kawar illaqa."
+standing,households,households,jubbal_devta,Jubbal devta,group,authority,fee or tax,COLLECTS_FEE_FROM,grazing fees,2,Rs (nazarana; frequency unspecified),Kalka-pattam mountain,,Chergaon,22,auto,cef8674b772,"The nazarana of Rs. 2 given by
+Khabbal villagers to Jubbal devtafor grazing rights on
+Kalka-pattam mountain"
+standing,jubbal_devta,Jubbal devta,thakur_lila_singh,Thakur Lila Singh,authority,person,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,2,Rs (nazarana; frequency unspecified),Kalka-pattam mountain,,Chergaon,22,auto,c0571bef4f9,"The nazarana of Rs. 2 given by
+Khabbal villagers to Jubbal devtafor grazing rights on
+Kalka-pattam mountain are given to Thakur Lila Singh by the devta"
+trade_and_credit,koli,Koli,rajput,Rajput,group,group,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,54,auto,c3cf24a97c4,Thakurs and Rajputs are the principal mortgagees for Kolis.
+trade_and_credit,shopkeeper,shopkeeper,households,households,role,group,produce sold,SELLS_TO,grain,,,Chergaon,Yamuna,Chergaon,62,auto,ca599e31d49,"With the local people, goods are sold in exchange for the little quantity of grains brought by them."
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,BUYS_FROM,old and unserviceable utensils,0.5,cost of the utensils,Chergaon,Yamuna,Chergaon,66,auto,c81b0220103,"A party of two-three men from J agadhri side also visits the village and purchase
+old and. unserviceable utensils against half the
+cost paid in cash."
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,produce sold,BUYS_FROM,fodder,,,Chergaon,Yamuna,Chergaon,70,auto,cff766de99a,Shopkeepers have to spend on the livestock as they are to buy fodder from villagers against cash payment.
+trade_and_credit,households,households,zamindar,landholders,group,group,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,54,auto,c5c620605a6,"money
+'Nhich is borrowed from rich zantinda·rs."
+standing,agricultural_labourer,agricultural labourer,zamindar,landholders,role,group,labour,HIRES,grain,,,Chergaon,Yamuna,Chergaon,68,auto,c937b5a18a3,Agricultural labourers however are given grains by the owners for the work done by t~em.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,0.5,value of jewellery,Chergaon,Yamuna,Chergaon,54,auto,ca404c67688,The money paId to the peasant by the landlord is approximately half the value of jewellery.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,25,per cent interest on the mortgage debt,Chergaon,Yamuna,Chergaon,54,auto,cc3da172d2e,the mortgagee charges interest at the rate of 25 per cent on the mortgage debt.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,65,auto,c8471463664,"farmer used to go to the money-lender to
+borrow money, who used to give him the
+amount after getting a deed written in tankri script."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,65,auto,c1d86b0845d,"Before giving the amount the
+money-lender used to deduct 'some amount
+under the custom gant kholna."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,4,annas per rupee per year,Chergaon,Yamuna,Chergaon,66,auto,c463bbc7039,"The interest charged was four annas per
+rupee armually. Th~s was collected at the
+end of each year."
+trade_and_credit,peasant,peasant,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,55,auto,c10f10d7e15,a peasant is compelled to mortgage his land at low price under pressure of d:ebt of his sahukar
+trade_and_credit,farmer,farmer,moneylender,moneylender,role,role,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,90,auto,c2ca6feb143,"Farmers are compelled to approach money-lenders for taking loans at high rate of interest,"
+trade_and_credit,koli,Koli,rajput,Rajput,group,group,produce sold,SELLS_TO,dry grass,,,Chergaon,Yamuna,Chergaon,63,auto,caedf00f3c2,Poor families of Kolis sell dry grass to rich families of Thakurs and Rajputs.
+trade_and_credit,koli,Koli,rajput,Rajput,group,group,produce sold,SELLS_TO,dry grass,0.25,Paise per bali,Chergaon,Yamuna,Chergaon,63,auto,ca5f9bfd75f,Dry grass is sold @ 0.25 Paise per bali.
+trade_and_credit,koli,Koli,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,green grass,1,bundle for one anna,Chergaon,Yamuna,Chergaon,63,auto,c0a99b2fad1,"They also sell green grass to local banias at the rate'of one pulla-a bundle of ""grass, for one anna."
+cycle,mortgagor,mortgagor,mortgagee,mortgagee,role,role,"dues, revenue or begar",PAYS_DUES_TO,grain,,,Chergaon,Yamuna,Chergaon,55,auto,cf802310d9f,"Under it, the mortgaged land remains under the plough of the mortgager and some grains are given to the mortgagee at two harvests."
+cycle,mortgagor,mortgagor,mortgagee,mortgagee,role,role,"dues, revenue or begar",PAYS_DUES_TO,money,,,Chergaon,Yamuna,Chergaon,55,auto,c95f4be30b3,"Under nagadi lagan, the mortgagor pays some cash annmdly to the martgagee."
+standing,mortgagor,mortgagor,mortgagee,mortgagee,role,role,"dues, revenue or begar",PAYS_DUES_TO,money,,,Chergaon,Yamuna,Chergaon,55,auto,c56a066d013,Usually it is equal to the amount of interest calculated at the mortgaged debt.
+trade_and_credit,man,man,rich_family,rich family,person,group,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,55,auto,c54ff149428,"Under this system, a man borrows money from a rich family."
+standing,agricultural_labourer,agricultural labourer,rich_family,rich family,role,group,labour,HIRES,grain,,,Chergaon,Yamuna,Chergaon,55,auto,cff6eadc4f0,"the rich family asks his debtor to do 8.gricul~
+tural labour On his fields"
+trade_and_credit,debtor,debtor,rich_family,rich family,role,group,interest,LENDS_TO,money,,,Chergaon,Yamuna,Chergaon,55,auto,cb148fb3b27,"On the other hand, the amount of debt which has increased with the addition of' interest still stands."
+trade_and_credit,households,households,itinerant_coin_collector,itinerant coin collector,group,role,produce sold,BUYS_FROM,counterfeit coins,0.5,value of the coins,Chergaon,Yamuna,Chergaon,66,auto,c04d7a291b9,"An old Sikh from Amritsar side visits
+the village twice in a year and collects counterfeit coins for which he gives half the value"
+trade_and_credit,tibetan_traders,Tibetan traders,households,households,group,group,produce sold,SELLS_TO,"heeng, jira, zayfal, sheelajeet and beads",,,Chergaon,Yamuna,Chergaon,66,auto,cb27a8dc298,"A few Tibetans from Kinnaur side visit
+the village during winter to sell their petty
+things like heeng, jeera, zayfal, sheelajeet
+and beads."
+trade_and_credit,kinnaura,Kinnaura,households,households,group,group,produce sold,SELLS_TO,sheep and goats,,,Chergaon,Yamuna,Chergaon,66,auto,cf05bcad7bb,"A few Kinnauras from Kinnaur District also come to sell their goats and
+sheep."
+trade_and_credit,kumhar,Kumhar,households,households,group,group,produce sold,SELLS_TO,earthen pots,,,Chergaon,Yamuna,Chergaon,66,auto,cabc81210a5,"A party of potters from Mandi and Bilaspur Districts come to this illaqa. They make
+the earthen pots on the spot and sell them
+against cash or kind."
+trade_and_credit,kalath,Kalath,neighboring_village,neighboring village,place,place,produce sold,SELLS_TO,livestock,10,miles radius,Kalath,,Kalath,77,auto,c9513cab6d8,The sale and purchase of animals is strictly confined to neighbouring villages within a radius of 10 miles.
+trade_and_credit,neighboring_village,neighboring village,kalath,Kalath,place,place,produce sold,BUYS_FROM,livestock,10,miles radius,Kalath,,Kalath,77,auto,ceda9d3f658,The sale and purchase of animals is strictly confined to neighbouring villages within a radius of 10 miles.
+trade_and_credit,households,households,dagshai,Dagshai,group,place,produce sold,SELLS_TO,ghee,,,Kalath,,Kalath,77,auto,cf32b58c06f,"The articles sold out at Dagshai and Kalka include maize, wheat, ginger~ pears, apricots and desi ghee."
+trade_and_credit,households,households,kalka,Kalka,group,place,produce sold,SELLS_TO,ghee,,,Kalath,,Kalath,77,auto,c15b3ac5850,"The articles sold out at Dagshai and Kalka include maize, wheat, ginger~ pears, apricots and desi ghee."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,56,per cent of total outstanding debt,Kalath,,Kalath,60,auto,cc55196966a,"money-lenders of Bhojnagar, friends and relatives and co-operative society
+which have provided 56 per cent, 34.67 per cent and 9.33 per cent re~ectively. of the total outstanding debt."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,2100,Rs of outstanding debt advanced,Kalath,,Kalath,60,auto,ce8cddb10ad,"The total amounts provided by these three sources being Rs. 2,100, Rs. 1,300 and
+Rs. 350, respectively."
+standing,households,households,moneylender,moneylender,group,role,fee or tax,COLLECTS_FEE_FROM,money,,,Kalath,,Kalath,60,auto,c662f9c6e1b,"The money-lenders of Bhojnagar who advance loans
+to the needy persons deduct 6t
+per cent of the total amount of loan"
+standing,households,households,moneylender,moneylender,group,role,fee or tax,COLLECTS_FEE_FROM,money,,,Kalath,,Kalath,60,auto,caafc78d9da,"and then charge interest at the rate of J2
+per cent on the full principal amount."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,3750,Rs outstanding debt,Kalath,,Kalath,77,auto,c1649eb39e5,"In Kalath four households are under debt. The total outstanding debt amounts of Rs. 3,750."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,56,per cent of the amount advanced,Kalath,,Kalath,77,auto,c9e482930b2,"Money-lenders have advanced 56 per cent of the amount, the co-operative society 9·33 per cent and friends and relatives 34.67 per cent."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,1500,Rs,Kalath,,Kalath,77,auto,c970deaab10,"Rs 150 in 1958 from the co-operative society, Rs 1500 in 1960 from money-lenders"
+trade_and_credit,households,households,friends_and_relatives,friends and relatives,group,group,interest,LENDS_TO,money,34.67,per cent of total outstanding debt,Kalath,,Kalath,60,auto,c935f2c1b83,"money-lenders of Bhojnagar, friends and relatives and co-operative society
+which have provided 56 per cent, 34.67 per cent and 9.33 per cent re~ectively. of the total outstanding debt."
+trade_and_credit,households,households,friends_and_relatives,friends and relatives,group,group,interest,LENDS_TO,money,1300,Rs of outstanding debt advanced,Kalath,,Kalath,60,auto,c4fdaa0670b,"The total amounts provided by these three sources being Rs. 2,100, Rs. 1,300 and
+Rs. 350, respectively."
+trade_and_credit,households,households,friends_and_relatives,friends and relatives,group,group,interest,LENDS_TO,money,34.67,per cent of the amount advanced,Kalath,,Kalath,77,auto,c3a5908bdf4,"Money-lenders have advanced 56 per cent of the amount, the co-operative society 9·33 per cent and friends and relatives 34.67 per cent."
+trade_and_credit,households,households,friends_and_relatives,friends and relatives,group,group,interest,LENDS_TO,money,1500,Rs,Kalath,,Kalath,77,auto,c170a4f8b4b,"Rs. 1,500 were obtained in 1957 from friends or relatives; Rs. 150 in 1958 from the co-operative society"
+trade_and_credit,tenant,tenant,zamindar,landholders,role,group,interest,LENDS_TO,money,200,Rs maximum loan,Kalath,,Kalath,60,auto,c364012c71d,"Wel1-to-do
+owner cultivators advance loans up
+to Rs. 200 to their t>enants"
+trade_and_credit,tenant,tenant,zamindar,landholders,role,group,interest,LENDS_TO,money,0,per cent interest for six months,Kalath,,Kalath,60,auto,c5a023cf6e4,"do not
+charge any interest for six m~nths."
+trade_and_credit,rajput,Rajput,buyer,buyer,group,role,produce sold,SELLS_TO,ghee,2,sellers,Kalath,,Kalath,77,auto,c2fa3a97fd5,Two Rajputs and one Ramdasi sell ghee varying between 20 seers and one maund each during the year.
+trade_and_credit,ramdasi,Ramdasi,buyer,buyer,group,role,produce sold,SELLS_TO,ghee,1,seller,Kalath,,Kalath,77,auto,c872c536d64,Two Rajputs and one Ramdasi sell ghee varying between 20 seers and one maund each during the year.
+trade_and_credit,moneylender,moneylender,households,households,role,group,interest,LENDS_TO,money,703.52,Rs average debt per family,Kot,Beas,Kot,47,auto,cdcd6ea712f,Only fortyfour families claim to be in debt and the average debt per family comes to about Rs. 703.52 paise.
+trade_and_credit,kot,Kot,households,households,place,group,produce sold,BUYS_FROM,livestock,,,Kot,Beas,Kot,56,auto,c003b9180a5,These animals are purchased localliY or from Sarkaghat and Kangra or at the time of Barchhwar-Nalwari Fair.
+trade_and_credit,sarkaghat,Sarkaghat,households,households,place,group,produce sold,BUYS_FROM,livestock,,,Kot,Beas,Kot,56,auto,c9c148e8a86,These animals are purchased localliY or from Sarkaghat and Kangra or at the time of Barchhwar-Nalwari Fair.
+trade_and_credit,kangra,Kangra,households,households,place,group,produce sold,BUYS_FROM,livestock,,,Kot,Beas,Kot,56,auto,c80db685f79,These animals are purchased localliY or from Sarkaghat and Kangra or at the time of Barchhwar-Nalwari Fair.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,30955,Rs total village debt,Kot,Beas,Kot,47,auto,cd7c00e1f11,"At the time of survey (November-December, 1961) a sum of about Rs. 30,955/- was estimated to be the total debt in the village."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,14705,Rs loan,Kot,Beas,Kot,47,auto,cfec4525fc8,"Out of it twenty eight families obtained a loan of Rs. 14,705/- for orainary wants, like purchasing of foodgrains, clothes, etc."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,5800,Rs loan,Kot,Beas,Kot,47,auto,caa156c4381,"Six families borrowed Rs. 5,800/- for the education of their children."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,4750,Rs loan,Kot,Beas,Kot,47,auto,c0bdcf68366,"Five families borrowed Rs. 4,750/- for house construction and repairs"
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,500,Rs loan,Kot,Beas,Kot,47,auto,cfb3f4b99bf,and only two households borrowed Rs. 500/- for the purchase of land.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Kot,Beas,Kot,47,auto,cd071c6fcac,One Mohlo advances money on loan to the people.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,12.5,Rs per 100 rupees of loan,Kot,Beas,Kot,47,auto,ccf60c28219,He charges a simple interest of Rs. 12.50 per cent
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Kot,Beas,Kot,47,auto,cfabe58b520,The second source is more beneficial to them. At least it meets their immediate dema~d well in time although the consequences m some cases may be grave.
+trade_and_credit,pangwal,Pangwal,shopkeeper,shopkeeper,group,role,produce sold,SELLS_TO,jira,,,Kupha,Chenab,Kupha,69,auto,c3d4eb1a4ab,"They also bring with them big loads of their products like zira, pateesh, shilajeet to sell to the local businessmen."
+cycle,households,households,gawalay,gawalay,group,role,"dues, revenue or begar",PAYS_DUES_TO,ghee,1,tablespoonful per household,Kupha,Chenab,Kupha,54,auto,c67b7965ae7,"On sankrant, the lohars and
+llle' gawalays visit every household. who give
+them one tablespoonful .of ghee and about
+a seer of grain."
+trade_and_credit,chaurah,Chaurah,households,households,place,group,produce sold,BUYS_FROM,cattle,,,Kupha,Chenab,Kupha,80,auto,c2c94ad5d92,Most of the cattle are purchased from Chaurah and yaks from Bhotes who bring them from Jammu and Kashmir.
+trade_and_credit,bhot,Bhot,households,households,group,group,produce sold,BUYS_FROM,yaks,,,Kupha,Chenab,Kupha,80,auto,ca8cca3b347,Most of the cattle are purchased from Chaurah and yaks from Bhotes who bring them from Jammu and Kashmir.
+trade_and_credit,lahaul,Lahaul,households,households,place,group,produce sold,BUYS_FROM,wool,,,Kupha,Chenab,Kupha,82,auto,ceb2100e562,they buy additional wool from Lahul area or their neighbours against an equal weight of ghee.
+trade_and_credit,households,households,wealthy_villagers,wealthy villagers,group,group,interest,LENDS_TO,money,,,Kupha,Chenab,Kupha,70,auto,c75affb7ee9,"The loans are obtained from wealthy villagers, mostly relatives."
+trade_and_credit,households,households,wealthy_villagers,wealthy villagers,group,group,interest,LENDS_TO,money,18130,Rs total loan investigated,Kupha,Chenab,Kupha,70,auto,c79d7fc988d,Against the total loan of Rs. 18.130 investigated
+trade_and_credit,households,households,wealthy_villagers,wealthy villagers,group,group,interest,LENDS_TO,money,9780,Rs loan,Kupha,Chenab,Kupha,70,auto,c4221e5dd1d,"Rs. 9,780 was obtained for ordinary wants by 41 households"
+trade_and_credit,households,households,wealthy_villagers,wealthy villagers,group,group,interest,LENDS_TO,money,2200,Rs loan,Kupha,Chenab,Kupha,70,auto,ca88e01bc64,"For marriages Rs. 2,200 was obtained by seven families."
+trade_and_credit,households,households,wealthy_villagers,wealthy villagers,group,group,interest,LENDS_TO,money,5,per cent interest per annum,Kupha,Chenab,Kupha,70,auto,ce55fb8c784,in another cases it ranges from Rs. 5 to 10 per cent. per annum.
+trade_and_credit,households,households,wealthy_villagers,wealthy villagers,group,group,interest,LENDS_TO,money,,,Kupha,Chenab,Kupha,70,auto,c67fc4469c2,The debtor either mortgages the ornaments or a piece of land.
+standing,households,households,mukaddam,mukaddam,group,role,fee or tax,COLLECTS_FEE_FROM,goats,,,Pangi,Chenab,Kupha,133,auto,c26661a8f06,Mukaddam had the duty of collecting day to day provisions like goats
+standing,households,households,mukaddam,mukaddam,group,role,fee or tax,COLLECTS_FEE_FROM,sheep,,,Pangi,Chenab,Kupha,133,auto,c09ab4841ed,Mukaddam had the duty of collecting day to day provisions like goats and sheep
+standing,households,households,mukaddam,mukaddam,group,role,fee or tax,COLLECTS_FEE_FROM,ghee,,,Pangi,Chenab,Kupha,133,auto,cbda04df582,"When His Highness or any other senior officer would visit the place the Mukaddam had the duty of collecting day to day provisions like goats and sheep, ghee"
+trade_and_credit,households,households,sirmur,Sirmur,group,place,produce sold,SELLS_TO,milk,6,printed rate '-/6/-' per seer,Moginand,,Moginand,45,auto,c1b8c22293a,"The people of this village sell therr milk and eggs at
+Nahan and Kala Arnb at the rate of -/6/- per
+seer and Rs. 1.50 per dozen."
+trade_and_credit,households,households,kala_amb,Kala Amb,group,place,produce sold,SELLS_TO,milk,6,printed rate '-/6/-' per seer,Moginand,,Moginand,45,auto,c60946e1c40,"The people of this village sell therr milk and eggs at
+Nahan and Kala Arnb at the rate of -/6/- per
+seer and Rs. 1.50 per dozen."
+forest_department,households,households,forest_department,Forest Department,group,authority,"dues, revenue or begar",PAYS_DUES_TO,grazing fees,1,anna per permit for one big bundle of grass,Moginand,,Moginand,47,auto,c073e88d807,"they can bring one big bundle of grass from other charand, by obtaining a permit on payment of anna one to the forest department."
+forest_department,households,households,forest_department,Forest Department,group,authority,"dues, revenue or begar",PAYS_DUES_TO,articles of daily use,4,per cent interest,Moginand,,Moginand,47,auto,ca777fee114,The shopkeepers go on giving articles to the villagers on credit and at harvest time they realise the amount in kind or cash alongwith interest at the rate of 4 per cent.
+standing,households,households,shopkeeper,shopkeeper,group,role,"dues, revenue or begar",PAYS_DUES_TO,articles of daily use,,,Moginand,,Moginand,47,auto,c58eb626c05,From other classes they collect the arrears in instalments.
+trade_and_credit,shopkeeper,shopkeeper,households,households,role,group,produce sold,SELLS_TO,articles of daily use,,,Moginand,,Moginand,47,auto,c089d6a658d,Generally~ all transactions are made in kind with the farmers and in cash with others.
+trade_and_credit,shopkeeper,shopkeeper,households,households,role,group,produce sold,SELLS_TO,articles of daily use,,,Moginand,,Moginand,47,auto,cbaa192ac43,They sell their articles with a high margin of profit.
+trade_and_credit,households,households,indebted_households,Indebted households,group,group,interest,LENDS_TO,money,2870,Rs total debt,Moginand,,Moginand,52,auto,cedb43afee1,the total amount of debt of all families was Rs~ 2870.00.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Moginand,,Moginand,52,auto,ce00d5b72fe,The loans were advanced by rich persons of the nearby villages
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,12.5,per cent interest per annum,Moginand,,Moginand,52,auto,c8fca1fca99,the interest was 12t per annum.
+trade_and_credit,society_members,society members,co_operative_society_menthapal,Co-operative Society Menthapal,group,authority,interest,LENDS_TO,money,2877.52,Rs advanced on loan,Moginand,,Moginand,65,auto,c42104c51d5,"Rs. 2,877.52 has been advanced on loan to the members, and the society invested a sum"
+trade_and_credit,society_members,society members,co_operative_society_menthapal,Co-operative Society Menthapal,group,authority,interest,LENDS_TO,money,9,Rs per cent per annum interest,Moginand,,Moginand,65,auto,cef3d36a4e5,Rate of Interest-The rate of interest charged on the advanced loans is' Rs. 9/- per cent per annum.
+trade_and_credit,society_members,society members,co_operative_society_menthapal,Co-operative Society Menthapal,group,authority,interest,LENDS_TO,money,4,Rs per cent per annum discount,Moginand,,Moginand,65,auto,cd06c978eaf,The discount is calculated at the rate of Rs. 4/- per cent per annum.
+trade_and_credit,society_members,society members,co_operative_society_menthapal,Co-operative Society Menthapal,group,authority,interest,LENDS_TO,money,2,instalments per year,Moginand,,Moginand,65,auto,cfc96d18bac,The loan is recovered in two instalments in a year; on rabi and kharif crops.
+trade_and_credit,dehar,Dehar,nalag,Nalag,place,place,produce sold,BUYS_FROM,articles of daily requirement,,,Nalag,Sutlej,Nalag,12,auto,c966b362854,All the articles of daily requirement are generally purchased frOIll Dehar.
+trade_and_credit,dehar,Dehar,nalag,Nalag,place,place,produce sold,BUYS_FROM,green vegetables,,,Nalag,Sutlej,Nalag,12,auto,c89572d5d2a,Even green vegetables are available here.
+standing,weaver,weaver,households,households,role,group,labour,HIRES,,,,Nalag,Sutlej,Nalag,15,auto,c01298cb963,The weavers living near about are contacted afterwards and entrusted with the work of weaving.
+trade_and_credit,nearby_village,Nearby village,households,households,place,group,produce sold,BUYS_FROM,cattle,,,Nalag,Sutlej,Nalag,31,auto,ceaa27ebc5b,The cattle are purchased locally or from nearby villages '3nd in the Nalwari ~air.
+trade_and_credit,nalwari_fair,Nalwari fair,households,households,place,group,produce sold,BUYS_FROM,cattle,,,Nalag,Sutlej,Nalag,31,auto,c5e595d4f47,The cattle are purchased locally or from nearby villages '3nd in the Nalwari ~air.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,,,Nalag,Sutlej,Nalag,38,auto,caea7ac77f8,Neel Kanth of Kangu and Hari Dutt of Dehar are the two rich shop-keepers who advance loans to the villagers.
+trade_and_credit,households,households,behra_co_operative_society,Behra Co-operative Society,group,authority,interest,LENDS_TO,money,,,Behra,,Nalag,38,auto,cf3a16dc8bb,"The society advances loans to its members, and charges an annual interest of Rs. 6."
+trade_and_credit,households,households,behra_co_operative_society,Behra Co-operative Society,group,authority,interest,LENDS_TO,money,6,Rs per year,Behra,,Nalag,38,auto,cd26734fce1,"The society advances loans to its members, and charges an annual interest of Rs. 6."
+trade_and_credit,cattle_trader,cattle trader,households,households,role,group,produce sold,BUYS_FROM,cattle,,,Pangna,,Pangna,53,auto,c7198a51c0c,"The villagers sometimes buy the cattle from traders of Punjab, who bring their cows, bulls and buffaloes for selling, at the fairs."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,18,per cent interest,Pangna,,Pangna,47,auto,c49bdd27122,There are some ten Mahajans who advance loans. They charge 18 per cent interest.
+trade_and_credit,harijan,Harijan,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Pangna,,Pangna,58,auto,c86e93125af,the private money lenders who charge more interest from them.
+trade_and_credit,households,households,shopkeeper,shopkeeper,group,role,interest,LENDS_TO,money,,,Pangna,,Pangna,47,auto,c3f262380c4,Hence the sole loan advancing agency is the shopkeepers.
+cycle,farmer,farmer,mahajan,Mahajan,role,group,"dues, revenue or begar",PAYS_DUES_TO,ghee,2,kilos per cow per month,Pangna,,Pangna,53,auto,cecbf7b6c4f,"the farmers have the option to keep the cow on the condition that they give two kilos of ghee to the owner of the cow every month,"
+trade_and_credit,farmer,farmer,mahajan,Mahajan,role,group,produce sold,SELLS_TO,cattle,,,Pangna,,Pangna,53,auto,c46e686030b,otherwise the owner gets the cow back by paying a sum of Rs. 40 to 80.
+cycle,farmer,farmer,brahman,Brahman,role,group,"dues, revenue or begar",PAYS_DUES_TO,ghee,2,kilos per cow per month,Pangna,,Pangna,53,auto,ce2f669dde7,"the farmers have the option to keep the cow on the condition that they give two kilos of ghee to the owner of the cow every month,"
+trade_and_credit,farmer,farmer,brahman,Brahman,role,group,produce sold,SELLS_TO,cattle,,,Pangna,,Pangna,53,auto,c7f467a6b96,otherwise the owner gets the cow back by paying a sum of Rs. 40 to 80.
+trade_and_credit,cooperative,cooperative society,himachal_pradesh_state_co_operative_bank,Himachal Pradesh State Co-operative Bank,authority,authority,interest,LENDS_TO,money,5500,Rs,Pangna,,Pangna,58,auto,cc459c17319,"the society borrowed Rs. 5,500.00 from the Himachal Pra<;lesh State Co-operative Bank for giving loans to the members."
+trade_and_credit,households,households,non_right_holders,non-right holders,group,group,produce sold,SELLS_TO,timber,,,Rajana,Yamuna,Rajana,47,auto,cebe07c83bb,They had been reported to sell timber to non-right holders not belonging to Rajana.
+standing,households,households,moneylender,moneylender,group,role,"dues, revenue or begar",PAYS_DUES_TO,money,,,Rajana,Yamuna,Rajana,50,auto,c9860bb0a78,"No interest is levied on the mortgaged deb,t."
+trade_and_credit,gaddi,Gaddi,households,households,group,group,produce sold,BUYS_FROM,goats,,,Rajana,Yamuna,Rajana,70,auto,c3288698df2,"People from this \ illaqa go to their camps and buy goats, sheep anG rams."
+trade_and_credit,gaddi,Gaddi,households,households,group,group,produce sold,BUYS_FROM,rambulents,50,Rs per pair,Rajana,Yamuna,Rajana,70,auto,c701ac30902,A pair of rambulents is purchased for Rs. 50/- or more.
+trade_and_credit,rajput,Rajput,koli,Koli,group,group,produce sold,SELLS_TO,land,,,Rajana,Yamuna,Rajana,49,auto,c5860ea27f0,"some Rajputs have ,sold their lands compared to other castes."
+trade_and_credit,tenant,tenant,rajput,Rajput,role,group,interest,LENDS_TO,money,,,Rajana,Yamuna,Rajana,50,auto,cbb7253fe09,Better off Rajputs and Brahmin farmers are the money lenders and their tenants borrow money.
+trade_and_credit,rajput,Rajput,koli,Koli,group,group,produce sold,BUYS_FROM,land,,,Rajana,Yamuna,Rajana,49,auto,cf98e18b03e,More Kolis have been purchasing these lands.
+trade_and_credit,tenant,tenant,brahman,Brahman,role,group,interest,LENDS_TO,money,,,Rajana,Yamuna,Rajana,50,auto,cde623dbd37,Better off Rajputs and Brahmin farmers are the money lenders and their tenants borrow money.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Rajana,Yamuna,Rajana,50,auto,cd5fa8c617d,No interest is generally charged. The amount is repaid after the sale of ginger crop.
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,,,Rajana,Yamuna,Rajana,50,auto,c503ac935d1,"If interest is charged, the rate is 12t %."
+trade_and_credit,households,households,moneylender,moneylender,group,role,interest,LENDS_TO,money,1,anna per rupee,Rajana,Yamuna,Rajana,50,auto,c527a56db4a,The debtor pays one anna for each rupee.
+trade_and_credit,households,households,informal_lender,Informal lender,group,role,interest,LENDS_TO,money,,,Rajana,Yamuna,Rajana,50,auto,cc4b27fa7f4,"Whenever anyone needs money one gets it from the friends, relatives and neighbours, without going into any deed."
+trade_and_credit,mortgagee,mortgagee,zamindar,landholders,role,group,produce sold,SELLS_TO,mortgage deed and rights,,,Rajana,Yamuna,Rajana,50,auto,c0820b99b6b,A mortgagee can sell the deed to another landlord alongwith the rights.
+trade_and_credit,households,households,peasant,peasant,group,group,interest,LENDS_TO,money,0.5,value of jewellery,Rajana,Yamuna,Rajana,51,auto,c52c8d1e5fa,Peasants lend half the money to the value of jewellery.
+trade_and_credit,households,households,peasant,peasant,group,group,interest,LENDS_TO,money,0,per cent interest,Rajana,Yamuna,Rajana,51,auto,cc719a41ab4,No interest is levied at such deeds.
+princely_pastures,rajana,Rajana,lambardar,lambardar,place,role,fee or tax,COLLECTS_FEE_FROM,land revenue and dues,,,Rajana,Yamuna,Rajana,70,auto,cd9f470f493,Lumberdar-The next to command the respect of the villagers was the Lumberdar who collected the revenue and received panjotra as his share.
+standing,rajana,Rajana,lambardar,lambardar,place,role,fee or tax,COLLECTS_FEE_FROM,land revenue and dues,,,Rajana,Yamuna,Rajana,70,auto,c546f7eb65d,"After merger, these posts vanished except that of Lumberdar whose main function is to collect revenue."
+princely_pastures,village_labourer,Village labourer,lambardar,lambardar,role,role,labour,HIRES,,,,Rajana,Yamuna,Rajana,70,auto,cdfcb31d42b,He was entitled to free labour commonly known as baigar.
+trade_and_credit,rampur,Rampur,households,households,place,group,produce sold,BUYS_FROM,woollens,,,Shathla,Sutlej,Shathla,22,auto,ca62a6a458d,Woollen patties are mostly purchased from Rampur during the Lavifair.
+standing,grazier,grazier,churahi,Churahi,role,group,labour,HIRES,money,0.225,Rs per animal per season (20 to 25 naya paise),Devi-Kothi,Ravi,Devi-Kothi,48,auto,c176732b3f0,The charges of the graziers range from twenty to twentyfive naya Paise for the period from May / June to October for a sheep or goat

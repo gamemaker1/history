@@ -1,0 +1,132 @@
+village,pdf_page,group,households_in_group,hh_owning_sheep,sheep,hh_owning_goats,goats,hh_owning_flock,sheep_and_goats,source_kind,note,read_by,checked_by,class,river_system
+Brahmaur,54,Brahman,34.0,,,,,20.0,2027.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Ravi
+Brahmaur,54,Rajput,49.0,,,,,20.0,2364.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Ravi
+Brahmaur,54,Sipi,15.0,,,,,8.0,93.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Ravi
+Brahmaur,54,Rehara,1.0,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Ravi
+Maingal,48,Gujjar,,21.0,139.0,11.0,36.0,21.0,175.0,table,Also 217 buffaloes (25 households). Prose p. 48 attributes the large flocks to the Gaddi brahmins,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,herding tribe,Ravi
+Maingal,48,Brahmin,,3.0,114.0,3.0,106.0,3.0,220.0,table,Gaddi brahmins; also 5 buffaloes (3 households),"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Ravi
+Maingal,48,Lohar,,1.0,5.0,1.0,4.0,1.0,9.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Ravi
+Maingal,48,Rajput,,1.0,1.0,0.0,0.0,1.0,1.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Ravi
+Devi-Kothi,47,all households,,,1117.0,,220.0,,1337.0,census_total,1961 Cattle Census for the village; no caste breakdown printed,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,,Ravi
+Chitrari,52,all households,,,123.0,,36.0,,159.0,census_total,"Cattle census, rabi 1960; no caste breakdown printed","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,,Ravi
+Kanum,61,Kanet (Rajput),,,,,,61.0,1744.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Sutlej
+Kanum,61,Koli,,,,,,2.0,83.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Kanum,61,Lohar,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Kanum,61,Ores,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Kanum,61,Gupta,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Sutlej
+Kanum,61,Khatri,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Sutlej
+Kanum,61,Brahmin,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Sutlej
+Kothi,102,Rajput,,,,,,49.0,2416.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Sutlej
+Kothi,102,Koli,,,,,,13.0,72.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Kothi,102,Lohar,,,,,,6.0,58.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Kothi,102,Badhi,,,,,,2.0,11.0,table,Badhi row omitted in the idea files,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Nachar,33,all households,,,,,,,,prose,"No table. '100 to 200 sheep and goats are kept by a family'; the lambardar has about 1,100","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,,Sutlej
+Shakrori,76,Brahman,,,9.0,,26.0,,35.0,table,"Table XXV gives numbers only, not households owning","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Sutlej
+Shakrori,76,Rajput,,,11.0,,27.0,,38.0,table,"Table XXV gives numbers only, not households owning","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Sutlej
+Shakrori,76,Lohar,,,1.0,,0.0,,1.0,table,"Table XXV gives numbers only, not households owning","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Shakrori,76,Chamar,,,0.0,,0.0,,0.0,table,"Table XXV gives numbers only, not households owning","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Shakrori,76,Sood,,,0.0,,0.0,,0.0,table,"Table XXV gives numbers only, not households owning","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Sutlej
+Shakrori,76,Kumhar,,,2.0,,0.0,,2.0,table,"Table XXV gives numbers only, not households owning","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Sutlej
+Nalag,31,Rajput,,44.0,115.0,33.0,239.0,44.0,354.0,table,"Goats read 230 at 140 dpi, 239 at 260 dpi; 239 used. Also 3 lambs (2 households)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Sutlej
+Nalag,31,Brahmin,,0.0,0.0,0.0,0.0,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Sutlej
+Nalag,31,Chamar,,2.0,3.0,1.0,2.0,2.0,5.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Nalag,31,Dumna,,0.0,0.0,0.0,0.0,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Sutlej
+Kupha,80,Rajput,,,,,,58.0,434.0,table,"Kupha, Parmas, Thamoh and Malet (Pangi)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Chenab
+Kupha,80,Brahmin,,,,,,19.0,120.0,table,"Kupha, Parmas, Thamoh and Malet (Pangi)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Chenab
+Kupha,80,Lohar,,,,,,2.0,29.0,table,"Kupha, Parmas, Thamoh and Malet (Pangi)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Chenab
+Kupha,80,Arya,,,,,,3.0,13.0,table,"Kupha, Parmas, Thamoh and Malet (Pangi)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Chenab
+Kupha,80,Mahajan,,,,,,0.0,0.0,table,"Kupha, Parmas, Thamoh and Malet (Pangi)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Chenab
+Kupha,80,Gupta,,,,,,0.0,0.0,table,"Kupha, Parmas, Thamoh and Malet (Pangi)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Chenab
+Kupha,80,Sikh,,,,,,0.0,0.0,table,"Kupha, Parmas, Thamoh and Malet (Pangi)","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Chenab
+Tandi,96,Bodh,13.0,12.0,336.0,6.0,18.0,12.0,354.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Chenab
+Tandi,96,Lohar,4.0,4.0,23.0,2.0,2.0,4.0,25.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Chenab
+Tandi,96,Shippi,1.0,1.0,4.0,1.0,1.0,1.0,5.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Chenab
+Bir,43,all households,,,69.0,,139.0,24.0,208.0,prose,"'139 goats and 69 sheep possessed by 24 households', bought from passing Gaddis","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,,Beas
+Chauntra,46,Rajput,,,,,,6.0,19.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Beas
+Chauntra,46,Brahman,,,,,,3.0,7.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Beas
+Chauntra,46,Sud,,,,,,2.0,11.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Beas
+Chauntra,46,Koli,,,,,,1.0,1.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Beas
+Chauntra,46,Tarkhan,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Beas
+Chauntra,46,Chamar,,,,,,1.0,1.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Beas
+Chauntra,46,Khatri,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Beas
+Chauntra,46,Julah,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Beas
+Chauntra,46,Majhara,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Beas
+Chauntra,46,Darji,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Beas
+Chauntra,46,Manhas,,,,,,1.0,2.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Beas
+Kot,56,Chhimba,,,,,,0.0,0.0,table,Table XLVI,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Beas
+Kot,56,Chamar,,,,,,1.0,3.0,table,Table XLVI,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Beas
+Kot,56,Doomna,,,,,,0.0,0.0,table,Table XLVI,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Beas
+Kot,56,Rajput,,,,,,50.0,200.0,table,Table XLVI,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Beas
+Kot,56,Bhanjre,,,,,,0.0,0.0,table,Table XLVI,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Beas
+Kot,56,Brahmin,,,,,,2.0,4.0,table,Table XLVI,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Beas
+Chergaon,56,Rajput,,,,,,9.0,50.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Chergaon,56,Brahmin,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Chergaon,56,Sud,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Yamuna
+Chergaon,56,Thakur,,,,,,5.0,80.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Chergaon,56,Koli,,,,,,2.0,13.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chergaon,56,Badhi,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chergaon,56,Khatri,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Yamuna
+Chergaon,56,Lohar,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Rajana,47,Badhi,,1.0,3.0,1.0,2.0,1.0,5.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Rajana,47,Brahmin,,2.0,8.0,4.0,27.0,4.0,35.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Rajana,47,Chamar,,0.0,0.0,0.0,0.0,0.0,0.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Rajana,47,Doom,,0.0,0.0,0.0,0.0,0.0,0.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Rajana,47,Koli,,11.0,28.0,40.0,302.0,40.0,330.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Rajana,47,Lohar,,0.0,0.0,0.0,0.0,0.0,0.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Rajana,47,Rajput,,9.0,32.0,20.0,157.0,20.0,189.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Rajana,47,Vaish,,0.0,0.0,0.0,0.0,0.0,0.0,table,Table 19,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Yamuna
+Chaupal,48,Brahmin,,,,1.0,19.0,1.0,19.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Chaupal,48,Chamar,,,,1.0,10.0,1.0,10.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaupal,48,Koli,,,,4.0,18.0,4.0,18.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaupal,48,Lohar,,,,1.0,1.0,1.0,1.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaupal,48,Rajput,,,,2.0,20.0,2.0,20.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Chaupal,48,Rehar,,,,1.0,12.0,1.0,12.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaupal,48,Sunar,,,,2.0,34.0,2.0,34.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Yamuna
+Chaupal,48,Tarkhan,,,,1.0,12.0,1.0,12.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,Yamuna
+Chaupal,48,Turi,,,,0.0,0.0,0.0,0.0,table,Table 24 has goats; a second column (total 107) has no printed heading and may be sheep,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaunri,34,Brahmin,,,,,,1.0,1.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Chaunri,34,Bhangi,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaunri,34,Chamar,,,,,,1.0,8.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaunri,34,Koli,,,,,,9.0,33.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaunri,34,Lohar,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Chaunri,34,Rajput,,,,,,1.0,3.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,Yamuna
+Chaunri,34,Sud,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,Yamuna
+Chaunri,34,Turi,,,,,,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,Yamuna
+Basal,77,Bhatra,,,,,,0.0,0.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Basal,77,Brahman,,,,,,3.0,5.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Basal,77,Chamar,,,,,,3.0,11.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Basal,77,Doomna,,,,,,3.0,3.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Basal,77,Julaha,,,,,,1.0,1.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Basal,77,Koli,,,,,,7.0,28.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Basal,77,Kumhar,,,,,,0.0,0.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Basal,77,Lohar,,,,,,0.0,0.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Basal,77,Rajput,,,,,,24.0,86.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Basal,77,Turi,,,,,,2.0,5.0,table,Table XXXIV,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Batal,42,Brahmin,,8.0,16.0,10.0,14.0,10.0,30.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Batal,42,Chamar,,0.0,0.0,3.0,5.0,3.0,5.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Batal,42,Doomna,,0.0,0.0,0.0,0.0,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Batal,42,Koli,,1.0,2.0,1.0,1.0,1.0,3.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Batal,42,Kumhar,,0.0,0.0,1.0,1.0,1.0,1.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Batal,42,Mahabrahmin,,0.0,0.0,0.0,0.0,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Batal,42,Rajput,,0.0,0.0,0.0,0.0,0.0,0.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Batal,42,Sunyar,,1.0,1.0,0.0,0.0,1.0,1.0,table,,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Kalath,57,all households,,,2.0,,5.0,,7.0,census_total,"Village livestock statistics for 1961; 1962: 2 sheep, 20 goats; 1963: 2 sheep, 17 goats","Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,,
+Moginand,46,Rajput,,,,,,10.0,42.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Moginand,46,Koli,,,,,,9.0,67.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Moginand,46,Brahman,,,,,,0.0,0.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Moginand,46,Badhi,,,,,,0.0,0.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Moginand,46,Lohar,,,,,,1.0,1.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Moginand,46,Vaish,,,,,,0.0,0.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,
+Moginand,46,Gujjar,,,,,,1.0,15.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,herding tribe,
+Moginand,46,Muslim-Rajput,,,,,,2.0,35.0,table,Table 20,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Pangna,53,Barahman,,,,,,0.0,0.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Pangna,53,Chamar,,,,,,1.0,3.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Pangna,53,Chana,,,,,,2.0,4.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Pangna,53,Koli,,,,,,17.0,35.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Pangna,53,Khatri,,,,,,0.0,0.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,
+Pangna,53,Lohar,,,,,,0.0,0.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,scheduled caste,
+Pangna,53,Mahajan,,,,,,1.0,9.0,table,Table XIX. The prose on the same page says Mahajans keep no sheep or goats; the table gives 1 household with 9,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,trading,
+Pangna,53,Nath,,,,,,1.0,8.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Pangna,53,Rajput,,,,,,1.0,3.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,landholding,
+Pangna,53,Teli,,,,,,0.0,0.0,table,Table XIX,"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,other,
+Shathla,46,all households,,,,,,,,prose,No figures. 'Goats and sheep are owned by two or three families' (p. 46); 'Sheep and goats have been eliminated from livestock' (p. 47),"Claude (claude-opus-5-5 in Claude Code), page image 140 dpi, 7 Oct 2026",,,

@@ -1,0 +1,854 @@
+id,base_id,label,type,subtype,village,river_system,degree,uncurated
+gaddi@brahmaur,gaddi,Gaddi (Brahmaur),group,tribe,Brahmaur,Ravi,23,False
+brahmaur,brahmaur,Brahmaur,place,village,,Ravi,52,False
+ravi,ravi,Ravi,river,river,,Ravi,2,False
+budhal,budhal,Budhal,river,river,,Ravi,5,False
+low_hills,low_hills,low hills,place,winter_ground,,,47,False
+gaddi,gaddi,Gaddi,group,tribe,,,88,False
+shepherd,shepherd,shepherd,role,shepherd,,,50,False
+gadaren,gadaren,Gadaren,place,region,,Ravi,2,False
+kangra,kangra,Kangra,place,region,,Beas,26,False
+kashmir,kashmir,Kashmir,place,region,,,1,False
+households@brahmaur,households,households (Brahmaur),group,generic,Brahmaur,Ravi,87,False
+punjab,punjab,Punjab,place,region,,,2,False
+raja_chamba,raja_chamba,Raja of Chamba,authority,ruler,,,22,False
+chamba_state,chamba_state,Chamba State,place,region,,Ravi,6,False
+sipi@brahmaur,sipi,Sipi (Brahmaur),group,caste,Brahmaur,Ravi,9,False
+land,land,land,resource,property,,,24,False
+forest_guard,forest_guard,forest guard,role,official,,,1,False
+wood,wood,wood,resource,good,,,2,False
+forest_department,forest_department,Forest Department,authority,state,,,48,False
+grazing_permit,grazing_permit,grazing permit,resource,document,,,5,False
+forest,forest,forest,resource,land,,,44,False
+incorporation_of_chamba_into_himachal_pr,incorporation_of_chamba_into_himachal_pr,Incorporation of Chamba into Himachal Pradesh (1951),event,political,,,1,False
+removal_of_the_raja_of_chamba_s_administ,removal_of_the_raja_of_chamba_s_administ,Removal of the Raja of Chamba's administrative power,event,political,,,1,False
+sheep_and_goats,sheep_and_goats,sheep and goats,resource,animal,,,155,False
+cultivator,cultivator,cultivator,role,agriculture,,,2,False
+waste_land,waste_land,waste land,resource,property,,,1,False
+loss_of_gaddi_privileges_under_the_raja,loss_of_gaddi_privileges_under_the_raja,Loss of Gaddi privileges under the Raja,event,political,,,1,False
+households,households,households,group,generic,,,97,False
+pasture,pasture,pasture,resource,land,,,60,False
+grass,grass,grass,resource,good,,,3,False
+land_occupier@brahmaur,land_occupier,land occupier (Brahmaur),role,landholding,Brahmaur,Ravi,1,False
+ban_grazing_run,ban_grazing_run,ban (grazing run),resource,grazing right,,,3,False
+kangra_ruler,kangra_ruler,Kangra ruler,authority,ruler,,,1,False
+grazing_right,grazing_right,grazing rights,resource,right,,,10,False
+malundi,malundi,malundi,role,shepherd,,,3,False
+hanwajiri,hanwajiri,hanwajiri,role,agent,,,1,False
+kandi_dhans,kandi_dhans,kandi dhans,place,pasture,,,3,False
+got,got,got,place,resting_place,,,2,False
+high_pastures,high_pastures,high pastures,place,pasture,,,25,False
+nigahr,nigahr,nigahr,place,pasture,,,1,False
+lower_pasture_ground,lower_pasture_ground,lower pasture ground,place,pasture,,,1,False
+kangra_rajah,kangra_rajah,Kangra rajah,authority,ruler,,,3,False
+drinkar,drinkar,drinkar,role,village_office,,,2,False
+villages_at_the_bottom_of_dhans,villages_at_the_bottom_of_dhans,villages at the bottom of dhans,group,village_community,,,2,False
+manuring_right,manuring_right,manuring right,resource,right,,,1,False
+neighbouring_villages,neighbouring_villages,neighbouring villages,group,village_community,,,2,False
+agricultural_labourer,agricultural_labourer,agricultural labourer,role,wage_work,,,1,False
+herdsmen_s_client,herdsmen_s_client,herdsmen's client,role,rights_holder,,,2,False
+hp_government,hp_government,Himachal Pradesh Government,authority,state,,,24,False
+bara_bangahal,bara_bangahal,Bara Bangahal,place,pasture,,Ravi,3,False
+fee_contractor,fee_contractor,fee contractor,role,extraction,,,6,False
+bara_bangahal_authority,bara_bangahal_authority,Bara Bangahal authority,authority,local,,,1,False
+lahaul,lahaul,Lahaul,place,region,,Chenab,16,False
+lahula,lahula,Lahula,group,community,,,2,False
+lahuli_ruler,lahuli_ruler,Lahuli ruler,authority,ruler,,,1,False
+local_ruler,local_ruler,local ruler,authority,ruler,,,1,False
+local_village_communities,local_village_communities,local village communities,authority,local,,,1,False
+kugti_pass,kugti_pass,Kugti pass,place,pass,,,1,False
+kugti_village,kugti_village,Kugti village,place,village,,,2,False
+merger_1948,merger_1948,Formation of Himachal Pradesh (1948),event,political,,,2,False
+fee_collection_right,fee_collection_right,right to collect grazing fees,resource,right,,,3,False
+shepherd@brahmaur,shepherd,shepherd (Brahmaur),role,shepherd,Brahmaur,Ravi,17,False
+gujjar@brahmaur,gujjar,Gujjar (Brahmaur),group,tribe,Brahmaur,Ravi,2,False
+casual_labourer@brahmaur,casual_labourer,casual labourer (Brahmaur),role,wage_work,Brahmaur,Ravi,1,False
+other_work_destinations,other_work_destinations,other work destinations,place,region,,,1,False
+pastoralist,pastoralist,pastoralist,role,occupation,,,2,False
+rajput,rajput,Rajput,group,caste,,,7,False
+st_listing,st_listing,Scheduled Tribe listing,event,political,,,3,False
+upper_reach_villages,upper_reach_villages,upper-reach villages,place,village,,,1,False
+sutlej,sutlej,Sutlej,river,river,,Sutlej,4,False
+goshen,goshen,Goshen,place,locality,,,4,False
+common_land,common_land,common land,resource,property,,,1,False
+waste_land_below_brahmaur,waste_land_below_brahmaur,Waste land below Brahmaur,place,pasture,,,1,False
+land_settlement_reclassification,land_settlement_reclassification,Land settlement reclassification,event,administrative,,,1,False
+livestock_caretaker@brahmaur,livestock_caretaker,livestock caretaker (Brahmaur),role,animal_husbandry,Brahmaur,Ravi,1,False
+cattle,cattle,cattle,resource,animal,,,78,False
+dispersal_destinations,dispersal_destinations,Dispersal destinations,place,region,,,1,False
+winter_destinations_from_goshen,winter_destinations_from_goshen,Winter destinations from Goshen,place,region,,,1,False
+chamba_town,chamba_town,Chamba,place,town,,Ravi,6,False
+dhauladhar,dhauladhar,Dhauladhar,place,range,,,3,False
+dharamsala,dharamsala,Dharamsala,place,town,,,1,False
+beggar,beggar,beggar,role,livelihood,,,1,False
+railway_labourer,railway_labourer,railway labourer,role,wage_work,,,1,False
+pathankot,pathankot,Pathankot,place,winter_ground,,,4,False
+woodcutter,woodcutter,woodcutter,role,occupation,,,1,False
+sheep,sheep,sheep,resource,animal,,,93,False
+zamindar@brahmaur,zamindar,landholders (Brahmaur),group,class,Brahmaur,Ravi,3,False
+zamindar,zamindar,landholders,group,class,,,5,False
+dalhousie,dalhousie,Dalhousie,place,town,,,1,False
+shopkeeper,shopkeeper,shopkeeper,role,trade,,,15,False
+gaddi_home_village,gaddi_home_village,Gaddi home village,place,village,,,1,False
+gaddi_flock_owner,gaddi_flock_owner,Gaddi flock owner,group,class,,,2,False
+buyer,buyer,buyer,role,trade,,,2,False
+forest_department_permit_system,forest_department_permit_system,Forest Department permit system,event,regulation,,,1,False
+sheep_disease,sheep_disease,Sheep disease (about 1958-59),event,epidemic,,,2,False
+goats,goats,goats,resource,animal,,,77,False
+grazier,grazier,grazier,role,shepherd,,,7,False
+low_caste_people,low_caste_people,low-caste people,group,social_class,,,1,False
+porter,porter,porter,role,transport,,,8,False
+salt,salt,salt,resource,good,,,6,False
+sunuos,sunuos,Sunuos,place,locality,,,1,False
+herser,herser,Herser,place,locality,,,1,False
+duncho,duncho,Duncho,place,locality,,,1,False
+bandargarti,bandargarti,Bandargarti,place,locality,,,1,False
+barorgarti,barorgarti,Barorgarti,place,locality,,,1,False
+barchund,barchund,Barchund,place,locality,,,1,False
+gaurikund,gaurikund,Gaurikund,place,locality,,,1,False
+brahmaur_lahaul_pass,brahmaur_lahaul_pass,Brahmaur–Lahaul pass,place,pass,,,1,False
+pujari@brahmaur,pujari,pujari (Brahmaur),role,religious_office,Brahmaur,Ravi,2,False
+shop,shop,shop,resource,property,,,2,False
+moneylender@brahmaur,moneylender,moneylender (Brahmaur),role,credit,Brahmaur,Ravi,2,False
+government_employee@brahmaur,government_employee,government employee (Brahmaur),role,government_service,Brahmaur,Ravi,1,False
+trees,trees,trees,resource,natural_resource,,,1,False
+grato,grato,grato,resource,property,,,1,False
+grazing_landholder,grazing_landholder,grazing landholder,role,landholder,,,1,False
+sheep_shearing,sheep_shearing,Sheep shearing,event,seasonal practice,,,3,False
+gertse,gertse,Gertse,place,market,,,2,False
+wool,wool,wool,resource,good,,,13,False
+caravan_trader,caravan_trader,caravan trader,role,trade,,,2,False
+spinner_and_weaver,spinner_and_weaver,spinner and weaver,role,textile_work,,,1,False
+cessation_of_trade_with_tibet,cessation_of_trade_with_tibet,cessation of trade with Tibet,event,trade_change,,,1,False
+wool_shortage,wool_shortage,wool shortage,event,shortage,,,1,False
+pashm,pashm,pashm,resource,good,,,5,False
+pashm_shortage,pashm_shortage,pashm shortage,event,shortage,,,1,False
+climatic_unsuitability_for_pashm_goats,climatic_unsuitability_for_pashm_goats,climatic unsuitability for pashm goats,event,environmental_condition,,,1,False
+women,women,women,group,gender,,,3,False
+wool_spinner,wool_spinner,wool spinner,role,textile_work,,,2,False
+himachal_pradesh,himachal_pradesh,Himachal Pradesh,place,region,,,2,False
+handloom_weaver,handloom_weaver,handloom weaver,role,weaving,,,1,False
+cotton_weaver,cotton_weaver,cotton weaver,role,weaving,,,1,False
+sheep_breeder,sheep_breeder,sheep breeder,role,animal husbandry,,,1,False
+sheep_development_programme,sheep_development_programme,sheep development programme,event,development_programme,,,1,False
+rampur_bushahri_merino_cross_breeding,rampur_bushahri_merino_cross_breeding,Rampur Bushahri–Merino cross-breeding,event,animal_breeding,,,1,False
+tibet,tibet,Tibet,place,region,,,9,False
+grain,grain,grain,resource,good,,,8,False
+shearing,shearing,shearing,event,practice,,,1,False
+shawl_weaver,shawl_weaver,shawl weaver,role,weaving,,,1,False
+market,market,Market,place,market,,,5,False
+muslim_gujjar,muslim_gujjar,Muslim Gujjar,group,community,,,2,False
+gujjar,gujjar,Gujjar,group,tribe,,,27,False
+sheep_breeding_farm_jeori,sheep_breeding_farm_jeori,"Sheep Breeding Farm, Jeori",place,farm,,,1,False
+sheep_cross_breeding,sheep_cross_breeding,sheep cross-breeding,event,animal_breeding,,,1,False
+lavi_fair,lavi_fair,Lavi fair,place,market,,Sutlej,10,False
+kinnaura,kinnaura,Kinnaura,group,tribe,,,8,False
+mobile_herder,mobile_herder,mobile herder,group,community,,,2,False
+mobile_herders_gujjars_gaddis_and_kinnau,mobile_herders_gujjars_gaddis_and_kinnau,"mobile herders (Gujjars, Gaddis and Kinnauras)",group,community,,,7,False
+lambi_dhar,lambi_dhar,Lambi Dhar,place,pasture,,,1,False
+shagh_thatch,shagh_thatch,Shagh Thatch,place,pasture,,,1,False
+lamba_thatch,lamba_thatch,Lamba Thatch,place,pasture,,,1,False
+kamiri_thatch,kamiri_thatch,Kamiri Thatch,place,pasture,,,1,False
+nathi_thatch,nathi_thatch,Nathi Thatch,place,pasture,,,1,False
+thalashar_thatch,thalashar_thatch,Thalashar Thatch,place,pasture,,,1,False
+gajyan_thatch,gajyan_thatch,Gajyan Thatch,place,pasture,,,1,False
+simla_municipal_committee,simla_municipal_committee,Simla Municipal Committee,authority,municipal body,,,1,False
+cantonment_board,cantonment_board,Cantonment Board,authority,board,,,1,False
+panchayat,panchayat,panchayat,authority,local,,,4,False
+individual_forest_owners,individual_forest_owners,Individual forest owners,group,generic,,,1,False
+simla_district,simla_district,Simla District,place,region,,,13,False
+livestock,livestock,livestock,resource,animal,,,4,False
+buffaloes,buffaloes,buffaloes,resource,animal,,,32,False
+mules,mules,mules,resource,animal,,,9,False
+road_construction,road_construction,Road construction,event,infrastructure,,,16,False
+suket,suket,Suket,place,winter_ground,,,5,False
+mandi,mandi,Mandi,place,region,,Beas,2,False
+agriculturist@brahmaur,agriculturist,agriculturist (Brahmaur),role,occupation,Brahmaur,Ravi,1,False
+brahman@brahmaur,brahman,Brahman (Brahmaur),group,caste,Brahmaur,Ravi,6,False
+rajput@brahmaur,rajput,Rajput (Brahmaur),group,caste,Brahmaur,Ravi,9,False
+sheep_breeder@brahmaur,sheep_breeder,sheep breeder (Brahmaur),role,animal husbandry,Brahmaur,Ravi,1,False
+rehara@brahmaur,rehara,Rehara (Brahmaur),group,caste,Brahmaur,Ravi,3,False
+high_pass,high_pass,high pass,place,pass,,,1,False
+earthenware_vessel,earthenware_vessel,Earthenware vessel,resource,good,,,1,False
+odd_job_worker@brahmaur,odd_job_worker,Odd-job worker (Brahmaur),role,wage_work,Brahmaur,Ravi,1,False
+outside_brahmaur,outside_brahmaur,Outside Brahmaur,place,area,,,1,False
+road_labourer@brahmaur,road_labourer,road labourer (Brahmaur),role,wage_work,Brahmaur,Ravi,4,False
+long_trek,long_trek,Long trek,event,journey,,,1,False
+poultry_bird,poultry_bird,poultry bird,resource,animal,,,4,False
+malundi@brahmaur,malundi,malundi (Brahmaur),role,shepherd,Brahmaur,Ravi,14,False
+pohal@brahmaur,pohal,pohal (Brahmaur),role,shepherd,Brahmaur,Ravi,15,False
+brahmani_forest_tarkal,brahmani_forest_tarkal,Brahmani forest tarkal,place,pasture,,,2,False
+pangi,pangi,Pangi,place,region,,Chenab,22,False
+nurpur,nurpur,Nurpur,place,winter_ground,,Beas,3,False
+jammu,jammu,Jammu,place,winter_ground,,,4,False
+fee_contractor@brahmaur,fee_contractor,fee contractor (Brahmaur),role,extraction,Brahmaur,Ravi,1,False
+wool_shearer@brahmaur,wool_shearer,Wool shearer (Brahmaur),role,animal husbandry,Brahmaur,Ravi,1,False
+lahula@brahmaur,lahula,Lahula (Brahmaur),group,community,Brahmaur,Ravi,1,False
+households_practising_agriculture_labour@brahmaur,households_practising_agriculture_labour,"households practising agriculture, labour and grazing (Brahmaur)",group,class,Brahmaur,Ravi,2,False
+domestic_servant@brahmaur,domestic_servant,domestic servant (Brahmaur),role,service,Brahmaur,Ravi,4,False
+dhan_pounder@brahmaur,dhan_pounder,Dhan pounder (Brahmaur),role,manual work,Brahmaur,Ravi,1,False
+rice_pounder,rice_pounder,rice pounder,role,occupation,,,2,False
+paddy_husking_mill,paddy_husking_mill,Paddy husking mill,resource,equipment,,,1,False
+sickle,sickle,Sickle,resource,tool,,,1,False
+load,load,load,resource,good,,,6,False
+cooperative,cooperative,cooperative society,authority,credit,,,24,False
+wool_spinner@brahmaur,wool_spinner,wool spinner (Brahmaur),role,textile_work,Brahmaur,Ravi,1,False
+hand_loom,hand_loom,Hand loom,resource,equipment,,,1,False
+loom,loom,Loom,resource,equipment,,,1,False
+households@kugti_village,households,households (Kugti village),group,generic,Kugti village,,2,False
+lower_kugti,lower_kugti,Lower Kugti,place,village,,,4,False
+households@lower_kugti,households,households (Lower Kugti),group,generic,Lower Kugti,,1,False
+brahman@lower_kugti,brahman,Brahman (Lower Kugti),group,caste,Lower Kugti,,1,False
+sipi@lower_kugti,sipi,Sipi (Lower Kugti),group,caste,Lower Kugti,,1,False
+riara@lower_kugti,riara,Riara (Lower Kugti),group,caste,Lower Kugti,,1,False
+chitrari,chitrari,Chitrari,place,village,,Ravi,7,False
+households@chitrari,households,households (Chitrari),group,generic,Chitrari,Ravi,32,False
+brahman@chitrari,brahman,Brahman (Chitrari),group,caste,Chitrari,Ravi,1,False
+shepherd@chitrari,shepherd,shepherd (Chitrari),role,shepherd,Chitrari,Ravi,6,False
+rajput@chitrari,rajput,Rajput (Chitrari),group,caste,Chitrari,Ravi,1,False
+sheep_and_goat_rearer@chitrari,sheep_and_goat_rearer,sheep and goat rearer (Chitrari),role,livestock_rearing,Chitrari,Ravi,4,False
+khatri@chitrari,khatri,Khatri (Chitrari),group,caste,Chitrari,Ravi,1,False
+grazing_induced_erosion,grazing_induced_erosion,Grazing-induced erosion,event,environmental change,,,1,False
+reserved_forest_grazing_restrictions,reserved_forest_grazing_restrictions,Reserved Forest grazing restrictions,event,regulation,,,1,False
+shahpur,shahpur,Shahpur,place,winter_ground,,,1,False
+chuari_pass,chuari_pass,Chuari pass,place,pass,,,1,False
+kali_nali,kali_nali,Kali Nali,place,pass,,,1,False
+mahli_pass,mahli_pass,Mahli pass,place,pass,,,1,False
+loa_pass,loa_pass,Loa pass,place,pass,,,1,False
+migrants@chitrari,migrants,migrants (Chitrari),group,generic,Chitrari,Ravi,1,False
+seasonal_worker@chitrari,seasonal_worker,seasonal worker (Chitrari),role,wage_work,Chitrari,Ravi,1,False
+gaddi@chitrari,gaddi,Gaddi (Chitrari),group,tribe,Chitrari,Ravi,7,False
+agricultural_labourer@chitrari,agricultural_labourer,agricultural labourer (Chitrari),role,wage_work,Chitrari,Ravi,1,False
+road_labourer@chitrari,road_labourer,road labourer (Chitrari),role,wage_work,Chitrari,Ravi,1,False
+labourer@chitrari,labourer,labourer (Chitrari),role,wage_work,Chitrari,Ravi,1,False
+mason@chitrari,mason,mason (Chitrari),role,occupation,Chitrari,Ravi,1,False
+wool_spinner@chitrari,wool_spinner,wool spinner (Chitrari),role,textile_work,Chitrari,Ravi,1,False
+shopkeeper@chitrari,shopkeeper,shopkeeper (Chitrari),role,trade,Chitrari,Ravi,1,False
+x_the_valley,x_the_valley,the valley,place,,,,1,True
+high_mountain_pass,high_mountain_pass,high-mountain pass,place,pass,,,1,False
+pastoralist@chitrari,pastoralist,pastoralist (Chitrari),role,occupation,Chitrari,Ravi,1,False
+gujjar@devi_kothi,gujjar,Gujjar (Devi-Kothi),group,tribe,Devi-Kothi,Ravi,2,False
+hills_near_devi_kothi,hills_near_devi_kothi,Hills near Devi-Kothi,place,region,,,1,False
+devi_kothi,devi_kothi,Devi-Kothi,place,village,,Ravi,13,False
+households@devi_kothi,households,households (Devi-Kothi),group,generic,Devi-Kothi,Ravi,46,False
+khabla_nala,khabla_nala,Khabla Nala,river,stream,,,1,False
+amritsar,amritsar,Amritsar,place,town,,,1,False
+porter@devi_kothi,porter,porter (Devi-Kothi),role,transport,Devi-Kothi,Ravi,1,False
+goods,goods,Goods,resource,good,,,5,False
+pangwal,pangwal,Pangwal,group,community,,,9,False
+churahi,churahi,Churahi,group,community,,,6,False
+chaini_pass,chaini_pass,Chaini Pass,place,pass,,,2,False
+shepherd@devi_kothi,shepherd,shepherd (Devi-Kothi),role,shepherd,Devi-Kothi,Ravi,2,False
+animal_husbandry@devi_kothi,animal_husbandry,animal husbandry (Devi-Kothi),role,husbandry,Devi-Kothi,Ravi,1,False
+grazier@devi_kothi,grazier,grazier (Devi-Kothi),role,shepherd,Devi-Kothi,Ravi,15,False
+tisa,tisa,Tisa,place,market,,,1,False
+gowari,gowari,Gowari,place,market,,,1,False
+satyas,satyas,Satyas,place,market,,,1,False
+batwal@devi_kothi,batwal,Batwal (Devi-Kothi),group,caste,Devi-Kothi,Ravi,1,False
+sheep_shearer@devi_kothi,sheep_shearer,sheep shearer (Devi-Kothi),role,animal_service,Devi-Kothi,Ravi,1,False
+skin,skin,skin,resource,good,,,2,False
+chamar@devi_kothi,chamar,Chamar (Devi-Kothi),group,caste,Devi-Kothi,Ravi,1,False
+forest_contractor@devi_kothi,forest_contractor,forest contractor (Devi-Kothi),role,employer,Devi-Kothi,Ravi,2,False
+shopkeeper@devi_kothi,shopkeeper,shopkeeper (Devi-Kothi),role,trade,Devi-Kothi,Ravi,3,False
+non_right_holders@devi_kothi,non_right_holders,non-right holders (Devi-Kothi),group,status,Devi-Kothi,Ravi,1,False
+lower_tan_forest,lower_tan_forest,Lower Tan Forest,place,forest,,,1,False
+devi_kothi_jungle,devi_kothi_jungle,Devi Kothi jungle,place,forest,,,1,False
+spinner@devi_kothi,spinner,spinner (Devi-Kothi),role,occupation,Devi-Kothi,Ravi,1,False
+weaver@devi_kothi,weaver,weaver (Devi-Kothi),role,textile_work,Devi-Kothi,Ravi,1,False
+handloom,handloom,Handloom,resource,equipment,,,1,False
+bhot@devi_kothi,bhot,Bhot (Devi-Kothi),group,community,Devi-Kothi,Ravi,2,False
+road_labourer@devi_kothi,road_labourer,road labourer (Devi-Kothi),role,wage_work,Devi-Kothi,Ravi,1,False
+construction_labourer@devi_kothi,construction_labourer,construction labourer (Devi-Kothi),role,wage_work,Devi-Kothi,Ravi,1,False
+sach_pass,sach_pass,Sach Pass,place,pass,,,4,False
+pulse,pulse,Pulse,resource,good,,,1,False
+ghee,ghee,ghee,resource,good,,,7,False
+indebtedness,indebtedness,indebtedness,event,economic condition,,,7,False
+debtor@devi_kothi,debtor,debtor (Devi-Kothi),role,credit,Devi-Kothi,Ravi,1,False
+agricultural_labourer@devi_kothi,agricultural_labourer,agricultural labourer (Devi-Kothi),role,wage_work,Devi-Kothi,Ravi,1,False
+baira_garh,baira_garh,Baira Garh,place,fair,,,1,False
+maingal,maingal,Maingal,place,village,,Ravi,13,False
+households@maingal,households,households (Maingal),group,generic,Maingal,Ravi,22,False
+gujjar@maingal,gujjar,Gujjar (Maingal),group,tribe,Maingal,Ravi,56,False
+male_population@maingal,male_population,Male population (Maingal),group,demographic category,Maingal,Ravi,1,False
+female_population@maingal,female_population,Female population (Maingal),group,demographic category,Maingal,Ravi,1,False
+gaddi@maingal,gaddi,Gaddi (Maingal),group,tribe,Maingal,Ravi,2,False
+buffalo_rearer,buffalo_rearer,Buffalo rearer,role,livestock rearing,,,1,False
+northern_india_along_the_himalayan_hills,northern_india_along_the_himalayan_hills,Northern India along the Himalayan hills,place,region,,,1,False
+chamba_district,chamba_district,Chamba District,place,region,,,3,False
+farmer@maingal,farmer,farmer (Maingal),role,agriculture,Maingal,Ravi,1,False
+cattle_rearer@maingal,cattle_rearer,cattle rearer (Maingal),role,animal_husbandry,Maingal,Ravi,2,False
+brahman@maingal,brahman,Brahman (Maingal),group,caste,Maingal,Ravi,12,False
+lantern,lantern,Lantern,resource,equipment,,,1,False
+buyer@maingal,buyer,buyer (Maingal),role,trade,Maingal,Ravi,1,False
+cattle_breeder@maingal,cattle_breeder,Cattle breeder (Maingal),role,livestock breeding,Maingal,Ravi,1,False
+agricultural_and_cattle_breeder@maingal,agricultural_and_cattle_breeder,Agricultural and cattle breeder (Maingal),role,mixed occupation,Maingal,Ravi,1,False
+agricultural_and_sheep_breeder@maingal,agricultural_and_sheep_breeder,Agricultural and sheep breeder (Maingal),role,mixed occupation,Maingal,Ravi,1,False
+milk,milk,milk,resource,good,,,4,False
+moneylender@maingal,moneylender,moneylender (Maingal),role,credit,Maingal,Ravi,4,False
+moneylender,moneylender,moneylender,role,credit,,,8,False
+shopkeeper@maingal,shopkeeper,shopkeeper (Maingal),role,trade,Maingal,Ravi,6,False
+shilaghrat,shilaghrat,Shilaghrat,place,market,,,1,False
+lohar@maingal,lohar,Lohar (Maingal),group,caste,Maingal,Ravi,3,False
+rajput@maingal,rajput,Rajput (Maingal),group,caste,Maingal,Ravi,3,False
+buffalo_milker@maingal,buffalo_milker,Buffalo milker (Maingal),role,livestock care,Maingal,Ravi,1,False
+fodder_gatherer@maingal,fodder_gatherer,Fodder gatherer (Maingal),role,livestock care,Maingal,Ravi,1,False
+gardener@maingal,gardener,Gardener (Maingal),role,horticulture,Maingal,Ravi,1,False
+maingal_jots,maingal_jots,Maingal jots,place,pasture,,,1,False
+grazier@maingal,grazier,grazier (Maingal),role,shepherd,Maingal,Ravi,1,False
+suni,suni,Suni,place,winter_ground,,Sutlej,2,False
+tata_pani,tata_pani,Tata Pani,place,winter_ground,,,2,False
+karsog,karsog,Karsog,place,winter_ground,,,4,False
+rampur,rampur,Rampur,place,town,,Sutlej,4,False
+arki,arki,Arki,place,winter_ground,,,9,False
+sirmur,sirmur,Sirmur,place,winter_ground,,,8,False
+kanum,kanum,Kanum,place,village,,Sutlej,26,False
+households@kanum,households,households (Kanum),group,generic,Kanum,Sutlej,122,False
+chilgoza,chilgoza,chilgoza,resource,good,,,10,False
+woollens,woollens,woollens,resource,good,,,3,False
+jira,jira,jira,resource,good,,,1,False
+seoni,seoni,Seoni,place,winter_ground,,Sutlej,5,False
+bilaspur,bilaspur,Bilaspur,place,winter_ground,,Sutlej,8,False
+mehlog,mehlog,Mehlog,place,winter_ground,,,5,False
+road_labourer@kanum,road_labourer,road labourer (Kanum),role,wage_work,Kanum,Sutlej,6,False
+well_to_do_people@kanum,well_to_do_people,Well-to-do people (Kanum),group,class,Kanum,Sutlej,3,False
+gartok,gartok,Gartok,place,market,,,3,False
+bushahr_ruler,bushahr_ruler,Bushahr ruler,authority,ruler,,,4,False
+zamindar@kanum,zamindar,landholders (Kanum),group,class,Kanum,Sutlej,6,False
+koli@kanum,koli,Koli (Kanum),group,caste,Kanum,Sutlej,5,False
+moorang,moorang,Moorang,place,village,,,1,False
+middleman@kanum,middleman,middleman (Kanum),role,intermediary,Kanum,Sutlej,1,False
+namsha@kanum,namsha,Namsha (Kanum),role,social_role,Kanum,Sutlej,1,False
+goat_hair_bag,goat_hair_bag,goat-hair bag,resource,good,,,1,False
+india_china_dispute,india_china_dispute,India-China dispute,event,political,,,2,False
+negi@kanum,negi,Negi (Kanum),group,community,Kanum,Sutlej,2,False
+scheduled_castes@kanum,scheduled_castes,Scheduled castes (Kanum),group,community,Kanum,Sutlej,4,False
+chamang@kanum,chamang,Chamang (Kanum),group,caste,Kanum,Sutlej,4,False
+badhi@kanum,badhi,Badhi (Kanum),group,caste,Kanum,Sutlej,1,False
+doomna@kanum,doomna,Doomna (Kanum),group,caste,Kanum,Sutlej,1,False
+rajput@kanum,rajput,Rajput (Kanum),group,caste,Kanum,Sutlej,9,False
+rigri@kanum,rigri,rigri (Kanum),role,shepherd,Kanum,Sutlej,5,False
+fawal@kanum,fawal,fawal (Kanum),role,shepherd,Kanum,Sutlej,6,False
+moneylender@kanum,moneylender,moneylender (Kanum),role,credit,Kanum,Sutlej,8,False
+agricultural_labourer@kanum,agricultural_labourer,agricultural labourer (Kanum),role,wage_work,Kanum,Sutlej,3,False
+agriculturist@kanum,agriculturist,agriculturist (Kanum),role,occupation,Kanum,Sutlej,2,False
+debtor@kanum,debtor,debtor (Kanum),role,credit,Kanum,Sutlej,4,False
+sheep_and_goat_rearer,sheep_and_goat_rearer,sheep and goat rearer,role,livestock_rearing,,,1,False
+fodder_scarcity,fodder_scarcity,fodder scarcity,event,resource_shortage,,,1,False
+breeder@kanum,breeder,breeder (Kanum),role,occupation,Kanum,Sutlej,3,False
+distribution_of_yak_bulls_for_crossbreed,distribution_of_yak_bulls_for_crossbreed,Distribution of yak bulls for crossbreeding,event,livestock_program,,,1,False
+provision_of_improved_rams,provision_of_improved_rams,Provision of improved rams,event,livestock_program,,,1,False
+seasonal_provision_of_improved_rams,seasonal_provision_of_improved_rams,seasonal provision of improved rams,event,,,,1,False
+dabla_temple,dabla_temple,Dabla temple,authority,religious institution,,,2,False
+pruti,pruti,Pruti,place,pasture,,,1,False
+brati,brati,Brati,place,pasture,,,1,False
+rao,rao,Rao,place,pasture,,,1,False
+runang,runang,Runang,place,pasture,,,1,False
+hangrang,hangrang,Hangrang valley,place,pasture,,Sutlej,2,False
+dubbling,dubbling,Dubbling,place,pasture,,,1,False
+shayal_khar,shayal_khar,Shayal-Khar,place,pasture,,,1,False
+water_carrier@kanum,water_carrier,water carrier (Kanum),role,service_work,Kanum,Sutlej,1,False
+woodcutter@kanum,woodcutter,woodcutter (Kanum),role,occupation,Kanum,Sutlej,1,False
+construction_labourer@kanum,construction_labourer,construction labourer (Kanum),role,wage_work,Kanum,Sutlej,1,False
+manure_carrier@kanum,manure_carrier,manure carrier (Kanum),role,agricultural_work,Kanum,Sutlej,1,False
+closure_of_trade_with_tibet,closure_of_trade_with_tibet,Closure of trade with Tibet,event,trade_disruption,,,1,False
+makhan_lal_negi,makhan_lal_negi,Makhan Lal Negi,person,person,,,2,False
+ass,ass,ass,resource,animal,,,1,False
+lal_chand_negi,lal_chand_negi,Lal Chand Negi,person,person,,,8,False
+gram_panchayat_secretary@kanum,gram_panchayat_secretary,Gram Panchayat secretary (Kanum),role,office,Kanum,Sutlej,1,False
+padam_ram,padam_ram,Padam Ram,person,person,,,8,False
+closure_of_tibet_border,closure_of_tibet_border,Closure of Tibet border,event,,,,1,False
+torchwood,torchwood,torchwood,resource,good,,,1,False
+larger_farmers@kanum,larger_farmers,larger farmers (Kanum),group,class,Kanum,Sutlej,1,False
+muleteer@kanum,muleteer,muleteer (Kanum),role,transport,Kanum,Sutlej,2,False
+spillo,spillo,Spillo,place,village,,,1,False
+narbu_s_father,narbu_s_father,Narbu's father,person,person,,,1,False
+shepherd@kanum,shepherd,shepherd (Kanum),role,shepherd,Kanum,Sutlej,2,False
+narbu,narbu,Narbu,person,person,,,2,False
+norchang_s_household,norchang_s_household,Norchang's household,person,household,,,2,False
+servant@kanum,servant,servant (Kanum),role,service,Kanum,Sutlej,1,False
+paua,paua,Paua,place,winter_ground,,,1,False
+cloth,cloth,cloth,resource,good,,,1,False
+pulses,pulses,pulses,resource,good,,,1,False
+jaggery,jaggery,jaggery,resource,good,,,1,False
+shayalkhar,shayalkhar,Shayalkhar,place,pasture,,,1,False
+bride@kothi,bride,bride (Kothi),role,kinship,Kothi,Sutlej,1,False
+bride_s_father@kothi,bride_s_father,bride's father (Kothi),role,kinship,Kothi,Sutlej,1,False
+kinnaura@kothi,kinnaura,Kinnaura (Kothi),group,tribe,Kothi,Sutlej,1,False
+households@kothi,households,households (Kothi),group,generic,Kothi,Sutlej,25,False
+kanda,kanda,Kanda,place,pasture,,,1,False
+trade_good,trade_good,trade good,resource,good,,,2,False
+road_labourer@kothi,road_labourer,road labourer (Kothi),role,wage_work,Kothi,Sutlej,1,False
+koli@kothi,koli,Koli (Kothi),group,caste,Kothi,Sutlej,2,False
+sheep_breeder@kothi,sheep_breeder,sheep breeder (Kothi),role,animal husbandry,Kothi,Sutlej,1,False
+kothi,kothi,Kothi,place,village,,Sutlej,1,False
+moneylender@kothi,moneylender,moneylender (Kothi),role,credit,Kothi,Sutlej,2,False
+shopkeeper@kothi,shopkeeper,shopkeeper (Kothi),role,trade,Kothi,Sutlej,3,False
+mortgagee@kothi,mortgagee,mortgagee (Kothi),role,credit,Kothi,Sutlej,2,False
+rajgarh,rajgarh,Rajgarh,place,winter_ground,,,1,False
+yak,yak,yak,resource,animal,,,2,False
+zo,zo,zo,resource,animal,,,1,False
+zumoo,zumoo,zumoo,resource,animal,,,1,False
+donkey,donkey,donkey,resource,animal,,,1,False
+animal_malnutrition_and_debility,animal_malnutrition_and_debility,animal malnutrition and debility,event,animal_health_condition,,,1,False
+households@nachar,households,households (Nachar),group,generic,Nachar,Sutlej,20,False
+sheep_breeder@nachar,sheep_breeder,sheep breeder (Nachar),role,animal husbandry,Nachar,Sutlej,2,False
+nachar,nachar,Nachar,place,village,,Sutlej,7,False
+punjab_government,punjab_government,Punjab Government,authority,state,,,1,False
+hindustan_tibet_mule_road,hindustan_tibet_mule_road,Hindustan-Tibet mule road,place,road,,,1,False
+labourer@nachar,labourer,labourer (Nachar),role,wage_work,Nachar,Sutlej,1,False
+mason@nachar,mason,mason (Nachar),role,occupation,Nachar,Sutlej,1,False
+bride@nachar,bride,bride (Nachar),role,kinship,Nachar,Sutlej,1,False
+bridegroom@nachar,bridegroom,bridegroom (Nachar),role,kinship,Nachar,Sutlej,1,False
+shopkeeper@nachar,shopkeeper,shopkeeper (Nachar),role,trade,Nachar,Sutlej,2,False
+moneylender@nachar,moneylender,moneylender (Nachar),role,credit,Nachar,Sutlej,1,False
+unskilled_labourer@nachar,unskilled_labourer,unskilled labourer (Nachar),role,wage_work,Nachar,Sutlej,2,False
+manual_labourer@nachar,manual_labourer,manual labourer (Nachar),role,wage_work,Nachar,Sutlej,1,False
+kinnaura@nachar,kinnaura,Kinnaura (Nachar),group,tribe,Nachar,Sutlej,15,False
+mahasu,mahasu,Mahasu,place,region,,,1,False
+lambardar@nachar,lambardar,lambardar (Nachar),role,village_office,Nachar,Sutlej,1,False
+shepherd@nachar,shepherd,shepherd (Nachar),role,shepherd,Nachar,Sutlej,1,False
+koli@nachar,koli,Koli (Nachar),group,caste,Nachar,Sutlej,1,False
+woollen_shoe_maker@nachar,woollen_shoe_maker,woollen shoe-maker (Nachar),role,craft,Nachar,Sutlej,1,False
+shakrori,shakrori,Shakrori,place,village,,Sutlej,5,False
+households@shakrori,households,households (Shakrori),group,generic,Shakrori,Sutlej,12,False
+rupar,rupar,Rupar,place,market,,,1,False
+shopkeeper@shakrori,shopkeeper,shopkeeper (Shakrori),role,trade,Shakrori,Sutlej,4,False
+nalagarh,nalagarh,Nalagarh,place,town,,,1,False
+simla,simla,Simla,place,town,,,3,False
+kinnaura@shakrori,kinnaura,Kinnaura (Shakrori),group,tribe,Shakrori,Sutlej,6,False
+agricultural_labourer@shakrori,agricultural_labourer,agricultural labourer (Shakrori),role,wage_work,Shakrori,Sutlej,1,False
+weaver@shakrori,weaver,weaver (Shakrori),role,textile_work,Shakrori,Sutlej,3,False
+households@bir,households,households (Bir),group,generic,Bir,Beas,38,False
+cattle_herder@bir,cattle_herder,Cattle herder (Bir),role,herder,Bir,Beas,1,False
+rajput@bir,rajput,Rajput (Bir),group,caste,Bir,Beas,7,False
+chuhrya_household,chuhrya_household,Chuhrya household,person,household,,,2,False
+mastu_household,mastu_household,Mastu household,person,household,,,1,False
+jethu_household,jethu_household,Jethu household,person,household,,,5,False
+bir,bir,Bir,place,village,,Beas,5,False
+chamar@bir,chamar,Chamar (Bir),group,caste,Bir,Beas,5,False
+moneylender@bir,moneylender,moneylender (Bir),role,credit,Bir,Beas,2,False
+he_calf,he_calf,He-calf,resource,animal,,,1,False
+she_calf,she_calf,she-calf,resource,animal,,,2,False
+gaddi@bir,gaddi,Gaddi (Bir),group,tribe,Bir,Beas,4,False
+nearby_area,nearby_area,Nearby area,place,region,,,1,False
+buyer@bir,buyer,buyer (Bir),role,trade,Bir,Beas,1,False
+bhangrotu,bhangrotu,Bhangrotu,place,market,,,1,False
+nalwari_fair,nalwari_fair,Nalwari fair,place,market,,,2,False
+shopkeeper@bir,shopkeeper,shopkeeper (Bir),role,trade,Bir,Beas,2,False
+seller@bir,seller,Seller (Bir),role,trade,Bir,Beas,1,False
+buffalo_owner@bir,buffalo_owner,Buffalo owner (Bir),role,owner,Bir,Beas,1,False
+lower_western_chil_forests,lower_western_chil_forests,Lower western chil forests,place,forest,,,1,False
+heavy_grazing_after_rain,heavy_grazing_after_rain,Heavy grazing after rain,event,environmental impact,,,1,False
+slate_and_shale_soil,slate_and_shale_soil,Slate and shale soil,resource,soil,,,1,False
+soil_loss_under_heavy_grazing,soil_loss_under_heavy_grazing,Soil loss under heavy grazing,event,environmental degradation,,,1,False
+households@tandi,households,households (Tandi),group,generic,Tandi,Chenab,27,False
+patti_weaver@tandi,patti_weaver,Patti weaver (Tandi),role,weaving,Tandi,Chenab,1,False
+western_tibet_trade_route,western_tibet_trade_route,Western Tibet trade route,place,route,,,2,False
+rohtang,rohtang,Rohtang pass,place,pass,,,2,False
+tandi,tandi,Tandi,place,village,,Chenab,12,False
+grazier@tandi,grazier,grazier (Tandi),role,shepherd,Tandi,Chenab,2,False
+shopkeeper@tandi,shopkeeper,shopkeeper (Tandi),role,trade,Tandi,Chenab,1,False
+bodh_households@tandi,bodh_households,Bodh households (Tandi),group,community households,Tandi,Chenab,5,False
+churi,churi,Churi,resource,animal,,,1,False
+lohar@tandi,lohar,Lohar (Tandi),group,caste,Tandi,Chenab,8,False
+shippi_household,shippi_household,Shippi household,person,household,,,3,False
+shepherd@tandi,shepherd,shepherd (Tandi),role,shepherd,Tandi,Chenab,1,False
+fawal@tandi,fawal,fawal (Tandi),role,shepherd,Tandi,Chenab,2,False
+totari@tandi,totari,Totari (Tandi),role,seasonal service,Tandi,Chenab,2,False
+kutsa_rantauch@tandi,kutsa_rantauch,Kutsa-rantauch (Tandi),role,shepherd,Tandi,Chenab,1,False
+wool_spinner@tandi,wool_spinner,wool spinner (Tandi),role,textile_work,Tandi,Chenab,1,False
+weaver@tandi,weaver,weaver (Tandi),role,textile_work,Tandi,Chenab,5,False
+kulu,kulu,Kulu,place,region,,Beas,2,False
+manali,manali,Manali,place,town,,,1,False
+bodh@tandi,bodh,Bodh (Tandi),group,caste,Tandi,Chenab,9,False
+lahula@tandi,lahula,Lahula (Tandi),group,community,Tandi,Chenab,1,False
+zamindar@tandi,zamindar,landholders (Tandi),group,class,Tandi,Chenab,3,False
+moneylender@tandi,moneylender,moneylender (Tandi),role,credit,Tandi,Chenab,3,False
+households@basal,households,households (Basal),group,generic,Basal,,16,False
+moneylender@basal,moneylender,moneylender (Basal),role,credit,Basal,,2,False
+well_to_do_farmers@basal,well_to_do_farmers,well-to-do farmers (Basal),group,class,Basal,,3,False
+town,town,Town,place,town,,,1,False
+weaver@basal,weaver,weaver (Basal),role,textile_work,Basal,,1,False
+batal,batal,Batal,place,village,,,3,False
+households@batal,households,households (Batal),group,generic,Batal,,13,False
+moneylender@batal,moneylender,moneylender (Batal),role,credit,Batal,,1,False
+shopkeeper@batal,shopkeeper,shopkeeper (Batal),role,trade,Batal,,1,False
+kinnaura@batal,kinnaura,Kinnaura (Batal),group,tribe,Batal,,2,False
+seri,seri,Seri,place,winter_ground,,,1,False
+spinner@batal,spinner,spinner (Batal),role,occupation,Batal,,1,False
+chaunri,chaunri,Chaunri,place,village,,Yamuna,3,False
+agriculturist_family@chaunri,agriculturist_family,Agriculturist family (Chaunri),group,class,Chaunri,Yamuna,1,False
+buffalo_rearing_family@chaunri,buffalo_rearing_family,Buffalo-rearing family (Chaunri),group,class,Chaunri,Yamuna,1,False
+halwai@chaunri,halwai,Halwai (Chaunri),role,trade,Chaunri,Yamuna,1,False
+gaddi@chauntra,gaddi,Gaddi (Chauntra),group,tribe,Chauntra,Beas,1,False
+chauntra,chauntra,Chauntra,place,village,,Beas,7,False
+bagar_khad,bagar_khad,Bagar Khad,river,stream,,,1,False
+makkar_nal,makkar_nal,Makkar Nal,river,stream,,,1,False
+shepherd@chauntra,shepherd,shepherd (Chauntra),role,shepherd,Chauntra,Beas,3,False
+raja_bijai_sen,raja_bijai_sen,Raja Bijai Sen,person,person,,,1,False
+tea_plantation,tea_plantation,tea plantation,resource,good,,,1,False
+brahman@chauntra,brahman,Brahman (Chauntra),group,caste,Chauntra,Beas,2,False
+other_communities@chauntra,other_communities,other communities (Chauntra),group,community,Chauntra,Beas,1,False
+households@chauntra,households,households (Chauntra),group,generic,Chauntra,Beas,6,False
+moneylender@chauntra,moneylender,moneylender (Chauntra),role,credit,Chauntra,Beas,1,False
+labourer@chauntra,labourer,labourer (Chauntra),role,wage_work,Chauntra,Beas,1,False
+sahai,sahai,Sahai,person,person,,,4,False
+revenue,revenue,land revenue and dues,resource,due,,,2,False
+free_service,free_service,free service,resource,right,,,1,False
+households@chaupal,households,households (Chaupal),group,generic,Chaupal,Yamuna,36,False
+slate_quarry,slate_quarry,slate quarry,place,quarry,,,1,False
+grazier@chaupal,grazier,grazier (Chaupal),role,shepherd,Chaupal,Yamuna,1,False
+gujjar@chaupal,gujjar,Gujjar (Chaupal),group,tribe,Chaupal,Yamuna,1,False
+chaupal,chaupal,Chaupal,place,village,,Yamuna,2,False
+spinner@chaupal,spinner,spinner (Chaupal),role,occupation,Chaupal,Yamuna,1,False
+bees,bees,bees,resource,animal,,,1,False
+open_market,open_market,open market,place,market,,,1,False
+potato,potato,potato,resource,good,,,1,False
+grinder@chaupal,grinder,grinder (Chaupal),role,trade,Chaupal,Yamuna,2,False
+brahman@chaupal,brahman,Brahman (Chaupal),group,caste,Chaupal,Yamuna,2,False
+chamar@chaupal,chamar,Chamar (Chaupal),group,caste,Chaupal,Yamuna,3,False
+rajput@chaupal,rajput,Rajput (Chaupal),group,caste,Chaupal,Yamuna,2,False
+moneylender@chaupal,moneylender,moneylender (Chaupal),role,credit,Chaupal,Yamuna,1,False
+agricultural_labourer@chaupal,agricultural_labourer,agricultural labourer (Chaupal),role,wage_work,Chaupal,Yamuna,1,False
+shanku_s_household,shanku_s_household,Shanku's household,person,household,,,1,False
+koli@chaupal,koli,Koli (Chaupal),group,caste,Chaupal,Yamuna,2,False
+dilmi_koli,dilmi_koli,Dilmi Koli,person,person,,,1,False
+wool_spinner@chaupal,wool_spinner,wool spinner (Chaupal),role,textile_work,Chaupal,Yamuna,1,False
+cattle_tender@chaupal,cattle_tender,cattle tender (Chaupal),role,animal husbandry,Chaupal,Yamuna,1,False
+chergaon,chergaon,Chergaon,place,village,,Yamuna,8,False
+households@chergaon,households,households (Chergaon),group,generic,Chergaon,Yamuna,40,False
+jubbal_devta,jubbal_devta,Jubbal devta,authority,deity,,,2,False
+thakur_lila_singh,thakur_lila_singh,Thakur Lila Singh,person,person,,,1,False
+kalka_pattam_mountain,kalka_pattam_mountain,Kalka-pattam mountain,place,pasture,,,1,False
+rajput@chergaon,rajput,Rajput (Chergaon),group,caste,Chergaon,Yamuna,9,False
+shopkeeper@chergaon,shopkeeper,shopkeeper (Chergaon),role,trade,Chergaon,Yamuna,8,False
+government_official@chergaon,government_official,government official (Chergaon),role,official,Chergaon,Yamuna,1,False
+riverbank,riverbank,riverbank,place,riverbank,,,1,False
+zamindar@chergaon,zamindar,landholders (Chergaon),group,class,Chergaon,Yamuna,2,False
+moneylender@chergaon,moneylender,moneylender (Chergaon),role,credit,Chergaon,Yamuna,9,False
+koli@chergaon,koli,Koli (Chergaon),group,caste,Chergaon,Yamuna,6,False
+jewellery,jewellery,jewellery,resource,good,,,1,False
+road_labourer@chergaon,road_labourer,road labourer (Chergaon),role,wage_work,Chergaon,Yamuna,2,False
+building_construction_labourer@chergaon,building_construction_labourer,building construction labourer (Chergaon),role,wage_work,Chergaon,Yamuna,1,False
+mortgagor@chergaon,mortgagor,mortgagor (Chergaon),role,credit,Chergaon,Yamuna,3,False
+mortgagee@chergaon,mortgagee,mortgagee (Chergaon),role,credit,Chergaon,Yamuna,3,False
+rich_family@chergaon,rich_family,rich family (Chergaon),group,class,Chergaon,Yamuna,4,False
+man,man,man,person,generic,,,1,False
+agricultural_labourer@chergaon,agricultural_labourer,agricultural labourer (Chergaon),role,wage_work,Chergaon,Yamuna,6,False
+debtors_and_family_members@chergaon,debtors_and_family_members,Debtors and family members (Chergaon),group,generic,Chergaon,Yamuna,2,False
+debtor@chergaon,debtor,debtor (Chergaon),role,credit,Chergaon,Yamuna,2,False
+fawal@chergaon,fawal,fawal (Chergaon),role,shepherd,Chergaon,Yamuna,3,False
+wool_worker@chergaon,wool_worker,wool worker (Chergaon),role,craft,Chergaon,Yamuna,1,False
+cattle_carcass,cattle_carcass,cattle carcass,resource,animal remains,,,2,False
+weaver@chergaon,weaver,weaver (Chergaon),role,textile_work,Chergaon,Yamuna,1,False
+dodra_kawar,dodra_kawar,Dodra-Kawar,place,region,,,1,False
+women@chergaon,women,women (Chergaon),group,gender,Chergaon,Yamuna,1,False
+green_grass,green_grass,green grass,resource,fodder,,,1,False
+tenant_rigad@chergaon,tenant_rigad,tenant-rigad (Chergaon),group,class,Chergaon,Yamuna,1,False
+itinerant_coin_collector@chergaon,itinerant_coin_collector,itinerant coin collector (Chergaon),role,trade,Chergaon,Yamuna,1,False
+tibetan_traders@chergaon,tibetan_traders,Tibetan traders (Chergaon),group,community,Chergaon,Yamuna,2,False
+kinnaura@chergaon,kinnaura,Kinnaura (Chergaon),group,tribe,Chergaon,Yamuna,2,False
+sangla_buranghati_route,sangla_buranghati_route,Sangla-Buranghati route,place,route,,,1,False
+kumhar@chergaon,kumhar,Kumhar (Chergaon),group,caste,Chergaon,Yamuna,1,False
+dodrakawar_people@chergaon,dodrakawar_people,Dodrakawar people (Chergaon),group,community,Chergaon,Yamuna,6,False
+dhami,dhami,Dhami,place,winter_ground,,,1,False
+tatapani,tatapani,Tatapani,place,winter_ground,,,1,False
+solon,solon,Solon,place,winter_ground,,,1,False
+shepherd@chergaon,shepherd,shepherd (Chergaon),role,shepherd,Chergaon,Yamuna,2,False
+surati,surati,Surati,place,pasture,,,1,False
+kalkapattam_mountain,kalkapattam_mountain,Kalkapattam mountain,place,mountain,,,2,False
+jabbal_villagers@chergaon,jabbal_villagers,Jabbal villagers (Chergaon),group,community,Chergaon,Yamuna,2,False
+killing_of_vaziioo,killing_of_vaziioo,Killing of Vaziioo,event,violence,,,1,False
+garhwal_and_chergaon_area_people@chergaon,garhwal_and_chergaon_area_people,Garhwal and Chergaon-area people (Chergaon),group,community,Chergaon,Yamuna,2,False
+bushahr_garhwal_boundary_dandas,bushahr_garhwal_boundary_dandas,Bushahr-Garhwal boundary dandas,place,pasture,,,1,False
+theft_of_sheep_and_goats_by_men_of_chuha,theft_of_sheep_and_goats_by_men_of_chuha,Theft of sheep and goats by men of Chuhara valley,event,theft,,,1,False
+farmer@chergaon,farmer,farmer (Chergaon),role,agriculture,Chergaon,Yamuna,1,False
+kalath,kalath,Kalath,place,village,,,6,False
+households@kalath,households,households (Kalath),group,generic,Kalath,,30,False
+moneylender@kalath,moneylender,moneylender (Kalath),role,credit,Kalath,,5,False
+friends_and_relatives@kalath,friends_and_relatives,friends and relatives (Kalath),group,generic,Kalath,,4,False
+zamindar@kalath,zamindar,landholders (Kalath),group,class,Kalath,,2,False
+tenant@kalath,tenant,tenant (Kalath),role,tenancy,Kalath,,2,False
+cattle_tender@kalath,cattle_tender,cattle tender (Kalath),role,animal husbandry,Kalath,,1,False
+neighboring_village,neighboring_village,neighboring village,place,village,,,2,False
+rajput@kalath,rajput,Rajput (Kalath),group,caste,Kalath,,1,False
+buyer@kalath,buyer,buyer (Kalath),role,trade,Kalath,,2,False
+ramdasi@kalath,ramdasi,Ramdasi (Kalath),group,caste,Kalath,,2,False
+dagshai,dagshai,Dagshai,place,town,,,1,False
+kalka,kalka,Kalka,place,town,,,1,False
+moneylender@kot,moneylender,moneylender (Kot),role,credit,Kot,Beas,8,False
+households@kot,households,households (Kot),group,generic,Kot,Beas,27,False
+kot,kot,Kot,place,village,,Beas,1,False
+sarkaghat,sarkaghat,Sarkaghat,place,town,,,1,False
+barchhwar_nalwari_fair,barchhwar_nalwari_fair,Barchhwar-Nalwari Fair,place,market,,,1,False
+society_members@tihra,society_members,society members (Tihra),group,generic,Tihra,,1,False
+road_labourer,road_labourer,road labourer,role,wage_work,,,1,False
+building_labourer,building_labourer,Building labourer,role,wage_work,,,1,False
+settlers_of_lahul_and_lower_chenab,settlers_of_lahul_and_lower_chenab,Settlers of Lahul and Lower Chenab,group,community,,,1,False
+kupha,kupha,Kupha,place,village,,Chenab,8,False
+chenab,chenab,Chenab,river,river,,Chenab,5,False
+pangwal@kupha,pangwal,Pangwal (Kupha),group,community,Kupha,Chenab,7,False
+ground_storey,ground_storey,Ground storey,place,dwelling_floor,,,1,False
+upper_storey,upper_storey,Upper storey,place,dwelling_floor,,,1,False
+river_bank_near_kilar,river_bank_near_kilar,River bank near Kilar,place,riverbank,,,1,False
+households@kupha,households,households (Kupha),group,generic,Kupha,Chenab,43,False
+road_labourer@kupha,road_labourer,road labourer (Kupha),role,wage_work,Kupha,Chenab,1,False
+chaor_and_chaar,chaor_and_chaar,Chaor and chaar,resource,animal,,,1,False
+woollen_spinner_and_weaver@kupha,woollen_spinner_and_weaver,Woollen spinner and weaver (Kupha),role,textile_work,Kupha,Chenab,1,False
+tarela,tarela,Tarela,place,market,,,2,False
+shopkeeper@kupha,shopkeeper,shopkeeper (Kupha),role,trade,Kupha,Chenab,1,False
+wealthy_villagers@kupha,wealthy_villagers,wealthy villagers (Kupha),group,class,Kupha,Chenab,6,False
+agricultural_labourer@kupha,agricultural_labourer,agricultural labourer (Kupha),role,wage_work,Kupha,Chenab,1,False
+cow_yak_crossbreed,cow_yak_crossbreed,cow-yak crossbreed,resource,animal,,,1,False
+chaurah,chaurah,Chaurah,place,market,,,1,False
+bhot@kupha,bhot,Bhot (Kupha),group,community,Kupha,Chenab,1,False
+gail,gail,Gail,place,pasture,,,4,False
+kawas,kawas,Kawas,place,village,,,1,False
+bhatwaas,bhatwaas,Bhatwaas,place,village,,,1,False
+bailon,bailon,Bailon,place,pasture,,,1,False
+cattle_attendant@kupha,cattle_attendant,Cattle attendant (Kupha),role,animal_husbandry,Kupha,Chenab,1,False
+sheep_breed_improvement_scheme,sheep_breed_improvement_scheme,Sheep breed improvement scheme,event,agricultural_scheme,,,1,False
+spinner@kupha,spinner,spinner (Kupha),role,occupation,Kupha,Chenab,1,False
+weaver@kupha,weaver,weaver (Kupha),role,textile_work,Kupha,Chenab,1,False
+seasonal_snowfall_and_pass_closure,seasonal_snowfall_and_pass_closure,Seasonal snowfall and pass closure,event,seasonal_weather,,,1,False
+seasonal_snow_disappearance_and_pass_reo,seasonal_snow_disappearance_and_pass_reo,Seasonal snow disappearance and pass reopening,event,seasonal_weather,,,1,False
+persistent_snow_cover,persistent_snow_cover,Persistent snow cover,event,seasonal_weather,,,1,False
+cheni_pass,cheni_pass,Cheni pass,place,pass,,,1,False
+marwa_chara_pass,marwa_chara_pass,Marwa (Chara) pass,place,pass,,,1,False
+drati_pass,drati_pass,Drati pass,place,pass,,,1,False
+kalicho_pass,kalicho_pass,Kalicho pass,place,pass,,,1,False
+chobia_pass,chobia_pass,Chobia pass,place,pass,,,1,False
+bhot,bhot,Bhot,group,community,,,1,False
+pangi_approach_passes,pangi_approach_passes,Pangi approach passes,place,pass,,,1,False
+1874_dhar_leasing_attempt,1874_dhar_leasing_attempt,1874 dhar leasing attempt,event,political,,,1,False
+kishtwar,kishtwar,Kishtwar,place,town,,,1,False
+fodder,fodder,fodder,resource,good,,,1,False
+kothi_fodder_room,kothi_fodder_room,Kothi fodder room,place,room,,,1,False
+cowherd@kupha,cowherd,cowherd (Kupha),role,herder,Kupha,Chenab,1,False
+labourer@kupha,labourer,labourer (Kupha),role,wage_work,Kupha,Chenab,1,False
+trella,trella,Trella,place,market,,,1,False
+revenue_carrier,revenue_carrier,revenue carrier,role,transport,,,1,False
+deodar_tree,deodar_tree,Deodar tree,resource,good,,,1,False
+kail_tree,kail_tree,Kail tree,resource,good,,,1,False
+tosh_fir,tosh_fir,Tosh (fir),resource,good,,,1,False
+british_kangra,british_kangra,British administration in Kangra,authority,colonial,,,2,False
+moginand,moginand,Moginand,place,village,,,5,False
+households@moginand,households,households (Moginand),group,generic,Moginand,,15,False
+kala_amb,kala_amb,Kala Amb,place,town,,,1,False
+agarwal@moginand,agarwal,Agarwal (Moginand),group,caste,Moginand,,1,False
+shopkeeper@moginand,shopkeeper,shopkeeper (Moginand),role,trade,Moginand,,3,False
+indebted_households@moginand,indebted_households,Indebted households (Moginand),group,generic,Moginand,,2,False
+moneylender@moginand,moneylender,moneylender (Moginand),role,credit,Moginand,,2,False
+co_operative_society_menthapal,co_operative_society_menthapal,Co-operative Society Menthapal,authority,credit,,,4,False
+society_members@moginand,society_members,society members (Moginand),group,generic,Moginand,,4,False
+nalag,nalag,Nalag,place,village,,Sutlej,4,False
+dehar,dehar,Dehar,place,market,,,1,False
+nearby_places,nearby_places,nearby places,place,locality,,,1,False
+households@nalag,households,households (Nalag),group,generic,Nalag,Sutlej,17,False
+wool_spinner@nalag,wool_spinner,wool spinner (Nalag),role,textile_work,Nalag,Sutlej,1,False
+weaver@nalag,weaver,weaver (Nalag),role,textile_work,Nalag,Sutlej,1,False
+nearby_village,nearby_village,Nearby village,place,village,,,1,False
+mason@nalag,mason,mason (Nalag),role,occupation,Nalag,Sutlej,2,False
+road_labourer@nalag,road_labourer,road labourer (Nalag),role,wage_work,Nalag,Sutlej,2,False
+shopkeeper@nalag,shopkeeper,shopkeeper (Nalag),role,trade,Nalag,Sutlej,1,False
+forced_labourer@nalag,forced_labourer,forced labourer (Nalag),role,labour,Nalag,Sutlej,1,False
+sajju,sajju,Sajju,person,individual,,,1,False
+forced_labourer,forced_labourer,forced labourer,role,labour,,,3,False
+bhaktoo,bhaktoo,Bhaktoo,person,individual,,,1,False
+behra_co_operative_society,behra_co_operative_society,Behra Co-operative Society,authority,cooperative society,,,2,False
+households@behra,households,households (Behra),group,generic,Behra,,2,False
+grazier@pangna,grazier,grazier (Pangna),role,shepherd,Pangna,,1,False
+pangna,pangna,Pangna,place,village,,,3,False
+households@pangna,households,households (Pangna),group,generic,Pangna,,8,False
+indebted_households@pangna,indebted_households,Indebted households (Pangna),group,generic,Pangna,,1,False
+moneylender@pangna,moneylender,moneylender (Pangna),role,credit,Pangna,,2,False
+shopkeeper@pangna,shopkeeper,shopkeeper (Pangna),role,trade,Pangna,,1,False
+mule_owner@pangna,mule_owner,Mule owner (Pangna),group,generic,Pangna,,1,False
+farmer@pangna,farmer,farmer (Pangna),role,agriculture,Pangna,,8,False
+mahajan@pangna,mahajan,Mahajan (Pangna),group,caste,Pangna,,6,False
+brahman@pangna,brahman,Brahman (Pangna),group,caste,Pangna,,6,False
+harijan@pangna,harijan,Harijan (Pangna),group,community,Pangna,,2,False
+shepherd@pangna,shepherd,shepherd (Pangna),role,shepherd,Pangna,,2,False
+all_castes@pangna,all_castes,all castes (Pangna),group,class,Pangna,,2,False
+cattle_trader@pangna,cattle_trader,cattle trader (Pangna),role,trade,Pangna,,1,False
+himachal_pradesh_state_co_operative_bank,himachal_pradesh_state_co_operative_bank,Himachal Pradesh State Co-operative Bank,authority,bank,,,1,False
+all_castes@rajana,all_castes,all castes (Rajana),group,class,Rajana,Yamuna,3,False
+households@rajana,households,households (Rajana),group,generic,Rajana,Yamuna,14,False
+rajana,rajana,Rajana,place,village,,Yamuna,8,False
+non_right_holders@rajana,non_right_holders,non-right holders (Rajana),group,status,Rajana,Yamuna,1,False
+timber,timber,timber,resource,good,,,2,False
+rajput@rajana,rajput,Rajput (Rajana),group,caste,Rajana,Yamuna,5,False
+koli@rajana,koli,Koli (Rajana),group,caste,Rajana,Yamuna,5,False
+land_mortgage_case,land_mortgage_case,Land mortgage case,event,financial transaction,,,1,False
+mortgage_redemption_case,mortgage_redemption_case,Mortgage redemption case,event,financial transaction,,,1,False
+money,money,money,resource,good,,,1,False
+tenant@rajana,tenant,tenant (Rajana),role,tenancy,Rajana,Yamuna,2,False
+brahman@rajana,brahman,Brahman (Rajana),group,caste,Rajana,Yamuna,3,False
+tenant_cultivator@rajana,tenant_cultivator,Tenant cultivator (Rajana),role,cultivation,Rajana,Yamuna,1,False
+moneylender@rajana,moneylender,moneylender (Rajana),role,credit,Rajana,Yamuna,3,False
+informal_lender@rajana,informal_lender,Informal lender (Rajana),role,credit,Rajana,Yamuna,1,False
+mortgagee@rajana,mortgagee,mortgagee (Rajana),role,credit,Rajana,Yamuna,1,False
+zamindar@rajana,zamindar,landholders (Rajana),group,class,Rajana,Yamuna,2,False
+peasant@rajana,peasant,peasant (Rajana),group,class,Rajana,Yamuna,2,False
+labourer@rajana,labourer,labourer (Rajana),role,wage_work,Rajana,Yamuna,1,False
+gaddi@rajana,gaddi,Gaddi (Rajana),group,tribe,Rajana,Yamuna,4,False
+rainka_tehsil,rainka_tehsil,Rainka Tehsil,place,tehsil,,,1,False
+giri,giri,Giri,river,river,,Yamuna,1,False
+lambardar@rajana,lambardar,lambardar (Rajana),role,village_office,Rajana,Yamuna,2,False
+zaildar,zaildar,Zaildar,authority,office,,,1,False
+gram_sudhar_committee,gram_sudhar_committee,Gram Sudhar Committee,authority,local committee,,,1,False
+cooperative_society_member@rajana,cooperative_society_member,cooperative society member (Rajana),group,association_members,Rajana,Yamuna,3,False
+households@shathla,households,households (Shathla),group,generic,Shathla,,2,False
+other_districts,other_districts,Other districts,place,region,,,1,False
+minor_ranges,minor_ranges,Minor ranges,place,range,,,1,False
+denudation_of_the_lower_hills,denudation_of_the_lower_hills,Denudation of the lower hills,event,environmental_change,,,1,False
+gujari_speakers,gujari_speakers,Gujari speakers,group,language_community,,,1,False
+gujar_woman,gujar_woman,Gujar woman,group,community,,,4,False
+buttermilk,buttermilk,buttermilk,resource,good,,,1,False
+ghirath,ghirath,Ghirath,group,caste,,,2,False
+thori,thori,Thori,group,community,,,1,False
+merchandise,merchandise,Merchandise,resource,good,,,1,False
+dagi,dagi,Dagi,group,caste,,,2,False
+chamar,chamar,Chamar,group,caste,,,1,False
+wool_cleaner,wool_cleaner,wool cleaner,role,textile_work,,,1,False
+batwal,batwal,Batwal,group,caste,,,3,False
+unskilled_labourer,unskilled_labourer,unskilled labourer,role,wage_work,,,1,False
+kiriwak,kiriwak,Kiriwak,role,agent,,,1,False
+kumhar,kumhar,Kumhar,group,caste,,,1,False
+balu_forest,balu_forest,Balu Forest,place,forest,,,1,False
+phati_runi,phati_runi,Phati Runi,place,locality,,,2,False
+tibetan_traders,tibetan_traders,Tibetan traders,group,community,,,2,False
+baralaeha_pass,baralaeha_pass,Baralaeha Pass,place,pass,,,1,False
+left_bank_of_the_chandra,left_bank_of_the_chandra,Left bank of the Chandra,place,riverbank,,,1,False
+parbati_valley,parbati_valley,Parbati valley,place,valley,,,1,False
+old_mountain_sheep_route,old_mountain_sheep_route,Old mountain sheep route,place,route,,,1,False
+old_trade_route,old_trade_route,Old trade route,place,route,,,1,False
+shigri_glacier_flood_1886,shigri_glacier_flood_1886,Shigri glacier flood (1886),event,natural_disaster,,,1,False
+gh_ra_tenant,gh_ra_tenant,Ghéra tenant,role,tenancy,,,1,False
+mudydri_tenant,mudydri_tenant,Mudydri tenant,role,tenancy,,,1,False
+lade,lade,Lade,group,community,,,1,False
+phangtain,phangtain,Phangtain,group,community,,,1,False
+wool_dealer,wool_dealer,Wool dealer,role,trade,,,1,False
+khatri,khatri,Khatri,group,caste,,,1,False
+wool_comber,wool_comber,Wool-comber,role,textile_work,,,1,False
+wool_comb_maker,wool_comb_maker,Wool-comb maker,role,craft,,,1,False
+trade_between_the_hills_and_the_plains,trade_between_the_hills_and_the_plains,Trade between the hills and the plains,resource,right,,,1,False
+british_territory,british_territory,British territory,place,region,,,1,False
+banglot_valley,banglot_valley,Banglot valley,place,valley,,,1,False
+chandra,chandra,Chandra,river,river,,,1,False
+gara_or_punan_valley,gara_or_punan_valley,Gara or Punan valley,place,valley,,,1,False
+bhaga,bhaga,Bhaga,river,river,,,1,False
+pattan_valley,pattan_valley,Pattan valley,place,valley,,,1,False
+annual_sheep_sacrifice_to_the_kyelang_sp,annual_sheep_sacrifice_to_the_kyelang_sp,Annual sheep sacrifice to the Kyelang spirit,event,ritual,,,1,False
+annual_animal_sacrifices_to_evil_dispose,annual_animal_sacrifices_to_evil_dispose,Annual animal sacrifices to evil-disposed Ihds,event,ritual,,,1,False
+tsun_pa_or_ge_tsul,tsun_pa_or_ge_tsul,Tsun-pa or ge-tsul,role,religious,,,1,False
+gelong,gelong,Gelong,role,religious,,,1,False
+cattle_attendant,cattle_attendant,Cattle attendant,role,animal_husbandry,,,1,False
+foreign_herder@malana,foreign_herder,Foreign herder (Malana),group,community,Malana,,1,False
+malana,malana,Malana,place,village,,,1,False
+rehara,rehara,Rehara,group,caste,,,3,False
+simla_hills,simla_hills,Simla Hills,place,region,,,1,False
+spiti_men,spiti_men,Spiti men,group,community,,,1,False
+pallari,pallari,pallari,role,official,,,1,False
+churahi@devi_kothi,churahi,Churahi (Devi-Kothi),group,community,Devi-Kothi,Ravi,1,False
+tibet_trade_end,tibet_trade_end,End of the Tibet trade,event,trade,,,1,False
+kanet@kanum,kanet,Kanet (Kanum),group,caste,Kanum,Sutlej,1,False
+lohar@kanum,lohar,Lohar (Kanum),group,caste,Kanum,Sutlej,1,False
+ores@kanum,ores,Ores (Kanum),group,caste,Kanum,Sutlej,1,False
+gupta@kanum,gupta,Gupta (Kanum),group,caste,Kanum,Sutlej,1,False
+khatri@kanum,khatri,Khatri (Kanum),group,caste,Kanum,Sutlej,1,False
+brahman@kanum,brahman,Brahman (Kanum),group,caste,Kanum,Sutlej,1,False
+rajput@kothi,rajput,Rajput (Kothi),group,caste,Kothi,Sutlej,1,False
+lohar@kothi,lohar,Lohar (Kothi),group,caste,Kothi,Sutlej,1,False
+badhi@kothi,badhi,Badhi (Kothi),group,caste,Kothi,Sutlej,1,False
+brahman@shakrori,brahman,Brahman (Shakrori),group,caste,Shakrori,Sutlej,2,False
+rajput@shakrori,rajput,Rajput (Shakrori),group,caste,Shakrori,Sutlej,2,False
+lohar@shakrori,lohar,Lohar (Shakrori),group,caste,Shakrori,Sutlej,2,False
+chamar@shakrori,chamar,Chamar (Shakrori),group,caste,Shakrori,Sutlej,2,False
+sud@shakrori,sud,Sud (Shakrori),group,caste,Shakrori,Sutlej,2,False
+kumhar@shakrori,kumhar,Kumhar (Shakrori),group,caste,Shakrori,Sutlej,2,False
+rajput@nalag,rajput,Rajput (Nalag),group,caste,Nalag,Sutlej,2,False
+brahman@nalag,brahman,Brahman (Nalag),group,caste,Nalag,Sutlej,2,False
+chamar@nalag,chamar,Chamar (Nalag),group,caste,Nalag,Sutlej,2,False
+doomna@nalag,doomna,Doomna (Nalag),group,caste,Nalag,Sutlej,2,False
+rajput@kupha,rajput,Rajput (Kupha),group,caste,Kupha,Chenab,1,False
+brahman@kupha,brahman,Brahman (Kupha),group,caste,Kupha,Chenab,1,False
+lohar@kupha,lohar,Lohar (Kupha),group,caste,Kupha,Chenab,1,False
+arya@kupha,arya,Arya (Kupha),group,caste,Kupha,Chenab,1,False
+mahajan@kupha,mahajan,Mahajan (Kupha),group,caste,Kupha,Chenab,1,False
+gupta@kupha,gupta,Gupta (Kupha),group,caste,Kupha,Chenab,1,False
+sikh@kupha,sikh,Sikh (Kupha),group,caste,Kupha,Chenab,1,False
+sipi@tandi,sipi,Sipi (Tandi),group,caste,Tandi,Chenab,3,False
+rajput@chauntra,rajput,Rajput (Chauntra),group,caste,Chauntra,Beas,1,False
+sud@chauntra,sud,Sud (Chauntra),group,caste,Chauntra,Beas,1,False
+koli@chauntra,koli,Koli (Chauntra),group,caste,Chauntra,Beas,1,False
+tarkhan@chauntra,tarkhan,Tarkhan (Chauntra),group,caste,Chauntra,Beas,1,False
+chamar@chauntra,chamar,Chamar (Chauntra),group,caste,Chauntra,Beas,1,False
+khatri@chauntra,khatri,Khatri (Chauntra),group,caste,Chauntra,Beas,1,False
+julaha@chauntra,julaha,Julaha (Chauntra),group,caste,Chauntra,Beas,1,False
+majhara@chauntra,majhara,Majhara (Chauntra),group,caste,Chauntra,Beas,1,False
+darji@chauntra,darji,Darji (Chauntra),group,caste,Chauntra,Beas,1,False
+manhas@chauntra,manhas,Manhas (Chauntra),group,caste,Chauntra,Beas,1,False
+chhimba@kot,chhimba,Chhimba (Kot),group,caste,Kot,Beas,1,False
+chamar@kot,chamar,Chamar (Kot),group,caste,Kot,Beas,1,False
+doomna@kot,doomna,Doomna (Kot),group,caste,Kot,Beas,1,False
+rajput@kot,rajput,Rajput (Kot),group,caste,Kot,Beas,1,False
+bhanjre@kot,bhanjre,Bhanjre (Kot),group,caste,Kot,Beas,1,False
+brahman@kot,brahman,Brahman (Kot),group,caste,Kot,Beas,1,False
+brahman@chergaon,brahman,Brahman (Chergaon),group,caste,Chergaon,Yamuna,1,False
+sud@chergaon,sud,Sud (Chergaon),group,caste,Chergaon,Yamuna,1,False
+badhi@chergaon,badhi,Badhi (Chergaon),group,caste,Chergaon,Yamuna,1,False
+khatri@chergaon,khatri,Khatri (Chergaon),group,caste,Chergaon,Yamuna,1,False
+lohar@chergaon,lohar,Lohar (Chergaon),group,caste,Chergaon,Yamuna,1,False
+badhi@rajana,badhi,Badhi (Rajana),group,caste,Rajana,Yamuna,2,False
+chamar@rajana,chamar,Chamar (Rajana),group,caste,Rajana,Yamuna,2,False
+doomna@rajana,doomna,Doomna (Rajana),group,caste,Rajana,Yamuna,2,False
+lohar@rajana,lohar,Lohar (Rajana),group,caste,Rajana,Yamuna,2,False
+vaish@rajana,vaish,Vaish (Rajana),group,caste,Rajana,Yamuna,2,False
+lohar@chaupal,lohar,Lohar (Chaupal),group,caste,Chaupal,Yamuna,1,False
+rehara@chaupal,rehara,Rehara (Chaupal),group,caste,Chaupal,Yamuna,1,False
+sunar@chaupal,sunar,Sunar (Chaupal),group,caste,Chaupal,Yamuna,1,False
+tarkhan@chaupal,tarkhan,Tarkhan (Chaupal),group,caste,Chaupal,Yamuna,1,False
+turi@chaupal,turi,Turi (Chaupal),group,caste,Chaupal,Yamuna,1,False
+brahman@chaunri,brahman,Brahman (Chaunri),group,caste,Chaunri,Yamuna,1,False
+bhangi@chaunri,bhangi,Bhangi (Chaunri),group,caste,Chaunri,Yamuna,1,False
+chamar@chaunri,chamar,Chamar (Chaunri),group,caste,Chaunri,Yamuna,1,False
+koli@chaunri,koli,Koli (Chaunri),group,caste,Chaunri,Yamuna,1,False
+lohar@chaunri,lohar,Lohar (Chaunri),group,caste,Chaunri,Yamuna,1,False
+rajput@chaunri,rajput,Rajput (Chaunri),group,caste,Chaunri,Yamuna,1,False
+sud@chaunri,sud,Sud (Chaunri),group,caste,Chaunri,Yamuna,1,False
+turi@chaunri,turi,Turi (Chaunri),group,caste,Chaunri,Yamuna,1,False
+bhatra@basal,bhatra,Bhatra (Basal),group,caste,Basal,,1,False
+brahman@basal,brahman,Brahman (Basal),group,caste,Basal,,1,False
+chamar@basal,chamar,Chamar (Basal),group,caste,Basal,,1,False
+doomna@basal,doomna,Doomna (Basal),group,caste,Basal,,1,False
+julaha@basal,julaha,Julaha (Basal),group,caste,Basal,,1,False
+koli@basal,koli,Koli (Basal),group,caste,Basal,,1,False
+kumhar@basal,kumhar,Kumhar (Basal),group,caste,Basal,,1,False
+lohar@basal,lohar,Lohar (Basal),group,caste,Basal,,1,False
+rajput@basal,rajput,Rajput (Basal),group,caste,Basal,,1,False
+turi@basal,turi,Turi (Basal),group,caste,Basal,,1,False
+brahman@batal,brahman,Brahman (Batal),group,caste,Batal,,2,False
+chamar@batal,chamar,Chamar (Batal),group,caste,Batal,,2,False
+doomna@batal,doomna,Doomna (Batal),group,caste,Batal,,2,False
+koli@batal,koli,Koli (Batal),group,caste,Batal,,2,False
+kumhar@batal,kumhar,Kumhar (Batal),group,caste,Batal,,2,False
+mahabrahmin@batal,mahabrahmin,Mahabrahmin (Batal),group,caste,Batal,,2,False
+rajput@batal,rajput,Rajput (Batal),group,caste,Batal,,2,False
+sunar@batal,sunar,Sunar (Batal),group,caste,Batal,,2,False
+rajput@moginand,rajput,Rajput (Moginand),group,caste,Moginand,,1,False
+koli@moginand,koli,Koli (Moginand),group,caste,Moginand,,1,False
+brahman@moginand,brahman,Brahman (Moginand),group,caste,Moginand,,1,False
+badhi@moginand,badhi,Badhi (Moginand),group,caste,Moginand,,1,False
+lohar@moginand,lohar,Lohar (Moginand),group,caste,Moginand,,1,False
+vaish@moginand,vaish,Vaish (Moginand),group,caste,Moginand,,1,False
+gujjar@moginand,gujjar,Gujjar (Moginand),group,tribe,Moginand,,1,False
+muslim_rajput@moginand,muslim_rajput,Muslim-Rajput (Moginand),group,caste,Moginand,,1,False
+chamar@pangna,chamar,Chamar (Pangna),group,caste,Pangna,,1,False
+chana@pangna,chana,Chana (Pangna),group,caste,Pangna,,1,False
+koli@pangna,koli,Koli (Pangna),group,caste,Pangna,,1,False
+khatri@pangna,khatri,Khatri (Pangna),group,caste,Pangna,,1,False
+lohar@pangna,lohar,Lohar (Pangna),group,caste,Pangna,,1,False
+nath@pangna,nath,Nath (Pangna),group,caste,Pangna,,1,False
+rajput@pangna,rajput,Rajput (Pangna),group,caste,Pangna,,1,False
+teli@pangna,teli,Teli (Pangna),group,caste,Pangna,,1,False

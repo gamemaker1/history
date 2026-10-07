@@ -17,43 +17,10 @@ search to files whose name contains the given text.
 """
 
 import argparse
-import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-TEXT = ROOT / "text"
-
-ZIP_1961 = "sources/1961 Village surveys + census reports-20260926T175323Z-1-001.zip"
-ZIP_1881 = "sources/Punjab 1881, Denzil Ibbetson-20260926T175319Z-1-001.zip"
-
-# Which PDF each text folder came from.
-PDF_FOR = {
-    "1961": lambda name: f"{name}.pdf (inside {ZIP_1961})",
-    "1961_layout": lambda name: f"{name}.pdf (inside {ZIP_1961})",
-    "1881": lambda name: f"{name}.pdf (inside {ZIP_1881})",
-    "1931": lambda name: {
-        "1931 Part I Report": "sources/Census of India 1931, Vol 17 Punjab, Part I Report.pdf",
-        "1931 Part II Tables": "sources/Census of India 1931, Vol 17 Punjab, Part II Tables.pdf",
-    }[name],
-    "rose": lambda name: {
-        "Rose Vol1": "sources/2015.69651.Glossary-...-Vol1_text.pdf",
-        "Rose Vol2": "sources/2015.69652.Glossary-...-Vol2.pdf",
-        "Rose Vol3": "sources/2015.69674.Glossary-...-Vol3_text.pdf",
-    }[name],
-}
-
-WORD = re.compile(r"[a-z0-9]+")
-
-
-def pdf_name(path):
-    return PDF_FOR[path.parent.name](path.stem)
-
-
-def normalise(text):
-    """Lower-case words with their character offsets, hyphenated breaks rejoined."""
-    text = re.sub(r"(\w)-[ \t]*\n[ \t]*(\w)", r"\1\2", text)
-    return text, [(m.group(0), m.start()) for m in WORD.finditer(text.lower())]
+from corpus import ROOT, TEXT, WORD, normalise, pdf_name
 
 
 def find(phrase, only=None):

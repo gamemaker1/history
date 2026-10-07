@@ -1,0 +1,105 @@
+valley,place,subject_label,predicate,object,dest_class,months,when,source,pdf_page,layer_year,evidence,quote
+Ravi,Brahmaur,Gaddi,TRADES_AT,Brahmaur,fairs and markets,6|10,recurring,Newell,36,1961,auto,"In J llne and October the wool is exchanged with other Gaddis in Brahmaur for food,"
+Ravi,Brahmaur,Gaddi,MIGRATES_TO,low hills,winter grounds,11|12|1|2,recurring,Newell,101,1961,auto,"from November to February from the
+Brahlll<luri crops and, as the land per head becomes
+less. Gaddis will be forced to stay for
+I()nger pcriods in the pLtll1S looking for temporary labour."
+Beas,Kangra,Gaddi,GRAZES_AT,high pastures,summer pastures,3|4|5|6|7|8|9|10|11,recurring,Newell,18,1961,auto,"On the Kangra side of the Dhaula Dhar, there are three types of pasturage, motlhtainous pasturage near the tops"
+Ravi,Chamba,Gaddi,GRAZES_AT,high pastures,summer pastures,3|4|10|11,recurring,Newell,18,1961,auto,the grass springs up every spring and autumn.
+Beas,,Gaddi,MIGRATES_TO,Kangra,winter grounds,10|11,recurring,Rose,297,1911,auto,The yearly exodus to Kangra takes place in October and November
+Beas,,Gaddi,MIGRATES_TO,Kangra,winter grounds,10|11,recurring,Rose,297,1911,auto,"The yearly exodus to Kangra takes place in October and November, and the return journey in April and May"
+Ravi,,Gaddi,MIGRATES_TO,Brahmaur,other,4|5,recurring,Rose,297,1911,auto,and the return journey in April and May.
+Chenab,Pangi,Gaddi,MIGRATES_TO,Pangi,summer pastures,7|8|9,recurring,Kupha,113,1961,auto,"The ""Gad is"", a roving pastoral race, visit
+Pangi with theii' flocks in July and remain in
+the valley till September."
+Ravi,Brahmaur,households,MIGRATES_TO,low hills,winter grounds,11|12,recurring,Newell,35,1961,auto,"As November and December approach,
+the Villagers of the .Brahmaur district prepare
+to leave for the plalT~s."
+Ravi,Brahmaur,households,MIGRATES_TO,low hills,winter grounds,10|11|12|1|2|3,recurring,Brahmaur,63,1961,auto,to migrate to lower hills from October to March.
+Ravi,Brahmaur,households,MIGRATES_TO,low hills,winter grounds,10|11|12|1|2|3,recurring,Brahmaur,63,1961,auto,as many as 61 ml)ve out in winter months.
+Ravi,Brahmaur,households,HIRES,livestock caretaker (Brahmaur),other,11|12,recurring,Newell,35,1961,auto,"to look after their. cows and bulls at 2 rupees a
+month per animal (1952)."
+Ravi,Brahmaur,households,WORKS_AS,Odd-job worker (Brahmaur),other,10|11|12|1|2|3,recurring,Brahmaur,45,1961,auto,as. many as 61 households earn their livelihood from October to NIarch working at odd jobs outside the village.
+Ravi,Brahmaur,households,MIGRATES_TO,Outside Brahmaur,other,10|11|12|1|2|3,recurring,Brahmaur,45,1961,auto,as. many as 61 households earn their livelihood from October to NIarch working at odd jobs outside the village.
+Ravi,Brahmaur,households,MIGRATES_TO,Brahmaur,other,4,recurring,Brahmaur,55,1961,auto,"In the spring season (April), the flocks are driven back to the village where these are utilised to manure the fallow land."
+Ravi,Brahmaur,households,MIGRATES_TO,Brahmaur,other,3|4,recurring,Brahmaur,65,1961,auto,"This return journey lasts from the end of
+March to the end of April."
+Ravi,Brahmaur,households,WORKS_AS,domestic servant (Brahmaur),other,10|11|12|1|2|3,recurring,Brahmaur,63,1961,auto,work· either as domestic servants
+Ravi,Brahmaur,households,WORKS_AS,Dhan pounder (Brahmaur),other,10|11|12|1|2|3,recurring,Brahmaur,63,1961,auto,pounding of dhan or do any other sundry work that they can get.
+Ravi,Brahmaur,shepherd,MOVES_VIA,Pangi,summer pastures,9,recurring,Brahmaur,55,1961,auto,In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven
+Ravi,Brahmaur,shepherd,MOVES_VIA,Lahaul,summer pastures,9,recurring,Brahmaur,55,1961,auto,In the beginning of September the return journey over the Pangi and Lah~ul ranges commences and the flocks are driven
+Ravi,Brahmaur,shepherd,WORKS_AS,Wool shearer (Brahmaur),other,3|6|7|9|10,recurring,Brahmaur,56,1961,auto,"The shepherds shear the wool thrice a year, in the months of Phalgun (March), Asadh (June-July) and Kartik (September-October)."
+Sutlej,Rampur,shopkeeper,TRADES_AT,Lavi fair,fairs and markets,11,recurring,Mahasu,56,1961,auto,"is held there in the second week of
+November every year which attracts thousands of people and traders from far off
+places."
+Ravi,Brahmaur,malundi,GRAZES_AT,Kangra,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Brahmaur,malundi,GRAZES_AT,Nurpur,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Brahmaur,malundi,GRAZES_AT,Pathankot,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Brahmaur,malundi,GRAZES_AT,Jammu,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Brahmaur,pohal,GRAZES_AT,Kangra,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Brahmaur,pohal,GRAZES_AT,Nurpur,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Brahmaur,pohal,GRAZES_AT,Pathankot,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Brahmaur,pohal,GRAZES_AT,Jammu,winter grounds,10|11,recurring,Brahmaur,55,1961,auto,"In the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu."
+Ravi,Chitrari,households,MIGRATES_TO,Shahpur,winter grounds,9|10,recurring,Chitrari,23,1961,auto,Migration starts in September-October and is collectively known as gana. The route adopted is generally the shortest <;me and: a number of mountain ranges have to be crossed over to. reach the plains of Shahpur and Kangra.
+Ravi,Chitrari,households,MIGRATES_TO,Kangra,winter grounds,9|10,recurring,Chitrari,23,1961,auto,Migration starts in September-October and is collectively known as gana. The route adopted is generally the shortest <;me and: a number of mountain ranges have to be crossed over to. reach the plains of Shahpur and Kangra.
+Ravi,Chitrari,households,MOVES_VIA,Chuari pass,summer pastures,9|10,recurring,Chitrari,23,1961,auto,"These are Chuari or Basodan with a height of 8,000 feet,"
+Ravi,Chitrari,households,MOVES_VIA,Kali Nali,summer pastures,9|10,recurring,Chitrari,23,1961,auto,"Kali Nali between Mahla and Raipur with a height of 8,900 feet,"
+Ravi,Chitrari,households,MOVES_VIA,Mahli pass,summer pastures,9|10,recurring,Chitrari,23,1961,auto,"Mahli between Mahla and Tundi at a height of 8,600 feet"
+Ravi,Chitrari,households,MOVES_VIA,Loa pass,summer pastures,9|10,recurring,Chitrari,23,1961,auto,"Loa between Mahla and Bhatti Tikri with 10,500 feet."
+Ravi,Devi-Kothi,households,WORKS_AS,road labourer (Devi-Kothi),other,5|6|7,recurring,Devi-Kothi,53,1961,auto,"A villager has a scope of working as an unskilled labourer o_n the road construction work and go usually m the months of May, June and .Tuly"
+Ravi,Devi-Kothi,households,MOVES_VIA,Sach Pass,summer pastures,5|6|8|9,recurring,Devi-Kothi,53,1961,auto,Some villagers calry loads to Pangi during May and June or August and September. The route via Sach Pass is preferred.
+Ravi,Devi-Kothi,households,MIGRATES_TO,Pangi,summer pastures,5|6|8|9,recurring,Devi-Kothi,53,1961,auto,Some villagers calry loads to Pangi during May and June or August and September.
+Ravi,Devi-Kothi,grazier,GRAZES_AT,high pastures,summer pastures,5|6|10,recurring,Devi-Kothi,48,1961,auto,The farmers may also send their sheep and goats with professional graziers to high hills.
+Ravi,Maingal,Gujjar,MIGRATES_TO,Maingal,other,9,recurring,Maingal,52,1961,auto,The Gujjars are back from the jot in Maingal by September.
+Ravi,Maingal,Gujjar,MIGRATES_TO,high pastures,summer pastures,4|5,recurring,Maingal,46,1961,auto,Dl!ring April and May Gujjars start migrating to the upper hills and they buy standing crops of wheat and barley.
+Ravi,Maingal,Gujjar,MIGRATES_TO,high pastures,summer pastures,5,recurring,Maingal,52,1961,auto,The pastoral economy of the Gujjars demands extensive utilization of pastures and their migration to the higher hills begins in May.
+Ravi,Maingal,Gujjar,GRAZES_AT,Chandi,summer pastures,5,recurring,Maingal,52,1961,auto,"They go with their buffaloes to the Chandi, Chal Sakri and Nadin."
+Ravi,Maingal,Gujjar,GRAZES_AT,Chal Sakri,summer pastures,5,recurring,Maingal,52,1961,auto,"They go with their buffaloes to the Chandi, Chal Sakri and Nadin."
+Ravi,Maingal,Gujjar,GRAZES_AT,Nadin,summer pastures,5,recurring,Maingal,52,1961,auto,"They go with their buffaloes to the Chandi, Chal Sakri and Nadin."
+Sutlej,Kanum,households,MIGRATES_TO,low hills,winter grounds,10,recurring,Kanum,85,1961,auto,During winter from October they migrate to Lower Hills
+Sutlej,Kanum,households,GRAZES_AT,low hills,winter grounds,10,recurring,Kanum,85,1961,auto,During winter from October they migrate to Lower Hills
+Sutlej,Kanum,households,MIGRATES_TO,low hills,winter grounds,4,recurring,Kanum,85,1961,auto,They spend the chilly months in these places till the end of April.
+Sutlej,Kanum,households,MIGRATES_TO,Sirmur,winter grounds,10,recurring,Kanum,85,1961,auto,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+Sutlej,Kanum,households,MIGRATES_TO,Seoni,winter grounds,10,recurring,Kanum,85,1961,auto,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+Sutlej,Kanum,households,MIGRATES_TO,Arki,winter grounds,10,recurring,Kanum,85,1961,auto,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+Sutlej,Kanum,households,MIGRATES_TO,Arki,winter grounds,10|11|12|1|2|3|4,recurring,Kanum,85,1961,auto,They spend the chilly months in these places till the end of April
+Sutlej,Kanum,households,MIGRATES_TO,Bilaspur,winter grounds,10,recurring,Kanum,85,1961,auto,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+Sutlej,Kanum,households,MIGRATES_TO,Bilaspur,winter grounds,10|11|12|1|2|3|4,recurring,Kanum,85,1961,auto,During winter from October they migrate to Lower Hills as far into Bilaspur
+Sutlej,Kanum,households,MIGRATES_TO,Mehlog,winter grounds,10,recurring,Kanum,85,1961,auto,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+Sutlej,Kanum,households,MIGRATES_TO,Kanum,other,5|6,recurring,Kanum,16,1961,auto,"During May, June they return from the lower hills"
+Sutlej,Kanum,households,MIGRATES_TO,Kanum,other,5,recurring,Kanum,136,1961,auto,He is usually back in Kanum by May.
+Sutlej,Kanum,households,MIGRATES_TO,Karsog,winter grounds,10,recurring,Kanum,85,1961,auto,"to Bilaspur, Arki, Mehlog some parts of Karsog, Seoni and Sirmur."
+Sutlej,Kanum,Lal Chand Negi,MIGRATES_TO,Tibet,other,7|11,recurring,Kanum,132,1961,auto,The migration begain in July and he was back in Kanum usually by November.
+Sutlej,Kanum,shopkeeper,TRADES_AT,Kanum,fairs and markets,10|11,after_1948,Kanum,133,1961,auto,"The traffic on the Jeepable road was in full swmg m October and November, 1963. It was amazing to find so many convoys of Jeeps between Kalpa and Poo."
+Chenab,Tandi,households,GRAZES_AT,high pastures,summer pastures,5|9,recurring,Tandi,65,1961,auto,"During summer (early May to late ,September) when there is ample grass on the
+hills,"
+Chenab,Tandi,households,WORKS_AS,wool spinner (Tandi),other,12|1|2|3,recurring,Tandi,66,1961,auto,"During winter (December to March), when people have 'to stay indoors the spinning wheel and the takli are ceaselessly worked."
+Chenab,Tandi,households,TRADES_AT,Tibet,fairs and markets,7|8|9,recurring,Tandi,67,1961,auto,Four households of the village carryon trade with Tibet from July to September.
+Chenab,Tandi,Tandi,HIRES,grazier (Tandi),other,5|6|7|8|9,recurring,Tandi,65,1961,auto,"graziers and shepherds are em ..
+ployed by the villagers to tend their
+livestock during the day."
+Chenab,Tandi,Tandi,HIRES,shepherd (Tandi),other,5|6|7|8|9,recurring,Tandi,65,1961,auto,"graziers and shepherds are em ..
+ployed by the villagers to tend their
+livestock during the day."
+Chenab,Tandi,Tandi,HIRES,fawal (Tandi),other,5|6|7|8|9,recurring,Tandi,65,1961,auto,"is paid
+by every household at the rate of one
+patha (approximately equivalent to
+one seer) of buckwheat per sheep or
+goat for the season."
+Chenab,Tandi,Tandi,HIRES,fawal (Tandi),other,5|6|7|8|9,recurring,Tandi,65,1961,auto,"A household sending out ten sheep or goats gives a day's
+meals to him according to t he turn."
+Chenab,Tandi,Tandi,HIRES,Totari (Tandi),other,5|6|7|8|9,recurring,Tandi,65,1961,auto,"is called Tot.ari and gets ::~O patha of grains from every household for the
+season"
+Chenab,Tandi,Tandi,HIRES,Totari (Tandi),other,5|6|7|8|9,recurring,Tandi,65,1961,auto,"gets ::~O patha of grains from every household for the
+season in addition to getting one loaf
+of bread a day."
+Chenab,Tandi,Tandi,HIRES,Kutsa-rantauch (Tandi),other,5|6|7|8|9,recurring,Tandi,65,1961,auto,"The grazier of lambs
+and calves is called kU7'tsa-rantaucJl((
+and is employed on the same terms
+as the phogaZa."
+Chenab,Kupha,Pangwal,TRADES_AT,Tarela,fairs and markets,11,recurring,Kupha,69,1961,auto,one member of every Pangwal household visits Tarela to purchase salt in bulk for the whole year.
+Chenab,Kupha,households,GRAZES_AT,high pastures,summer pastures,5|6,recurring,Kupha,80,1961,auto,when summer approaches the cattle are sent to the distant pastures sometimes in the middle of laishtha or early Asadha.
+Chenab,Kupha,households,MIGRATES_TO,Kupha,other,10,recurring,Kupha,80,1961,auto,Again on sankrant of Kartika the cattle return.
+Yamuna,Rajana,Gaddi,MIGRATES_TO,Rainka Tehsil,other,3|4,recurring,Rajana,70,1961,auto,Gaddis-In March-April gaddis visit Rainka
+Yamuna,Rajana,Gaddi,MIGRATES_TO,Giri,other,3|4,recurring,Rajana,70,1961,auto,and camp fllong the Giri and Jogar streams.
+Ravi,Devi-Kothi,Churahi,HIRES,grazier (Devi-Kothi),other,5|6|7|8|9|10,at_survey,Devi-Kothi,48,1961,auto,The charges of the graziers range from twenty to twentyfive naya Paise for the period from May / June to October for a sheep or goat

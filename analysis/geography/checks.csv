@@ -1,0 +1,12 @@
+village,survey_m,srtm_m,difference_m,agrees_within_300_m
+Brahmaur,2134.0,2149.0,15.0,True
+Chaunri,1600.0,1537.0,-63.0,True
+Chaupal,2342.0,2709.0,367.0,False
+Devi-Kothi,2164.0,2408.0,244.0,True
+Kanum,2926.0,2763.0,-163.0,True
+Kot,1219.0,1036.0,-183.0,True
+Kothi,2515.0,2550.0,35.0,True
+Maingal,2286.0,2302.0,16.0,True
+Nachar,2088.0,3624.0,1536.0,False
+Rajana,1676.0,1251.0,-425.0,False
+Tandi,3048.0,2950.0,-98.0,True

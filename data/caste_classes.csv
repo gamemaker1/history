@@ -1,0 +1,48 @@
+group,class,certainty,basis
+Brahman,landholding,ok,Landholding caste in every survey that describes land
+Brahmin,landholding,ok,Spelling variant
+Barahman,landholding,ok,Spelling variant (Pangna)
+Rajput,landholding,ok,Landholding caste
+Kanet (Rajput),landholding,ok,Kanum: the survey's own label for the landholding Kanets
+Thakur,landholding,ok,Chergaon: landholding with Rajputs (rich families of Thakurs and Rajputs)
+Manhas,landholding,check,Chauntra: Rajput clan name
+Bodh,landholding,check,Tandi: Buddhist landholding cultivators of Lahaul (a Scheduled Tribe)
+Gujjar,herding tribe,ok,Buffalo herders; Scheduled Tribe (Maingal p. 17)
+Koli,scheduled caste,ok,Scheduled Caste in Himachal
+Lohar,scheduled caste,ok,Scheduled Caste (smiths)
+Chamar,scheduled caste,ok,Scheduled Caste
+Sipi,scheduled caste,ok,Scheduled Caste (Brahmaur)
+Shippi,scheduled caste,ok,Spelling variant of Sipi (Tandi)
+Doomna,scheduled caste,ok,Scheduled Caste
+Dumna,scheduled caste,ok,Spelling variant
+Doom,scheduled caste,ok,Spelling variant
+Turi,scheduled caste,ok,Scheduled Caste
+Rehar,scheduled caste,ok,Scheduled Caste
+Rehara,scheduled caste,ok,Spelling variant (Brahmaur)
+Badhi,scheduled caste,check,Carpenters; listed as Scheduled Caste in Himachal (to check)
+Bhangi,scheduled caste,ok,Scheduled Caste
+Chhimba,scheduled caste,ok,Scheduled Caste (1961 Monograph Series: Chhimbe Scheduled Caste)
+Julaha,scheduled caste,check,Weavers; to check
+Julah,scheduled caste,check,Spelling variant
+Ores,scheduled caste,check,Kinnaur artisans; to check
+Chana,scheduled caste,check,Pangna; to check
+Bhanjre,scheduled caste,check,Kot; to check
+Sud,trading,ok,Trading caste
+Sood,trading,ok,Spelling variant
+Khatri,trading,ok,Trading caste
+Gupta,trading,ok,Trading
+Mahajan,trading,ok,Shopkeepers (Pangna p. 53)
+Vaish,trading,ok,Trading
+Tarkhan,other,check,Carpenters
+Sunar,other,check,Goldsmiths
+Sunyar,other,check,Goldsmiths (Batal)
+Kumhar,other,check,Potters
+Darji,other,check,Tailors
+Teli,other,check,Oil pressers
+Nath,other,check,To check
+Majhara,other,check,Basket makers (Chauntra p. 46); to check
+Arya,other,check,Kupha; to check
+Sikh,other,check,Kupha
+Mahabrahmin,other,check,Funeral priests (Batal)
+Muslim-Rajput,other,check,Moginand
+Bhatra,other,check,Basal; to check

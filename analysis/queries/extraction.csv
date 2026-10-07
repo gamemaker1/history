@@ -1,0 +1,259 @@
+conjuncture,subject,predicate,object,resource,qty,unit,place,source,pdf_page,evidence
+cycle,landholders (Brahmaur),PAYS_DUES_TO,Gaddi (Brahmaur),sheep manure,,,Brahmaur,Newell,36,auto
+cycle,mortgagor,PAYS_DUES_TO,mortgagee,grain,,,Chergaon,Chergaon,55,auto
+cycle,mortgagor,PAYS_DUES_TO,mortgagee,money,,,Chergaon,Chergaon,55,auto
+cycle,grazier (Devi-Kothi),COLLECTS_FEE_FROM,households (Devi-Kothi),grazing fees,20,naya Paise per sheep or goat for the stated period,Devi-Kothi,Devi-Kothi,48,auto
+cycle,landholders,PAYS_DUES_TO,Gaddi,grazing fees,,,Kangra,Newell,36,auto
+cycle,households (Kupha),PAYS_DUES_TO,gawalay,ghee,1,tablespoonful per household,Kupha,Kupha,54,auto
+cycle,farmers,PAYS_DUES_TO,Mahajan (Pangna),ghee,2,kilos per cow per month,Pangna,Pangna,53,auto
+cycle,farmers,PAYS_DUES_TO,Brahman (Pangna),ghee,2,kilos per cow per month,Pangna,Pangna,53,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,,,,Newell,19,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,shepherd,grazing permit,,,,Newell,37,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,,,,Newell,37,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,shepherd,grazing permit,,,,Newell,37,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd,land revenue and dues,1,rupee per unregistered animal over one year of age,,Newell,37,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,Gaddi,grazing fees,,,,Newell,19,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,mobile herders,grazing fees,3,annas per sheep,Arki,Mahasu,334,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,mobile herders,grazing fees,6,annas per goat,Arki,Mahasu,334,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,households (Batal),money,12,paise per head-load,Batal,Batal,21,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,shepherd (Brahmaur),grazing permit,,,Brahmaur,Newell,19,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,shepherd (Brahmaur),grazing permit,,,Brahmaur,Brahmaur,55,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd (Brahmaur),grazing fees,1,Re per head of sheep or goat without a grazing permit,Brahmaur,Brahmaur,55,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd (Brahmaur),grazing fees,15,Rs per 100 heads of sheep or goats per summer season,Brahmaur,Brahmaur,55,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,shepherd (Brahmaur),grazing permit,,,Brahmaur,Brahmaur,46,auto
+forest_department,shepherd (Brahmaur),PAYS_DUES_TO,Forest Department,grazing fees,2,payments per year,Brahmaur,Brahmaur,55,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,households (Chaupal),stone collection permit,,,Chaupal,Chaupal,20,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,households (Chaupal),slate quarrying permit,,,Chaupal,Chaupal,20,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,households (Chaupal),timber allocation,,,Chaupal,Chaupal,20,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,shepherd (Chitrari),grazing permit,,,Chitrari,Chitrari,23,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,grazier (Devi-Kothi),grazing permit,,,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,grazier (Devi-Kothi),grazing permit,,,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,Forest Department,ISSUES_PERMIT_TO,households (Devi-Kothi),grazing permit,,,Devi-Kothi,Devi-Kothi,48,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,households (Devi-Kothi),money,1,Re. per permit for a right holder,Devi-Kothi,Devi-Kothi,48,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,households (Devi-Kothi),money,,,Devi-Kothi,Devi-Kothi,49,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,non-right holders,money,5,Rs per permit for a non-right holder,Devi-Kothi,Devi-Kothi,48,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,9.0,Rs per buffalo,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,0.5,Rs per sheep,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,1.0,Rs per goat,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,1.0,Rs per cow/bull,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,4.5,Rs per buffalo,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,0.1,Rs per sheep,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,0.25,Rs per goat,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,grazier (Devi-Kothi),PAYS_DUES_TO,Forest Department,grazing fees,1.0,Rs per cow/bull,Devi-Kothi,Devi-Kothi,47,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,8,n.p. per sheep,Kangra,Newell,19,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,4,annas per goat,Kangra,Newell,19,auto
+forest_department,Kangra rajah,ISSUES_PERMIT_TO,special herdsmen client,grazing rights,,,Kangra,Newell,18,auto
+forest_department,Forest Department,COLLECTS_FEE_FROM,shepherd,grazing fees,4,annas per goat,Lahaul,Newell,19,auto
+forest_department,households (Moginand),PAYS_DUES_TO,Forest Department,grazing fees,1,anna per permit for one big bundle of grass,Moginand,Moginand,47,auto
+forest_department,households (Moginand),PAYS_DUES_TO,Forest Department,articles of daily use,4,per cent interest,Moginand,Moginand,47,auto
+princely_pastures,shepherd,PAYS_DUES_TO,local rajah,grazing fees,,,,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,local villages,manure,,,,Newell,18,auto
+princely_pastures,Raja of Chamba,COLLECTS_FEE_FROM,shepherd,grazing fees,,,,Newell,37,auto
+princely_pastures,households,PAYS_DUES_TO,Raja of Chamba,money,1,Rs per annum per new house,,Newell,17,auto
+princely_pastures,households,PAYS_DUES_TO,Raja of Chamba,money,1,Rs per water mill,,Newell,17,auto
+princely_pastures,households,PAYS_DUES_TO,Raja of Chamba,land revenue and dues,,,,Newell,17,auto
+princely_pastures,shepherd,PAYS_DUES_TO,Himachal Pradesh Government,grazing fees,,,Bara Bangahal,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,fee contractor,grazing fees,2.5,annas per goat per grazing district,Chamba,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,fee contractor,grazing fees,1.375,annas per sheep per grazing district,Chamba,Newell,18,auto
+princely_pastures,Raja of Chamba,AUCTIONS_RIGHT_TO,Gaddi,right to collect grazing fees,,,Chamba,Newell,18,auto
+princely_pastures,Raja of Chamba,AUCTIONS_RIGHT_TO,fee contractor,right to collect grazing fees,,,Chamba,Newell,18,auto
+princely_pastures,Raja of Chamba,AUCTIONS_RIGHT_TO,fee contractor,right to collect grazing fees,,,Chamba State,Newell,18,auto
+princely_pastures,households,PAYS_DUES_TO,Raja of Chamba,wool,,,Chamba State,Newell,14,auto
+princely_pastures,fee contractor,COLLECTS_FEE_FROM,shepherd,grazing fees,2.5,annas per goat per grazing district,Chamba State,Newell,18,auto
+princely_pastures,fee contractor,COLLECTS_FEE_FROM,shepherd,grazing fees,1.5,annas per sheep per grazing district,Chamba State,Newell,18,auto
+princely_pastures,Gaddi,COLLECTS_FEE_FROM,shepherd,grazing fees,,,Kangra,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,Kangra rajah's agent (hanwajiri),grazing fees,,,Kangra,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,Kangra rajah,goats,1,goat per crossing,Kangra,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,Kangra rajah,grazing fees,,,Kangra,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,neighbouring villages,manure,,,Kangra,Newell,18,auto
+princely_pastures,shepherd,PAYS_DUES_TO,Raja of Chamba,land revenue and dues,,,Kangra,Newell,18,auto
+princely_pastures,mahlundi,COLLECTS_FEE_FROM,shepherd,grazing fees,,,Kangra,Newell,18,auto
+princely_pastures,drinkar,COLLECTS_FEE_FROM,shepherd,land revenue and dues,,,Kangra,Newell,18,auto
+princely_pastures,villages at the bottom of dhans,COLLECTS_FEE_FROM,shepherd,manure,,,Kangra,Newell,18,auto
+princely_pastures,agricultural labourer,PAYS_DUES_TO,shepherd,money,,,Kangra,Newell,18,auto
+princely_pastures,households (Kanum),PAYS_DUES_TO,Bushahr ruler,revenue,,,Kanum,Kanum,18,auto
+princely_pastures,landholders (Kanum),PAYS_DUES_TO,Ruling Chief,grain,,,Kanum,Kanum,18,auto
+princely_pastures,Gaddi,PAYS_DUES_TO,Raja of Chamba,sheep and goats,,,Kugti pass,Newell,18,auto
+princely_pastures,Gaddi,PAYS_DUES_TO,Raja of Chamba,grazing fees,,,Lahaul,Newell,18,auto
+princely_pastures,households,PAYS_DUES_TO,Raja of Chamba,land revenue and dues,,,Pangi,Kupha,133,auto
+princely_pastures,Lumberdar,COLLECTS_FEE_FROM,Rajana,land revenue and dues,,,Rajana,Rajana,70,auto
+standing,shepherd from outside Chamba State,PAYS_DUES_TO,authority in Bara Bangahal,grazing fees,,,Bara Bangahal,Newell,18,auto
+standing,mortgagor,PAYS_DUES_TO,mortgagee,money,,,Chergaon,Chergaon,55,auto
+standing,cooperative society,COLLECTS_FEE_FROM,households (Kalath),money,9.27,Rs per 100 rupees of loans advanced,Kalath,Kalath,60,auto
+standing,moneylender (Kalath),COLLECTS_FEE_FROM,households (Kalath),money,,,Kalath,Kalath,60,auto
+standing,moneylender (Kalath),COLLECTS_FEE_FROM,households (Kalath),money,,,Kalath,Kalath,60,auto
+standing,Jubbal devta,COLLECTS_FEE_FROM,Khabbal villagers,grazing fees,2,Rs (nazarana; frequency unspecified),Kalka-pattam mountain,Chergaon,22,auto
+standing,Jubbal devta,PAYS_DUES_TO,Thakur Lila Singh,grazing fees,2,Rs (nazarana; frequency unspecified),Kalka-pattam mountain,Chergaon,22,auto
+standing,households (Kanum),PAYS_DUES_TO,moneylender (Kanum),grain,5,seers in addition to one maund borrowed,Kanum,Kanum,55,auto
+standing,households (Kanum),PAYS_DUES_TO,creditors,money,2,households,Kanum,Kanum,55,auto
+standing,landholders (Kanum),PAYS_DUES_TO,Primary Owner,land revenue and dues,,,Kanum,Kanum,18,auto
+standing,Scheduled castes and others,PAYS_DUES_TO,moneylender (Kanum),money,,,Kanum,Kanum,53,auto
+standing,households (Kothi),PAYS_DUES_TO,shopkeeper (Kothi),money,,,Kothi,Kothi,86,auto
+standing,Gaddi,PAYS_DUES_TO,Lahuli ruler,grazing fees,,,Lahaul,Newell,18,auto
+standing,Gujjar (Maingal),PAYS_DUES_TO,Brahman (Maingal),grain,,,Maingal,Maingal,38,auto
+standing,Gujjar (Maingal),PAYS_DUES_TO,Brahman (Maingal),money,,,Maingal,Maingal,42,auto
+standing,Himachal Pradesh Government,COLLECTS_FEE_FROM,households (Moginand),grazing fees,6,annas per goat,Moginand,Moginand,47,auto
+standing,Himachal Pradesh Government,COLLECTS_FEE_FROM,households (Moginand),grazing fees,1,Rs per buffalo,Moginand,Moginand,47,auto
+standing,households (Moginand),PAYS_DUES_TO,shopkeeper (Moginand),articles of daily use,,,Moginand,Moginand,47,auto
+standing,households,PAYS_DUES_TO,State,land revenue and dues,,,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,land revenue and dues,1,Pertti per two families,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,jira,1,Batti,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,Pulas (grass shoes),1,pair,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,Seski (Artmesia),2,seers,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,ThaIlgi,2,Battis,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,Bhutkeshi,2,seers,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,milk bread,20,pieces,Pangi,Kupha,133,auto
+standing,households,PAYS_DUES_TO,State,land revenue and dues,,,Pangi,Kupha,133,auto
+standing,Mukaddam,COLLECTS_FEE_FROM,households,goats,,,Pangi,Kupha,133,auto
+standing,Mukaddam,COLLECTS_FEE_FROM,households,sheep,,,Pangi,Kupha,133,auto
+standing,Mukaddam,COLLECTS_FEE_FROM,households,ghee,,,Pangi,Kupha,133,auto
+standing,households (Rajana),PAYS_DUES_TO,moneylender (Rajana),money,,,Rajana,Rajana,50,auto
+standing,Lumberdar,COLLECTS_FEE_FROM,Rajana,land revenue and dues,,,Rajana,Rajana,70,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Basal),money,9,per cent interest per annum,Basal,Basal,62,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Basal),money,,,Basal,Basal,62,auto
+trade_and_credit,households (Basal),LENDS_TO,households (Basal),money,,,Basal,Basal,62,auto
+trade_and_credit,unspecified lenders,LENDS_TO,households (Basal),money,500,Rs average debt per household,Basal,Basal,62,auto
+trade_and_credit,unspecified lenders,LENDS_TO,households (Basal),money,,,Basal,Basal,62,auto
+trade_and_credit,well-to-do farmers,LENDS_TO,households (Basal),money,,,Basal,Basal,62,auto
+trade_and_credit,well-to-do farmers,LENDS_TO,households (Basal),money,,no interest when borrower is a relative,Basal,Basal,62,auto
+trade_and_credit,well-to-do farmers,LENDS_TO,households (Basal),money,10,per cent interest per annum or more,Basal,Basal,62,auto
+trade_and_credit,moneylender (Batal),LENDS_TO,persons with scanty means of repayment,money,,,Batal,Batal,37,auto
+trade_and_credit,moneylender (Batal),LENDS_TO,households (Batal),money,12.5,per cent per annum,Batal,Batal,38,auto
+trade_and_credit,shopkeeper (Batal),LENDS_TO,households (Batal),money,12.5,per cent per annum,Batal,Batal,38,auto
+trade_and_credit,Behra Co-operative Society,LENDS_TO,households,money,,,Behra,Nalag,38,auto
+trade_and_credit,Behra Co-operative Society,LENDS_TO,households,money,6,Rs per year,Behra,Nalag,38,auto
+trade_and_credit,households (Bir),LENDS_TO,households (Bir),money,,,Bir,Bir,35,auto
+trade_and_credit,moneylender (Bir),LENDS_TO,households (Bir),money,,,Bir,Bir,35,auto
+trade_and_credit,moneylender (Bir),LENDS_TO,households (Bir),money,,,Bir,Bir,35,auto
+trade_and_credit,moneylender (Brahmaur),LENDS_TO,households (Brahmaur),money,12,per cent interest,Brahmaur,Brahmaur,62,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Brahmaur),money,,,Brahmaur,Brahmaur,84,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Brahmaur),money,2212.51,Rs advanced as loans,Brahmaur,Brahmaur,84,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Brahmaur),money,,,Brahmaur,Brahmaur,84,auto
+trade_and_credit,moneylender (Chauntra),LENDS_TO,households (Chauntra),money,15,per cent interest,Chauntra,Chauntra,52,auto
+trade_and_credit,Himachal Pradesh Government,LENDS_TO,Chamar (Chaupal),money,3000,Rs loan,Chaupal,Chaupal,56,auto
+trade_and_credit,Himachal Pradesh Government,LENDS_TO,Chamar (Chaupal),money,800,Rs loan,Chaupal,Chaupal,56,auto
+trade_and_credit,Rajput (Chaupal),LENDS_TO,households (Chaupal),money,,,Chaupal,Chaupal,56,auto
+trade_and_credit,moneylender (Chaupal),LENDS_TO,households (Chaupal),money,12,per cent interest per annum,Chaupal,Chaupal,56,auto
+trade_and_credit,Rajput (Chergaon),LENDS_TO,Koli (Chergaon),money,,,Chergaon,Chergaon,54,auto
+trade_and_credit,Rajput (Chergaon),LENDS_TO,Rajput (Chergaon),money,,,Chergaon,Chergaon,54,auto
+trade_and_credit,landholders (Chergaon),LENDS_TO,households (Chergaon),money,,,Chergaon,Chergaon,54,auto
+trade_and_credit,moneylender (Chergaon),LENDS_TO,households (Chergaon),money,0.5,value of jewellery,Chergaon,Chergaon,54,auto
+trade_and_credit,moneylender (Chergaon),LENDS_TO,households (Chergaon),money,25,per cent interest on the mortgage debt,Chergaon,Chergaon,54,auto
+trade_and_credit,moneylender (Chergaon),LENDS_TO,households (Chergaon),money,,,Chergaon,Chergaon,65,auto
+trade_and_credit,moneylender (Chergaon),LENDS_TO,households (Chergaon),money,,,Chergaon,Chergaon,65,auto
+trade_and_credit,moneylender (Chergaon),LENDS_TO,households (Chergaon),money,4,annas per rupee per year,Chergaon,Chergaon,66,auto
+trade_and_credit,moneylender (Chergaon),LENDS_TO,peasant,money,,,Chergaon,Chergaon,55,auto
+trade_and_credit,moneylender (Chergaon),LENDS_TO,farmers,money,,,Chergaon,Chergaon,90,auto
+trade_and_credit,rich family,LENDS_TO,man,money,,,Chergaon,Chergaon,55,auto
+trade_and_credit,rich family,LENDS_TO,debtor,money,,,Chergaon,Chergaon,55,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Chitrari),money,,,Chitrari,Chitrari,79,auto
+trade_and_credit,shopkeeper (Chitrari),LENDS_TO,households (Chitrari),money,,,Chitrari,Chitrari,46,auto
+trade_and_credit,relatives or friends,LENDS_TO,households (Devi-Kothi),money,,,Devi-Kothi,Devi-Kothi,53,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Kalath),money,9.33,per cent of total outstanding debt,Kalath,Kalath,60,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Kalath),money,350,Rs of outstanding debt advanced,Kalath,Kalath,60,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Kalath),money,9.33,per cent of the amount advanced,Kalath,Kalath,77,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Kalath),money,150,Rs,Kalath,Kalath,77,auto
+trade_and_credit,cooperative society,LENDS_TO,Ramdasi,money,150,Rs,Kalath,Kalath,77,auto
+trade_and_credit,creditors,LENDS_TO,households (Kalath),money,3750,Rs outstanding debt,Kalath,Kalath,77,auto
+trade_and_credit,moneylender (Kalath),LENDS_TO,households (Kalath),money,56,per cent of total outstanding debt,Kalath,Kalath,60,auto
+trade_and_credit,moneylender (Kalath),LENDS_TO,households (Kalath),money,2100,Rs of outstanding debt advanced,Kalath,Kalath,60,auto
+trade_and_credit,moneylender (Kalath),LENDS_TO,households (Kalath),money,56,per cent of the amount advanced,Kalath,Kalath,77,auto
+trade_and_credit,moneylender (Kalath),LENDS_TO,households (Kalath),money,1500,Rs,Kalath,Kalath,77,auto
+trade_and_credit,friends and relatives,LENDS_TO,households (Kalath),money,34.67,per cent of total outstanding debt,Kalath,Kalath,60,auto
+trade_and_credit,friends and relatives,LENDS_TO,households (Kalath),money,1300,Rs of outstanding debt advanced,Kalath,Kalath,60,auto
+trade_and_credit,friends and relatives,LENDS_TO,households (Kalath),money,34.67,per cent of the amount advanced,Kalath,Kalath,77,auto
+trade_and_credit,friends and relatives,LENDS_TO,households (Kalath),money,1500,Rs,Kalath,Kalath,77,auto
+trade_and_credit,well-to-do owner cultivators,LENDS_TO,tenants,money,200,Rs maximum loan,Kalath,Kalath,60,auto
+trade_and_credit,well-to-do owner cultivators,LENDS_TO,tenants,money,0,per cent interest for six months,Kalath,Kalath,60,auto
+trade_and_credit,households (Kanum),LENDS_TO,Kanum,money,,,Kanum,Kanum,131,auto
+trade_and_credit,middlemen,LENDS_TO,Namsha,money,12.5,per cent interest per year,Kanum,Kanum,44,auto
+trade_and_credit,moneylender (Kanum),LENDS_TO,Scheduled castes and others,money,,,Kanum,Kanum,53,auto
+trade_and_credit,moneylender (Kanum),LENDS_TO,households (Kanum),money,,,Kanum,Kanum,55,auto
+trade_and_credit,moneylender (Kanum),LENDS_TO,households (Kanum),grain,5,"seers per maund borrowed, as annual interest",Kanum,Kanum,55,auto
+trade_and_credit,moneylender (Kanum),LENDS_TO,debtors,money,,,Kanum,Kanum,56,auto
+trade_and_credit,Dabla temple,LENDS_TO,households (Kanum),money,15,Rs per household,Kanum,Kanum,82,auto
+trade_and_credit,Dabla temple,LENDS_TO,households (Kanum),money,,"per cent interest, collected annually",Kanum,Kanum,82,auto
+trade_and_credit,Padam Ram,LENDS_TO,debtors,money,300,Rs interest annually,Kanum,Kanum,132,auto
+trade_and_credit,Padam Ram,LENDS_TO,debtors,money,,,Kanum,Kanum,132,auto
+trade_and_credit,Padam Ram,LENDS_TO,debtors,money,,,Kanum,Kanum,132,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Kot),money,,,Kot,Kot,47,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Kot),money,,,Kot,Kot,47,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Kot),money,,,Kot,Kot,47,auto
+trade_and_credit,unspecified lenders,LENDS_TO,households (Kot),money,30955,Rs total village debt,Kot,Kot,47,auto
+trade_and_credit,unspecified lenders,LENDS_TO,households (Kot),money,14705,Rs loan,Kot,Kot,47,auto
+trade_and_credit,unspecified lenders,LENDS_TO,households (Kot),money,5800,Rs loan,Kot,Kot,47,auto
+trade_and_credit,unspecified lenders,LENDS_TO,households (Kot),money,4750,Rs loan,Kot,Kot,47,auto
+trade_and_credit,unspecified lenders,LENDS_TO,households (Kot),money,500,Rs loan,Kot,Kot,47,auto
+trade_and_credit,households (Kot),LENDS_TO,unspecified lenders,money,703.52,Rs average debt per family,Kot,Kot,47,auto
+trade_and_credit,households (Kot),LENDS_TO,households (Kot),money,,,Kot,Kot,48,auto
+trade_and_credit,households (Kot),LENDS_TO,households (Kot),money,,,Kot,Kot,48,auto
+trade_and_credit,households (Kot),LENDS_TO,households (Kot),money,,,Kot,Kot,48,auto
+trade_and_credit,moneylender (Kot),LENDS_TO,households (Kot),money,,,Kot,Kot,47,auto
+trade_and_credit,moneylender (Kot),LENDS_TO,households (Kot),money,12.5,Rs per 100 rupees of loan,Kot,Kot,47,auto
+trade_and_credit,moneylender (Kot),LENDS_TO,households (Kot),money,,,Kot,Kot,47,auto
+trade_and_credit,bride,LENDS_TO,bride's father,money,12.5,per cent interest per year,Kothi,Kothi,47,auto
+trade_and_credit,moneylender (Kothi),LENDS_TO,households (Kothi),money,,,Kothi,Kothi,86,auto
+trade_and_credit,moneylender (Kothi),LENDS_TO,households (Kothi),money,12.5,per cent interest,Kothi,Kothi,86,auto
+trade_and_credit,shopkeeper (Kothi),LENDS_TO,households (Kothi),money,17,Rs per family on average,Kothi,Kothi,86,auto
+trade_and_credit,shopkeeper (Kothi),LENDS_TO,households (Kothi),money,,,Kothi,Kothi,86,auto
+trade_and_credit,mortgagee,LENDS_TO,households (Kothi),money,6,mortgage cases,Kothi,Kothi,87,auto
+trade_and_credit,mortgagee,LENDS_TO,households (Kothi),money,1306,Rs over ten years,Kothi,Kothi,87,auto
+trade_and_credit,households (Kupha),LENDS_TO,households (Kupha),money,,,Kupha,Kupha,70,auto
+trade_and_credit,wealthy villagers,LENDS_TO,households (Kupha),money,,,Kupha,Kupha,70,auto
+trade_and_credit,wealthy villagers,LENDS_TO,households (Kupha),money,18130,Rs total loan investigated,Kupha,Kupha,70,auto
+trade_and_credit,wealthy villagers,LENDS_TO,households (Kupha),money,9780,Rs loan,Kupha,Kupha,70,auto
+trade_and_credit,wealthy villagers,LENDS_TO,households (Kupha),money,2200,Rs loan,Kupha,Kupha,70,auto
+trade_and_credit,wealthy villagers,LENDS_TO,households (Kupha),money,5,per cent interest per annum,Kupha,Kupha,70,auto
+trade_and_credit,wealthy villagers,LENDS_TO,households (Kupha),money,,,Kupha,Kupha,70,auto
+trade_and_credit,moneylender (Maingal),LENDS_TO,Gujjar (Maingal),money,30,per cent interest per year,Maingal,Maingal,42,auto
+trade_and_credit,moneylender (Maingal),LENDS_TO,Gujjar (Maingal),money,,,Maingal,Maingal,42,auto
+trade_and_credit,moneylender (Maingal),LENDS_TO,Gujjar (Maingal),money,,,Maingal,Maingal,60,auto
+trade_and_credit,moneylender (Maingal),LENDS_TO,Gujjar (Maingal),money,30,per cent interest per year,Maingal,Maingal,42,auto
+trade_and_credit,shopkeeper (Maingal),LENDS_TO,Gujjar (Maingal),money,,,Maingal,Maingal,61,auto
+trade_and_credit,shopkeeper (Maingal),LENDS_TO,Gujjar (Maingal),money,,,Maingal,Maingal,61,auto
+trade_and_credit,Moginand households in debt,LENDS_TO,households (Moginand),money,2870,Rs total debt,Moginand,Moginand,52,auto
+trade_and_credit,rich persons of the nearby villages,LENDS_TO,households (Moginand),money,,,Moginand,Moginand,52,auto
+trade_and_credit,rich persons of the nearby villages,LENDS_TO,households (Moginand),money,12.5,per cent interest per annum,Moginand,Moginand,52,auto
+trade_and_credit,Co-operative Society Menthapal,LENDS_TO,Society members,money,2877.52,Rs advanced on loan,Moginand,Moginand,65,auto
+trade_and_credit,Co-operative Society Menthapal,LENDS_TO,Society members,money,9,Rs per cent per annum interest,Moginand,Moginand,65,auto
+trade_and_credit,Co-operative Society Menthapal,LENDS_TO,Society members,money,4,Rs per cent per annum discount,Moginand,Moginand,65,auto
+trade_and_credit,Co-operative Society Menthapal,LENDS_TO,Society members,money,2,instalments per year,Moginand,Moginand,65,auto
+trade_and_credit,bride,LENDS_TO,bridegroom,money,12.5,per cent interest per year,Nachar,Nachar,23,auto
+trade_and_credit,shopkeeper (Nachar),LENDS_TO,households (Nachar),money,180,Rs per family on average,Nachar,Nachar,31,auto
+trade_and_credit,shopkeeper (Nachar),LENDS_TO,households (Nachar),money,,,Nachar,Nachar,31,auto
+trade_and_credit,moneylender (Nachar),LENDS_TO,households (Nachar),money,,,Nachar,Nachar,31,auto
+trade_and_credit,shopkeeper (Nalag),LENDS_TO,households (Nalag),money,,,Nalag,Nalag,38,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Pangna),money,9,per cent interest,Pangna,Pangna,47,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Pangna),money,,,Pangna,Pangna,47,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Pangna),money,,,Pangna,Pangna,58,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Pangna),money,2300,"Rs in loans outstanding, inclusive of interest",Pangna,Pangna,58,auto
+trade_and_credit,moneylender (Pangna),LENDS_TO,households (Pangna),money,18,per cent interest,Pangna,Pangna,47,auto
+trade_and_credit,moneylender (Pangna),LENDS_TO,Harijans,money,,,Pangna,Pangna,58,auto
+trade_and_credit,shopkeeper (Pangna),LENDS_TO,households (Pangna),money,,,Pangna,Pangna,47,auto
+trade_and_credit,Himachal Pradesh State Co-operative Bank,LENDS_TO,cooperative society,money,5500,Rs,Pangna,Pangna,58,auto
+trade_and_credit,cooperative society,LENDS_TO,cooperative society members,money,,,Rajana,Rajana,72,auto
+trade_and_credit,cooperative society,LENDS_TO,cooperative society members,money,9,per cent interest,Rajana,Rajana,72,auto
+trade_and_credit,cooperative society,LENDS_TO,cooperative society members,money,2,years until repayment,Rajana,Rajana,72,auto
+trade_and_credit,Rajput (Rajana),LENDS_TO,tenants,money,,,Rajana,Rajana,50,auto
+trade_and_credit,Brahman (Rajana),LENDS_TO,tenants,money,,,Rajana,Rajana,50,auto
+trade_and_credit,moneylender (Rajana),LENDS_TO,households (Rajana),money,,,Rajana,Rajana,50,auto
+trade_and_credit,moneylender (Rajana),LENDS_TO,households (Rajana),money,,,Rajana,Rajana,50,auto
+trade_and_credit,moneylender (Rajana),LENDS_TO,households (Rajana),money,1,anna per rupee,Rajana,Rajana,50,auto
+trade_and_credit,"friends, relatives and neighbours",LENDS_TO,households (Rajana),money,,,Rajana,Rajana,50,auto
+trade_and_credit,peasants,LENDS_TO,households (Rajana),money,0.5,value of jewellery,Rajana,Rajana,51,auto
+trade_and_credit,peasants,LENDS_TO,households (Rajana),money,0,per cent interest,Rajana,Rajana,51,auto
+trade_and_credit,Himachal Pradesh Government,LENDS_TO,Bodh (Tandi),money,4000,Rs,Tandi,Tandi,70,auto
+trade_and_credit,Himachal Pradesh Government,LENDS_TO,Bodh (Tandi),money,1000,Rs,Tandi,Tandi,70,auto
+trade_and_credit,cooperative society,LENDS_TO,households (Tandi),money,9,per cent interest (period not stated),Tandi,Tandi,67,auto
+trade_and_credit,households (Tandi),LENDS_TO,households (Tandi),money,,,Tandi,Tandi,67,auto
+trade_and_credit,landholders (Tandi),LENDS_TO,households (Tandi),money,,,Tandi,Tandi,67,auto
+trade_and_credit,landholders (Tandi),LENDS_TO,households (Tandi),money,10,per cent interest (period not stated),Tandi,Tandi,67,auto
+trade_and_credit,landholders (Tandi),LENDS_TO,Lohar (Tandi),money,800,Rs,Tandi,Tandi,70,auto
+trade_and_credit,moneylender (Tandi),LENDS_TO,households (Tandi),money,,,Tandi,Tandi,67,auto
+trade_and_credit,moneylender (Tandi),LENDS_TO,households (Tandi),money,10,per cent interest (period not stated),Tandi,Tandi,67,auto
+trade_and_credit,moneylender (Tandi),LENDS_TO,Bodh (Tandi),money,800,Rs,Tandi,Tandi,70,auto
+trade_and_credit,Government Departments,LENDS_TO,households (Tandi),money,,,Tandi,Tandi,67,auto
+trade_and_credit,Government agencies,LENDS_TO,households (Tandi),money,5,per cent interest (period not stated),Tandi,Tandi,67,auto
+trade_and_credit,cooperative society,LENDS_TO,Society members,money,9.37,per cent interest per year,Tihra,Kot,65,auto
+two_sovereigns,Gaddi,PAYS_DUES_TO,Raja of Chamba,revenue,,,,1881,275,auto
+two_sovereigns,Gaddi,PAYS_DUES_TO,British administration in Kangra,revenue,,,,1881,275,auto

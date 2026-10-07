@@ -1,0 +1,102 @@
+claim_id,source,pdf_page,layer_year,subject,subject_id,predicate,object,object_id,resource,resource_id,qty,unit,months,place,place_id,when,date_text,quote,note,extracted_by,quote_match,match_score,qty_in_quote,entity_ok,type_ok,auto_status,verified_by,verified_on,human_status,human_note,cited_page
+ca1050b26b1,Mahasu,26,1961,Kinnaura,kinnaura,HAS_POPULATION,persons,households,,,1084,persons,,Mahasu,mahasu,at_survey,1961 Census,"4. Kanaura or Kinnara
+5. Lahaula
+Unolassifiable
+
+253
+680
+7
+
+199
+404
+
+452
+1,084
+
+4
+11
+13-36
+32-05
+0,33",The table labels this group “Kanaura or Kinnara”; district-level population.,"gpt-6-luna (v2, effort medium)",none,0.0,True,True,True,,,,,,26
+c96e2d64650,Mahasu,26,1961,Lahula,lahula,HAS_POPULATION,persons,households,,,11,persons,,Mahasu,mahasu,at_survey,1961 Census,"4. Kanaura or Kinnara
+5. Lahaula
+Unolassifiable
+
+253
+680
+7
+
+199
+404
+
+452
+1,084
+
+4
+11
+13-36
+32-05
+0,33",District-level population; the table labels this group “Lahaula”.,"gpt-6-luna (v2, effort medium)",none,0.0,True,True,True,,,,,,26
+c2ad69e4d9d,Brahmaur,12,1961,Brahmaur,brahmaur,LOCATED_ON,Budhal,budhal,,,,,,Brahmaur,brahmaur,unspecified,,"on the right bank of the.
+Budhal nullah, cliffs",The OCR names the river as “Budhal nullah”.,"gpt-6-luna (v2, effort medium)",none,0.689,,True,True,,,,,,12
+c7278d0d977,Brahmaur,28,1961,shepherd,shepherd,CARRIES,sheep,sheep,,,,,,Brahmaur,brahmaur,unspecified,,A shepherd on the march may have four or five new born lambs stowed away in his bosom,The text says four or five newborn lambs; the schema does not represent a quantity range.,"gpt-6-luna (v2, effort medium)",none,0.635,,True,True,,,,,,28
+c3981db508d,Brahmaur,38,1961,Gaddi,gaddi,MIGRATES_TO,Brahmaur,brahmaur,,,,,,Brahmaur,brahmaur,unspecified,,on their return journey from Kangra side to their village.,The page names the destination only as “their village”; Brahmaur is the village covered by this survey.,"gpt-6-luna (v2, effort medium)",none,0.825,,True,True,,,,,,38
+c0051eaec15,Brahmaur,54,1961,Rehara,rehara,HAS_POPULATION,households,households,,,1,households,,Brahmaur,brahmaur,at_survey,,Rehara 1,The table gives one total household; it shows no sheep-or-goat household or livestock figure for this row.,"gpt-6-luna (v2, effort medium)",none,0.0,True,True,False,,,,,,54
+cf495347b8b,Brahmaur,56,1961,shepherd,shepherd,HIRES,Sipi,sipi,,,,,,Brahmaur,brahmaur,recurring,,"Those who have larger number of
+:;heep to shear geI].erally employ Sipis Qf the
+village who do 'hot possess such livestock.",The OCR is reproduced exactly; the sentence says Sipis without livestock are generally employed by those with larger numbers of sheep.,"gpt-6-luna (v2, effort medium)",none,0.661,,True,True,,,,,,56
+cb092059160,Brahmaur,56,1961,shepherd,shepherd,HIRES,Sipi,sipi,wool,wool,1,sheep's wool yield per 25 sheep shorn,,Brahmaur,brahmaur,recurring,,"The Sipis employed for the purpose are paid
+in kind i.e. wool, the rate being wool yield
+of one sheep for shearing 25 sheep.","Payment was in wool, at the wool yield of one sheep for shearing 25 sheep.","gpt-6-luna (v2, effort medium)",none,0.636,False,True,True,,,,,,56
+c830e818f28,Brahmaur,56,1961,shepherd,shepherd,HIRES,Sipi,sipi,wool,wool,5,sheep's wool yield,,Brahmaur,brahmaur,at_survey,,"In all he (Sipi) sheared 125
+sheep and thus got the yield of wool from 5
+sheep.",A Sipi who was also a blacksmith was employed by a shepherd; he sheared 125 sheep and received wool equivalent to the yield from 5 sheep.,"gpt-6-luna (v2, effort medium)",none,0.592,True,True,True,,,,,,56
+c90ff681c28,Brahmaur,60,1961,Gaddi,gaddi,MOVES_VIA,high passes,high_pass,,,,,,Brahmaur,brahmaur,unspecified,,"The Gaddis do not commonly use
+these shoes except when they have to cross
+high passes with their flocks.",The passage describes crossing passes with flocks as the occasion for using the shoes; it does not name a route or season.,"gpt-6-luna (v2, effort medium)",none,0.806,,True,True,,,,,,60
+c6f6ce937ec,Brahmaur,82,1961,boys,boys,WORKS_AS,shepherd,shepherd,,,,,,Brahmaur,brahmaur,at_survey,,The utility of small boys tending their cattle or sheep and goats is more valued than their education,The passage describes boys tending livestock; it does not give their caste or household affiliation.,"gpt-6-luna (v2, effort medium)",none,0.634,,True,True,,,,,,82
+c92b0911698,Brahmaur,106,1961,Brahmaur,brahmaur,LOCATED_ON,Budhal,budhal,,,,,,Brahmaur,brahmaur,unspecified,,"The main road proceeds along tRe left bank of the Budhal to Brahmor, the ancient capital.",The location is conveyed by the road reaching Brahmor along the river bank.,"gpt-6-luna (v2, effort medium)",none,0.678,,True,True,,,,,,106
+c6ad075c08c,Chitrari,24,1961,Gaddi,gaddi,MIGRATES_TO,low hills,low_hills,,,,,10|11,Chitrari,chitrari,recurring,,"The people migrate during
+October, November and return from April
+to June",The page identifies the seasonal destination elsewhere as the plains.,"gpt-6-luna (v2, effort medium)",none,0.722,,True,True,,,,,,24
+c567475ac6b,Chitrari,24,1961,Gaddi,gaddi,MIGRATES_TO,Chitrari,chitrari,,,,,4|5|6,Chitrari,chitrari,recurring,,"The people migrate during
+October, November and return from April
+to June",The passage says they return but does not name the destination.,"gpt-6-luna (v2, effort medium)",none,0.722,,True,True,,,,,,24
+ccb853d1a1b,Chitrari,24,1961,Gaddi,gaddi,MOVES_VIA,passes,grazing_permit,,,,,,Chitrari,chitrari,recurring,,"as the passes have to be crossed over bef~re
+winter sets in",The page does not identify which passes.,"gpt-6-luna (v2, effort medium)",none,0.847,,True,True,,,,,,24
+c113a91b077,Chitrari,24,1961,Gaddi,gaddi,WORKS_AS,maid-servant,maid_servant,,,,,,Chitrari,chitrari,recurring,,"their
+women folk work as maid-servants",,"gpt-6-luna (v2, effort medium)",none,0.842,,True,True,,,,,,24
+c00b3bd24cc,Chitrari,24,1961,Gaddi,gaddi,CARRIES,money,money,,,,,,Chitrari,chitrari,recurring,,"Cash is brought back into the anaemic economy of
+the village",The passage attributes this to seasonal migration; no amount is given.,"gpt-6-luna (v2, effort medium)",none,0.8,,True,True,,,,,,24
+c34839ad9d7,Chitrari,24,1961,Gaddi,gaddi,OWNS,goats,goats,,,600,goats,,Chitrari,chitrari,unspecified,,"Gaddi shepherd near abput Gehra-He with his 6
+hundred goats or so",Approximate number; the shepherd is described as near Gehra.,"gpt-6-luna (v2, effort medium)",none,0.785,False,True,True,,,,,,24
+c66bd57d1a9,Chitrari,24,1961,Gaddi,gaddi,SAYS,Road construction,road_construction,,,,,,Chitrari,chitrari,unspecified,,"wherever I have taken my sheep, no matter what rpute I chose Government has
+improved and made a better road",Direct speech from a Gaddi shepherd; OCR spelling “rpute” retained.,"gpt-6-luna (v2, effort medium)",none,0.802,,True,False,,,,,,24
+cc70314cd9a,Chitrari,46,1961,households,households,BUYS_FROM,neighbouring villagers,households,grain,grain,,,,Chitrari,chitrari,at_survey,,"Their agricultural production is not sufficient even for eight months in a year and have, therefore, to purchase the foodgrains fmm the neighbouring villagers",,"gpt-6-luna (v2, effort medium)",none,0.744,,True,True,,,,,,46
+c4396660f8b,Chitrari,46,1961,landholders,zamindar,LENDS_TO,households,households,money,money,,,,Chitrari,chitrari,at_survey,,"The agencies which cater to their requirement of loans includ:e the petty shopkeepers of the village and nearby places, and also a few well-to-oo zamindars.",,"gpt-6-luna (v2, effort medium)",none,0.74,,True,True,,,,,,46
+c57fb4e14d9,Chitrari,46,1961,cooperative society,cooperative,LENDS_TO,households,households,money,money,,,,Chitrari,chitrari,at_survey,,The cooperative society is not much popular with them although it meets their financial requirements to some extent.,Financial assistance is described in the context of agencies catering to loan requirements.,"gpt-6-luna (v2, effort medium)",none,0.652,,True,True,,,,,,46
+cc1dba476fa,Chitrari,46,1961,private lending agencies,moneylender,LENDS_TO,households,households,money,money,15,per cent interest,,Chitrari,chitrari,at_survey,,The rate of interest charged by the private agencies is exorbi~ tant as the element of risk involved is greater. The rate may be put at 15 to 20 per,"The stated rate is a range of 15 to 20 per cent; the excerpt ends after “per,” so the quote preserves the page text as given.","gpt-6-luna (v2, effort medium)",none,0.705,True,True,True,,,,,,46
+cb140853d04,Chitrari,52,1961,Gujjar,gujjar,MIGRATES_TO,pasture,pasture,,,,,,Chitrari,chitrari,recurring,,"th.e ramy s.eason the Gujjars (a nomadic
+trIbe dealmg with milk and its products)
+come in the nearby areas and settle on the
+dhars",The page names the rainy season but gives no months.,"gpt-6-luna (v2, effort medium)",none,0.758,,True,False,,,,,,52
+c8579a2418a,Nachar,32,1961,households,households,WORKS_AS,labourer,labourer,,,22,persons,,Nachar,nachar,at_survey,,"Though 22 persons have Come in this category, it is a common practice that some members from every family work as unskilled labourers during the year whenever they find spare time.",“This category” refers to labourers in the preceding passage.,"gpt-6-luna (v2, effort medium)",none,0.433,True,True,True,,,,,,32
+c4fb5bd01bf,Shakrori,33,1961,households,households,OWNS,cattle,cattle,,,2,cattle,,Shakrori,shakrori,at_survey,,"Practically every home has a cow, a bullock, a sheep or a goat.",The sentence says practically every home has one cow and one bullock.,"gpt-6-luna (v2, effort medium)",none,0.8,False,True,True,,,,,,33
+ce7b1ea7ed5,Shakrori,33,1961,households,households,OWNS,sheep and goats,sheep_and_goats,,,1,sheep or goat,,Shakrori,shakrori,at_survey,,"Practically every home has a cow, a bullock, a sheep or a goat.","The wording gives a sheep or a goat as alternatives, not both.","gpt-6-luna (v2, effort medium)",none,0.8,False,True,True,,,,,,33
+c7d4ac56c56,Chauntra,63,1961,Gaddi,gaddi,GRAZES_AT,Chauntra,chauntra,,,,,,Chauntra,chauntra,unspecified,,"Chauntra was, at one time, a pasture land where Gaddis gra:zedj' theiI1 flocks of sheep and goats in winter.",The page gives the season as winter but names no months.,"gpt-6-luna (v2, effort medium)",none,0.721,,True,True,,,,,,63
+caf587a6d54,Chauntra,63,1961,Mandi ruler,mandi_ruler,OWNS,tea garden,tea_garden,,,,,,Chauntra,chauntra,unspecified,,The ruler of Mandi took advantage of it and planted his own: tea garden there.,,"gpt-6-luna (v2, effort medium)",none,0.75,,True,True,,,,,,63
+c1897153d63,Chergaon,19,1961,Chergaon,chergaon,HAS_POPULATION,households,households,,,18,households of 2-3 members,,Chergaon,chergaon,at_survey,,18 households of 2-3 members with 44 persons,,"gpt-6-luna (v2, effort medium)",none,0.0,True,True,False,,,,,,19
+c428e1ee0bc,Chergaon,57,1961,households,households,OWNS,cattle,cattle,,,,,,Chergaon,chergaon,at_survey,,The total number of milch and draught cattle and goats and sheep are sufficient.,The page says the village's total number of milch and draught cattle is sufficient; no count is given.,"gpt-6-luna (v2, effort medium)",none,0.709,,True,True,,,,,,57
+cf0055f68c5,Chergaon,57,1961,households,households,OWNS,sheep and goats,sheep_and_goats,,,,,,Chergaon,chergaon,at_survey,,The total number of milch and draught cattle and goats and sheep are sufficient.,The page says the village's total number of goats and sheep is sufficient; no count is given.,"gpt-6-luna (v2, effort medium)",none,0.709,,True,True,,,,,,57
+c515fa97f10,Chergaon,57,1961,households,households,GRAZES_AT,Chergaon,chergaon,sheep and goats,sheep_and_goats,,,,Chergaon,chergaon,recurring,,"During winter, goats and sheep are kept in the village,",The flock is kept in the village during winter.,"gpt-6-luna (v2, effort medium)",none,0.792,,True,True,,,,,,57
+cd5a99f0430,Chergaon,57,1961,fawal,fawal,GRAZES_AT,high pastures,high_pastures,sheep and goats,sheep_and_goats,,,,Chergaon,chergaon,recurring,,"after winter, they are taken to high peaks dandas by a villager known as fawal.",The flock is taken to the high peaks (dandas) after winter.,"gpt-6-luna (v2, effort medium)",none,0.675,,True,True,,,,,,57
+c7bf565d018,Chergaon,57,1961,households,households,MIGRATES_TO,high pastures,high_pastures,sheep and goats,sheep_and_goats,,,,Chergaon,chergaon,recurring,,a member from it takes the flock to danda and returns before the winter breaks in.,A member of a household with many goats and sheep takes its flock to the danda and returns before winter.,"gpt-6-luna (v2, effort medium)",none,0.716,,True,True,,,,,,57
+c383acdc030,Chergaon,57,1961,households,households,HIRES,fawal,fawal,grain,grain,,,,Chergaon,chergaon,recurring,,He is given grains at the two harvests.,"Grain is the fawal's payment, given at the two harvests.","gpt-6-luna (v2, effort medium)",none,0.763,,True,True,,,,,,57
+c92e565dc74,Chergaon,57,1961,Koli,koli,WORKS_AS,cow-herd,cow_herd,,,2,cow-herds,,Chergaon,chergaon,at_survey,,Cattle are driven to the jungle by the two koli cow-herds.,,"gpt-6-luna (v2, effort medium)",none,0.825,False,True,True,,,,,,57
+c362a4dddaf,Chergaon,57,1961,households,households,GRAZES_AT,village jungle,forest,cattle,cattle,,,,Chergaon,chergaon,recurring,,Cattle are driven to the jungle by the two koli cow-herds.,The page identifies the cattle-grazing place only as 'the jungle'.,"gpt-6-luna (v2, effort medium)",none,0.825,,True,True,,,,,,57
+c9472a031fa,Chergaon,57,1961,households,households,HIRES,cow-herd,cow_herd,grain,grain,,bread per morning,,Chergaon,chergaon,recurring,,"In the morning, each household gives bread to the cow-herds as his wages.",Bread is given as wages.,"gpt-6-luna (v2, effort medium)",none,0.732,,True,True,,,,,,57
+ccef14a98e5,Chergaon,57,1961,Koli,koli,WORKS_AS,cow-herd,cow_herd,,,,,,Chergaon,chergaon,at_survey,,"The job is not hereditary, and can be changed if gawala misbehaves.",The cow-herd job is not hereditary and can be changed for misbehaviour.,"gpt-6-luna (v2, effort medium)",none,0.646,,True,True,,,,,,57
+ca86b9db6f5,Chergaon,57,1961,Rajput,rajput,SELLS_TO,shopkeeper,shopkeeper,milk,milk,1,rupee per seer,,Chergaon,chergaon,at_survey,,"One Rajput family of Ram Gopal, sells milk to the local shopkeepers @ Re. 1/- per seer.",The sale is by one Rajput family; the OCR prints the rate as 'Re. 1/- per seer'.,"gpt-6-luna (v2, effort medium)",none,0.6,True,True,True,,,,,,57
+c6a55b55d16,Chergaon,62,1961,shopkeeper,shopkeeper,SELLS_TO,households,households,articles,article,6,per cent interest (period unspecified),,Chergaon,chergaon,at_survey,,"Households better off get articles on credit basis and at the harvest time, shopkeeper collects his bill alongwith the interest @ 6 per cent.",Credit is extended to better-off households; the bill is collected at harvest. The page later says collection is usually in kind.,"gpt-6-luna (v2, effort medium)",none,0.672,True,True,True,,,,,,62
+cc451873576,Nalag,38,1961,shopkeeper,shopkeeper,LENDS_TO,households,households,money,money,10,per cent interest per annum,,Nalag,nalag,unspecified,,The interest is charged at the rate of Rs. 10 per cent per annum.,The text gives this as the interest rate charged by the shopkeepers who advance loans.,"gpt-6-luna (v2, effort medium)",none,0.698,True,True,True,,,,,,38
+c9930397d97,1931,367,1931,Gujjar,gujjar,WORKS_AS,sheep breeder,sheep_breeder,,,,,,,,before_1948,1931,"Their main occupations are agriculture and breeding of cattle, goats and sheep","This is a general statement about Gujjars, not specifically about hill Gujjars.","gpt-6-luna (v3, effort medium)",none,0.753,,True,True,,,,,,367

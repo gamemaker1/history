@@ -1,0 +1,173 @@
+[
+ {
+  "selector": "node",
+  "style": {
+   "label": "data(label)",
+   "font-size": 11,
+   "color": "#0b0b0b",
+   "text-valign": "bottom",
+   "text-margin-y": 4,
+   "text-wrap": "wrap",
+   "text-max-width": 90,
+   "background-color": "#f0efec",
+   "border-width": 1.5,
+   "border-color": "#52514e",
+   "width": "mapData(degree, 1, 30, 18, 46)",
+   "height": "mapData(degree, 1, 30, 18, 46)"
+  }
+ },
+ {
+  "selector": "node[type = 'place']",
+  "style": {
+   "shape": "ellipse"
+  }
+ },
+ {
+  "selector": "node[type = 'river']",
+  "style": {
+   "shape": "barrel",
+   "border-style": "double",
+   "border-width": 3
+  }
+ },
+ {
+  "selector": "node[type = 'group']",
+  "style": {
+   "shape": "round-rectangle"
+  }
+ },
+ {
+  "selector": "node[type = 'role']",
+  "style": {
+   "shape": "diamond"
+  }
+ },
+ {
+  "selector": "node[type = 'authority']",
+  "style": {
+   "shape": "hexagon",
+   "border-width": 2.5
+  }
+ },
+ {
+  "selector": "node[type = 'resource']",
+  "style": {
+   "shape": "round-triangle"
+  }
+ },
+ {
+  "selector": "node[type = 'event']",
+  "style": {
+   "shape": "star"
+  }
+ },
+ {
+  "selector": "node[type = 'person']",
+  "style": {
+   "shape": "tag"
+  }
+ },
+ {
+  "selector": "node[?uncurated]",
+  "style": {
+   "border-style": "dashed"
+  }
+ },
+ {
+  "selector": "edge",
+  "style": {
+   "width": 2,
+   "curve-style": "bezier",
+   "target-arrow-shape": "triangle",
+   "arrow-scale": 0.8,
+   "line-color": "#b8b7b0",
+   "target-arrow-color": "#b8b7b0",
+   "opacity": 0.9
+  }
+ },
+ {
+  "selector": "edge[family = 'movement']",
+  "style": {
+   "line-color": "#2a78d6",
+   "target-arrow-color": "#2a78d6",
+   "line-style": "dashed",
+   "line-dash-pattern": [
+    8,
+    4
+   ]
+  }
+ },
+ {
+  "selector": "edge[family = 'extraction']",
+  "style": {
+   "line-color": "#eb6834",
+   "target-arrow-color": "#eb6834",
+   "width": 2.5
+  }
+ },
+ {
+  "selector": "edge[family = 'property']",
+  "style": {
+   "line-color": "#1baf7a",
+   "target-arrow-color": "#1baf7a"
+  }
+ },
+ {
+  "selector": "edge[family = 'exchange']",
+  "style": {
+   "line-color": "#52514e",
+   "target-arrow-color": "#52514e",
+   "line-style": "dotted"
+  }
+ },
+ {
+  "selector": "edge[family = 'labour']",
+  "style": {
+   "line-color": "#52514e",
+   "target-arrow-color": "#52514e",
+   "line-style": "dashed",
+   "line-dash-pattern": [
+    3,
+    3
+   ]
+  }
+ },
+ {
+  "selector": "edge[evidence = 'image_unverified']",
+  "style": {
+   "opacity": 0.55
+  }
+ },
+ {
+  "selector": "edge[evidence = 'ai_partly']",
+  "style": {
+   "opacity": 0.7
+  }
+ },
+ {
+  "selector": "edge:selected, edge.hover",
+  "style": {
+   "width": 4,
+   "z-index": 10,
+   "label": "data(predicate)",
+   "font-size": 10,
+   "color": "#0b0b0b",
+   "text-background-color": "#fcfcfb",
+   "text-background-opacity": 1,
+   "text-background-padding": 2
+  }
+ },
+ {
+  "selector": "node:selected",
+  "style": {
+   "border-width": 3,
+   "border-color": "#0b0b0b"
+  }
+ },
+ {
+  "selector": ".faded",
+  "style": {
+   "opacity": 0.12
+  }
+ }
+]

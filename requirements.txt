@@ -1,0 +1,12 @@
+# Python 3.12. Install with:
+#   uv venv .venv --python 3.12 && uv pip install -r requirements.txt
+anthropic
+folium
+matplotlib
+networkx
+openai
+pandas
+plotly
+pymupdf
+requests
+scikit-learn
