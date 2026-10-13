@@ -193,7 +193,7 @@ of the conflict.
 Across all four conjunctures runs one standing contradiction: flocks are owned
 by the landholding castes, and the Sipi, Koli and Lohar households own few or
 none. In Brahmaur, Brahmans and Rajputs hold 97.9% of the animals (Brahmaur,
-p. 54). In Kothi, Rajputs hold 94.9% (Kothi, p. 102).
+p. 54). In Kothi, Rajputs hold 94.5% (Kothi, p. 102).
 
 ---
 

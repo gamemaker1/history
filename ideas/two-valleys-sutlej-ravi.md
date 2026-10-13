@@ -161,7 +161,7 @@ forces pulled against each other and what came out of the conflict.
 One contradiction runs through every conjuncture in both valleys. The
 landholding castes own the flocks, and the Sipi, Koli and Lohar households own
 few. Brahmans and Rajputs hold 97.9% of Brahmaur's sheep and goats (Brahmaur,
-p. 54). Rajputs hold 94.9% of Kothi's (Kothi, p. 102).
+p. 54). Rajputs hold 94.5% of Kothi's (Kothi, p. 102).
 
 ---
 
@@ -186,14 +186,14 @@ spend the winter in the valleys and plains of the neighbouring districts"
 
 | | Upper Sutlej | Ravi and Budhal |
 | --- | --- | --- |
-| Flock totals | Kanum: 1,744 sheep and goats held by 61 Kanet (Rajput) households (Kanum, p. 61). Kothi: Rajputs 2,416, Kolis 72, Lohars 58 (Kothi, p. 102) | Brahmaur: 4,484 across 48 of 99 households (Brahmaur, p. 54). Devi-Kothi: 1,117 sheep and 220 goats (Devi-Kothi, p. 47) |
+| Flock totals | Kanum: 1,744 sheep and goats held by 61 Kanet (Rajput) households (Kanum, p. 61). Kothi: Rajputs 2,416, Kolis 72, Lohars 58, Badhis 11 (Kothi, p. 102) | Brahmaur: 4,484 across 48 of 99 households (Brahmaur, p. 54). Devi-Kothi: 1,117 sheep and 220 goats (Devi-Kothi, p. 47) |
 | Per family | "On an average, 100 to 200 sheep and goats are kept by a family." The lambardar has "about 1,100" (Nachar, p. 33) | Brahmans 20 households with 2,027 animals, Rajputs 20 with 2,364, Sipis 8 with 93 (Brahmaur, p. 54) |
 | Hired shepherds | Landholders "found it difficult to engage labourers to attend to their sheep and goats. Men and women now prefer to work on the roads rather than work as 'fawals'" (Kanum, p. 51) | Pohals are hired "by a very few people in rare cases" and paid meals, clothing, wool, "two or four sheep per hundred" and Rs 2 a month (Brahmaur, p. 55). "The majority of Gaddis are not shepherds" (Newell, p. 37) |
 
 In both valleys the landholding castes own almost all the animals. In
 Brahmaur, Brahmans and Rajputs hold 4,391 of 4,484, which is 97.9% (our
-arithmetic from Brahmaur, p. 54). In Kothi, Rajputs hold 2,416 of 2,546, which
-is 94.9% (our arithmetic from Kothi, p. 102).
+arithmetic from Brahmaur, p. 54). In Kothi, Rajputs hold 2,416 of 2,557, which
+is 94.5% (our arithmetic from Kothi, p. 102). The table also lists 2 Badhi households with 11 animals.
 
 ### 3. Pastures, grazing dues and forest rights
 
@@ -268,7 +268,7 @@ many more animals per household than villages on the Beas and Yamuna systems.
 | Ravi | Devi-Kothi | 1,117 sheep, 220 goats | not stated | | Devi-Kothi, p. 47 |
 | Ravi | Maingal | 114 sheep and 106 goats (Gaddi Brahmins), 217 buffaloes (Gujjars) | 31 | | Maingal, p. 48 |
 | Sutlej | Kanum | 1,744 (Kanets) and 83 (Kolis) | 113 | 16.2 | Kanum, p. 61 |
-| Sutlej | Kothi | 2,546 | 128 | 19.9 | Kothi, p. 102 |
+| Sutlej | Kothi | 2,557 **(image)** | 128 | 20.0 | Kothi, p. 102 |
 | Sutlej | Nachar | "100 to 200" per family | 213 | | Nachar, p. 33 |
 | Sutlej | Shakrori | 23 sheep, 53 goats **(image)** | 60 | 1.3 | Shakrori, p. 76 |
 | Sutlej | Nalag | 118 sheep, 241 goats **(image)** | not checked | | Nalag, p. 31 |
