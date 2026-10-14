@@ -72,48 +72,35 @@
 
 % ================================================================ title page
 \begin{titlepage}
-\begin{tikzpicture}[remember picture, overlay]
-  \fill[maroon] (current page.north west) rectangle ([yshift=-1.3cm]current page.north east);
-  \node[anchor=west, text=white, font=\sffamily\small] at ([xshift=1.8cm, yshift=-0.65cm]current page.north west)
-    {Introduction to History (HS3.201) \;\textbar\; IIIT Hyderabad \;\textbar\; Monsoon 2026};
-  \node[anchor=east, text=white, font=\sffamily\small] at ([xshift=-1.8cm, yshift=-0.65cm]current page.north east)
-    {Computational History Project};
-  \fill[maroon] (current page.south west) rectangle ([yshift=0.5cm]current page.south east);
-\end{tikzpicture}
-
-\vspace*{2.6cm}
-{\sffamily\large\bfseries\color{maroon}\MakeUppercase{Stage 2 Report}}\par
-\vspace{0.35cm}
-{\fontsize{32}{37}\selectfont\bfseries\color{ink}The Mountain Year\\[2pt] and Its Owners\par}
-\vspace{0.45cm}
-{\LARGE\itshape\color{maroon!85!black}Seasonal herding in the Himachal hills, 1881--1961\par}
+\centering
+\vspace*{1.5cm}
+{\large Introduction to History (HS3.201)\par}
+{\large International Institute of Information Technology, Hyderabad\par}
+\vspace{2.5cm}
+{\color{maroon}\rule{0.6\textwidth}{0.6pt}\par}
 \vspace{0.6cm}
-{\color{maroon}\rule{\linewidth}{1.4pt}}\par
+{\Huge\bfseries\color{maroon}The Mountain Year and Its Owners\par}
 \vspace{0.4cm}
-{\Large\sffamily\color{ink}Working with the sources, and the computational analysis\par}
-\vspace{1.4cm}
-
-{\sffamily\large\color{ink}Vishak Kashyap K \quad\textperiodcentered\quad Vedant Kulkarni \quad\textperiodcentered\quad Himangi Sahoo\par}
-\vspace{0.2cm}
-{\sffamily\color{muted}14 October 2026\par}
-
-\vfill
-
-\begin{tcolorbox}[enhanced, colback=maroonlight, colframe=maroonlight, boxrule=0pt, arc=2pt,
-  borderline west={3pt}{0pt}{maroon}, left=12pt, right=12pt, top=10pt, bottom=10pt]
-{\sffamily\small\bfseries\color{maroon}\MakeUppercase{Code, data and outputs}}\par\vspace{5pt}
-{\small Everything in this report can be checked and rerun from our repository:\par\vspace{3pt}
-\textbf{\url{https://github.com/gamemaker1/history/tree/vishak's-attempts}}\par\vspace{5pt}
-The repository holds the scanned sources (with Git LFS), their OCR text, every script we ran, the data we built, the charts in this report, and a full log of each step (\file{computational-analysis.md}, entries A0 to A20). Entry numbers in square brackets, such as \entry{A10}, point to that log.\par}
-\end{tcolorbox}
-
+{\Large\itshape\color{maroon!80!black}Seasonal herding in the Himachal hills, 1881--1961\par}
 \vspace{0.6cm}
-\begin{tcolorbox}[enhanced, colback=white, colframe=maroon!25, boxrule=0.5pt, arc=2pt, left=12pt, right=12pt, top=8pt, bottom=8pt]
-{\sffamily\small\bfseries\color{maroon}\MakeUppercase{Our question}}\par\vspace{4pt}
-{\small\itshape How did the seasonal movement of flocks between high summer pastures and low winter grazing shape life in the Himachal hills between 1881 and 1961, and who controlled and profited from it? As rule over the hills, control of the pastures, roads and trade changed, did the herding cycle persist as an adaptation to mountain and season, or did the ownership of flocks, pastures and shepherds' labour reshape it?\par}
-\end{tcolorbox}
-\vspace{0.9cm}
+{\color{maroon}\rule{0.6\textwidth}{0.6pt}\par}
+\vspace{1cm}
+{\large Stage 2 Report: Working with the Sources and the Computational Analysis\par}
+\vspace{2cm}
+{\large Vishak Kashyap K\par}
+\vspace{0.15cm}
+{\large Vedant Kulkarni\par}
+\vspace{0.15cm}
+{\large Himangi Sahoo\par}
+\vspace{1.2cm}
+{\large\color{muted}14 October 2026\par}
+\vfill
+{\small\color{muted}Code, data and outputs:\par}
+\vspace{2pt}
+{\small\url{https://github.com/gamemaker1/history/tree/analysis}\par}
+\vspace{1cm}
 \end{titlepage}
+\onecolumn
 
 % ================================================================ summary + contents
 \section*{Summary}
@@ -129,9 +116,14 @@ The results so far point one way. The herding year itself hardly changed between
 {\hypersetup{linkcolor=ink}\setcounter{tocdepth}{1}\tableofcontents}
 
 % ================================================================ 1
+\twocolumn
 \section{What this stage asked of us}
 
-The brief for this stage asks us to show how we worked with the sources and what our computational analysis is: to examine and organise the information in the sources, to use suitable methods to explore it, to find patterns and relationships, and to compare across sources where that helps. This report is organised around those tasks. Section~\ref{sec:sources} describes the sources and how we put them in order. Section~\ref{sec:method} explains the method and why we chose it. Section~\ref{sec:findings} goes through what each analysis found. Section~\ref{sec:compare} compares the sources with each other, and Section~\ref{sec:checks} records how we checked the work, what we got wrong on the way, and where AI tools did part of it. Section~\ref{sec:next} says what is still to be done.
+The brief for this stage asks us to show how we worked with the sources and what our computational analysis is: to examine and organise the information in the sources, to use suitable methods to explore it, to find patterns and relationships, and to compare across sources where that helps. Our research question, from Stage~1, is:
+
+\begin{quote}\itshape How did the seasonal movement of flocks between high summer pastures and low winter grazing shape life in the Himachal hills between 1881 and 1961, and who controlled and profited from it? As rule over the hills, control of the pastures, roads and trade changed, did the herding cycle persist as an adaptation to mountain and season, or did the ownership of flocks, pastures and shepherds' labour reshape it?\end{quote}
+
+This report is organised around the tasks of the brief. Section~\ref{sec:sources} describes the sources and how we put them in order. Section~\ref{sec:method} explains the method and why we chose it. Section~\ref{sec:findings} goes through what each analysis found. Section~\ref{sec:compare} compares the sources with each other, and Section~\ref{sec:checks} records how we checked the work, what we got wrong on the way, and where AI tools did part of it. Section~\ref{sec:next} says what is still to be done.
 
 We read the sources in two ways, as the course asked. The \textbf{Annales reading} follows Braudel's three speeds of time: the slow time of mountain, snow and route; the medium time of economic and political arrangements; and the quick time of events such as the 1948 merger. It also borrows Bloch's habit of comparing places that share conditions but differ in one respect. The \textbf{Marxist reading} asks who owned the flocks and the pastures, who did the herding, and how the owners took a share of the product, whether as rent, fees, revenue or interest. We split the question into three parts:
 
@@ -141,7 +133,7 @@ We read the sources in two ways, as the course asked. The \textbf{Annales readin
 \item[SQ3. Change by 1961] What happened to the flocks under the permit system, and what do the surveys tie to change: permits, roads, road wages, the closed Tibet border, orchards?
 \end{description}
 
-A note on page numbers: throughout, we give the PDF page (the counter a PDF viewer shows), not the number printed on the scan, and we cite in the form \pg{Brahmaur}{54}. Anyone with the repository can find the page of a quotation with one command, for example \file{python3 scripts/pageref.py find "grazing rights belonged to the rajah"}, which answers Newell, p.~18.
+A note on page numbers: throughout, we give the PDF page (the counter a PDF viewer shows), not the number printed on the scan, and we cite in the form \pg{Brahmaur}{54}. Anyone with the repository can find the page of a quotation with one command, for example \file{python3 scripts/pageref.py find "grazing rights belonged to the rajah"}, which answers Newell, p.~18. Everything here can be rerun from our repository, \url{https://github.com/gamemaker1/history/tree/analysis}, which holds the sources, every script, the data and a log of each step (\file{computational-analysis.md}); entry numbers in square brackets, such as \entry{A10}, point to that log.
 
 % ================================================================ 2
 \section{The sources and how we organised them}\label{sec:sources}
@@ -384,6 +376,26 @@ If two sources agree because one copied the other, they are one witness, not two
 \end{finding}
 
 % ================================================================ 5
+\begin{table*}[!t]
+\centering\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Item} & \textbf{What we had} & \textbf{What it is, and how we found out}\\
+\midrule
+Kothi livestock table & Three caste rows; Rajput share 94.9\% & A fourth row (Badhi, 11 animals) we had missed; total 2,557, Rajput share 94.5\%. Found on the page image\\
+Shakrori goats & 153 & 53 on the page; 153 was an OCR error\\
+Four ``unreadable'' tables & Too garbled to use & Readable as images; now entered\\
+Brahmaur households & 146 & 99 local households, the ones the livestock table counts\\
+Kupha's altitude & 8,550\,ft & That figure belongs to Bhanodi, a halt on the road\\
+Koli ownership & An effect of altitude & No link with altitude; a regional caste pattern\\
+Newell's 1950 fee rates & Dated before 1948 & They are 1950 rates, after the merger\\
+``No additional permit'' & Recorded as issuing permits & It records a refusal of permits\\
+\emph{ban} & Pasture, or an oak & A hereditary winter grazing run\\
+\bottomrule
+\end{tabularx}
+\caption{Corrections made by the checks \entry{A4, A9, A11, A12, A18}.}
+\end{table*}
+
 \section{Comparing across sources}\label{sec:compare}
 
 Putting the analyses side by side gives a pattern, and it fits the two readings we set out with.
@@ -409,25 +421,7 @@ Putting the analyses side by side gives a pattern, and it fits the two readings 
 
 Running the pipeline turned up mistakes in our own Stage~1 notes and in our first readings. We list them because they show the computation doing real work, not just decorating conclusions we already had.
 
-\begin{table*}[!t]
-\centering\small
-\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
-\toprule
-\textbf{Item} & \textbf{What we had} & \textbf{What it is, and how we found out}\\
-\midrule
-Kothi livestock table & Three caste rows; Rajput share 94.9\% & A fourth row (Badhi, 11 animals) we had missed; total 2,557, Rajput share 94.5\%. Found on the page image\\
-Shakrori goats & 153 & 53 on the page; 153 was an OCR error\\
-Four ``unreadable'' tables & Too garbled to use & Readable as images; now entered\\
-Brahmaur households & 146 & 99 local households, the ones the livestock table counts\\
-Kupha's altitude & 8,550\,ft & That figure belongs to Bhanodi, a halt on the road\\
-Koli ownership & An effect of altitude & No link with altitude; a regional caste pattern\\
-Newell's 1950 fee rates & Dated before 1948 & They are 1950 rates, after the merger\\
-``No additional permit'' & Recorded as issuing permits & It records a refusal of permits\\
-\emph{ban} & Pasture, or an oak & A hereditary winter grazing run\\
-\bottomrule
-\end{tabularx}
-\caption{Corrections made by the checks \entry{A4, A9, A11, A12, A18}.}
-\end{table*}
+
 
 The meaning check also checked us: on its first run it judged 11 of our own 41 hand-entered statements unsupported, and we made 17 corrections. The checker has its limits too. Run twice, it gives the same verdict on 77\% of statements, so we treat its verdicts as a filter that removes the worst errors, not as proof. To measure how often it agrees with a person, we drew a random sample of 50 statements, which we are now checking by hand.
 
@@ -452,14 +446,16 @@ What remains is mostly human checking, and we are doing it in order of how much 
 The limits are worth stating plainly. Counts of statements show how often the sources speak of something, not how large it was. Shares are by caste, so they hide inequality inside a caste. The village sample was chosen by the Census, and 19 or 24 villages are too few for statistics beyond description. The colonial sources are silent on Kinnaur, which makes the Sutlej side of our comparison the weaker one.
 
 % ================================================================ appendix
+\onecolumn
 \appendix
+\titleformat{\section}{\Large\sffamily\bfseries\color{maroon}}{Appendix \thesection}{0.7em}{}[{\color{maroon!35}\titlerule}]
 \section{The repository}
 
-\url{https://github.com/gamemaker1/history/tree/vishak's-attempts}
+\url{https://github.com/gamemaker1/history/tree/analysis}
 
-\begin{table}[!htbp]
+\begin{table}[H]
 \centering\small
-\begin{tabularx}{\columnwidth}{@{}>{\ttfamily\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\columnwidth}{@{}>{\ttfamily\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}X@{}}
 \toprule
 \textrm{\textbf{Folder or file}} & \textbf{What it holds}\\
 \midrule
@@ -469,7 +465,7 @@ scripts/ & Every process we ran, one Python script each\\
 data/ & What we built by hand or checked: statements, entities, the livestock tables, fees, altitudes, households\\
 analysis/ & Everything the scripts produce: the evidence graph and its viewer, calendar, map, ownership, fees, flows, text reuse\\
 essay/ & The draft essay and \file{sources.pdf}, the 64 source pages it cites\\
-computational-\newline analysis.md & The log of every step, A0 to A20, with commands, results and caveats\\
+computational-analysis.md & The log of every step, A0 to A20, with commands, results and caveats\\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -485,5 +481,56 @@ The main steps, in order, with their log entries: unpack and check the sources \
 \item \emph{Detecting Text Reuse with Passim}: the method behind our reuse check, written in plain Python \entry{A19}.
 \item \emph{Visualizing Data with Bokeh and Pandas} and \emph{Creating Interactive Visualizations with Plotly}: the ideas behind the charts, which we drew with matplotlib.
 \end{itemize}
+
+
+\clearpage
+\section{Tools and technologies}
+
+Every tool we used, and what we used it for. All of them are free or open source, except the two AI models, which we paid for or used through a subscription.
+
+{\small
+\renewcommand{\arraystretch}{1.22}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Tool} & \textbf{Kind} & \textbf{What we used it for}\\
+\midrule
+\multicolumn{3}{@{}l}{\sffamily\bfseries\color{maroon}Preparing the sources}\\
+\texttt{pdftotext} (Poppler) & Text extraction & Turning the scanned PDFs that have a text layer into plain text, one page break per PDF page\\
+Tesseract & OCR & Reading Rose's \emph{Glossary}, vol.~2, which has no text layer\\
+PyMuPDF & Python library & Counting PDF pages to check them against the text, and rendering pages and close-up crops as images to read tables\\
+Python \texttt{zipfile}, \texttt{hashlib} & Standard library & Unpacking the source archives and removing duplicate PDFs by checksum\\
+\midrule
+\multicolumn{3}{@{}l}{\sffamily\bfseries\color{maroon}Analysis}\\
+Python 3.12 & Language & Every script in the project, 30 in all\\
+\texttt{uv} & Package manager & Installing Python and the libraries inside the project folder\\
+Regular expressions (\texttt{re}) & Standard library & Word counts, keywords in context, page scoring, finding altitudes and household totals\\
+\texttt{difflib} & Standard library & Fuzzy matching of quotations against OCR text when checking statements\\
+pandas & Python library & Tables: ownership by caste, fee series, altitudes, flows, essay evidence\\
+NetworkX & Python library & Building the evidence graph and the flows between parties; exporting it as GraphML and Cytoscape JSON\\
+Matplotlib & Python library & The charts: calendar, ownership shares, flock size, altitude, fee series, flows\\
+\midrule
+\multicolumn{3}{@{}l}{\sffamily\bfseries\color{maroon}Maps and places}\\
+Folium (Leaflet) & Python library & The interactive route map\\
+OpenStreetMap Nominatim & Web service & Finding coordinates for villages, pastures, passes and fairs\\
+OpenTopoData (SRTM) & Web service & The height of each located place\\
+Wikidata API & Web service & A fallback for places OpenStreetMap could not find\\
+OpenTopoMap, OpenStreetMap tiles & Map tiles & The relief and plain backgrounds of the map\\
+\texttt{requests} & Python library & Calling the three web services above\\
+\midrule
+\multicolumn{3}{@{}l}{\sffamily\bfseries\color{maroon}Viewing the graph}\\
+Cytoscape.js & JavaScript library & The interactive viewer of the evidence graph and of the flows by period\\
+Cytoscape Desktop (optional) & Application & Opening the exported \texttt{.cyjs} files for further layout\\
+Google Chrome (headless) & Browser & Taking images of the interactive views, and checking their layout\\
+\midrule
+\multicolumn{3}{@{}l}{\sffamily\bfseries\color{maroon}AI}\\
+OpenAI \emph{gpt-6-luna}, \texttt{openai} SDK & Language model & Proposing statements from pages, joining names to entities, and judging each statement against its page (about USD~1.16 in all)\\
+Anthropic Claude, in Claude Code & AI assistant & Writing the scripts with us, reading tables and Newell's fee table from page images, and helping draft the text\\
+\midrule
+\multicolumn{3}{@{}l}{\sffamily\bfseries\color{maroon}Writing and sharing}\\
+\LaTeX{} (pdfLaTeX, TikZ, pgfplots, tcolorbox) & Typesetting & This report, the essay, the pipeline diagram and the trade chart\\
+Git, GitHub & Version control & Keeping and sharing the whole project\\
+Git LFS & Large-file storage & Storing the scanned sources and other large files (about 600~MB)\\
+\bottomrule
+\end{tabularx}}
 
 \end{document}

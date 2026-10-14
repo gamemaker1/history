@@ -46,7 +46,7 @@ in their place, so use git:
 git lfs install
 
 # 2. Clone the project branch. This downloads everything, about 700 MB.
-git clone --branch "vishak's-attempts" https://github.com/gamemaker1/history.git
+git clone --branch analysis https://github.com/gamemaker1/history.git
 cd history
 
 # 3. Check that the sources are real files, not pointers (each should be MBs, not ~130 bytes).
@@ -58,7 +58,7 @@ git lfs pull
 To get **only the sources**, skip the other large files and fetch just that folder:
 
 ```bash
-GIT_LFS_SKIP_SMUDGE=1 git clone --branch "vishak's-attempts" https://github.com/gamemaker1/history.git
+GIT_LFS_SKIP_SMUDGE=1 git clone --branch analysis https://github.com/gamemaker1/history.git
 cd history
 git lfs pull --include="sources/*"
 ```
