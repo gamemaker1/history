@@ -1,0 +1,191 @@
+# Bibliography for essay.typ (Hayagriva format, read by Typst's #bibliography).
+# Page numbers in citations are PDF page numbers, as in essay/reading_pack.pdf.
+
+# --- Historiography ---------------------------------------------------------
+
+braudel:
+  type: book
+  title: The Mediterranean and the Mediterranean World in the Age of Philip II
+  author: Braudel, Fernand
+  translator: Reynolds, Siân
+  volume-total: 2
+  publisher:
+    name: Collins
+    location: London
+  date: 1972
+
+bloch:
+  type: article
+  title: Pour une histoire comparée des sociétés européennes
+  author: Bloch, Marc
+  date: 1928
+  parent:
+    type: periodical
+    title: Revue de synthèse historique
+    volume: 46
+
+marx:
+  type: book
+  title: "Capital: A Critique of Political Economy"
+  author: Marx, Karl
+  volume: 3
+  date: 1894
+
+# --- Colonial sources -------------------------------------------------------
+
+ibbetson1881:
+  type: report
+  title: Report on the Census of the Panjab, 1881
+  author: Ibbetson, Denzil
+  publisher:
+    name: Superintendent of Government Printing
+    location: Calcutta
+  date: 1883
+  note: Results volume
+
+rose1:
+  type: book
+  title: A Glossary of the Tribes and Castes of the Punjab and North-West Frontier Province
+  author: Rose, H. A.
+  volume: 1
+  publisher:
+    location: Lahore
+  date: 1919
+
+rose2:
+  type: book
+  title: A Glossary of the Tribes and Castes of the Punjab and North-West Frontier Province
+  author: Rose, H. A.
+  volume: 2
+  publisher:
+    location: Lahore
+  date: 1911
+
+census1931:
+  type: report
+  title: "Census of India, 1931, Vol. XVII: Punjab, Part I, Report"
+  author: Khan, Khan Ahmad Hasan
+  publisher:
+    name: Civil and Military Gazette Press
+    location: Lahore
+  date: 1933
+
+# --- 1961 reports -----------------------------------------------------------
+
+newell:
+  type: chapter
+  title: The Gaddi and Affiliated Castes of the Western Himalayas
+  author: Newell, William H.
+  parent:
+    type: report
+    title: Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh
+    author: Census of India 1961
+
+atlas:
+  type: report
+  title: "Census of India 1961, Vol. XIII, Part IX: Punjab Census Atlas"
+  author: Anand, R. L.
+  date: 1961
+
+mahasu:
+  type: report
+  title: "Census of India 1961, Himachal Pradesh: District Census Handbook, Mahasu"
+  author: Census of India 1961
+
+weaving:
+  type: report
+  title: "Census of India 1961, Himachal Pradesh: Craft Survey, Weaving"
+  author: Census of India 1961
+
+# --- 1961 village survey monographs -----------------------------------------
+# Vol. XX (Himachal Pradesh), Part VI, except Tandi: Vol. XIII (Punjab), Part VI.
+
+batal:
+  type: report
+  title: "Village Survey Monograph: Batal (Arki tahsil, Mahasu District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+bir:
+  type: report
+  title: "Village Survey Monograph: Bir (Mandi District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+brahmaur:
+  type: report
+  title: "Village Survey Monograph: Brahmaur (Chamba District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+chaupal:
+  type: report
+  title: "Village Survey Monograph: Chaupal (Mahasu District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+chergaon:
+  type: report
+  title: "Village Survey Monograph: Chergaon (Rohru tahsil, Mahasu District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+chitrari:
+  type: report
+  title: "Village Survey Monograph: Chitrari (Chamba District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+devikothi:
+  type: report
+  title: "Village Survey Monograph: Devi-Kothi (Chamba District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+kanum:
+  type: report
+  title: "Village Survey Monograph: Kanum (Kinnaur District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+kothi:
+  type: report
+  title: "Village Survey Monograph: Kothi (Kinnaur District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+kupha:
+  type: report
+  title: "Village Survey Monograph: Kupha, Parmas, Thamoh and Malet (Pangi, Chamba District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+maingal:
+  type: report
+  title: "Village Survey Monograph: Maingal (Chamba District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+nachar:
+  type: report
+  title: "Village Survey Monograph: Nachar (Kinnaur District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+rajana:
+  type: report
+  title: "Village Survey Monograph: Rajana (Rainka tahsil, Sirmur District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+shakrori:
+  type: report
+  title: "Village Survey Monograph: Shakrori (Seoni sub-tahsil, Mahasu District)"
+  author: Census of India 1961
+  serial-number: Vol. XX, Part VI
+
+tandi:
+  type: report
+  title: "Village Survey Monograph: Tandi (Lahaul and Spiti District)"
+  author: Census of India 1961
+  serial-number: Vol. XIII, Part VI

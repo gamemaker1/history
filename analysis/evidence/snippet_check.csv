@@ -1,0 +1,96 @@
+item,source,pdf_page,quote,match,score
+1.1,1881,275,"consists of flocks of sheep and goats, which they feed half the year (the winter months) in the valleys of Kangra, and for the other half drive across the range into the territories of Chamba",fuzzy,0.984
+1.1,Brahmaur,55,"in the beginning of the winter (October and November), the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and Jammu",exact,1.0
+1.2,Rose,297,"the yearly exodus to Kangra takes place in October and November, and the return journey in April and May",exact,1.0
+1.2,1931,142,the hillmen of the lofty ranges leave their homes with their sheep and cattle to spend the winter in the valleys and plains of the neighbouring districts,exact,1.0
+1.2,Kothi,16,"Before the formation of Himachal Pradesh on the 15th April 1948, Kinnaur formed a part of the erstwhile State of Rampur Bushahr.",fuzzy,0.944
+1.3,Newell,18,In Chamba all grazing rights belonged to the rajah of Chamba,exact,1.0
+1.3,Newell,19,these rights to grazing tax have now been taken over by the Government of India State Forest Department,fuzzy,0.99
+1.3,Maingal,42,Gujjar households are cent per cent under debt,exact,1.0
+3.1,1881,275,"from an elevation of 3,500 or 4,000 feet up to 7,000 feet. Above this altitude there is little or no cultivation",exact,1.0
+3.1,Kupha,111,usually begins to fall on the passes in October and closes them by the middle of November,fuzzy,0.978
+3.1,Kupha,111,it begins to disappear again in March and the passes re-open in May,exact,1.0
+3.1,Newell,18,to take less than three days actually on the tops of the mountain,exact,1.0
+3.1,Brahmaur,55,these tarkals are not sufficient for the upkeep of the entire sheep and goat wealth of the village and people have therefore to migrate to other pastures,exact,1.0
+3.1,Brahmaur,24,The people of Brahmaur are allowed to have timber from the Brahmni reserved forest,fuzzy,0.976
+3.1,Chitrari,38,"The forests occupy the biggest area and are managed by State Forest Department. The villagers meet their demand of firewood, timber and grass from there.",fuzzy,0.993
+3.1,Atlas,367,"Sheep live mainly on grazing and, therefore, are numerous where either there is considerable fallowing of land or there are extensive waste lands.",fuzzy,0.979
+3.2,Chaupal,12,"The village is at 7,685 feet.",exact,1.0
+3.2,Shakrori,11,"at a height of 1,700 ft. above sea level",exact,1.0
+3.2,Tandi,18,on a ten thousand feet high flat ground,exact,1.0
+3.2,Atlas,367,"They are more numerous in the hilly Districts of Kangra, Simla and parts of Lahaul & Spiti",fuzzy,0.954
+3.3,Rose,297,in the higher mountains of Pangi and Lahul; and the winters in the low hills bordering on the plains,fuzzy,0.96
+3.3,Brahmaur,63,as many as 61 move out in winter months,fuzzy,0.949
+3.3,Kupha,113,visit Pangi with their flocks in July and remain in the valley till September,fuzzy,0.987
+3.3,Kanum,85,the chilly months in these places till the end of April,exact,1.0
+3.3,Brahmaur,11,the Budhal stream which joins Ravi,exact,1.0
+3.3,Newell,10,a 40 mile length of river between high mountains,exact,1.0
+3.3,Newell,36,the wife usually accompanies her husband,exact,1.0
+3.3,Brahmaur,79,"even during migration, she carries an equal load on her back and contributes equally to the family earnings",fuzzy,0.991
+4.1,Bir,43,"purchased from Gaddis who wander near about in winter, for 10 to 12 rupees",exact,1.0
+4.1,Bir,43,The sheep are reared for obtaining wool,fuzzy,0.974
+4.1,Batal,46,from the Kinnauras who stay near about the village,exact,1.0
+4.1,Shakrori,75,bought from the Kinnauras that go by,exact,1.0
+4.2,Brahmaur,55,a shepherd who tends his own flock,fuzzy,0.971
+4.2,Brahmaur,55,pohals are hired in summer season by a very few people in rare cases when they cannot spare some one from amongst the family to look after the flock,exact,1.0
+4.2,Devi-Kothi,48,may also send their sheep and goats with professional graziers to high hills,exact,1.0
+4.2,Maingal,52,The Gaddis of Maingal are different from the Gaddis of Brahmaur. They do not lead a pastoral life but have settled on agriculture as their principal occupation,fuzzy,0.987
+4.2,Newell,37,the majority of Gaddis are not shepherds,exact,1.0
+4.2,Chitrari,23,The persons who take to this seasonal migration are the ones who have a sizeable flock to tend.,fuzzy,0.989
+4.3,Brahmaur,59,command a ready market in the low hills where people sell them during their stay there in winter months,fuzzy,0.99
+4.3,Kanum,16,"alongwith their flocks laden with chilgozas, wool, woollen patties, nuts, pasham, jira and other local herbs",exact,1.0
+4.3,Kanum,131,"they brought wool, pasham, butter, ghee, goat, sheep and salt",exact,1.0
+4.3,Mahasu,56,Lavi the biggest trade fair in Himachal is held there in the second week of November every year which attracts thousands of people and traders from far off places,fuzzy,0.988
+4.3,Kanum,132,began in July and he was back in Kanum usually by November,fuzzy,0.983
+4.3,Kanum,51,prior to the India-China dispute Shipki-La Pass was open to all traders without passport,fuzzy,0.989
+4.3,Kanum,16,this trade has now practically come to an end,exact,1.0
+4.3,Weaving,16,the Pradesh had however a great set back after the trade with Tibet stopped. An acute shortage of wool and Pasham is being experienced,exact,1.0
+4.3,Chergaon,61,"used to go to Rampur to purchase wool during Lavi fair. But now-a-days, they prefer to buy wool from Dodra Kawar illaqa",exact,1.0
+5.1,Brahmaur,54,"The number of goats and sheep reared by the villagers is 4484, and the following table shows the ownership community-wise",fuzzy,1.0
+5.1,Nachar,33,"on an average, 100 to 200 sheep and goats are kept by a family",exact,1.0
+5.1,Nachar,33,"the Lambardar of the village has about 1,100 strong flock",exact,1.0
+5.3,Maingal,48,all Gujjar households possess buffaloes,exact,1.0
+5.3,Maingal,38,Gujjars had to pay food grain debts to Gaddi brahmins,exact,1.0
+5.3,Maingal,42,borrow money at 30% annual interest,exact,1.0
+5.3,Maingal,60,to a particular shopkeeper at Chamba who pays them much less than the market price,fuzzy,0.988
+5.3,Maingal,61,the Gujjars who are in debt are obliged to sell their produce to them in lieu of the interest as well as the principal amount,exact,1.0
+5.3,Kanum,53,being a landlord and money lender he has lent enough amount of money to the scheduled castes and others,fuzzy,0.99
+5.3,Kanum,55,"on the condition of annual charge of additional 5 seers per md., as interest",exact,1.0
+5.3,Chergaon,66,"instead of paying interest, the tenants-rigad are now doing agricultural labour to escape the fury of zamindars",fuzzy,0.982
+6.1,1881,275,"whenever fined by the Kangra authorities, to pay a similar penalty into the Chamba treasury",exact,1.0
+6.1,1881,275,our institutions have taught them greater independence,fuzzy,0.944
+6.1,Newell,18,would need to pay a grazing tax to both the Chamba and Lahuli ruler,exact,1.0
+6.1,Newell,16,could only dispose of the right to use the land,fuzzy,0.979
+6.1,Newell,18,"was auctioned by the rajah of Chamba to the highest bidder, who was usually a Gaddi",exact,1.0
+6.1,Brahmaur,55,during the state period the Ruler of the state used to lease out the pastures near the village (Brahmani in case of Brahmaur) on contract,exact,1.0
+6.1,Brahmaur,55,The contractor further used to allot these pastures to the shepherds subject to the condition that they would keep their sheep and goats in the fallow cultivable fields at night.,exact,1.0
+6.1,Kanum,18,including 'Athada Begar',exact,1.0
+6.1,Kupha,113,in 1874 an attempt was made to lease the dhars or bigger grazing grounds,exact,1.0
+6.1,Kupha,113,it provoked much opposition and was finally abandoned,fuzzy,0.981
+6.2,Newell,19,The tax is now collected by an employee of the Forest Department and a receipt issued.,fuzzy,0.929
+6.2,Newell,19,This receipt is however not issued unless the shepherd has a permit issued by the Forest Department,fuzzy,0.99
+6.2,Newell,15,today the power of the forest department is paramount,exact,1.0
+6.2,Brahmaur,55,each shepherd has his own fixed dhar which only he can use as pasture land for his flock consisting of a fixed number of sheep and goats,exact,1.0
+6.2,Brahmaur,46,the Forest Department do not now grant any additional permit for more sheep and goats,exact,1.0
+6.2,Devi-Kothi,47,A distinction is made between right holder graziers and others in payment of fee and penalty.,exact,1.0
+6.2,Devi-Kothi,49,given to them by the early rulers of Chamba,exact,1.0
+6.2,Chitrari,23,Intensive grazing for generations led to erosion. To check this trouble passes are issued.,exact,1.0
+6.2,Kupha,136,certain pastures have also been closed in order to undertake extensive measures for soil conservation,exact,1.0
+6.2,Kupha,136,a sense of resentment against the Forest Department,exact,1.0
+6.2,Newell,38,this is the year after the sheep were struck by disease,fuzzy,0.982
+6.2,Newell,37,the number of sheep and goats was reduced by about a quarter due to the Forest Department permit system,exact,1.0
+6.3,Newell,37,from personal knowledge I know that these permits are freely bought and sold amongst shepherds so that shepherds have now become closed corporations,exact,1.0
+6.3,Kanum,51,found it difficult to engage labourers to attend to their sheep and goats,exact,1.0
+6.3,Kanum,51,"Men and women now prefer to work on the roads rather than work as 'fawals', agricultural labourers and 'rigries' for obvious reason that they get better wages",exact,1.0
+6.3,Brahmaur,45,8 able-bodied persons are working there as unskilled labour at a daily wage of about Rs. 2/-,exact,1.0
+6.3,Kothi,79,All castes in the village avail of this opportunity and on an average 24 persons were found to be working as unskilled labourers on roads,exact,1.0
+6.3,Tandi,57,The traditional trade route to western Tibet over the Rohtang Pass which was previously only a bridle path has now been made jeepable right from Manali to Keylong,fuzzy,0.975
+6.3,Atlas,372,Similarly the Lahaul & Spiti and Kangra Districts were generally without metalled roads.,exact,1.0
+6.3,Atlas,331,In Lahaul & Spiti also the in-migration of labourers engaged in road building activity has raised the proportion of males,exact,1.0
+6.3,Brahmaur,87,"with the opening roads, new avenues of earning livelihood are available to them, and this is likely to change the cycle of their life followed since ages",exact,1.0
+7.2,Kanum,133,every villager has a right of utilizing the pastures,exact,1.0
+7.2,Newell,17,Outside this area were lands controlled by the rajah's agents (such as the Forest Department) but to which villagers had access.,fuzzy,0.992
+6.1,Newell,19,"the whole of Chamba State was nationalised, that is belonged to the nation in the person of the rajah",fuzzy,0.96
+6.1,Newell,19,Land could thus not be used as security for debt,fuzzy,0.958
+6.2,Newell,19,Perhaps one of the most fundamental changes instituted by the Indian Union when it incorporated Chamba in Himachal Pradesh was to introduce the idea of private property in land,fuzzy,0.96
+6.2,Newell,19,in 1953 a Settlement was instituted in Brahmaur tahsil,fuzzy,0.944

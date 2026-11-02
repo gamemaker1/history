@@ -1,0 +1,1077 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{C059}[Path=/usr/share/fonts/urw-fonts/, Extension=.otf, UprightFont=*-Roman, BoldFont=*-Bold, ItalicFont=*-Italic, BoldItalicFont=*-BdIta]
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\setmonofont{NimbusMonoPS}[Path=/usr/share/fonts/urw-fonts/, Extension=.otf, UprightFont=*-Regular, BoldFont=*-Bold, Scale=MatchLowercase]
+\emergencystretch=3em
+
+\setlist[itemize]{leftmargin=1.4em, itemsep=3pt, topsep=4pt}
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection.}{0.6em}{}
+\newcommand{\cit}[1]{{\small(#1)}}
+\newcommand{\budget}[1]{\par\noindent\textit{Word budget for the essay: #1 words.}\par\smallskip}
+\newcommand{\Braudel}{Braudel, \enquote{History and the Social Sciences}}
+\newcommand{\Habib}{Habib, \enquote{Potentialities of Capitalistic Development}}
+
+\begin{document}
+
+\noindent{\LARGE\bfseries Seasonal Herding in the Himachal Hills, 1881--1961}\par
+\smallskip
+\noindent{\large Bullet points for the essay, by section}\par
+\smallskip
+\noindent 3 November 2026
+\bigskip
+
+\noindent Each bullet carries its source and PDF page. A
+citation such as \cit{Brahmaur survey, PDF p.~55} names a 1961 village survey
+monograph. The other sources are the 1881 census, Rose's \emph{Glossary},
+the 1931 census, Newell's study of the Gaddis, the 1961 Punjab Census Atlas,
+the Mahasu district handbook and the Weaving survey. Course readings are cited
+by author, title and PDF page. Numbers are kept in the tables of
+Appendix~\ref{app:data}. Figures read from page images are marked
+\enquote{image-read}, and no person has checked them yet. The word budgets
+add up to 3,800 words.
+
+\tableofcontents
+\bigskip
+
+% ===================================================================
+\section{Introduction}
+\budget{250}
+
+\subsection{Transhumance as the Phenomenon}
+\begin{itemize}
+\item Transhumance is the seasonal movement of herds between high summer
+  pastures and low winter grazing by families who keep a fixed home and
+  fields. Define it in these words at the first use.
+\item Braudel names transhumance as his own example of a structure that holds
+  people for centuries: \enquote{Man is a prisoner for long centuries of
+  climates, of vegetations, of animal populations \dots{} Take the role of
+  transhumance in mountain life.} \cit{\Braudel, PDF p.~10}
+\item The Gaddis of the Ravi valley and the Kinnauras of the upper Sutlej move
+  sheep and goats, and the Gujjars move buffaloes \cit{Brahmaur survey, PDF
+  p.~55; Kanum survey, PDF p.~16; Maingal survey, PDF p.~52}.
+\item An opening image is available in two descriptions of the same
+  migration. In 1881 the Gaddis' wealth \enquote{consists of flocks of sheep
+  and goats, which they feed half the year (the winter months) in the valleys
+  of Kangra, and for the other half drive across the range into the
+  territories of Chamba} \cit{1881 census, PDF p.~275}.
+\item In 1961: \enquote{in the beginning of the winter (October and November),
+  the flocks are driven to the low hills of Kangra, Nurpur, Pathankot and
+  Jammu} \cit{Brahmaur survey, PDF p.~55}.
+\end{itemize}
+
+\subsection{Region}
+\begin{itemize}
+\item The study villages lie in four river systems. Brahmaur, Chitrari,
+  Devi-Kothi and Maingal are in Chamba on the Ravi. Kanum, Kothi and Nachar are
+  in Kinnaur on the Sutlej, and Shakrori lies lower on the Sutlej in Mahasu.
+  Kupha (Pangi) and Tandi (Lahaul) are on the Chenab, and Bir is in Mandi on
+  the Beas \cit{Appendix Table~\ref{tab:alt}}.
+\item The survey villages are marked on the map \enquote{Himachal Pradesh,
+  Village Surveys} \cit{Devi-Kothi survey, PDF p.~2} and on the Punjab map of
+  villages selected for survey \cit{Tandi survey, PDF p.~5}.
+\item The hills were divided among rulers. Chamba and Bushahr were princely
+  states, Kangra was British territory, and Lahaul and Spiti lay in Punjab in
+  1961 \cit{1881 census, PDF p.~275; Kanum survey, PDF p.~18; Tandi survey,
+  PDF p.~5}.
+\end{itemize}
+
+\subsection{Period}
+\begin{itemize}
+\item The period runs from the 1881 census to the 1961 village surveys, with
+  Rose's \emph{Glossary} (1911) and the 1931 census between them.
+\item Within it the hill states became Himachal Pradesh, on 15 April 1948
+  \cit{Kothi survey, PDF p.~16}, and the Forest Department took over the
+  grazing tax \cit{Newell, PDF p.~19}.
+\end{itemize}
+
+\subsection{Research Question}
+\begin{itemize}
+\item How did the seasonal movement of flocks between high summer pastures and
+  low winter grazing shape life in the Himachal hills between 1881 and 1961,
+  and who controlled and profited from it?
+\item As rule over the hills, control of the pastures, roads and trade
+  changed, did the herding cycle persist as an adaptation to mountain and
+  season, or did the ownership of flocks, pastures and shepherds' labour
+  reshape it?
+\item The introduction can close on the observation that both halves of the
+  question turn out to be true at different speeds, without yet naming
+  Braudel or Marx as the reason.
+\end{itemize}
+
+% ===================================================================
+\section{Sources and Methodology}
+\budget{500 (documents 100, computational methods 250, historical methods 150)}
+
+\subsection{Documents}
+\begin{itemize}
+\item The 1961 Census village survey monographs of Himachal Pradesh, Vol.~XX,
+  Part~VI\@. Tandi is in the Punjab series, Vol.~XIII, because Lahaul and Spiti
+  lay in Punjab in 1961.
+\item Four other 1961 volumes: Newell's study of the Gaddis in the
+  \emph{Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh},
+  the Weaving craft survey, the Mahasu district handbook, and the Punjab
+  Census Atlas, Vol.~XIII, Part~IX.
+\item The 1881 census of the Punjab, Results volume, which quotes the
+  settlement officers Barnes and Lyall on the hill people \cit{1881 census,
+  PDF p.~275}.
+\item H.\,A. Rose, \emph{A Glossary of the Tribes and Castes of the Punjab and
+  North-West Frontier Province} (1911 to 1919).
+\item The 1931 census of the Punjab, Part~I, Report.
+\item Page numbers in the essay are PDF page numbers, which are the page
+  counter of a PDF viewer. State this once.
+\end{itemize}
+
+\subsection{Computational Methods}
+\begin{itemize}
+\item Every page of every volume was scored by the frequency of herding words,
+  and the highest-scoring pages were selected \cit{Appendix
+  Table~\ref{tab:pipe}}.
+\item A language model read each selected page and proposed claims. A claim
+  is one statement from one page, with a subject, a relation, an object, any
+  quantity, months and place, and a verbatim quotation.
+\item A script kept a claim only if its quotation is found on the cited page.
+  A second model pass judged each claim against its page, and claims judged
+  not supported were left out.
+\item The livestock tables and Newell's fee table were read from page images,
+  because their OCR scrambles the columns. Say that no person has checked these
+  figures, unless the group checks them before submission.
+\item The claims form an evidence graph, which is a network whose edges are
+  sourced claims. Every table, chart and map of the essay is a query on it.
+\item Each claim carries a tag for its conjuncture: the cycle, two sovereigns,
+  the raja's pastures, the Forest Department, roads and wages, trade and credit,
+  or the standing social order. The tag makes it possible to count the
+  evidence for each conjuncture by the year of its source \cit{Appendix
+  Table~\ref{tab:graph}}.
+\item Payments in the graph are turned into flows from the party who gives to
+  the party who receives, so that the receivers can be compared across
+  conjunctures \cit{Appendix Table~\ref{tab:flows}}.
+\item Keyword rates per 10,000 words were measured for each source layer and
+  each survey, as a distant reading of what each source talks about
+  \cit{Appendix Tables~\ref{tab:trade} and~\ref{tab:layers}}.
+\item Altitudes and households were taken from each survey's own statement and
+  checked against SRTM satellite elevation. Most surveys agree with it within
+  300 m, and Nachar, Chaupal and Rajana do not \cit{project analysis A18}.
+\item A text-reuse search compared every page with every page of the earlier
+  sources. Barnes on the Gujars in 1881 reappears in Rose, so the two pages are
+  one witness \cit{1881 census, PDF p.~267; Rose, vol.~2, PDF p.~346}.
+\item Newell's report repeats Rose on its later pages. Newell's pages on
+  grazing, fees, permits and the migration hold no copied passage
+  \cit{Appendix Table~\ref{tab:pipe}}.
+\item Bloch supplies the rule behind the reuse step: two witnesses with the
+  same details mean \enquote{that one of them had copied the other or that both
+  had copied a common model} \cit{Bloch, \emph{The Historian's Craft}, PDF
+  p.~36}.
+\item Bloch also supplies the caution for the model-proposed claims:
+  \enquote{There is no reliable witness in the absolute sense. There is only
+  more or less reliable testimony.} \cit{Bloch, \emph{The Historian's Craft},
+  PDF p.~23}
+\end{itemize}
+
+\subsection{Historical Methods}
+\begin{itemize}
+\item Braudel divides historical time into the longue durée of geography and
+  structures, the conjuncture of medium-term cycles, and the event \cit{\Braudel,
+  PDF pp.~5--10}.
+\item The three levels run at the same time, at different speeds. Braudel:
+  \enquote{The longue durée, cyclical phases (conjoncture), and events fit
+  together easily, for they all are measurements on the same scale.}
+  \cit{\Braudel, PDF p.~29}. Call this temporal parallelism and define it as
+  the simultaneous running of the three levels.
+\item A conjuncture is measured by series, such as prices, wages and interest
+  rates \cit{\Braudel, PDF p.~7}. The fee series in Newell is such a series.
+\item Bloch's comparative method sets side by side societies that share
+  conditions and differ in one respect: \enquote{At the bottom of nearly all
+  criticism there is a problem of comparison} \cit{Bloch, \emph{The Historian's
+  Craft}, PDF p.~32}.
+\item The Marxist method identifies the material basis of a social formation,
+  meaning its means and relations of production, and its dialectical
+  contradictions \cit{Alam, \enquote{Marxist History} slides, PDF pp.~10, 15}.
+\item State the plan of the essay in one sentence: Braudel's levels order the
+  evidence in time, and Marx's categories explain the relations inside each
+  level. Leave the interpretation for Section~\ref{sec:interp}.
+\end{itemize}
+
+% ===================================================================
+\section{Geography}
+\budget{500}
+
+\subsection{Time}
+\begin{itemize}
+\item Braudel's geographical time is the slowest level, the time of
+  \enquote{man in his relationship to the environment}. Its structures last
+  for centuries: \enquote{a reality that time can only slowly erode, one that
+  goes on for a long time} \cit{\Braudel, PDF p.~9}.
+\item Structures both support and limit: \enquote{all structures are
+  simultaneously pillars and obstacles \dots{} Think of how difficult it is to
+  break through certain geographical frameworks} \cit{\Braudel, PDF p.~9}.
+\item Routes belong to the same level: \enquote{Look at the endurance of roads
+  and trade routes} \cit{\Braudel, PDF p.~10}.
+\item Le Roy Ladurie sets the limit of this level: \enquote{The aim of
+  climatic history is not to explain human history} \cit{Le Roy Ladurie,
+  \enquote{The History of Rain and Fine Weather}, PDF p.~3}. Use this sentence
+  to prepare the reader for what geography cannot explain.
+\item The calendar evidence belongs to Section~\ref{sec:movement}. This
+  subsection introduces the concept only.
+\end{itemize}
+
+\subsection{Altitude and River Valleys}
+\begin{itemize}
+\item The Atlas divides the region by height. North of the low hills lies a
+  zone of high hills in Kangra, and north of that the mountainous areas.
+  Lahaul and Spiti, separated from Kangra by high ranges, is very high
+  \cit{Punjab Census Atlas, PDF p.~317, notes to Map~4; map on PDF p.~24}.
+\item Barnes placed the Gaddis in a band of cultivation, with \enquote{little or
+  no cultivation} above it \cit{1881 census, PDF p.~275}.
+\item The village surveys state their own heights, from Shakrori \enquote{at a
+  height of 1,700 ft.} to Tandi \enquote{on a ten thousand feet high flat
+  ground} \cit{Shakrori survey, PDF p.~11; Tandi survey, PDF p.~18}.
+\item In the Ravi, Sutlej and Chenab valleys, households in every village
+  above a threshold of altitude keep large flocks, and households in every
+  village below it keep few \cit{Appendix Table~\ref{tab:alt}, image-read}.
+\item The rank correlation between altitude and animals per household across
+  the survey villages is positive, and the correlation between altitude and the
+  landholding castes' share is close to zero \cit{Appendix
+  Table~\ref{tab:alt}}. Height set the size of flocks, not who owned them.
+\item Chaupal stands as high as the herding villages, at \enquote{7,685 feet},
+  but on the Yamuna side, and keeps few animals \cit{Chaupal survey, PDF
+  p.~12; Appendix Table~\ref{tab:alt}}.
+\item The Atlas names four perennial rivers, the Jumna, the Sutlej, the Beas
+  and the Ravi \cit{Punjab Census Atlas, PDF p.~317, notes to Map~5; map on
+  PDF p.~25}.
+\item Brahmaur lies on \enquote{the Budhal stream which joins Ravi}, and Kanum
+  lies above \enquote{the River Sutlej} \cit{Brahmaur survey, PDF p.~11; Kanum
+  survey, PDF p.~15}.
+\item Newell describes the Gaddi country as a chain of river units, each
+  \enquote{a 40 mile length of river between high mountains} \cit{Newell,
+  PDF p.~10}.
+\item The village notional maps show each village in its valley
+  \cit{Brahmaur survey, PDF p.~2; Kanum survey, PDF p.~2; Tandi survey,
+  PDF p.~17}.
+\end{itemize}
+
+\subsection{Vegetation and Rainfall}
+\begin{itemize}
+\item Rainfall in Punjab rises from the south-west towards the north-east and
+  the hills \cit{Punjab Census Atlas, PDF p.~318, notes to Map~8; map on PDF
+  p.~28}.
+\item In the mountains, \enquote{temperature, altitude, aspect and slope} add
+  to rainfall in setting the vegetation. In Lahaul and Spiti the rainfall is
+  low, vegetation is confined to the river valleys, and elsewhere there is bare
+  rock \cit{Punjab Census Atlas, PDF p.~320, notes to Map~13; map on PDF
+  p.~44}.
+\item Forests occupy the largest area of Chitrari, and the villagers take
+  firewood, timber and grass from them \cit{Chitrari survey, PDF p.~38}.
+\item The people of Brahmaur take timber from the Brahmni reserved forest
+  through the Forest Department \cit{Brahmaur survey, PDF p.~24}.
+\item On the route to the plains, the Gaddis use \enquote{pasturage amid the
+  forests lower down and pasturage on the plains} \cit{Newell, PDF p.~18}.
+\item Sheep \enquote{live mainly on grazing}, so they are numerous where there
+  is fallow or waste land \cit{Punjab Census Atlas, PDF p.~367}. The Atlas
+  sheep and goat maps place them in Kangra, Simla, and Lahaul and Spiti
+  \cit{Punjab Census Atlas, PDF pp.~290, 291}.
+\end{itemize}
+
+\subsection{Climate and Seasons}
+\begin{itemize}
+\item Snow \enquote{usually begins to fall on the passes in October and closes
+  them by the middle of November}, and \enquote{the passes re-open in May}
+  \cit{Kupha survey, PDF p.~111}.
+\item The pass from Kugti to Lahaul is \enquote{a bare mountain top at a height
+  of over 16,000} feet, and it is rare for anyone with animals \enquote{to take
+  less than three days actually on the tops of the mountain} \cit{Newell, PDF
+  p.~18, image-read}.
+\item The grazing near the village is not enough: \enquote{these tarkals are
+  not sufficient for the upkeep of the entire sheep and goat wealth of the
+  village and people have therefore to migrate to other pastures}
+  \cit{Brahmaur survey, PDF p.~55}.
+\item In Tandi, spinning is done indoors in winter and weaving in summer, so
+  the seasons order household work as well as herding \cit{Tandi survey, PDF
+  p.~66}.
+\item The section can end on the point that the seasons fixed when the flocks
+  could move, but not who owned them.
+\end{itemize}
+
+% ===================================================================
+\section{Socio-economy}
+\budget{750 (movement 200, flocks 250, trade and commerce 150, social structure 150)}
+
+\subsection{Movement: Geography and Transport}\label{sec:movement}
+\begin{itemize}
+\item In 1881 the Gaddis spend \enquote{half the year (the winter months) in the
+  valleys of Kangra} \cit{1881 census, PDF p.~275}.
+\item In 1911, \enquote{the yearly exodus to Kangra takes place in October and
+  November, and the return journey in April and May}, with summers \enquote{in
+  the higher mountains of Pangi and Lahul} \cit{Rose, vol.~2, PDF p.~297}.
+\item In 1931, \enquote{the hillmen of the lofty ranges leave their homes with
+  their sheep and cattle to spend the winter in the valleys and plains}
+  \cit{1931 census, PDF p.~142}.
+\item In 1961 the Gaddis \enquote{visit Pangi with their flocks in July and
+  remain in the valley till September} \cit{Kupha survey, PDF p.~113}, and of
+  Brahmaur's households \enquote{as many as 61 move out in winter months}
+  \cit{Brahmaur survey, PDF p.~63}.
+\item The 1881 and 1931 censuses record a winter descent without naming months.
+  Only Rose and the 1961 surveys name the months, and they agree
+  \cit{Appendix Table~\ref{tab:cal}}.
+\item The Gujjars of Maingal take their buffaloes up in May and return in
+  September \cit{Maingal survey, PDF p.~52}. The Kinnaur flocks spend
+  \enquote{the chilly months} in the lower hills \enquote{till the end of April}
+  \cit{Kanum survey, PDF p.~85}.
+\item The flocks cross from one river system to another. Brahmaur's flocks go
+  south over the Dhauladhar to Kangra in winter and north to Pangi and Lahaul
+  in summer \cit{Brahmaur survey, PDF p.~55}.
+\item On the route, families camp at known rock shelters, sometimes many
+  families under one rock \cit{Newell, PDF p.~36}.
+\item Transport changed by 1961. The route to western Tibet over the Rohtang
+  Pass, \enquote{previously only a bridle path}, was made jeepable from Manali
+  to Keylong \cit{Tandi survey, PDF p.~57}.
+\item A Gaddi shepherd in Chitrari says that on \enquote{our beaten track for
+  centuries a jeep has started plying} \cit{Chitrari survey, PDF p.~24,
+  image-read}. A jeepable road reached Kanum \cit{Kanum survey, PDF p.~133}.
+\item The Atlas records that Kangra and Lahaul and Spiti \enquote{were generally
+  without metalled roads} in 1947 and had better road connections by 1961
+  \cit{Punjab Census Atlas, PDF p.~372; maps on PDF pp.~308, 309}.
+\end{itemize}
+
+\subsection{Flocks: Ownership, Labour and Grazing Rights}
+\begin{itemize}
+\item Landholding castes owned most of the sheep and goats in every caste table
+  \cit{Appendix Tables~\ref{tab:class} and~\ref{tab:own}, image-read}.
+\item In Brahmaur, Brahmans and Rajputs are most of the households, and a part
+  of them own almost all the animals. The Sipis own few, and the one Rehara
+  household owns none \cit{Brahmaur survey, PDF p.~54; Appendix
+  Table~\ref{tab:brahmaur}}.
+\item In Nachar a family keeps \enquote{100 to 200 sheep and goats}, while
+  \enquote{the Lambardar of the village has about 1,100 strong flock}. The
+  headman was also the largest owner \cit{Nachar survey, PDF p.~33}.
+\item In Rajana, Pangna and Chaunri, where households kept a few goats, Koli
+  households held most of the animals \cit{Appendix Table~\ref{tab:own}}.
+\item In Brahmaur most families herd their own flocks. A malundi is \enquote{a
+  shepherd who tends his own flock}, and \enquote{pohals are hired in summer
+  season by a very few people in rare cases} \cit{Brahmaur survey, PDF
+  p.~55}.
+\item A pohal is paid in kind and a little cash: \enquote{free meals},
+  \enquote{free clothing and wool for the family}, \enquote{two or four sheep
+  per hundred sheep and goats} and \enquote{Rs. 2/- in cash per month}
+  \cit{Brahmaur survey, PDF p.~55}.
+\item A Kanum trader \enquote{had four fawals-shepherds who were paid Rs. 60
+  each (annually) free meals, 8 kilogram of wool, shoes and clothes}
+  \cit{Kanum survey, PDF p.~132}.
+\item In Tandi every household pays the village shepherd \enquote{one patha
+  \dots{} of buckwheat per sheep or goat for the season} \cit{Tandi survey,
+  PDF p.~65}.
+\item Devi-Kothi farmers \enquote{may also send their sheep and goats with
+  professional graziers to high hills} \cit{Devi-Kothi survey, PDF p.~48}.
+\item Newell: \enquote{the majority of Gaddis are not shepherds} \cit{Newell,
+  PDF p.~37}. In Chitrari \enquote{the persons who take to this seasonal
+  migration are the ones who have a sizeable flock to tend} \cit{Chitrari
+  survey, PDF p.~23}.
+\item Under princely rule, \enquote{In Chamba all grazing rights belonged to the
+  rajah of Chamba}, and the right to collect fees \enquote{was auctioned by the
+  rajah of Chamba to the highest bidder, who was usually a Gaddi} \cit{Newell,
+  PDF p.~18}.
+\item Near Brahmaur the ruler leased the pastures to a contractor, who allotted
+  them to shepherds on condition that the flocks manure the fallow fields at
+  night \cit{Brahmaur survey, PDF p.~55}.
+\item In Kanum, by contrast, \enquote{every villager has a right of utilizing the
+  pastures} under the Bushahr ruler as Primary Owner \cit{Kanum survey, PDF
+  pp.~18, 133}.
+\item After 1948 \enquote{the pastures are allotted direct to the shepherds by the
+  Forest Department}, and each shepherd has a fixed dhar for \enquote{a fixed
+  number of sheep and goats} \cit{Brahmaur survey, PDF p.~55}.
+\item The tax receipt \enquote{is however not issued unless the shepherd has a
+  permit issued by the Forest Department} \cit{Newell, PDF p.~19}, and
+  \enquote{the Forest Department do not now grant any additional permit}
+  \cit{Brahmaur survey, PDF p.~46}.
+\item In Devi-Kothi \enquote{A distinction is made between right holder graziers
+  and others in payment of fee and penalty} \cit{Devi-Kothi survey, PDF
+  p.~47}. The rights were \enquote{given to them by the early rulers of Chamba}
+  \cit{Devi-Kothi survey, PDF p.~49}.
+\item In the survey's Table XIV the right holders pay less only for buffaloes,
+  in both fee and penalty. Sheep, goats and cattle pay the same whether or not
+  the grazier holds rights \cit{Devi-Kothi survey, PDF p.~47, image-read;
+  Appendix Table~\ref{tab:fees}}.
+\item Do not use the Devi-Kothi sentence \enquote{the fee is Rs. 5/- from
+  non-right holders and Re. 1/- from a right holder} as a grazing fee. It is
+  the fee for a permit to extract dhup, a herb, from the hill tops
+  \cit{Devi-Kothi survey, PDF p.~48}. The old draft essay used it as a grazing
+  fee.
+\item The raja's fee and the Department's fee are in different units. The raja's
+  contractor charged per head for each grazing district, and the districts
+  \enquote{were so arranged that shepherds might wander from one to the other}
+  \cit{Newell, PDF p.~18}. The Department in Brahmaur charged per hundred heads
+  for the summer season, and \enquote{A shepherd has to pay the grazing tax twice
+  a year} \cit{Brahmaur survey, PDF p.~55}. A flock's total payment under the
+  raja depended on how many districts it grazed, which no source records, so
+  the two fees cannot be compared per head per year \cit{Appendix
+  Table~\ref{tab:fees}}.
+\item Newell's 1962 rates give one comparison in the same units, across three
+  areas under the Department. In Lahul and Kangra the Department charged more
+  for a goat than for a sheep, and in Brahmaur it charged both the same \cit{Newell, PDF p.~19,
+  image-read; Appendix Table~\ref{tab:fees}}.
+\item The number of fee-paying sheep and goats fell in one step and did not
+  recover \cit{Newell, PDF p.~38, image-read; Appendix
+  Table~\ref{tab:series}}.
+\item Permits became property: \enquote{these permits are freely bought and sold
+  amongst shepherds so that shepherds have now become closed corporations}
+  \cit{Newell, PDF p.~37}.
+\end{itemize}
+
+\subsection{Trade and Commerce}
+\begin{itemize}
+\item The Gaddis' woollens \enquote{command a ready market in the low hills where
+  people sell them during their stay there in winter months} \cit{Brahmaur
+  survey, PDF p.~59}.
+\item Kanum's people went down with \enquote{their flocks laden with chilgozas,
+  wool, woollen patties, nuts, pasham, jira and other local herbs} and sold
+  them \enquote{either in Lavi fair at Rampur} or in the lower villages
+  \cit{Kanum survey, PDF p.~16}.
+\item From Tibet \enquote{they brought wool, pasham, butter, ghee, goat, sheep
+  and salt} \cit{Kanum survey, PDF p.~131}, and a trader's journey
+  \enquote{began in July and he was back in Kanum usually by November}
+  \cit{Kanum survey, PDF p.~132}.
+\item The Lavi fair at Rampur, in the second week of November, is \enquote{the
+  biggest trade fair in Himachal} \cit{Mahasu handbook, PDF p.~56; fairs map on
+  PDF p.~4}.
+\item Rose records Tibetan \enquote{trade sheep} crossing the Baralacha pass
+  \cit{Rose, vol.~1, PDF p.~523}.
+\item Trade words are far more frequent in the Sutlej surveys than in the Ravi
+  surveys \cit{Appendix Table~\ref{tab:trade}}.
+\item The low villages bought from passing herders. Bir's animals were
+  \enquote{purchased from Gaddis who wander near about in winter, for 10 to 12
+  rupees}. Batal bought wool \enquote{from the Kinnauras who stay near about the
+  village} \cit{Bir survey, PDF p.~43; Batal survey, PDF p.~46}.
+\item After the trade with Tibet stopped, \enquote{an acute shortage of wool and
+  Pasham is being experienced} \cit{Weaving survey, PDF p.~16}, and Chergaon's
+  buyers turned from the Lavi fair to Dodra Kawar \cit{Chergaon survey, PDF
+  p.~61}.
+\item In the graph, interest paid by households to moneylenders is the most
+  frequent relation of payment in the whole corpus \cit{Appendix
+  Table~\ref{tab:flows}}.
+\item Co-operative societies appear as lenders in the 1961 surveys of Kalath,
+  Pangna, Kot, Brahmaur and Rajana. They are a new creditor beside the
+  moneylender and the shopkeeper \cit{Appendix Table~\ref{tab:flows}}.
+\item Credit ran alongside trade. In Maingal the Gujjars \enquote{borrow money at
+  30\% annual interest} from lenders who also buy their milk products
+  \cit{Maingal survey, PDF p.~42}.
+\item The Gujjars sell their ghee \enquote{to a particular shopkeeper at Chamba
+  who pays them much less than the market price} \cit{Maingal survey, PDF
+  p.~60}, and those in debt \enquote{are obliged to sell their produce to them}
+  \cit{Maingal survey, PDF p.~61}.
+\item In Devi-Kothi the shopkeeper from Kangra charges high rates, and Bhot
+  traders from Pangi sell goods for grain \cit{Devi-Kothi survey, PDF p.~53}.
+\end{itemize}
+
+\subsection{Social Structure: Family Units, Caste, Customs and Traditions}
+\begin{itemize}
+\item The household is the unit of migration. On the winter route \enquote{the
+  wife usually accompanies her husband}, cooks and looks after the children,
+  while the husband looks after the sheep \cit{Newell, PDF p.~36}.
+\item \enquote{Even during migration, she carries an equal load on her back and
+  contributes equally to the family earnings} \cit{Brahmaur survey, PDF
+  p.~79}.
+\item In Nachar, households with large flocks spare one or two members as
+  shepherds \cit{Nachar survey, PDF p.~33}.
+\item Occupations follow caste. In Maingal, \enquote{Occupations are classified
+  better on caste basis}: Gujjars rear buffaloes, and Gaddi Brahmins and
+  Rajputs farm and keep sheep and goats \cit{Maingal survey, PDF p.~38}.
+\item Debt runs across caste lines: \enquote{Gujjars had to pay food grain debts
+  to Gaddi brahmins} \cit{Maingal survey, PDF p.~38}.
+\item In Kanum the landlord who is also the moneylender has lent to
+  \enquote{the scheduled castes and others} \cit{Kanum survey, PDF p.~53}.
+\item Custom shapes the economy of the village. No poultry is kept in Brahmaur
+  proper, because the birds would \enquote{defile the sacred Chaurasi area}
+  \cit{Brahmaur survey, PDF p.~54}.
+\item In Kanum the temple lends to every household and collects interest at the
+  fair of Kangyur \cit{Kanum survey, PDF p.~82}.
+\item \enquote{At the top of every pass is a shrine at which the herdsmen
+  sacrifice a beast or the traveller presents a small coin} \cit{Newell, PDF
+  p.~19}. The route of the flocks is also a sacred geography.
+\item In Tandi one household keeps the village yak in winter, and the whole
+  village shares the cost \cit{Tandi survey, PDF p.~65}.
+\item Bushahr's subjects owed the ruler labour service, \enquote{including
+  `Athada Begar'} \cit{Kanum survey, PDF p.~18}.
+\item The 1931 Punjab Social Map shows Chamba and Bashahr as separate states
+  and draws the Depressed Classes as a category \cit{1931 census, PDF p.~24}.
+\end{itemize}
+
+% ===================================================================
+\section{Political Events}
+\budget{300}
+
+\begin{itemize}
+\item In 1874 \enquote{an attempt was made to lease the dhars or bigger grazing
+  grounds} of Pangi, and \enquote{it provoked much opposition and was finally
+  abandoned} \cit{Kupha survey, PDF p.~113}.
+\item In 1881 the Gaddis \enquote{hold lands on this side and also in Chamba}
+  and, \enquote{whenever fined by the Kangra authorities}, paid \enquote{a
+  similar penalty into the Chamba treasury}. Barnes adds that \enquote{our
+  institutions have taught them greater independence} \cit{1881 census, PDF
+  p.~275}.
+\item Gaddis crossing into Lahul \enquote{would need to pay a grazing tax to
+  both the Chamba and Lahuli ruler} \cit{Newell, PDF p.~18}.
+\item On 15 April 1948 the hill states became Himachal Pradesh, and Kinnaur
+  left the state of Rampur Bushahr \cit{Kothi survey, PDF p.~16}.
+\item After the merger, \enquote{these rights to grazing tax have now been taken
+  over by the Government of India State Forest Department} \cit{Newell, PDF
+  p.~19}, and \enquote{today the power of the forest department is paramount}
+  \cit{Newell, PDF p.~15}.
+\item When the Indian Union incorporated Chamba, it introduced \enquote{the idea
+  of private property in land}, and \enquote{in 1953 a Settlement was instituted
+  in Brahmaur tahsil} \cit{Newell, PDF p.~19}.
+\item Shipki La \enquote{was open to all traders without passport} before
+  \enquote{the India-China dispute} \cit{Kanum survey, PDF p.~51}, and the Gartok
+  trade \enquote{has now practically come to an end} \cit{Kanum survey, PDF
+  p.~16}. No source in the corpus dates the closing.
+\item Newell marks one year of the fee series as \enquote{the year after the
+  sheep were struck by disease} \cit{Newell, PDF p.~38}.
+\item Keep this section to a list of events in order. Their meaning belongs to
+  Section~\ref{sec:interp}.
+\end{itemize}
+
+% ===================================================================
+\section{Interpretation}\label{sec:interp}
+\budget{1,300}
+
+\noindent The hypothesis is that Braudel's levels give the frame of the
+history, and Marx's categories explain the relations and contradictions inside
+that frame. The bullets below let the reader reach this through the cases. The
+essay can show it in each subsection and name it once, near the end.
+
+\subsection{Three Clocks over One Valley}
+\begin{itemize}
+\item Read the evidence on Braudel's three levels at once. The calendar and the
+  altitude threshold are the longue durée. The raja's fee contract, the Forest
+  Department's permits, the Tibet trade and road building are conjunctures. The
+  lease attempt of 1874, the merger of 1948, the India-China dispute and the
+  sheep disease are events \cit{Sections~3 to~5 of the essay}.
+\item The three levels run together: \enquote{The longue durée, cyclical phases
+  (conjoncture), and events fit together easily} \cit{\Braudel, PDF p.~29}.
+\item The Brahmaur surveyor wrote both clocks into one sentence: roads offer
+  \enquote{new avenues of earning livelihood}, which \enquote{is likely to change
+  the cycle of their life followed since ages} \cit{Brahmaur survey, PDF
+  p.~87}.
+\item The frame answers the first half of the research question. The months,
+  the routes and the threshold of altitude did not change between 1881 and
+  1961 \cit{Appendix Tables~\ref{tab:alt} and~\ref{tab:cal}}.
+\item The frame leaves questions open, and these questions lead to Marx. Why
+  did Chaupal, as high as Brahmaur, keep few animals? Why did the Gaddis of
+  Maingal settle? Why did fee-paying flocks fall and stay down?
+\end{itemize}
+
+\subsection{Limits of the Geographical Frame}
+\begin{itemize}
+\item Altitude made large flocks possible, but whether a family migrated
+  depended on whether it owned a flock large enough to make the journey worth
+  it \cit{Chitrari survey, PDF p.~23}.
+\item Within the same valley and under the same ruler, Brahmaur families went
+  with their own flocks, Devi-Kothi farmers paid graziers, and Maingal's Gaddis
+  farmed \cit{Brahmaur survey, PDF p.~55; Devi-Kothi survey, PDF p.~48; Maingal
+  survey, PDF p.~52}. Bloch's comparison rules out geography as the cause of
+  this difference.
+\item The same geography carried different relations of production. The owner
+  who worked his own flock, the hired pohal paid in kind, the grazier paid per
+  head and the village shepherd paid in grain are four relations on one
+  mountain \cit{Brahmaur survey, PDF p.~55; Devi-Kothi survey, PDF p.~48; Tandi
+  survey, PDF p.~65}.
+\item Marx's first step applies here: \enquote{Identify the `Material Basis' of
+  social formation} \cit{Alam, \enquote{Marxist History} slides, PDF p.~10}. The
+  material basis is the flocks and the pastures, and who held them.
+\item Braudel himself credits Marx with \enquote{real social models, based on the
+  historical longue durée} \cit{\Braudel, PDF p.~32}. Quote this to show that
+  the two lenses were not opposed even for Braudel.
+\end{itemize}
+
+\subsection{Each Conjuncture Has Its Material Basis and Its Contradiction}
+\begin{itemize}
+\item Two sovereigns, 1881. One people stood under two claims, British Kangra
+  and Chamba. Barnes saw colonial rule weakening the raja's side of the claim
+  \cit{1881 census, PDF p.~275; Newell, PDF p.~18}.
+\item The raja's pastures, to about 1950. The raja owned the pastures and the
+  herders used them. A share of the product was taken as a cash fee, as labour
+  under the Athada Begar, as wool in place of revenue, and as manure under the
+  contract \cit{Newell, PDF pp.~14, 18; Kanum survey, PDF p.~18; Brahmaur
+  survey, PDF p.~55}.
+\item Marx counts the state's claim on the product as its department of
+  \enquote{Finance, or the plunder of the interior} \cit{Marx, \enquote{The
+  British Rule in India}, PDF p.~2}. Habib separates such revenue from rent:
+  \enquote{a tax on the crop} \cit{\Habib, PDF p.~8}. The raja's grazing fee
+  was both, because he was ruler and owner at once.
+\item Newell describes the princely order in terms close to Marx's: \enquote{the
+  whole of Chamba State was nationalised, that is belonged to the nation in the
+  person of the rajah}. The raja had to allocate land \enquote{on certain
+  customary principles}, and land \enquote{could thus not be used as security for
+  debt} \cit{Newell, PDF p.~19}.
+\item After incorporation into Himachal Pradesh the state introduced
+  \enquote{the idea of private property in land}, with a Settlement of Brahmaur
+  tahsil in 1953 \cit{Newell, PDF p.~19}. Marx saw the zamindari and ryotwari
+  settlements of British India as \enquote{two distinct forms of private property
+  in land} \cit{Marx, \enquote{The Future Results of British Rule in India}, PDF
+  p.~1}. The Settlement of 1953 is the same transformation, arriving in Chamba
+  after independence.
+\item Under the raja, land could not secure a debt. Once land became private
+  property, it could. The Brahmaur and Devi-Kothi surveys each have a section on
+  mortgages \cit{Brahmaur survey, PDF p.~3; Devi-Kothi survey, PDF p.~5, both
+  contents pages}. Read those sections before the essay links the Settlement to
+  mortgaged land.
+\item The fee contractor was usually a Gaddi, so the raja's claim was collected
+  through the herding community itself \cit{Newell, PDF p.~18}.
+\item The contradiction was ownership against customary use. The 1874 lease was
+  abandoned after opposition, so custom set a limit on the ruler's claim
+  \cit{Kupha survey, PDF p.~113}. The Manifesto's image fits: old relations
+  \enquote{became so many fetters} \cit{Marx and Engels, \emph{Manifesto},
+  PDF p.~4}.
+\item The Forest Department, from 1948. The state became the owner of the
+  pastures and collected the fee through its own employee, without the Gaddi
+  contractor \cit{Newell, PDF p.~19}. Aymard describes such \enquote{elimination
+  of middlemen} in the collection of a tax \cit{Aymard, \enquote{The Cost of
+  War}, PDF p.~3}.
+\item The unit of the charge changed. The raja's contractor collected per head
+  for each grazing district a flock entered, and the Department collected per
+  head for a season, under a permit for a fixed number of animals on a fixed
+  dhar \cit{Newell, PDF p.~18; Brahmaur survey, PDF pp.~46, 55; Appendix
+  Table~\ref{tab:fees}}. The charge was tied to the district under the raja and
+  to the permit holder under the Department.
+\item The contradiction was conservation against subsistence. Erosion led to
+  passes and closures, and closures led to resentment \cit{Chitrari survey,
+  PDF p.~23; Kupha survey, PDF p.~136}. Kosambi: \enquote{Fusion and tolerance
+  become impossible when \dots{} there is not enough of the surplus product to
+  go around} \cit{Kosambi, PDF p.~21}.
+\item The resolution was a new form of property. A capped permit became
+  a commodity that shepherds bought and sold, and the holders became \enquote{closed
+  corporations} \cit{Newell, PDF p.~37}. Habib describes the same passage for
+  zamindari rights: \enquote{owing to monetization, the zamindari right became a
+  fully salable commodity} \cit{\Habib, PDF p.~15}.
+\item The slides' rule of quantity and quality applies: \enquote{A sufficiently
+  large change in quantity changes the nature of the thing} \cit{Alam,
+  \enquote{Marxist History} slides, PDF p.~8}. A limit on the number of permits
+  turned a licence into property.
+\item Old privilege survived inside the new regime. The Department kept the
+  distinction between right holders, whose rights came from the rajas, and
+  others, and charged right holders less for buffaloes \cit{Devi-Kothi survey,
+  PDF pp.~47, 49, image-read}. The slides: \enquote{Colonial Relations Can Continue Even After
+  Political Independence} \cit{Alam, \enquote{Marxist History} slides, PDF
+  p.~17}.
+\item Roads and wages, the 1950s. The pohal was paid in meals, clothing, wool
+  and a few animals, and the road labourer in cash by the day \cit{Brahmaur
+  survey, PDF pp.~45, 55; Appendix Table~\ref{tab:wages}}. In Kanum, labourers \enquote{prefer to work on the
+  roads rather than work as `fawals'} because \enquote{they get better wages}
+  \cit{Kanum survey, PDF p.~51}.
+\item The contradiction was between flock owners who needed hired shepherds and
+  shepherds who could now be paid higher wages on the roads. The Manifesto names the new tie
+  as \enquote{callous `cash payment'} \cit{Marx and Engels, \emph{Manifesto}, PDF
+  p.~2}.
+\item Marx expected roads to break the isolation of Indian villages:
+  \enquote{the absence of roads perpetuated the village isolation} \cit{Marx,
+  \enquote{The Future Results of British Rule in India}, PDF p.~2}. The jeep on
+  the shepherds' track is the local case \cit{Chitrari survey, PDF p.~24}.
+\item Credit ran through every conjuncture. The Gujjars owned buffaloes and were
+  all in debt, so their surplus was taken through interest and the price of
+  ghee, without any claim on their animals \cit{Maingal survey, PDF pp.~42,
+  48, 60}.
+\item Habib names the beneficiaries of such debt as headmen, \enquote{professional
+  usurers} and \enquote{merchants (who often gave advances to the peasants to
+  establish claims on their produce)} \cit{\Habib, PDF p.~14}. The Manifesto
+  lists \enquote{the landlord, the shopkeeper, the pawnbroker} \cit{Marx and
+  Engels, \emph{Manifesto}, PDF p.~5}. Kanum's landlord-moneylender and the
+  Chamba ghee buyer are both on that list \cit{Kanum survey, PDF p.~53;
+  Maingal survey, PDF p.~60}.
+\end{itemize}
+
+\subsection{Evidence from the Knowledge Graph}
+\begin{itemize}
+\item The main receiver of payments changes with the conjuncture. In the
+  raja's conjuncture it is the Raja of Chamba and the fee contractor, after
+  1948 the Forest Department, and in trade and credit the moneylender and the
+  shopkeeper \cit{Appendix Table~\ref{tab:flows}; flow chart in
+  \path{analysis/surplus/flows.png}}. This is the Marxist question of who
+  takes the surplus, answered by a count over the whole corpus.
+\item The evidence for the raja's conjuncture comes mostly from Newell, writing
+  in 1961 about the years before, and from Rose. The 1931 census has no claim
+  on it \cit{Appendix Table~\ref{tab:graph}}. The princely order is therefore
+  seen largely through a later witness, which Bloch's criticism asks the essay
+  to say \cit{Bloch, \emph{The Historian's Craft}, PDF p.~23}.
+\item The Forest Department's conjuncture is attested only in the 1961
+  sources, and words of forest and state are absent from the 1881 and Rose
+  layers \cit{Appendix Tables~\ref{tab:graph} and~\ref{tab:layers}}. The
+  conjuncture appears in the vocabulary of the sources as well as in their
+  content.
+\item Words of wage work and debt are more frequent in the 1931 census than in
+  the 1881 census \cit{Appendix Table~\ref{tab:layers}}. The colonial rates
+  are over whole volumes, not only the hills, so they show a direction and not
+  a measure for the hills.
+\item The conjuncture of two sovereigns is attested by very few claims \cit{Appendix
+  Table~\ref{tab:graph}}. The essay can present it as an observation of Barnes
+  and Newell, not as a measured pattern.
+\item The calendar holds in independent witnesses. Barnes's passage on the
+  Gujars was copied into Rose, but Rose's account of the Gaddi year and the
+  1961 accounts are not copies \cit{project analysis A15, A19}. Bloch:
+  \enquote{agreement in the errors of the data \dots{} seems inconceivable to
+  us} \cit{Bloch, \emph{The Historian's Craft}, PDF p.~42}.
+\end{itemize}
+
+\subsection{Events as the Points Where the Levels Meet}
+\begin{itemize}
+\item Braudel: \enquote{An event is an explosion, something that has `the sound of
+  newness'} \cit{\Braudel, PDF p.~5}. Each event in the sources shows where a
+  structure and a contradiction met.
+\item The lease of 1874 is an event in which the contradiction between the
+  ruler's ownership and the herders' use came into the open. Its failure kept
+  customary grazing in place \cit{Kupha survey, PDF p.~113}.
+\item The merger of 1948 changed the sovereign but not the migration. Marx,
+  quoting a Commons report on Indian villages: \enquote{while the village remains
+  entire, they care not to what power it is transferred} \cit{Marx, \enquote{The
+  British Rule in India}, PDF p.~3}. What the merger did change was the form of
+  the claim on the pastures \cit{Newell, PDF p.~19}.
+\item The India-China dispute struck only the valley whose structure of trade
+  ran to Tibet. The same event had no effect on the Ravi herders, whose trade
+  ran south \cit{Kanum survey, PDF pp.~16, 51; Brahmaur survey, PDF p.~59}.
+  The structure decided where the event was felt.
+\item The sheep disease is an event inside a conjuncture. Braudel warns that
+  \enquote{The short term is the most capricious, the most deceptive of time
+  periods} \cit{\Braudel, PDF p.~6}. The fee-paying flocks did not recover
+  after the disease \cit{Appendix Table~\ref{tab:series}}, and Newell
+  attributes the loss to \enquote{the Forest Department permit system}
+  \cit{Newell, PDF p.~37}.
+\end{itemize}
+
+\subsection{The Ravi and the Sutlej}
+\begin{itemize}
+\item The two valleys share the mountain and the season and differ in the
+  direction of their rivers and in how the pastures were held \cit{Newell, PDF
+  p.~18; Kanum survey, PDF p.~133}.
+\item On the Ravi, where the raja had farmed out the grazing fee, the
+  Department's permits became a market. On the Sutlej, where the pastures were
+  commons, they became state forest under the same Department
+  \cit{Newell, PDF pp.~18, 37; Kanum survey, PDF p.~133}.
+\item The form of property before 1948 shaped the form after it. This is the
+  dialectic at the scale of a valley: each new arrangement is built from the
+  one before.
+\item On the Sutlej the herders were also traders. Habib notes that mobile
+  groups carried long-distance trade in Mughal India: \enquote{the famous nomadic
+  class of banjaras} \cit{\Habib, PDF p.~41}. The Kanum flocks laden with
+  goods for Lavi are a hill version \cit{Kanum survey, PDF p.~16}.
+\end{itemize}
+
+\subsection{Insights to Draw Out}
+\begin{itemize}
+\item The form of the migration lasted, and the people who gained from it
+  changed. The months and routes stayed, and the claim on the product moved
+  from the raja and his contractor to the Forest Department and the market.
+\item Altitude was a condition for large flocks, and ownership decided who used
+  it \cit{Appendix Tables~\ref{tab:alt} and~\ref{tab:class}}.
+\item The state took the middleman's place, charged per permit holder instead
+  of per district, and limited the number of animals. The limit created a
+  market in permits \cit{Newell, PDF pp.~18, 19, 37; Brahmaur survey, PDF
+  p.~46}.
+\item Payment moved from kind to cash. The pohal was paid in meals, wool and
+  animals, the village shepherd in grain, and the road labourer in cash
+  \cit{Brahmaur survey, PDF pp.~45, 55; Tandi survey, PDF p.~65}. Habib on
+  cash revenue: the payer \enquote{was compelled to sell his produce in order to
+  get money to pay for it} \cit{\Habib, PDF p.~11}.
+\item Where a household owned its means of production, its surplus was still
+  taken through credit and the market \cit{Maingal survey, PDF pp.~42, 60}.
+\item The sources speak through surveyors, settlement officers and headmen. The
+  Lambardar of Nachar was the largest flock owner \cit{Nachar survey, PDF
+  p.~33}, as Marx's \enquote{potail} was \enquote{collector or renter of the
+  village} \cit{Marx, \enquote{The British Rule in India}, PDF p.~3}.
+\item The Sipis, the Reharas, the Kolis, the hired fawals and the indebted
+  Gujjars have no voice in the sources. Braudel: \enquote{There are others who
+  matter but who are silent} \cit{\Braudel, PDF p.~18}.
+\end{itemize}
+
+% ===================================================================
+\section{Conclusion}
+\budget{200}
+
+\begin{itemize}
+\item Answer the question in two halves. The cycle persisted as an adaptation
+  to mountain and season. Who could take part in it, and who gained from it,
+  changed with each conjuncture.
+\item By 1961 the migration ran on fixed dhars, under permits that could be
+  bought and sold, with fewer fee-paying animals and with hired shepherds
+  leaving for the roads \cit{Brahmaur survey, PDF p.~55; Newell, PDF pp.~37,
+  38; Kanum survey, PDF p.~51}.
+\item Those without permits, the castes that owned few animals and the indebted
+  Gujjars lost by the change. Permit holders and the state gained.
+\item Read alone, Braudel gives the frame and Marx gives the motion. Read
+  together, the levels of time show where to look, and the material basis shows
+  why things moved. State this once, in plain words.
+\item The evidence graph draws almost all its claims from the 1961 volumes, so
+  the colonial conjunctures are thinly attested \cit{Appendix
+  Table~\ref{tab:graph}}.
+\item Limits to name. A count of claims measures how often the sources mention a
+  relation, not its size. The villages were chosen by the Census. The livestock
+  and fee figures were read from page images. No source dates the closing of
+  Shipki La, and no source maps the migration routes.
+\end{itemize}
+
+% ===================================================================
+\appendix
+\section{Data Tables}\label{app:data}
+
+\noindent All values are computed by \path{scripts/build_evidence.py} and
+appear in \path{essay/evidence/evidence.pdf}. Livestock and fee figures were
+read from page images and have not been checked by a person.
+
+\begin{table}[h]\centering\small
+\caption{Pipeline counts.}\label{tab:pipe}
+\begin{tabular}{lr}\toprule
+Quantity & Count\\\midrule
+Pages of the 1961 volumes scored / selected & 3,754 / 428\\
+Pages of the 1881, Rose and 1931 volumes scored / selected & 2,939 / 82\\
+Claims proposed by the language model & 1,843\\
+Claims rejected, quotation not on the cited page & 44\\
+Claims from image-read tables / entered by hand & 174 / 38\\
+Claims kept in the evidence graph & 1,964\\
+Second check: supported / partly / not supported / unclear & 1,135 / 545 / 108 / 1\\
+Copied passages between sources & 4,698\\
+Newell passages copied from Rose (all on PDF pp.~52 to 99) & 91\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Altitude and sheep and goats per household (selected villages). Spearman rank correlation of altitude with animals per household 0.54 across 19 villages, and with the landholding share −0.05 (project analysis A18).}\label{tab:alt}
+\begin{tabular}{llrrrr}\toprule
+Village & River & Altitude (m) & Households & Sheep and goats & Per household\\\midrule
+Tandi & Chenab & 3048 & 18 & 384 & 21.3\\
+Kanum & Sutlej & 2926 & 113 & 1827 & 16.2\\
+Kothi & Sutlej & 2515 & 128 & 2557 & 20.0\\
+Chaupal & Yamuna & 2342 & 80 & 126 & 1.6\\
+Maingal & Ravi & 2286 & 31 & 405 & 13.1\\
+Devi-Kothi & Ravi & 2164 & 60 & 1337 & 22.3\\
+Brahmaur & Ravi & 2134 & 99 & 4484 & 45.3\\
+Chitrari & Ravi & 1829 & 80 & 159 & 2.0\\
+Bir & Beas & 1219 & 36 & 208 & 5.8\\
+Batal & & 1088 & 140 & 40 & 0.3\\
+Shakrori & Sutlej & 518 & 60 & 76 & 1.3\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Movements of the Gaddis and Gujjars named with months.}\label{tab:cal}
+\begin{tabularx}{\textwidth}{llYY}\toprule
+Group & Movement to & Years of the sources & Months named (years)\\\midrule
+Gaddi & winter grounds & 1881, 1911, 1961 & Oct to Feb (1911, 1961)\\
+Gaddi & summer pastures & 1911, 1961 & Mar to Nov (1961)\\
+Gujjar & summer pastures & 1881, 1911, 1961 & Apr, May (1961)\\
+\bottomrule\end{tabularx}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Claims in the evidence graph by conjuncture and year of the source.}\label{tab:graph}
+\begin{tabular}{lrrrrrr}\toprule
+Conjuncture & 1881 & 1911 & 1914 & 1919 & 1931 & 1961\\\midrule
+cycle & 4 & 11 & 2 & 6 & 2 & 344\\
+two sovereigns & 3 & 1 & 0 & 0 & 0 & 1\\
+raja's pastures & 8 & 12 & 9 & 5 & 0 & 72\\
+Forest Department & 0 & 0 & 0 & 0 & 0 & 55\\
+roads and wages & 11 & 7 & 2 & 0 & 0 & 169\\
+trade and credit & 7 & 7 & 2 & 2 & 0 & 375\\
+standing social order & 10 & 5 & 0 & 0 & 0 & 724\\
+\bottomrule\end{tabular}
+
+\smallskip
+Of the 106 claims on the raja's pastures, 54 come from Newell (1961).
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Most frequent relations of payment in the graph, by conjuncture (claim counts).}\label{tab:flows}
+\begin{tabular}{lrrr}\toprule
+Who gives to whom (kind) & Raja's pastures & Forest Dept. & Trade and credit\\\midrule
+households to moneylender (interest) & 0 & 0 & 42\\
+households to co-operative society (interest) & 0 & 0 & 18\\
+households to shopkeeper (produce sold) & 0 & 0 & 10\\
+households to shopkeeper (interest) & 0 & 0 & 8\\
+grazier to Forest Department (dues) & 0 & 8 & 0\\
+shepherd to Forest Department (fee or tax) & 0 & 8 & 0\\
+shepherd to Forest Department (permit) & 0 & 5 & 0\\
+households to Raja of Chamba (dues) & 4 & 0 & 0\\
+\bottomrule\end{tabular}
+
+\smallskip
+Main receivers by claims received: Raja of Chamba 11 and fee contractor 4
+(raja's pastures), Forest Department 35, moneylender 53 and shopkeeper 29
+(trade and credit).
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Keyword rates per 10,000 words in the colonial layers (whole volumes).}\label{tab:layers}
+\begin{tabular}{lrrrrrrr}\toprule
+Layer & Flocks & Pasture & Rights and dues & Forest and state & Trade & Debt & Wage work\\\midrule
+1881 census & 1.82 & 1.43 & 0.31 & 0.00 & 3.34 & 0.97 & 0.87\\
+Rose (1911) & 7.61 & 1.85 & 1.35 & 0.00 & 4.71 & 1.23 & 0.52\\
+1931 census & 0.51 & 0.29 & 1.28 & 0.04 & 1.19 & 1.93 & 2.42\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Sheep and goats by caste class, all caste tables.}\label{tab:class}
+\begin{tabular}{lrr}\toprule
+Caste class & Sheep and goats & Share (\%)\\\midrule
+landholding & 10,902 & 89.3\\
+scheduled caste & 992 & 8.1\\
+herding tribe & 190 & 1.6\\
+other & 106 & 0.9\\
+trading & 20 & 0.2\\
+all caste tables & 12,210 & 100.0\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Landholding share by village (selected).}\label{tab:own}
+\begin{tabular}{llrrl}\toprule
+Village & River & Sheep and goats & Landholding (\%) & Largest owning group\\\midrule
+Brahmaur & Ravi & 4484 & 97.9 & Rajput\\
+Kothi & Sutlej & 2557 & 94.5 & Rajput\\
+Kanum & Sutlej & 1827 & 95.5 & Kanet (Rajput)\\
+Kupha & Chenab & 596 & 93.0 & Rajput\\
+Tandi & Chenab & 384 & 92.2 & Bodh\\
+Maingal & Ravi & 405 & 54.6 & Brahmin\\
+Rajana & Yamuna & 559 & 40.1 & Koli\\
+Pangna & & 62 & 4.8 & Koli\\
+Chaunri & Yamuna & 45 & 8.9 & Koli\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{The Brahmaur livestock table (Brahmaur survey, PDF p.~54).}\label{tab:brahmaur}
+\begin{tabular}{lrrr}\toprule
+Caste & Households & Owning sheep or goats & Sheep and goats\\\midrule
+Brahman & 34 & 20 & 2027\\
+Rajput & 49 & 20 & 2364\\
+Sipi & 15 & 8 & 93\\
+Rehara & 1 & 0 & 0\\
+total & 99 & 48 & 4484\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Trade, flock and debt words per 10,000 words of each survey.}\label{tab:trade}
+\begin{tabular}{llrrr}\toprule
+Survey & River & Trade & Flocks & Debt\\\midrule
+Kanum & Sutlej & 33.6 & 17.81 & 8.03\\
+Kothi & Sutlej & 14.33 & 17.82 & 10.1\\
+Nachar & Sutlej & 13.0 & 16.02 & 10.45\\
+Devi-Kothi & Ravi & 9.17 & 14.74 & 6.88\\
+Chitrari & Ravi & 8.43 & 20.16 & 5.96\\
+Brahmaur & Ravi & 8.29 & 27.09 & 4.67\\
+Maingal & Ravi & 6.62 & 20.53 & 17.55\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Grazing charges. The units differ by row, so compare only rows with the same unit.}\label{tab:fees}
+\begin{tabularx}{\textwidth}{llllYr}\toprule
+Year & Place & Collector & Animal & Rate as printed, and its unit & Rupees\\\midrule
+1950 & Chamba State & fee contractor & goat & 2 annas 6 pies per head per grazing district & 0.156\\
+1950 & Chamba State & fee contractor & sheep & 1 anna 6 pies per head per grazing district & 0.094\\
+1961 & Brahmaur & Forest Department & sheep or goat & Rs 15 per hundred heads per summer season, paid twice a year & 0.15 per head\\
+1962 & Devi-Kothi & Forest Department & sheep & Rs 0.10 per head, permit valid 1 June to 15 October (both classes) & 0.10\\
+1962 & Devi-Kothi & Forest Department & goat & Rs 0.25 per head (both classes) & 0.25\\
+1962 & Devi-Kothi & Forest Department & cow or bull & Rs 1.00 per head (both classes) & 1.00\\
+1962 & Devi-Kothi & Forest Department & buffalo & Rs 6.00 non-right holders, Rs 4.50 right holders & 6.00 / 4.50\\
+1962 & Lahul & Forest Department & goat & 4 annas per head, period not stated & 0.25\\
+1962 & Lahul & Forest Department & sheep & 2 annas per head, period not stated & 0.125\\
+1962 & Brahmaur & Forest Department & sheep or goat & 2 annas per head, period not stated & 0.125\\
+1962 & Kangra & Forest Department & sheep & 8 naye paise per head, period not stated & 0.08\\
+1962 & Kangra & Forest Department & goat & 4 annas per head, period not stated & 0.25\\
+\bottomrule\end{tabularx}
+
+\smallskip
+Sources are Newell, PDF p.~18, the Brahmaur survey, PDF p.~55, and the
+Devi-Kothi survey, PDF p.~47 (Table XIV, read from the page image). Penalties
+for grazing without a permit in Devi-Kothi are Rs 9.00 and Rs 6.00 for a
+buffalo, Rs 0.50 for a sheep and Rs 1.00 for a goat. The 1962 rates for
+Lahul, Brahmaur and Kangra are from Newell, PDF p.~19, read from the page
+image because the OCR is unreadable. Newell's Brahmaur rate, 2 annas
+(Rs 0.125) per head differs from the survey's Rs 15 per hundred heads
+(Rs 0.15) per summer season, and Newell does not state the period.
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Fee-paying sheep and goats in Brahmaur tahsil (Newell, PDF p.~38), and the change by phase.}\label{tab:series}
+\begin{tabular}{lrrr}\toprule
+Year & Sheep & Goats & Total\\\midrule
+1952--53 & 42,176 & 31,695 & 73,871\\
+1956--57 & 40,600 & 30,896 & 71,496\\
+1959--60 & 30,828 & 24,864 & 55,692\\
+1961--62 & 30,515 & 24,406 & 54,921\\\midrule
+\multicolumn{3}{l}{Change 1952--53 to 1956--57 (\%)} & −3.2\\
+\multicolumn{3}{l}{Change 1956--57 to 1959--60 (\%)} & −22.1\\
+\multicolumn{3}{l}{Change 1959--60 to 1961--62 (\%)} & −1.4\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Units of money, grain and height in the sources.}\label{tab:units}
+\begin{tabularx}{\textwidth}{lY}\toprule
+Unit & Value\\\midrule
+rupee, anna, pie & 1 rupee = 16 annas, and 1 anna = 12 pies. So 2 annas 6 pies = Rs 0.156.\\
+naya paisa & From 1957, 1 rupee = 100 naye paise. Sources of 1961 and 1962 mix both systems.\\
+maund, seer & 1 maund = 40 seers. A grain loan at 5 seers per maund a year is 12.5\% interest.\\
+patha & About one seer \cit{Tandi survey, PDF p.~65}.\\
+foot, metre & The surveys state heights in feet. The appendix tables give metres (1 foot = 0.3048 m).\\
+\bottomrule\end{tabularx}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{Wages, prices and interest, with their units.}\label{tab:wages}
+\begin{tabularx}{\textwidth}{lYl}\toprule
+Item & Amount and unit & Source\\\midrule
+Pohal (hired shepherd), Brahmaur & Rs 2 per month in cash, with free meals, clothing, wool, and two or four sheep per hundred animals & Brahmaur, p.~55\\
+Fawal (hired shepherd), Kanum & Rs 60 per year each, with meals, 8 kg of wool, shoes and clothes & Kanum, p.~132\\
+Village shepherd, Tandi & one patha of buckwheat per sheep or goat per season, from each household & Tandi, p.~65\\
+Grazier, Devi-Kothi & 20 to 25 naye paise per sheep or goat, May or June to October & Devi-Kothi, p.~48\\
+Road and timber labour, Brahmaur & about Rs 2 per day & Brahmaur, p.~45\\
+Timber labour, Devi-Kothi & about Rs 4 per day & Devi-Kothi, p.~48\\
+Gujjar loans, Maingal & 30\% interest per year & Maingal, p.~42\\
+Grain loans, Kanum & 5 seers per maund per year (12.5\%) & Kanum, p.~55\\
+Ghee, Devi-Kothi markets & Rs 12 per batti (Chamba tole), 1962 & Devi-Kothi, p.~47\\
+\bottomrule\end{tabularx}
+
+\smallskip
+A pohal paid by the month and a road labourer paid by the day cannot be
+compared on the cash alone, because the pohal's pay was mostly in kind.
+\end{table}
+
+\clearpage
+\section{References}
+
+\subsection*{Primary Sources}
+\begin{itemize}
+\item Ibbetson, Denzil. \emph{Report on the Census of the Panjab, 1881}, Results volume. Calcutta, 1883.
+\item Rose, H.\,A. \emph{A Glossary of the Tribes and Castes of the Punjab and North-West Frontier Province}, vols.~1 to~3. Lahore, 1911 to 1919.
+\item Khan, Khan Ahmad Hasan. \emph{Census of India, 1931, Vol.~XVII: Punjab}, Part~I, Report. Lahore, 1933.
+\item Census of India 1961, Vol.~XX (Himachal Pradesh), Part~VI, Village Survey Monographs: Batal, Bir, Brahmaur, Chaunri, Chaupal, Chergaon, Chitrari, Devi-Kothi, Kanum, Kothi, Kupha (Pangi), Maingal, Nachar, Pangna, Rajana, Shakrori.
+\item Census of India 1961, Vol.~XIII (Punjab), Part~VI, Village Survey Monograph: Tandi.
+\item Census of India 1961, Vol.~XIII, Part~IX, \emph{Punjab Census Atlas}.
+\item Newell, William H. \enquote{The Gaddi and Affiliated Castes of the Western Himalayas.} In Census of India 1961, \emph{Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh}.
+\item Census of India 1961, Himachal Pradesh, \emph{District Census Handbook: Mahasu}, and \emph{Craft Survey: Weaving}.
+\end{itemize}
+
+\subsection*{Course Readings}
+\begin{itemize}
+\item Alam, Aniket. \enquote{Marxist History.} Lectures 8 to 10, Introduction to History (HS3.201), IIIT Hyderabad, Monsoon 2026.
+\item Aymard, Maurice. \enquote{The Cost of War.} In \emph{French Studies in History}, vol.~2, \emph{Departures}, 418--427.
+\item Bloch, Marc. \emph{The Historian's Craft}. Translated by Peter Putnam. New York: Vintage, 1953. Chapter~III.
+\item Braudel, Fernand. \enquote{History and the Social Sciences: The Longue Durée.} Translated by Immanuel Wallerstein. \emph{Review (Fernand Braudel Center)} 32, no.~2 (2009): 171--203.
+\item Habib, Irfan. \enquote{Potentialities of Capitalistic Development in the Economy of Mughal India.} \emph{Journal of Economic History} 29, no.~1 (1969): 32--78.
+\item Kosambi, D.\,D. \enquote{Social and Economic Aspects of the Bhagavad Gita.} \emph{Journal of the Economic and Social History of the Orient} 4, no.~2 (1961): 198--224.
+\item Le Roy Ladurie, Emmanuel. \enquote{The History of Rain and Fine Weather.} In \emph{French Studies in History}, vol.~1, \emph{The Inheritance}, 192--214.
+\item Marx, Karl. \enquote{The British Rule in India.} \emph{New-York Daily Tribune}, 25 June 1853.
+\item Marx, Karl. \enquote{The Future Results of British Rule in India.} \emph{New-York Daily Tribune}, 8 August 1853.
+\item Marx, Karl, and Friedrich Engels. \emph{Manifesto of the Communist Party}. Excerpt, pp.~14--21.
+\end{itemize}
+
+\end{document}
