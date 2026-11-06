@@ -1,0 +1,53 @@
+# Bibliography in Hayagriva format, read by Typst's #bibliography.
+# Each entry needs a type, a title and, where known, an author and a date.
+# The citation in the text supplies the page: @braudel-longue-duree[174].
+# Use the page number printed on the page, not the PDF page number.
+
+braudel-longue-duree:
+  type: article
+  title:
+    value: "History and the Social Sciences: The Longue Durée"
+    short: The Longue Durée
+  author: Braudel, Fernand
+  affiliated:
+    - role: translator
+      names: Wallerstein, Immanuel
+  date: 2009
+  page-range: 171-203
+  parent:
+    type: periodical
+    title: Review (Fernand Braudel Center)
+    volume: 32
+    issue: 2
+
+bloch-craft:
+  type: book
+  title: The Historian’s Craft
+  author: Bloch, Marc
+  affiliated:
+    - role: translator
+      names: Putnam, Peter
+  publisher:
+    name: Vintage
+    location: New York
+  date: 1953
+
+ibbetson1881:
+  type: report
+  title: Report on the Census of the Panjab, 1881
+  author: Ibbetson, Denzil
+  publisher:
+    name: Superintendent of Government Printing
+    location: Calcutta
+  date: 1883
+
+# A census monograph is cited by its compilers, with the census volume as the
+# parent. The title page carries no year of publication, so none is given.
+brahmaur1961:
+  type: book
+  title: "A Village Survey of Brahmaur: Brahmaur Sub-Tehsil, Chamba District"
+  author: ["Kapur, Dharam Pal", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 5

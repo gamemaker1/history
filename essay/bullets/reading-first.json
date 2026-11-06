@@ -1,0 +1,1847 @@
+{
+ "course": [
+  {
+   "n": 1,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 5,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3",
+    "6.5"
+   ],
+   "image": false,
+   "at": 0,
+   "uses": 2
+  },
+  {
+   "n": 2,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 6,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3",
+    "6.5"
+   ],
+   "image": false,
+   "at": 1,
+   "uses": 2
+  },
+  {
+   "n": 3,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 7,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3"
+   ],
+   "image": false,
+   "at": 2,
+   "uses": 2
+  },
+  {
+   "n": 4,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 8,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3"
+   ],
+   "image": false,
+   "at": 3,
+   "uses": 1
+  },
+  {
+   "n": 5,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 9,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3",
+    "3.1"
+   ],
+   "image": false,
+   "at": 4,
+   "uses": 3
+  },
+  {
+   "n": 6,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 10,
+   "first": "1.1 Transhumance as the Phenomenon",
+   "sections": [
+    "1.1",
+    "2.3",
+    "3.1"
+   ],
+   "image": false,
+   "at": 5,
+   "uses": 3
+  },
+  {
+   "n": 7,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 18,
+   "first": "6.7 Insights to Draw Out",
+   "sections": [
+    "6.7"
+   ],
+   "image": false,
+   "at": 6,
+   "uses": 1
+  },
+  {
+   "n": 8,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 29,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3",
+    "6.1"
+   ],
+   "image": false,
+   "at": 7,
+   "uses": 2
+  },
+  {
+   "n": 9,
+   "key": "Braudel",
+   "short": "Braudel, Longue Durée",
+   "source": "Fernand Braudel, \"History and the Social Sciences: The Longue Durée\", trans. Immanuel Wallerstein, Review (Fernand Braudel Center) 32, no. 2 (2009)",
+   "role": "The three levels of historical time, the series that measure a conjuncture, and the claim that the levels run together. The essay is ordered by these levels.",
+   "page": 32,
+   "first": "6.2 Limits of the Geographical Frame",
+   "sections": [
+    "6.2"
+   ],
+   "image": false,
+   "at": 8,
+   "uses": 1
+  },
+  {
+   "n": 10,
+   "key": "Bloch",
+   "short": "Bloch, Historian's Craft",
+   "source": "Marc Bloch, The Historian's Craft, trans. Peter Putnam (New York: Vintage, 1953), chapter III",
+   "role": "Criticism of witnesses, copying between sources, and comparison. These pages justify the text-reuse check and the comparison of the Ravi and the Sutlej.",
+   "page": 23,
+   "first": "2.2 Computational Methods",
+   "sections": [
+    "2.2",
+    "6.4"
+   ],
+   "image": false,
+   "at": 9,
+   "uses": 2
+  },
+  {
+   "n": 11,
+   "key": "Bloch",
+   "short": "Bloch, Historian's Craft",
+   "source": "Marc Bloch, The Historian's Craft, trans. Peter Putnam (New York: Vintage, 1953), chapter III",
+   "role": "Criticism of witnesses, copying between sources, and comparison. These pages justify the text-reuse check and the comparison of the Ravi and the Sutlej.",
+   "page": 32,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3"
+   ],
+   "image": false,
+   "at": 10,
+   "uses": 1
+  },
+  {
+   "n": 12,
+   "key": "Bloch",
+   "short": "Bloch, Historian's Craft",
+   "source": "Marc Bloch, The Historian's Craft, trans. Peter Putnam (New York: Vintage, 1953), chapter III",
+   "role": "Criticism of witnesses, copying between sources, and comparison. These pages justify the text-reuse check and the comparison of the Ravi and the Sutlej.",
+   "page": 36,
+   "first": "2.2 Computational Methods",
+   "sections": [
+    "2.2"
+   ],
+   "image": false,
+   "at": 11,
+   "uses": 1
+  },
+  {
+   "n": 13,
+   "key": "Bloch",
+   "short": "Bloch, Historian's Craft",
+   "source": "Marc Bloch, The Historian's Craft, trans. Peter Putnam (New York: Vintage, 1953), chapter III",
+   "role": "Criticism of witnesses, copying between sources, and comparison. These pages justify the text-reuse check and the comparison of the Ravi and the Sutlej.",
+   "page": 42,
+   "first": "6.4 Evidence from the Knowledge Graph",
+   "sections": [
+    "6.4"
+   ],
+   "image": false,
+   "at": 12,
+   "uses": 1
+  },
+  {
+   "n": 14,
+   "key": "Alam",
+   "short": "Alam, Marxist History slides",
+   "source": "Aniket Alam, \"Marxist History\", Lectures 8 to 10, Introduction to History, IIIT Hyderabad",
+   "role": "The material basis, the relations of production and the dialectical contradiction, as the course defines them.",
+   "page": 8,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 13,
+   "uses": 1
+  },
+  {
+   "n": 15,
+   "key": "Alam",
+   "short": "Alam, Marxist History slides",
+   "source": "Aniket Alam, \"Marxist History\", Lectures 8 to 10, Introduction to History, IIIT Hyderabad",
+   "role": "The material basis, the relations of production and the dialectical contradiction, as the course defines them.",
+   "page": 10,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3",
+    "6.2"
+   ],
+   "image": false,
+   "at": 14,
+   "uses": 2
+  },
+  {
+   "n": 16,
+   "key": "Alam",
+   "short": "Alam, Marxist History slides",
+   "source": "Aniket Alam, \"Marxist History\", Lectures 8 to 10, Introduction to History, IIIT Hyderabad",
+   "role": "The material basis, the relations of production and the dialectical contradiction, as the course defines them.",
+   "page": 15,
+   "first": "2.3 Historical Methods",
+   "sections": [
+    "2.3"
+   ],
+   "image": false,
+   "at": 15,
+   "uses": 1
+  },
+  {
+   "n": 17,
+   "key": "Alam",
+   "short": "Alam, Marxist History slides",
+   "source": "Aniket Alam, \"Marxist History\", Lectures 8 to 10, Introduction to History, IIIT Hyderabad",
+   "role": "The material basis, the relations of production and the dialectical contradiction, as the course defines them.",
+   "page": 17,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 16,
+   "uses": 1
+  },
+  {
+   "n": 18,
+   "key": "Marx, \\enquote{The British",
+   "short": "Marx, British Rule in India",
+   "source": "Karl Marx, \"The British Rule in India\", New-York Daily Tribune, 25 June 1853",
+   "role": "The village community and the state's claim on the product.",
+   "page": 2,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 17,
+   "uses": 1
+  },
+  {
+   "n": 19,
+   "key": "Marx, \\enquote{The British",
+   "short": "Marx, British Rule in India",
+   "source": "Karl Marx, \"The British Rule in India\", New-York Daily Tribune, 25 June 1853",
+   "role": "The village community and the state's claim on the product.",
+   "page": 3,
+   "first": "6.5 Events as the Points Where the Levels Meet",
+   "sections": [
+    "6.5",
+    "6.7"
+   ],
+   "image": false,
+   "at": 18,
+   "uses": 2
+  },
+  {
+   "n": 20,
+   "key": "Marx, \\enquote{The Future",
+   "short": "Marx, Future Results of British Rule",
+   "source": "Karl Marx, \"The Future Results of British Rule in India\", New-York Daily Tribune, 8 August 1853",
+   "role": "Roads and railways as the end of village isolation.",
+   "page": 1,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 19,
+   "uses": 1
+  },
+  {
+   "n": 21,
+   "key": "Marx, \\enquote{The Future",
+   "short": "Marx, Future Results of British Rule",
+   "source": "Karl Marx, \"The Future Results of British Rule in India\", New-York Daily Tribune, 8 August 1853",
+   "role": "Roads and railways as the end of village isolation.",
+   "page": 2,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 20,
+   "uses": 1
+  },
+  {
+   "n": 22,
+   "key": "Marx and Engels",
+   "short": "Marx and Engels, Manifesto",
+   "source": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, excerpt, pp. 14 to 21",
+   "role": "Class relations and the market.",
+   "page": 2,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 21,
+   "uses": 1
+  },
+  {
+   "n": 23,
+   "key": "Marx and Engels",
+   "short": "Marx and Engels, Manifesto",
+   "source": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, excerpt, pp. 14 to 21",
+   "role": "Class relations and the market.",
+   "page": 4,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 22,
+   "uses": 1
+  },
+  {
+   "n": 24,
+   "key": "Marx and Engels",
+   "short": "Marx and Engels, Manifesto",
+   "source": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, excerpt, pp. 14 to 21",
+   "role": "Class relations and the market.",
+   "page": 5,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 23,
+   "uses": 1
+  },
+  {
+   "n": 25,
+   "key": "Habib",
+   "short": "Habib, Capitalistic Development",
+   "source": "Irfan Habib, \"Potentialities of Capitalistic Development in the Economy of Mughal India\", Journal of Economic History 29, no. 1 (1969)",
+   "role": "Revenue, merchants and credit in an agrarian state, as a model for the raja's fee and the moneylender.",
+   "page": 8,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 24,
+   "uses": 1
+  },
+  {
+   "n": 26,
+   "key": "Habib",
+   "short": "Habib, Capitalistic Development",
+   "source": "Irfan Habib, \"Potentialities of Capitalistic Development in the Economy of Mughal India\", Journal of Economic History 29, no. 1 (1969)",
+   "role": "Revenue, merchants and credit in an agrarian state, as a model for the raja's fee and the moneylender.",
+   "page": 11,
+   "first": "6.7 Insights to Draw Out",
+   "sections": [
+    "6.7"
+   ],
+   "image": false,
+   "at": 25,
+   "uses": 1
+  },
+  {
+   "n": 27,
+   "key": "Habib",
+   "short": "Habib, Capitalistic Development",
+   "source": "Irfan Habib, \"Potentialities of Capitalistic Development in the Economy of Mughal India\", Journal of Economic History 29, no. 1 (1969)",
+   "role": "Revenue, merchants and credit in an agrarian state, as a model for the raja's fee and the moneylender.",
+   "page": 14,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 26,
+   "uses": 1
+  },
+  {
+   "n": 28,
+   "key": "Habib",
+   "short": "Habib, Capitalistic Development",
+   "source": "Irfan Habib, \"Potentialities of Capitalistic Development in the Economy of Mughal India\", Journal of Economic History 29, no. 1 (1969)",
+   "role": "Revenue, merchants and credit in an agrarian state, as a model for the raja's fee and the moneylender.",
+   "page": 15,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 27,
+   "uses": 1
+  },
+  {
+   "n": 29,
+   "key": "Habib",
+   "short": "Habib, Capitalistic Development",
+   "source": "Irfan Habib, \"Potentialities of Capitalistic Development in the Economy of Mughal India\", Journal of Economic History 29, no. 1 (1969)",
+   "role": "Revenue, merchants and credit in an agrarian state, as a model for the raja's fee and the moneylender.",
+   "page": 41,
+   "first": "6.6 The Ravi and the Sutlej",
+   "sections": [
+    "6.6"
+   ],
+   "image": false,
+   "at": 28,
+   "uses": 1
+  },
+  {
+   "n": 30,
+   "key": "Kosambi",
+   "short": "Kosambi, Bhagavad Gita",
+   "source": "D. D. Kosambi, \"Social and Economic Aspects of the Bhagavad Gita\", Journal of the Economic and Social History of the Orient 4, no. 2 (1961)",
+   "role": "Fusion and tolerance between social groups.",
+   "page": 21,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 29,
+   "uses": 1
+  },
+  {
+   "n": 31,
+   "key": "Le Roy Ladurie",
+   "short": "Le Roy Ladurie, Rain and Fine Weather",
+   "source": "Emmanuel Le Roy Ladurie, \"The History of Rain and Fine Weather\", in French Studies in History, vol. 1, The Inheritance",
+   "role": "The limit of climatic explanation.",
+   "page": 3,
+   "first": "3.1 Time",
+   "sections": [
+    "3.1"
+   ],
+   "image": false,
+   "at": 30,
+   "uses": 1
+  },
+  {
+   "n": 32,
+   "key": "Aymard",
+   "short": "Aymard, Cost of War",
+   "source": "Maurice Aymard, \"The Cost of War\", in French Studies in History, vol. 2, Departures",
+   "role": "A conjuncture read from a fiscal series.",
+   "page": 3,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 31,
+   "uses": 1
+  }
+ ],
+ "primary": [
+  {
+   "n": 33,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 55,
+   "first": "1.1 Transhumance as the Phenomenon",
+   "sections": [
+    "1.1",
+    "3.4",
+    "4.1",
+    "4.2",
+    "6.2",
+    "6.3",
+    "6.7",
+    "7"
+   ],
+   "image": false,
+   "at": 32,
+   "uses": 16
+  },
+  {
+   "n": 34,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 16,
+   "first": "1.1 Transhumance as the Phenomenon",
+   "sections": [
+    "1.1",
+    "4.3",
+    "5",
+    "6.5",
+    "6.6"
+   ],
+   "image": false,
+   "at": 33,
+   "uses": 5
+  },
+  {
+   "n": 35,
+   "key": "Maingal",
+   "short": "Maingal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Maingal (Chamba District)",
+   "role": "",
+   "page": 52,
+   "first": "1.1 Transhumance as the Phenomenon",
+   "sections": [
+    "1.1",
+    "4.1",
+    "6.2"
+   ],
+   "image": false,
+   "at": 34,
+   "uses": 3
+  },
+  {
+   "n": 36,
+   "key": "1881",
+   "short": "1881 census",
+   "source": "Denzil Ibbetson, Report on the Census of the Panjab, 1881, Results (Calcutta, 1883)",
+   "role": "",
+   "page": 275,
+   "first": "1.1 Transhumance as the Phenomenon",
+   "sections": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "3.2",
+    "4.1",
+    "5",
+    "6.3"
+   ],
+   "image": false,
+   "at": 35,
+   "uses": 7
+  },
+  {
+   "n": 37,
+   "key": "Devi-Kothi",
+   "short": "Devi-Kothi survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Devi-Kothi (Chamba District)",
+   "role": "",
+   "page": 2,
+   "first": "1.2 Region",
+   "sections": [
+    "1.2"
+   ],
+   "image": false,
+   "at": 36,
+   "uses": 1
+  },
+  {
+   "n": 38,
+   "key": "Tandi",
+   "short": "Tandi survey",
+   "source": "Census of India 1961, Vol. XIII (Punjab), Part VI, Village Survey Monograph: Tandi (Lahaul and Spiti District)",
+   "role": "",
+   "page": 5,
+   "first": "1.2 Region",
+   "sections": [
+    "1.2"
+   ],
+   "image": false,
+   "at": 37,
+   "uses": 2
+  },
+  {
+   "n": 39,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 18,
+   "first": "1.2 Region",
+   "sections": [
+    "1.2",
+    "4.2",
+    "4.4",
+    "6.3"
+   ],
+   "image": false,
+   "at": 38,
+   "uses": 4
+  },
+  {
+   "n": 40,
+   "key": "Kothi",
+   "short": "Kothi survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kothi (Kinnaur District)",
+   "role": "",
+   "page": 16,
+   "first": "1.3 Period",
+   "sections": [
+    "1.3",
+    "5"
+   ],
+   "image": false,
+   "at": 39,
+   "uses": 2
+  },
+  {
+   "n": 41,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 19,
+   "first": "1.3 Period",
+   "sections": [
+    "1.3",
+    "4.2",
+    "4.4",
+    "5",
+    "6.3",
+    "6.5",
+    "6.7"
+   ],
+   "image": true,
+   "at": 40,
+   "uses": 11
+  },
+  {
+   "n": 42,
+   "key": "1881",
+   "short": "1881 census",
+   "source": "Denzil Ibbetson, Report on the Census of the Panjab, 1881, Results (Calcutta, 1883)",
+   "role": "",
+   "page": 267,
+   "first": "2.2 Computational Methods",
+   "sections": [
+    "2.2"
+   ],
+   "image": false,
+   "at": 41,
+   "uses": 1
+  },
+  {
+   "n": 43,
+   "key": "Rose",
+   "short": "Rose, vol. 2",
+   "source": "H. A. Rose, A Glossary of the Tribes and Castes of the Punjab and North-West Frontier Province, vol. 2 (Lahore, 1911)",
+   "role": "",
+   "page": 346,
+   "first": "2.2 Computational Methods",
+   "sections": [
+    "2.2"
+   ],
+   "image": false,
+   "at": 42,
+   "uses": 1
+  },
+  {
+   "n": 44,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 317,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 43,
+   "uses": 2
+  },
+  {
+   "n": 45,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 24,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 44,
+   "uses": 1
+  },
+  {
+   "n": 46,
+   "key": "Shakrori",
+   "short": "Shakrori survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Shakrori (Seoni sub-tahsil, Mahasu District)",
+   "role": "",
+   "page": 11,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 45,
+   "uses": 1
+  },
+  {
+   "n": 47,
+   "key": "Tandi",
+   "short": "Tandi survey",
+   "source": "Census of India 1961, Vol. XIII (Punjab), Part VI, Village Survey Monograph: Tandi (Lahaul and Spiti District)",
+   "role": "",
+   "page": 18,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 46,
+   "uses": 1
+  },
+  {
+   "n": 48,
+   "key": "Chaupal",
+   "short": "Chaupal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Chaupal (Mahasu District)",
+   "role": "",
+   "page": 12,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 47,
+   "uses": 1
+  },
+  {
+   "n": 49,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 25,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 48,
+   "uses": 1
+  },
+  {
+   "n": 50,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 11,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 49,
+   "uses": 1
+  },
+  {
+   "n": 51,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 15,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 50,
+   "uses": 1
+  },
+  {
+   "n": 52,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 10,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 51,
+   "uses": 1
+  },
+  {
+   "n": 53,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 2,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 52,
+   "uses": 1
+  },
+  {
+   "n": 54,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 2,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 53,
+   "uses": 1
+  },
+  {
+   "n": 55,
+   "key": "Tandi",
+   "short": "Tandi survey",
+   "source": "Census of India 1961, Vol. XIII (Punjab), Part VI, Village Survey Monograph: Tandi (Lahaul and Spiti District)",
+   "role": "",
+   "page": 17,
+   "first": "3.2 Altitude and River Valleys",
+   "sections": [
+    "3.2"
+   ],
+   "image": false,
+   "at": 54,
+   "uses": 1
+  },
+  {
+   "n": 56,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 318,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 55,
+   "uses": 1
+  },
+  {
+   "n": 57,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 28,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 56,
+   "uses": 1
+  },
+  {
+   "n": 58,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 320,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 57,
+   "uses": 1
+  },
+  {
+   "n": 59,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 44,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 58,
+   "uses": 1
+  },
+  {
+   "n": 60,
+   "key": "Chitrari",
+   "short": "Chitrari survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Chitrari (Chamba District)",
+   "role": "",
+   "page": 38,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 59,
+   "uses": 1
+  },
+  {
+   "n": 61,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 24,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 60,
+   "uses": 1
+  },
+  {
+   "n": 62,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 18,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3",
+    "3.4",
+    "4.2",
+    "5",
+    "6.3",
+    "6.6",
+    "6.7"
+   ],
+   "image": true,
+   "at": 61,
+   "uses": 12
+  },
+  {
+   "n": 63,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 367,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 62,
+   "uses": 1
+  },
+  {
+   "n": 64,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 290,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 63,
+   "uses": 1
+  },
+  {
+   "n": 65,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 291,
+   "first": "3.3 Vegetation and Rainfall",
+   "sections": [
+    "3.3"
+   ],
+   "image": false,
+   "at": 64,
+   "uses": 1
+  },
+  {
+   "n": 66,
+   "key": "Kupha",
+   "short": "Kupha survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kupha (Pangi, Chamba District (Kupha, Parmas, Thamoh and Malet))",
+   "role": "",
+   "page": 111,
+   "first": "3.4 Climate and Seasons",
+   "sections": [
+    "3.4"
+   ],
+   "image": false,
+   "at": 65,
+   "uses": 1
+  },
+  {
+   "n": 67,
+   "key": "Tandi",
+   "short": "Tandi survey",
+   "source": "Census of India 1961, Vol. XIII (Punjab), Part VI, Village Survey Monograph: Tandi (Lahaul and Spiti District)",
+   "role": "",
+   "page": 66,
+   "first": "3.4 Climate and Seasons",
+   "sections": [
+    "3.4"
+   ],
+   "image": false,
+   "at": 66,
+   "uses": 1
+  },
+  {
+   "n": 68,
+   "key": "Rose",
+   "short": "Rose, vol. 2",
+   "source": "H. A. Rose, A Glossary of the Tribes and Castes of the Punjab and North-West Frontier Province, vol. 2 (Lahore, 1911)",
+   "role": "",
+   "page": 297,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 67,
+   "uses": 1
+  },
+  {
+   "n": 69,
+   "key": "1931",
+   "short": "1931 census",
+   "source": "Khan Ahmad Hasan Khan, Census of India 1931, Vol. XVII: Punjab, Part I, Report (Lahore, 1933)",
+   "role": "",
+   "page": 142,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 68,
+   "uses": 1
+  },
+  {
+   "n": 70,
+   "key": "Kupha",
+   "short": "Kupha survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kupha (Pangi, Chamba District (Kupha, Parmas, Thamoh and Malet))",
+   "role": "",
+   "page": 113,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1",
+    "5",
+    "6.3",
+    "6.5"
+   ],
+   "image": false,
+   "at": 69,
+   "uses": 4
+  },
+  {
+   "n": 71,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 63,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 70,
+   "uses": 1
+  },
+  {
+   "n": 72,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 85,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 71,
+   "uses": 1
+  },
+  {
+   "n": 73,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 36,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1",
+    "4.4"
+   ],
+   "image": false,
+   "at": 72,
+   "uses": 2
+  },
+  {
+   "n": 74,
+   "key": "Tandi",
+   "short": "Tandi survey",
+   "source": "Census of India 1961, Vol. XIII (Punjab), Part VI, Village Survey Monograph: Tandi (Lahaul and Spiti District)",
+   "role": "",
+   "page": 57,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 73,
+   "uses": 1
+  },
+  {
+   "n": 75,
+   "key": "Chitrari",
+   "short": "Chitrari survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Chitrari (Chamba District)",
+   "role": "",
+   "page": 24,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1",
+    "6.3"
+   ],
+   "image": true,
+   "at": 74,
+   "uses": 2
+  },
+  {
+   "n": 76,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 133,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1",
+    "4.2",
+    "6.6"
+   ],
+   "image": false,
+   "at": 75,
+   "uses": 4
+  },
+  {
+   "n": 77,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 372,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 76,
+   "uses": 1
+  },
+  {
+   "n": 78,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 308,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 77,
+   "uses": 1
+  },
+  {
+   "n": 79,
+   "key": "Atlas",
+   "short": "Punjab Census Atlas",
+   "source": "Atlas",
+   "role": "",
+   "page": 309,
+   "first": "4.1 Movement: Geography and Transport",
+   "sections": [
+    "4.1"
+   ],
+   "image": false,
+   "at": 78,
+   "uses": 1
+  },
+  {
+   "n": 80,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 54,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "4.4"
+   ],
+   "image": false,
+   "at": 79,
+   "uses": 2
+  },
+  {
+   "n": 81,
+   "key": "Nachar",
+   "short": "Nachar survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Nachar (Kinnaur District)",
+   "role": "",
+   "page": 33,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "4.4",
+    "6.7"
+   ],
+   "image": false,
+   "at": 80,
+   "uses": 3
+  },
+  {
+   "n": 82,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 132,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "4.3"
+   ],
+   "image": false,
+   "at": 81,
+   "uses": 2
+  },
+  {
+   "n": 83,
+   "key": "Tandi",
+   "short": "Tandi survey",
+   "source": "Census of India 1961, Vol. XIII (Punjab), Part VI, Village Survey Monograph: Tandi (Lahaul and Spiti District)",
+   "role": "",
+   "page": 65,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "4.4",
+    "6.2",
+    "6.7"
+   ],
+   "image": false,
+   "at": 82,
+   "uses": 4
+  },
+  {
+   "n": 84,
+   "key": "Devi-Kothi",
+   "short": "Devi-Kothi survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Devi-Kothi (Chamba District)",
+   "role": "",
+   "page": 48,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "6.2"
+   ],
+   "image": false,
+   "at": 83,
+   "uses": 4
+  },
+  {
+   "n": 85,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 37,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "6.3",
+    "6.5",
+    "6.6",
+    "6.7",
+    "7"
+   ],
+   "image": false,
+   "at": 84,
+   "uses": 7
+  },
+  {
+   "n": 86,
+   "key": "Chitrari",
+   "short": "Chitrari survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Chitrari (Chamba District)",
+   "role": "",
+   "page": 23,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "6.2",
+    "6.3"
+   ],
+   "image": false,
+   "at": 85,
+   "uses": 3
+  },
+  {
+   "n": 87,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 46,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "6.3",
+    "6.7"
+   ],
+   "image": false,
+   "at": 86,
+   "uses": 3
+  },
+  {
+   "n": 88,
+   "key": "Devi-Kothi",
+   "short": "Devi-Kothi survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Devi-Kothi (Chamba District)",
+   "role": "",
+   "page": 47,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "6.3"
+   ],
+   "image": true,
+   "at": 87,
+   "uses": 3
+  },
+  {
+   "n": 89,
+   "key": "Devi-Kothi",
+   "short": "Devi-Kothi survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Devi-Kothi (Chamba District)",
+   "role": "",
+   "page": 49,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "6.3"
+   ],
+   "image": true,
+   "at": 88,
+   "uses": 2
+  },
+  {
+   "n": 90,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 38,
+   "first": "4.2 Flocks: Ownership, Labour and Grazing Rights",
+   "sections": [
+    "4.2",
+    "5",
+    "7"
+   ],
+   "image": true,
+   "at": 89,
+   "uses": 3
+  },
+  {
+   "n": 91,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 59,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3",
+    "6.5"
+   ],
+   "image": false,
+   "at": 90,
+   "uses": 2
+  },
+  {
+   "n": 92,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 131,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 91,
+   "uses": 1
+  },
+  {
+   "n": 93,
+   "key": "Mahasu",
+   "short": "Mahasu handbook",
+   "source": "Census of India 1961, Himachal Pradesh, District Census Handbook: Mahasu",
+   "role": "",
+   "page": 56,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 92,
+   "uses": 1
+  },
+  {
+   "n": 94,
+   "key": "Mahasu",
+   "short": "Mahasu handbook",
+   "source": "Census of India 1961, Himachal Pradesh, District Census Handbook: Mahasu",
+   "role": "",
+   "page": 4,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 93,
+   "uses": 1
+  },
+  {
+   "n": 95,
+   "key": "Rose Vol1",
+   "short": "Rose, vol. 1",
+   "source": "H. A. Rose, A Glossary of the Tribes and Castes of the Punjab and North-West Frontier Province, vol. 1 (Lahore, 1919)",
+   "role": "",
+   "page": 523,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 94,
+   "uses": 1
+  },
+  {
+   "n": 96,
+   "key": "Bir",
+   "short": "Bir survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Bir (Mandi District)",
+   "role": "",
+   "page": 43,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 95,
+   "uses": 1
+  },
+  {
+   "n": 97,
+   "key": "Batal",
+   "short": "Batal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Batal (Arki tahsil, Mahasu District)",
+   "role": "",
+   "page": 46,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 96,
+   "uses": 1
+  },
+  {
+   "n": 98,
+   "key": "Weaving",
+   "short": "Weaving survey",
+   "source": "Census of India 1961, Himachal Pradesh, Craft Survey: Weaving",
+   "role": "",
+   "page": 16,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 97,
+   "uses": 1
+  },
+  {
+   "n": 99,
+   "key": "Chergaon",
+   "short": "Chergaon survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Chergaon (Rohru tahsil, Mahasu District)",
+   "role": "",
+   "page": 61,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 98,
+   "uses": 1
+  },
+  {
+   "n": 100,
+   "key": "Maingal",
+   "short": "Maingal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Maingal (Chamba District)",
+   "role": "",
+   "page": 42,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3",
+    "6.3",
+    "6.7"
+   ],
+   "image": false,
+   "at": 99,
+   "uses": 3
+  },
+  {
+   "n": 101,
+   "key": "Maingal",
+   "short": "Maingal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Maingal (Chamba District)",
+   "role": "",
+   "page": 60,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3",
+    "6.3",
+    "6.7"
+   ],
+   "image": false,
+   "at": 100,
+   "uses": 4
+  },
+  {
+   "n": 102,
+   "key": "Maingal",
+   "short": "Maingal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Maingal (Chamba District)",
+   "role": "",
+   "page": 61,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 101,
+   "uses": 1
+  },
+  {
+   "n": 103,
+   "key": "Devi-Kothi",
+   "short": "Devi-Kothi survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Devi-Kothi (Chamba District)",
+   "role": "",
+   "page": 53,
+   "first": "4.3 Trade and Commerce",
+   "sections": [
+    "4.3"
+   ],
+   "image": false,
+   "at": 102,
+   "uses": 1
+  },
+  {
+   "n": 104,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 79,
+   "first": "4.4 Social Structure: Family Units, Caste, Customs and Traditions",
+   "sections": [
+    "4.4"
+   ],
+   "image": false,
+   "at": 103,
+   "uses": 1
+  },
+  {
+   "n": 105,
+   "key": "Maingal",
+   "short": "Maingal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Maingal (Chamba District)",
+   "role": "",
+   "page": 38,
+   "first": "4.4 Social Structure: Family Units, Caste, Customs and Traditions",
+   "sections": [
+    "4.4"
+   ],
+   "image": false,
+   "at": 104,
+   "uses": 2
+  },
+  {
+   "n": 106,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 53,
+   "first": "4.4 Social Structure: Family Units, Caste, Customs and Traditions",
+   "sections": [
+    "4.4",
+    "6.3"
+   ],
+   "image": false,
+   "at": 105,
+   "uses": 2
+  },
+  {
+   "n": 107,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 82,
+   "first": "4.4 Social Structure: Family Units, Caste, Customs and Traditions",
+   "sections": [
+    "4.4"
+   ],
+   "image": false,
+   "at": 106,
+   "uses": 1
+  },
+  {
+   "n": 108,
+   "key": "1931",
+   "short": "1931 census",
+   "source": "Khan Ahmad Hasan Khan, Census of India 1931, Vol. XVII: Punjab, Part I, Report (Lahore, 1933)",
+   "role": "",
+   "page": 24,
+   "first": "4.4 Social Structure: Family Units, Caste, Customs and Traditions",
+   "sections": [
+    "4.4"
+   ],
+   "image": false,
+   "at": 107,
+   "uses": 1
+  },
+  {
+   "n": 109,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 15,
+   "first": "5 Political Events",
+   "sections": [
+    "5"
+   ],
+   "image": false,
+   "at": 108,
+   "uses": 1
+  },
+  {
+   "n": 110,
+   "key": "Kanum",
+   "short": "Kanum survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kanum (Kinnaur District)",
+   "role": "",
+   "page": 51,
+   "first": "5 Political Events",
+   "sections": [
+    "5",
+    "6.3",
+    "6.5",
+    "7"
+   ],
+   "image": false,
+   "at": 109,
+   "uses": 4
+  },
+  {
+   "n": 111,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 87,
+   "first": "6.1 Three Clocks over One Valley",
+   "sections": [
+    "6.1"
+   ],
+   "image": false,
+   "at": 110,
+   "uses": 1
+  },
+  {
+   "n": 112,
+   "key": "Newell",
+   "short": "Newell",
+   "source": "W. H. Newell, 'The Gaddi and Affiliated Castes of the Western Himalayas', in Census of India 1961, Report on Scheduled Castes and Scheduled Tribes of Himachal Pradesh",
+   "role": "",
+   "page": 14,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 111,
+   "uses": 1
+  },
+  {
+   "n": 113,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 3,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 112,
+   "uses": 1
+  },
+  {
+   "n": 114,
+   "key": "Devi-Kothi",
+   "short": "Devi-Kothi survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Devi-Kothi (Chamba District)",
+   "role": "",
+   "page": 5,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 113,
+   "uses": 1
+  },
+  {
+   "n": 115,
+   "key": "Kupha",
+   "short": "Kupha survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Kupha (Pangi, Chamba District (Kupha, Parmas, Thamoh and Malet))",
+   "role": "",
+   "page": 136,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 114,
+   "uses": 1
+  },
+  {
+   "n": 116,
+   "key": "Brahmaur",
+   "short": "Brahmaur survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Brahmaur (Chamba District)",
+   "role": "",
+   "page": 45,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3",
+    "6.7"
+   ],
+   "image": false,
+   "at": 115,
+   "uses": 2
+  },
+  {
+   "n": 117,
+   "key": "Maingal",
+   "short": "Maingal survey",
+   "source": "Census of India 1961, Vol. XX (Himachal Pradesh), Part VI, Village Survey Monograph: Maingal (Chamba District)",
+   "role": "",
+   "page": 48,
+   "first": "6.3 Each Conjuncture Has Its Material Basis and Its Contradiction",
+   "sections": [
+    "6.3"
+   ],
+   "image": false,
+   "at": 116,
+   "uses": 1
+  }
+ ],
+ "pages": 117,
+ "located": 133,
+ "missed": 3,
+ "ocr_sources": []
+}
