@@ -1,0 +1,247 @@
+bloch-craft:
+  type: book
+  title: The Historian’s Craft
+  author: Bloch, Marc
+  affiliated:
+    - role: translator
+      names: Putnam, Peter
+  publisher: Vintage
+  date: 1953
+
+braudel-longue-duree:
+  type: article
+  title:
+    value: "History and the Social Sciences: The Longue Durée"
+    short: The Longue Durée
+  author: Braudel, Fernand
+  affiliated:
+    - role: translator
+      names: Wallerstein, Immanuel
+  date: 2009
+  page-range: 171-203
+  parent:
+    type: periodical
+    title: Review (Fernand Braudel Center)
+    volume: 32
+    issue: 2
+
+leroyladurie-rain:
+  type: chapter
+  title: The History of Rain and Fine Weather
+  author:
+    name: Le Roy Ladurie
+    given-name: Emmanuel
+  page-range: 192-214
+  parent:
+    type: book
+    title: "French Studies in History, Vol. 1: The Inheritance"
+
+ibbetson1881:
+  type: report
+  title: Report on the Census of the Panjab, 1881
+  author: Ibbetson, Denzil
+  publisher: Superintendent of Government Printing
+  date: 1883
+
+rose2:
+  type: book
+  title:
+    value: A Glossary of the Tribes and Castes of the Punjab and North-West Frontier Province
+    short: Glossary
+  author: Rose, H. A.
+  volume: 2
+  publisher: Civil and Military Gazette Press
+  date: 1911
+
+atlas1961:
+  type: book
+  title: Punjab Census Atlas
+  author: Anand, R. L.
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XIII, Punjab, Part IX
+
+newell1961:
+  type: book
+  title:
+    value: "Report on Scheduled Castes and Scheduled Tribes: A Study of Gaddi Scheduled Tribe and Affiliated Castes"
+    short: Gaddi Scheduled Tribe
+  author: Newell, William H.
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part V-B
+
+brahmaur1961:
+  type: book
+  title:
+    value: "A Village Survey of Brahmaur: Brahmaur Sub-Tehsil, Chamba District"
+    short: Brahmaur
+  author: ["Kapur, Dharam Pal", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 5
+
+chaupal1961:
+  type: book
+  title:
+    value: "A Village Survey of Chaupal: Chaupal Tehsil, Mahasu District"
+    short: Chaupal
+  author: ["Gupta, Mohan Lal", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI
+
+chitrari1961:
+  type: book
+  title:
+    value: "A Village Survey of Chitrari: Chamba Tehsil, Chamba District"
+    short: Chitrari
+  author: ["Gupta, Ishwar Dayal", "Kumar, Chandra", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 10
+
+kanum1961:
+  type: book
+  title:
+    value: "A Village Survey of Kanum: Poo Sub-Division, Kinnaur District"
+    short: Kanum
+  author: ["Sharma, Chuni Lal", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 12
+
+kothi1961:
+  type: book
+  title:
+    value: "A Village Survey of Kothi: Kalpa Sub-Division, District Kinnaur"
+    short: Kothi
+  author: Kumar, Chandra
+  editor: Singh, Ram Chandra Pal
+  publisher: Manager of Publications
+  date: 1963
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 1
+
+kupha1961:
+  type: book
+  title:
+    value: "A Village Survey of Kupha, Parmas, Thamoh and Malet: Pangi, Chamba District"
+    short: Kupha
+  author: ["Bhatnager, Surender Mohan", "Sud, Tarlok Chand"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI
+
+maingal1961:
+  type: book
+  title:
+    value: "A Village Survey of Maingal: Chamba Tehsil, Chamba District"
+    short: Maingal
+  author: ["Sharma, Chuni Lal", "Gupta, Mohan Lal", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 27
+
+shakrori1961:
+  type: book
+  title:
+    value: "A Village Survey of Shakrori: Seoni Sub-Tehsil, Mahasu District"
+    short: Shakrori
+  author: Mohan, Jag
+  editor: Singh, Ram Chandra Pal
+  publisher: Manager of Publications
+  date: 1963
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 2
+
+tandi1961:
+  type: book
+  title:
+    value: "Tandi: A Village in Lahaul and Spiti District of Punjab State"
+    short: Tandi
+  publisher: Manager of Publications
+  date: 1963
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XIII, Punjab, Part VI, No. 1
+
+census1931:
+  type: book
+  title:
+    value: "Census of India, 1931, Vol. XVII: Punjab, Part I, Report"
+    short: Census of India, 1931
+  author: Khan, Khan Ahmad Hasan
+  publisher: Civil and Military Gazette Press
+  date: 1933
+
+weaving1961:
+  type: book
+  title:
+    value: "The Art of Weaving: Rural Craft Survey"
+    short: The Art of Weaving
+  author: Sharma, Lakshmi Chand
+  editor: Singh, Ram Chandra Pal
+  publisher: Manager of Publications
+  date: 1968
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VII-A, No. 2
+
+mahasu1961:
+  type: book
+  title:
+    value: "District Census Handbook: Mahasu"
+    short: Mahasu
+  author: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Himachal Pradesh
+
+bir1961:
+  type: book
+  title:
+    value: "A Village Survey of Bir: Mandi Sadar Tehsil, Mandi District"
+    short: Bir
+  author: ["Kapur, Dharam Pal", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 25
+
+devikothi1961:
+  type: book
+  title:
+    value: "A Village Survey of Devi-Kothi: Churah Tehsil, Chamba District"
+    short: Devi-Kothi
+  author: ["Sud, Tarlok Chand", "Bhatnager, Surender Mohan"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI, No. 4
+
+nachar1961:
+  type: book
+  title:
+    value: "A Village Survey of Nachar: Nachar Sub-Division, Kinnaur District"
+    short: Nachar
+  author: ["Kumar, Chandra", "Sharma, Rikhi Ram"]
+  editor: Singh, Ram Chandra Pal
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh, Part VI
+
+specialtables1961:
+  type: book
+  title: Special Tables on Scheduled Castes and Scheduled Tribes, Himachal Pradesh
+  parent:
+    type: book
+    title: Census of India 1961, Vol. XX, Himachal Pradesh
