@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info>
+    <title>Short Title</title>
+    <id>short-title</id>
+    <updated>2026-11-07T00:00:00+00:00</updated>
+  </info>
+  <citation>
+    <layout>
+      <text variable="title" form="short"/>
+      <group prefix=", Vol. ">
+        <text variable="volume"/>
+      </group>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <text variable="title"/>
+    </layout>
+  </bibliography>
+</style>
